@@ -1,4 +1,4 @@
-https://www.google.com/webhp?client=android-chrome-mobile status](https://github.com/git/android-chrome-mobile
+https://www.google.com/webhp?client=android-chrome-mobile status](https://github.com/?gitandroid-chrome-mobile
 
 Git - fast, scalable, distributed revision control system
 =========================================================
