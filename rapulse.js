@@ -14,3 +14,4 @@ async function checkNetwork() {
   }
 }
 checkNetwork();
+// TODO: Optimizar bucle de red para ARM
