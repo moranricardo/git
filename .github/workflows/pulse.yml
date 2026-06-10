@@ -1,0 +1,39 @@
+name: Ra Pulse - Auditoria Gerrit
+
+on:
+  schedule:
+    # Se ejecutará automáticamente todos los días a las 00:00 UTC (El ciclo de Ra)
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # Te permite activar el script manualmente desde la web de GitHub cuando quieras
+
+jobs:
+  auditar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Permiso explícito para que el bot pueda modificar gerrit-state.json
+
+    steps:
+      - name: 📥 Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: 🟢 Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: ⚡ Ejecutar Auditoria Inteligente
+        run: node rapulse.js
+
+      - name: 💾 Guardar Estado en la Nube
+        run: |
+          # Configurar la identidad temporal del bot de GitHub
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Forzamos la adición del JSON en la nube ignorando el .gitignore local
+          git add -f gerrit-state.json
+          
+          # Consolidar el nuevo estado. Si no hay cambios, no rompe el flujo.
+          git commit -m "chore: actualizar estado de telemetria [skip ci]" || echo "Sin cambios detectados en Gerrit."
+          git push
