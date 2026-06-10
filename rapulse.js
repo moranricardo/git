@@ -1,9 +1,39 @@
 import { execSync } from 'child_process';
-import { writeFileSync, existsSync, readFileSync } from 'fs';
+import fs from 'fs';
 
-// 1. Radio de Saneamiento: Filtro anti-XSS de Gerrit
 function cleanGerritResponse(rawText) {
     return rawText.replace(/^\)\]\}'/, '').trim();
+}
+
+// --- GENERADOR DE HUELLA ANÓNIMA INTELIGENTE ---
+function obtenerCabecerasAnonimas() {
+    // Versiones realistas de Chrome Mobile para simular rotación menor dentro de la firma base
+    const versionesChrome = ['124.0.0.0', '125.0.0.0', '126.0.0.0'];
+    const chromeVersion = versionesChrome[Math.floor(Math.random() * versionesChrome.length)];
+    
+    return {
+        // Huella de Identificación Base (Chrome Mobile - Español Latinoamericano)
+        'User-Agent': `Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/${chromeVersion} Mobile Safari/537.36`,
+        'Accept-Language': 'es-419,es;q=0.9,en;q=0.8',
+        
+        // Cabeceras de Control de Privacidad y Anonimato (Anti-Tracking)
+        'DNT': '1',                                      // Do Not Track activo
+        'Sec-GPC': '1',                                  // Global Privacy Control activo
+        'Cache-Control': 'no-cache',
+        'Pragma': 'no-cache',
+        
+        // Cabeceras de Negociación Estándar de Chrome Moderno
+        'Accept': 'application/json, text/plain, */*',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Sec-Fetch-Site': 'same-site',
+        'Sec-Fetch-Mode': 'cors',
+        'Sec-Fetch-Dest': 'empty',
+        
+        // Estructura Anti-Fingerprinting (Emulación de Arquitectura de Cliente de Chrome)
+        'Sec-CH-UA': `"Not/A)Brand";v="8", "Chromium";v="${chromeVersion.split('.')[0]}", "Google Chrome";v="${chromeVersion.split('.')[0]}"`,
+        'Sec-CH-UA-Mobile': '?1',
+        'Sec-CH-UA-Platform': '"Android"'
+    };
 }
 
 async function mostrarDashboard() {
@@ -11,82 +41,64 @@ async function mostrarDashboard() {
     console.log("   DASHBOARD DE MONITOREO DE PROYECTO   ");
     console.log("========================================\n");
 
-    // BLOCK 1: Escaneo Local y Sincronización en la Nube
-    console.log("--- ESTADO EN SERVIDOR GITHUB ---");
-    try {
-        const gitStatus = execSync('git status --short').toString();
-        console.log(gitStatus || "Todo limpio (Entorno de Actions impecable)");
-    } catch (e) {
-        console.log("Error al verificar estado local o repositorio Git no inicializado.");
-    }
-
-    // BLOCK 2: Escaneo Remoto y Detección de Deltas (Gerrit LineageOS)
-    console.log("\n--- AUDITORÍA INTELIGENTE DE GERRIT (KERNEL/BUILD) ---");
     const url = 'https://review.lineageos.org/changes/?q=status:open';
-    const archivoEstado = 'gerrit-state.json';
-    
     try {
-        const response = await fetch(url);
+        // Inyección de la huella a través del objeto de configuración de fetch
+        const response = await fetch(url, {
+            method: 'GET',
+            headers: obtenerCabecerasAnonimas(),
+            keepalive: true // Mantiene la conexión eficiente sin re-negociar TLS constantemente
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
         const rawText = await response.text();
         const cleanData = cleanGerritResponse(rawText);
         const changes = JSON.parse(cleanData);
 
-        // Filtrado por el criterio de interés del Núcleo
-        const actuales = changes.filter(change => {
-            const proj = change.project.toLowerCase();
-            return proj.includes('kernel') || proj.includes('build');
+        // --- ESTRUCTURA 1: FILTRADO AVANZADO ---
+        const palabrasCriticas = ['fix', 'security', 'stable', 'vulnerability', 'panic', 'err'];
+        const parchesCriticos = [];
+        const parchesMotorola = [];
+
+        changes.forEach(change => {
+            if (!change.project || !change.subject) return;
+
+            const proyecto = change.project.split('/').pop().toLowerCase();
+            const asunto = change.subject.toLowerCase();
+
+            if (proyecto.includes('motorola')) {
+                parchesMotorola.push(change);
+            }
+            else if (palabrasCriticas.some(palabra => asunto.includes(palabra))) {
+                parchesCriticos.push(change);
+            }
         });
 
-        // Cargar base de datos de telemetría (historial previo)
-        let idsPrevios = new Set();
-        if (existsSync(archivoEstado)) {
-            try {
-                const contenidoPrevio = JSON.parse(readFileSync(archivoEstado, 'utf-8'));
-                if (contenidoPrevio.cambios) {
-                    idsPrevios = new Set(contenidoPrevio.cambios.map(c => c._number));
-                }
-            } catch (e) {
-                console.log("⚠️ Archivo de estado previo corrupto. Reindexando...");
-            }
-        }
-
-        // Encontrar nuevos deltas desde la última ejecución
-        const nuevosCambios = actuales.filter(c => !idsPrevios.has(c._number));
-
-        console.log(`• Monitoreando un total de [${actuales.length}] proyectos de Kernel/Build.`);
+        // --- ESTRUCTURA 2: GENERADOR DE REPORTE (README.md) ---
+        let markdown = `# ⚡ Ra Pulse - Telemetría de Kernels\n\n`;
+        markdown += `*Última actualización automatizada: ${new Date().toISOString()}*\n\n`;
         
-        if (nuevosCambios.length > 0) {
-            console.log(`\n🚨 ¡ALERTA! SE DETECTARON ${nuevosCambios.length} NUEVAS ACTIVIDADES:`);
-            console.log("----------------------------------------");
-            // Mostramos los primeros 5 deltas más nuevos para no saturar la pantalla
-            nuevosCambios.slice(0, 5).forEach(c => {
-                console.log(`🆕 [${c.project.split('/').pop()}] ${c.subject} (ID: ${c._number})`);
-            });
-            if (nuevosCambios.length > 5) console.log(`... y ${nuevosCambios.length - 5} cambios más.`);
-            console.log("----------------------------------------");
-        } else {
-            console.log("\n✅ Todo está en orden. No hay cambios nuevos en el horizonte.");
-            
-            // Vista rápida del Top 3 de la cola general si no hay novedades
-            console.log("\nÚltimos parches en revisión activa:");
-            actuales.slice(0, 3).forEach(c => {
-                console.log(`• [${c.project.split('/').pop()}] ${c.subject}`);
-            });
-        }
+        markdown += `## 🚨 Parches Críticos Detectados (${parchesCriticos.length})\n`;
+        if (parchesCriticos.length === 0) markdown += `*No se detectaron anomalías críticas en el horizonte.*\n`;
+        parchesCriticos.slice(0, 10).forEach(c => {
+            markdown += `- **[${c.project.split('/').pop()}]** ${c.subject} *(ID: [${c._number}](https://review.lineageos.org/c/${c._number}))*\n`;
+        });
 
-        // Actualizar el registro del Maat (guardar estado actual)
-        const reporte = {
-            timestamp: new Date().toISOString(),
-            total_detectado: actuales.length,
-            cambios: actuales
-        };
-        writeFileSync(archivoEstado, JSON.stringify(reporte, null, 2));
+        markdown += `\n## 📱 Línea Motorola Activa (${parchesMotorola.length})\n`;
+        if (parchesMotorola.length === 0) markdown += `*Sin actividad reciente en ramas de Motorola.*\n`;
+        parchesMotorola.slice(0, 10).forEach(c => {
+            markdown += `- **[${c.project.split('/').pop()}]** ${c.subject} *(ID: [${c._number}](https://review.lineageos.org/c/${c._number}))*\n`;
+        });
+
+        fs.writeFileSync('README.md', markdown);
+        console.log("💾 Huella enmascarada. Estructuras ejecutadas y 'README.md' actualizado.");
 
     } catch (error) {
-        console.log("❌ Error al consultar o parsear Gerrit:", error.message);
+        console.log("Error en la ejecución de las estructuras:", error.message);
     }
-    
-    console.log("\n========================================");
 }
 
 mostrarDashboard();
