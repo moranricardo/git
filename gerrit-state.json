@@ -1,5 +1,131 @@
 [
   {
+    "id": "LineageOS%2Flineage_wiki~494637",
+    "triplet_id": "LineageOS%2Flineage_wiki~main~I771b4ba4ea8d26eb42d78e13d0dc5de218e53247",
+    "project": "LineageOS/lineage_wiki",
+    "branch": "main",
+    "attention_set": {
+      "7118": {
+        "account": {
+          "_account_id": 7118
+        },
+        "last_update": "2026-07-27 10:42:50.000000000",
+        "reason": "Someone else replied on the change"
+      },
+      "10067": {
+        "account": {
+          "_account_id": 10067
+        },
+        "last_update": "2026-07-27 10:49:14.000000000",
+        "reason": "Someone else replied on the change"
+      }
+    },
+    "removed_from_attention_set": {
+      "33137": {
+        "account": {
+          "_account_id": 33137
+        },
+        "last_update": "2026-07-27 10:49:14.000000000",
+        "reason": "removed on reply"
+      }
+    },
+    "hashtags": [],
+    "change_id": "I771b4ba4ea8d26eb42d78e13d0dc5de218e53247",
+    "subject": "wiki: Fix broken links when viewing preview",
+    "status": "NEW",
+    "created": "2026-07-26 05:22:26.000000000",
+    "updated": "2026-07-27 10:49:14.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 9,
+    "deletions": 7,
+    "total_comment_count": 4,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "954019e1bc7998f6a12ad5bf695bbb74988a876f",
+    "_number": 494637,
+    "virtual_id_number": 494637,
+    "owner": {
+      "_account_id": 7118
+    },
+    "current_revision_number": 8,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33137
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_sony_pdx245~494710",
+    "triplet_id": "LineageOS%2Fandroid_device_sony_pdx245~lineage-23.2~I05f66e17fcaa87acd1554107941da89a0614710e",
+    "project": "LineageOS/android_device_sony_pdx245",
+    "branch": "lineage-23.2",
+    "hashtags": [],
+    "change_id": "I05f66e17fcaa87acd1554107941da89a0614710e",
+    "subject": "pdx245: Add XQ-EC72 model for board-info",
+    "status": "NEW",
+    "created": "2026-07-27 10:23:23.000000000",
+    "updated": "2026-07-27 10:24:18.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 1,
+    "deletions": 1,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "9c7664eca78716d09b5587b4bb63571252e5e9b2",
+    "_number": 494710,
+    "virtual_id_number": 494710,
+    "owner": {
+      "_account_id": 36773
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "OK",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 36773
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 36773
+            }
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "LineageOS%2Fandroid_frameworks_base~491263",
     "triplet_id": "LineageOS%2Fandroid_frameworks_base~lineage-24.0~I7aa405e7f5a2f70e6cf2b6156a29d220617e4ae5",
     "project": "LineageOS/android_frameworks_base",
@@ -112,82 +238,6 @@
           {
             "label": "CI",
             "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Flineage_wiki~494637",
-    "triplet_id": "LineageOS%2Flineage_wiki~main~I771b4ba4ea8d26eb42d78e13d0dc5de218e53247",
-    "project": "LineageOS/lineage_wiki",
-    "branch": "main",
-    "attention_set": {},
-    "removed_from_attention_set": {
-      "7118": {
-        "account": {
-          "_account_id": 7118
-        },
-        "last_update": "2026-07-27 04:30:46.000000000",
-        "reason": "<GERRIT_ACCOUNT_7118> replied on the change",
-        "reason_account": {
-          "_account_id": 7118
-        }
-      },
-      "10067": {
-        "account": {
-          "_account_id": 10067
-        },
-        "last_update": "2026-07-27 02:21:22.000000000",
-        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
-      },
-      "33137": {
-        "account": {
-          "_account_id": 33137
-        },
-        "last_update": "2026-07-27 04:16:06.000000000",
-        "reason": "removed on reply"
-      }
-    },
-    "hashtags": [],
-    "change_id": "I771b4ba4ea8d26eb42d78e13d0dc5de218e53247",
-    "subject": "wiki: Fix broken links when viewing preview",
-    "status": "NEW",
-    "created": "2026-07-26 05:22:26.000000000",
-    "updated": "2026-07-27 04:30:46.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 6,
-    "deletions": 6,
-    "total_comment_count": 3,
-    "unresolved_comment_count": 1,
-    "has_review_started": true,
-    "meta_rev_id": "ab02b85aa69125040744f231d059f96bd13869eb",
-    "_number": 494637,
-    "virtual_id_number": 494637,
-    "owner": {
-      "_account_id": 7118
-    },
-    "current_revision_number": 5,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY",
-            "applied_by": {
-              "_account_id": 33137
-            }
           }
         ]
       }
@@ -26976,52 +27026,6 @@
     "meta_rev_id": "63c53f273d85821911955308961feb8dec974038",
     "_number": 494339,
     "virtual_id_number": 494339,
-    "owner": {
-      "_account_id": 32253
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_sm8350-common~494338",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_sm8350-common~lineage-23.2~Iab61bd12499968e8823b3078acd1c7b8bce46136",
-    "project": "LineageOS/android_device_xiaomi_sm8350-common",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Iab61bd12499968e8823b3078acd1c7b8bce46136",
-    "subject": "sm8350-common: Enable support for IEEE80211AX",
-    "status": "NEW",
-    "created": "2026-07-20 13:21:51.000000000",
-    "updated": "2026-07-20 13:21:51.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 1,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "bf6eb452e8095944cbf7d14635922a0b13b93079",
-    "_number": 494338,
-    "virtual_id_number": 494338,
     "owner": {
       "_account_id": 32253
     },
