@@ -1,6 +1,6 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-*Última actualización automatizada: 2026-07-27T17:59:59.779Z*
+*Última actualización automatizada: 2026-07-27T19:00:01.342Z*
 
 ## 🚨 Parches Críticos Detectados (55)
 - **[android_device_xiaomi_haydn]** haydn: Drop unused `lib_fixup_remove` import *(ID: [494727](https://review.lineageos.org/c/494727))*
@@ -15,6 +15,7 @@
 - **[android_device_nubia_sdm845-common]** sdm845-common: Panic to recovery, not bootloader *(ID: [494586](https://review.lineageos.org/c/494586))*
 
 ## 📱 Línea Motorola Activa (99)
+- **[android_device_motorola_sm8550-common]** sm8550-common: Allow devices to set recovery partition size *(ID: [494741](https://review.lineageos.org/c/494741))*
 - **[android_device_motorola_sm8550-common]** sm8550-common: Drop embmssl blobs *(ID: [494755](https://review.lineageos.org/c/494755))*
 - **[android_device_motorola_sm8550-common]** sm8550-common: Switch vendor and vendor_dlkm partitions from ext4 to EROFS *(ID: [494754](https://review.lineageos.org/c/494754))*
 - **[android_device_motorola_sm8550-common]** sm8550-common: Add property to prefer hw codecs in thumbnail *(ID: [494753](https://review.lineageos.org/c/494753))*
@@ -24,4 +25,3 @@
 - **[android_device_motorola_sm8550-common]** sm8550-common: Add firmware class path to the cmdline *(ID: [494749](https://review.lineageos.org/c/494749))*
 - **[android_device_motorola_sm8550-common]** fixup! sm8550-common: Remove QTI perfd *(ID: [494748](https://review.lineageos.org/c/494748))*
 - **[android_device_motorola_sm8550-common]** sm8550-common: Reformat blob_fixups *(ID: [494747](https://review.lineageos.org/c/494747))*
-- **[android_device_motorola_sm8550-common]** sm8550-common: Nuke ATFWD *(ID: [494746](https://review.lineageos.org/c/494746))*

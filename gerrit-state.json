@@ -1,26 +1,273 @@
 [
   {
+    "id": "LineageOS%2Fandroid_bootable_recovery~494712",
+    "triplet_id": "LineageOS%2Fandroid_bootable_recovery~lineage-24.0~If270a6e2b891afccfab2af5b85069a99f5f12d5e",
+    "project": "LineageOS/android_bootable_recovery",
+    "branch": "lineage-24.0",
+    "hashtags": [],
+    "change_id": "If270a6e2b891afccfab2af5b85069a99f5f12d5e",
+    "subject": "recovery_ui: Add screenshot shortcut",
+    "status": "NEW",
+    "created": "2026-07-27 12:07:59.000000000",
+    "updated": "2026-07-27 18:41:38.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 108,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "504bf746478d27b7c3bbe3e44f1818c5ec837a4f",
+    "_number": 494712,
+    "virtual_id_number": 494712,
+    "owner": {
+      "_account_id": 10067
+    },
+    "current_revision_number": 3,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "LineageOS%2Fandroid_kernel_xiaomi_msm8937~494756",
     "triplet_id": "LineageOS%2Fandroid_kernel_xiaomi_msm8937~lineage-23.2~Ic856912349890184f00998341e55e209871144a1",
     "project": "LineageOS/android_kernel_xiaomi_msm8937",
     "branch": "lineage-23.2",
+    "attention_set": {
+      "19979": {
+        "account": {
+          "_account_id": 19979
+        },
+        "last_update": "2026-07-27 18:07:30.000000000",
+        "reason": "<GERRIT_ACCOUNT_37411> replied on the change",
+        "reason_account": {
+          "_account_id": 37411
+        }
+      },
+      "32245": {
+        "account": {
+          "_account_id": 32245
+        },
+        "last_update": "2026-07-27 18:09:03.000000000",
+        "reason": "<GERRIT_ACCOUNT_37411> replied on the change",
+        "reason_account": {
+          "_account_id": 37411
+        }
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-27 18:07:30.000000000",
+        "reason": "<GERRIT_ACCOUNT_37411> replied on the change",
+        "reason_account": {
+          "_account_id": 37411
+        }
+      },
+      "33800": {
+        "account": {
+          "_account_id": 33800
+        },
+        "last_update": "2026-07-27 18:07:30.000000000",
+        "reason": "<GERRIT_ACCOUNT_37411> replied on the change",
+        "reason_account": {
+          "_account_id": 37411
+        }
+      }
+    },
+    "removed_from_attention_set": {},
     "hashtags": [],
     "change_id": "Ic856912349890184f00998341e55e209871144a1",
     "subject": "BACKPORT: mm/memfd: add MFD_NOEXEC_SEAL and MFD_EXEC support",
     "status": "NEW",
     "created": "2026-07-27 17:57:54.000000000",
-    "updated": "2026-07-27 17:57:54.000000000",
+    "updated": "2026-07-27 18:09:03.000000000",
     "submit_type": "REBASE_IF_NECESSARY",
     "insertions": 141,
     "deletions": 4,
     "total_comment_count": 0,
     "unresolved_comment_count": 0,
     "has_review_started": true,
-    "meta_rev_id": "73c2cccc98ff253e7b405e3696eeb3118a24d5b7",
+    "meta_rev_id": "fe91b62707207b78309c7110196f52dee4dc83dd",
     "_number": 494756,
     "virtual_id_number": 494756,
     "owner": {
       "_account_id": 37411
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_kernel_xiaomi_msm8937~494739",
+    "triplet_id": "LineageOS%2Fandroid_kernel_xiaomi_msm8937~lineage-23.2~Ia6da4621cf9305f207b88426e2642eb555661e4a",
+    "project": "LineageOS/android_kernel_xiaomi_msm8937",
+    "branch": "lineage-23.2",
+    "attention_set": {
+      "19979": {
+        "account": {
+          "_account_id": 19979
+        },
+        "last_update": "2026-07-27 18:06:30.000000000",
+        "reason": "<GERRIT_ACCOUNT_37411> replied on the change",
+        "reason_account": {
+          "_account_id": 37411
+        }
+      },
+      "32034": {
+        "account": {
+          "_account_id": 32034
+        },
+        "last_update": "2026-07-27 18:06:30.000000000",
+        "reason": "<GERRIT_ACCOUNT_37411> replied on the change",
+        "reason_account": {
+          "_account_id": 37411
+        }
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-27 18:06:30.000000000",
+        "reason": "<GERRIT_ACCOUNT_37411> replied on the change",
+        "reason_account": {
+          "_account_id": 37411
+        }
+      },
+      "33800": {
+        "account": {
+          "_account_id": 33800
+        },
+        "last_update": "2026-07-27 18:06:30.000000000",
+        "reason": "<GERRIT_ACCOUNT_37411> replied on the change",
+        "reason_account": {
+          "_account_id": 37411
+        }
+      },
+      "34512": {
+        "account": {
+          "_account_id": 34512
+        },
+        "last_update": "2026-07-27 18:06:30.000000000",
+        "reason": "<GERRIT_ACCOUNT_37411> replied on the change",
+        "reason_account": {
+          "_account_id": 37411
+        }
+      }
+    },
+    "removed_from_attention_set": {},
+    "hashtags": [],
+    "change_id": "Ia6da4621cf9305f207b88426e2642eb555661e4a",
+    "subject": "fs/overlayfs: add complete support for volatile mount option.",
+    "status": "NEW",
+    "created": "2026-07-27 17:01:06.000000000",
+    "updated": "2026-07-27 18:06:30.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 24,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "c0364982a1a3ec047de8d79d58e265242f6a20d2",
+    "_number": 494739,
+    "virtual_id_number": 494739,
+    "owner": {
+      "_account_id": 37411
+    },
+    "current_revision_number": 3,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_motorola_sm8550-common~494741",
+    "triplet_id": "LineageOS%2Fandroid_device_motorola_sm8550-common~lineage-23.2~If298b18fa55ae0495d84aa90e38c0d83bc21d05c",
+    "project": "LineageOS/android_device_motorola_sm8550-common",
+    "branch": "lineage-23.2",
+    "attention_set": {
+      "19252": {
+        "account": {
+          "_account_id": 19252
+        },
+        "last_update": "2026-07-27 18:01:24.000000000",
+        "reason": "<GERRIT_ACCOUNT_36466> replied on the change",
+        "reason_account": {
+          "_account_id": 36466
+        }
+      }
+    },
+    "removed_from_attention_set": {},
+    "hashtags": [],
+    "change_id": "If298b18fa55ae0495d84aa90e38c0d83bc21d05c",
+    "subject": "sm8550-common: Allow devices to set recovery partition size",
+    "status": "NEW",
+    "created": "2026-07-27 17:20:57.000000000",
+    "updated": "2026-07-27 18:01:24.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 1,
+    "deletions": 1,
+    "total_comment_count": 1,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "43a5413914d48c3367dd837689e3311d7f0bde31",
+    "_number": 494741,
+    "virtual_id_number": 494741,
+    "owner": {
+      "_account_id": 19252
     },
     "current_revision_number": 1,
     "requirements": [],
@@ -690,52 +937,6 @@
     ]
   },
   {
-    "id": "LineageOS%2Fandroid_device_motorola_sm8550-common~494741",
-    "triplet_id": "LineageOS%2Fandroid_device_motorola_sm8550-common~lineage-23.2~If298b18fa55ae0495d84aa90e38c0d83bc21d05c",
-    "project": "LineageOS/android_device_motorola_sm8550-common",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "If298b18fa55ae0495d84aa90e38c0d83bc21d05c",
-    "subject": "sm8550-common: Allow devices to set recovery partition size",
-    "status": "NEW",
-    "created": "2026-07-27 17:20:57.000000000",
-    "updated": "2026-07-27 17:20:57.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 1,
-    "deletions": 1,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "b253c869e42fd074be21a54faa03e41a54918353",
-    "_number": 494741,
-    "virtual_id_number": 494741,
-    "owner": {
-      "_account_id": 19252
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "LineageOS%2Fandroid_device_motorola_sm8550-common~494632",
     "triplet_id": "LineageOS%2Fandroid_device_motorola_sm8550-common~lineage-23.2~I62cdd36603afb46d5287dfcaac3d16acc9fca178",
     "project": "LineageOS/android_device_motorola_sm8550-common",
@@ -1046,52 +1247,6 @@
       "_account_id": 19252
     },
     "current_revision_number": 7,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_kernel_xiaomi_msm8937~494739",
-    "triplet_id": "LineageOS%2Fandroid_kernel_xiaomi_msm8937~lineage-23.2~Ia6da4621cf9305f207b88426e2642eb555661e4a",
-    "project": "LineageOS/android_kernel_xiaomi_msm8937",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Ia6da4621cf9305f207b88426e2642eb555661e4a",
-    "subject": "fs/overlayfs: add complete support for volatile mount option.",
-    "status": "NEW",
-    "created": "2026-07-27 17:01:06.000000000",
-    "updated": "2026-07-27 17:16:25.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 24,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "f73283d73cd81edff48391663f31b4a3b4a17dd1",
-    "_number": 494739,
-    "virtual_id_number": 494739,
-    "owner": {
-      "_account_id": 37411
-    },
-    "current_revision_number": 3,
     "requirements": [],
     "submit_records": [
       {
@@ -2538,52 +2693,6 @@
       "_account_id": 30766
     },
     "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_bootable_recovery~494712",
-    "triplet_id": "LineageOS%2Fandroid_bootable_recovery~lineage-24.0~If270a6e2b891afccfab2af5b85069a99f5f12d5e",
-    "project": "LineageOS/android_bootable_recovery",
-    "branch": "lineage-24.0",
-    "hashtags": [],
-    "change_id": "If270a6e2b891afccfab2af5b85069a99f5f12d5e",
-    "subject": "recovery_ui: Add screenshot shortcut",
-    "status": "NEW",
-    "created": "2026-07-27 12:07:59.000000000",
-    "updated": "2026-07-27 12:14:15.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 112,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "78df8fcffe4581ef3a291bd434a748ecfaf3047e",
-    "_number": 494712,
-    "virtual_id_number": 494712,
-    "owner": {
-      "_account_id": 10067
-    },
-    "current_revision_number": 2,
     "requirements": [],
     "submit_records": [
       {
