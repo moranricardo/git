@@ -1,5 +1,90 @@
 [
   {
+    "id": "LineageOS%2Fandroid_hardware_motorola~474285",
+    "triplet_id": "LineageOS%2Fandroid_hardware_motorola~lineage-23.2~If9f65023ac79e4612baf432eb74c8c1ea6a3b136",
+    "project": "LineageOS/android_hardware_motorola",
+    "branch": "lineage-23.2",
+    "topic": "moto-common-fp",
+    "attention_set": {
+      "19979": {
+        "account": {
+          "_account_id": 19979
+        },
+        "last_update": "2026-02-14 17:41:23.000000000",
+        "reason": "Someone else replied on the change"
+      }
+    },
+    "removed_from_attention_set": {
+      "32253": {
+        "account": {
+          "_account_id": 32253
+        },
+        "last_update": "2026-04-23 17:28:55.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-26 21:51:07.000000000",
+        "reason": "removed on reply"
+      },
+      "33800": {
+        "account": {
+          "_account_id": 33800
+        },
+        "last_update": "2026-07-27 13:16:38.000000000",
+        "reason": "<GERRIT_ACCOUNT_33800> replied on the change",
+        "reason_account": {
+          "_account_id": 33800
+        }
+      }
+    },
+    "hashtags": [],
+    "change_id": "If9f65023ac79e4612baf432eb74c8c1ea6a3b136",
+    "subject": "udfps: Add handler for Egistec fingerprints",
+    "status": "NEW",
+    "created": "2026-02-14 17:40:12.000000000",
+    "updated": "2026-07-27 13:16:38.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 125,
+    "deletions": 5,
+    "total_comment_count": 2,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "947a1a2fbf8e53e2904ace5a7154cc401bc55ccd",
+    "_number": 474285,
+    "virtual_id_number": 474285,
+    "owner": {
+      "_account_id": 19979
+    },
+    "current_revision_number": 7,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "LineageOS%2Fandroid_kernel_xiaomi_sm7435-modules~494714",
     "triplet_id": "LineageOS%2Fandroid_kernel_xiaomi_sm7435-modules~lineage-23.2~Ifa9a4d2f5f03ce17497ea1bf44133f0ee04f4f4d",
     "project": "LineageOS/android_kernel_xiaomi_sm7435-modules",
@@ -2796,88 +2881,6 @@
       "_account_id": 32253
     },
     "current_revision_number": 9,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY",
-            "applied_by": {
-              "_account_id": 33039
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_hardware_motorola~474285",
-    "triplet_id": "LineageOS%2Fandroid_hardware_motorola~lineage-23.2~If9f65023ac79e4612baf432eb74c8c1ea6a3b136",
-    "project": "LineageOS/android_hardware_motorola",
-    "branch": "lineage-23.2",
-    "topic": "moto-common-fp",
-    "attention_set": {
-      "19979": {
-        "account": {
-          "_account_id": 19979
-        },
-        "last_update": "2026-02-14 17:41:23.000000000",
-        "reason": "Someone else replied on the change"
-      },
-      "33800": {
-        "account": {
-          "_account_id": 33800
-        },
-        "last_update": "2026-07-26 21:49:46.000000000",
-        "reason": "Vote got outdated and was removed: Code-Review-1"
-      }
-    },
-    "removed_from_attention_set": {
-      "32253": {
-        "account": {
-          "_account_id": 32253
-        },
-        "last_update": "2026-04-23 17:28:55.000000000",
-        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
-      },
-      "33039": {
-        "account": {
-          "_account_id": 33039
-        },
-        "last_update": "2026-07-26 21:51:07.000000000",
-        "reason": "removed on reply"
-      }
-    },
-    "hashtags": [],
-    "change_id": "If9f65023ac79e4612baf432eb74c8c1ea6a3b136",
-    "subject": "udfps: Add handler for Egistec fingerprints",
-    "status": "NEW",
-    "created": "2026-02-14 17:40:12.000000000",
-    "updated": "2026-07-26 21:51:07.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 125,
-    "deletions": 5,
-    "total_comment_count": 1,
-    "unresolved_comment_count": 1,
-    "has_review_started": true,
-    "meta_rev_id": "5df4351f77f8d029bd7866b99a054e993f634d46",
-    "_number": 474285,
-    "virtual_id_number": 474285,
-    "owner": {
-      "_account_id": 19979
-    },
-    "current_revision_number": 7,
     "requirements": [],
     "submit_records": [
       {

@@ -1,6 +1,6 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-*Última actualización automatizada: 2026-07-27T13:00:00.584Z*
+*Última actualización automatizada: 2026-07-27T14:00:02.755Z*
 
 ## 🚨 Parches Críticos Detectados (59)
 - **[lineage_wiki]** wiki: Fix broken links when viewing preview *(ID: [494637](https://review.lineageos.org/c/494637))*
@@ -15,6 +15,7 @@
 - **[android_device_nubia_sdm845-common]** sdm845-common: Panic to recovery, not bootloader *(ID: [494586](https://review.lineageos.org/c/494586))*
 
 ## 📱 Línea Motorola Activa (83)
+- **[android_hardware_motorola]** udfps: Add handler for Egistec fingerprints *(ID: [474285](https://review.lineageos.org/c/474285))*
 - **[android_device_motorola_sm7435-common]** sm7435-common: Switch vendor and vendor_dlkm partitions from ext4 to EROFS *(ID: [494621](https://review.lineageos.org/c/494621))*
 - **[android_hardware_motorola]** udfps: Switch to IOCTL for HBM *(ID: [474261](https://review.lineageos.org/c/474261))*
 - **[android_hardware_motorola]** motorola: Introduce com.motorola.hardware.biometric.fingerprint@1.1 *(ID: [490287](https://review.lineageos.org/c/490287))*
@@ -24,4 +25,3 @@
 - **[android_hardware_motorola]** motorola: sepolicy: Label rbs fingerprint service *(ID: [494668](https://review.lineageos.org/c/494668))*
 - **[android_hardware_motorola]** hidl: biometrics: fingerprint: Support loading handler variants *(ID: [474258](https://review.lineageos.org/c/474258))*
 - **[android_hardware_motorola]** interfaces: Introduce vendor.egistecbix.hardware.fingerprint@4.0 *(ID: [494125](https://review.lineageos.org/c/494125))*
-- **[android_hardware_motorola]** motorola: udfps: Update handler with newly introduced methods *(ID: [474257](https://review.lineageos.org/c/474257))*
