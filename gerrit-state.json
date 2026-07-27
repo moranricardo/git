@@ -1,5 +1,143 @@
 [
   {
+    "id": "LineageOS%2Fandroid_kernel_xiaomi_sm7435-modules~494714",
+    "triplet_id": "LineageOS%2Fandroid_kernel_xiaomi_sm7435-modules~lineage-23.2~Ifa9a4d2f5f03ce17497ea1bf44133f0ee04f4f4d",
+    "project": "LineageOS/android_kernel_xiaomi_sm7435-modules",
+    "branch": "lineage-23.2",
+    "hashtags": [],
+    "change_id": "Ifa9a4d2f5f03ce17497ea1bf44133f0ee04f4f4d",
+    "subject": "Merge remote-tracking branch 'sm8450/lineage-20' into lineage-23.2",
+    "status": "NEW",
+    "created": "2026-07-27 12:18:35.000000000",
+    "updated": "2026-07-27 12:18:35.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 1,
+    "deletions": 4,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "4d4b5544a8e746f5b588875a4032986af6444baf",
+    "_number": 494714,
+    "virtual_id_number": 494714,
+    "owner": {
+      "_account_id": 30766
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_kernel_xiaomi_sm7435~494713",
+    "triplet_id": "LineageOS%2Fandroid_kernel_xiaomi_sm7435~lineage-23.2~I05f28b59a3f452336d9407b8163d9c46059286ef",
+    "project": "LineageOS/android_kernel_xiaomi_sm7435",
+    "branch": "lineage-23.2",
+    "hashtags": [],
+    "change_id": "I05f28b59a3f452336d9407b8163d9c46059286ef",
+    "subject": "Merge remote-tracking branch 'sm8450/lineage-20' into lineage-23.2",
+    "status": "NEW",
+    "created": "2026-07-27 12:17:55.000000000",
+    "updated": "2026-07-27 12:17:55.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 0,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "8a7ab8109acb68d0a33ad76d12b11e8d68200dbe",
+    "_number": 494713,
+    "virtual_id_number": 494713,
+    "owner": {
+      "_account_id": 30766
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_bootable_recovery~494712",
+    "triplet_id": "LineageOS%2Fandroid_bootable_recovery~lineage-24.0~If270a6e2b891afccfab2af5b85069a99f5f12d5e",
+    "project": "LineageOS/android_bootable_recovery",
+    "branch": "lineage-24.0",
+    "hashtags": [],
+    "change_id": "If270a6e2b891afccfab2af5b85069a99f5f12d5e",
+    "subject": "recovery_ui: Add screenshot shortcut",
+    "status": "NEW",
+    "created": "2026-07-27 12:07:59.000000000",
+    "updated": "2026-07-27 12:14:15.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 112,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "78df8fcffe4581ef3a291bd434a748ecfaf3047e",
+    "_number": 494712,
+    "virtual_id_number": 494712,
+    "owner": {
+      "_account_id": 10067
+    },
+    "current_revision_number": 2,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "LineageOS%2Flineage_wiki~494637",
     "triplet_id": "LineageOS%2Flineage_wiki~main~I771b4ba4ea8d26eb42d78e13d0dc5de218e53247",
     "project": "LineageOS/lineage_wiki",
@@ -26890,144 +27028,6 @@
     "virtual_id_number": 494342,
     "owner": {
       "_account_id": 10067
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_sm8350-common~494341",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_sm8350-common~lineage-23.2~I4258a337503e9dc9dea8e35b326a78fbec86bb88",
-    "project": "LineageOS/android_device_xiaomi_sm8350-common",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I4258a337503e9dc9dea8e35b326a78fbec86bb88",
-    "subject": "sm8350-common: Enable concurrent restricted connectivity",
-    "status": "NEW",
-    "created": "2026-07-20 13:21:51.000000000",
-    "updated": "2026-07-20 13:21:51.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 4,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "5a75a36ca846f78c47ddcf00925b7e94eab7f486",
-    "_number": 494341,
-    "virtual_id_number": 494341,
-    "owner": {
-      "_account_id": 32253
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_sm8350-common~494340",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_sm8350-common~lineage-23.2~Ia28d61c8f2df62d883434b272a82f1bcd7a30900",
-    "project": "LineageOS/android_device_xiaomi_sm8350-common",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Ia28d61c8f2df62d883434b272a82f1bcd7a30900",
-    "subject": "sm8350-common: rro_overlays: Update Wifi overlays from redwood OS2.0.17.0.UMSMIXM",
-    "status": "NEW",
-    "created": "2026-07-20 13:21:51.000000000",
-    "updated": "2026-07-20 13:21:51.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 47,
-    "deletions": 4,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "af92b59280d83577f8571ad3c25de0ad98eaa570",
-    "_number": 494340,
-    "virtual_id_number": 494340,
-    "owner": {
-      "_account_id": 32253
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_sm8350-common~494339",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_sm8350-common~lineage-23.2~Ie3c5fe9cfe39c28ba1df2be4e676954aca78f67a",
-    "project": "LineageOS/android_device_xiaomi_sm8350-common",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Ie3c5fe9cfe39c28ba1df2be4e676954aca78f67a",
-    "subject": "sm8350-common: CONFIG_IEEE80211AX -> WIFI_FEATURE_HOSTAPD_11AX",
-    "status": "NEW",
-    "created": "2026-07-20 13:21:51.000000000",
-    "updated": "2026-07-20 13:21:51.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 1,
-    "deletions": 1,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "63c53f273d85821911955308961feb8dec974038",
-    "_number": 494339,
-    "virtual_id_number": 494339,
-    "owner": {
-      "_account_id": 32253
     },
     "current_revision_number": 1,
     "_more_changes": true,
