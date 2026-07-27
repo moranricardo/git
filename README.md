@@ -1,8 +1,9 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-*Última actualización automatizada: 2026-07-27T16:00:01.687Z*
+*Última actualización automatizada: 2026-07-27T17:00:06.496Z*
 
 ## 🚨 Parches Críticos Detectados (58)
+- **[android_device_xiaomi_haydn]** haydn: Drop unused `lib_fixup_remove` import *(ID: [494727](https://review.lineageos.org/c/494727))*
 - **[android_device_samsung_sm8550-common]** sm8550-common: Fix Samsung RIL UICC enablement indication *(ID: [494717](https://review.lineageos.org/c/494717))*
 - **[lineage_wiki]** wiki: Fix broken links when viewing preview *(ID: [494637](https://review.lineageos.org/c/494637))*
 - **[android_system_core]** libcutils: Silence trace open error in recovery *(ID: [490874](https://review.lineageos.org/c/490874))*
@@ -12,7 +13,6 @@
 - **[android_device_sony_pdx224]** fixup! pdx224: Add SKU customizations *(ID: [494603](https://review.lineageos.org/c/494603))*
 - **[android_device_sony_pdx223]** fixup! pdx223: Add SKU customizations *(ID: [494598](https://review.lineageos.org/c/494598))*
 - **[android_device_nubia_sdm845-common]** sdm845-common: Panic to recovery, not bootloader *(ID: [494586](https://review.lineageos.org/c/494586))*
-- **[android_device_nubia_sdm845-common]** Revert "sdm845-common: Do not override ro.vendor.gpu.available_frequencies" *(ID: [494583](https://review.lineageos.org/c/494583))*
 
 ## 📱 Línea Motorola Activa (83)
 - **[android_hardware_motorola]** udfps: Add handler for Egistec fingerprints *(ID: [474285](https://review.lineageos.org/c/474285))*
