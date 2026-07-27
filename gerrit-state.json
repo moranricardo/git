@@ -1,5 +1,219 @@
 [
   {
+    "id": "LineageOS%2Fandroid_device_samsung_sm8550-common~494717",
+    "triplet_id": "LineageOS%2Fandroid_device_samsung_sm8550-common~lineage-23.2~I866954e756cebaae7a6816c9738eb486659a87ed",
+    "project": "LineageOS/android_device_samsung_sm8550-common",
+    "branch": "lineage-23.2",
+    "attention_set": {
+      "32034": {
+        "account": {
+          "_account_id": 32034
+        },
+        "last_update": "2026-07-27 14:51:14.000000000",
+        "reason": "<GERRIT_ACCOUNT_29914> replied on the change",
+        "reason_account": {
+          "_account_id": 29914
+        }
+      },
+      "34512": {
+        "account": {
+          "_account_id": 34512
+        },
+        "last_update": "2026-07-27 14:51:14.000000000",
+        "reason": "<GERRIT_ACCOUNT_29914> replied on the change",
+        "reason_account": {
+          "_account_id": 29914
+        }
+      }
+    },
+    "removed_from_attention_set": {},
+    "hashtags": [],
+    "change_id": "I866954e756cebaae7a6816c9738eb486659a87ed",
+    "subject": "sm8550-common: Fix Samsung RIL UICC enablement indication",
+    "status": "NEW",
+    "created": "2026-07-27 14:50:06.000000000",
+    "updated": "2026-07-27 14:51:14.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 5,
+    "deletions": 2,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "9f6ff2c440652d4b22445ef750101550fadf5434",
+    "_number": 494717,
+    "virtual_id_number": 494717,
+    "owner": {
+      "_account_id": 29914
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "OK",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 29914
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 29914
+            }
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_kernel_mainline_configs~494380",
+    "triplet_id": "LineageOS%2Fandroid_kernel_mainline_configs~lineage-23.2~I56b53110918c7a10ce8b6cb32a95bb9c54e77547",
+    "project": "LineageOS/android_kernel_mainline_configs",
+    "branch": "lineage-23.2",
+    "topic": "mainline-usbip",
+    "hashtags": [],
+    "change_id": "I56b53110918c7a10ce8b6cb32a95bb9c54e77547",
+    "subject": "kernel/mainline/configs: Add usbip config and modules list",
+    "status": "NEW",
+    "created": "2026-07-21 18:05:20.000000000",
+    "updated": "2026-07-27 14:34:59.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 8,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "b62976fe9f700423463c11ac8d2ca49c9f37851c",
+    "_number": 494380,
+    "virtual_id_number": 494380,
+    "owner": {
+      "_account_id": 32245
+    },
+    "current_revision_number": 3,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_apple_snowcastle~494666",
+    "triplet_id": "LineageOS%2Fandroid_device_apple_snowcastle~lineage-23.2~I07cabb89f4d5517b756c63f586f9e73f003523ef",
+    "project": "LineageOS/android_device_apple_snowcastle",
+    "branch": "lineage-23.2",
+    "hashtags": [],
+    "change_id": "I07cabb89f4d5517b756c63f586f9e73f003523ef",
+    "subject": "snowcastle: Copy firmware files to boot ramdisk too",
+    "status": "NEW",
+    "created": "2026-07-26 19:15:03.000000000",
+    "updated": "2026-07-27 14:33:14.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 1,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "713c9b0e4bfe0cb54c1b0806f29eee5e6d4177d4",
+    "_number": 494666,
+    "virtual_id_number": 494666,
+    "owner": {
+      "_account_id": 32245
+    },
+    "current_revision_number": 2,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_apple_snowcastle~494653",
+    "triplet_id": "LineageOS%2Fandroid_device_apple_snowcastle~lineage-23.2~I316bbaacb479c518e4d2886b7a182ec9e41012a9",
+    "project": "LineageOS/android_device_apple_snowcastle",
+    "branch": "lineage-23.2",
+    "hashtags": [],
+    "change_id": "I316bbaacb479c518e4d2886b7a182ec9e41012a9",
+    "subject": "[WIP] https://github.com/Pauli1Go/HoolockLinux-ipad7",
+    "status": "NEW",
+    "created": "2026-07-26 16:03:33.000000000",
+    "updated": "2026-07-27 14:33:14.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 33,
+    "deletions": 3,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "bad6c9ecb1099c366eb224b212b95f73425a29dd",
+    "_number": 494653,
+    "virtual_id_number": 494653,
+    "owner": {
+      "_account_id": 32245
+    },
+    "current_revision_number": 9,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "LineageOS%2Fandroid_hardware_motorola~474285",
     "triplet_id": "LineageOS%2Fandroid_hardware_motorola~lineage-23.2~If9f65023ac79e4612baf432eb74c8c1ea6a3b136",
     "project": "LineageOS/android_hardware_motorola",
@@ -5088,190 +5302,6 @@
     ]
   },
   {
-    "id": "LineageOS%2Fandroid_device_apple_snowcastle~494666",
-    "triplet_id": "LineageOS%2Fandroid_device_apple_snowcastle~lineage-23.2~I07cabb89f4d5517b756c63f586f9e73f003523ef",
-    "project": "LineageOS/android_device_apple_snowcastle",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I07cabb89f4d5517b756c63f586f9e73f003523ef",
-    "subject": "snowcastle: Copy firmware files to boot ramdisk too",
-    "status": "NEW",
-    "created": "2026-07-26 19:15:03.000000000",
-    "updated": "2026-07-26 19:15:03.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 1,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "e9e89b6092f93788a3abc0a9a1c9c30fcd537152",
-    "_number": 494666,
-    "virtual_id_number": 494666,
-    "owner": {
-      "_account_id": 32245
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_apple_snowcastle~494653",
-    "triplet_id": "LineageOS%2Fandroid_device_apple_snowcastle~lineage-23.2~I316bbaacb479c518e4d2886b7a182ec9e41012a9",
-    "project": "LineageOS/android_device_apple_snowcastle",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I316bbaacb479c518e4d2886b7a182ec9e41012a9",
-    "subject": "[WIP] https://github.com/Pauli1Go/HoolockLinux-ipad7",
-    "status": "NEW",
-    "created": "2026-07-26 16:03:33.000000000",
-    "updated": "2026-07-26 19:15:03.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 33,
-    "deletions": 3,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "4220520c4bd09bf9e6a6ddd906577991be9120b3",
-    "_number": 494653,
-    "virtual_id_number": 494653,
-    "owner": {
-      "_account_id": 32245
-    },
-    "current_revision_number": 7,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_apple_snowcastle~494665",
-    "triplet_id": "LineageOS%2Fandroid_device_apple_snowcastle~lineage-23.2~Ice9d2e5cdc962072932c7e226aa43e59effa66f8",
-    "project": "LineageOS/android_device_apple_snowcastle",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Ice9d2e5cdc962072932c7e226aa43e59effa66f8",
-    "subject": "snowcastle: README: Booting with kernel v7.2+ requires a workaround",
-    "status": "NEW",
-    "created": "2026-07-26 19:13:41.000000000",
-    "updated": "2026-07-26 19:13:41.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 3,
-    "deletions": 1,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "cf7c35913122b1709cfa0b4de1784cb3f2c8ae93",
-    "_number": 494665,
-    "virtual_id_number": 494665,
-    "owner": {
-      "_account_id": 32245
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_apple_snowcastle~494664",
-    "triplet_id": "LineageOS%2Fandroid_device_apple_snowcastle~lineage-23.2~I4c88f2d19dedcb87a34248084dd3ef409a616d95",
-    "project": "LineageOS/android_device_apple_snowcastle",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I4c88f2d19dedcb87a34248084dd3ef409a616d95",
-    "subject": "snowcastle: README: Minor fixup",
-    "status": "NEW",
-    "created": "2026-07-26 19:13:41.000000000",
-    "updated": "2026-07-26 19:13:41.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 2,
-    "deletions": 1,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "fd7b6ddec2289baf4e5a61f8b45529a4a0418b4f",
-    "_number": 494664,
-    "virtual_id_number": 494664,
-    "owner": {
-      "_account_id": 32245
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "LineageOS%2Fandroid_packages_modules_Connectivity~494663",
     "triplet_id": "LineageOS%2Fandroid_packages_modules_Connectivity~lineage-23.2~Ifd909962fd1214d0a087210b3f25a0296bd909bd",
     "project": "LineageOS/android_packages_modules_Connectivity",
@@ -6672,144 +6702,6 @@
       "_account_id": 4550
     },
     "current_revision_number": 6,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_kernel_mainline_configs~494656",
-    "triplet_id": "LineageOS%2Fandroid_kernel_mainline_configs~lineage-23.2~Ie0483e395fb0eef79597efef50a7fb940d4ba3cb",
-    "project": "LineageOS/android_kernel_mainline_configs",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Ie0483e395fb0eef79597efef50a7fb940d4ba3cb",
-    "subject": "kernel/mainline/configs: fragments: n: Add config to disable Rust",
-    "status": "NEW",
-    "created": "2026-07-26 17:10:58.000000000",
-    "updated": "2026-07-26 17:10:58.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 1,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "927f25cbaf15b1c4de7260edf43a2472afaaed79",
-    "_number": 494656,
-    "virtual_id_number": 494656,
-    "owner": {
-      "_account_id": 32245
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_apple_snowcastle~494655",
-    "triplet_id": "LineageOS%2Fandroid_device_apple_snowcastle~lineage-23.2~I3efc9edb8da098c0cbadceea4f732eac92de1447",
-    "project": "LineageOS/android_device_apple_snowcastle",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I3efc9edb8da098c0cbadceea4f732eac92de1447",
-    "subject": "snowcastle: configs: `pmp_t8015` kernel module now have suffix `_v1`",
-    "status": "NEW",
-    "created": "2026-07-26 17:10:25.000000000",
-    "updated": "2026-07-26 17:10:25.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 2,
-    "deletions": 2,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "d9b2a1a53a9ceb0d739fb2b1d5d76128047569d0",
-    "_number": 494655,
-    "virtual_id_number": 494655,
-    "owner": {
-      "_account_id": 32245
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_apple_snowcastle~494654",
-    "triplet_id": "LineageOS%2Fandroid_device_apple_snowcastle~lineage-23.2~Idd0d8623ec2378d48e4977ae8e60062fa92ecbff",
-    "project": "LineageOS/android_device_apple_snowcastle",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Idd0d8623ec2378d48e4977ae8e60062fa92ecbff",
-    "subject": "snowcastle: Disable Rust support in kernel for now",
-    "status": "NEW",
-    "created": "2026-07-26 17:10:25.000000000",
-    "updated": "2026-07-26 17:10:25.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 1,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "1638b25e0963b7f089dc85ad97c2ce85ce827cb2",
-    "_number": 494654,
-    "virtual_id_number": 494654,
-    "owner": {
-      "_account_id": 32245
-    },
-    "current_revision_number": 1,
     "requirements": [],
     "submit_records": [
       {
@@ -25930,53 +25822,6 @@
     ]
   },
   {
-    "id": "LineageOS%2Fandroid_kernel_mainline_configs~494380",
-    "triplet_id": "LineageOS%2Fandroid_kernel_mainline_configs~lineage-23.2~I56b53110918c7a10ce8b6cb32a95bb9c54e77547",
-    "project": "LineageOS/android_kernel_mainline_configs",
-    "branch": "lineage-23.2",
-    "topic": "mainline-usbip",
-    "hashtags": [],
-    "change_id": "I56b53110918c7a10ce8b6cb32a95bb9c54e77547",
-    "subject": "kernel/mainline/configs: Add usbip config and modules list",
-    "status": "NEW",
-    "created": "2026-07-21 18:05:20.000000000",
-    "updated": "2026-07-22 17:50:00.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 8,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "d039ee3279432c8648ede3cc6b971e77ab7415ed",
-    "_number": 494380,
-    "virtual_id_number": 494380,
-    "owner": {
-      "_account_id": 32245
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "LineageOS%2Fandroid_device_mainline_common~494379",
     "triplet_id": "LineageOS%2Fandroid_device_mainline_common~lineage-23.2~I994a92fa8f0f3978c5611d21012fe63221ad3bcc",
     "project": "LineageOS/android_device_mainline_common",
@@ -27031,6 +26876,190 @@
     "virtual_id_number": 494342,
     "owner": {
       "_account_id": 10067
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_xiaomi_sm8350-common~494341",
+    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_sm8350-common~lineage-23.2~I4258a337503e9dc9dea8e35b326a78fbec86bb88",
+    "project": "LineageOS/android_device_xiaomi_sm8350-common",
+    "branch": "lineage-23.2",
+    "hashtags": [],
+    "change_id": "I4258a337503e9dc9dea8e35b326a78fbec86bb88",
+    "subject": "sm8350-common: Enable concurrent restricted connectivity",
+    "status": "NEW",
+    "created": "2026-07-20 13:21:51.000000000",
+    "updated": "2026-07-20 13:21:51.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 4,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "5a75a36ca846f78c47ddcf00925b7e94eab7f486",
+    "_number": 494341,
+    "virtual_id_number": 494341,
+    "owner": {
+      "_account_id": 32253
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_xiaomi_sm8350-common~494340",
+    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_sm8350-common~lineage-23.2~Ia28d61c8f2df62d883434b272a82f1bcd7a30900",
+    "project": "LineageOS/android_device_xiaomi_sm8350-common",
+    "branch": "lineage-23.2",
+    "hashtags": [],
+    "change_id": "Ia28d61c8f2df62d883434b272a82f1bcd7a30900",
+    "subject": "sm8350-common: rro_overlays: Update Wifi overlays from redwood OS2.0.17.0.UMSMIXM",
+    "status": "NEW",
+    "created": "2026-07-20 13:21:51.000000000",
+    "updated": "2026-07-20 13:21:51.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 47,
+    "deletions": 4,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "af92b59280d83577f8571ad3c25de0ad98eaa570",
+    "_number": 494340,
+    "virtual_id_number": 494340,
+    "owner": {
+      "_account_id": 32253
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_xiaomi_sm8350-common~494339",
+    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_sm8350-common~lineage-23.2~Ie3c5fe9cfe39c28ba1df2be4e676954aca78f67a",
+    "project": "LineageOS/android_device_xiaomi_sm8350-common",
+    "branch": "lineage-23.2",
+    "hashtags": [],
+    "change_id": "Ie3c5fe9cfe39c28ba1df2be4e676954aca78f67a",
+    "subject": "sm8350-common: CONFIG_IEEE80211AX -> WIFI_FEATURE_HOSTAPD_11AX",
+    "status": "NEW",
+    "created": "2026-07-20 13:21:51.000000000",
+    "updated": "2026-07-20 13:21:51.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 1,
+    "deletions": 1,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "63c53f273d85821911955308961feb8dec974038",
+    "_number": 494339,
+    "virtual_id_number": 494339,
+    "owner": {
+      "_account_id": 32253
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_xiaomi_sm8350-common~494338",
+    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_sm8350-common~lineage-23.2~Iab61bd12499968e8823b3078acd1c7b8bce46136",
+    "project": "LineageOS/android_device_xiaomi_sm8350-common",
+    "branch": "lineage-23.2",
+    "hashtags": [],
+    "change_id": "Iab61bd12499968e8823b3078acd1c7b8bce46136",
+    "subject": "sm8350-common: Enable support for IEEE80211AX",
+    "status": "NEW",
+    "created": "2026-07-20 13:21:51.000000000",
+    "updated": "2026-07-20 13:21:51.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 1,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "bf6eb452e8095944cbf7d14635922a0b13b93079",
+    "_number": 494338,
+    "virtual_id_number": 494338,
+    "owner": {
+      "_account_id": 32253
     },
     "current_revision_number": 1,
     "_more_changes": true,

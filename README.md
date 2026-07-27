@@ -1,11 +1,10 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-*Última actualización automatizada: 2026-07-27T14:00:02.755Z*
+*Última actualización automatizada: 2026-07-27T15:00:02.935Z*
 
-## 🚨 Parches Críticos Detectados (59)
+## 🚨 Parches Críticos Detectados (58)
+- **[android_device_samsung_sm8550-common]** sm8550-common: Fix Samsung RIL UICC enablement indication *(ID: [494717](https://review.lineageos.org/c/494717))*
 - **[lineage_wiki]** wiki: Fix broken links when viewing preview *(ID: [494637](https://review.lineageos.org/c/494637))*
-- **[android_device_apple_snowcastle]** snowcastle: README: Minor fixup *(ID: [494664](https://review.lineageos.org/c/494664))*
-- **[android_device_apple_snowcastle]** snowcastle: configs: `pmp_t8015` kernel module now have suffix `_v1` *(ID: [494655](https://review.lineageos.org/c/494655))*
 - **[android_system_core]** libcutils: Silence trace open error in recovery *(ID: [490874](https://review.lineageos.org/c/490874))*
 - **[android_system_core]** core: Fix host_init_verifier for devices with overriding services *(ID: [490870](https://review.lineageos.org/c/490870))*
 - **[android_frameworks_base]** Screenrecord: Fix crash if video editor app not installed *(ID: [494456](https://review.lineageos.org/c/494456))*
@@ -13,6 +12,7 @@
 - **[android_device_sony_pdx224]** fixup! pdx224: Add SKU customizations *(ID: [494603](https://review.lineageos.org/c/494603))*
 - **[android_device_sony_pdx223]** fixup! pdx223: Add SKU customizations *(ID: [494598](https://review.lineageos.org/c/494598))*
 - **[android_device_nubia_sdm845-common]** sdm845-common: Panic to recovery, not bootloader *(ID: [494586](https://review.lineageos.org/c/494586))*
+- **[android_device_nubia_sdm845-common]** Revert "sdm845-common: Do not override ro.vendor.gpu.available_frequencies" *(ID: [494583](https://review.lineageos.org/c/494583))*
 
 ## 📱 Línea Motorola Activa (83)
 - **[android_hardware_motorola]** udfps: Add handler for Egistec fingerprints *(ID: [474285](https://review.lineageos.org/c/474285))*
