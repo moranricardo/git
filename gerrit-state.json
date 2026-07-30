@@ -1,5 +1,3094 @@
 [
   {
+    "id": "LineageOS%2Fandroid_vendor_lineage~494409",
+    "triplet_id": "LineageOS%2Fandroid_vendor_lineage~lineage-24.0~Ie95d9a2422aaac8704964b9dcc9d8ad5eeb3ba0b",
+    "project": "LineageOS/android_vendor_lineage",
+    "branch": "lineage-24.0",
+    "topic": "C_asb_2026-08",
+    "attention_set": {},
+    "removed_from_attention_set": {
+      "16185": {
+        "account": {
+          "_account_id": 16185
+        },
+        "last_update": "2026-07-30 01:08:49.000000000",
+        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      }
+    },
+    "hashtags": [],
+    "change_id": "Ie95d9a2422aaac8704964b9dcc9d8ad5eeb3ba0b",
+    "subject": "release: Bump Security String to 2026-08-01",
+    "status": "NEW",
+    "created": "2026-07-22 16:22:00.000000000",
+    "updated": "2026-07-30 01:08:49.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 1,
+    "deletions": 1,
+    "total_comment_count": 1,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "8dbdf6e92a9f8f76746063866eaa24c13aa0c8f2",
+    "_number": 494409,
+    "virtual_id_number": 494409,
+    "owner": {
+      "_account_id": 16185
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "OK",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 28223
+            }
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_build_release~494408",
+    "triplet_id": "LineageOS%2Fandroid_build_release~lineage-21.0~Ie95d9a2422aaac8704964b9dcc9d8ad5eeb3ba0b",
+    "project": "LineageOS/android_build_release",
+    "branch": "lineage-21.0",
+    "topic": "U_asb_2026-08",
+    "attention_set": {},
+    "removed_from_attention_set": {
+      "16185": {
+        "account": {
+          "_account_id": 16185
+        },
+        "last_update": "2026-07-30 01:08:49.000000000",
+        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      }
+    },
+    "hashtags": [],
+    "change_id": "Ie95d9a2422aaac8704964b9dcc9d8ad5eeb3ba0b",
+    "subject": "release: Bump Security String to 2026-08-01",
+    "status": "NEW",
+    "created": "2026-07-22 16:19:14.000000000",
+    "updated": "2026-07-30 01:08:49.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 2,
+    "deletions": 2,
+    "total_comment_count": 1,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "2b5f83651ced4e0c349eb87028d628a6d9ace7d5",
+    "_number": 494408,
+    "virtual_id_number": 494408,
+    "owner": {
+      "_account_id": 16185
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "OK",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 28223
+            }
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_build_release~494407",
+    "triplet_id": "LineageOS%2Fandroid_build_release~lineage-22.2~Ie95d9a2422aaac8704964b9dcc9d8ad5eeb3ba0b",
+    "project": "LineageOS/android_build_release",
+    "branch": "lineage-22.2",
+    "topic": "V_asb_2026-08",
+    "attention_set": {},
+    "removed_from_attention_set": {
+      "16185": {
+        "account": {
+          "_account_id": 16185
+        },
+        "last_update": "2026-07-30 01:08:48.000000000",
+        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      }
+    },
+    "hashtags": [],
+    "change_id": "Ie95d9a2422aaac8704964b9dcc9d8ad5eeb3ba0b",
+    "subject": "release: Bump Security String to 2026-08-01",
+    "status": "NEW",
+    "created": "2026-07-22 16:18:29.000000000",
+    "updated": "2026-07-30 01:08:48.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 1,
+    "deletions": 1,
+    "total_comment_count": 1,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "933f77c0fb7afb51cf3ec8edb15d73c6cbaa4b77",
+    "_number": 494407,
+    "virtual_id_number": 494407,
+    "owner": {
+      "_account_id": 16185
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "OK",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 28223
+            }
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_vendor_lineage~494406",
+    "triplet_id": "LineageOS%2Fandroid_vendor_lineage~lineage-23.2~Ie95d9a2422aaac8704964b9dcc9d8ad5eeb3ba0b",
+    "project": "LineageOS/android_vendor_lineage",
+    "branch": "lineage-23.2",
+    "topic": "B_asb_2026-08",
+    "attention_set": {},
+    "removed_from_attention_set": {
+      "16185": {
+        "account": {
+          "_account_id": 16185
+        },
+        "last_update": "2026-07-30 01:08:47.000000000",
+        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      }
+    },
+    "hashtags": [],
+    "change_id": "Ie95d9a2422aaac8704964b9dcc9d8ad5eeb3ba0b",
+    "subject": "release: Bump Security String to 2026-08-01",
+    "status": "NEW",
+    "created": "2026-07-22 16:17:21.000000000",
+    "updated": "2026-07-30 01:08:47.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 1,
+    "deletions": 1,
+    "total_comment_count": 1,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "a4e797990845f8ea3fd9cfd44c75f593f2c2e502",
+    "_number": 494406,
+    "virtual_id_number": 494406,
+    "owner": {
+      "_account_id": 16185
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "OK",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 28223
+            }
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_vendor_lineage~492180",
+    "triplet_id": "LineageOS%2Fandroid_vendor_lineage~lineage-24.0~I2d14f7770424011667253d66652747e7dcf65b6c",
+    "project": "LineageOS/android_vendor_lineage",
+    "branch": "lineage-24.0",
+    "topic": "CP2A",
+    "attention_set": {
+      "13648": {
+        "account": {
+          "_account_id": 13648
+        },
+        "last_update": "2026-06-26 15:10:42.000000000",
+        "reason": "<GERRIT_ACCOUNT_16185> replied on the change",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      },
+      "32245": {
+        "account": {
+          "_account_id": 32245
+        },
+        "last_update": "2026-06-26 15:10:42.000000000",
+        "reason": "<GERRIT_ACCOUNT_16185> replied on the change",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      }
+    },
+    "removed_from_attention_set": {
+      "4550": {
+        "account": {
+          "_account_id": 4550
+        },
+        "last_update": "2026-07-19 03:28:59.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "10067": {
+        "account": {
+          "_account_id": 10067
+        },
+        "last_update": "2026-07-12 23:58:22.000000000",
+        "reason": "<GERRIT_ACCOUNT_16185> replied on the change",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      },
+      "16185": {
+        "account": {
+          "_account_id": 16185
+        },
+        "last_update": "2026-07-30 01:08:47.000000000",
+        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-22 16:22:51.000000000",
+        "reason": "removed on reply"
+      },
+      "34519": {
+        "account": {
+          "_account_id": 34519
+        },
+        "last_update": "2026-06-29 09:05:11.000000000",
+        "reason": "<GERRIT_ACCOUNT_34519> replied on the change",
+        "reason_account": {
+          "_account_id": 34519
+        }
+      }
+    },
+    "hashtags": [],
+    "change_id": "I2d14f7770424011667253d66652747e7dcf65b6c",
+    "subject": "lineage: config: common: Build fastbootd by default",
+    "status": "NEW",
+    "created": "2026-06-26 05:05:07.000000000",
+    "updated": "2026-07-30 01:08:47.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 6,
+    "deletions": 0,
+    "total_comment_count": 8,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "56c8b2899e4dd5a413415ddf0d1ca835666659ac",
+    "_number": 492180,
+    "virtual_id_number": 492180,
+    "owner": {
+      "_account_id": 16185
+    },
+    "current_revision_number": 9,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "OK",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 28223
+            }
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_kernel_xiaomi_sm8450~494499",
+    "triplet_id": "LineageOS%2Fandroid_kernel_xiaomi_sm8450~lineage-23.2~If32f7fe743b52e6b29f0a0d4ae4a9255797d9d8f",
+    "project": "LineageOS/android_kernel_xiaomi_sm8450",
+    "branch": "lineage-23.2",
+    "attention_set": {
+      "21290": {
+        "account": {
+          "_account_id": 21290
+        },
+        "last_update": "2026-07-25 02:18:09.000000000",
+        "reason": "<GERRIT_ACCOUNT_32837> replied on the change",
+        "reason_account": {
+          "_account_id": 32837
+        }
+      }
+    },
+    "removed_from_attention_set": {},
+    "hashtags": [],
+    "change_id": "If32f7fe743b52e6b29f0a0d4ae4a9255797d9d8f",
+    "subject": "power: xiaomi: fix IIO probe dependency",
+    "status": "NEW",
+    "created": "2026-07-25 02:17:39.000000000",
+    "updated": "2026-07-29 23:05:46.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 50,
+    "deletions": 28,
+    "total_comment_count": 1,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "1b283be7ec64104fb76982ea493b07134d136d6f",
+    "_number": 494499,
+    "virtual_id_number": 494499,
+    "owner": {
+      "_account_id": 32837
+    },
+    "current_revision_number": 4,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "REJECT",
+            "applied_by": {
+              "_account_id": 32837
+            }
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_frameworks_base~479421",
+    "triplet_id": "LineageOS%2Fandroid_frameworks_base~lineage-23.2~I22570f5e7c7a087a40e4a72f1640ef8bf6142b56",
+    "project": "LineageOS/android_frameworks_base",
+    "branch": "lineage-23.2",
+    "attention_set": {
+      "4550": {
+        "account": {
+          "_account_id": 4550
+        },
+        "last_update": "2026-04-01 09:54:41.000000000",
+        "reason": "<GERRIT_ACCOUNT_36863> replied on the change",
+        "reason_account": {
+          "_account_id": 36863
+        }
+      },
+      "10067": {
+        "account": {
+          "_account_id": 10067
+        },
+        "last_update": "2026-04-21 09:58:44.000000000",
+        "reason": "<GERRIT_ACCOUNT_36863> replied on the change",
+        "reason_account": {
+          "_account_id": 36863
+        }
+      },
+      "32197": {
+        "account": {
+          "_account_id": 32197
+        },
+        "last_update": "2026-07-11 14:29:35.000000000",
+        "reason": "Vote got outdated and was removed: Verified+1"
+      },
+      "33857": {
+        "account": {
+          "_account_id": 33857
+        },
+        "last_update": "2026-07-29 02:41:14.000000000",
+        "reason": "<GERRIT_ACCOUNT_36241> replied on the change",
+        "reason_account": {
+          "_account_id": 36241
+        }
+      },
+      "36863": {
+        "account": {
+          "_account_id": 36863
+        },
+        "last_update": "2026-07-11 14:29:35.000000000",
+        "reason": "Vote got outdated and was removed: Verified+1"
+      },
+      "36988": {
+        "account": {
+          "_account_id": 36988
+        },
+        "last_update": "2026-07-11 14:29:35.000000000",
+        "reason": "Vote got outdated and was removed: Verified+1"
+      }
+    },
+    "removed_from_attention_set": {
+      "13648": {
+        "account": {
+          "_account_id": 13648
+        },
+        "last_update": "2026-07-29 22:45:43.000000000",
+        "reason": "<GERRIT_ACCOUNT_13648> replied on the change",
+        "reason_account": {
+          "_account_id": 13648
+        }
+      },
+      "16185": {
+        "account": {
+          "_account_id": 16185
+        },
+        "last_update": "2026-04-02 02:22:22.000000000",
+        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      },
+      "36241": {
+        "account": {
+          "_account_id": 36241
+        },
+        "last_update": "2026-07-29 02:41:14.000000000",
+        "reason": "<GERRIT_ACCOUNT_36241> replied on the change",
+        "reason_account": {
+          "_account_id": 36241
+        }
+      }
+    },
+    "hashtags": [],
+    "change_id": "I22570f5e7c7a087a40e4a72f1640ef8bf6142b56",
+    "subject": "SystemUI: Make GhbmIlluminationListener public",
+    "status": "NEW",
+    "created": "2026-04-01 09:26:55.000000000",
+    "updated": "2026-07-29 22:45:43.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 1,
+    "deletions": 1,
+    "total_comment_count": 13,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "06a86929e90a1709d7d98293137a9abcb40ec5b7",
+    "_number": 479421,
+    "virtual_id_number": 479421,
+    "owner": {
+      "_account_id": 36863
+    },
+    "current_revision_number": 3,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 33857
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_vendor_lineage~493072",
+    "triplet_id": "LineageOS%2Fandroid_vendor_lineage~lineage-24.0~I419ffd8c4f055ca29a6554983ed44aaaab54a666",
+    "project": "LineageOS/android_vendor_lineage",
+    "branch": "lineage-24.0",
+    "topic": "CP2A",
+    "attention_set": {
+      "4550": {
+        "account": {
+          "_account_id": 4550
+        },
+        "last_update": "2026-07-04 08:05:49.000000000",
+        "reason": "Someone else replied on the change"
+      }
+    },
+    "removed_from_attention_set": {
+      "10067": {
+        "account": {
+          "_account_id": 10067
+        },
+        "last_update": "2026-07-12 23:34:40.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "16185": {
+        "account": {
+          "_account_id": 16185
+        },
+        "last_update": "2026-07-22 18:42:17.000000000",
+        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-22 16:22:54.000000000",
+        "reason": "removed on reply"
+      }
+    },
+    "hashtags": [],
+    "change_id": "I419ffd8c4f055ca29a6554983ed44aaaab54a666",
+    "subject": "kernel: Rip out GCC support",
+    "status": "NEW",
+    "created": "2026-07-04 08:04:57.000000000",
+    "updated": "2026-07-29 21:18:40.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 19,
+    "deletions": 153,
+    "total_comment_count": 1,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "c17d937ac1df4b82e814e2cd81c130857ec0b935",
+    "_number": 493072,
+    "virtual_id_number": 493072,
+    "owner": {
+      "_account_id": 4550
+    },
+    "current_revision_number": 7,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "OK",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_vendor_lineage~493316",
+    "triplet_id": "LineageOS%2Fandroid_vendor_lineage~lineage-24.0~I3a8f960be8dbde0539e65fc1bae0e0ab84118e7d",
+    "project": "LineageOS/android_vendor_lineage",
+    "branch": "lineage-24.0",
+    "topic": "CP2A",
+    "attention_set": {
+      "19979": {
+        "account": {
+          "_account_id": 19979
+        },
+        "last_update": "2026-07-05 19:28:53.000000000",
+        "reason": "Someone else replied on the change"
+      }
+    },
+    "removed_from_attention_set": {
+      "10067": {
+        "account": {
+          "_account_id": 10067
+        },
+        "last_update": "2026-07-12 23:34:40.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "16185": {
+        "account": {
+          "_account_id": 16185
+        },
+        "last_update": "2026-07-22 18:42:13.000000000",
+        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-22 16:22:48.000000000",
+        "reason": "removed on reply"
+      }
+    },
+    "hashtags": [],
+    "change_id": "I3a8f960be8dbde0539e65fc1bae0e0ab84118e7d",
+    "subject": "kernel: Update path to rust toolchains",
+    "status": "NEW",
+    "created": "2026-07-05 19:28:05.000000000",
+    "updated": "2026-07-29 21:18:24.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 1,
+    "deletions": 1,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "85933fb845d527221564050dfc040ec7a03e771a",
+    "_number": 493316,
+    "virtual_id_number": 493316,
+    "owner": {
+      "_account_id": 19979
+    },
+    "current_revision_number": 7,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "OK",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_vendor_lineage~492562",
+    "triplet_id": "LineageOS%2Fandroid_vendor_lineage~lineage-24.0~Ib60f1a8e13c8ac850977daac0292a93fc4444431",
+    "project": "LineageOS/android_vendor_lineage",
+    "branch": "lineage-24.0",
+    "topic": "CP2A",
+    "attention_set": {
+      "15346": {
+        "account": {
+          "_account_id": 15346
+        },
+        "last_update": "2026-06-30 06:39:46.000000000",
+        "reason": "Someone else replied on the change"
+      }
+    },
+    "removed_from_attention_set": {
+      "4550": {
+        "account": {
+          "_account_id": 4550
+        },
+        "last_update": "2026-07-07 20:16:35.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "10067": {
+        "account": {
+          "_account_id": 10067
+        },
+        "last_update": "2026-07-19 03:28:18.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "16185": {
+        "account": {
+          "_account_id": 16185
+        },
+        "last_update": "2026-07-22 18:42:15.000000000",
+        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-22 16:22:49.000000000",
+        "reason": "removed on reply"
+      }
+    },
+    "hashtags": [],
+    "change_id": "Ib60f1a8e13c8ac850977daac0292a93fc4444431",
+    "subject": "kernel: Run merge_config.sh from KERNEL_OUT",
+    "status": "NEW",
+    "created": "2026-06-30 06:39:04.000000000",
+    "updated": "2026-07-29 21:18:15.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 2,
+    "deletions": 2,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "8b23355781bc777999f625fcad6e2cb6d413d6e1",
+    "_number": 492562,
+    "virtual_id_number": 492562,
+    "owner": {
+      "_account_id": 15346
+    },
+    "current_revision_number": 8,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "OK",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_vendor_lineage~491515",
+    "triplet_id": "LineageOS%2Fandroid_vendor_lineage~lineage-24.0~I22381a7503fa6404c0c587aef733939a6993f654",
+    "project": "LineageOS/android_vendor_lineage",
+    "branch": "lineage-24.0",
+    "topic": "CP2A",
+    "attention_set": {
+      "11883": {
+        "account": {
+          "_account_id": 11883
+        },
+        "last_update": "2026-06-22 09:59:13.000000000",
+        "reason": "<GERRIT_ACCOUNT_28798> replied on the change",
+        "reason_account": {
+          "_account_id": 28798
+        }
+      },
+      "28798": {
+        "account": {
+          "_account_id": 28798
+        },
+        "last_update": "2026-06-29 07:16:59.000000000",
+        "reason": "Someone else replied on the change"
+      }
+    },
+    "removed_from_attention_set": {
+      "4550": {
+        "account": {
+          "_account_id": 4550
+        },
+        "last_update": "2026-07-07 20:16:23.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "10067": {
+        "account": {
+          "_account_id": 10067
+        },
+        "last_update": "2026-07-19 03:28:18.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "16185": {
+        "account": {
+          "_account_id": 16185
+        },
+        "last_update": "2026-07-22 18:42:09.000000000",
+        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-22 16:22:42.000000000",
+        "reason": "removed on reply"
+      }
+    },
+    "hashtags": [],
+    "change_id": "I22381a7503fa6404c0c587aef733939a6993f654",
+    "subject": "soong: Run kernel header generation cmd in a subshell cd'd to topdir",
+    "status": "NEW",
+    "created": "2026-06-22 09:59:00.000000000",
+    "updated": "2026-07-29 21:18:10.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 7,
+    "deletions": 4,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "1b8eb8b3414c6cbe5cffd7cadb5bfa8824d00827",
+    "_number": 491515,
+    "virtual_id_number": 491515,
+    "owner": {
+      "_account_id": 28798
+    },
+    "current_revision_number": 8,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "OK",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_vendor_lineage~491508",
+    "triplet_id": "LineageOS%2Fandroid_vendor_lineage~lineage-24.0~I3ce20ff3ed003288bcf05b9cf82dfba49f2cd934",
+    "project": "LineageOS/android_vendor_lineage",
+    "branch": "lineage-24.0",
+    "topic": "CP2A",
+    "attention_set": {
+      "4550": {
+        "account": {
+          "_account_id": 4550
+        },
+        "last_update": "2026-06-29 07:17:06.000000000",
+        "reason": "Someone else replied on the change"
+      },
+      "28798": {
+        "account": {
+          "_account_id": 28798
+        },
+        "last_update": "2026-06-29 07:17:06.000000000",
+        "reason": "Someone else replied on the change"
+      }
+    },
+    "removed_from_attention_set": {
+      "10067": {
+        "account": {
+          "_account_id": 10067
+        },
+        "last_update": "2026-07-19 03:28:18.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "16185": {
+        "account": {
+          "_account_id": 16185
+        },
+        "last_update": "2026-07-29 21:18:06.000000000",
+        "reason": "<GERRIT_ACCOUNT_16185> replied on the change",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-22 16:22:44.000000000",
+        "reason": "removed on reply"
+      }
+    },
+    "hashtags": [],
+    "change_id": "I3ce20ff3ed003288bcf05b9cf82dfba49f2cd934",
+    "subject": "soong: generator: Skip directories in dep_files glob results",
+    "status": "NEW",
+    "created": "2026-06-22 08:07:58.000000000",
+    "updated": "2026-07-29 21:18:06.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 5,
+    "deletions": 0,
+    "total_comment_count": 4,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "09ae49994f32e8b5c350e5adcd9024acc5edfee0",
+    "_number": 491508,
+    "virtual_id_number": 491508,
+    "owner": {
+      "_account_id": 28798
+    },
+    "current_revision_number": 9,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "OK",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_vendor_lineage~490989",
+    "triplet_id": "LineageOS%2Fandroid_vendor_lineage~lineage-24.0~Icc873ae8b22f515ddf32a5e71594cb0f66213a67",
+    "project": "LineageOS/android_vendor_lineage",
+    "branch": "lineage-24.0",
+    "topic": "CP2A",
+    "attention_set": {
+      "4550": {
+        "account": {
+          "_account_id": 4550
+        },
+        "last_update": "2026-06-20 17:39:13.000000000",
+        "reason": "Someone else replied on the change"
+      }
+    },
+    "removed_from_attention_set": {
+      "10067": {
+        "account": {
+          "_account_id": 10067
+        },
+        "last_update": "2026-07-19 03:28:18.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "16185": {
+        "account": {
+          "_account_id": 16185
+        },
+        "last_update": "2026-07-22 18:42:21.000000000",
+        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-22 16:23:06.000000000",
+        "reason": "removed on reply"
+      }
+    },
+    "hashtags": [],
+    "change_id": "Icc873ae8b22f515ddf32a5e71594cb0f66213a67",
+    "subject": "soong: generator: Update for CP2A",
+    "status": "NEW",
+    "created": "2026-06-20 17:38:20.000000000",
+    "updated": "2026-07-29 21:18:02.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 12,
+    "deletions": 16,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "c88d75d7ee70cb56ef9a90f9233b9a807ee392f7",
+    "_number": 490989,
+    "virtual_id_number": 490989,
+    "owner": {
+      "_account_id": 4550
+    },
+    "current_revision_number": 8,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "OK",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_vendor_lineage~490986",
+    "triplet_id": "LineageOS%2Fandroid_vendor_lineage~lineage-24.0~I0d1b5c04fb6fbedfb68db187c2229e3a9928f7f0",
+    "project": "LineageOS/android_vendor_lineage",
+    "branch": "lineage-24.0",
+    "topic": "CP2A",
+    "attention_set": {
+      "4550": {
+        "account": {
+          "_account_id": 4550
+        },
+        "last_update": "2026-07-19 03:29:04.000000000",
+        "reason": "Someone else replied on the change"
+      }
+    },
+    "removed_from_attention_set": {
+      "10067": {
+        "account": {
+          "_account_id": 10067
+        },
+        "last_update": "2026-07-12 23:31:46.000000000",
+        "reason": "<GERRIT_ACCOUNT_4550> replied on the change",
+        "reason_account": {
+          "_account_id": 4550
+        }
+      },
+      "16185": {
+        "account": {
+          "_account_id": 16185
+        },
+        "last_update": "2026-07-22 18:42:19.000000000",
+        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-22 16:22:56.000000000",
+        "reason": "removed on reply"
+      }
+    },
+    "hashtags": [],
+    "change_id": "I0d1b5c04fb6fbedfb68db187c2229e3a9928f7f0",
+    "subject": "release: Bump aconfig flags extension to CP2A",
+    "status": "NEW",
+    "created": "2026-06-20 17:38:20.000000000",
+    "updated": "2026-07-29 21:17:57.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 18,
+    "deletions": 77,
+    "total_comment_count": 2,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "ad3e60df7b590f1763c8ca78ce7dc6621e8d6e9c",
+    "_number": 490986,
+    "virtual_id_number": 490986,
+    "owner": {
+      "_account_id": 4550
+    },
+    "current_revision_number": 8,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "OK",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 16185
+            }
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_vendor_lineage~493909",
+    "triplet_id": "LineageOS%2Fandroid_vendor_lineage~lineage-24.0~If6d346ab6a1178b3895be25662a507e575a8c6f1",
+    "project": "LineageOS/android_vendor_lineage",
+    "branch": "lineage-24.0",
+    "attention_set": {
+      "4550": {
+        "account": {
+          "_account_id": 4550
+        },
+        "last_update": "2026-07-13 09:14:00.000000000",
+        "reason": "Someone else replied on the change"
+      }
+    },
+    "removed_from_attention_set": {
+      "16185": {
+        "account": {
+          "_account_id": 16185
+        },
+        "last_update": "2026-07-29 20:52:50.000000000",
+        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-29 20:28:18.000000000",
+        "reason": "removed on reply"
+      }
+    },
+    "hashtags": [],
+    "change_id": "If6d346ab6a1178b3895be25662a507e575a8c6f1",
+    "subject": "build: Drop build-manifest.xml generation",
+    "status": "NEW",
+    "created": "2026-07-13 09:13:09.000000000",
+    "updated": "2026-07-29 20:52:50.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 0,
+    "deletions": 30,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "08489eee9ad339b89469b14fa58f04169e25d413",
+    "_number": 493909,
+    "virtual_id_number": 493909,
+    "owner": {
+      "_account_id": 4550
+    },
+    "current_revision_number": 3,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_hardware_oplus~486781",
+    "triplet_id": "LineageOS%2Fandroid_hardware_oplus~lineage-23.2~I33b80fbf88fcc9ceeb24979aa35b5bfa1e1d2ec2",
+    "project": "LineageOS/android_hardware_oplus",
+    "branch": "lineage-23.2",
+    "topic": "oplus-canoe",
+    "attention_set": {
+      "30975": {
+        "account": {
+          "_account_id": 30975
+        },
+        "last_update": "2026-05-20 16:45:08.000000000",
+        "reason": "Someone else replied on the change"
+      }
+    },
+    "removed_from_attention_set": {
+      "10067": {
+        "account": {
+          "_account_id": 10067
+        },
+        "last_update": "2026-07-16 20:26:06.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "13648": {
+        "account": {
+          "_account_id": 13648
+        },
+        "last_update": "2026-06-29 14:46:50.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-29 20:45:02.000000000",
+        "reason": "removed on reply"
+      }
+    },
+    "hashtags": [],
+    "change_id": "I33b80fbf88fcc9ceeb24979aa35b5bfa1e1d2ec2",
+    "subject": "sepolicy: qti: Address some subsystem_daemon denials",
+    "status": "NEW",
+    "created": "2026-05-20 16:16:57.000000000",
+    "updated": "2026-07-29 20:45:02.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 8,
+    "deletions": 1,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "7c825c28a17ccb03fb273488123d2df776f90db6",
+    "_number": 486781,
+    "virtual_id_number": 486781,
+    "owner": {
+      "_account_id": 30975
+    },
+    "current_revision_number": 14,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_hardware_oplus~486780",
+    "triplet_id": "LineageOS%2Fandroid_hardware_oplus~lineage-23.2~Ieef823f2ecea4dfb055b6fd6a6bb83bf0a889a3d",
+    "project": "LineageOS/android_hardware_oplus",
+    "branch": "lineage-23.2",
+    "topic": "oplus-canoe",
+    "attention_set": {
+      "30975": {
+        "account": {
+          "_account_id": 30975
+        },
+        "last_update": "2026-05-20 16:45:17.000000000",
+        "reason": "Someone else replied on the change"
+      }
+    },
+    "removed_from_attention_set": {
+      "10067": {
+        "account": {
+          "_account_id": 10067
+        },
+        "last_update": "2026-07-16 20:26:11.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "13648": {
+        "account": {
+          "_account_id": 13648
+        },
+        "last_update": "2026-06-29 14:46:45.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-29 20:42:47.000000000",
+        "reason": "removed on reply"
+      }
+    },
+    "hashtags": [],
+    "change_id": "Ieef823f2ecea4dfb055b6fd6a6bb83bf0a889a3d",
+    "subject": "sepolicy: qti: Allow rules for mdmfeature",
+    "status": "NEW",
+    "created": "2026-05-20 16:16:57.000000000",
+    "updated": "2026-07-29 20:42:47.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 36,
+    "deletions": 4,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "af124a45a2ed39944856f3667bc401637105b410",
+    "_number": 486780,
+    "virtual_id_number": 486780,
+    "owner": {
+      "_account_id": 30975
+    },
+    "current_revision_number": 14,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_hardware_oplus~480489",
+    "triplet_id": "LineageOS%2Fandroid_hardware_oplus~lineage-23.2~I7f87488b7f2bbfcd6dbf99d07ee22d7aedab5d03",
+    "project": "LineageOS/android_hardware_oplus",
+    "branch": "lineage-23.2",
+    "topic": "oplus-canoe",
+    "attention_set": {
+      "30975": {
+        "account": {
+          "_account_id": 30975
+        },
+        "last_update": "2026-04-12 04:40:52.000000000",
+        "reason": "Someone else replied on the change"
+      }
+    },
+    "removed_from_attention_set": {
+      "10067": {
+        "account": {
+          "_account_id": 10067
+        },
+        "last_update": "2026-07-16 20:26:11.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "13648": {
+        "account": {
+          "_account_id": 13648
+        },
+        "last_update": "2026-06-29 14:46:52.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-29 20:42:47.000000000",
+        "reason": "removed on reply"
+      }
+    },
+    "hashtags": [],
+    "change_id": "I7f87488b7f2bbfcd6dbf99d07ee22d7aedab5d03",
+    "subject": "sepolicy: qti: Bring up support for infiniti/fairlady (OnePlus 15/15T)",
+    "status": "NEW",
+    "created": "2026-04-12 04:40:09.000000000",
+    "updated": "2026-07-29 20:42:47.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 63,
+    "deletions": 12,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "79e00eebab7cfec97cbfb9f7743b898c504d7b17",
+    "_number": 480489,
+    "virtual_id_number": 480489,
+    "owner": {
+      "_account_id": 30975
+    },
+    "current_revision_number": 17,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_hardware_oplus~487605",
+    "triplet_id": "LineageOS%2Fandroid_hardware_oplus~lineage-23.2~Ibc29b4d764643caad71f43511f887e86619bde74",
+    "project": "LineageOS/android_hardware_oplus",
+    "branch": "lineage-23.2",
+    "attention_set": {
+      "10067": {
+        "account": {
+          "_account_id": 10067
+        },
+        "last_update": "2026-05-30 08:10:29.000000000",
+        "reason": "Someone else replied on the change"
+      },
+      "30975": {
+        "account": {
+          "_account_id": 30975
+        },
+        "last_update": "2026-07-16 20:26:10.000000000",
+        "reason": "Someone else replied on the change"
+      }
+    },
+    "removed_from_attention_set": {
+      "13648": {
+        "account": {
+          "_account_id": 13648
+        },
+        "last_update": "2026-06-29 14:46:46.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-29 20:42:45.000000000",
+        "reason": "removed on reply"
+      }
+    },
+    "hashtags": [],
+    "change_id": "Ibc29b4d764643caad71f43511f887e86619bde74",
+    "subject": "oplus: Introduce bare minimum hbp setup tool for recovery touch support",
+    "status": "NEW",
+    "created": "2026-05-30 08:09:48.000000000",
+    "updated": "2026-07-29 20:42:45.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 130,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "fa00384f5bc9a66be9c500f05ab62f630271c775",
+    "_number": 487605,
+    "virtual_id_number": 487605,
+    "owner": {
+      "_account_id": 10067
+    },
+    "current_revision_number": 17,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_hardware_oplus~487173",
+    "triplet_id": "LineageOS%2Fandroid_hardware_oplus~lineage-23.2~I17078bc9bceba627218b854404badb2649d4c674",
+    "project": "LineageOS/android_hardware_oplus",
+    "branch": "lineage-23.2",
+    "attention_set": {
+      "30975": {
+        "account": {
+          "_account_id": 30975
+        },
+        "last_update": "2026-05-25 18:12:56.000000000",
+        "reason": "Someone else replied on the change"
+      }
+    },
+    "removed_from_attention_set": {
+      "10067": {
+        "account": {
+          "_account_id": 10067
+        },
+        "last_update": "2026-07-16 20:26:14.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "13648": {
+        "account": {
+          "_account_id": 13648
+        },
+        "last_update": "2026-06-29 14:46:52.000000000",
+        "reason": "Only change owner, uploader, reviewers, and cc can be in the attention set"
+      },
+      "33039": {
+        "account": {
+          "_account_id": 33039
+        },
+        "last_update": "2026-07-29 20:42:44.000000000",
+        "reason": "removed on reply"
+      }
+    },
+    "hashtags": [],
+    "change_id": "I17078bc9bceba627218b854404badb2649d4c674",
+    "subject": "aidl: powershare: Fix enable_tx chown race condition",
+    "status": "NEW",
+    "created": "2026-05-25 18:12:16.000000000",
+    "updated": "2026-07-29 20:42:44.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 1,
+    "deletions": 1,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "ec32d037e88da2e62a19bf3174137505c777cb3f",
+    "_number": 487173,
+    "virtual_id_number": 487173,
+    "owner": {
+      "_account_id": 30975
+    },
+    "current_revision_number": 11,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY",
+            "applied_by": {
+              "_account_id": 33039
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid~494425",
+    "triplet_id": "LineageOS%2Fandroid~lineage-24.0~Ied725fae07760f753e7cbe6ceed921ce6e5d87cb",
+    "project": "LineageOS/android",
+    "branch": "lineage-24.0",
+    "hashtags": [],
+    "change_id": "Ied725fae07760f753e7cbe6ceed921ce6e5d87cb",
+    "subject": "Revert \"manifest: Drop GCC prebuilts\"",
+    "status": "NEW",
+    "created": "2026-07-23 01:29:36.000000000",
+    "updated": "2026-07-29 20:40:14.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 3,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "47772f79a837bcd9f7664d0390c954f491f0fe34",
+    "_number": 494425,
+    "virtual_id_number": 494425,
+    "owner": {
+      "_account_id": 16185
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_hardware_qcom_audio-ar~493305",
+    "triplet_id": "LineageOS%2Fandroid_hardware_qcom_audio-ar~lineage-24.0-caf-sm8450-6.6~I708554e85399f15eb847051f390eab7564b9396a",
+    "project": "LineageOS/android_hardware_qcom_audio-ar",
+    "branch": "lineage-24.0-caf-sm8450-6.6",
+    "hashtags": [],
+    "change_id": "I708554e85399f15eb847051f390eab7564b9396a",
+    "subject": "effects: Account for 'acnMask'",
+    "status": "NEW",
+    "created": "2026-07-05 16:46:11.000000000",
+    "updated": "2026-07-29 20:13:15.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 5,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "f0ae2ddf7c07d3b15fea8bcff9f77de019bbb60e",
+    "_number": 493305,
+    "virtual_id_number": 493305,
+    "owner": {
+      "_account_id": 10067
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_hardware_qcom_audio-ar~492312",
+    "triplet_id": "LineageOS%2Fandroid_hardware_qcom_audio-ar~lineage-24.0-caf-sm8750~I708554e85399f15eb847051f390eab7564b9396a",
+    "project": "LineageOS/android_hardware_qcom_audio-ar",
+    "branch": "lineage-24.0-caf-sm8750",
+    "hashtags": [],
+    "change_id": "I708554e85399f15eb847051f390eab7564b9396a",
+    "subject": "effects: Account for 'acnMask'",
+    "status": "NEW",
+    "created": "2026-06-27 15:15:13.000000000",
+    "updated": "2026-07-29 20:13:07.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 5,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "a420c50218ade0777b12ec9eaf202b338a963f35",
+    "_number": 492312,
+    "virtual_id_number": 492312,
+    "owner": {
+      "_account_id": 13648
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~494827",
+    "triplet_id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~lineage-23.2~I03fa44cea89128a820c4117aecacc44eeedd5fae",
+    "project": "LineageOS/android_device_mediatek_sepolicy_vndr",
+    "branch": "lineage-23.2",
+    "attention_set": {},
+    "removed_from_attention_set": {
+      "16185": {
+        "account": {
+          "_account_id": 16185
+        },
+        "last_update": "2026-07-29 18:16:51.000000000",
+        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      }
+    },
+    "hashtags": [],
+    "change_id": "I03fa44cea89128a820c4117aecacc44eeedd5fae",
+    "subject": "base: vendor: Label more MediaTek DMA-BUF heaps",
+    "status": "NEW",
+    "created": "2026-07-29 05:48:27.000000000",
+    "updated": "2026-07-29 18:16:51.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 14,
+    "deletions": 11,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "e49c37151292cafbe563775056c132edc09bc941",
+    "_number": 494827,
+    "virtual_id_number": 494827,
+    "owner": {
+      "_account_id": 24442
+    },
+    "current_revision_number": 2,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "OK",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 24442
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 24442
+            }
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_xiaomi_sweet~494807",
+    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_sweet~lineage-23.2~Icb65dfa694df26143a58c3e3ce3fd9820b40b92b",
+    "project": "LineageOS/android_device_xiaomi_sweet",
+    "branch": "lineage-23.2",
+    "attention_set": {
+      "37623": {
+        "account": {
+          "_account_id": 37623
+        },
+        "last_update": "2026-07-29 06:20:17.000000000",
+        "reason": "<GERRIT_ACCOUNT_28223> replied on the change",
+        "reason_account": {
+          "_account_id": 28223
+        }
+      }
+    },
+    "removed_from_attention_set": {},
+    "hashtags": [],
+    "change_id": "Icb65dfa694df26143a58c3e3ce3fd9820b40b92b",
+    "subject": "sweet: nfc: Enable ISO14443-4 extended APDU support",
+    "status": "NEW",
+    "created": "2026-07-28 18:33:28.000000000",
+    "updated": "2026-07-29 16:29:01.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 578,
+    "deletions": 1,
+    "total_comment_count": 1,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "c5f71d7be25f3b59d5a2bb9bee6bde5287d7e6d1",
+    "_number": 494807,
+    "virtual_id_number": 494807,
+    "owner": {
+      "_account_id": 37623
+    },
+    "current_revision_number": 3,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_packages_apps_ThemePicker~494849",
+    "triplet_id": "LineageOS%2Fandroid_packages_apps_ThemePicker~lineage-23.2~I63f50c9d33c38835e9f1a81e8474bbc9fabb8562",
+    "project": "LineageOS/android_packages_apps_ThemePicker",
+    "branch": "lineage-23.2",
+    "attention_set": {
+      "4550": {
+        "account": {
+          "_account_id": 4550
+        },
+        "last_update": "2026-07-29 15:51:13.000000000",
+        "reason": "<GERRIT_ACCOUNT_37587> replied on the change",
+        "reason_account": {
+          "_account_id": 37587
+        }
+      },
+      "13648": {
+        "account": {
+          "_account_id": 13648
+        },
+        "last_update": "2026-07-29 15:51:13.000000000",
+        "reason": "<GERRIT_ACCOUNT_37587> replied on the change",
+        "reason_account": {
+          "_account_id": 37587
+        }
+      }
+    },
+    "removed_from_attention_set": {},
+    "hashtags": [],
+    "change_id": "I63f50c9d33c38835e9f1a81e8474bbc9fabb8562",
+    "subject": "feat: apply launcher icon shape globally",
+    "status": "NEW",
+    "created": "2026-07-29 15:45:12.000000000",
+    "updated": "2026-07-29 15:51:13.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 777,
+    "deletions": 12,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "7187f0175676ecdb2711834dd1e973ce011b6e35",
+    "_number": 494849,
+    "virtual_id_number": 494849,
+    "owner": {
+      "_account_id": 37587
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_hardware_samsung_slsi-linaro_config~494836",
+    "triplet_id": "LineageOS%2Fandroid_hardware_samsung_slsi-linaro_config~lineage-24.0~I1fc6bbaa95bd69a2a5244f7f3bad8b4882854978",
+    "project": "LineageOS/android_hardware_samsung_slsi-linaro_config",
+    "branch": "lineage-24.0",
+    "hashtags": [],
+    "change_id": "I1fc6bbaa95bd69a2a5244f7f3bad8b4882854978",
+    "subject": "config: Add s5e8535 configuration",
+    "status": "NEW",
+    "created": "2026-07-29 11:53:52.000000000",
+    "updated": "2026-07-29 15:45:51.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 25,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "cfb5f6cab7de9829ab732f36c18fc1649321e5d5",
+    "_number": 494836,
+    "virtual_id_number": 494836,
+    "owner": {
+      "_account_id": 36980
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 36980
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_hardware_samsung_slsi-linaro_config~494835",
+    "triplet_id": "LineageOS%2Fandroid_hardware_samsung_slsi-linaro_config~lineage-24.0~Ie9cc4025683288942d878c503166a2d9671c3705",
+    "project": "LineageOS/android_hardware_samsung_slsi-linaro_config",
+    "branch": "lineage-24.0",
+    "attention_set": {
+      "35850": {
+        "account": {
+          "_account_id": 35850
+        },
+        "last_update": "2026-07-29 15:45:31.000000000",
+        "reason": "<GERRIT_ACCOUNT_36980> replied on the change",
+        "reason_account": {
+          "_account_id": 36980
+        }
+      }
+    },
+    "removed_from_attention_set": {},
+    "hashtags": [],
+    "change_id": "Ie9cc4025683288942d878c503166a2d9671c3705",
+    "subject": "openmax: Wire up UNSUPPORT_10BIT flag",
+    "status": "NEW",
+    "created": "2026-07-29 11:53:52.000000000",
+    "updated": "2026-07-29 15:45:31.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 4,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "1071e4b7cc54f4155b3c6494a3c4b2286964033f",
+    "_number": 494835,
+    "virtual_id_number": 494835,
+    "owner": {
+      "_account_id": 36980
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 36980
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_retroidpocket_RPN~494760",
+    "triplet_id": "LineageOS%2Fandroid_device_retroidpocket_RPN~lineage-23.2~I065db94a7dcb50ae575ac4e9524533874b3784f0",
+    "project": "LineageOS/android_device_retroidpocket_RPN",
+    "branch": "lineage-23.2",
+    "topic": "nova_bringup",
+    "hashtags": [],
+    "change_id": "I065db94a7dcb50ae575ac4e9524533874b3784f0",
+    "subject": "RPN: Correct sensor orientation",
+    "status": "NEW",
+    "created": "2026-07-27 21:05:35.000000000",
+    "updated": "2026-07-29 15:23:13.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 13,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "51a7f2192ce882e1ec10e4b740994e05613d6247",
+    "_number": 494760,
+    "virtual_id_number": 494760,
+    "owner": {
+      "_account_id": 29242
+    },
+    "current_revision_number": 3,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_retroidpocket_RPN~494691",
+    "triplet_id": "LineageOS%2Fandroid_device_retroidpocket_RPN~lineage-23.2~I5e981e700fe39ef6ba1e12c46160adbf83b0b52d",
+    "project": "LineageOS/android_device_retroidpocket_RPN",
+    "branch": "lineage-23.2",
+    "topic": "nova_bringup",
+    "hashtags": [],
+    "change_id": "I5e981e700fe39ef6ba1e12c46160adbf83b0b52d",
+    "subject": "RPN: Include mcuapp_firmware.txt",
+    "status": "NEW",
+    "created": "2026-07-26 23:43:58.000000000",
+    "updated": "2026-07-29 15:23:13.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 5,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "e279c7cf3886a0da84a1620b6c16eea1bb141bca",
+    "_number": 494691,
+    "virtual_id_number": 494691,
+    "owner": {
+      "_account_id": 29242
+    },
+    "current_revision_number": 4,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_retroidpocket_RPN~494690",
+    "triplet_id": "LineageOS%2Fandroid_device_retroidpocket_RPN~lineage-23.2~I47fad191f7a7aaa17b9074de9d27c6bade09cc23",
+    "project": "LineageOS/android_device_retroidpocket_RPN",
+    "branch": "lineage-23.2",
+    "topic": "nova_bringup",
+    "hashtags": [],
+    "change_id": "I47fad191f7a7aaa17b9074de9d27c6bade09cc23",
+    "subject": "RPN: Filter dtbos",
+    "status": "NEW",
+    "created": "2026-07-26 23:43:58.000000000",
+    "updated": "2026-07-29 15:23:13.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 3,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "64e9f4e60fd0a398a5c150e8fb7d26db3a2933d5",
+    "_number": 494690,
+    "virtual_id_number": 494690,
+    "owner": {
+      "_account_id": 29242
+    },
+    "current_revision_number": 4,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_retroidpocket_RPN~494689",
+    "triplet_id": "LineageOS%2Fandroid_device_retroidpocket_RPN~lineage-23.2~Ib4bbe30cd9f12c6b0a4e3019db8e26ff0bdb5703",
+    "project": "LineageOS/android_device_retroidpocket_RPN",
+    "branch": "lineage-23.2",
+    "topic": "nova_bringup",
+    "hashtags": [],
+    "change_id": "Ib4bbe30cd9f12c6b0a4e3019db8e26ff0bdb5703",
+    "subject": "RPN: Setup device specific overlays",
+    "status": "NEW",
+    "created": "2026-07-26 23:43:58.000000000",
+    "updated": "2026-07-29 15:23:13.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 274,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "724b695c0c1d4a5bcef6c346313556ccc004d811",
+    "_number": 494689,
+    "virtual_id_number": 494689,
+    "owner": {
+      "_account_id": 29242
+    },
+    "current_revision_number": 3,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_build~490388",
+    "triplet_id": "LineageOS%2Fandroid_build~lineage-24.0~I3c74bc2e3d3eee00585a20c6cb49d119185a2b0a",
+    "project": "LineageOS/android_build",
+    "branch": "lineage-24.0",
+    "hashtags": [],
+    "change_id": "I3c74bc2e3d3eee00585a20c6cb49d119185a2b0a",
+    "subject": "fixup! core & tools: system_dlkm: add dynamic partition",
+    "status": "NEW",
+    "created": "2026-06-20 00:20:28.000000000",
+    "updated": "2026-07-29 09:50:37.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 1,
+    "deletions": 1,
+    "total_comment_count": 1,
+    "unresolved_comment_count": 1,
+    "has_review_started": true,
+    "meta_rev_id": "76662337131a8f6e5fd01a6044527b06c560550e",
+    "_number": 490388,
+    "virtual_id_number": 490388,
+    "owner": {
+      "_account_id": 4550
+    },
+    "current_revision_number": 3,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_build~493887",
+    "triplet_id": "LineageOS%2Fandroid_build~lineage-24.0~Ieb6771e6e4436a5f0880746f691e4f6ad2bcf81d",
+    "project": "LineageOS/android_build",
+    "branch": "lineage-24.0",
+    "attention_set": {
+      "4550": {
+        "account": {
+          "_account_id": 4550
+        },
+        "last_update": "2026-07-29 07:32:57.000000000",
+        "reason": "<GERRIT_ACCOUNT_34519> replied on the change",
+        "reason_account": {
+          "_account_id": 34519
+        }
+      },
+      "34519": {
+        "account": {
+          "_account_id": 34519
+        },
+        "last_update": "2026-07-29 07:40:39.000000000",
+        "reason": "<GERRIT_ACCOUNT_33857> replied on the change",
+        "reason_account": {
+          "_account_id": 33857
+        }
+      }
+    },
+    "removed_from_attention_set": {
+      "13648": {
+        "account": {
+          "_account_id": 13648
+        },
+        "last_update": "2026-07-29 07:32:57.000000000",
+        "reason": "<GERRIT_ACCOUNT_34519> replied on the change",
+        "reason_account": {
+          "_account_id": 34519
+        }
+      },
+      "16185": {
+        "account": {
+          "_account_id": 16185
+        },
+        "last_update": "2026-07-13 06:41:59.000000000",
+        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
+        "reason_account": {
+          "_account_id": 16185
+        }
+      },
+      "33857": {
+        "account": {
+          "_account_id": 33857
+        },
+        "last_update": "2026-07-29 07:40:39.000000000",
+        "reason": "<GERRIT_ACCOUNT_33857> replied on the change",
+        "reason_account": {
+          "_account_id": 33857
+        }
+      }
+    },
+    "hashtags": [],
+    "change_id": "Ieb6771e6e4436a5f0880746f691e4f6ad2bcf81d",
+    "subject": "releasetools: skip disable_ublk on non-dynamic devices",
+    "status": "NEW",
+    "created": "2026-07-13 04:52:05.000000000",
+    "updated": "2026-07-29 08:57:51.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 4,
+    "deletions": 3,
+    "total_comment_count": 8,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "59089994685f2b80b2add944bedc9ee060ba9a28",
+    "_number": 493887,
+    "virtual_id_number": 493887,
+    "owner": {
+      "_account_id": 34519
+    },
+    "current_revision_number": 3,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_xiaomi_rosemary~494832",
+    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_rosemary~lineage-23.2~I681ecc4c60e2905206ba00404888a552de515594",
+    "project": "LineageOS/android_device_xiaomi_rosemary",
+    "branch": "lineage-23.2",
+    "attention_set": {
+      "26349": {
+        "account": {
+          "_account_id": 26349
+        },
+        "last_update": "2026-07-29 06:55:10.000000000",
+        "reason": "<GERRIT_ACCOUNT_24442> replied on the change",
+        "reason_account": {
+          "_account_id": 24442
+        }
+      }
+    },
+    "removed_from_attention_set": {},
+    "hashtags": [],
+    "change_id": "I681ecc4c60e2905206ba00404888a552de515594",
+    "subject": "rosemary: sepolicy: Move some rules into mtk common sepolicy",
+    "status": "NEW",
+    "created": "2026-07-29 06:53:50.000000000",
+    "updated": "2026-07-29 06:55:10.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 0,
+    "deletions": 17,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "f6115f955345aa75c0b51ec68060511e7c966626",
+    "_number": 494832,
+    "virtual_id_number": 494832,
+    "owner": {
+      "_account_id": 24442
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 24442
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_xiaomi_earth~494831",
+    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_earth~lineage-23.2~I681ecc4c60e2905206ba00404888a552de515594",
+    "project": "LineageOS/android_device_xiaomi_earth",
+    "branch": "lineage-23.2",
+    "attention_set": {
+      "26349": {
+        "account": {
+          "_account_id": 26349
+        },
+        "last_update": "2026-07-29 06:54:54.000000000",
+        "reason": "<GERRIT_ACCOUNT_24442> replied on the change",
+        "reason_account": {
+          "_account_id": 24442
+        }
+      }
+    },
+    "removed_from_attention_set": {},
+    "hashtags": [],
+    "change_id": "I681ecc4c60e2905206ba00404888a552de515594",
+    "subject": "earth: sepolicy: Move some rules into mtk common sepolicy",
+    "status": "NEW",
+    "created": "2026-07-29 06:50:35.000000000",
+    "updated": "2026-07-29 06:54:54.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 0,
+    "deletions": 12,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "ca4ebf9bde4ddf8b2081831e03ecb5788342089c",
+    "_number": 494831,
+    "virtual_id_number": 494831,
+    "owner": {
+      "_account_id": 24442
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 24442
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_motorola_mt6768-common~494830",
+    "triplet_id": "LineageOS%2Fandroid_device_motorola_mt6768-common~lineage-23.2~I681ecc4c60e2905206ba00404888a552de515594",
+    "project": "LineageOS/android_device_motorola_mt6768-common",
+    "branch": "lineage-23.2",
+    "attention_set": {
+      "25545": {
+        "account": {
+          "_account_id": 25545
+        },
+        "last_update": "2026-07-29 06:54:36.000000000",
+        "reason": "<GERRIT_ACCOUNT_24442> replied on the change",
+        "reason_account": {
+          "_account_id": 24442
+        }
+      }
+    },
+    "removed_from_attention_set": {},
+    "hashtags": [],
+    "change_id": "I681ecc4c60e2905206ba00404888a552de515594",
+    "subject": "mt6768-common: sepolicy: Move some rules into mtk common sepolicy",
+    "status": "NEW",
+    "created": "2026-07-29 06:46:35.000000000",
+    "updated": "2026-07-29 06:54:36.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 0,
+    "deletions": 31,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "40f1a454b868ef9945251f729e594b08eaca75b6",
+    "_number": 494830,
+    "virtual_id_number": 494830,
+    "owner": {
+      "_account_id": 24442
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "OK",
+            "applied_by": {
+              "_account_id": 24442
+            }
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~494826",
+    "triplet_id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~lineage-23.2~I405fd463d4b63d003b5e5a50d96a3772f62ae862",
+    "project": "LineageOS/android_device_mediatek_sepolicy_vndr",
+    "branch": "lineage-23.2",
+    "hashtags": [],
+    "change_id": "I405fd463d4b63d003b5e5a50d96a3772f62ae862",
+    "subject": "base: vendor: Label iSE app loader daemon",
+    "status": "NEW",
+    "created": "2026-07-29 05:48:27.000000000",
+    "updated": "2026-07-29 06:36:08.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 18,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "bc9078e1f0cc84c0002a088d2320696cf2ae50cf",
+    "_number": 494826,
+    "virtual_id_number": 494826,
+    "owner": {
+      "_account_id": 24442
+    },
+    "current_revision_number": 2,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_packages_apps_Launcher3~494789",
+    "triplet_id": "LineageOS%2Fandroid_packages_apps_Launcher3~lineage-23.2~Ib0878007974c35d1ecc22b16621fda7fe5eda3e1",
+    "project": "LineageOS/android_packages_apps_Launcher3",
+    "branch": "lineage-23.2",
+    "attention_set": {
+      "34795": {
+        "account": {
+          "_account_id": 34795
+        },
+        "last_update": "2026-07-29 06:19:47.000000000",
+        "reason": "<GERRIT_ACCOUNT_37587> replied on the change",
+        "reason_account": {
+          "_account_id": 37587
+        }
+      }
+    },
+    "removed_from_attention_set": {},
+    "hashtags": [],
+    "change_id": "Ib0878007974c35d1ecc22b16621fda7fe5eda3e1",
+    "subject": "Launcher3: Match app launch radius to custom icon shape",
+    "status": "NEW",
+    "created": "2026-07-28 13:52:29.000000000",
+    "updated": "2026-07-29 06:19:47.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 15,
+    "deletions": 2,
+    "total_comment_count": 1,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "47528cb156ca27fa0f52526f36f8429bea29dd11",
+    "_number": 494789,
+    "virtual_id_number": 494789,
+    "owner": {
+      "_account_id": 37587
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~494825",
+    "triplet_id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~lineage-23.2~If4415321d08c932542884e77e8d15af232efdb4e",
+    "project": "LineageOS/android_device_mediatek_sepolicy_vndr",
+    "branch": "lineage-23.2",
+    "hashtags": [],
+    "change_id": "If4415321d08c932542884e77e8d15af232efdb4e",
+    "subject": "base: vendor: Label iSE partition",
+    "status": "NEW",
+    "created": "2026-07-29 05:48:27.000000000",
+    "updated": "2026-07-29 05:48:27.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 3,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "f75d5b4295f6426442cddc4062e9794f6a142d0f",
+    "_number": 494825,
+    "virtual_id_number": 494825,
+    "owner": {
+      "_account_id": 24442
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~494824",
+    "triplet_id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~lineage-23.2~I1e9c694282c01d9e07be96a499d41c646dcf6996",
+    "project": "LineageOS/android_device_mediatek_sepolicy_vndr",
+    "branch": "lineage-23.2",
+    "hashtags": [],
+    "change_id": "I1e9c694282c01d9e07be96a499d41c646dcf6996",
+    "subject": "base: vendor: Label ROTFW partitions",
+    "status": "NEW",
+    "created": "2026-07-29 05:48:27.000000000",
+    "updated": "2026-07-29 05:48:27.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 5,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "985c40d181ccaa027d15f38ff7ad955955a2cede",
+    "_number": 494824,
+    "virtual_id_number": 494824,
+    "owner": {
+      "_account_id": 24442
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~494823",
+    "triplet_id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~lineage-23.2~I8459e6d65092f8b7fd55f2e22b00e913f5da5368",
+    "project": "LineageOS/android_device_mediatek_sepolicy_vndr",
+    "branch": "lineage-23.2",
+    "hashtags": [],
+    "change_id": "I8459e6d65092f8b7fd55f2e22b00e913f5da5368",
+    "subject": "base: vendor: Label MediaTek finder and ranging bluetooth service",
+    "status": "NEW",
+    "created": "2026-07-29 05:48:27.000000000",
+    "updated": "2026-07-29 05:48:27.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 2,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "1cb6dc1f9b7b19519262b35808ab22f08633dde1",
+    "_number": 494823,
+    "virtual_id_number": 494823,
+    "owner": {
+      "_account_id": 24442
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~494822",
+    "triplet_id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~lineage-23.2~I00ceee19dd53b280b6aa41c5e232cf2828de0b75",
+    "project": "LineageOS/android_device_mediatek_sepolicy_vndr",
+    "branch": "lineage-23.2",
+    "hashtags": [],
+    "change_id": "I00ceee19dd53b280b6aa41c5e232cf2828de0b75",
+    "subject": "base: vendor: Label MediaTek neuropilot neural networks service",
+    "status": "NEW",
+    "created": "2026-07-29 05:48:27.000000000",
+    "updated": "2026-07-29 05:48:27.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 3,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "503c07442ff4186d69ca04923a33a9476038b3d8",
+    "_number": 494822,
+    "virtual_id_number": 494822,
+    "owner": {
+      "_account_id": 24442
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~494821",
+    "triplet_id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~lineage-23.2~Idc925e4c8a6de75eb53100645d06b4827655bda3",
+    "project": "LineageOS/android_device_mediatek_sepolicy_vndr",
+    "branch": "lineage-23.2",
+    "hashtags": [],
+    "change_id": "Idc925e4c8a6de75eb53100645d06b4827655bda3",
+    "subject": "base: vendor: Label CHRE tinysys service",
+    "status": "NEW",
+    "created": "2026-07-29 05:48:27.000000000",
+    "updated": "2026-07-29 05:48:27.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 13,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "536279a1a5997718dc1cb62bee6284570d8bafc5",
+    "_number": 494821,
+    "virtual_id_number": 494821,
+    "owner": {
+      "_account_id": 24442
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~494820",
+    "triplet_id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~lineage-23.2~I17ec47f8791991223defc84fe4053d4934fe2962",
+    "project": "LineageOS/android_device_mediatek_sepolicy_vndr",
+    "branch": "lineage-23.2",
+    "hashtags": [],
+    "change_id": "I17ec47f8791991223defc84fe4053d4934fe2962",
+    "subject": "base: vendor: Label Trustonic TEE secretkeeper service",
+    "status": "NEW",
+    "created": "2026-07-29 05:48:27.000000000",
+    "updated": "2026-07-29 05:48:27.000000000",
+    "submit_type": "REBASE_IF_NECESSARY",
+    "insertions": 5,
+    "deletions": 0,
+    "total_comment_count": 0,
+    "unresolved_comment_count": 0,
+    "has_review_started": true,
+    "meta_rev_id": "02541fe70569077e26c4645a5eb946f7256a4f00",
+    "_number": 494820,
+    "virtual_id_number": 494820,
+    "owner": {
+      "_account_id": 24442
+    },
+    "current_revision_number": 1,
+    "requirements": [],
+    "submit_records": [
+      {
+        "rule_name": "gerrit~DefaultSubmitRule",
+        "status": "NOT_READY",
+        "labels": [
+          {
+            "label": "Verified",
+            "status": "NEED"
+          },
+          {
+            "label": "Code-Review",
+            "status": "NEED"
+          },
+          {
+            "label": "CI",
+            "status": "MAY"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "LineageOS%2Fandroid_kernel_qcom_sm8350~494819",
     "triplet_id": "LineageOS%2Fandroid_kernel_qcom_sm8350~lineage-20~I07e2f318a3c835d56aae6b5e68d8e8e3c7e4c493",
     "project": "LineageOS/android_kernel_qcom_sm8350",
@@ -869,52 +3958,6 @@
     ]
   },
   {
-    "id": "LineageOS%2Fandroid_device_xiaomi_sweet~494807",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_sweet~lineage-23.2~Icb65dfa694df26143a58c3e3ce3fd9820b40b92b",
-    "project": "LineageOS/android_device_xiaomi_sweet",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Icb65dfa694df26143a58c3e3ce3fd9820b40b92b",
-    "subject": "sweet: Enable NFC Extended Length for German ID Card support",
-    "status": "NEW",
-    "created": "2026-07-28 18:33:28.000000000",
-    "updated": "2026-07-28 18:35:20.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 574,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "157da5aab0eaa17f00e07067f5b8e10ae77922e1",
-    "_number": 494807,
-    "virtual_id_number": 494807,
-    "owner": {
-      "_account_id": 37623
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "LineageOS%2Fandroid_device_xiaomi_sweet~494793",
     "triplet_id": "LineageOS%2Fandroid_device_xiaomi_sweet~lineage-23.2~I39c0b642c53a0a8373718380716adf3a481e06ef",
     "project": "LineageOS/android_device_xiaomi_sweet",
@@ -1345,103 +4388,6 @@
     ]
   },
   {
-    "id": "LineageOS%2Fandroid_build~493887",
-    "triplet_id": "LineageOS%2Fandroid_build~lineage-24.0~Ieb6771e6e4436a5f0880746f691e4f6ad2bcf81d",
-    "project": "LineageOS/android_build",
-    "branch": "lineage-24.0",
-    "attention_set": {
-      "13648": {
-        "account": {
-          "_account_id": 13648
-        },
-        "last_update": "2026-07-25 14:27:08.000000000",
-        "reason": "<GERRIT_ACCOUNT_4550> replied on the change",
-        "reason_account": {
-          "_account_id": 4550
-        }
-      },
-      "33857": {
-        "account": {
-          "_account_id": 33857
-        },
-        "last_update": "2026-07-13 10:41:46.000000000",
-        "reason": "Vote got outdated and was removed: Verified+1"
-      },
-      "34519": {
-        "account": {
-          "_account_id": 34519
-        },
-        "last_update": "2026-07-28 14:36:20.000000000",
-        "reason": "<GERRIT_ACCOUNT_4550> replied on the change",
-        "reason_account": {
-          "_account_id": 4550
-        }
-      }
-    },
-    "removed_from_attention_set": {
-      "4550": {
-        "account": {
-          "_account_id": 4550
-        },
-        "last_update": "2026-07-28 14:36:20.000000000",
-        "reason": "<GERRIT_ACCOUNT_4550> replied on the change",
-        "reason_account": {
-          "_account_id": 4550
-        }
-      },
-      "16185": {
-        "account": {
-          "_account_id": 16185
-        },
-        "last_update": "2026-07-13 06:41:59.000000000",
-        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
-        "reason_account": {
-          "_account_id": 16185
-        }
-      }
-    },
-    "hashtags": [],
-    "change_id": "Ieb6771e6e4436a5f0880746f691e4f6ad2bcf81d",
-    "subject": "releasetools: skip disable_ublk on non-dynamic devices",
-    "status": "NEW",
-    "created": "2026-07-13 04:52:05.000000000",
-    "updated": "2026-07-28 14:42:04.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 4,
-    "deletions": 3,
-    "total_comment_count": 5,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "ce3a0951afe257992f1bfa886ea1b4566ecfa7d8",
-    "_number": 493887,
-    "virtual_id_number": 493887,
-    "owner": {
-      "_account_id": 34519
-    },
-    "current_revision_number": 3,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "LineageOS%2Fandroid_build~491482",
     "triplet_id": "LineageOS%2Fandroid_build~lineage-24.0~I666b92ddbbc87ab43344ced787b1742d2a010dcc",
     "project": "LineageOS/android_build",
@@ -1507,52 +4453,6 @@
     "meta_rev_id": "c905bf27a660f2ad8d222ec29e0fb6e72c99971e",
     "_number": 491135,
     "virtual_id_number": 491135,
-    "owner": {
-      "_account_id": 4550
-    },
-    "current_revision_number": 3,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_build~490388",
-    "triplet_id": "LineageOS%2Fandroid_build~lineage-24.0~I3c74bc2e3d3eee00585a20c6cb49d119185a2b0a",
-    "project": "LineageOS/android_build",
-    "branch": "lineage-24.0",
-    "hashtags": [],
-    "change_id": "I3c74bc2e3d3eee00585a20c6cb49d119185a2b0a",
-    "subject": "fixup! core & tools: system_dlkm: add dynamic partition",
-    "status": "NEW",
-    "created": "2026-06-20 00:20:28.000000000",
-    "updated": "2026-07-28 14:42:04.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 1,
-    "deletions": 1,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "01b2fd0c15e624cd9e616ea2dfd00c3df4d47b00",
-    "_number": 490388,
-    "virtual_id_number": 490388,
     "owner": {
       "_account_id": 4550
     },
@@ -4077,52 +6977,6 @@
     ]
   },
   {
-    "id": "LineageOS%2Fandroid_packages_apps_Launcher3~494789",
-    "triplet_id": "LineageOS%2Fandroid_packages_apps_Launcher3~lineage-23.2~Ib0878007974c35d1ecc22b16621fda7fe5eda3e1",
-    "project": "LineageOS/android_packages_apps_Launcher3",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Ib0878007974c35d1ecc22b16621fda7fe5eda3e1",
-    "subject": "Launcher3: Match app launch radius to custom icon shape",
-    "status": "NEW",
-    "created": "2026-07-28 13:52:29.000000000",
-    "updated": "2026-07-28 13:52:29.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 15,
-    "deletions": 2,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "eb02ca49123d92a7dd3a706cf22ab7f8464ebf0b",
-    "_number": 494789,
-    "virtual_id_number": 494789,
-    "owner": {
-      "_account_id": 37587
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "LineageOS%2Fandroid_kernel_xiaomi_msm8937~494739",
     "triplet_id": "LineageOS%2Fandroid_kernel_xiaomi_msm8937~lineage-23.2~Ia6da4621cf9305f207b88426e2642eb555661e4a",
     "project": "LineageOS/android_kernel_xiaomi_msm8937",
@@ -5124,194 +7978,6 @@
             "applied_by": {
               "_account_id": 37188
             }
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_retroidpocket_RPN~494760",
-    "triplet_id": "LineageOS%2Fandroid_device_retroidpocket_RPN~lineage-23.2~I065db94a7dcb50ae575ac4e9524533874b3784f0",
-    "project": "LineageOS/android_device_retroidpocket_RPN",
-    "branch": "lineage-23.2",
-    "topic": "nova_bringup",
-    "hashtags": [],
-    "change_id": "I065db94a7dcb50ae575ac4e9524533874b3784f0",
-    "subject": "RPN: Correct sensor orientation",
-    "status": "NEW",
-    "created": "2026-07-27 21:05:35.000000000",
-    "updated": "2026-07-28 02:59:11.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 13,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "358fa04d303e58de86d9dae29da0e86188966d9c",
-    "_number": 494760,
-    "virtual_id_number": 494760,
-    "owner": {
-      "_account_id": 29242
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_retroidpocket_RPN~494691",
-    "triplet_id": "LineageOS%2Fandroid_device_retroidpocket_RPN~lineage-23.2~I5e981e700fe39ef6ba1e12c46160adbf83b0b52d",
-    "project": "LineageOS/android_device_retroidpocket_RPN",
-    "branch": "lineage-23.2",
-    "topic": "nova_bringup",
-    "hashtags": [],
-    "change_id": "I5e981e700fe39ef6ba1e12c46160adbf83b0b52d",
-    "subject": "RPN: Include mcuapp_firmware.txt",
-    "status": "NEW",
-    "created": "2026-07-26 23:43:58.000000000",
-    "updated": "2026-07-28 02:59:11.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 5,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "621ca5d9e1b12959465a3e5aaa9bdd5795c3654d",
-    "_number": 494691,
-    "virtual_id_number": 494691,
-    "owner": {
-      "_account_id": 29242
-    },
-    "current_revision_number": 3,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_retroidpocket_RPN~494690",
-    "triplet_id": "LineageOS%2Fandroid_device_retroidpocket_RPN~lineage-23.2~I47fad191f7a7aaa17b9074de9d27c6bade09cc23",
-    "project": "LineageOS/android_device_retroidpocket_RPN",
-    "branch": "lineage-23.2",
-    "topic": "nova_bringup",
-    "hashtags": [],
-    "change_id": "I47fad191f7a7aaa17b9074de9d27c6bade09cc23",
-    "subject": "RPN: Filter dtbos",
-    "status": "NEW",
-    "created": "2026-07-26 23:43:58.000000000",
-    "updated": "2026-07-28 02:59:11.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 3,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "d3d96e1a89823073edc8a56a07ae84e823e98c5e",
-    "_number": 494690,
-    "virtual_id_number": 494690,
-    "owner": {
-      "_account_id": 29242
-    },
-    "current_revision_number": 3,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_retroidpocket_RPN~494689",
-    "triplet_id": "LineageOS%2Fandroid_device_retroidpocket_RPN~lineage-23.2~Ib4bbe30cd9f12c6b0a4e3019db8e26ff0bdb5703",
-    "project": "LineageOS/android_device_retroidpocket_RPN",
-    "branch": "lineage-23.2",
-    "topic": "nova_bringup",
-    "hashtags": [],
-    "change_id": "Ib4bbe30cd9f12c6b0a4e3019db8e26ff0bdb5703",
-    "subject": "RPN: Setup device specific overlays",
-    "status": "NEW",
-    "created": "2026-07-26 23:43:58.000000000",
-    "updated": "2026-07-28 02:59:11.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 274,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "441eda8c4f91ac7529e6741af5eb8e761475d383",
-    "_number": 494689,
-    "virtual_id_number": 494689,
-    "owner": {
-      "_account_id": 29242
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
           },
           {
             "label": "Code-Review",
@@ -19085,834 +21751,6 @@
     ]
   },
   {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494737",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~I248c7d30270c4b8fd4873a6fcd81980ed07a7356",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I248c7d30270c4b8fd4873a6fcd81980ed07a7356",
-    "subject": "haydn: Update from V816.0.19.0.UKKMIXM",
-    "status": "NEW",
-    "created": "2026-07-27 16:37:14.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 4,
-    "deletions": 4,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "bb32a99209e60f64ba623dc24884164d227c1ad9",
-    "_number": 494737,
-    "virtual_id_number": 494737,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494736",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~Ice4a8e2cc6d756a743116b46299cf833a0e78c57",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Ice4a8e2cc6d756a743116b46299cf833a0e78c57",
-    "subject": "haydn: Update some soong config variables to bool type",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 1,
-    "deletions": 1,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "0668411872ffc05d564feb4322ae8eb08262d67a",
-    "_number": 494736,
-    "virtual_id_number": 494736,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494735",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~I0c6050c3d9cd62353dc2ce15f54fd5b68c7d47a4",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I0c6050c3d9cd62353dc2ce15f54fd5b68c7d47a4",
-    "subject": "haydn: rro_overlays: Beautify RROs",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 315,
-    "deletions": 297,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "953f7221f18bc7e35a246e5f7d869ad5d365fc8b",
-    "_number": 494735,
-    "virtual_id_number": 494735,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494734",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~I388c9083b0a0bfe682e8a6aa248427e7eb1519c2",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I388c9083b0a0bfe682e8a6aa248427e7eb1519c2",
-    "subject": "haydn: rro_overlays: `array` -> `integer-array` where applicable",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 4,
-    "deletions": 4,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "cee54aa026291cb06214bad8784438c6b0a03b90",
-    "_number": 494734,
-    "virtual_id_number": 494734,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494733",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~Idad20512982b8753820fffa6d956df137e462638",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Idad20512982b8753820fffa6d956df137e462638",
-    "subject": "haydn: Patch audio to load libaudioroute-v34.so",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 4,
-    "deletions": 1,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "2208cf888415930e61cceb520943ae44058fc655",
-    "_number": 494733,
-    "virtual_id_number": 494733,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494732",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~I6f024d5446816189fb4f5b80b85a2ff353ab451b",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I6f024d5446816189fb4f5b80b85a2ff353ab451b",
-    "subject": "haydn: Build Audio extensions from source",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 0,
-    "deletions": 4,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "fbb8194336a757bb49c28602be89dad567c4a0d6",
-    "_number": 494732,
-    "virtual_id_number": 494732,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494731",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~Icd4d076daa2b5d6eefcd022a75861448c01fb4cb",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Icd4d076daa2b5d6eefcd022a75861448c01fb4cb",
-    "subject": "haydn: Rename Audio HAL and prebuilt Audio extensions",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 9,
-    "deletions": 3,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "cf11c76cf0c392dba3c5a79664f9b23144bc74f3",
-    "_number": 494731,
-    "virtual_id_number": 494731,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494730",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~Iec2ab62feab3ea84aaf9ba31aa8619d8b2fa51aa",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Iec2ab62feab3ea84aaf9ba31aa8619d8b2fa51aa",
-    "subject": "haydn: Commonize citsensor stack",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 0,
-    "deletions": 8,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "ee7ebf3042f495f7a81a6f4a6d3c3c0fd2e54ba3",
-    "_number": 494730,
-    "virtual_id_number": 494730,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494729",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~I06b22517d313a8eeb116b0b969615203b0d53823",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I06b22517d313a8eeb116b0b969615203b0d53823",
-    "subject": "haydn: Decommonize libQnnHtpStub",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 1,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "76eabd5a30a2915aeff799199a87c73646678478",
-    "_number": 494729,
-    "virtual_id_number": 494729,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494728",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~I796244b7e6d3f0275a4d0cd4174ebbdf7cd6f706",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I796244b7e6d3f0275a4d0cd4174ebbdf7cd6f706",
-    "subject": "haydn: sort-blobs-list --dir-first",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 28,
-    "deletions": 28,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "2e86fb583c5d5d2c932084e60ae815b116451493",
-    "_number": 494728,
-    "virtual_id_number": 494728,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494727",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~I1291636088ea3af3de3184e37ec3d7e3b7d2ac72",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I1291636088ea3af3de3184e37ec3d7e3b7d2ac72",
-    "subject": "haydn: Drop unused `lib_fixup_remove` import",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 0,
-    "deletions": 1,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "42c0d9bc3874367ca7caec2d75ee387595ace5e9",
-    "_number": 494727,
-    "virtual_id_number": 494727,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494726",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~Ib6ffccc2d21367d398e7ea57922798005ac6f9bd",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Ib6ffccc2d21367d398e7ea57922798005ac6f9bd",
-    "subject": "haydn: Load charger modules on recovery",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 7,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "bbb2dd36a956fa7ef7fba0e2fd6d2077ba95115a",
-    "_number": 494726,
-    "virtual_id_number": 494726,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494725",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~I1f380699692c07b2fcc03fa83adc292b6d899cf7",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I1f380699692c07b2fcc03fa83adc292b6d899cf7",
-    "subject": "haydn: Set USB product string",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 4,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "df9ec9b3b4f0e2efaf0444d1ffefb9eaed3761fc",
-    "_number": 494725,
-    "virtual_id_number": 494725,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494724",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~I0ea8da2780914a239929d48de9b9caaccf098224",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I0ea8da2780914a239929d48de9b9caaccf098224",
-    "subject": "haydn: Use SPDX copyright headers",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 4,
-    "deletions": 8,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "65177ef3658a4e9d6b23fda61657c8cbb9b09844",
-    "_number": 494724,
-    "virtual_id_number": 494724,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494723",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~Iebb0fef5432a129bc9a023488927b4c1e014c98e",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Iebb0fef5432a129bc9a023488927b4c1e014c98e",
-    "subject": "haydn: Convert overlays to RROs",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 97,
-    "deletions": 18,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "874038ff1929da0abd382229995eb0b39e582639",
-    "_number": 494723,
-    "virtual_id_number": 494723,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494722",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~If906cb6f0d90872c8ceeea147516b408ec5cf215",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "If906cb6f0d90872c8ceeea147516b408ec5cf215",
-    "subject": "haydn: rro_overlays: Rename and simplify RROs usage",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 131,
-    "deletions": 156,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "f80c77ddc579d629076d21f8c81d09cc1342f39a",
-    "_number": 494722,
-    "virtual_id_number": 494722,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494721",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~I0f556f337dbd3d9ad96f1ffb2d45b733c75eb485",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I0f556f337dbd3d9ad96f1ffb2d45b733c75eb485",
-    "subject": "haydn: Disable NFC features on haydn_in",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:43:34.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 46,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "f0f98fdce9450f92db3e38b6062b6d76d0cee261",
-    "_number": 494721,
-    "virtual_id_number": 494721,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_haydn~494720",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_haydn~lineage-23.2~Ib5782b826da44fea60ced7903f7a1f0ef0b9d786",
-    "project": "LineageOS/android_device_xiaomi_haydn",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Ib5782b826da44fea60ced7903f7a1f0ef0b9d786",
-    "subject": "Revert \"haydn: Disable NFC apps for Indian devices\"",
-    "status": "NEW",
-    "created": "2026-07-27 16:27:16.000000000",
-    "updated": "2026-07-27 16:27:16.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 0,
-    "deletions": 13,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "46233ddd40095dd6ce0d2def1f5c3996018dcadd",
-    "_number": 494720,
-    "virtual_id_number": 494720,
-    "owner": {
-      "_account_id": 30766
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "LineageOS%2Fandroid_packages_apps_Etar~494718",
     "triplet_id": "LineageOS%2Fandroid_packages_apps_Etar~lineage-23.2~I19b46a0288b3b2a34d7803675d1bef77ef4bd6ec",
     "project": "LineageOS/android_packages_apps_Etar",
@@ -24377,76 +26215,6 @@
     ]
   },
   {
-    "id": "LineageOS%2Fandroid_device_oneplus_lexus~494600",
-    "triplet_id": "LineageOS%2Fandroid_device_oneplus_lexus~lineage-23.2~Ie9d2e6cae45cff969c45118789cdee69f1987085",
-    "project": "LineageOS/android_device_oneplus_lexus",
-    "branch": "lineage-23.2",
-    "attention_set": {
-      "13648": {
-        "account": {
-          "_account_id": 13648
-        },
-        "last_update": "2026-07-26 19:29:29.000000000",
-        "reason": "Someone else replied on the change"
-      }
-    },
-    "removed_from_attention_set": {
-      "35436": {
-        "account": {
-          "_account_id": 35436
-        },
-        "last_update": "2026-07-26 19:29:29.000000000",
-        "reason": "removed on reply"
-      }
-    },
-    "hashtags": [],
-    "change_id": "Ie9d2e6cae45cff969c45118789cdee69f1987085",
-    "subject": "lexus: Explicitly build `vendor.oplus.hardware.displaycolorfeature-V1-ndk`",
-    "status": "NEW",
-    "created": "2026-07-25 17:49:21.000000000",
-    "updated": "2026-07-26 19:29:29.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 3,
-    "deletions": 0,
-    "total_comment_count": 3,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "8d07d36864b7b169c75012dc570e2f1ff23cca6c",
-    "_number": 494600,
-    "virtual_id_number": 494600,
-    "owner": {
-      "_account_id": 35436
-    },
-    "current_revision_number": 4,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "OK",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "OK",
-            "applied_by": {
-              "_account_id": 35436
-            }
-          },
-          {
-            "label": "Code-Review",
-            "status": "OK",
-            "applied_by": {
-              "_account_id": 35436
-            }
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "LineageOS%2Fandroid_device_motorola_bronco~494624",
     "triplet_id": "LineageOS%2Fandroid_device_motorola_bronco~lineage-23.2~I37c2246ca9bbd4c25c118f21b1245f9ac6de352c",
     "project": "LineageOS/android_device_motorola_bronco",
@@ -24889,1055 +26657,6 @@
       "_account_id": 34512
     },
     "current_revision_number": 2,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_vendor_lineage~494529",
-    "triplet_id": "LineageOS%2Fandroid_vendor_lineage~lineage-23.2~I575e55277acc90dfd9e16d58084d1bc30e0d19c6",
-    "project": "LineageOS/android_vendor_lineage",
-    "branch": "lineage-23.2",
-    "attention_set": {
-      "4550": {
-        "account": {
-          "_account_id": 4550
-        },
-        "last_update": "2026-07-25 15:39:35.000000000",
-        "reason": "<GERRIT_ACCOUNT_34612> replied on the change",
-        "reason_account": {
-          "_account_id": 34612
-        }
-      },
-      "10067": {
-        "account": {
-          "_account_id": 10067
-        },
-        "last_update": "2026-07-25 15:02:53.000000000",
-        "reason": "<GERRIT_ACCOUNT_34612> replied on the change",
-        "reason_account": {
-          "_account_id": 34612
-        }
-      },
-      "34612": {
-        "account": {
-          "_account_id": 34612
-        },
-        "last_update": "2026-07-26 18:54:32.000000000",
-        "reason": "<GERRIT_ACCOUNT_16185> replied on the change",
-        "reason_account": {
-          "_account_id": 16185
-        }
-      }
-    },
-    "removed_from_attention_set": {
-      "16185": {
-        "account": {
-          "_account_id": 16185
-        },
-        "last_update": "2026-07-26 01:18:02.000000000",
-        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
-        "reason_account": {
-          "_account_id": 16185
-        }
-      }
-    },
-    "hashtags": [],
-    "change_id": "I575e55277acc90dfd9e16d58084d1bc30e0d19c6",
-    "subject": "config: Move additional audio files inheritance to common_mobile_full.mk",
-    "status": "NEW",
-    "created": "2026-07-25 12:17:31.000000000",
-    "updated": "2026-07-26 18:54:35.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 3,
-    "deletions": 3,
-    "total_comment_count": 6,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "a7046c05e4d099577a8992c8878b5cd9e2831b90",
-    "_number": 494529,
-    "virtual_id_number": 494529,
-    "owner": {
-      "_account_id": 34612
-    },
-    "current_revision_number": 3,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY",
-            "applied_by": {
-              "_account_id": 33039
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_motorola_sm7325-common~492185",
-    "triplet_id": "LineageOS%2Fandroid_device_motorola_sm7325-common~lineage-24.0~Ieb54140550168f84ba4f067605fd6f7107979c31",
-    "project": "LineageOS/android_device_motorola_sm7325-common",
-    "branch": "lineage-24.0",
-    "topic": "24-moto_sm7325",
-    "attention_set": {},
-    "removed_from_attention_set": {
-      "16185": {
-        "account": {
-          "_account_id": 16185
-        },
-        "last_update": "2026-07-26 18:47:23.000000000",
-        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
-        "reason_account": {
-          "_account_id": 16185
-        }
-      }
-    },
-    "hashtags": [],
-    "change_id": "Ieb54140550168f84ba4f067605fd6f7107979c31",
-    "subject": "sm7325-common: fastbootd is now enabled by default",
-    "status": "NEW",
-    "created": "2026-06-26 05:24:10.000000000",
-    "updated": "2026-07-26 18:47:23.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 0,
-    "deletions": 12,
-    "total_comment_count": 1,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "40fcc56cd7cb3ce5fdbbf4ddb31484fefb0454b2",
-    "_number": 492185,
-    "virtual_id_number": 492185,
-    "owner": {
-      "_account_id": 16185
-    },
-    "current_revision_number": 10,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "OK",
-            "applied_by": {
-              "_account_id": 16185
-            }
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_osom_ingot~492187",
-    "triplet_id": "LineageOS%2Fandroid_device_osom_ingot~lineage-24.0~Ieb54140550168f84ba4f067605fd6f7107979c31",
-    "project": "LineageOS/android_device_osom_ingot",
-    "branch": "lineage-24.0",
-    "topic": "24-ingot",
-    "attention_set": {
-      "13648": {
-        "account": {
-          "_account_id": 13648
-        },
-        "last_update": "2026-06-26 15:08:50.000000000",
-        "reason": "<GERRIT_ACCOUNT_16185> replied on the change",
-        "reason_account": {
-          "_account_id": 16185
-        }
-      }
-    },
-    "removed_from_attention_set": {
-      "16185": {
-        "account": {
-          "_account_id": 16185
-        },
-        "last_update": "2026-07-26 18:47:18.000000000",
-        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
-        "reason_account": {
-          "_account_id": 16185
-        }
-      }
-    },
-    "hashtags": [],
-    "change_id": "Ieb54140550168f84ba4f067605fd6f7107979c31",
-    "subject": "ingot: fastbootd is now enabled by default",
-    "status": "NEW",
-    "created": "2026-06-26 05:24:20.000000000",
-    "updated": "2026-07-26 18:47:18.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 0,
-    "deletions": 12,
-    "total_comment_count": 3,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "a0afe6d91486365bf5f98513a48dce76d3ed015d",
-    "_number": 492187,
-    "virtual_id_number": 492187,
-    "owner": {
-      "_account_id": 16185
-    },
-    "current_revision_number": 11,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "OK",
-            "applied_by": {
-              "_account_id": 16185
-            }
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_nubia_TP1803~492377",
-    "triplet_id": "LineageOS%2Fandroid_device_nubia_TP1803~lineage-24.0~Ieb54140550168f84ba4f067605fd6f7107979c31",
-    "project": "LineageOS/android_device_nubia_TP1803",
-    "branch": "lineage-24.0",
-    "topic": "24-TP1803",
-    "attention_set": {},
-    "removed_from_attention_set": {
-      "16185": {
-        "account": {
-          "_account_id": 16185
-        },
-        "last_update": "2026-07-26 18:47:17.000000000",
-        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
-        "reason_account": {
-          "_account_id": 16185
-        }
-      }
-    },
-    "hashtags": [],
-    "change_id": "Ieb54140550168f84ba4f067605fd6f7107979c31",
-    "subject": "TP1803: fastbootd is now enabled by default",
-    "status": "NEW",
-    "created": "2026-06-28 17:14:55.000000000",
-    "updated": "2026-07-26 18:47:17.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 0,
-    "deletions": 12,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "7d258a2b7fa68dca567b35dbaf8eb660381743b4",
-    "_number": 492377,
-    "virtual_id_number": 492377,
-    "owner": {
-      "_account_id": 16185
-    },
-    "current_revision_number": 10,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "OK",
-            "applied_by": {
-              "_account_id": 16185
-            }
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_motorola_sm8250-common~492183",
-    "triplet_id": "LineageOS%2Fandroid_device_motorola_sm8250-common~lineage-24.0~Ieb54140550168f84ba4f067605fd6f7107979c31",
-    "project": "LineageOS/android_device_motorola_sm8250-common",
-    "branch": "lineage-24.0",
-    "topic": "24-moto_sm8250",
-    "attention_set": {},
-    "removed_from_attention_set": {
-      "16185": {
-        "account": {
-          "_account_id": 16185
-        },
-        "last_update": "2026-07-26 18:47:15.000000000",
-        "reason": "Removed by <GERRIT_ACCOUNT_16185> by clicking the attention icon",
-        "reason_account": {
-          "_account_id": 16185
-        }
-      }
-    },
-    "hashtags": [],
-    "change_id": "Ieb54140550168f84ba4f067605fd6f7107979c31",
-    "subject": "sm8250-common: fastbootd is now enabled by default",
-    "status": "NEW",
-    "created": "2026-06-26 05:20:16.000000000",
-    "updated": "2026-07-26 18:47:15.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 0,
-    "deletions": 11,
-    "total_comment_count": 1,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "6fe77199999ac329ed96ebdbc80a57b0c1cbce2d",
-    "_number": 492183,
-    "virtual_id_number": 492183,
-    "owner": {
-      "_account_id": 16185
-    },
-    "current_revision_number": 9,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "OK",
-            "applied_by": {
-              "_account_id": 16185
-            }
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_hardware_samsung_slsi-linaro_graphics~494293",
-    "triplet_id": "LineageOS%2Fandroid_hardware_samsung_slsi-linaro_graphics~lineage-23.2~Ic2abfce3e50fb174cf6aea9999ba0a2b44e09827",
-    "project": "LineageOS/android_hardware_samsung_slsi-linaro_graphics",
-    "branch": "lineage-23.2",
-    "topic": "s5e8535-oss-hwc",
-    "attention_set": {},
-    "removed_from_attention_set": {
-      "25925": {
-        "account": {
-          "_account_id": 25925
-        },
-        "last_update": "2026-07-19 18:48:41.000000000",
-        "reason": "<GERRIT_ACCOUNT_36980> replied on the change",
-        "reason_account": {
-          "_account_id": 36980
-        }
-      },
-      "35850": {
-        "account": {
-          "_account_id": 35850
-        },
-        "last_update": "2026-07-26 18:17:54.000000000",
-        "reason": "<GERRIT_ACCOUNT_36980> replied on the change",
-        "reason_account": {
-          "_account_id": 36980
-        }
-      }
-    },
-    "hashtags": [],
-    "change_id": "Ic2abfce3e50fb174cf6aea9999ba0a2b44e09827",
-    "subject": "libhwc2.1: platform: Initial s5e8535 support",
-    "status": "NEW",
-    "created": "2026-07-19 08:16:03.000000000",
-    "updated": "2026-07-26 18:17:54.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 1408,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "a9fa138c4cd6481d06ca7396b7dc9833ee837ddd",
-    "_number": 494293,
-    "virtual_id_number": 494293,
-    "owner": {
-      "_account_id": 36980
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~494662",
-    "triplet_id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~lineage-23.2~I84973cb9f271c8735f800337ab0109424e34274a",
-    "project": "LineageOS/android_device_mediatek_sepolicy_vndr",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I84973cb9f271c8735f800337ab0109424e34274a",
-    "subject": "base: vendor: Add dynamic sensors HAL support",
-    "status": "NEW",
-    "created": "2026-07-26 17:30:03.000000000",
-    "updated": "2026-07-26 17:30:03.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 11,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "6df938a235017a5b0545260f503019b3b87bd5c6",
-    "_number": 494662,
-    "virtual_id_number": 494662,
-    "owner": {
-      "_account_id": 24442
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~494661",
-    "triplet_id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~lineage-23.2~I557ebc9f52d60cd8d8fee1022cdb556e392f80f4",
-    "project": "LineageOS/android_device_mediatek_sepolicy_vndr",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I557ebc9f52d60cd8d8fee1022cdb556e392f80f4",
-    "subject": "base: vendor: Label one more extcon sysfs",
-    "status": "NEW",
-    "created": "2026-07-26 17:30:03.000000000",
-    "updated": "2026-07-26 17:30:03.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 1,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "2e431f1d7a66d09903b6c8c7c403c65eb5821eae",
-    "_number": 494661,
-    "virtual_id_number": 494661,
-    "owner": {
-      "_account_id": 24442
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~494660",
-    "triplet_id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~lineage-23.2~I4fcb10019f5a31129b26c75a7a68e158770d0853",
-    "project": "LineageOS/android_device_mediatek_sepolicy_vndr",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I4fcb10019f5a31129b26c75a7a68e158770d0853",
-    "subject": "base: vendor: Label additionnal mali GPU sysfs nodes",
-    "status": "NEW",
-    "created": "2026-07-26 17:30:03.000000000",
-    "updated": "2026-07-26 17:30:03.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 13,
-    "deletions": 6,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "9490e5ca5ec3bae603849a0e30facff24597795e",
-    "_number": 494660,
-    "virtual_id_number": 494660,
-    "owner": {
-      "_account_id": 24442
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~494659",
-    "triplet_id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~lineage-23.2~I0fe7ed6e72b3d854a91283085c51e4836903be5c",
-    "project": "LineageOS/android_device_mediatek_sepolicy_vndr",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I0fe7ed6e72b3d854a91283085c51e4836903be5c",
-    "subject": "base: vendor: Label crossbuild db files from odm too",
-    "status": "NEW",
-    "created": "2026-07-26 17:30:03.000000000",
-    "updated": "2026-07-26 17:30:03.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 1,
-    "deletions": 1,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "c6db0c33f148496b88f40d52133f1f2dc3692ba5",
-    "_number": 494659,
-    "virtual_id_number": 494659,
-    "owner": {
-      "_account_id": 24442
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~494658",
-    "triplet_id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~lineage-23.2~Id6d53adc619a5828d2a76db50f6db64d4eebf25d",
-    "project": "LineageOS/android_device_mediatek_sepolicy_vndr",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "Id6d53adc619a5828d2a76db50f6db64d4eebf25d",
-    "subject": "base: vendor: Allow health to access sysfs_power_supply",
-    "status": "NEW",
-    "created": "2026-07-26 17:30:03.000000000",
-    "updated": "2026-07-26 17:30:03.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 1,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "b8817b3fea96b1e9c64371688ac308e9a5a3c4a7",
-    "_number": 494658,
-    "virtual_id_number": 494658,
-    "owner": {
-      "_account_id": 24442
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~494657",
-    "triplet_id": "LineageOS%2Fandroid_device_mediatek_sepolicy_vndr~lineage-23.2~I8116b0339f0aaa35e8c1fa9644b280c214d7d9a7",
-    "project": "LineageOS/android_device_mediatek_sepolicy_vndr",
-    "branch": "lineage-23.2",
-    "hashtags": [],
-    "change_id": "I8116b0339f0aaa35e8c1fa9644b280c214d7d9a7",
-    "subject": "base: vendor: Label QTI vibrator service",
-    "status": "NEW",
-    "created": "2026-07-26 17:30:03.000000000",
-    "updated": "2026-07-26 17:30:03.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 6,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "633dfd0c3f4efb26d298d7548116ec3b67a75987",
-    "_number": 494657,
-    "virtual_id_number": 494657,
-    "owner": {
-      "_account_id": 24442
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_device_xiaomi_violet~494206",
-    "triplet_id": "LineageOS%2Fandroid_device_xiaomi_violet~lineage-23.2~Ibbb6f9b2ae030ad0938f5608526c392ef5b0cb1e",
-    "project": "LineageOS/android_device_xiaomi_violet",
-    "branch": "lineage-23.2",
-    "attention_set": {},
-    "removed_from_attention_set": {
-      "32245": {
-        "account": {
-          "_account_id": 32245
-        },
-        "last_update": "2026-07-19 05:46:40.000000000",
-        "reason": "removed on reply"
-      },
-      "36084": {
-        "account": {
-          "_account_id": 36084
-        },
-        "last_update": "2026-07-26 17:28:39.000000000",
-        "reason": "<GERRIT_ACCOUNT_36084> replied on the change",
-        "reason_account": {
-          "_account_id": 36084
-        }
-      }
-    },
-    "hashtags": [],
-    "change_id": "Ibbb6f9b2ae030ad0938f5608526c392ef5b0cb1e",
-    "subject": "violet: overlay: Convert config_screenBrightnessDoze to float",
-    "status": "NEW",
-    "created": "2026-07-17 16:38:26.000000000",
-    "updated": "2026-07-26 17:28:39.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 1,
-    "deletions": 1,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "a2df03a51d1b982a8c7842b93b34b4f3120fff10",
-    "_number": 494206,
-    "virtual_id_number": 494206,
-    "owner": {
-      "_account_id": 36084
-    },
-    "current_revision_number": 1,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "OK",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "OK",
-            "applied_by": {
-              "_account_id": 36084
-            }
-          },
-          {
-            "label": "Code-Review",
-            "status": "OK",
-            "applied_by": {
-              "_account_id": 32245
-            }
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_system_core~490876",
-    "triplet_id": "LineageOS%2Fandroid_system_core~lineage-24.0~I31821c9db79d1681b3747d20d9215f163da6566c",
-    "project": "LineageOS/android_system_core",
-    "branch": "lineage-24.0",
-    "attention_set": {
-      "13648": {
-        "account": {
-          "_account_id": 13648
-        },
-        "last_update": "2026-07-14 13:39:22.000000000",
-        "reason": "<GERRIT_ACCOUNT_25732> replied on the change",
-        "reason_account": {
-          "_account_id": 25732
-        }
-      },
-      "25732": {
-        "account": {
-          "_account_id": 25732
-        },
-        "last_update": "2026-07-26 17:20:22.000000000",
-        "reason": "<GERRIT_ACCOUNT_32245> replied on the change",
-        "reason_account": {
-          "_account_id": 32245
-        }
-      },
-      "32245": {
-        "account": {
-          "_account_id": 32245
-        },
-        "last_update": "2026-07-26 17:21:41.000000000",
-        "reason": "<GERRIT_ACCOUNT_4550> replied on the change",
-        "reason_account": {
-          "_account_id": 4550
-        }
-      }
-    },
-    "removed_from_attention_set": {
-      "4550": {
-        "account": {
-          "_account_id": 4550
-        },
-        "last_update": "2026-07-26 17:21:41.000000000",
-        "reason": "<GERRIT_ACCOUNT_4550> replied on the change",
-        "reason_account": {
-          "_account_id": 4550
-        }
-      }
-    },
-    "hashtags": [],
-    "change_id": "I31821c9db79d1681b3747d20d9215f163da6566c",
-    "subject": "Partially Revert \"usbd: Exit in case of charger mode.\"",
-    "status": "NEW",
-    "created": "2026-06-20 02:11:08.000000000",
-    "updated": "2026-07-26 17:21:41.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 0,
-    "deletions": 1,
-    "total_comment_count": 10,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "a206e97991bbf5cc3572fed18b1a66982132d866",
-    "_number": 490876,
-    "virtual_id_number": 490876,
-    "owner": {
-      "_account_id": 4550
-    },
-    "current_revision_number": 6,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_system_core~490874",
-    "triplet_id": "LineageOS%2Fandroid_system_core~lineage-24.0~I662dc463770753a9e6ae6e86ed6e90d5b4d2cbd9",
-    "project": "LineageOS/android_system_core",
-    "branch": "lineage-24.0",
-    "hashtags": [],
-    "change_id": "I662dc463770753a9e6ae6e86ed6e90d5b4d2cbd9",
-    "subject": "libcutils: Silence trace open error in recovery",
-    "status": "NEW",
-    "created": "2026-06-20 02:11:08.000000000",
-    "updated": "2026-07-26 17:04:48.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 4,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "9a196eb5b21380de6dc6b5de7e4dab5de3b32466",
-    "_number": 490874,
-    "virtual_id_number": 490874,
-    "owner": {
-      "_account_id": 4550
-    },
-    "current_revision_number": 6,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_system_core~490872",
-    "triplet_id": "LineageOS%2Fandroid_system_core~lineage-24.0~I8661b832e5b4e7fe43a2d0e79304c70879cd12d7",
-    "project": "LineageOS/android_system_core",
-    "branch": "lineage-24.0",
-    "hashtags": [],
-    "change_id": "I8661b832e5b4e7fe43a2d0e79304c70879cd12d7",
-    "subject": "fastboot: Reimplement zero_packet check",
-    "status": "NEW",
-    "created": "2026-06-20 02:11:08.000000000",
-    "updated": "2026-07-26 17:04:48.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 30,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "6a757495e7b7d39211ea5fa988238d33d8894a36",
-    "_number": 490872,
-    "virtual_id_number": 490872,
-    "owner": {
-      "_account_id": 4550
-    },
-    "current_revision_number": 6,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_system_core~490870",
-    "triplet_id": "LineageOS%2Fandroid_system_core~lineage-24.0~I038e2aab67ef627c5865c78337cee9a268c78255",
-    "project": "LineageOS/android_system_core",
-    "branch": "lineage-24.0",
-    "hashtags": [],
-    "change_id": "I038e2aab67ef627c5865c78337cee9a268c78255",
-    "subject": "core: Fix host_init_verifier for devices with overriding services",
-    "status": "NEW",
-    "created": "2026-06-20 02:11:08.000000000",
-    "updated": "2026-07-26 17:04:48.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 8,
-    "deletions": 5,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "9652f815989d2addc26f77e072a0042e0b7cacca",
-    "_number": 490870,
-    "virtual_id_number": 490870,
-    "owner": {
-      "_account_id": 4550
-    },
-    "current_revision_number": 6,
-    "requirements": [],
-    "submit_records": [
-      {
-        "rule_name": "gerrit~DefaultSubmitRule",
-        "status": "NOT_READY",
-        "labels": [
-          {
-            "label": "Verified",
-            "status": "NEED"
-          },
-          {
-            "label": "Code-Review",
-            "status": "NEED"
-          },
-          {
-            "label": "CI",
-            "status": "MAY"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "LineageOS%2Fandroid_system_core~490868",
-    "triplet_id": "LineageOS%2Fandroid_system_core~lineage-24.0~Ife5bbcba6327022cabeb1a2b7362e2c8b2891cbf",
-    "project": "LineageOS/android_system_core",
-    "branch": "lineage-24.0",
-    "topic": "24-restore-schedtune",
-    "hashtags": [],
-    "change_id": "Ife5bbcba6327022cabeb1a2b7362e2c8b2891cbf",
-    "subject": "Revert \"init: Remove schedtune support\"",
-    "status": "NEW",
-    "created": "2026-06-20 02:11:08.000000000",
-    "updated": "2026-07-26 17:04:48.000000000",
-    "submit_type": "REBASE_IF_NECESSARY",
-    "insertions": 52,
-    "deletions": 0,
-    "total_comment_count": 0,
-    "unresolved_comment_count": 0,
-    "has_review_started": true,
-    "meta_rev_id": "e0bb3b1b40fbd273553132ef33cf9d1cb1ded1e6",
-    "_number": 490868,
-    "virtual_id_number": 490868,
-    "owner": {
-      "_account_id": 4550
-    },
-    "current_revision_number": 6,
     "_more_changes": true,
     "requirements": [],
     "submit_records": [
