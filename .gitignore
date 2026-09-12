@@ -1,2 +1,11 @@
+# Dependencias de Node (pesadas)
+node_modules/
+
+# Archivos de estado y cachés generadas en ejecuciones
 gerrit-state.json
-gerrit-pulse.mjs
+.cache/
+*.log
+
+# Archivos de sistema y entorno local
+.env
+.DS_Store
