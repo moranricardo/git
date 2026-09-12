@@ -60,7 +60,6 @@ async function runPulse() {
         console.log(`✅ [OK] Datos recibidos. Total de cambios: ${data.length}`);
 
         await writeFile('gerrit-state.json', JSON.stringify(data, null, 2));
-        console.log("💾 Estado de telemetría (gerrit-state.json) actualizado.");
 
         const palabrasCriticas = ['fix', 'security', 'stable', 'vulnerability', 'panic', 'err'];
         const parchesCriticos = [];
@@ -80,9 +79,12 @@ async function runPulse() {
         });
 
         let markdown = `# ⚡ Ra Pulse - Telemetría de Kernels\n\n`;
-        markdown += `*Última actualización automatizada: ${new Date().toISOString()}*\n\n`;
+        markdown += `> Monitor automatizado para el seguimiento y auditoría de parches críticos en proyectos LineageOS y dispositivos Motorola.\n\n`;
+        markdown += `--- \n\n`;
+        markdown += `📅 **Última sincronización:** \`${new Date().toISOString()}\`  \n`;
+        markdown += `📊 **Total de cambios analizados:** \`${data.length}\`  \n\n`;
 
-        markdown += `## 🚨 Parches Críticos Detectados (${parchesCriticos.length})\n`;
+        markdown += `## 🚨 Parches Críticos Detectados (${parchesCriticos.length})\n\n`;
         if (parchesCriticos.length === 0) {
             markdown += `*No se detectaron anomalías críticas en el horizonte.*\n`;
         } else {
@@ -92,7 +94,7 @@ async function runPulse() {
             });
         }
 
-        markdown += `\n## 📱 Línea Motorola Activa (${parchesMotorola.length})\n`;
+        markdown += `\n## 📱 Línea Motorola Activa (${parchesMotorola.length})\n\n`;
         if (parchesMotorola.length === 0) {
             markdown += `*Sin actividad reciente en ramas de Motorola.*\n`;
         } else {
@@ -102,9 +104,10 @@ async function runPulse() {
             });
         }
 
+        markdown += `\n---\n*Generado automáticamente por [Ra Pulse](rapulse.js)*\n`;
+
         await writeFile('README.md', markdown);
         console.log("📄 Dashboard humano 'README.md' generado con éxito.\n");
-        console.log("🏁 Ciclo de Ra completado en equilibrio.");
     }
 }
 
