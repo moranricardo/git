@@ -16,19 +16,38 @@ function obtenerCabecerasAnonimas() {
     };
 }
 
-export async function fetchGerritChange(url) {
+/**
+ * Consulta la API de LineageOS Gerrit por URL o por ID de cambio.
+ * @param {string|number} target - URL completa o ID del cambio (ej. 502186).
+ * @param {number} [timeoutMs=8000] - Tiempo límite de respuesta en ms.
+ */
+export async function fetchGerritChange(target, timeoutMs = 8000) {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+
+    const url = typeof target === 'number' || !target.startsWith('http')
+        ? `https://review.lineageos.org/changes/${target}/detail`
+        : target;
+
     try {
         const response = await fetch(url, {
             method: 'GET',
-            headers: obtenerCabecerasAnonimas()
+            headers: obtenerCabecerasAnonimas(),
+            signal: controller.signal
         });
+
+        clearTimeout(timeoutId);
 
         if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
 
         const rawText = await response.text();
         return JSON.parse(cleanGerritResponse(rawText));
     } catch (error) {
-        console.error(`[Oráculo Error] Fallo al consultar ${url}:`, error.message);
+        if (error.name === 'AbortError') {
+            console.error(`[Oráculo Error] Tiempo de espera agotado al consultar: ${url}`);
+        } else {
+            console.error(`[Oráculo Error] Fallo al consultar ${url}:`, error.message);
+        }
         return null;
     }
 }
