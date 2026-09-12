@@ -4,12 +4,11 @@
 
 --- 
 
-📅 **Última sincronización:** `2026-09-12T11:16:12.036Z`  
+📅 **Última sincronización:** `2026-09-12T12:06:41.195Z`  
 📊 **Total de cambios analizados:** `500`  
 
-## 🚨 Parches Críticos Detectados (48)
+## 🚨 Parches Críticos Detectados (47)
 
-- **[android_device_samsung_sm8550-common]** sm8550-common: audio: Fix call-slot wait for unset properties *(ID: [502133](https://review.lineageos.org/c/502133))*
 - **[android_hardware_amlogic_u-boot]** BACKPORT: pwr_ctrl: enable and fix IR remote wakeup for g12a/b *(ID: [501625](https://review.lineageos.org/c/501625))*
 - **[android_packages_apps_Settings]** fixup! Fix background data clobbering other policies *(ID: [431531](https://review.lineageos.org/c/431531))*
 - **[android_frameworks_base]** fixup! Firewall: Transport-based toggle support (1/3) *(ID: [431532](https://review.lineageos.org/c/431532))*
@@ -19,6 +18,7 @@
 - **[android_kernel_asus_sdm660]** input: touchscreen: synaptics_dsx_X00TD: fix snprintf error *(ID: [502286](https://review.lineageos.org/c/502286))*
 - **[android_kernel_asus_sdm660]** input: touchscreen: NVT_Touch_X00TD: fix snprintf error *(ID: [502285](https://review.lineageos.org/c/502285))*
 - **[android_kernel_asus_sdm660]** synaptics_dsx_X00TD: Rename driver name to fix Wexcess-initializers error *(ID: [502284](https://review.lineageos.org/c/502284))*
+- **[android_kernel_asus_sdm660]** fixup! power: Debloat asus changes *(ID: [502283](https://review.lineageos.org/c/502283))*
 
 ## 📱 Línea Motorola Activa (34)
 

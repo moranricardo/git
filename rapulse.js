@@ -7,6 +7,7 @@ function cleanGerritResponse(rawText) {
 function obtenerCabecerasAnonimas() {
     const versionesChrome = ['124.0.0.0', '125.0.0.0', '126.0.0.0'];
     const chromeVersion = versionesChrome[Math.floor(Math.random() * versionesChrome.length)];
+    const majorVersion = chromeVersion.split('.')[0];
 
     return {
         'User-Agent': `Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/${chromeVersion} Mobile Safari/537.36`,
@@ -19,7 +20,7 @@ function obtenerCabecerasAnonimas() {
         'Sec-Fetch-Site': 'same-site',
         'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Dest': 'empty',
-        'Sec-CH-UA': `"Not/A)Brand";v="8", "Chromium";v="${chromeVersion.split('.')[0]}", "Google Chrome";v="${chromeVersion.split('.')[0]}"`,
+        'Sec-CH-UA': `"Not/A)Brand";v="8", "Chromium";v="${majorVersion}", "Google Chrome";v="${majorVersion}"`,
         'Sec-CH-UA-Mobile': '?1',
         'Sec-CH-UA-Platform': '"Android"'
     };
@@ -35,9 +36,7 @@ async function fetchGerritData(url) {
         if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
 
         const rawText = await response.text();
-        const cleanData = cleanGerritResponse(rawText);
-
-        return JSON.parse(cleanData);
+        return JSON.parse(cleanGerritResponse(rawText));
     } catch (error) {
         console.error("❌ Fallo en el canal de datos:", error.message);
         return null;
@@ -56,59 +55,60 @@ async function runPulse() {
     const url = 'https://review.lineageos.org/changes/?q=status:open';
     const data = await fetchGerritData(url);
 
-    if (Array.isArray(data)) {
-        console.log(`✅ [OK] Datos recibidos. Total de cambios: ${data.length}`);
+    if (!Array.isArray(data)) return;
 
-        await writeFile('gerrit-state.json', JSON.stringify(data, null, 2));
+    console.log(`✅ [OK] Datos recibidos. Total de cambios: ${data.length}`);
 
-        const palabrasCriticas = ['fix', 'security', 'stable', 'vulnerability', 'panic', 'err'];
-        const parchesCriticos = [];
-        const parchesMotorola = [];
+    await writeFile('gerrit-state.json', JSON.stringify(data));
 
-        data.forEach(change => {
-            if (!change.project || !change.subject) return;
+    const palabrasCriticas = ['fix', 'security', 'stable', 'vulnerability', 'panic', 'err'];
+    const parchesCriticos = [];
+    const parchesMotorola = [];
 
-            const proyecto = change.project.split('/').pop().toLowerCase();
-            const asunto = change.subject.toLowerCase();
+    for (const change of data) {
+        if (!change.project || !change.subject) continue;
 
-            if (proyecto.includes('motorola')) {
-                parchesMotorola.push(change);
-            } else if (palabrasCriticas.some(palabra => asunto.includes(palabra))) {
-                parchesCriticos.push(change);
-            }
-        });
+        const projName = change.project.split('/').pop();
+        const projLower = projName.toLowerCase();
+        const asunto = change.subject.toLowerCase();
 
-        let markdown = `# ⚡ Ra Pulse - Telemetría de Kernels\n\n`;
-        markdown += `> Monitor automatizado para el seguimiento y auditoría de parches críticos en proyectos LineageOS y dispositivos Motorola.\n\n`;
-        markdown += `--- \n\n`;
-        markdown += `📅 **Última sincronización:** \`${new Date().toISOString()}\`  \n`;
-        markdown += `📊 **Total de cambios analizados:** \`${data.length}\`  \n\n`;
+        const item = { projName, subject: change.subject, _number: change._number };
 
-        markdown += `## 🚨 Parches Críticos Detectados (${parchesCriticos.length})\n\n`;
-        if (parchesCriticos.length === 0) {
-            markdown += `*No se detectaron anomalías críticas en el horizonte.*\n`;
-        } else {
-            parchesCriticos.slice(0, 10).forEach(c => {
-                const projName = c.project.split('/').pop();
-                markdown += `- **[${projName}]** ${escapeMarkdown(c.subject)} *(ID: [${c._number}](https://review.lineageos.org/c/${c._number}))*\n`;
-            });
+        if (projLower.includes('motorola')) {
+            parchesMotorola.push(item);
+        } else if (palabrasCriticas.some(palabra => asunto.includes(palabra))) {
+            parchesCriticos.push(item);
         }
-
-        markdown += `\n## 📱 Línea Motorola Activa (${parchesMotorola.length})\n\n`;
-        if (parchesMotorola.length === 0) {
-            markdown += `*Sin actividad reciente en ramas de Motorola.*\n`;
-        } else {
-            parchesMotorola.slice(0, 10).forEach(c => {
-                const projName = c.project.split('/').pop();
-                markdown += `- **[${projName}]** ${escapeMarkdown(c.subject)} *(ID: [${c._number}](https://review.lineageos.org/c/${c._number}))*\n`;
-            });
-        }
-
-        markdown += `\n---\n*Generado automáticamente por [Ra Pulse](rapulse.js)*\n`;
-
-        await writeFile('README.md', markdown);
-        console.log("📄 Dashboard humano 'README.md' generado con éxito.\n");
     }
+
+    let markdown = `# ⚡ Ra Pulse - Telemetría de Kernels\n\n`;
+    markdown += `> Monitor automatizado para el seguimiento y auditoría de parches críticos en proyectos LineageOS y dispositivos Motorola.\n\n`;
+    markdown += `--- \n\n`;
+    markdown += `📅 **Última sincronización:** \`${new Date().toISOString()}\`  \n`;
+    markdown += `📊 **Total de cambios analizados:** \`${data.length}\`  \n\n`;
+
+    markdown += `## 🚨 Parches Críticos Detectados (${parchesCriticos.length})\n\n`;
+    if (parchesCriticos.length === 0) {
+        markdown += `*No se detectaron anomalías críticas en el horizonte.*\n`;
+    } else {
+        parchesCriticos.slice(0, 10).forEach(c => {
+            markdown += `- **[${c.projName}]** ${escapeMarkdown(c.subject)} *(ID: [${c._number}](https://review.lineageos.org/c/${c._number}))*\n`;
+        });
+    }
+
+    markdown += `\n## 📱 Línea Motorola Activa (${parchesMotorola.length})\n\n`;
+    if (parchesMotorola.length === 0) {
+        markdown += `*Sin actividad reciente en ramas de Motorola.*\n`;
+    } else {
+        parchesMotorola.slice(0, 10).forEach(c => {
+            markdown += `- **[${c.projName}]** ${escapeMarkdown(c.subject)} *(ID: [${c._number}](https://review.lineageos.org/c/${c._number}))*\n`;
+        });
+    }
+
+    markdown += `\n---\n*Generado automáticamente por [Ra Pulse](rapulse.js)*\n`;
+
+    await writeFile('README.md', markdown);
+    console.log("📄 Dashboard humano 'README.md' generado con éxito.\n");
 }
 
 runPulse();
