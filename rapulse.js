@@ -12,103 +12,75 @@ function obtenerCabecerasAnonimas() {
     return {
         'User-Agent': `Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/${chromeVersion} Mobile Safari/537.36`,
         'Accept-Language': 'es-419,es;q=0.9,en;q=0.8',
-        'DNT': '1',
-        'Sec-GPC': '1',
         'Cache-Control': 'no-cache',
-        'Pragma': 'no-cache',
         'Accept': 'application/json, text/plain, */*',
-        'Sec-Fetch-Site': 'same-site',
-        'Sec-Fetch-Mode': 'cors',
-        'Sec-Fetch-Dest': 'empty',
-        'Sec-CH-UA': `"Not/A)Brand";v="8", "Chromium";v="${majorVersion}", "Google Chrome";v="${majorVersion}"`,
-        'Sec-CH-UA-Mobile': '?1',
-        'Sec-CH-UA-Platform': '"Android"'
+        'Sec-CH-UA': `"Not/A)Brand";v="8", "Chromium";v="${majorVersion}", "Google Chrome";v="${majorVersion}"`
     };
 }
 
-async function fetchGerritData(url) {
+async function auditarGerrit() {
+    const url = 'https://review.lineageos.org/changes/?q=status:open&n=500';
     try {
-        const response = await fetch(url, {
-            method: 'GET',
-            headers: obtenerCabecerasAnonimas()
-        });
-
+        const response = await fetch(url, { headers: obtenerCabecerasAnonimas() });
         if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
-
+        
         const rawText = await response.text();
-        return JSON.parse(cleanGerritResponse(rawText));
-    } catch (error) {
-        console.error("❌ Fallo en el canal de datos:", error.message);
-        return null;
-    }
-}
+        const changes = JSON.parse(cleanGerritResponse(rawText));
 
-function escapeMarkdown(text) {
-    return text.replace(/([\[\]])/g, '\\$1');
-}
+        const criticos = [];
+        const motorola = [];
 
-async function runPulse() {
-    console.log("========================================");
-    console.log(" ⚡ [PULSE] Iniciando ciclo de auditoría ");
-    console.log("========================================\n");
+        for (const change of changes) {
+            const project = change.project || '';
+            const subject = change.subject || '';
+            const id = change._number;
+            const item = `- **[${project}]** ${subject} *(ID: [${id}](https://review.lineageos.org/c/${id}))*`;
 
-    const url = 'https://review.lineageos.org/changes/?q=status:open';
-    const data = await fetchGerritData(url);
-
-    if (!Array.isArray(data)) return;
-
-    console.log(`✅ [OK] Datos recibidos. Total de cambios: ${data.length}`);
-
-    await writeFile('gerrit-state.json', JSON.stringify(data));
-
-    const palabrasCriticas = ['fix', 'security', 'stable', 'vulnerability', 'panic', 'err'];
-    const parchesCriticos = [];
-    const parchesMotorola = [];
-
-    for (const change of data) {
-        if (!change.project || !change.subject) continue;
-
-        const projName = change.project.split('/').pop();
-        const projLower = projName.toLowerCase();
-        const asunto = change.subject.toLowerCase();
-
-        const item = { projName, subject: change.subject, _number: change._number };
-
-        if (projLower.includes('motorola')) {
-            parchesMotorola.push(item);
-        } else if (palabrasCriticas.some(palabra => asunto.includes(palabra))) {
-            parchesCriticos.push(item);
+            if (project.includes('kernel') || project.includes('hardware') || subject.toLowerCase().includes('fix')) {
+                criticos.push(item);
+            }
+            if (project.includes('motorola')) {
+                motorola.push(item);
+            }
         }
+
+        const now = new Date().toISOString();
+        const readmeContent = `# ⚡ Ra Pulse - Telemetría de Kernels
+
+![Última sync](https://img.shields.io/badge/Sincronizado-${encodeURIComponent(now.split('T')[0])}-brightgreen)
+![Analizados](https://img.shields.io/badge/Analizados-${changes.length}-blue)
+
+> Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
+
+---
+
+## 🚨 Parches Críticos Detectados (${criticos.length})
+
+<details>
+<summary><b>Click para desplegar parches críticos</b></summary>
+
+${criticos.slice(0, 30).join('\n')}
+
+</details>
+
+## 📱 Línea Motorola Activa (${motorola.length})
+
+<details>
+<summary><b>Click para desplegar cambios Motorola</b></summary>
+
+${motorola.slice(0, 30).join('\n')}
+
+</details>
+
+---
+*Generado automáticamente por Ra Pulse*
+`;
+
+        await writeFile('README.md', readmeContent);
+        console.log('README.md actualizado correctamente.');
+    } catch (err) {
+        console.error('Error en auditoría:', err.message);
     }
-
-    let markdown = `# ⚡ Ra Pulse - Telemetría de Kernels\n\n`;
-    markdown += `> Monitor automatizado para el seguimiento y auditoría de parches críticos en proyectos LineageOS y dispositivos Motorola.\n\n`;
-    markdown += `--- \n\n`;
-    markdown += `📅 **Última sincronización:** \`${new Date().toISOString()}\`  \n`;
-    markdown += `📊 **Total de cambios analizados:** \`${data.length}\`  \n\n`;
-
-    markdown += `## 🚨 Parches Críticos Detectados (${parchesCriticos.length})\n\n`;
-    if (parchesCriticos.length === 0) {
-        markdown += `*No se detectaron anomalías críticas en el horizonte.*\n`;
-    } else {
-        parchesCriticos.slice(0, 10).forEach(c => {
-            markdown += `- **[${c.projName}]** ${escapeMarkdown(c.subject)} *(ID: [${c._number}](https://review.lineageos.org/c/${c._number}))*\n`;
-        });
-    }
-
-    markdown += `\n## 📱 Línea Motorola Activa (${parchesMotorola.length})\n\n`;
-    if (parchesMotorola.length === 0) {
-        markdown += `*Sin actividad reciente en ramas de Motorola.*\n`;
-    } else {
-        parchesMotorola.slice(0, 10).forEach(c => {
-            markdown += `- **[${c.projName}]** ${escapeMarkdown(c.subject)} *(ID: [${c._number}](https://review.lineageos.org/c/${c._number}))*\n`;
-        });
-    }
-
-    markdown += `\n---\n*Generado automáticamente por [Ra Pulse](rapulse.js)*\n`;
-
-    await writeFile('README.md', markdown);
-    console.log("📄 Dashboard humano 'README.md' generado con éxito.\n");
 }
 
-runPulse();
+auditarGerrit();
