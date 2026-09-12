@@ -1,11 +1,22 @@
-# Dependencias de Node (pesadas)
+# Dependencias de Node
 node_modules/
+.pnpm-store/
 
-# Archivos de estado y cachés generadas en ejecuciones
+# Archivos de estado, temporales y cachés
 gerrit-state.json
 .cache/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Archivos de sistema y entorno local
+# Archivos de configuración local y credenciales
 .env
+.env.local
+.env.*.local
+
+# Archivos de sistema operativo y editores
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
