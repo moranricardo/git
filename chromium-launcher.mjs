@@ -1,26 +1,29 @@
-import puppeteer from 'puppeteer-core';
+import puppeteer from 'puppeteer';
+import fs from 'fs';
 
+/**
+ * Lanza una instancia optimizada de Puppeteer.
+ * Soporta ruta personalizada via CHROMIUM_PATH o la descarga automática de Puppeteer.
+ */
 export const launchBrowser = async () => {
-  // Detectar dinámicamente si estamos en la nube o en el móvil
-  const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
-  
-  // Asignar la ruta correcta del binario según el entorno
-  const executablePath = isGitHubActions
-    ? '/usr/bin/chromium-browser' // Ruta estándar en servidores Ubuntu de GitHub
-    : '/data/data/com.termux/files/usr/bin/chromium-browser'; // Tu ruta local en Termux
+  const customPath = process.env.CHROMIUM_PATH;
+  const hasCustomPath = customPath && fs.existsSync(customPath);
 
-  console.log(`[Lanzador] Iniciando navegador en entorno: ${isGitHubActions ? 'Nube (GitHub)' : 'Local (Termux)'}`);
+  console.log(`[Lanzador] Iniciando navegador (${hasCustomPath ? customPath : 'Chromium integrado'})...`);
 
-  return await puppeteer.launch({
-    executablePath,
-    headless: true, // Optimización crítica: Ejecución en segundo plano sin interfaz gráfica
+  const launchOptions = {
+    headless: true,
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
-      '--disable-dev-shm-usage', // Evita problemas de memoria compartida en contenedores
-      '--no-zygote',
-      '--single-process', // Ahorro drástico de CPU
-      '--disable-gpu'     // Desactiva gráficos innecesarios en servidores
+      '--disable-dev-shm-usage',
+      '--disable-gpu'
     ]
-  });
+  };
+
+  if (hasCustomPath) {
+    launchOptions.executablePath = customPath;
+  }
+
+  return await puppeteer.launch(launchOptions);
 };
