@@ -7,11 +7,17 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (165)
+## 🚨 Parches Críticos Detectados (162)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_amlogic_kernel-5.15]** Merge branch 'android14-5.15-lts' of https://android.googlesource.com/kernel/common into lineage-23.2 *(ID: [502543](https://review.lineageos.org/c/502543))*
+- **[LineageOS/android_external_alsa-ucm-conf]** Fix SpeakerHPHL sequences to enable RX1 *(ID: [502570](https://review.lineageos.org/c/502570))*
+- **[LineageOS/android_external_alsa-ucm-conf]** fix jack control *(ID: [502552](https://review.lineageos.org/c/502552))*
+- **[LineageOS/android_external_alsa-ucm-conf]** Fix includes of HeadsetMic enable, disable sequence *(ID: [502549](https://review.lineageos.org/c/502549))*
+- **[LineageOS/android_kernel_qcom_sm8150]** Revert "UPSTREAM: sign-file: Use only the OpenSSL CMS API for signing" *(ID: [502186](https://review.lineageos.org/c/502186))*
+- **[LineageOS/android_device_motorola_sm7250-common]** fixup! sm7250-common: Drop unused packages *(ID: [502213](https://review.lineageos.org/c/502213))*
 - **[LineageOS/android_hardware_amlogic_u-boot_build]** Add FIP and build script for Khadas VIM *(ID: [502536](https://review.lineageos.org/c/502536))*
 - **[LineageOS/android_hardware_amlogic_u-boot_build]** Add FIP and build scripts for Khadas VIM3 and VIM3L *(ID: [502535](https://review.lineageos.org/c/502535))*
 - **[LineageOS/android_hardware_amlogic_u-boot_build]** Add FIP and build scripts for X96 X9 *(ID: [502140](https://review.lineageos.org/c/502140))*
@@ -36,20 +42,19 @@
 - **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3: dts: Drop the PDM dai-link that referenced a disabled node *(ID: [497700](https://review.lineageos.org/c/497700))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** secmon: reject bogus share mem size from legacy BL31 *(ID: [497699](https://review.lineageos.org/c/497699))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3: dts: Disable legacy meson_fb, use DRM like kvim3l *(ID: [497698](https://review.lineageos.org/c/497698))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3: dts: Move logo framebuffer reservation to 0x3d800000 *(ID: [497697](https://review.lineageos.org/c/497697))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: configs: Add kvim3_defconfig *(ID: [497696](https://review.lineageos.org/c/497696))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: kvim3: add Khadas VIM3 (A311D) board support *(ID: [497695](https://review.lineageos.org/c/497695))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** drm: meson: hdmi: recover the color attr when recovery changes mode *(ID: [497398](https://review.lineageos.org/c/497398))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: aml: Fix g12a/b and sm1 to support loading uvm, videotunnel and di_process *(ID: [495851](https://review.lineageos.org/c/495851))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: configs: amlogic_g12: Enable RD_XZ *(ID: [495816](https://review.lineageos.org/c/495816))*
 
 </details>
 
-## 📱 Línea Motorola Activa (50)
+## 📱 Línea Motorola Activa (48)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Remove disable_configstore from PRODUCT_PACKAGES *(ID: [502212](https://review.lineageos.org/c/502212))*
+- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: fastbootd is now enabled by default *(ID: [502211](https://review.lineageos.org/c/502211))*
+- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Use legacy libion implementation *(ID: [502210](https://review.lineageos.org/c/502210))*
+- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: power-libperfmgr: Update included soong namespace *(ID: [502209](https://review.lineageos.org/c/502209))*
+- **[LineageOS/android_device_motorola_sm7250-common]** fixup! sm7250-common: Drop unused packages *(ID: [502213](https://review.lineageos.org/c/502213))*
 - **[LineageOS/android_device_motorola_smith]** smith: Use fold lock behavior to sleep display *(ID: [502469](https://review.lineageos.org/c/502469))*
 - **[LineageOS/android_device_motorola_smith]** smith: Improve SystemUI usability on secondary display *(ID: [502468](https://review.lineageos.org/c/502468))*
 - **[LineageOS/android_device_motorola_smith]** smith: Configure device states *(ID: [502467](https://review.lineageos.org/c/502467))*
@@ -73,11 +78,6 @@
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Inherit AIDL compatibility matrix *(ID: [502451](https://review.lineageos.org/c/502451))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Update WFD system blobs from marvel_g A171WEH.20 *(ID: [499945](https://review.lineageos.org/c/499945))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: power-libperfmgr: Update included soong namespaces *(ID: [497049](https://review.lineageos.org/c/497049))*
-- **[LineageOS/android_device_motorola_sm7250-common]** fixup! sm7250-common: Drop unused packages *(ID: [502213](https://review.lineageos.org/c/502213))*
-- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Remove disable_configstore from PRODUCT_PACKAGES *(ID: [502212](https://review.lineageos.org/c/502212))*
-- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: fastbootd is now enabled by default *(ID: [502211](https://review.lineageos.org/c/502211))*
-- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Use legacy libion implementation *(ID: [502210](https://review.lineageos.org/c/502210))*
-- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: power-libperfmgr: Update included soong namespace *(ID: [502209](https://review.lineageos.org/c/502209))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Default to modules blocklist files from kernel source *(ID: [501230](https://review.lineageos.org/c/501230))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Update ims.apk patches *(ID: [501004](https://review.lineageos.org/c/501004))*
 
