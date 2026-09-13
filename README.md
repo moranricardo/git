@@ -7,16 +7,20 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (162)
+## 🚨 Parches Críticos Detectados (147)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_samsung]** AdvancedDisplay: Implement dynamic mDNIe support *(ID: [479586](https://review.lineageos.org/c/479586))*
+- **[LineageOS/android_kernel_amlogic_linux-4.9]** arm64: dts: sm1_s905x3_bananapim5: Fix gigabit ethernet link for Banana Pi M5 *(ID: [502615](https://review.lineageos.org/c/502615))*
+- **[LineageOS/android_hardware_samsung]** aidl: health: Introduce libsamsunghealth *(ID: [493486](https://review.lineageos.org/c/493486))*
+- **[LineageOS/android_kernel_google_redbull]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into HEAD *(ID: [502398](https://review.lineageos.org/c/502398))*
+- **[LineageOS/android_kernel_google_redbull]** UPSTREAM: ipv6: Fix dump of specific table with strict checking *(ID: [502575](https://review.lineageos.org/c/502575))*
 - **[LineageOS/android_kernel_amlogic_kernel-5.15]** Merge branch 'android14-5.15-lts' of https://android.googlesource.com/kernel/common into lineage-23.2 *(ID: [502543](https://review.lineageos.org/c/502543))*
 - **[LineageOS/android_external_alsa-ucm-conf]** Fix SpeakerHPHL sequences to enable RX1 *(ID: [502570](https://review.lineageos.org/c/502570))*
 - **[LineageOS/android_external_alsa-ucm-conf]** fix jack control *(ID: [502552](https://review.lineageos.org/c/502552))*
 - **[LineageOS/android_external_alsa-ucm-conf]** Fix includes of HeadsetMic enable, disable sequence *(ID: [502549](https://review.lineageos.org/c/502549))*
-- **[LineageOS/android_kernel_qcom_sm8150]** Revert "UPSTREAM: sign-file: Use only the OpenSSL CMS API for signing" *(ID: [502186](https://review.lineageos.org/c/502186))*
 - **[LineageOS/android_device_motorola_sm7250-common]** fixup! sm7250-common: Drop unused packages *(ID: [502213](https://review.lineageos.org/c/502213))*
 - **[LineageOS/android_hardware_amlogic_u-boot_build]** Add FIP and build script for Khadas VIM *(ID: [502536](https://review.lineageos.org/c/502536))*
 - **[LineageOS/android_hardware_amlogic_u-boot_build]** Add FIP and build scripts for Khadas VIM3 and VIM3L *(ID: [502535](https://review.lineageos.org/c/502535))*
@@ -38,10 +42,6 @@
 - **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Add support for deadpool *(ID: [499694](https://review.lineageos.org/c/499694))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** G12a: enable emmc/sdcard/sdio. [1/1] *(ID: [499682](https://review.lineageos.org/c/499682))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Add support for radxa0 *(ID: [499538](https://review.lineageos.org/c/499538))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3: dts: Configure the RTL8211F RGMII delays for the 5.15 dwmac driver *(ID: [497701](https://review.lineageos.org/c/497701))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3: dts: Drop the PDM dai-link that referenced a disabled node *(ID: [497700](https://review.lineageos.org/c/497700))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** secmon: reject bogus share mem size from legacy BL31 *(ID: [497699](https://review.lineageos.org/c/497699))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3: dts: Disable legacy meson_fb, use DRM like kvim3l *(ID: [497698](https://review.lineageos.org/c/497698))*
 
 </details>
 
