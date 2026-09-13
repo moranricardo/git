@@ -3,7 +3,7 @@ function cleanGerritResponse(rawText) {
 }
 
 function obtenerCabecerasAnonimas() {
-    const versionesChrome = ['124.0.0.0', '125.0.0.0', '126.0.0.0'];
+    const versionesChrome = ['128.0.0.0', '129.0.0.0', '130.0.0.0'];
     const chromeVersion = versionesChrome[Math.floor(Math.random() * versionesChrome.length)];
     const majorVersion = chromeVersion.split('.')[0];
 
@@ -12,7 +12,7 @@ function obtenerCabecerasAnonimas() {
         'Accept-Language': 'es-419,es;q=0.9,en;q=0.8',
         'Cache-Control': 'no-cache',
         'Accept': 'application/json, text/plain, */*',
-        'Sec-CH-UA': `"Not/A)Brand";v="8", "Chromium";v="${majorVersion}", "Google Chrome";v="${majorVersion}"`
+        'Sec-CH-UA': `"Chromium";v="${majorVersion}", "Google Chrome";v="${majorVersion}"`
     };
 }
 
@@ -20,34 +20,40 @@ function obtenerCabecerasAnonimas() {
  * Consulta la API de LineageOS Gerrit por URL o por ID de cambio.
  * @param {string|number} target - URL completa o ID del cambio (ej. 502186).
  * @param {number} [timeoutMs=8000] - Tiempo límite de respuesta en ms.
+ * @param {number} [retries=2] - Número de reintentos en caso de fallo de red.
  */
-export async function fetchGerritChange(target, timeoutMs = 8000) {
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
-
+export async function fetchGerritChange(target, timeoutMs = 8000, retries = 2) {
     const url = typeof target === 'number' || !target.startsWith('http')
         ? `https://review.lineageos.org/changes/${target}/detail`
         : target;
 
-    try {
-        const response = await fetch(url, {
-            method: 'GET',
-            headers: obtenerCabecerasAnonimas(),
-            signal: controller.signal
-        });
+    for (let intento = 0; intento <= retries; intento++) {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
 
-        clearTimeout(timeoutId);
+        try {
+            const response = await fetch(url, {
+                method: 'GET',
+                headers: obtenerCabecerasAnonimas(),
+                signal: controller.signal
+            });
 
-        if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
+            if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
 
-        const rawText = await response.text();
-        return JSON.parse(cleanGerritResponse(rawText));
-    } catch (error) {
-        if (error.name === 'AbortError') {
-            console.error(`[Oráculo Error] Tiempo de espera agotado al consultar: ${url}`);
-        } else {
-            console.error(`[Oráculo Error] Fallo al consultar ${url}:`, error.message);
+            const rawText = await response.text();
+            return JSON.parse(cleanGerritResponse(rawText));
+        } catch (error) {
+            const esUltimoIntento = intento === retries;
+            if (error.name === 'AbortError') {
+                console.error(`[Oráculo Error] Tiempo agotado (${timeoutMs}ms) al consultar: ${url}`);
+            } else if (esUltimoIntento) {
+                console.error(`[Oráculo Error] Fallo tras ${retries + 1} intentos en ${url}:`, error.message);
+            }
+
+            if (esUltimoIntento) return null;
+            await new Promise(res => setTimeout(res, 1000)); // Espera 1s antes de reintentar
+        } finally {
+            clearTimeout(timeoutId); // Garantiza que siempre se limpie el temporizador
         }
-        return null;
     }
 }
