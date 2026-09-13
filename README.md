@@ -7,27 +7,13 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (168)
+## 🚨 Parches Críticos Detectados (165)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_amlogic_oppen-build]** oppen: Switch to common NE defconfig fragment *(ID: [502389](https://review.lineageos.org/c/502389))*
-- **[LineageOS/android_hardware_amlogic_u-boot]** net: designware: Take the PHY out of loopback after autocali *(ID: [502139](https://review.lineageos.org/c/502139))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: configs: Introduce common Amlogic defconfig and NE fragment *(ID: [502387](https://review.lineageos.org/c/502387))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm7435-common: gps: Fix format specifiers *(ID: [502457](https://review.lineageos.org/c/502457))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm7435-common: gps: Fix unqualified-std-cast-call warning *(ID: [502456](https://review.lineageos.org/c/502456))*
-- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Fix format specifiers *(ID: [502364](https://review.lineageos.org/c/502364))*
-- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Fix unqualified-std-cast-call warning *(ID: [502363](https://review.lineageos.org/c/502363))*
-- **[LineageOS/android_hardware_interfaces]** Revert "compatibility_matrices: Allow gnss AIDL v1 on target-level 7" *(ID: [502450](https://review.lineageos.org/c/502450))*
-- **[LineageOS/android_hardware_interfaces]** compatibility_matrices: Allow soundtrigger HIDL 2.1 and 2.2 on target-level 7 *(ID: [493678](https://review.lineageos.org/c/493678))*
-- **[LineageOS/android_system_media]** [BACKPORT] Fix camera metadata entry capacity validation. *(ID: [502445](https://review.lineageos.org/c/502445))*
-- **[LineageOS/android_system_bt]** Fix SDP server heap buffer overflow *(ID: [502444](https://review.lineageos.org/c/502444))*
-- **[LineageOS/android_system_bt]** Fuzz: Fix overflow in SDP_addAttribute *(ID: [502443](https://review.lineageos.org/c/502443))*
-- **[LineageOS/android_system_bt]** Fix an OOB bug in remove_sdp_record *(ID: [502442](https://review.lineageos.org/c/502442))*
-- **[LineageOS/android_frameworks_av]** [BACKPORT] Fix MediaBuffer size-inflation off-by-32 bug *(ID: [502437](https://review.lineageos.org/c/502437))*
-- **[LineageOS/android_frameworks_av]** Fix heap-buffer-overflow in AudioAttributes unmarshalling *(ID: [502436](https://review.lineageos.org/c/502436))*
-- **[LineageOS/android_external_libhevc]** libhevcdec: Fix heap buffer overflow in ihevcd_get_tu_data_size *(ID: [502435](https://review.lineageos.org/c/502435))*
+- **[LineageOS/android_kernel_amlogic_kernel-5.15]** input: sensors: import the sensor-dev framework and KXTJ3 driver *(ID: [497704](https://review.lineageos.org/c/497704))*
+- **[LineageOS/android_hardware_amlogic_u-boot_build]** Add FIP and build scripts for X96 X9 *(ID: [502140](https://review.lineageos.org/c/502140))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: meson-g12b: Add missing eth_txen to external_eth_pins *(ID: [502041](https://review.lineageos.org/c/502041))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** x96x9: dts: Import x96x9 changes based on stock and kvim3 *(ID: [501845](https://review.lineageos.org/c/501845))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: Add g12b_a311d_w400_x96x9.dts *(ID: [501844](https://review.lineageos.org/c/501844))*
@@ -42,6 +28,20 @@
 - **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3: dts: Drop the PDM dai-link that referenced a disabled node *(ID: [497700](https://review.lineageos.org/c/497700))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** secmon: reject bogus share mem size from legacy BL31 *(ID: [497699](https://review.lineageos.org/c/497699))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3: dts: Disable legacy meson_fb, use DRM like kvim3l *(ID: [497698](https://review.lineageos.org/c/497698))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3: dts: Move logo framebuffer reservation to 0x3d800000 *(ID: [497697](https://review.lineageos.org/c/497697))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: configs: Add kvim3_defconfig *(ID: [497696](https://review.lineageos.org/c/497696))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: kvim3: add Khadas VIM3 (A311D) board support *(ID: [497695](https://review.lineageos.org/c/497695))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ASoC: codecs: import the Khadas es8316 from the vim4-a14 BSP *(ID: [497694](https://review.lineageos.org/c/497694))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** drm: meson: hdmi: recover the color attr when recovery changes mode *(ID: [497398](https://review.lineageos.org/c/497398))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: aml: Fix g12a/b and sm1 to support loading uvm, videotunnel and di_process *(ID: [495851](https://review.lineageos.org/c/495851))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: configs: amlogic_g12: Enable RD_XZ *(ID: [495816](https://review.lineageos.org/c/495816))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** debug: lockup: reject SMC_UNK from firmware without FIQ debug support *(ID: [495814](https://review.lineageos.org/c/495814))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: kvim3l: use the non-A/B deadpool partition layout *(ID: [495813](https://review.lineageos.org/c/495813))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3l: dts - give the dma-buf heaps real sizes, pin the logo reservation *(ID: [495812](https://review.lineageos.org/c/495812))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3l: add vim3l based on sm1_s905d3_ac200.dts *(ID: [495811](https://review.lineageos.org/c/495811))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: Fix kvim1s.dts with vendor commits *(ID: [495391](https://review.lineageos.org/c/495391))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: configs: Create Amlogic G12 defconfig fragment *(ID: [499695](https://review.lineageos.org/c/499695))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** G12a: enable emmc/sdcard/sdio. [1/1] *(ID: [499682](https://review.lineageos.org/c/499682))*
 
 </details>
 
