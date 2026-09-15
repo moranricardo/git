@@ -1,6 +1,6 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-14-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-15-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
@@ -13,17 +13,21 @@
 <summary><b>Click para desplegar parches críticos</b></summary>
 
 - **[LineageOS/android_kernel_motorola_sm7435-modules]** input: touchscreen: nova_0flash_mmi: Fix boot touch race condition *(ID: [502681](https://review.lineageos.org/c/502681))*
+- **[LineageOS/android_hardware_mediatek]** frameworks: Introduce a minimal mediatek-telephony-common JAR *(ID: [502716](https://review.lineageos.org/c/502716))*
+- **[LineageOS/android_hardware_mediatek]** frameworks: Introduce a minimal mediatek-telecom-common JAR *(ID: [502717](https://review.lineageos.org/c/502717))*
+- **[LineageOS/android_hardware_mediatek]** frameworks: Move our minimal MediaTek boot JARs to system_ext *(ID: [502718](https://review.lineageos.org/c/502718))*
 - **[LineageOS/android_kernel_fairphone_sm7635-devicetrees]** ARM: dts: FP6: Delete mem-offline node to fully disable PASR *(ID: [491812](https://review.lineageos.org/c/491812))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_sgpu]** sgpu_gralloc: Remove gralloc4 *(ID: [501998](https://review.lineageos.org/c/501998))*
-- **[LineageOS/android_device_oneplus_dodge]** dodge: Fix NFC config for AOSP stack *(ID: [502633](https://review.lineageos.org/c/502633))*
-- **[LineageOS/android_hardware_amlogic_u-boot_build]** Add FIP and build script for Khadas VIM *(ID: [502536](https://review.lineageos.org/c/502536))*
+- **[LineageOS/android_kernel_qcom_sm8650-devicetrees]** arm64: dts: qcom: Delete mem-offline node to fully disable PASR *(ID: [502707](https://review.lineageos.org/c/502707))*
+- **[LineageOS/android_packages_apps_Settings]** Settings: fix negative System size on large-storage devices *(ID: [502702](https://review.lineageos.org/c/502702))*
 - **[LineageOS/android_kernel_nothing_sm7325]** leds: aw210xx: Expose device color via sysfs attribute *(ID: [497803](https://review.lineageos.org/c/497803))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label additional wakeup nodes for volkswagen *(ID: [502672](https://review.lineageos.org/c/502672))*
+- **[LineageOS/android_device_oneplus_dodge]** dodge: Fix NFC config for AOSP stack *(ID: [502633](https://review.lineageos.org/c/502633))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_sgpu]** sgpu_gralloc: Remove gralloc4 *(ID: [501998](https://review.lineageos.org/c/501998))*
+- **[LineageOS/android_hardware_amlogic_u-boot_build]** Add FIP and build script for Khadas VIM *(ID: [502536](https://review.lineageos.org/c/502536))*
 - **[LineageOS/android_hardware_nothing]** glyph: Read device color from LED sysfs node instead of persist *(ID: [497804](https://review.lineageos.org/c/497804))*
 - **[LineageOS/android_hardware_mainline_qcom]** mainline/qcom: libsensors_libssc: Rename `libssc` to `libssc_mainline` *(ID: [502675](https://review.lineageos.org/c/502675))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label additional wakeup nodes for volkswagen *(ID: [502520](https://review.lineageos.org/c/502520))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Bring up support for infiniti/fairlady (OnePlus 15/15T) *(ID: [502674](https://review.lineageos.org/c/502674))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: Label additional wakeup nodes for volkswagen *(ID: [502672](https://review.lineageos.org/c/502672))*
-- **[LineageOS/android_kernel_amlogic_linux-4.9]** drivers: amlogic: pm: Skip LED AO register poke on pre-G12 SoCs *(ID: [502670](https://review.lineageos.org/c/502670))*
 - **[LineageOS/android_hardware_oplus]** audio_amplifier: Add lito SoC *(ID: [496942](https://review.lineageos.org/c/496942))*
 - **[LineageOS/android_kernel_qcom_sm8250]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into android13-4.19-kona *(ID: [502386](https://review.lineageos.org/c/502386))*
 - **[LineageOS/android_hardware_samsung]** [WIP/DNM] soundbooster: Improve code quality *(ID: [502664](https://review.lineageos.org/c/502664))*
@@ -38,10 +42,6 @@
 - **[LineageOS/android_hardware_samsung]** AdvancedDisplay: Implement dynamic mDNIe support *(ID: [479586](https://review.lineageos.org/c/479586))*
 - **[LineageOS/android_hardware_samsung]** aidl: health: Introduce libsamsunghealth *(ID: [493486](https://review.lineageos.org/c/493486))*
 - **[LineageOS/android_kernel_google_redbull]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into HEAD *(ID: [502398](https://review.lineageos.org/c/502398))*
-- **[LineageOS/android_device_motorola_sm7250-common]** fixup! sm7250-common: Drop unused packages *(ID: [502213](https://review.lineageos.org/c/502213))*
-- **[LineageOS/android_hardware_amlogic_u-boot_build]** Add FIP and build scripts for Khadas VIM3 and VIM3L *(ID: [502535](https://review.lineageos.org/c/502535))*
-- **[LineageOS/android_hardware_amlogic_u-boot_build]** Add FIP and build scripts for X96 X9 *(ID: [502140](https://review.lineageos.org/c/502140))*
-- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Apply devkit changes to kvim *(ID: [502534](https://review.lineageos.org/c/502534))*
 
 </details>
 
