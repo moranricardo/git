@@ -7,11 +7,17 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (158)
+## 🚨 Parches Críticos Detectados (140)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_sony_sm8350]** sony: et6xx: Fix CFI failure on module init with newer Clang *(ID: [500488](https://review.lineageos.org/c/500488))*
+- **[LineageOS/android_kernel_sony_sm8350]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [500487](https://review.lineageos.org/c/500487))*
+- **[LineageOS/android_device_xiaomi_sm8250-common]** sm8250-common: sepolicy: Fix VTS violations by adding vendor prefixes *(ID: [428900](https://review.lineageos.org/c/428900))*
+- **[LineageOS/android_hardware_samsung]** teegris: Partially RE 'tzdaemon' *(ID: [502002](https://review.lineageos.org/c/502002))*
+- **[LineageOS/android_hardware_google_pixel]** usb: Update userspace aoa flags for P6/P8/P10 *(ID: [502733](https://review.lineageos.org/c/502733))*
+- **[LineageOS/android_packages_apps_SetupWizard]** SUW: Fixup center reveal through LineageOS logo *(ID: [502732](https://review.lineageos.org/c/502732))*
 - **[LineageOS/android_kernel_motorola_sm7435-modules]** input: touchscreen: nova_0flash_mmi: Fix boot touch race condition *(ID: [502681](https://review.lineageos.org/c/502681))*
 - **[LineageOS/android_hardware_mediatek]** frameworks: Introduce a minimal mediatek-telephony-common JAR *(ID: [502716](https://review.lineageos.org/c/502716))*
 - **[LineageOS/android_hardware_mediatek]** frameworks: Introduce a minimal mediatek-telecom-common JAR *(ID: [502717](https://review.lineageos.org/c/502717))*
@@ -35,17 +41,11 @@
 - **[LineageOS/android_kernel_xiaomi_sm7435]** Merge remote-tracking branch 'sm8450/lineage-20' into HEAD *(ID: [502659](https://review.lineageos.org/c/502659))*
 - **[LineageOS/android_kernel_lenovo_sm8150]** dts: lenovo: Remove removed_regions override *(ID: [502654](https://review.lineageos.org/c/502654))*
 - **[LineageOS/android_device_motorola_rtwo]** rtwo: Fix wireless charge/tx chown race condition *(ID: [502653](https://review.lineageos.org/c/502653))*
-- **[LineageOS/android_kernel_amlogic_linux-4.9]** arm64: dts: sm1_s905x3_bananapim5: Fix gigabit ethernet link for Banana Pi M5 *(ID: [502615](https://review.lineageos.org/c/502615))*
 - **[LineageOS/android_hardware_qcom-caf_common]** libqti-perfd-client: Implement camera perf hints *(ID: [471088](https://review.lineageos.org/c/471088))*
-- **[LineageOS/android_hardware_qcom-caf_common]** libqti-perfd-client: Reset Power HAL on binder death *(ID: [477487](https://review.lineageos.org/c/477487))*
-- **[LineageOS/android_kernel_google_redbull]** UPSTREAM: ipv6: Fix dump of specific table with strict checking *(ID: [502575](https://review.lineageos.org/c/502575))*
-- **[LineageOS/android_hardware_samsung]** AdvancedDisplay: Implement dynamic mDNIe support *(ID: [479586](https://review.lineageos.org/c/479586))*
-- **[LineageOS/android_hardware_samsung]** aidl: health: Introduce libsamsunghealth *(ID: [493486](https://review.lineageos.org/c/493486))*
-- **[LineageOS/android_kernel_google_redbull]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into HEAD *(ID: [502398](https://review.lineageos.org/c/502398))*
 
 </details>
 
-## 📱 Línea Motorola Activa (52)
+## 📱 Línea Motorola Activa (38)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
@@ -61,7 +61,6 @@
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: fastbootd is now enabled by default *(ID: [502211](https://review.lineageos.org/c/502211))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Use legacy libion implementation *(ID: [502210](https://review.lineageos.org/c/502210))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: power-libperfmgr: Update included soong namespace *(ID: [502209](https://review.lineageos.org/c/502209))*
-- **[LineageOS/android_device_motorola_sm7250-common]** fixup! sm7250-common: Drop unused packages *(ID: [502213](https://review.lineageos.org/c/502213))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Inherit AIDL compatibility matrix *(ID: [502460](https://review.lineageos.org/c/502460))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Convert qspa to blueprint *(ID: [502459](https://review.lineageos.org/c/502459))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm7435-common: address seccomp failures for qsap_location *(ID: [502458](https://review.lineageos.org/c/502458))*
@@ -80,6 +79,7 @@
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps/location: Update to LA.VENDOR.15.4.1.r1-10300-WAIPIO.QSSI16.0 *(ID: [502360](https://review.lineageos.org/c/502360))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Update GNSS blobs from W1VAS36.62_22_16_1_9 *(ID: [502359](https://review.lineageos.org/c/502359))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Inherit AIDL compatibility matrix *(ID: [502451](https://review.lineageos.org/c/502451))*
+- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Update WFD system blobs from marvel_g A171WEH.20 *(ID: [499945](https://review.lineageos.org/c/499945))*
 
 </details>
 
