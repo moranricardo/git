@@ -7,14 +7,20 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (163)
+## 🚨 Parches Críticos Detectados (154)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_qcom_sm8250]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into android13-4.19-kona *(ID: [502386](https://review.lineageos.org/c/502386))*
+- **[LineageOS/android_kernel_google_redbull]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into HEAD *(ID: [502398](https://review.lineageos.org/c/502398))*
+- **[LineageOS/android_kernel_motorola_sm7435-modules]** input: touchscreen: nova_0flash_mmi: Fix boot touch race condition *(ID: [502681](https://review.lineageos.org/c/502681))*
+- **[LineageOS/android_hardware_qcom_display]** hal: Define `oplus_udfps` soong variable *(ID: [475587](https://review.lineageos.org/c/475587))*
+- **[LineageOS/android_hardware_qcom_display]** hal: Define `samsung_udfps` soong variable *(ID: [475586](https://review.lineageos.org/c/475586))*
+- **[LineageOS/android_hardware_qcom_display]** hal: Define `udfps` soong variable *(ID: [475585](https://review.lineageos.org/c/475585))*
 - **[LineageOS/android_kernel_xiaomi_sm6125]** arm64: dts: xiaomi: Remove fstab entries *(ID: [502838](https://review.lineageos.org/c/502838))*
 - **[LineageOS/android_kernel_xiaomi_sm6125]** configs: Add non-dynamic configs to xiaomi-trinket *(ID: [502837](https://review.lineageos.org/c/502837))*
+- **[LineageOS/android_kernel_nothing_sm7325]** leds: aw210xx: Expose device color via sysfs attribute *(ID: [497803](https://review.lineageos.org/c/497803))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add HBP service sepolicy *(ID: [502673](https://review.lineageos.org/c/502673))*
 - **[LineageOS/android_kernel_xiaomi_sm6125]** fs: proc: Add PROC_CMDLINE_APPEND_ANDROID_FORCE_NORMAL_BOOT *(ID: [502836](https://review.lineageos.org/c/502836))*
 - **[LineageOS/android_kernel_xiaomi_sm6125]** init: Add CONFIG_INITRAMFS_IGNORE_SKIP_FLAG *(ID: [502835](https://review.lineageos.org/c/502835))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** base: libhwc2.1: uncomment src_w_rot_max *(ID: [493327](https://review.lineageos.org/c/493327))*
@@ -27,7 +33,6 @@
 - **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Add kvim support *(ID: [502533](https://review.lineageos.org/c/502533))*
 - **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Apply devkit changes to kvim3 and kvim3l *(ID: [502532](https://review.lineageos.org/c/502532))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label additional wakeup nodes for volkswagen *(ID: [502672](https://review.lineageos.org/c/502672))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Bring up support for infiniti/fairlady (OnePlus 15/15T) *(ID: [502674](https://review.lineageos.org/c/502674))*
 - **[LineageOS/android_kernel_sony_sm8550-modules]** Merge remote-tracking branch 'qcom/lineage-21' into lineage-24.0 *(ID: [502796](https://review.lineageos.org/c/502796))*
 - **[LineageOS/android_kernel_sony_sm8550]** Merge remote-tracking branch 'qcom/lineage-21' into lineage-24.0 *(ID: [502795](https://review.lineageos.org/c/502795))*
 - **[LineageOS/android_kernel_sony_sm8350]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [502794](https://review.lineageos.org/c/502794))*
@@ -37,24 +42,19 @@
 - **[LineageOS/android_device_xiaomi_sm8250-common]** sm8250-common: sepolicy: Fix VTS violations by adding vendor prefixes *(ID: [428900](https://review.lineageos.org/c/428900))*
 - **[LineageOS/android_hardware_samsung]** teegris: Partially RE 'tzdaemon' *(ID: [502002](https://review.lineageos.org/c/502002))*
 - **[LineageOS/android_hardware_google_pixel]** usb: Update userspace aoa flags for P6/P8/P10 *(ID: [502733](https://review.lineageos.org/c/502733))*
-- **[LineageOS/android_packages_apps_SetupWizard]** SUW: Fixup center reveal through LineageOS logo *(ID: [502732](https://review.lineageos.org/c/502732))*
-- **[LineageOS/android_kernel_motorola_sm7435-modules]** input: touchscreen: nova_0flash_mmi: Fix boot touch race condition *(ID: [502681](https://review.lineageos.org/c/502681))*
-- **[LineageOS/android_hardware_mediatek]** frameworks: Introduce a minimal mediatek-telephony-common JAR *(ID: [502716](https://review.lineageos.org/c/502716))*
-- **[LineageOS/android_hardware_mediatek]** frameworks: Introduce a minimal mediatek-telecom-common JAR *(ID: [502717](https://review.lineageos.org/c/502717))*
-- **[LineageOS/android_hardware_mediatek]** frameworks: Move our minimal MediaTek boot JARs to system_ext *(ID: [502718](https://review.lineageos.org/c/502718))*
 
 </details>
 
-## 📱 Línea Motorola Activa (55)
+## 📱 Línea Motorola Activa (54)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_kernel_motorola_sm7435-modules]** input: touchscreen: nova_0flash_mmi: Fix boot touch race condition *(ID: [502681](https://review.lineageos.org/c/502681))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Remove disable_configstore from PRODUCT_PACKAGES *(ID: [502212](https://review.lineageos.org/c/502212))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: fastbootd is now enabled by default *(ID: [502211](https://review.lineageos.org/c/502211))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Use legacy libion implementation *(ID: [502210](https://review.lineageos.org/c/502210))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: power-libperfmgr: Update included soong namespace *(ID: [502209](https://review.lineageos.org/c/502209))*
-- **[LineageOS/android_kernel_motorola_sm7435-modules]** input: touchscreen: nova_0flash_mmi: Fix boot touch race condition *(ID: [502681](https://review.lineageos.org/c/502681))*
 - **[LineageOS/android_device_motorola_rtwo]** rtwo: Fix wireless charge/tx chown race condition *(ID: [502653](https://review.lineageos.org/c/502653))*
 - **[LineageOS/android_device_motorola_rtwo]** rtwo: init: Minor updates to init.mmi.overlay.rc *(ID: [502652](https://review.lineageos.org/c/502652))*
 - **[LineageOS/android_device_motorola_smith]** smith: Configure device states *(ID: [502467](https://review.lineageos.org/c/502467))*
