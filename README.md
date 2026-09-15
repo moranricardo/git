@@ -7,11 +7,31 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (140)
+## 🚨 Parches Críticos Detectados (163)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_qcom_sm8250]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into android13-4.19-kona *(ID: [502386](https://review.lineageos.org/c/502386))*
+- **[LineageOS/android_kernel_xiaomi_sm6125]** arm64: dts: xiaomi: Remove fstab entries *(ID: [502838](https://review.lineageos.org/c/502838))*
+- **[LineageOS/android_kernel_xiaomi_sm6125]** configs: Add non-dynamic configs to xiaomi-trinket *(ID: [502837](https://review.lineageos.org/c/502837))*
+- **[LineageOS/android_kernel_xiaomi_sm6125]** fs: proc: Add PROC_CMDLINE_APPEND_ANDROID_FORCE_NORMAL_BOOT *(ID: [502836](https://review.lineageos.org/c/502836))*
+- **[LineageOS/android_kernel_xiaomi_sm6125]** init: Add CONFIG_INITRAMFS_IGNORE_SKIP_FLAG *(ID: [502835](https://review.lineageos.org/c/502835))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** base: libhwc2.1: uncomment src_w_rot_max *(ID: [493327](https://review.lineageos.org/c/493327))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e9945: Align TDM-based resource allocation logic to stock *(ID: [493627](https://review.lineageos.org/c/493627))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e9945: Support TDM based resource allocation *(ID: [493626](https://review.lineageos.org/c/493626))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** base: add support for new restrictions property *(ID: [493326](https://review.lineageos.org/c/493326))*
+- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Add kvim3 and kvim3l support *(ID: [502531](https://review.lineageos.org/c/502531))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label additional wakeup nodes for volkswagen *(ID: [502520](https://review.lineageos.org/c/502520))*
+- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Apply devkit changes to kvim *(ID: [502534](https://review.lineageos.org/c/502534))*
+- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Add kvim support *(ID: [502533](https://review.lineageos.org/c/502533))*
+- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Apply devkit changes to kvim3 and kvim3l *(ID: [502532](https://review.lineageos.org/c/502532))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label additional wakeup nodes for volkswagen *(ID: [502672](https://review.lineageos.org/c/502672))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Bring up support for infiniti/fairlady (OnePlus 15/15T) *(ID: [502674](https://review.lineageos.org/c/502674))*
+- **[LineageOS/android_kernel_sony_sm8550-modules]** Merge remote-tracking branch 'qcom/lineage-21' into lineage-24.0 *(ID: [502796](https://review.lineageos.org/c/502796))*
+- **[LineageOS/android_kernel_sony_sm8550]** Merge remote-tracking branch 'qcom/lineage-21' into lineage-24.0 *(ID: [502795](https://review.lineageos.org/c/502795))*
+- **[LineageOS/android_kernel_sony_sm8350]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [502794](https://review.lineageos.org/c/502794))*
+- **[LineageOS/android_kernel_sony_sm8250]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [502793](https://review.lineageos.org/c/502793))*
 - **[LineageOS/android_kernel_sony_sm8350]** sony: et6xx: Fix CFI failure on module init with newer Clang *(ID: [500488](https://review.lineageos.org/c/500488))*
 - **[LineageOS/android_kernel_sony_sm8350]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [500487](https://review.lineageos.org/c/500487))*
 - **[LineageOS/android_device_xiaomi_sm8250-common]** sm8250-common: sepolicy: Fix VTS violations by adding vendor prefixes *(ID: [428900](https://review.lineageos.org/c/428900))*
@@ -22,34 +42,18 @@
 - **[LineageOS/android_hardware_mediatek]** frameworks: Introduce a minimal mediatek-telephony-common JAR *(ID: [502716](https://review.lineageos.org/c/502716))*
 - **[LineageOS/android_hardware_mediatek]** frameworks: Introduce a minimal mediatek-telecom-common JAR *(ID: [502717](https://review.lineageos.org/c/502717))*
 - **[LineageOS/android_hardware_mediatek]** frameworks: Move our minimal MediaTek boot JARs to system_ext *(ID: [502718](https://review.lineageos.org/c/502718))*
-- **[LineageOS/android_kernel_fairphone_sm7635-devicetrees]** ARM: dts: FP6: Delete mem-offline node to fully disable PASR *(ID: [491812](https://review.lineageos.org/c/491812))*
-- **[LineageOS/android_kernel_qcom_sm8650-devicetrees]** arm64: dts: qcom: Delete mem-offline node to fully disable PASR *(ID: [502707](https://review.lineageos.org/c/502707))*
-- **[LineageOS/android_packages_apps_Settings]** Settings: fix negative System size on large-storage devices *(ID: [502702](https://review.lineageos.org/c/502702))*
-- **[LineageOS/android_kernel_nothing_sm7325]** leds: aw210xx: Expose device color via sysfs attribute *(ID: [497803](https://review.lineageos.org/c/497803))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label additional wakeup nodes for volkswagen *(ID: [502672](https://review.lineageos.org/c/502672))*
-- **[LineageOS/android_device_oneplus_dodge]** dodge: Fix NFC config for AOSP stack *(ID: [502633](https://review.lineageos.org/c/502633))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_sgpu]** sgpu_gralloc: Remove gralloc4 *(ID: [501998](https://review.lineageos.org/c/501998))*
-- **[LineageOS/android_hardware_amlogic_u-boot_build]** Add FIP and build script for Khadas VIM *(ID: [502536](https://review.lineageos.org/c/502536))*
-- **[LineageOS/android_hardware_nothing]** glyph: Read device color from LED sysfs node instead of persist *(ID: [497804](https://review.lineageos.org/c/497804))*
-- **[LineageOS/android_hardware_mainline_qcom]** mainline/qcom: libsensors_libssc: Rename `libssc` to `libssc_mainline` *(ID: [502675](https://review.lineageos.org/c/502675))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label additional wakeup nodes for volkswagen *(ID: [502520](https://review.lineageos.org/c/502520))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Bring up support for infiniti/fairlady (OnePlus 15/15T) *(ID: [502674](https://review.lineageos.org/c/502674))*
-- **[LineageOS/android_hardware_oplus]** audio_amplifier: Add lito SoC *(ID: [496942](https://review.lineageos.org/c/496942))*
-- **[LineageOS/android_kernel_qcom_sm8250]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into android13-4.19-kona *(ID: [502386](https://review.lineageos.org/c/502386))*
-- **[LineageOS/android_hardware_samsung]** [WIP/DNM] soundbooster: Improve code quality *(ID: [502664](https://review.lineageos.org/c/502664))*
-- **[LineageOS/android_kernel_xiaomi_sm7435-modules]** Merge remote-tracking branch 'sm8450/lineage-20' into HEAD *(ID: [502661](https://review.lineageos.org/c/502661))*
-- **[LineageOS/android_kernel_xiaomi_sm7435]** Merge remote-tracking branch 'sm8450/lineage-20' into HEAD *(ID: [502659](https://review.lineageos.org/c/502659))*
-- **[LineageOS/android_kernel_lenovo_sm8150]** dts: lenovo: Remove removed_regions override *(ID: [502654](https://review.lineageos.org/c/502654))*
-- **[LineageOS/android_device_motorola_rtwo]** rtwo: Fix wireless charge/tx chown race condition *(ID: [502653](https://review.lineageos.org/c/502653))*
-- **[LineageOS/android_hardware_qcom-caf_common]** libqti-perfd-client: Implement camera perf hints *(ID: [471088](https://review.lineageos.org/c/471088))*
 
 </details>
 
-## 📱 Línea Motorola Activa (38)
+## 📱 Línea Motorola Activa (55)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Remove disable_configstore from PRODUCT_PACKAGES *(ID: [502212](https://review.lineageos.org/c/502212))*
+- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: fastbootd is now enabled by default *(ID: [502211](https://review.lineageos.org/c/502211))*
+- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Use legacy libion implementation *(ID: [502210](https://review.lineageos.org/c/502210))*
+- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: power-libperfmgr: Update included soong namespace *(ID: [502209](https://review.lineageos.org/c/502209))*
 - **[LineageOS/android_kernel_motorola_sm7435-modules]** input: touchscreen: nova_0flash_mmi: Fix boot touch race condition *(ID: [502681](https://review.lineageos.org/c/502681))*
 - **[LineageOS/android_device_motorola_rtwo]** rtwo: Fix wireless charge/tx chown race condition *(ID: [502653](https://review.lineageos.org/c/502653))*
 - **[LineageOS/android_device_motorola_rtwo]** rtwo: init: Minor updates to init.mmi.overlay.rc *(ID: [502652](https://review.lineageos.org/c/502652))*
@@ -57,10 +61,6 @@
 - **[LineageOS/android_device_motorola_smith]** smith: Improve SystemUI usability on secondary display *(ID: [502468](https://review.lineageos.org/c/502468))*
 - **[LineageOS/android_device_motorola_smith]** smith: Tweak status bar *(ID: [502635](https://review.lineageos.org/c/502635))*
 - **[LineageOS/android_device_motorola_smith]** smith: Use fold lock behavior to sleep display *(ID: [502469](https://review.lineageos.org/c/502469))*
-- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Remove disable_configstore from PRODUCT_PACKAGES *(ID: [502212](https://review.lineageos.org/c/502212))*
-- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: fastbootd is now enabled by default *(ID: [502211](https://review.lineageos.org/c/502211))*
-- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Use legacy libion implementation *(ID: [502210](https://review.lineageos.org/c/502210))*
-- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: power-libperfmgr: Update included soong namespace *(ID: [502209](https://review.lineageos.org/c/502209))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Inherit AIDL compatibility matrix *(ID: [502460](https://review.lineageos.org/c/502460))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Convert qspa to blueprint *(ID: [502459](https://review.lineageos.org/c/502459))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm7435-common: address seccomp failures for qsap_location *(ID: [502458](https://review.lineageos.org/c/502458))*
