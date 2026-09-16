@@ -7,11 +7,19 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (118)
+## 🚨 Parches Críticos Detectados (127)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** hummer: Fix black screen in landscape due to ROI misalignment *(ID: [503056](https://review.lineageos.org/c/503056))*
+- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** oplus: oplus_chg: Update piloti changes from RMX5090_16.0.3.500(CN01) dtbo *(ID: [478543](https://review.lineageos.org/c/478543))*
+- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** oplus: oplus_chg: Update piloti changes from RMX5090_16.0.2.400(CN01) dtbo *(ID: [478542](https://review.lineageos.org/c/478542))*
+- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** treewide: Import pista changes from RMX5010_16.0.0.211(CN01) *(ID: [477401](https://review.lineageos.org/c/477401))*
+- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** treewide: Import piloti changes from RMX5090_16.0.0.211(CN01) *(ID: [468125](https://review.lineageos.org/c/468125))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: ASoC: tfa98xx: Make i2c aging proc nodes unique per bus *(ID: [497806](https://review.lineageos.org/c/497806))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: ASoC: aw882xx: Make i2c aging proc nodes unique per bus *(ID: [497805](https://review.lineageos.org/c/497805))*
+- **[LineageOS/android_hardware_samsung]** aidl: vibrator: Tweak FF effect IDs *(ID: [503064](https://review.lineageos.org/c/503064))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: configs: Create Amlogic G12 defconfig fragment *(ID: [499695](https://review.lineageos.org/c/499695))*
 - **[LineageOS/android_device_xiaomi_sm8250-common]** sm8250-common: sepolicy: Fix VTS violations by adding vendor prefixes *(ID: [428900](https://review.lineageos.org/c/428900))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** cec: g12b: re-enable CEC_A 32k clock when it is found gated *(ID: [502995](https://review.lineageos.org/c/502995))*
@@ -34,14 +42,6 @@
 - **[LineageOS/android_kernel_nothing_sm7325]** leds: aw210xx: Expose device color via sysfs attribute *(ID: [497803](https://review.lineageos.org/c/497803))*
 - **[LineageOS/android_kernel_xiaomi_sm6125]** fs: proc: Add PROC_CMDLINE_APPEND_ANDROID_FORCE_NORMAL_BOOT *(ID: [502836](https://review.lineageos.org/c/502836))*
 - **[LineageOS/android_kernel_xiaomi_sm6125]** init: Add CONFIG_INITRAMFS_IGNORE_SKIP_FLAG *(ID: [502835](https://review.lineageos.org/c/502835))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** base: libhwc2.1: uncomment src_w_rot_max *(ID: [493327](https://review.lineageos.org/c/493327))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e9945: Align TDM-based resource allocation logic to stock *(ID: [493627](https://review.lineageos.org/c/493627))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e9945: Support TDM based resource allocation *(ID: [493626](https://review.lineageos.org/c/493626))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** base: add support for new restrictions property *(ID: [493326](https://review.lineageos.org/c/493326))*
-- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Add kvim3 and kvim3l support *(ID: [502531](https://review.lineageos.org/c/502531))*
-- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Apply devkit changes to kvim *(ID: [502534](https://review.lineageos.org/c/502534))*
-- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Add kvim support *(ID: [502533](https://review.lineageos.org/c/502533))*
-- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Apply devkit changes to kvim3 and kvim3l *(ID: [502532](https://review.lineageos.org/c/502532))*
 
 </details>
 
