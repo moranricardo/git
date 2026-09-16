@@ -7,45 +7,45 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (135)
+## 🚨 Parches Críticos Detectados (148)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into moto-sm8550/lineage-24.0 *(ID: [502884](https://review.lineageos.org/c/502884))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** power: oplus: v2: Set appropriate full charge capacity to charge_full *(ID: [502880](https://review.lineageos.org/c/502880))*
+- **[LineageOS/android_device_xiaomi_sm8250-common]** sm8250-common: sepolicy: Fix VTS violations by adding vendor prefixes *(ID: [428900](https://review.lineageos.org/c/428900))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_codec2]** codec2: Drop HIDL services *(ID: [502979](https://review.lineageos.org/c/502979))*
+- **[LineageOS/android_vendor_nxp_opensource_external_libnfc-nci]** Fix OOB write in rw_mfc_handle_read_op *(ID: [502961](https://review.lineageos.org/c/502961))*
+- **[LineageOS/android_vendor_nxp_opensource_external_libnfc-nci]** Fix potential integer overflow in Type 3 Tag block operations. *(ID: [502960](https://review.lineageos.org/c/502960))*
+- **[LineageOS/android_vendor_nxp_opensource_external_libnfc-nci]** Fix uint16 loop counter wrap in T3T NDEF CHECK/UPDATE *(ID: [502959](https://review.lineageos.org/c/502959))*
+- **[LineageOS/android_system_nfc]** Fix OOB write in rw_mfc_handle_read_op *(ID: [502956](https://review.lineageos.org/c/502956))*
+- **[LineageOS/android_system_nfc]** Fix potential integer overflow in Type 3 Tag block operations. *(ID: [502955](https://review.lineageos.org/c/502955))*
+- **[LineageOS/android_system_nfc]** Fix uint16 loop counter wrap in T3T NDEF CHECK/UPDATE *(ID: [502954](https://review.lineageos.org/c/502954))*
+- **[LineageOS/android_system_core]** Fix Use-After-Free in TLS handshake. *(ID: [502952](https://review.lineageos.org/c/502952))*
+- **[LineageOS/android_system_bt]** [RESTRICT AUTOMERGE] Fix SDP server heap buffer overflow *(ID: [502950](https://review.lineageos.org/c/502950))*
+- **[LineageOS/android_packages_providers_MediaProvider]** RESTRICT AUTOMERGE Fix location redaction bypass for oversized XMP boxes. *(ID: [502947](https://review.lineageos.org/c/502947))*
+- **[LineageOS/android_packages_providers_MediaProvider]** RESTRICT AUTOMERGE Fix MediaStore race condition for pending files *(ID: [502946](https://review.lineageos.org/c/502946))*
+- **[LineageOS/android_packages_providers_MediaProvider]** RESTRICT AUTOMERGE Fix ISO XMP location redaction bypass *(ID: [502945](https://review.lineageos.org/c/502945))*
+- **[LineageOS/android_packages_apps_TV]** Fix Intent redirection issue in SetupPassthroughActivity *(ID: [502943](https://review.lineageos.org/c/502943))*
+- **[LineageOS/android_frameworks_base]** Fix potential NPEs in PduParser.parsePartHeaders *(ID: [502940](https://review.lineageos.org/c/502940))*
+- **[LineageOS/android_frameworks_base]** RESTRICT AUTOMERGE: Fix vulnerabilities in PduParser *(ID: [502939](https://review.lineageos.org/c/502939))*
+- **[LineageOS/android_frameworks_base]** Fix & speed up IntentForwarderActivityTest *(ID: [502930](https://review.lineageos.org/c/502930))*
+- **[LineageOS/android_frameworks_av]** Fix OOB in DynamicsProcessing MBC band processing *(ID: [502929](https://review.lineageos.org/c/502929))*
+- **[LineageOS/android_frameworks_av]** Fix heap-buffer-overflow in AudioAttributes unmarshalling *(ID: [502928](https://review.lineageos.org/c/502928))*
+- **[LineageOS/android_frameworks_av]** [media] Fix heap out-of-bounds write in MatroskaSource::read *(ID: [502927](https://review.lineageos.org/c/502927))*
+- **[LineageOS/android_external_libpng]** fix(arm): Resolve out-of-bounds read/write in NEON palette expansion *(ID: [502926](https://review.lineageos.org/c/502926))*
+- **[LineageOS/android_external_libhevc]** libhevcdec: Fix heap buffer overflow in ihevcd_get_tu_data_size *(ID: [502925](https://review.lineageos.org/c/502925))*
+- **[LineageOS/android_external_exfatprogs]** ANDROID: Fix fsck overflows when handling bad clu_count or vol_length fields. *(ID: [502923](https://review.lineageos.org/c/502923))*
+- **[LineageOS/android_development]** Fix potential NPEs in PduParser.parsePartHeaders *(ID: [502920](https://review.lineageos.org/c/502920))*
+- **[LineageOS/android_bionic]** Fix bad free when limit exceeded. *(ID: [502918](https://review.lineageos.org/c/502918))*
+- **[LineageOS/android_frameworks_base]** Fix using the base type for checking *(ID: [502935](https://review.lineageos.org/c/502935))*
+- **[LineageOS/android_hardware_qcom-caf_common]** libqti-perfd-client: Reset Power HAL on binder death *(ID: [477487](https://review.lineageos.org/c/477487))*
+- **[LineageOS/android_hardware_qcom-caf_common]** libqti-perfd-client: Implement camera perf hints *(ID: [471088](https://review.lineageos.org/c/471088))*
 - **[LineageOS/android_kernel_google_redbull]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into android-msm-pixel-4.19 *(ID: [502398](https://review.lineageos.org/c/502398))*
-- **[LineageOS/android_device_xiaomi_sm8150-common]** sm8150-common: Fix vendor.voice.path.for.pcm.voip value *(ID: [474338](https://review.lineageos.org/c/474338))*
-- **[LineageOS/android_device_xiaomi_sm8150-common]** sm8150-common: sepolicy: Fix parts LED denials *(ID: [432811](https://review.lineageos.org/c/432811))*
-- **[LineageOS/android_kernel_motorola_sm7435-modules]** input: touchscreen: nova_0flash_mmi: Fix boot touch race condition *(ID: [502681](https://review.lineageos.org/c/502681))*
-- **[LineageOS/android_hardware_qcom_display]** hal: Define `oplus_udfps` soong variable *(ID: [475587](https://review.lineageos.org/c/475587))*
-- **[LineageOS/android_hardware_qcom_display]** hal: Define `samsung_udfps` soong variable *(ID: [475586](https://review.lineageos.org/c/475586))*
-- **[LineageOS/android_hardware_qcom_display]** hal: Define `udfps` soong variable *(ID: [475585](https://review.lineageos.org/c/475585))*
-- **[LineageOS/android_kernel_xiaomi_sm6125]** arm64: dts: xiaomi: Remove fstab entries *(ID: [502838](https://review.lineageos.org/c/502838))*
-- **[LineageOS/android_kernel_xiaomi_sm6125]** configs: Add non-dynamic configs to xiaomi-trinket *(ID: [502837](https://review.lineageos.org/c/502837))*
-- **[LineageOS/android_kernel_nothing_sm7325]** leds: aw210xx: Expose device color via sysfs attribute *(ID: [497803](https://review.lineageos.org/c/497803))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add HBP service sepolicy *(ID: [502673](https://review.lineageos.org/c/502673))*
-- **[LineageOS/android_kernel_xiaomi_sm6125]** fs: proc: Add PROC_CMDLINE_APPEND_ANDROID_FORCE_NORMAL_BOOT *(ID: [502836](https://review.lineageos.org/c/502836))*
-- **[LineageOS/android_kernel_xiaomi_sm6125]** init: Add CONFIG_INITRAMFS_IGNORE_SKIP_FLAG *(ID: [502835](https://review.lineageos.org/c/502835))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** base: libhwc2.1: uncomment src_w_rot_max *(ID: [493327](https://review.lineageos.org/c/493327))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e9945: Align TDM-based resource allocation logic to stock *(ID: [493627](https://review.lineageos.org/c/493627))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e9945: Support TDM based resource allocation *(ID: [493626](https://review.lineageos.org/c/493626))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** base: add support for new restrictions property *(ID: [493326](https://review.lineageos.org/c/493326))*
-- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Add kvim3 and kvim3l support *(ID: [502531](https://review.lineageos.org/c/502531))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label additional wakeup nodes for volkswagen *(ID: [502520](https://review.lineageos.org/c/502520))*
-- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Apply devkit changes to kvim *(ID: [502534](https://review.lineageos.org/c/502534))*
-- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Add kvim support *(ID: [502533](https://review.lineageos.org/c/502533))*
-- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Apply devkit changes to kvim3 and kvim3l *(ID: [502532](https://review.lineageos.org/c/502532))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label additional wakeup nodes for volkswagen *(ID: [502672](https://review.lineageos.org/c/502672))*
-- **[LineageOS/android_kernel_sony_sm8550-modules]** Merge remote-tracking branch 'qcom/lineage-21' into lineage-24.0 *(ID: [502796](https://review.lineageos.org/c/502796))*
-- **[LineageOS/android_kernel_sony_sm8550]** Merge remote-tracking branch 'qcom/lineage-21' into lineage-24.0 *(ID: [502795](https://review.lineageos.org/c/502795))*
-- **[LineageOS/android_kernel_sony_sm8350]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [502794](https://review.lineageos.org/c/502794))*
-- **[LineageOS/android_kernel_sony_sm8250]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [502793](https://review.lineageos.org/c/502793))*
-- **[LineageOS/android_kernel_sony_sm8350]** sony: et6xx: Fix CFI failure on module init with newer Clang *(ID: [500488](https://review.lineageos.org/c/500488))*
 
 </details>
 
-## 📱 Línea Motorola Activa (40)
+## 📱 Línea Motorola Activa (35)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
