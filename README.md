@@ -1,18 +1,22 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-15-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-16-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (154)
+## 🚨 Parches Críticos Detectados (135)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_google_redbull]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into HEAD *(ID: [502398](https://review.lineageos.org/c/502398))*
+- **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into moto-sm8550/lineage-24.0 *(ID: [502884](https://review.lineageos.org/c/502884))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** power: oplus: v2: Set appropriate full charge capacity to charge_full *(ID: [502880](https://review.lineageos.org/c/502880))*
+- **[LineageOS/android_kernel_google_redbull]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into android-msm-pixel-4.19 *(ID: [502398](https://review.lineageos.org/c/502398))*
+- **[LineageOS/android_device_xiaomi_sm8150-common]** sm8150-common: Fix vendor.voice.path.for.pcm.voip value *(ID: [474338](https://review.lineageos.org/c/474338))*
+- **[LineageOS/android_device_xiaomi_sm8150-common]** sm8150-common: sepolicy: Fix parts LED denials *(ID: [432811](https://review.lineageos.org/c/432811))*
 - **[LineageOS/android_kernel_motorola_sm7435-modules]** input: touchscreen: nova_0flash_mmi: Fix boot touch race condition *(ID: [502681](https://review.lineageos.org/c/502681))*
 - **[LineageOS/android_hardware_qcom_display]** hal: Define `oplus_udfps` soong variable *(ID: [475587](https://review.lineageos.org/c/475587))*
 - **[LineageOS/android_hardware_qcom_display]** hal: Define `samsung_udfps` soong variable *(ID: [475586](https://review.lineageos.org/c/475586))*
@@ -38,28 +42,25 @@
 - **[LineageOS/android_kernel_sony_sm8350]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [502794](https://review.lineageos.org/c/502794))*
 - **[LineageOS/android_kernel_sony_sm8250]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [502793](https://review.lineageos.org/c/502793))*
 - **[LineageOS/android_kernel_sony_sm8350]** sony: et6xx: Fix CFI failure on module init with newer Clang *(ID: [500488](https://review.lineageos.org/c/500488))*
-- **[LineageOS/android_kernel_sony_sm8350]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [500487](https://review.lineageos.org/c/500487))*
-- **[LineageOS/android_device_xiaomi_sm8250-common]** sm8250-common: sepolicy: Fix VTS violations by adding vendor prefixes *(ID: [428900](https://review.lineageos.org/c/428900))*
-- **[LineageOS/android_hardware_samsung]** teegris: Partially RE 'tzdaemon' *(ID: [502002](https://review.lineageos.org/c/502002))*
-- **[LineageOS/android_hardware_google_pixel]** usb: Update userspace aoa flags for P6/P8/P10 *(ID: [502733](https://review.lineageos.org/c/502733))*
 
 </details>
 
-## 📱 Línea Motorola Activa (54)
+## 📱 Línea Motorola Activa (40)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into moto-sm8550/lineage-24.0 *(ID: [502884](https://review.lineageos.org/c/502884))*
+- **[LineageOS/android_device_motorola_smith]** smith: Tweak status bars *(ID: [502635](https://review.lineageos.org/c/502635))*
+- **[LineageOS/android_device_motorola_smith]** smith: Disable systemui falsing *(ID: [502876](https://review.lineageos.org/c/502876))*
+- **[LineageOS/android_device_motorola_smith]** smith: Disable quick settings media controls *(ID: [502875](https://review.lineageos.org/c/502875))*
+- **[LineageOS/android_device_motorola_smith]** smith: Improve SystemUI usability on secondary display *(ID: [502468](https://review.lineageos.org/c/502468))*
 - **[LineageOS/android_kernel_motorola_sm7435-modules]** input: touchscreen: nova_0flash_mmi: Fix boot touch race condition *(ID: [502681](https://review.lineageos.org/c/502681))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Remove disable_configstore from PRODUCT_PACKAGES *(ID: [502212](https://review.lineageos.org/c/502212))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: fastbootd is now enabled by default *(ID: [502211](https://review.lineageos.org/c/502211))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Use legacy libion implementation *(ID: [502210](https://review.lineageos.org/c/502210))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: power-libperfmgr: Update included soong namespace *(ID: [502209](https://review.lineageos.org/c/502209))*
-- **[LineageOS/android_device_motorola_rtwo]** rtwo: Fix wireless charge/tx chown race condition *(ID: [502653](https://review.lineageos.org/c/502653))*
-- **[LineageOS/android_device_motorola_rtwo]** rtwo: init: Minor updates to init.mmi.overlay.rc *(ID: [502652](https://review.lineageos.org/c/502652))*
 - **[LineageOS/android_device_motorola_smith]** smith: Configure device states *(ID: [502467](https://review.lineageos.org/c/502467))*
-- **[LineageOS/android_device_motorola_smith]** smith: Improve SystemUI usability on secondary display *(ID: [502468](https://review.lineageos.org/c/502468))*
-- **[LineageOS/android_device_motorola_smith]** smith: Tweak status bar *(ID: [502635](https://review.lineageos.org/c/502635))*
 - **[LineageOS/android_device_motorola_smith]** smith: Use fold lock behavior to sleep display *(ID: [502469](https://review.lineageos.org/c/502469))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Inherit AIDL compatibility matrix *(ID: [502460](https://review.lineageos.org/c/502460))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Convert qspa to blueprint *(ID: [502459](https://review.lineageos.org/c/502459))*
@@ -79,7 +80,6 @@
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps/location: Update to LA.VENDOR.15.4.1.r1-10300-WAIPIO.QSSI16.0 *(ID: [502360](https://review.lineageos.org/c/502360))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Update GNSS blobs from W1VAS36.62_22_16_1_9 *(ID: [502359](https://review.lineageos.org/c/502359))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Inherit AIDL compatibility matrix *(ID: [502451](https://review.lineageos.org/c/502451))*
-- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Update WFD system blobs from marvel_g A171WEH.20 *(ID: [499945](https://review.lineageos.org/c/499945))*
 
 </details>
 
