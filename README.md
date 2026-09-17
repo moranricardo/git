@@ -1,24 +1,27 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-16-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-17-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (127)
+## 🚨 Parches Críticos Detectados (129)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into moto-sm8550/lineage-24.0 *(ID: [502884](https://review.lineageos.org/c/502884))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** hummer: Fix black screen in landscape due to ROI misalignment *(ID: [503056](https://review.lineageos.org/c/503056))*
-- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** oplus: oplus_chg: Update piloti changes from RMX5090_16.0.3.500(CN01) dtbo *(ID: [478543](https://review.lineageos.org/c/478543))*
-- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** oplus: oplus_chg: Update piloti changes from RMX5090_16.0.2.400(CN01) dtbo *(ID: [478542](https://review.lineageos.org/c/478542))*
-- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** treewide: Import pista changes from RMX5010_16.0.0.211(CN01) *(ID: [477401](https://review.lineageos.org/c/477401))*
-- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** treewide: Import piloti changes from RMX5090_16.0.0.211(CN01) *(ID: [468125](https://review.lineageos.org/c/468125))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: ASoC: tfa98xx: Make i2c aging proc nodes unique per bus *(ID: [497806](https://review.lineageos.org/c/497806))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: ASoC: aw882xx: Make i2c aging proc nodes unique per bus *(ID: [497805](https://review.lineageos.org/c/497805))*
+- **[LineageOS/android_packages_apps_Twelve]** Twelve: Fix Navidrome Artwork Visibility *(ID: [465452](https://review.lineageos.org/c/465452))*
+- **[LineageOS/android_kernel_nothing_sm7325]** leds: aw210xx: Expose device color via sysfs attribute *(ID: [497803](https://review.lineageos.org/c/497803))*
+- **[LineageOS/android_hardware_nothing]** glyph: Read device color from LED sysfs node instead of persist *(ID: [497804](https://review.lineageos.org/c/497804))*
+- **[LineageOS/android_kernel_amlogic_kernel-5.15]** mmc: support amlogic dts partition. [1/1] *(ID: [499675](https://review.lineageos.org/c/499675))*
+- **[LineageOS/android_kernel_amlogic_kernel-5.15]** init: Raise INIT_ENV_ARG_LIMIT to 64 *(ID: [495818](https://review.lineageos.org/c/495818))*
+- **[LineageOS/android_kernel_motorola_sm8475-modules]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [503078](https://review.lineageos.org/c/503078))*
+- **[LineageOS/android_kernel_motorola_sm8475]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [503077](https://review.lineageos.org/c/503077))*
+- **[LineageOS/android_packages_apps_SetupWizard]** SUW: Fixup center reveal through LineageOS logo *(ID: [502732](https://review.lineageos.org/c/502732))*
 - **[LineageOS/android_hardware_samsung]** aidl: vibrator: Tweak FF effect IDs *(ID: [503064](https://review.lineageos.org/c/503064))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: configs: Create Amlogic G12 defconfig fragment *(ID: [499695](https://review.lineageos.org/c/499695))*
 - **[LineageOS/android_device_xiaomi_sm8250-common]** sm8250-common: sepolicy: Fix VTS violations by adding vendor prefixes *(ID: [428900](https://review.lineageos.org/c/428900))*
@@ -32,25 +35,25 @@
 - **[LineageOS/android_kernel_google_redbull]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into android-msm-pixel-4.19 *(ID: [502398](https://review.lineageos.org/c/502398))*
 - **[LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib]** wpa_supplicant_lib: Generate wpa_supplicant.conf *(ID: [502913](https://review.lineageos.org/c/502913))*
 - **[LineageOS/android_hardware_google_pixel]** usb: Update userspace aoa flags for P6/P8/P10 *(ID: [502733](https://review.lineageos.org/c/502733))*
-- **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into moto-sm8550/lineage-24.0 *(ID: [502884](https://review.lineageos.org/c/502884))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** power: oplus: v2: Set appropriate full charge capacity to charge_full *(ID: [502880](https://review.lineageos.org/c/502880))*
 - **[LineageOS/android_device_xiaomi_sm8150-common]** sm8150-common: Fix vendor.voice.path.for.pcm.voip value *(ID: [474338](https://review.lineageos.org/c/474338))*
 - **[LineageOS/android_device_xiaomi_sm8150-common]** sm8150-common: sepolicy: Fix parts LED denials *(ID: [432811](https://review.lineageos.org/c/432811))*
 - **[LineageOS/android_kernel_motorola_sm7435-modules]** input: touchscreen: nova_0flash_mmi: Fix boot touch race condition *(ID: [502681](https://review.lineageos.org/c/502681))*
 - **[LineageOS/android_kernel_xiaomi_sm6125]** arm64: dts: xiaomi: Remove fstab entries *(ID: [502838](https://review.lineageos.org/c/502838))*
 - **[LineageOS/android_kernel_xiaomi_sm6125]** configs: Add non-dynamic configs to xiaomi-trinket *(ID: [502837](https://review.lineageos.org/c/502837))*
-- **[LineageOS/android_kernel_nothing_sm7325]** leds: aw210xx: Expose device color via sysfs attribute *(ID: [497803](https://review.lineageos.org/c/497803))*
 - **[LineageOS/android_kernel_xiaomi_sm6125]** fs: proc: Add PROC_CMDLINE_APPEND_ANDROID_FORCE_NORMAL_BOOT *(ID: [502836](https://review.lineageos.org/c/502836))*
 - **[LineageOS/android_kernel_xiaomi_sm6125]** init: Add CONFIG_INITRAMFS_IGNORE_SKIP_FLAG *(ID: [502835](https://review.lineageos.org/c/502835))*
 
 </details>
 
-## 📱 Línea Motorola Activa (31)
+## 📱 Línea Motorola Activa (36)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
 - **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into moto-sm8550/lineage-24.0 *(ID: [502884](https://review.lineageos.org/c/502884))*
+- **[LineageOS/android_device_motorola_smith]** smith: Allow setting independent dpi settings for each display *(ID: [503084](https://review.lineageos.org/c/503084))*
+- **[LineageOS/android_kernel_motorola_sm8475-modules]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [503078](https://review.lineageos.org/c/503078))*
+- **[LineageOS/android_kernel_motorola_sm8475]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [503077](https://review.lineageos.org/c/503077))*
 - **[LineageOS/android_device_motorola_smith]** smith: Tweak status bars *(ID: [502635](https://review.lineageos.org/c/502635))*
 - **[LineageOS/android_device_motorola_smith]** smith: Disable systemui falsing *(ID: [502876](https://review.lineageos.org/c/502876))*
 - **[LineageOS/android_device_motorola_smith]** smith: Disable quick settings media controls *(ID: [502875](https://review.lineageos.org/c/502875))*
@@ -77,9 +80,6 @@
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Fix unqualified-std-cast-call warning *(ID: [502363](https://review.lineageos.org/c/502363))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Fuzzer should be using android.hardware.gnss-V4-ndk *(ID: [502362](https://review.lineageos.org/c/502362))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Convert fuzzer to blueprint *(ID: [502361](https://review.lineageos.org/c/502361))*
-- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps/location: Update to LA.VENDOR.15.4.1.r1-10300-WAIPIO.QSSI16.0 *(ID: [502360](https://review.lineageos.org/c/502360))*
-- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Update GNSS blobs from W1VAS36.62_22_16_1_9 *(ID: [502359](https://review.lineageos.org/c/502359))*
-- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Inherit AIDL compatibility matrix *(ID: [502451](https://review.lineageos.org/c/502451))*
 
 </details>
 
