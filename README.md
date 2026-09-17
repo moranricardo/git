@@ -7,20 +7,15 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (129)
+## 🚨 Parches Críticos Detectados (124)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
 - **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into moto-sm8550/lineage-24.0 *(ID: [502884](https://review.lineageos.org/c/502884))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** hummer: Fix black screen in landscape due to ROI misalignment *(ID: [503056](https://review.lineageos.org/c/503056))*
 - **[LineageOS/android_packages_apps_Twelve]** Twelve: Fix Navidrome Artwork Visibility *(ID: [465452](https://review.lineageos.org/c/465452))*
-- **[LineageOS/android_kernel_nothing_sm7325]** leds: aw210xx: Expose device color via sysfs attribute *(ID: [497803](https://review.lineageos.org/c/497803))*
-- **[LineageOS/android_hardware_nothing]** glyph: Read device color from LED sysfs node instead of persist *(ID: [497804](https://review.lineageos.org/c/497804))*
 - **[LineageOS/android_kernel_amlogic_kernel-5.15]** mmc: support amlogic dts partition. [1/1] *(ID: [499675](https://review.lineageos.org/c/499675))*
 - **[LineageOS/android_kernel_amlogic_kernel-5.15]** init: Raise INIT_ENV_ARG_LIMIT to 64 *(ID: [495818](https://review.lineageos.org/c/495818))*
-- **[LineageOS/android_kernel_motorola_sm8475-modules]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [503078](https://review.lineageos.org/c/503078))*
-- **[LineageOS/android_kernel_motorola_sm8475]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [503077](https://review.lineageos.org/c/503077))*
 - **[LineageOS/android_packages_apps_SetupWizard]** SUW: Fixup center reveal through LineageOS logo *(ID: [502732](https://review.lineageos.org/c/502732))*
 - **[LineageOS/android_hardware_samsung]** aidl: vibrator: Tweak FF effect IDs *(ID: [503064](https://review.lineageos.org/c/503064))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: configs: Create Amlogic G12 defconfig fragment *(ID: [499695](https://review.lineageos.org/c/499695))*
@@ -42,18 +37,23 @@
 - **[LineageOS/android_kernel_xiaomi_sm6125]** configs: Add non-dynamic configs to xiaomi-trinket *(ID: [502837](https://review.lineageos.org/c/502837))*
 - **[LineageOS/android_kernel_xiaomi_sm6125]** fs: proc: Add PROC_CMDLINE_APPEND_ANDROID_FORCE_NORMAL_BOOT *(ID: [502836](https://review.lineageos.org/c/502836))*
 - **[LineageOS/android_kernel_xiaomi_sm6125]** init: Add CONFIG_INITRAMFS_IGNORE_SKIP_FLAG *(ID: [502835](https://review.lineageos.org/c/502835))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** base: libhwc2.1: uncomment src_w_rot_max *(ID: [493327](https://review.lineageos.org/c/493327))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e9945: Align TDM-based resource allocation logic to stock *(ID: [493627](https://review.lineageos.org/c/493627))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e9945: Support TDM based resource allocation *(ID: [493626](https://review.lineageos.org/c/493626))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** base: add support for new restrictions property *(ID: [493326](https://review.lineageos.org/c/493326))*
+- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Add kvim3 and kvim3l support *(ID: [502531](https://review.lineageos.org/c/502531))*
 
 </details>
 
-## 📱 Línea Motorola Activa (36)
+## 📱 Línea Motorola Activa (37)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Update WFD system blobs from marvel_g A171WEH.20 *(ID: [499945](https://review.lineageos.org/c/499945))*
+- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Update ims.apk patches *(ID: [501004](https://review.lineageos.org/c/501004))*
 - **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into moto-sm8550/lineage-24.0 *(ID: [502884](https://review.lineageos.org/c/502884))*
 - **[LineageOS/android_device_motorola_smith]** smith: Allow setting independent dpi settings for each display *(ID: [503084](https://review.lineageos.org/c/503084))*
-- **[LineageOS/android_kernel_motorola_sm8475-modules]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [503078](https://review.lineageos.org/c/503078))*
-- **[LineageOS/android_kernel_motorola_sm8475]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [503077](https://review.lineageos.org/c/503077))*
 - **[LineageOS/android_device_motorola_smith]** smith: Tweak status bars *(ID: [502635](https://review.lineageos.org/c/502635))*
 - **[LineageOS/android_device_motorola_smith]** smith: Disable systemui falsing *(ID: [502876](https://review.lineageos.org/c/502876))*
 - **[LineageOS/android_device_motorola_smith]** smith: Disable quick settings media controls *(ID: [502875](https://review.lineageos.org/c/502875))*
