@@ -7,13 +7,13 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (124)
+## 🚨 Parches Críticos Detectados (119)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_lineage_generic-ims]** CarrierSettings: Provide APNs *(ID: [503114](https://review.lineageos.org/c/503114))*
 - **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into moto-sm8550/lineage-24.0 *(ID: [502884](https://review.lineageos.org/c/502884))*
-- **[LineageOS/android_packages_apps_Twelve]** Twelve: Fix Navidrome Artwork Visibility *(ID: [465452](https://review.lineageos.org/c/465452))*
 - **[LineageOS/android_kernel_amlogic_kernel-5.15]** mmc: support amlogic dts partition. [1/1] *(ID: [499675](https://review.lineageos.org/c/499675))*
 - **[LineageOS/android_kernel_amlogic_kernel-5.15]** init: Raise INIT_ENV_ARG_LIMIT to 64 *(ID: [495818](https://review.lineageos.org/c/495818))*
 - **[LineageOS/android_packages_apps_SetupWizard]** SUW: Fixup center reveal through LineageOS logo *(ID: [502732](https://review.lineageos.org/c/502732))*
@@ -45,7 +45,7 @@
 
 </details>
 
-## 📱 Línea Motorola Activa (37)
+## 📱 Línea Motorola Activa (34)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
