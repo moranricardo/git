@@ -1,18 +1,20 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-17-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-18-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (132)
+## 🚨 Parches Críticos Detectados (145)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** oplus: hummer: Disable partial update for the AA590 panel *(ID: [503144](https://review.lineageos.org/c/503144))*
+- **[LineageOS/android_device_xelex_Q25]** Q25: Fix FM radio firmware load *(ID: [503182](https://review.lineageos.org/c/503182))*
+- **[LineageOS/android_kernel_lge_msm8996]** sound: stop reporting G5/V20 jack as lineout *(ID: [503175](https://review.lineageos.org/c/503175))*
+- **[LineageOS/android_kernel_qcom_sm8750-modules]** qcom: wlan: qcacld-3.0: Support building multiple WLAN module variants *(ID: [503165](https://review.lineageos.org/c/503165))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix two issues about edngss-daemon launch *(ID: [503171](https://review.lineageos.org/c/503171))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix edgnss blocked by syscall issue *(ID: [503170](https://review.lineageos.org/c/503170))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix edgnss-daemon blocked by sched_get_priority_min/max *(ID: [503169](https://review.lineageos.org/c/503169))*
@@ -25,7 +27,6 @@
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: fix edgnss-daemon blocked by syscall fdatasync *(ID: [503158](https://review.lineageos.org/c/503158))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fix format specifiers *(ID: [502457](https://review.lineageos.org/c/502457))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fix unqualified-std-cast-call warning *(ID: [502456](https://review.lineageos.org/c/502456))*
-- **[LineageOS/android_kernel_qcom_sm8750-modules]** qcom: wlan: qcacld-3.0: Support building multiple WLAN module variants *(ID: [503165](https://review.lineageos.org/c/503165))*
 - **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** treewide: Update changes from CPH2795_16.0.5.702(EX01) *(ID: [503146](https://review.lineageos.org/c/503146))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: camera-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503152](https://review.lineageos.org/c/503152))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** video-driver: Updates changes from PLQ110_16.0.9.401(CN01) *(ID: [503150](https://review.lineageos.org/c/503150))*
@@ -35,7 +36,6 @@
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: touch: Update HBP touch drivers from CPH2795_16.0.5.702(EX01) *(ID: [503154](https://review.lineageos.org/c/503154))*
 - **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** dts: qcom: Drop 30Hz from AA610 panels *(ID: [503147](https://review.lineageos.org/c/503147))*
 - **[LineageOS/android_hardware_lineage_generic-ims]** ims: carriersettings: Provide APNs *(ID: [503114](https://review.lineageos.org/c/503114))*
-- **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into moto-sm8550/lineage-24.0 *(ID: [502884](https://review.lineageos.org/c/502884))*
 - **[LineageOS/android_kernel_amlogic_kernel-5.15]** mmc: support amlogic dts partition. [1/1] *(ID: [499675](https://review.lineageos.org/c/499675))*
 - **[LineageOS/android_kernel_amlogic_kernel-5.15]** init: Raise INIT_ENV_ARG_LIMIT to 64 *(ID: [495818](https://review.lineageos.org/c/495818))*
 - **[LineageOS/android_packages_apps_SetupWizard]** SUW: Fixup center reveal through LineageOS logo *(ID: [502732](https://review.lineageos.org/c/502732))*
@@ -45,11 +45,17 @@
 
 </details>
 
-## 📱 Línea Motorola Activa (44)
+## 📱 Línea Motorola Activa (56)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_smith]** smith: Tweak status bars *(ID: [502635](https://review.lineageos.org/c/502635))*
+- **[LineageOS/android_device_motorola_smith]** smith: Disable systemui falsing *(ID: [502876](https://review.lineageos.org/c/502876))*
+- **[LineageOS/android_device_motorola_smith]** smith: Disable quick settings media controls *(ID: [502875](https://review.lineageos.org/c/502875))*
+- **[LineageOS/android_device_motorola_smith]** smith: Improve SystemUI usability on secondary display *(ID: [502468](https://review.lineageos.org/c/502468))*
+- **[LineageOS/android_device_motorola_smith]** smith: Use fold lock behavior to sleep display *(ID: [502469](https://review.lineageos.org/c/502469))*
+- **[LineageOS/android_device_motorola_smith]** smith: Configure device states *(ID: [502467](https://review.lineageos.org/c/502467))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix two issues about edngss-daemon launch *(ID: [503171](https://review.lineageos.org/c/503171))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix edgnss blocked by syscall issue *(ID: [503170](https://review.lineageos.org/c/503170))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix edgnss-daemon blocked by sched_get_priority_min/max *(ID: [503169](https://review.lineageos.org/c/503169))*
@@ -74,12 +80,6 @@
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Inherit AIDL compatibility matrix *(ID: [502460](https://review.lineageos.org/c/502460))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Convert qspa to blueprint *(ID: [502459](https://review.lineageos.org/c/502459))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: address seccomp failures for qsap_location *(ID: [502458](https://review.lineageos.org/c/502458))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fix format specifiers *(ID: [502457](https://review.lineageos.org/c/502457))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fix unqualified-std-cast-call warning *(ID: [502456](https://review.lineageos.org/c/502456))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fuzzer should be using android.hardware.gnss-V4-ndk *(ID: [502455](https://review.lineageos.org/c/502455))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Convert fuzzer to blueprint *(ID: [502454](https://review.lineageos.org/c/502454))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps/location: Update to LA.VENDOR.15.4.1.r1-10300-WAIPIO.QSSI16.0 *(ID: [502453](https://review.lineageos.org/c/502453))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Update GNSS blobs from W1VAS36.62_22_16_1_9 *(ID: [502452](https://review.lineageos.org/c/502452))*
 
 </details>
 
