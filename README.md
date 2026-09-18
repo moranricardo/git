@@ -7,13 +7,15 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (145)
+## 🚨 Parches Críticos Detectados (151)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_frameworks_base]** Revert "fixup! Implement edge long swipe gesture to new back gesture affordance" *(ID: [503185](https://review.lineageos.org/c/503185))*
+- **[LineageOS/android_frameworks_base]** Fix PathWrapper::addPath self-add *(ID: [503184](https://review.lineageos.org/c/503184))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: Initial configuration for s5e8845 *(ID: [489701](https://review.lineageos.org/c/489701))*
 - **[LineageOS/android_device_xelex_Q25]** Q25: Fix FM radio firmware load *(ID: [503182](https://review.lineageos.org/c/503182))*
-- **[LineageOS/android_kernel_lge_msm8996]** sound: stop reporting G5/V20 jack as lineout *(ID: [503175](https://review.lineageos.org/c/503175))*
 - **[LineageOS/android_kernel_qcom_sm8750-modules]** qcom: wlan: qcacld-3.0: Support building multiple WLAN module variants *(ID: [503165](https://review.lineageos.org/c/503165))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix two issues about edngss-daemon launch *(ID: [503171](https://review.lineageos.org/c/503171))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix edgnss blocked by syscall issue *(ID: [503170](https://review.lineageos.org/c/503170))*
@@ -40,8 +42,6 @@
 - **[LineageOS/android_kernel_amlogic_kernel-5.15]** init: Raise INIT_ENV_ARG_LIMIT to 64 *(ID: [495818](https://review.lineageos.org/c/495818))*
 - **[LineageOS/android_packages_apps_SetupWizard]** SUW: Fixup center reveal through LineageOS logo *(ID: [502732](https://review.lineageos.org/c/502732))*
 - **[LineageOS/android_hardware_samsung]** aidl: vibrator: Tweak FF effect IDs *(ID: [503064](https://review.lineageos.org/c/503064))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: configs: Create Amlogic G12 defconfig fragment *(ID: [499695](https://review.lineageos.org/c/499695))*
-- **[LineageOS/android_device_xiaomi_sm8250-common]** sm8250-common: sepolicy: Fix VTS violations by adding vendor prefixes *(ID: [428900](https://review.lineageos.org/c/428900))*
 
 </details>
 
