@@ -7,11 +7,15 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (151)
+## 🚨 Parches Críticos Detectados (150)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_oplus]** audio_amplifier: Add lito SoC *(ID: [496942](https://review.lineageos.org/c/496942))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus_onscreenfingerprint: notify fingerprint press on HBM property change *(ID: [503241](https://review.lineageos.org/c/503241))*
+- **[LineageOS/android_device_xiaomi_sm8250-common]** sm8250-common: ueventd: Fix right LED ownership *(ID: [503212](https://review.lineageos.org/c/503212))*
+- **[LineageOS/android_external_mesa]** LINEAGE: android: Add "_mesa3d" suffix to vulkan.lvp *(ID: [503205](https://review.lineageos.org/c/503205))*
 - **[LineageOS/android_frameworks_base]** Revert "fixup! Implement edge long swipe gesture to new back gesture affordance" *(ID: [503185](https://review.lineageos.org/c/503185))*
 - **[LineageOS/android_frameworks_base]** Fix PathWrapper::addPath self-add *(ID: [503184](https://review.lineageos.org/c/503184))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: Initial configuration for s5e8845 *(ID: [489701](https://review.lineageos.org/c/489701))*
@@ -38,14 +42,10 @@
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: touch: Update HBP touch drivers from CPH2795_16.0.5.702(EX01) *(ID: [503154](https://review.lineageos.org/c/503154))*
 - **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** dts: qcom: Drop 30Hz from AA610 panels *(ID: [503147](https://review.lineageos.org/c/503147))*
 - **[LineageOS/android_hardware_lineage_generic-ims]** ims: carriersettings: Provide APNs *(ID: [503114](https://review.lineageos.org/c/503114))*
-- **[LineageOS/android_kernel_amlogic_kernel-5.15]** mmc: support amlogic dts partition. [1/1] *(ID: [499675](https://review.lineageos.org/c/499675))*
-- **[LineageOS/android_kernel_amlogic_kernel-5.15]** init: Raise INIT_ENV_ARG_LIMIT to 64 *(ID: [495818](https://review.lineageos.org/c/495818))*
-- **[LineageOS/android_packages_apps_SetupWizard]** SUW: Fixup center reveal through LineageOS logo *(ID: [502732](https://review.lineageos.org/c/502732))*
-- **[LineageOS/android_hardware_samsung]** aidl: vibrator: Tweak FF effect IDs *(ID: [503064](https://review.lineageos.org/c/503064))*
 
 </details>
 
-## 📱 Línea Motorola Activa (56)
+## 📱 Línea Motorola Activa (52)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
