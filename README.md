@@ -7,11 +7,21 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (150)
+## 🚨 Parches Críticos Detectados (147)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_frameworks_base]** SystemUI: Internet & Bluetooth dialog fixes *(ID: [503249](https://review.lineageos.org/c/503249))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libion: make DMA heap allocations authoritative *(ID: [503268](https://review.lineageos.org/c/503268))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libion: fall back to ION for unavailable specialized DMA heaps *(ID: [503267](https://review.lineageos.org/c/503267))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libion: preserve DMA-heap fd close semantics *(ID: [503266](https://review.lineageos.org/c/503266))*
+- **[LineageOS/android_kernel_xiaomi_sm6150]** Merge remote-tracking branch 'sm8150/lineage-20' into lineage-24.0 *(ID: [503265](https://review.lineageos.org/c/503265))*
+- **[LineageOS/android_packages_apps_Twelve]** Twelve: Jellyfin: Fix remove from playlist *(ID: [503248](https://review.lineageos.org/c/503248))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_codec2]** codec2: Drop HIDL services *(ID: [502979](https://review.lineageos.org/c/502979))*
+- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** treewide: Update changes from CPH2795_16.0.5.702(EX01) *(ID: [503146](https://review.lineageos.org/c/503146))*
+- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** dts: qcom: Drop 30Hz from AA610 panels *(ID: [503147](https://review.lineageos.org/c/503147))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label volkswagen wakeup nodes *(ID: [502520](https://review.lineageos.org/c/502520))*
 - **[LineageOS/android_hardware_oplus]** audio_amplifier: Add lito SoC *(ID: [496942](https://review.lineageos.org/c/496942))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus_onscreenfingerprint: notify fingerprint press on HBM property change *(ID: [503241](https://review.lineageos.org/c/503241))*
 - **[LineageOS/android_device_xiaomi_sm8250-common]** sm8250-common: ueventd: Fix right LED ownership *(ID: [503212](https://review.lineageos.org/c/503212))*
@@ -32,20 +42,10 @@
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: fix edgnss-daemon blocked by sched_get_priority_min/max *(ID: [503161](https://review.lineageos.org/c/503161))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: fix edgnss-daemon blocked by syscall fdatasync *(ID: [503158](https://review.lineageos.org/c/503158))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fix format specifiers *(ID: [502457](https://review.lineageos.org/c/502457))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fix unqualified-std-cast-call warning *(ID: [502456](https://review.lineageos.org/c/502456))*
-- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** treewide: Update changes from CPH2795_16.0.5.702(EX01) *(ID: [503146](https://review.lineageos.org/c/503146))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: camera-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503152](https://review.lineageos.org/c/503152))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** video-driver: Updates changes from PLQ110_16.0.9.401(CN01) *(ID: [503150](https://review.lineageos.org/c/503150))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: icnss2: Add Nord 6 project IDs *(ID: [503157](https://review.lineageos.org/c/503157))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** audio-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503151](https://review.lineageos.org/c/503151))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** display-drivers: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503149](https://review.lineageos.org/c/503149))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: touch: Update HBP touch drivers from CPH2795_16.0.5.702(EX01) *(ID: [503154](https://review.lineageos.org/c/503154))*
-- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** dts: qcom: Drop 30Hz from AA610 panels *(ID: [503147](https://review.lineageos.org/c/503147))*
-- **[LineageOS/android_hardware_lineage_generic-ims]** ims: carriersettings: Provide APNs *(ID: [503114](https://review.lineageos.org/c/503114))*
 
 </details>
 
-## 📱 Línea Motorola Activa (52)
+## 📱 Línea Motorola Activa (46)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
