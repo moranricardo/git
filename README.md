@@ -7,16 +7,34 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (157)
+## 🚨 Parches Críticos Detectados (162)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_lineage_interfaces]** power-libperfmgr: Add readproc group to service *(ID: [503532](https://review.lineageos.org/c/503532))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_codec2]** codec2: services: Cleanup Android.bp *(ID: [503384](https://review.lineageos.org/c/503384))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_codec2]** codec2: Drop HIDL services *(ID: [502979](https://review.lineageos.org/c/502979))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: Deprecate allocator 4.0 in favor of AIDL V1 *(ID: [503289](https://review.lineageos.org/c/503289))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** s5e8535: Add brightness nodes *(ID: [503564](https://review.lineageos.org/c/503564))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e8535: Adapt to s5e8535 *(ID: [503563](https://review.lineageos.org/c/503563))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e8535: Correct virtual display interface class *(ID: [503562](https://review.lineageos.org/c/503562))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e8535: Unset USE_DPU_SET_CONFIG for DRM platforms *(ID: [503561](https://review.lineageos.org/c/503561))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: platform: Add initial support for s5e8535 *(ID: [503560](https://review.lineageos.org/c/503560))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: Common Mapper code should not depend on hidl *(ID: [503286](https://review.lineageos.org/c/503286))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: Fix locking gralloc buffer *(ID: [503288](https://review.lineageos.org/c/503288))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: Preserve as many error codes as possible in map/unmap paths. *(ID: [503287](https://review.lineageos.org/c/503287))*
+- **[LineageOS/android_frameworks_base]** SystemUI: Fix torch tile stuck unavailable after boot *(ID: [503558](https://review.lineageos.org/c/503558))*
+- **[LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib]** wpa_supplicant_lib: Generate wpa_supplicant.conf *(ID: [502913](https://review.lineageos.org/c/502913))*
+- **[LineageOS/android_frameworks_base]** Security bug fix: Prevent USB data changes for non-owner users during lockdown mode. *(ID: [503478](https://review.lineageos.org/c/503478))*
+- **[LineageOS/android_frameworks_base]** Fix silence-injection policy skip in VirtualAudioController *(ID: [503494](https://review.lineageos.org/c/503494))*
+- **[LineageOS/android_frameworks_base]** Fix a regression in ECM mode setting after package install *(ID: [503492](https://review.lineageos.org/c/503492))*
+- **[LineageOS/android_frameworks_base]** Fix boot-loop vulnerability in setPermissionGrantState *(ID: [503491](https://review.lineageos.org/c/503491))*
+- **[LineageOS/android_frameworks_base]** SystemUi UsbDialog: fix label vulnerability *(ID: [503486](https://review.lineageos.org/c/503486))*
+- **[LineageOS/android_frameworks_base]** Fix path traversal and missing ownership check in LocaleManagerService *(ID: [503485](https://review.lineageos.org/c/503485))*
 - **[LineageOS/android_frameworks_base]** SystemUI: Internet & Bluetooth dialog fixes *(ID: [503249](https://review.lineageos.org/c/503249))*
 - **[LineageOS/android_kernel_xiaomi_gauguin]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-23.2 *(ID: [503546](https://review.lineageos.org/c/503546))*
-- **[LineageOS/android_frameworks_base]** Security bug fix: Prevent USB data changes for non-owner users during lockdown mode. *(ID: [503478](https://review.lineageos.org/c/503478))*
 - **[LineageOS/android_kernel_xiaomi_gauguin]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-23.2 *(ID: [503545](https://review.lineageos.org/c/503545))*
-- **[LineageOS/android_hardware_lineage_interfaces]** power-libperfmgr: Add readproc group to service *(ID: [503532](https://review.lineageos.org/c/503532))*
 - **[LineageOS/android_system_libufdt]** libufdt: Fix stack overflow risk in vendor qsort *(ID: [503527](https://review.lineageos.org/c/503527))*
 - **[LineageOS/android_packages_services_Telephony]** Fix StackOverflowError in SatelliteEntitlementController *(ID: [503525](https://review.lineageos.org/c/503525))*
 - **[LineageOS/android_packages_services_Telecomm]** Fix MMI check bypass via leading whitespace in tel URI. *(ID: [503522](https://review.lineageos.org/c/503522))*
@@ -24,24 +42,6 @@
 - **[LineageOS/android_packages_providers_DownloadProvider]** RESTRICT AUTOMERGE Fix ZWSP path bypass in DownloadProvider *(ID: [503516](https://review.lineageos.org/c/503516))*
 - **[LineageOS/android_packages_providers_DownloadProvider]** RESTRICT AUTOMERGE Fix DownloadProvider completed download security bypass *(ID: [503515](https://review.lineageos.org/c/503515))*
 - **[LineageOS/android_packages_providers_DownloadProvider]** RESTRICT AUTOMERGE Fix path traversal vulnerability in DownloadStorageProvider *(ID: [503514](https://review.lineageos.org/c/503514))*
-- **[LineageOS/android_packages_modules_Nfc]** Fix integer underflow in rw_ci_data_cback *(ID: [503511](https://review.lineageos.org/c/503511))*
-- **[LineageOS/android_packages_modules_Nfc]** Fix heap buffer overflow in nfa_t4tnfcee_store_rx_buf *(ID: [503510](https://review.lineageos.org/c/503510))*
-- **[LineageOS/android_packages_modules_Nfc]** Fix Heap OOBW in nfa_t4tnfcee_store_rx_buf() *(ID: [503508](https://review.lineageos.org/c/503508))*
-- **[LineageOS/android_packages_modules_Nfc]** Fix bounds check underflow and GKI buffer leak in T4T write *(ID: [503507](https://review.lineageos.org/c/503507))*
-- **[LineageOS/android_packages_modules_Bluetooth]** GATT: Fix notifications sent to remote device without security checks *(ID: [503505](https://review.lineageos.org/c/503505))*
-- **[LineageOS/android_packages_apps_Settings]** Fix confused deputy in Bluetooth settings dashboard *(ID: [503501](https://review.lineageos.org/c/503501))*
-- **[LineageOS/android_hardware_nxp_nfc]** Fix Use-After-Free in NXP NFC HAL timer teardown *(ID: [503497](https://review.lineageos.org/c/503497))*
-- **[LineageOS/android_frameworks_opt_telephony]** Fix ArrayIndexOutOfBoundsException in SIMRecords due to invalid EF_CFIS/EF_CFF *(ID: [503496](https://review.lineageos.org/c/503496))*
-- **[LineageOS/android_frameworks_base]** Fix silence-injection policy skip in VirtualAudioController *(ID: [503494](https://review.lineageos.org/c/503494))*
-- **[LineageOS/android_frameworks_base]** Fix a regression in ECM mode setting after package install *(ID: [503492](https://review.lineageos.org/c/503492))*
-- **[LineageOS/android_frameworks_base]** Fix boot-loop vulnerability in setPermissionGrantState *(ID: [503491](https://review.lineageos.org/c/503491))*
-- **[LineageOS/android_frameworks_base]** SystemUi UsbDialog: fix label vulnerability *(ID: [503486](https://review.lineageos.org/c/503486))*
-- **[LineageOS/android_frameworks_base]** Fix path traversal and missing ownership check in LocaleManagerService *(ID: [503485](https://review.lineageos.org/c/503485))*
-- **[LineageOS/android_frameworks_base]** Fix URI grant persistence bypass *(ID: [503475](https://review.lineageos.org/c/503475))*
-- **[LineageOS/android_frameworks_base]** Fix entryadapter usage *(ID: [503473](https://review.lineageos.org/c/503473))*
-- **[LineageOS/android_frameworks_av]** Fix race conditions in CryptoHal plugin usage *(ID: [503426](https://review.lineageos.org/c/503426))*
-- **[LineageOS/android_frameworks_av]** Fix type confusion in mediatuner service *(ID: [503425](https://review.lineageos.org/c/503425))*
-- **[LineageOS/android_frameworks_av]** Camera: Fix heap OOB read/write in camera mappers *(ID: [503424](https://review.lineageos.org/c/503424))*
 
 </details>
 
