@@ -7,11 +7,34 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (315)
+## 🚨 Parches Críticos Detectados (343)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_qcom_sm8850-devicetrees]** qcom: wlan: Remove standalone Bazel package *(ID: [503905](https://review.lineageos.org/c/503905))*
+- **[LineageOS/android_kernel_qcom_sm8850-devicetrees]** qcom: Include wlan Kbuild in sandbox *(ID: [503904](https://review.lineageos.org/c/503904))*
+- **[LineageOS/android_kernel_qcom_sm8850-devicetrees]** qcom: Build dtbos inline *(ID: [503903](https://review.lineageos.org/c/503903))*
+- **[LineageOS/android_kernel_qcom_sm8850-devicetrees]** build: bazel: Include techpack makefiles in sandbox *(ID: [503902](https://review.lineageos.org/c/503902))*
+- **[LineageOS/android_kernel_qcom_sm8850-modules]** BUILD: DDK: copy_to_dist to pkg_install *(ID: [503901](https://review.lineageos.org/c/503901))*
+- **[LineageOS/android_kernel_qcom_sm8850-modules]** qcom: camera: Select project config from target *(ID: [503900](https://review.lineageos.org/c/503900))*
+- **[LineageOS/android_kernel_qcom_sm8850-modules]** qcom: Expose modules to the soc kernel *(ID: [503899](https://review.lineageos.org/c/503899))*
+- **[LineageOS/android_kernel_qcom_sm8850-modules]** qcom: securemsm: Expose SMMU proxy UAPI headers *(ID: [503898](https://review.lineageos.org/c/503898))*
+- **[LineageOS/android_kernel_qcom_sm8850-modules]** treewide: Use soc repo unconditionally *(ID: [503897](https://review.lineageos.org/c/503897))*
+- **[LineageOS/android_kernel_qcom_sm8850-modules]** build: Update kernel and module paths *(ID: [503896](https://review.lineageos.org/c/503896))*
+- **[LineageOS/android_kernel_qcom_sm8850-modules]** build: bazel: replace hardcoded module paths with shared helpers *(ID: [503895](https://review.lineageos.org/c/503895))*
+- **[LineageOS/android_kernel_qcom_sm8850]** BUILD: DDK: copy_to_dist to pkg_install *(ID: [503894](https://review.lineageos.org/c/503894))*
+- **[LineageOS/android_kernel_qcom_sm8850]** dtc: Silence warnings by default *(ID: [503893](https://review.lineageos.org/c/503893))*
+- **[LineageOS/android_kernel_qcom_sm8850]** build: Include techpack UAPI headers in the headers dist *(ID: [503892](https://review.lineageos.org/c/503892))*
+- **[LineageOS/android_kernel_qcom_sm8850]** build: bazel: Populate techpack module packaging rules *(ID: [503891](https://review.lineageos.org/c/503891))*
+- **[LineageOS/android_kernel_qcom_sm8850]** build: bazel: Fix GKI module packaging *(ID: [503890](https://review.lineageos.org/c/503890))*
+- **[LineageOS/android_kernel_qcom_sm8850]** build: bazel: Append unsafe headers to DDK modules if allowed *(ID: [503889](https://review.lineageos.org/c/503889))*
+- **[LineageOS/android_kernel_qcom_sm8850]** ARM64: dts: vendor: Add symlink to sm8850-devicetrees *(ID: [503888](https://review.lineageos.org/c/503888))*
+- **[LineageOS/android_kernel_qcom_sm8850]** build: Set SoC repository path to vendor/qcom/kernel *(ID: [503887](https://review.lineageos.org/c/503887))*
+- **[LineageOS/android_kernel_qcom_sm8850]** build: Replace hardcoded "soc-repo" with SOC_REPO_PATH *(ID: [503886](https://review.lineageos.org/c/503886))*
+- **[LineageOS/android_kernel_qcom_sm8850]** build: bazel: Load msm_kernel_extensions.bzl via package-relative label *(ID: [503885](https://review.lineageos.org/c/503885))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** Merge branch 'lineage-20' of https://github.com/LineageOS/android_kernel_qcom_sm8450-modules into HEAD *(ID: [503811](https://review.lineageos.org/c/503811))*
+- **[LineageOS/android_kernel_xiaomi_sm8450]** Merge branch 'lineage-20' of https://github.com/LineageOS/android_kernel_qcom_sm8450 into HEAD *(ID: [503810](https://review.lineageos.org/c/503810))*
 - **[LineageOS/android_kernel_xiaomi_sm8450-devicetrees]** display: Remove 90 Hz display mode *(ID: [503837](https://review.lineageos.org/c/503837))*
 - **[LineageOS/android_device_xiaomi_sm8450-common]** sm8450-common: Fix Wi-Fi controller TX levels array *(ID: [501848](https://review.lineageos.org/c/501848))*
 - **[LineageOS/android_device_xiaomi_sm8450-common]** sm8450-common: Fix mnc of carrier framework overlays *(ID: [503748](https://review.lineageos.org/c/503748))*
@@ -19,29 +42,6 @@
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** video-driver: Updates changes from PLQ110_16.0.9.401(CN01) *(ID: [503150](https://review.lineageos.org/c/503150))*
 - **[LineageOS/android_kernel_samsung_sm7325]** techpack: datarmnet-ext: shs: fix CFI failure on module init with newer Clang versions *(ID: [503816](https://review.lineageos.org/c/503816))*
 - **[LineageOS/android_kernel_samsung_sm7325]** sm7325: Update defconfigs *(ID: [503815](https://review.lineageos.org/c/503815))*
-- **[LineageOS/android_kernel_samsung_sm7325]** Merge remote-tracking branch 'android_kernel_qcom_sm8350/lineage-20' into lineage-24.0 *(ID: [503814](https://review.lineageos.org/c/503814))*
-- **[LineageOS/android_kernel_samsung_sm7125]** sm7125: regenerate defconfigs *(ID: [503813](https://review.lineageos.org/c/503813))*
-- **[LineageOS/android_kernel_samsung_sm7125]** Merge remote-tracking branch 'android_kernel_qcom_sm8150/lineage-20' into lineage-24.0 *(ID: [503812](https://review.lineageos.org/c/503812))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** Merge branch 'lineage-20' of https://github.com/LineageOS/android_kernel_qcom_sm8450-modules into HEAD *(ID: [503811](https://review.lineageos.org/c/503811))*
-- **[LineageOS/android_kernel_xiaomi_sm8450]** Merge branch 'lineage-20' of https://github.com/LineageOS/android_kernel_qcom_sm8450 into HEAD *(ID: [503810](https://review.lineageos.org/c/503810))*
-- **[LineageOS/android_device_samsung_sm7125-common]** sm7125-common: overlay: Fix SIM Toolkit SMS sending (Mobile-ID) *(ID: [503787](https://review.lineageos.org/c/503787))*
-- **[LineageOS/android_device_samsung_sm7125-common]** sm7125-common: Fix Samsung RIL UICC enablement indication *(ID: [503777](https://review.lineageos.org/c/503777))*
-- **[LineageOS/android_device_samsung_sm7325-common]** sm7325-common: Fix Samsung RIL UICC enablement indication *(ID: [503766](https://review.lineageos.org/c/503766))*
-- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** dts: qcom: Drop 30Hz from AA610 panels *(ID: [503147](https://review.lineageos.org/c/503147))*
-- **[LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib]** wpa_supplicant_lib: Generate wpa_supplicant.conf *(ID: [502913](https://review.lineageos.org/c/502913))*
-- **[LineageOS/android_device_xiaomi_jaws]** jaws: Fix Xiaomi RC pairing *(ID: [503656](https://review.lineageos.org/c/503656))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arch: arm64: dts: Create dts for DV9135-KVV (tifa) *(ID: [503677](https://review.lineageos.org/c/503677))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arch: arm64: dts: Import DV9135-KVV changes *(ID: [503678](https://review.lineageos.org/c/503678))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** Revert "msm: camera: common: Fix buffer validation check" *(ID: [503720](https://review.lineageos.org/c/503720))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** audio-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503151](https://review.lineageos.org/c/503151))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: icnss2: Add Nord 6 project IDs *(ID: [503157](https://review.lineageos.org/c/503157))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: touch: Update HBP touch drivers from CPH2795_16.0.5.702(EX01) *(ID: [503154](https://review.lineageos.org/c/503154))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: camera-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503152](https://review.lineageos.org/c/503152))*
-- **[LineageOS/android_hardware_google_pixel]** Add library to sync usb status *(ID: [503697](https://review.lineageos.org/c/503697))*
-- **[LineageOS/android_packages_apps_Twelve]** Twelve: Fix play random songs margins *(ID: [503666](https://review.lineageos.org/c/503666))*
-- **[LineageOS/android_hardware_google_pixel]** Add enable_usb_data service *(ID: [503696](https://review.lineageos.org/c/503696))*
-- **[LineageOS/android_hardware_google_pixel]** Try to restrict USB early in boot *(ID: [503695](https://review.lineageos.org/c/503695))*
-- **[LineageOS/android_kernel_sdmc_tifa-build]** Adapt for tifa *(ID: [503372](https://review.lineageos.org/c/503372))*
 
 </details>
 
