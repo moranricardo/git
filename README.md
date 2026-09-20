@@ -7,12 +7,26 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (448)
+## 🚨 Parches Críticos Detectados (410)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label volkswagen wakeup nodes *(ID: [502520](https://review.lineageos.org/c/502520))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** video-driver: Updates changes from PLQ110_16.0.9.401(CN01) *(ID: [503150](https://review.lineageos.org/c/503150))*
+- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Synchronize active SIM type *(ID: [503676](https://review.lineageos.org/c/503676))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** audio-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503151](https://review.lineageos.org/c/503151))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: icnss2: Add Nord 6 project IDs *(ID: [503157](https://review.lineageos.org/c/503157))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: touch: Update HBP touch drivers from CPH2795_16.0.5.702(EX01) *(ID: [503154](https://review.lineageos.org/c/503154))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: camera-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503152](https://review.lineageos.org/c/503152))*
+- **[LineageOS/android_hardware_google_pixel]** Add library to sync usb status *(ID: [503697](https://review.lineageos.org/c/503697))*
 - **[LineageOS/android_packages_apps_Twelve]** Twelve: Fix play random songs margins *(ID: [503666](https://review.lineageos.org/c/503666))*
+- **[LineageOS/android_hardware_google_pixel]** Add enable_usb_data service *(ID: [503696](https://review.lineageos.org/c/503696))*
+- **[LineageOS/android_hardware_google_pixel]** Try to restrict USB early in boot *(ID: [503695](https://review.lineageos.org/c/503695))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arch: arm64: dts: Import DV9135-KVV changes *(ID: [503678](https://review.lineageos.org/c/503678))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arch: arm64: dts: Create dts for DV9135-KVV (tifa) *(ID: [503677](https://review.lineageos.org/c/503677))*
+- **[LineageOS/android_kernel_sdmc_tifa-build]** Adapt for tifa *(ID: [503372](https://review.lineageos.org/c/503372))*
+- **[LineageOS/android_kernel_ayn_qcs8550-devicetrees]** devicetrees: qcom: display: ch13726a: Align with stock *(ID: [503673](https://review.lineageos.org/c/503673))*
 - **[LineageOS/android_kernel_qcom_sm8450]** drivers: qcom: smcinvoke: Rename __close_fd to close_fd and remove the files parameter *(ID: [474124](https://review.lineageos.org/c/474124))*
 - **[LineageOS/android_device_xiaomi_jaws]** jaws: Fix Xiaomi RC pairing *(ID: [503656](https://review.lineageos.org/c/503656))*
 - **[LineageOS/android_system_libufdt]** libufdt: Fix stack overflow risk in vendor qsort *(ID: [503598](https://review.lineageos.org/c/503598))*
@@ -28,20 +42,6 @@
 - **[LineageOS/android_frameworks_av]** Camera: Fix heap OOB read/write in camera mappers *(ID: [503569](https://review.lineageos.org/c/503569))*
 - **[LineageOS/android_frameworks_av]** Fix MediaBuffer size-inflation off-by-32 bug *(ID: [503567](https://review.lineageos.org/c/503567))*
 - **[LineageOS/android_packages_providers_DownloadProvider]** RESTRICT AUTOMERGE Fix ZWSP path bypass in DownloadProvider *(ID: [503588](https://review.lineageos.org/c/503588))*
-- **[LineageOS/android_packages_providers_DownloadProvider]** RESTRICT AUTOMERGE Fix DownloadProvider completed download security bypass *(ID: [503587](https://review.lineageos.org/c/503587))*
-- **[LineageOS/android_packages_providers_DownloadProvider]** RESTRICT AUTOMERGE Fix path traversal vulnerability in DownloadStorageProvider *(ID: [503586](https://review.lineageos.org/c/503586))*
-- **[LineageOS/android_frameworks_base]** Fix silence-injection policy skip in VirtualAudioController *(ID: [503620](https://review.lineageos.org/c/503620))*
-- **[LineageOS/android_frameworks_base]** Fix boot-loop vulnerability in setPermissionGrantState *(ID: [503618](https://review.lineageos.org/c/503618))*
-- **[LineageOS/android_frameworks_base]** Fix potential NPEs in PduParser.parsePartHeaders *(ID: [503616](https://review.lineageos.org/c/503616))*
-- **[LineageOS/android_frameworks_base]** SystemUi UsbDialog: fix label vulnerability *(ID: [503612](https://review.lineageos.org/c/503612))*
-- **[LineageOS/android_frameworks_base]** Fix path traversal and missing ownership check in LocaleManagerService *(ID: [503611](https://review.lineageos.org/c/503611))*
-- **[LineageOS/android_frameworks_base]** Security bug fix: Prevent USB data changes for non-owner users during lockdown mode. *(ID: [503603](https://review.lineageos.org/c/503603))*
-- **[LineageOS/android_frameworks_base]** Fix URI grant persistence bypass *(ID: [503601](https://review.lineageos.org/c/503601))*
-- **[LineageOS/android_packages_apps_Settings]** fixup! Settings: Add LineageParts charging sound settings preference *(ID: [503654](https://review.lineageos.org/c/503654))*
-- **[LineageOS/android_hardware_nvidia_t18x_lineage]** lanai: Disable gpio keys *(ID: [503653](https://review.lineageos.org/c/503653))*
-- **[LineageOS/android_hardware_nvidia_t18x_lineage]** Add common ramoops *(ID: [503652](https://review.lineageos.org/c/503652))*
-- **[LineageOS/android_hardware_nvidia_t18x_lineage]** Add android firmware info *(ID: [503651](https://review.lineageos.org/c/503651))*
-- **[LineageOS/android_hardware_nvidia_t23x_lineage]** Add concord and arvala targets *(ID: [495925](https://review.lineageos.org/c/495925))*
 
 </details>
 
