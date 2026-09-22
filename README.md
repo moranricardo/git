@@ -1,21 +1,17 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-21-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-22-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (206)
+## 🚨 Parches Críticos Detectados (190)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_lge]** sepolicy: allow vendor_sensors to create files in sns_file *(ID: [501787](https://review.lineageos.org/c/501787))*
-- **[LineageOS/android_hardware_lge]** sepolicy: add LGE specific policies from winglm *(ID: [501786](https://review.lineageos.org/c/501786))*
-- **[LineageOS/android_hardware_lge]** sepolicy: add LGE specific policies from sm7250/sm8250 *(ID: [501521](https://review.lineageos.org/c/501521))*
-- **[LineageOS/android_hardware_lge]** sepolicy: add LGE specific policies from sm8150-common *(ID: [501520](https://review.lineageos.org/c/501520))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_codec2]** codec2: services: Cleanup Android.bp *(ID: [503384](https://review.lineageos.org/c/503384))*
 - **[LineageOS/android_kernel_qcom_sm8850]** ARM64: dts: vendor: Add symlink to sm8850-devicetrees *(ID: [503888](https://review.lineageos.org/c/503888))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: icnss2: Add Nord 6 project IDs *(ID: [503157](https://review.lineageos.org/c/503157))*
@@ -29,11 +25,7 @@
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix edgnss-daemon blocked by syscall fdatasync *(ID: [503166](https://review.lineageos.org/c/503166))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Fix format specifiers *(ID: [502364](https://review.lineageos.org/c/502364))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Fix unqualified-std-cast-call warning *(ID: [502363](https://review.lineageos.org/c/502363))*
-- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Add kvim3 and kvim3l support *(ID: [502531](https://review.lineageos.org/c/502531))*
 - **[LineageOS/android_device_oneplus_sm8850-common]** sm8850-common: Fix issue that daemons cannot be pushed to device *(ID: [504088](https://review.lineageos.org/c/504088))*
-- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Apply devkit changes to kvim *(ID: [502534](https://review.lineageos.org/c/502534))*
-- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Add kvim support *(ID: [502533](https://review.lineageos.org/c/502533))*
-- **[LineageOS/android_hardware_amlogic_u-boot]** board: khadas: Apply devkit changes to kvim3 and kvim3l *(ID: [502532](https://review.lineageos.org/c/502532))*
 - **[LineageOS/android_kernel_qcom_sm8850-modules]** treewide: Use soc repo unconditionally *(ID: [503897](https://review.lineageos.org/c/503897))*
 - **[LineageOS/android_kernel_qcom_sm8850-modules]** build: bazel: replace hardcoded module paths with shared helpers *(ID: [503895](https://review.lineageos.org/c/503895))*
 - **[LineageOS/android_kernel_qcom_sm8850-modules]** BUILD: DDK: copy_to_dist to pkg_install *(ID: [503901](https://review.lineageos.org/c/503901))*
@@ -42,6 +34,14 @@
 - **[LineageOS/android_kernel_qcom_sm8850-modules]** qcom: securemsm: Expose SMMU proxy UAPI headers *(ID: [503898](https://review.lineageos.org/c/503898))*
 - **[LineageOS/android_kernel_qcom_sm8850-modules]** build: Update kernel and module paths *(ID: [503896](https://review.lineageos.org/c/503896))*
 - **[LineageOS/android_kernel_qcom_sm8850]** build: bazel: Don't hardcode path to current repo *(ID: [503924](https://review.lineageos.org/c/503924))*
+- **[LineageOS/android_kernel_qcom_sm8850]** BUILD: DDK: copy_to_dist to pkg_install *(ID: [503894](https://review.lineageos.org/c/503894))*
+- **[LineageOS/android_kernel_qcom_sm8850]** build: Include techpack UAPI headers in the headers dist *(ID: [503892](https://review.lineageos.org/c/503892))*
+- **[LineageOS/android_kernel_qcom_sm8850]** build: bazel: Populate techpack module packaging rules *(ID: [503891](https://review.lineageos.org/c/503891))*
+- **[LineageOS/android_kernel_qcom_sm8850]** build: bazel: Fix GKI module packaging *(ID: [503890](https://review.lineageos.org/c/503890))*
+- **[LineageOS/android_kernel_qcom_sm8850]** build: bazel: Append unsafe headers to DDK modules if allowed *(ID: [503889](https://review.lineageos.org/c/503889))*
+- **[LineageOS/android_kernel_qcom_sm8850-devicetrees]** Makefile: Silence DTC warnings by default *(ID: [504081](https://review.lineageos.org/c/504081))*
+- **[LineageOS/android_kernel_qcom_sm8850-devicetrees]** qcom: fingerprint/wlan: Remove standalone Bazel package *(ID: [503905](https://review.lineageos.org/c/503905))*
+- **[LineageOS/android_kernel_qcom_sm8850-devicetrees]** qcom: Build dtbos inline *(ID: [503903](https://review.lineageos.org/c/503903))*
 
 </details>
 
