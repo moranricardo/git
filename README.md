@@ -7,15 +7,21 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (228)
+## 🚨 Parches Críticos Detectados (264)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: infiniti: Disable partial update for the AA601/AD296 panel *(ID: [504291](https://review.lineageos.org/c/504291))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: kernel: Import NFC drivers from CPH2723_16.0.0.211(EX01) *(ID: [460122](https://review.lineageos.org/c/460122))*
+- **[LineageOS/android_hardware_oplus]** oplus: vibrator: Add LiveTap AIDL vibrator service *(ID: [503935](https://review.lineageos.org/c/503935))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** arm64: dts: qcom: enable arr for infiniti panels *(ID: [504301](https://review.lineageos.org/c/504301))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** drm/msm: oplus: drive standard adfr from qsync *(ID: [504300](https://review.lineageos.org/c/504300))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_codec2]** codec2: services: Cleanup Android.bp *(ID: [503384](https://review.lineageos.org/c/503384))*
+- **[LineageOS/android_device_motorola_fogos]** audio: fix microphone delay in mixer_paths.xml *(ID: [504298](https://review.lineageos.org/c/504298))*
 - **[LineageOS/android_kernel_oneplus_sm8850]** treewide: Update oplus changes from PLZ110_16.0.8.300(CN01) *(ID: [504237](https://review.lineageos.org/c/504237))*
 - **[LineageOS/android_kernel_oneplus_sm8850]** thermal: qcom: Support oplus dynamic VBAT thresholds *(ID: [504238](https://review.lineageos.org/c/504238))*
 - **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: devicetree: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504277](https://review.lineageos.org/c/504277))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: infiniti: Disable partial update for the AA601 panel *(ID: [504291](https://review.lineageos.org/c/504291))*
 - **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** ARM: dts: qcom: macan: Merge techpack devicetrees *(ID: [504290](https://review.lineageos.org/c/504290))*
 - **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** ARM: dts: qcom: fairlady: Merge techpack devicetrees *(ID: [504289](https://review.lineageos.org/c/504289))*
 - **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: devicetree: Update oplus changes from PLZ110_16.0.8.300 *(ID: [504288](https://review.lineageos.org/c/504288))*
@@ -35,21 +41,18 @@
 - **[LineageOS/android_kernel_oneplus_sm8850]** configs: canoe_perf: Disable CONFIG_QCOM_FSA4480_I2C *(ID: [504234](https://review.lineageos.org/c/504234))*
 - **[LineageOS/android_kernel_oneplus_sm8850]** kleaf: Include charger Kconfig in DTB configuration *(ID: [504233](https://review.lineageos.org/c/504233))*
 - **[LineageOS/android_kernel_oneplus_sm8850]** drivers: backlight: Point qcom-spmi-wled dep at oplus charger driver *(ID: [504232](https://review.lineageos.org/c/504232))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_codec2]** codec2: services: Cleanup Android.bp *(ID: [503384](https://review.lineageos.org/c/503384))*
 - **[LineageOS/android_hardware_oplus]** eSimSwitcher: Sequence SN220 power around GPIO transitions *(ID: [504292](https://review.lineageos.org/c/504292))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: wlan: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504276](https://review.lineageos.org/c/504276))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: graphics: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504275](https://review.lineageos.org/c/504275))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: eSE: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504274](https://review.lineageos.org/c/504274))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: display: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504273](https://review.lineageos.org/c/504273))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: camera: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504272](https://review.lineageos.org/c/504272))*
 
 </details>
 
-## 📱 Línea Motorola Activa (32)
+## 📱 Línea Motorola Activa (35)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Pull updates from W1TBS36H.1-63-2-8 *(ID: [504224](https://review.lineageos.org/c/504224))*
+- **[LineageOS/android_device_motorola_bronco]** bronco: Pull updates from W1TBS36H.1-63-2-8 *(ID: [504223](https://review.lineageos.org/c/504223))*
+- **[LineageOS/android_device_motorola_fogos]** audio: fix microphone delay in mixer_paths.xml *(ID: [504298](https://review.lineageos.org/c/504298))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix two issues about edngss-daemon launch *(ID: [503171](https://review.lineageos.org/c/503171))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix edgnss blocked by syscall issue *(ID: [503170](https://review.lineageos.org/c/503170))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix edgnss-daemon blocked by sched_get_priority_min/max *(ID: [503169](https://review.lineageos.org/c/503169))*
@@ -77,9 +80,6 @@
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Fix format specifiers *(ID: [502364](https://review.lineageos.org/c/502364))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Fix unqualified-std-cast-call warning *(ID: [502363](https://review.lineageos.org/c/502363))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Fuzzer should be using android.hardware.gnss-V4-ndk *(ID: [502362](https://review.lineageos.org/c/502362))*
-- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Convert fuzzer to blueprint *(ID: [502361](https://review.lineageos.org/c/502361))*
-- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps/location: Update to LA.VENDOR.15.4.1.r1-10300-WAIPIO.QSSI16.0 *(ID: [502360](https://review.lineageos.org/c/502360))*
-- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Update GNSS blobs from W1VAS36.62-22-16-16 *(ID: [502359](https://review.lineageos.org/c/502359))*
 
 </details>
 
