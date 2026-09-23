@@ -7,41 +7,41 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (317)
+## 🚨 Parches Críticos Detectados (268)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_xiaomi_earth]** [ALPS08617997] EEM: Enable EEM_NOT_READY *(ID: [504581](https://review.lineageos.org/c/504581))*
-- **[LineageOS/android_kernel_xiaomi_earth]** fixup! UPSTREAM: netlink: make validation more configurable for future strictness *(ID: [504580](https://review.lineageos.org/c/504580))*
-- **[LineageOS/android_kernel_xiaomi_earth]** ARM64: configs: earth: Enable ZRAM WRITEBACK Bug: 144354600 Bug: 139846758 Test: boot to home *(ID: [504579](https://review.lineageos.org/c/504579))*
-- **[LineageOS/android_kernel_xiaomi_earth]** arm64: configs: earth: Enable CFI *(ID: [504578](https://review.lineageos.org/c/504578))*
-- **[LineageOS/android_kernel_xiaomi_earth]** arm64: configs: earth: Enable CONFIG_SHADOW_CALL_STACK *(ID: [504577](https://review.lineageos.org/c/504577))*
-- **[LineageOS/android_kernel_xiaomi_earth]** arm64: configs: earth: Switch linker to LLD *(ID: [504576](https://review.lineageos.org/c/504576))*
-- **[LineageOS/android_kernel_xiaomi_earth]** arm64: configs: earth: Enable CONFIG_RD_LZ4 *(ID: [504575](https://review.lineageos.org/c/504575))*
-- **[LineageOS/android_kernel_xiaomi_earth]** arm64: configs: earth: Enable backlight leds trigger *(ID: [504574](https://review.lineageos.org/c/504574))*
-- **[LineageOS/android_kernel_xiaomi_earth]** video: mt6768: Don’t check for ovl status *(ID: [504573](https://review.lineageos.org/c/504573))*
-- **[LineageOS/android_kernel_xiaomi_earth]** drivers: gpu: mali-valhall: Disable CONFIG_MALI_DEBUG *(ID: [504572](https://review.lineageos.org/c/504572))*
-- **[LineageOS/android_kernel_xiaomi_earth]** leds: mtk: mtkfb: fix backlight callback CFI signature mismatch *(ID: [504571](https://review.lineageos.org/c/504571))*
-- **[LineageOS/android_kernel_xiaomi_earth]** video: ddp: rdma: fix ioctl function pointer signature mismatch *(ID: [504570](https://review.lineageos.org/c/504570))*
-- **[LineageOS/android_kernel_xiaomi_earth]** drivers: mediatek: dispsys: Build ddp_mmp unconditionally for MT6768 platform *(ID: [504569](https://review.lineageos.org/c/504569))*
-- **[LineageOS/android_kernel_xiaomi_earth]** touchscreen: mediatek: ft8057: Fixup "Implement double_tap node" *(ID: [504568](https://review.lineageos.org/c/504568))*
-- **[LineageOS/android_kernel_xiaomi_earth]** touchscreen: mediatek: nt36525b_spi: Run `nvt_fwu_work` immediately on resume *(ID: [504567](https://review.lineageos.org/c/504567))*
-- **[LineageOS/android_kernel_xiaomi_earth]** firmware: Update touchscreen firmware from `V816.0.16.0.UCVMIXM` *(ID: [504566](https://review.lineageos.org/c/504566))*
-- **[LineageOS/android_kernel_xiaomi_earth]** mali_valhall: Remove MediaTek memtrack support *(ID: [504565](https://review.lineageos.org/c/504565))*
-- **[LineageOS/android_kernel_xiaomi_earth]** mali_kbase: platform: Add per-process and global sysfs nodes for GPU mem usage *(ID: [504564](https://review.lineageos.org/c/504564))*
-- **[LineageOS/android_kernel_xiaomi_earth]** mali_kbase: platform: Add per-process and global accounting for dma-buf pages *(ID: [504563](https://review.lineageos.org/c/504563))*
-- **[LineageOS/android_kernel_xiaomi_earth]** drivers: mediatek: spm: Allow compiling without AEE *(ID: [504562](https://review.lineageos.org/c/504562))*
-- **[LineageOS/android_kernel_xiaomi_earth]** drivers: mediatek: eem_v2: Allow compiling without AEE *(ID: [504561](https://review.lineageos.org/c/504561))*
-- **[LineageOS/android_kernel_xiaomi_earth]** drivers:/ touchscreen: chipone_ICNL_9916: Implement double_tap node *(ID: [504560](https://review.lineageos.org/c/504560))*
-- **[LineageOS/android_kernel_xiaomi_earth]** drivers/: touchscreen: nt36525b: Implement double_tap node *(ID: [504559](https://review.lineageos.org/c/504559))*
-- **[LineageOS/android_kernel_xiaomi_earth]** drivers/: touchscreen: ft8057: Implement double_tap node *(ID: [504558](https://review.lineageos.org/c/504558))*
-- **[LineageOS/android_kernel_xiaomi_earth]** drivers/: touchscreen: Add an interface to expose TP features to userspace *(ID: [504557](https://review.lineageos.org/c/504557))*
-- **[LineageOS/android_kernel_xiaomi_earth]** drivers/: touchscreen: Drop Xiaomi touchfeature support *(ID: [504556](https://review.lineageos.org/c/504556))*
-- **[LineageOS/android_kernel_xiaomi_earth]** drivers: connectivity: gen4m: Use PM notifier to control WLAN suspend *(ID: [504555](https://review.lineageos.org/c/504555))*
-- **[LineageOS/android_kernel_xiaomi_earth]** drivers: connectivity: gen4m: Silence more debug logging *(ID: [504554](https://review.lineageos.org/c/504554))*
-- **[LineageOS/android_kernel_xiaomi_earth]** drivers: connectivity: gen4m: Disable WLAN wakelocks *(ID: [504553](https://review.lineageos.org/c/504553))*
-- **[LineageOS/android_kernel_xiaomi_earth]** drivers: connectivity: Disable WLAN boost if !CONFIG_MTK_CPU_CTRL *(ID: [504552](https://review.lineageos.org/c/504552))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: docs: Add bpfmt, handle externally imported formatting *(ID: [504666](https://review.lineageos.org/c/504666))*
+- **[LineageOS/android_hardware_oplus]** sensors: fusionlight: Hook IHalProxyCallback *(ID: [459690](https://review.lineageos.org/c/459690))*
+- **[LineageOS/android_hardware_oplus]** sensors: fusionlight: Implement ALS correction algorithm *(ID: [504648](https://review.lineageos.org/c/504648))*
+- **[LineageOS/android_hardware_oplus]** sensors: Add FusionLight Sensors SubHAL *(ID: [459689](https://review.lineageos.org/c/459689))*
+- **[LineageOS/android_hardware_oplus]** Add ALS capture service *(ID: [418485](https://review.lineageos.org/c/418485))*
+- **[LineageOS/android_hardware_oplus]** sensors: Move different modules to subdir *(ID: [459688](https://review.lineageos.org/c/459688))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Don't promote hdmi *(ID: [501539](https://review.lineageos.org/c/501539))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Support High Res Mix Port *(ID: [501538](https://review.lineageos.org/c/501538))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Intersect mixport caps *(ID: [501525](https://review.lineageos.org/c/501525))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Add vendor.oplus.hardware.oplusSensor V1 *(ID: [504647](https://review.lineageos.org/c/504647))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: Allow an aliased path in the commit subject *(ID: [504644](https://review.lineageos.org/c/504644))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: Add docs/REVIEW.md commit review SOP *(ID: [504589](https://review.lineageos.org/c/504589))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: Commonize INITIAL_IMPLEMENTATION.md across components *(ID: [504586](https://review.lineageos.org/c/504586))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: Add root AGENTS.md and shared docs/ conventions *(ID: [504505](https://review.lineageos.org/c/504505))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** DNM: HACK: get audio building and working for exynos850 *(ID: [504583](https://review.lineageos.org/c/504583))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Only keep extra HDMI heads from being promoted *(ID: [504502](https://review.lineageos.org/c/504502))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Intersect the channel counts too *(ID: [504501](https://review.lineageos.org/c/504501))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Never expose a mix port without profiles *(ID: [504500](https://review.lineageos.org/c/504500))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Run clang-format on the mix port changes *(ID: [504499](https://review.lineageos.org/c/504499))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Document the mix port and promotion changes *(ID: [504498](https://review.lineageos.org/c/504498))*
+- **[LineageOS/android_system_update_engine]** fixup! update_engine: Run backuptool script before normal postinstall script *(ID: [504497](https://review.lineageos.org/c/504497))*
+- **[LineageOS/android_packages_apps_Catapult]** Catapult: Fix crash if Watch Next Card has no title *(ID: [504496](https://review.lineageos.org/c/504496))*
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: fix two issues about edngss-daemon launch *(ID: [503163](https://review.lineageos.org/c/503163))*
+- **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504425](https://review.lineageos.org/c/504425))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: icnss2: Add Nord 6 project IDs *(ID: [503157](https://review.lineageos.org/c/503157))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** Revert "bt-kernel: Added support for APTX_PLUS codec" *(ID: [504443](https://review.lineageos.org/c/504443))*
+- **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504426](https://review.lineageos.org/c/504426))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: audio_extn: Fix null thread join in BatteryListener teardown *(ID: [504423](https://review.lineageos.org/c/504423))*
+- **[LineageOS/android_hardware_ayn]** ayn: overlay: Override default launcher workspace *(ID: [504422](https://review.lineageos.org/c/504422))*
+- **[LineageOS/android_hardware_lineage_compat]** libbluetooth_audio_session_adapter: Add a backend for V3 stores *(ID: [504414](https://review.lineageos.org/c/504414))*
 
 </details>
 
