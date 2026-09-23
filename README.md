@@ -7,41 +7,41 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (256)
+## 🚨 Parches Críticos Detectados (317)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504425](https://review.lineageos.org/c/504425))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: icnss2: Add Nord 6 project IDs *(ID: [503157](https://review.lineageos.org/c/503157))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** Revert "bt-kernel: Added support for APTX_PLUS codec" *(ID: [504443](https://review.lineageos.org/c/504443))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Don't promote hdmi *(ID: [501539](https://review.lineageos.org/c/501539))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Support High Res Mix Port *(ID: [501538](https://review.lineageos.org/c/501538))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Intersect mixport caps *(ID: [501525](https://review.lineageos.org/c/501525))*
-- **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504426](https://review.lineageos.org/c/504426))*
-- **[LineageOS/android_hardware_qcom_audio]** hal: audio_extn: Fix null thread join in BatteryListener teardown *(ID: [504423](https://review.lineageos.org/c/504423))*
-- **[LineageOS/android_hardware_ayn]** ayn: overlay: Override default launcher workspace *(ID: [504422](https://review.lineageos.org/c/504422))*
-- **[LineageOS/android_hardware_lineage_compat]** libbluetooth_audio_session_adapter: Add a backend for V3 stores *(ID: [504414](https://review.lineageos.org/c/504414))*
-- **[LineageOS/android_hardware_lineage_compat]** compat: Add a Bluetooth audio session adapter *(ID: [504413](https://review.lineageos.org/c/504413))*
-- **[LineageOS/android_kernel_google_redbull]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into android-msm-pixel-4.19 *(ID: [502398](https://review.lineageos.org/c/502398))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Fix inline build *(ID: [460130](https://review.lineageos.org/c/460130))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Unconditionally build the modules *(ID: [460123](https://review.lineageos.org/c/460123))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: kernel: Import NFC drivers from CPH2723_16.0.0.211(EX01) *(ID: [460122](https://review.lineageos.org/c/460122))*
-- **[LineageOS/android_vendor_qcom_opensource_system_bt]** [RESTRICT AUTOMERGE] Fix SDP server heap buffer overflow *(ID: [504357](https://review.lineageos.org/c/504357))*
-- **[LineageOS/android_development]** Fix potential NPEs in PduParser.parsePartHeaders *(ID: [504344](https://review.lineageos.org/c/504344))*
-- **[LineageOS/android_bionic]** Fix bad free when limit exceeded. *(ID: [504343](https://review.lineageos.org/c/504343))*
-- **[LineageOS/android_external_libhevc]** libhevcdec: Fix heap buffer overflow in ihevcd_get_tu_data_size *(ID: [504342](https://review.lineageos.org/c/504342))*
-- **[LineageOS/android_frameworks_av]** Fix OOB in DynamicsProcessing MBC band processing *(ID: [504339](https://review.lineageos.org/c/504339))*
-- **[LineageOS/android_frameworks_av]** Fix heap-buffer-overflow in AudioAttributes unmarshalling *(ID: [504338](https://review.lineageos.org/c/504338))*
-- **[LineageOS/android_frameworks_av]** [media] Fix heap out-of-bounds write in MatroskaSource::read *(ID: [504337](https://review.lineageos.org/c/504337))*
-- **[LineageOS/android_packages_apps_TV]** Fix Intent redirection issue in SetupPassthroughActivity *(ID: [504334](https://review.lineageos.org/c/504334))*
-- **[LineageOS/android_system_bt]** Fuzz: Fix overflow in SDP_addAttribute *(ID: [504331](https://review.lineageos.org/c/504331))*
-- **[LineageOS/android_system_bt]** [RESTRICT AUTOMERGE] Fix SDP server heap buffer overflow *(ID: [504330](https://review.lineageos.org/c/504330))*
-- **[LineageOS/android_vendor_nxp_opensource_external_libnfc-nci]** Fix OOB write in rw_mfc_handle_read_op *(ID: [504327](https://review.lineageos.org/c/504327))*
-- **[LineageOS/android_vendor_nxp_opensource_external_libnfc-nci]** Fix potential integer overflow in Type 3 Tag block operations. *(ID: [504326](https://review.lineageos.org/c/504326))*
-- **[LineageOS/android_vendor_nxp_opensource_external_libnfc-nci]** Fix uint16 loop counter wrap in T3T NDEF CHECK/UPDATE *(ID: [504325](https://review.lineageos.org/c/504325))*
-- **[LineageOS/android_frameworks_base]** Fix using the base type for checking *(ID: [504319](https://review.lineageos.org/c/504319))*
-- **[LineageOS/android_system_nfc]** Fix OOB write in rw_mfc_handle_read_op *(ID: [504315](https://review.lineageos.org/c/504315))*
+- **[LineageOS/android_kernel_xiaomi_earth]** [ALPS08617997] EEM: Enable EEM_NOT_READY *(ID: [504581](https://review.lineageos.org/c/504581))*
+- **[LineageOS/android_kernel_xiaomi_earth]** fixup! UPSTREAM: netlink: make validation more configurable for future strictness *(ID: [504580](https://review.lineageos.org/c/504580))*
+- **[LineageOS/android_kernel_xiaomi_earth]** ARM64: configs: earth: Enable ZRAM WRITEBACK Bug: 144354600 Bug: 139846758 Test: boot to home *(ID: [504579](https://review.lineageos.org/c/504579))*
+- **[LineageOS/android_kernel_xiaomi_earth]** arm64: configs: earth: Enable CFI *(ID: [504578](https://review.lineageos.org/c/504578))*
+- **[LineageOS/android_kernel_xiaomi_earth]** arm64: configs: earth: Enable CONFIG_SHADOW_CALL_STACK *(ID: [504577](https://review.lineageos.org/c/504577))*
+- **[LineageOS/android_kernel_xiaomi_earth]** arm64: configs: earth: Switch linker to LLD *(ID: [504576](https://review.lineageos.org/c/504576))*
+- **[LineageOS/android_kernel_xiaomi_earth]** arm64: configs: earth: Enable CONFIG_RD_LZ4 *(ID: [504575](https://review.lineageos.org/c/504575))*
+- **[LineageOS/android_kernel_xiaomi_earth]** arm64: configs: earth: Enable backlight leds trigger *(ID: [504574](https://review.lineageos.org/c/504574))*
+- **[LineageOS/android_kernel_xiaomi_earth]** video: mt6768: Don’t check for ovl status *(ID: [504573](https://review.lineageos.org/c/504573))*
+- **[LineageOS/android_kernel_xiaomi_earth]** drivers: gpu: mali-valhall: Disable CONFIG_MALI_DEBUG *(ID: [504572](https://review.lineageos.org/c/504572))*
+- **[LineageOS/android_kernel_xiaomi_earth]** leds: mtk: mtkfb: fix backlight callback CFI signature mismatch *(ID: [504571](https://review.lineageos.org/c/504571))*
+- **[LineageOS/android_kernel_xiaomi_earth]** video: ddp: rdma: fix ioctl function pointer signature mismatch *(ID: [504570](https://review.lineageos.org/c/504570))*
+- **[LineageOS/android_kernel_xiaomi_earth]** drivers: mediatek: dispsys: Build ddp_mmp unconditionally for MT6768 platform *(ID: [504569](https://review.lineageos.org/c/504569))*
+- **[LineageOS/android_kernel_xiaomi_earth]** touchscreen: mediatek: ft8057: Fixup "Implement double_tap node" *(ID: [504568](https://review.lineageos.org/c/504568))*
+- **[LineageOS/android_kernel_xiaomi_earth]** touchscreen: mediatek: nt36525b_spi: Run `nvt_fwu_work` immediately on resume *(ID: [504567](https://review.lineageos.org/c/504567))*
+- **[LineageOS/android_kernel_xiaomi_earth]** firmware: Update touchscreen firmware from `V816.0.16.0.UCVMIXM` *(ID: [504566](https://review.lineageos.org/c/504566))*
+- **[LineageOS/android_kernel_xiaomi_earth]** mali_valhall: Remove MediaTek memtrack support *(ID: [504565](https://review.lineageos.org/c/504565))*
+- **[LineageOS/android_kernel_xiaomi_earth]** mali_kbase: platform: Add per-process and global sysfs nodes for GPU mem usage *(ID: [504564](https://review.lineageos.org/c/504564))*
+- **[LineageOS/android_kernel_xiaomi_earth]** mali_kbase: platform: Add per-process and global accounting for dma-buf pages *(ID: [504563](https://review.lineageos.org/c/504563))*
+- **[LineageOS/android_kernel_xiaomi_earth]** drivers: mediatek: spm: Allow compiling without AEE *(ID: [504562](https://review.lineageos.org/c/504562))*
+- **[LineageOS/android_kernel_xiaomi_earth]** drivers: mediatek: eem_v2: Allow compiling without AEE *(ID: [504561](https://review.lineageos.org/c/504561))*
+- **[LineageOS/android_kernel_xiaomi_earth]** drivers:/ touchscreen: chipone_ICNL_9916: Implement double_tap node *(ID: [504560](https://review.lineageos.org/c/504560))*
+- **[LineageOS/android_kernel_xiaomi_earth]** drivers/: touchscreen: nt36525b: Implement double_tap node *(ID: [504559](https://review.lineageos.org/c/504559))*
+- **[LineageOS/android_kernel_xiaomi_earth]** drivers/: touchscreen: ft8057: Implement double_tap node *(ID: [504558](https://review.lineageos.org/c/504558))*
+- **[LineageOS/android_kernel_xiaomi_earth]** drivers/: touchscreen: Add an interface to expose TP features to userspace *(ID: [504557](https://review.lineageos.org/c/504557))*
+- **[LineageOS/android_kernel_xiaomi_earth]** drivers/: touchscreen: Drop Xiaomi touchfeature support *(ID: [504556](https://review.lineageos.org/c/504556))*
+- **[LineageOS/android_kernel_xiaomi_earth]** drivers: connectivity: gen4m: Use PM notifier to control WLAN suspend *(ID: [504555](https://review.lineageos.org/c/504555))*
+- **[LineageOS/android_kernel_xiaomi_earth]** drivers: connectivity: gen4m: Silence more debug logging *(ID: [504554](https://review.lineageos.org/c/504554))*
+- **[LineageOS/android_kernel_xiaomi_earth]** drivers: connectivity: gen4m: Disable WLAN wakelocks *(ID: [504553](https://review.lineageos.org/c/504553))*
+- **[LineageOS/android_kernel_xiaomi_earth]** drivers: connectivity: Disable WLAN boost if !CONFIG_MTK_CPU_CTRL *(ID: [504552](https://review.lineageos.org/c/504552))*
 
 </details>
 
@@ -50,6 +50,7 @@
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: fix two issues about edngss-daemon launch *(ID: [503163](https://review.lineageos.org/c/503163))*
 - **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504425](https://review.lineageos.org/c/504425))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Drop qspmhal *(ID: [504429](https://review.lineageos.org/c/504429))*
 - **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504426](https://review.lineageos.org/c/504426))*
@@ -57,7 +58,6 @@
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix two issues about edngss-daemon launch *(ID: [503171](https://review.lineageos.org/c/503171))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix edgnss blocked by syscall issue *(ID: [503170](https://review.lineageos.org/c/503170))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix edgnss-daemon blocked by sched_get_priority_min/max *(ID: [503169](https://review.lineageos.org/c/503169))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: fix two issues about edngss-daemon launch *(ID: [503163](https://review.lineageos.org/c/503163))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: fix edgnss blocked by syscall issue *(ID: [503162](https://review.lineageos.org/c/503162))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: fix edgnss-daemon blocked by sched_get_priority_min/max *(ID: [503161](https://review.lineageos.org/c/503161))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: minijail policy cleanup *(ID: [503160](https://review.lineageos.org/c/503160))*
