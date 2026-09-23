@@ -1,19 +1,24 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-22-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-23-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (258)
+## 🚨 Parches Críticos Detectados (257)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_lineage_compat]** compat: Add a Bluetooth audio session adapter *(ID: [504413](https://review.lineageos.org/c/504413))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: icnss2: Add Nord 6 project IDs *(ID: [503157](https://review.lineageos.org/c/503157))*
+- **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504426](https://review.lineageos.org/c/504426))*
+- **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504425](https://review.lineageos.org/c/504425))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: audio_extn: Fix null thread join in BatteryListener teardown *(ID: [504423](https://review.lineageos.org/c/504423))*
+- **[LineageOS/android_hardware_ayn]** ayn: overlay: Override default launcher workspace *(ID: [504422](https://review.lineageos.org/c/504422))*
 - **[LineageOS/android_hardware_lineage_compat]** libbluetooth_audio_session_adapter: Add a backend for V3 stores *(ID: [504414](https://review.lineageos.org/c/504414))*
+- **[LineageOS/android_hardware_lineage_compat]** compat: Add a Bluetooth audio session adapter *(ID: [504413](https://review.lineageos.org/c/504413))*
 - **[LineageOS/android_kernel_google_redbull]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into android-msm-pixel-4.19 *(ID: [502398](https://review.lineageos.org/c/502398))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Fix inline build *(ID: [460130](https://review.lineageos.org/c/460130))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Unconditionally build the modules *(ID: [460123](https://review.lineageos.org/c/460123))*
@@ -36,22 +41,18 @@
 - **[LineageOS/android_system_nfc]** Fix potential integer overflow in Type 3 Tag block operations. *(ID: [504314](https://review.lineageos.org/c/504314))*
 - **[LineageOS/android_system_nfc]** Fix uint16 loop counter wrap in T3T NDEF CHECK/UPDATE *(ID: [504313](https://review.lineageos.org/c/504313))*
 - **[LineageOS/android_hardware_oplus]** oplus: vibrator: Add LiveTap AIDL vibrator service *(ID: [503935](https://review.lineageos.org/c/503935))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: icnss2: Add Nord 6 project IDs *(ID: [503157](https://review.lineageos.org/c/503157))*
 - **[LineageOS/android_device_xiaomi_jaws]** jaws: Fix Xiaomi RC pairing *(ID: [503656](https://review.lineageos.org/c/503656))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** drm/msm: oplus: drive standard adfr from qsync *(ID: [504300](https://review.lineageos.org/c/504300))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: infiniti: Disable partial update for the AA601/AD296 panel *(ID: [504291](https://review.lineageos.org/c/504291))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** arm64: dts: qcom: enable arr for infiniti panels *(ID: [504301](https://review.lineageos.org/c/504301))*
-- **[LineageOS/android_device_motorola_fogos]** audio: fix microphone delay in mixer_paths.xml *(ID: [504298](https://review.lineageos.org/c/504298))*
 
 </details>
 
-## 📱 Línea Motorola Activa (33)
+## 📱 Línea Motorola Activa (34)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Pull updates from W1TBS36H.1-63-2-8 *(ID: [504224](https://review.lineageos.org/c/504224))*
-- **[LineageOS/android_device_motorola_bronco]** bronco: Pull updates from W1TBS36H.1-63-2-8 *(ID: [504223](https://review.lineageos.org/c/504223))*
+- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Drop qspmhal *(ID: [504429](https://review.lineageos.org/c/504429))*
+- **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504426](https://review.lineageos.org/c/504426))*
+- **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504425](https://review.lineageos.org/c/504425))*
 - **[LineageOS/android_device_motorola_fogos]** audio: fix microphone delay in mixer_paths.xml *(ID: [504298](https://review.lineageos.org/c/504298))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix two issues about edngss-daemon launch *(ID: [503171](https://review.lineageos.org/c/503171))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix edgnss blocked by syscall issue *(ID: [503170](https://review.lineageos.org/c/503170))*
@@ -79,7 +80,6 @@
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: address seccomp failures for qsap_location *(ID: [502365](https://review.lineageos.org/c/502365))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Fix format specifiers *(ID: [502364](https://review.lineageos.org/c/502364))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Fix unqualified-std-cast-call warning *(ID: [502363](https://review.lineageos.org/c/502363))*
-- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Fuzzer should be using android.hardware.gnss-V4-ndk *(ID: [502362](https://review.lineageos.org/c/502362))*
 
 </details>
 
