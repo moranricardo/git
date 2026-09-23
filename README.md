@@ -7,14 +7,18 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (257)
+## 🚨 Parches Críticos Detectados (256)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: icnss2: Add Nord 6 project IDs *(ID: [503157](https://review.lineageos.org/c/503157))*
-- **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504426](https://review.lineageos.org/c/504426))*
 - **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504425](https://review.lineageos.org/c/504425))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: icnss2: Add Nord 6 project IDs *(ID: [503157](https://review.lineageos.org/c/503157))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** Revert "bt-kernel: Added support for APTX_PLUS codec" *(ID: [504443](https://review.lineageos.org/c/504443))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Don't promote hdmi *(ID: [501539](https://review.lineageos.org/c/501539))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Support High Res Mix Port *(ID: [501538](https://review.lineageos.org/c/501538))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Intersect mixport caps *(ID: [501525](https://review.lineageos.org/c/501525))*
+- **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504426](https://review.lineageos.org/c/504426))*
 - **[LineageOS/android_hardware_qcom_audio]** hal: audio_extn: Fix null thread join in BatteryListener teardown *(ID: [504423](https://review.lineageos.org/c/504423))*
 - **[LineageOS/android_hardware_ayn]** ayn: overlay: Override default launcher workspace *(ID: [504422](https://review.lineageos.org/c/504422))*
 - **[LineageOS/android_hardware_lineage_compat]** libbluetooth_audio_session_adapter: Add a backend for V3 stores *(ID: [504414](https://review.lineageos.org/c/504414))*
@@ -38,10 +42,6 @@
 - **[LineageOS/android_vendor_nxp_opensource_external_libnfc-nci]** Fix uint16 loop counter wrap in T3T NDEF CHECK/UPDATE *(ID: [504325](https://review.lineageos.org/c/504325))*
 - **[LineageOS/android_frameworks_base]** Fix using the base type for checking *(ID: [504319](https://review.lineageos.org/c/504319))*
 - **[LineageOS/android_system_nfc]** Fix OOB write in rw_mfc_handle_read_op *(ID: [504315](https://review.lineageos.org/c/504315))*
-- **[LineageOS/android_system_nfc]** Fix potential integer overflow in Type 3 Tag block operations. *(ID: [504314](https://review.lineageos.org/c/504314))*
-- **[LineageOS/android_system_nfc]** Fix uint16 loop counter wrap in T3T NDEF CHECK/UPDATE *(ID: [504313](https://review.lineageos.org/c/504313))*
-- **[LineageOS/android_hardware_oplus]** oplus: vibrator: Add LiveTap AIDL vibrator service *(ID: [503935](https://review.lineageos.org/c/503935))*
-- **[LineageOS/android_device_xiaomi_jaws]** jaws: Fix Xiaomi RC pairing *(ID: [503656](https://review.lineageos.org/c/503656))*
 
 </details>
 
@@ -50,9 +50,9 @@
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504425](https://review.lineageos.org/c/504425))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Drop qspmhal *(ID: [504429](https://review.lineageos.org/c/504429))*
 - **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504426](https://review.lineageos.org/c/504426))*
-- **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504425](https://review.lineageos.org/c/504425))*
 - **[LineageOS/android_device_motorola_fogos]** audio: fix microphone delay in mixer_paths.xml *(ID: [504298](https://review.lineageos.org/c/504298))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix two issues about edngss-daemon launch *(ID: [503171](https://review.lineageos.org/c/503171))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: fix edgnss blocked by syscall issue *(ID: [503170](https://review.lineageos.org/c/503170))*
