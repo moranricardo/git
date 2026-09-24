@@ -1,6 +1,6 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-23-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-24-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
@@ -12,6 +12,28 @@
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: Fix module paths for OnePlus repository layout *(ID: [504248](https://review.lineageos.org/c/504248))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: Remove ignore rules and fix symlink paths *(ID: [504247](https://review.lineageos.org/c/504247))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: build: Use soc repo unconditionally *(ID: [504246](https://review.lineageos.org/c/504246))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: build: Replace hardcoded repository paths with shared helpers *(ID: [504245](https://review.lineageos.org/c/504245))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: Import selectively modules from CPH2745_16.0.9.400(EX01) *(ID: [504244](https://review.lineageos.org/c/504244))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** qcom: wlan: Import minimal oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504243](https://review.lineageos.org/c/504243))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** qcom: display: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504242](https://review.lineageos.org/c/504242))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** qcom: camera: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504241](https://review.lineageos.org/c/504241))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** qcom: audio: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504240](https://review.lineageos.org/c/504240))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** build: Update kernel and module paths to OnePlus *(ID: [504239](https://review.lineageos.org/c/504239))*
+- **[LineageOS/android_kernel_oneplus_sm8850]** thermal: qcom: Support oplus dynamic VBAT thresholds *(ID: [504238](https://review.lineageos.org/c/504238))*
+- **[LineageOS/android_kernel_oneplus_sm8850]** treewide: Update oplus changes from PLZ110_16.0.8.300(CN01) *(ID: [504237](https://review.lineageos.org/c/504237))*
+- **[LineageOS/android_kernel_oneplus_sm8850]** rproc: q6v5_pas: Enable auto boot for Canoe and Alor *(ID: [504236](https://review.lineageos.org/c/504236))*
+- **[LineageOS/android_kernel_oneplus_sm8850]** kleaf: Install external oplus DDK/techpack modules alongside dist *(ID: [504235](https://review.lineageos.org/c/504235))*
+- **[LineageOS/android_kernel_oneplus_sm8850]** configs: canoe_perf: Disable CONFIG_QCOM_FSA4480_I2C *(ID: [504234](https://review.lineageos.org/c/504234))*
+- **[LineageOS/android_kernel_oneplus_sm8850]** kleaf: Include charger Kconfig in DTB configuration *(ID: [504233](https://review.lineageos.org/c/504233))*
+- **[LineageOS/android_kernel_oneplus_sm8850]** drivers: backlight: Point qcom-spmi-wled dep at oplus charger driver *(ID: [504232](https://review.lineageos.org/c/504232))*
+- **[LineageOS/android_kernel_oneplus_sm8850]** treewide: Import minimal oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504231](https://review.lineageos.org/c/504231))*
+- **[LineageOS/android_kernel_oneplus_sm8850]** build: Update devicetree and module repository paths to OnePlus *(ID: [504230](https://review.lineageos.org/c/504230))*
+- **[LineageOS/android_vendor_lineage]** kernel: Fix ignored SYSTEM_KERNEL_MODULES_LOAD in bazel builds *(ID: [504680](https://review.lineageos.org/c/504680))*
+- **[LineageOS/android_vendor_lineage]** kernel: Fix ignored SYSTEM_KERNEL_MODULES_LOAD in bazel builds *(ID: [504681](https://review.lineageos.org/c/504681))*
+- **[LineageOS/android_device_xiaomi_jaws]** jaws: Fix Xiaomi RC pairing *(ID: [503656](https://review.lineageos.org/c/503656))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: docs: Add bpfmt, handle externally imported formatting *(ID: [504666](https://review.lineageos.org/c/504666))*
 - **[LineageOS/android_hardware_oplus]** sensors: fusionlight: Hook IHalProxyCallback *(ID: [459690](https://review.lineageos.org/c/459690))*
 - **[LineageOS/android_hardware_oplus]** sensors: fusionlight: Implement ALS correction algorithm *(ID: [504648](https://review.lineageos.org/c/504648))*
@@ -20,28 +42,6 @@
 - **[LineageOS/android_hardware_oplus]** sensors: Move different modules to subdir *(ID: [459688](https://review.lineageos.org/c/459688))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Don't promote hdmi *(ID: [501539](https://review.lineageos.org/c/501539))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Support High Res Mix Port *(ID: [501538](https://review.lineageos.org/c/501538))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Intersect mixport caps *(ID: [501525](https://review.lineageos.org/c/501525))*
-- **[LineageOS/android_hardware_oplus]** interfaces: Add vendor.oplus.hardware.oplusSensor V1 *(ID: [504647](https://review.lineageos.org/c/504647))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: Allow an aliased path in the commit subject *(ID: [504644](https://review.lineageos.org/c/504644))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: Add docs/REVIEW.md commit review SOP *(ID: [504589](https://review.lineageos.org/c/504589))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: Commonize INITIAL_IMPLEMENTATION.md across components *(ID: [504586](https://review.lineageos.org/c/504586))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: Add root AGENTS.md and shared docs/ conventions *(ID: [504505](https://review.lineageos.org/c/504505))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** DNM: HACK: get audio building and working for exynos850 *(ID: [504583](https://review.lineageos.org/c/504583))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Only keep extra HDMI heads from being promoted *(ID: [504502](https://review.lineageos.org/c/504502))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Intersect the channel counts too *(ID: [504501](https://review.lineageos.org/c/504501))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Never expose a mix port without profiles *(ID: [504500](https://review.lineageos.org/c/504500))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Run clang-format on the mix port changes *(ID: [504499](https://review.lineageos.org/c/504499))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Document the mix port and promotion changes *(ID: [504498](https://review.lineageos.org/c/504498))*
-- **[LineageOS/android_system_update_engine]** fixup! update_engine: Run backuptool script before normal postinstall script *(ID: [504497](https://review.lineageos.org/c/504497))*
-- **[LineageOS/android_packages_apps_Catapult]** Catapult: Fix crash if Watch Next Card has no title *(ID: [504496](https://review.lineageos.org/c/504496))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: fix two issues about edngss-daemon launch *(ID: [503163](https://review.lineageos.org/c/503163))*
-- **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504425](https://review.lineageos.org/c/504425))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: icnss2: Add Nord 6 project IDs *(ID: [503157](https://review.lineageos.org/c/503157))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** Revert "bt-kernel: Added support for APTX_PLUS codec" *(ID: [504443](https://review.lineageos.org/c/504443))*
-- **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504426](https://review.lineageos.org/c/504426))*
-- **[LineageOS/android_hardware_qcom_audio]** hal: audio_extn: Fix null thread join in BatteryListener teardown *(ID: [504423](https://review.lineageos.org/c/504423))*
-- **[LineageOS/android_hardware_ayn]** ayn: overlay: Override default launcher workspace *(ID: [504422](https://review.lineageos.org/c/504422))*
-- **[LineageOS/android_hardware_lineage_compat]** libbluetooth_audio_session_adapter: Add a backend for V3 stores *(ID: [504414](https://review.lineageos.org/c/504414))*
 
 </details>
 
