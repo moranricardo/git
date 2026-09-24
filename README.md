@@ -7,41 +7,41 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (268)
+## 🚨 Parches Críticos Detectados (267)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: Fix module paths for OnePlus repository layout *(ID: [504248](https://review.lineageos.org/c/504248))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: Remove ignore rules and fix symlink paths *(ID: [504247](https://review.lineageos.org/c/504247))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: build: Use soc repo unconditionally *(ID: [504246](https://review.lineageos.org/c/504246))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: build: Replace hardcoded repository paths with shared helpers *(ID: [504245](https://review.lineageos.org/c/504245))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: Import selectively modules from CPH2745_16.0.9.400(EX01) *(ID: [504244](https://review.lineageos.org/c/504244))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** qcom: wlan: Import minimal oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504243](https://review.lineageos.org/c/504243))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** qcom: display: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504242](https://review.lineageos.org/c/504242))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** qcom: camera: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504241](https://review.lineageos.org/c/504241))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** qcom: audio: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504240](https://review.lineageos.org/c/504240))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** build: Update kernel and module paths to OnePlus *(ID: [504239](https://review.lineageos.org/c/504239))*
-- **[LineageOS/android_kernel_oneplus_sm8850]** thermal: qcom: Support oplus dynamic VBAT thresholds *(ID: [504238](https://review.lineageos.org/c/504238))*
-- **[LineageOS/android_kernel_oneplus_sm8850]** treewide: Update oplus changes from PLZ110_16.0.8.300(CN01) *(ID: [504237](https://review.lineageos.org/c/504237))*
-- **[LineageOS/android_kernel_oneplus_sm8850]** rproc: q6v5_pas: Enable auto boot for Canoe and Alor *(ID: [504236](https://review.lineageos.org/c/504236))*
-- **[LineageOS/android_kernel_oneplus_sm8850]** kleaf: Install external oplus DDK/techpack modules alongside dist *(ID: [504235](https://review.lineageos.org/c/504235))*
-- **[LineageOS/android_kernel_oneplus_sm8850]** configs: canoe_perf: Disable CONFIG_QCOM_FSA4480_I2C *(ID: [504234](https://review.lineageos.org/c/504234))*
-- **[LineageOS/android_kernel_oneplus_sm8850]** kleaf: Include charger Kconfig in DTB configuration *(ID: [504233](https://review.lineageos.org/c/504233))*
-- **[LineageOS/android_kernel_oneplus_sm8850]** drivers: backlight: Point qcom-spmi-wled dep at oplus charger driver *(ID: [504232](https://review.lineageos.org/c/504232))*
-- **[LineageOS/android_kernel_oneplus_sm8850]** treewide: Import minimal oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504231](https://review.lineageos.org/c/504231))*
-- **[LineageOS/android_kernel_oneplus_sm8850]** build: Update devicetree and module repository paths to OnePlus *(ID: [504230](https://review.lineageos.org/c/504230))*
-- **[LineageOS/android_vendor_lineage]** kernel: Fix ignored SYSTEM_KERNEL_MODULES_LOAD in bazel builds *(ID: [504680](https://review.lineageos.org/c/504680))*
-- **[LineageOS/android_vendor_lineage]** kernel: Fix ignored SYSTEM_KERNEL_MODULES_LOAD in bazel builds *(ID: [504681](https://review.lineageos.org/c/504681))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Add support for Xiaomi TV Box S Gen2 (jaws) *(ID: [504688](https://review.lineageos.org/c/504688))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Create initial dts for Xiaomi TV Box S Gen2 (jaws) *(ID: [504687](https://review.lineageos.org/c/504687))*
 - **[LineageOS/android_device_xiaomi_jaws]** jaws: Fix Xiaomi RC pairing *(ID: [503656](https://review.lineageos.org/c/503656))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: docs: Add bpfmt, handle externally imported formatting *(ID: [504666](https://review.lineageos.org/c/504666))*
-- **[LineageOS/android_hardware_oplus]** sensors: fusionlight: Hook IHalProxyCallback *(ID: [459690](https://review.lineageos.org/c/459690))*
-- **[LineageOS/android_hardware_oplus]** sensors: fusionlight: Implement ALS correction algorithm *(ID: [504648](https://review.lineageos.org/c/504648))*
-- **[LineageOS/android_hardware_oplus]** sensors: Add FusionLight Sensors SubHAL *(ID: [459689](https://review.lineageos.org/c/459689))*
-- **[LineageOS/android_hardware_oplus]** Add ALS capture service *(ID: [418485](https://review.lineageos.org/c/418485))*
-- **[LineageOS/android_hardware_oplus]** sensors: Move different modules to subdir *(ID: [459688](https://review.lineageos.org/c/459688))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Don't promote hdmi *(ID: [501539](https://review.lineageos.org/c/501539))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Support High Res Mix Port *(ID: [501538](https://review.lineageos.org/c/501538))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** Revert "bt-kernel: Added support for APTX_PLUS codec" *(ID: [504443](https://review.lineageos.org/c/504443))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** qcom: audio-kernel: oplus: ASoC: Turn off debugging macro *(ID: [504269](https://review.lineageos.org/c/504269))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: infiniti: Disable partial update for the AA601/AD296 panel *(ID: [504291](https://review.lineageos.org/c/504291))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** ARM: dts: qcom: macan: Merge techpack devicetrees *(ID: [504290](https://review.lineageos.org/c/504290))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** ARM: dts: qcom: fairlady: Merge techpack devicetrees *(ID: [504289](https://review.lineageos.org/c/504289))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: devicetree: Update oplus changes from PLZ110_16.0.8.300 *(ID: [504288](https://review.lineageos.org/c/504288))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: wlan: Update oplus changes from PLZ110_16.0.8.300 *(ID: [504287](https://review.lineageos.org/c/504287))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: display: Update oplus changes from PLZ110_16.0.8.300 *(ID: [504286](https://review.lineageos.org/c/504286))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: camera: Update oplus changes from PLZ110_16.0.8.300 *(ID: [504285](https://review.lineageos.org/c/504285))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: bt: Update oplus changes from PLZ110_16.0.8.300 *(ID: [504284](https://review.lineageos.org/c/504284))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: audio: Update oplus changes from PLZ110_16.0.8.300 *(ID: [504283](https://review.lineageos.org/c/504283))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** Revert "ARM: dts: msm: enable eva tpdm on canoe" *(ID: [504282](https://review.lineageos.org/c/504282))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** bazel: build: Include techpack devicetree in sandbox *(ID: [504281](https://review.lineageos.org/c/504281))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** ARM: dts: qcom: infiniti: Merge techpack devicetrees *(ID: [504280](https://review.lineageos.org/c/504280))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: Support custom DTBO image lists in the platform map *(ID: [504279](https://review.lineageos.org/c/504279))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: devicetree: Enable building qcom dtbo *(ID: [504278](https://review.lineageos.org/c/504278))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: devicetree: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504277](https://review.lineageos.org/c/504277))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: wlan: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504276](https://review.lineageos.org/c/504276))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: graphics: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504275](https://review.lineageos.org/c/504275))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: eSE: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504274](https://review.lineageos.org/c/504274))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: display: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504273](https://review.lineageos.org/c/504273))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: camera: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504272](https://review.lineageos.org/c/504272))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: bt: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504271](https://review.lineageos.org/c/504271))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: audio: Import oplus changes from CPH2745_16.0.9.400(EX01) *(ID: [504270](https://review.lineageos.org/c/504270))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** power: oplus: v2: Set appropriate full charge capacity to charge_full *(ID: [504268](https://review.lineageos.org/c/504268))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: charger_v2: Sync wireless charging with MMI charging state *(ID: [504267](https://review.lineageos.org/c/504267))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** qcom: wlan: cnss2: Reverse MAC address in cnss_qmi_get_dms_mac() *(ID: [504266](https://review.lineageos.org/c/504266))*
 
 </details>
 
