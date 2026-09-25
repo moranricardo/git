@@ -7,41 +7,41 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (212)
+## 🚨 Parches Críticos Detectados (223)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: tp: hbp: Unconditionally build the modules *(ID: [504801](https://review.lineageos.org/c/504801))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Route HDMI to a plugged head *(ID: [504813](https://review.lineageos.org/c/504813))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label ktm wakeup node *(ID: [504786](https://review.lineageos.org/c/504786))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: docs: Expand guidance for implementation scope *(ID: [504812](https://review.lineageos.org/c/504812))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: docs: Add SOP for checking a fix or new component's scope *(ID: [504811](https://review.lineageos.org/c/504811))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: docs: Document how to apply a commit message *(ID: [504810](https://review.lineageos.org/c/504810))*
+- **[LineageOS/android_device_xiaomi_sm8550-common]** sm8550-common: init: Fix qcom-battery permissions *(ID: [504805](https://review.lineageos.org/c/504805))*
+- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Synchronize active SIM type *(ID: [503676](https://review.lineageos.org/c/503676))*
+- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Sequence SN220 power around GPIO transitions *(ID: [504292](https://review.lineageos.org/c/504292))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: docs: Add SOP for fixing up already-merged commits *(ID: [504809](https://review.lineageos.org/c/504809))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: Document framework interaction paths in AGENTS.md *(ID: [504807](https://review.lineageos.org/c/504807))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add rules for oplus EID *(ID: [504787](https://review.lineageos.org/c/504787))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add rules for TMS eSE and NFC *(ID: [504788](https://review.lineageos.org/c/504788))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: tp: hbp: Update drivers from PLQ110_16.0.9.401(CN01) *(ID: [504800](https://review.lineageos.org/c/504800))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: tp: hbp: Assign unique keycodes to gestures *(ID: [504806](https://review.lineageos.org/c/504806))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Fix inline build *(ID: [460130](https://review.lineageos.org/c/460130))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Unconditionally build the modules *(ID: [460123](https://review.lineageos.org/c/460123))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: kernel: Import NFC drivers from CPH2723_16.0.0.211(EX01) *(ID: [460122](https://review.lineageos.org/c/460122))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** nxp: Update changes to CPH2653_16.0.1.304(EX01) *(ID: [471273](https://review.lineageos.org/c/471273))*
+- **[LineageOS/android_kernel_oneplus_sm8750]** arch: arm64: oplus: Load all battery fuelgauges for ktm *(ID: [504782](https://review.lineageos.org/c/504782))*
 - **[LineageOS/android_kernel_qcom_sm8750-modules]** qcom: wlan: qcacld-3.0: Include missing feature flags *(ID: [504804](https://review.lineageos.org/c/504804))*
 - **[LineageOS/android_kernel_qcom_sm8750-modules]** qcom: wlan: qcacld-3.0: Configure FTM testmode for kiwi_v2 *(ID: [504803](https://review.lineageos.org/c/504803))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: tp: hbp: Assign unique keycodes to every gesture *(ID: [504802](https://review.lineageos.org/c/504802))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: tp: hbp: Unconditionally build the modules *(ID: [504801](https://review.lineageos.org/c/504801))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: tp: hbp: Update drivers from PLQ110_16.0.9.401(CN01) *(ID: [504800](https://review.lineageos.org/c/504800))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Disable TMS debug flags *(ID: [504797](https://review.lineageos.org/c/504797))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Force TMS_DEVICE config *(ID: [504796](https://review.lineageos.org/c/504796))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Fix inline build *(ID: [504795](https://review.lineageos.org/c/504795))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** nxp: Update changes to CPH2653_16.0.1.304(EX01) *(ID: [504794](https://review.lineageos.org/c/504794))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Update drivers from PLQ110_16.0.1.302(CN01) *(ID: [504793](https://review.lineageos.org/c/504793))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Fix inline build *(ID: [504792](https://review.lineageos.org/c/504792))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Unconditionally build the modules *(ID: [504791](https://review.lineageos.org/c/504791))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: kernel: Import NFC drivers from CPH2723_16.0.0.211(EX01) *(ID: [504790](https://review.lineageos.org/c/504790))*
 - **[LineageOS/android_hardware_ayn]** AynParts: Pass a custom fragment title to GameControllerFragment *(ID: [504774](https://review.lineageos.org/c/504774))*
 - **[LineageOS/android_hardware_ayn]** AynParts: Migrate to ControllerUtils from LineageSDK *(ID: [504772](https://review.lineageos.org/c/504772))*
 - **[LineageOS/android_hardware_ayn]** overlay: lineage: Hide moorechip-joystick from GameControllerListFragment *(ID: [504767](https://review.lineageos.org/c/504767))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow tee to create directories under /data/vendor *(ID: [504789](https://review.lineageos.org/c/504789))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add rules for TMS eSE and NFC *(ID: [504788](https://review.lineageos.org/c/504788))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add rules for oplus EID *(ID: [504787](https://review.lineageos.org/c/504787))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label ktm wakeup node *(ID: [504786](https://review.lineageos.org/c/504786))*
-- **[LineageOS/android_kernel_oneplus_sm8750]** arch: arm64: oplus: Load all battery fuelgauges for ktm *(ID: [504782](https://review.lineageos.org/c/504782))*
-- **[LineageOS/android_kernel_xiaomi_sm8250]** Merge remote-tracking branch 'qcom_sm8250/lineage-20' into lineage-24.0 *(ID: [504730](https://review.lineageos.org/c/504730))*
-- **[LineageOS/android_hardware_oplus]** sensors: fusionlight: Implement ALS correction algorithm *(ID: [504648](https://review.lineageos.org/c/504648))*
-- **[LineageOS/android_hardware_oplus]** sensors: Move different modules to subdir *(ID: [459688](https://review.lineageos.org/c/459688))*
-- **[LineageOS/android_hardware_oplus]** sensors: Add FusionLight Sensors SubHAL *(ID: [459689](https://review.lineageos.org/c/459689))*
-- **[LineageOS/android_hardware_oplus]** interfaces: Add vendor.oplus.hardware.oplusSensor V1 *(ID: [504647](https://review.lineageos.org/c/504647))*
-- **[LineageOS/android_hardware_oplus]** sensors: fusionlight: Hook IHalProxyCallback *(ID: [459690](https://review.lineageos.org/c/459690))*
-- **[LineageOS/android_device_xiaomi_jaws]** jaws: Fix Xiaomi RC pairing *(ID: [503656](https://review.lineageos.org/c/503656))*
-- **[LineageOS/android_kernel_ayn_qcs8550-devicetrees]** devicetrees: qcom: display: ch13726a: dos2unix *(ID: [504748](https://review.lineageos.org/c/504748))*
-- **[LineageOS/android_kernel_ayn_qcs8550-devicetrees]** devicetrees: qcom: display: ch13726a: Align with stock *(ID: [503673](https://review.lineageos.org/c/503673))*
 
 </details>
 
