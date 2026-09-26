@@ -7,41 +7,41 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (179)
+## 🚨 Parches Críticos Detectados (182)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_lge]** sepolicy: label LGE camera provider *(ID: [504982](https://review.lineageos.org/c/504982))*
+- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** treewide: Update changes from CPH2795_16.0.5.702(EX01) *(ID: [503146](https://review.lineageos.org/c/503146))*
+- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** qcom: AA610: Drop 30hz completely *(ID: [503147](https://review.lineageos.org/c/503147))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** display-drivers: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503149](https://review.lineageos.org/c/503149))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: Import additional changes from PLQ110_16.0.9.401(CN01) *(ID: [503157](https://review.lineageos.org/c/503157))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** video-driver: Updates changes from PLQ110_16.0.9.401(CN01) *(ID: [503150](https://review.lineageos.org/c/503150))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: camera-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503152](https://review.lineageos.org/c/503152))*
+- **[LineageOS/android_hardware_lge]** camera: aidl: add prop to blacklist cameras known to be broken *(ID: [504981](https://review.lineageos.org/c/504981))*
+- **[LineageOS/android_hardware_lge]** Camera: aidl: provider: Skip broken / missing camera IDs during initialisation. *(ID: [504980](https://review.lineageos.org/c/504980))*
+- **[LineageOS/android_hardware_lge]** Camera: aidl: provider: Move remapid property to anonymous namespace *(ID: [504979](https://review.lineageos.org/c/504979))*
+- **[LineageOS/android_hardware_lge]** camera: aidl: Remove `in_`/`out_` prefixes *(ID: [504978](https://review.lineageos.org/c/504978))*
+- **[LineageOS/android_hardware_lge]** camera: aidl: Use std::to_string() for int -> std::string *(ID: [504977](https://review.lineageos.org/c/504977))*
+- **[LineageOS/android_hardware_lge]** camera: aidl: Remap camera IDs by property if it is defined *(ID: [504976](https://review.lineageos.org/c/504976))*
+- **[LineageOS/android_hardware_lge]** camera: aidl: Maintain set of non-external cameras *(ID: [504975](https://review.lineageos.org/c/504975))*
+- **[LineageOS/android_hardware_lge]** camera: aidl: Implement camera device/provider HALs *(ID: [504974](https://review.lineageos.org/c/504974))*
+- **[LineageOS/android_device_oneplus_sm8850-common]** sm8850-common: Fix media configuration selection *(ID: [504962](https://review.lineageos.org/c/504962))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow tee to create directories under /data/vendor *(ID: [504789](https://review.lineageos.org/c/504789))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add rules for TMS eSE and NFC *(ID: [504788](https://review.lineageos.org/c/504788))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add rules for oplus EID *(ID: [504787](https://review.lineageos.org/c/504787))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label ktm wakeup node *(ID: [504786](https://review.lineageos.org/c/504786))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Make null mic opt-in *(ID: [504910](https://review.lineageos.org/c/504910))*
+- **[LineageOS/android_hardware_mainline_common]** [WIP] mainline/common: interfaces/camera/mainline: Instruct AI how to make the initial implementation *(ID: [504849](https://review.lineageos.org/c/504849))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/sensors/mainline: Fall back on sparse IIO buffer samples *(ID: [504816](https://review.lineageos.org/c/504816))*
+- **[LineageOS/android_kernel_sony_sm8250]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [502793](https://review.lineageos.org/c/502793))*
+- **[LineageOS/android_kernel_sony_sm8350]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [502794](https://review.lineageos.org/c/502794))*
+- **[LineageOS/android_kernel_sony_sm8550-modules]** Merge remote-tracking branch 'qcom/lineage-21' into lineage-24.0 *(ID: [502796](https://review.lineageos.org/c/502796))*
+- **[LineageOS/android_kernel_sony_sm8550]** Merge remote-tracking branch 'qcom/lineage-21' into lineage-24.0 *(ID: [502795](https://review.lineageos.org/c/502795))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: jaws: Enable USB role switching *(ID: [504934](https://review.lineageos.org/c/504934))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** usb: amlogic: Add GPIO-backed role switching *(ID: [504933](https://review.lineageos.org/c/504933))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: jaws: Let aml_wifi power up the MT7663 chip *(ID: [504890](https://review.lineageos.org/c/504890))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Add support for Xiaomi TV Box S Gen2 (jaws) *(ID: [504688](https://review.lineageos.org/c/504688))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Create initial dts for Xiaomi TV Box S Gen2 (jaws) *(ID: [504687](https://review.lineageos.org/c/504687))*
-- **[LineageOS/android_kernel_xiaomi_jaws-build]** jaws-build: Build Bluetooth and Wi-Fi modules *(ID: [504950](https://review.lineageos.org/c/504950))*
-- **[LineageOS/android_device_xiaomi_jaws]** jaws: keylayout: Fix and redefine some RC button mappings *(ID: [504906](https://review.lineageos.org/c/504906))*
-- **[LineageOS/android_device_xiaomi_jaws]** jaws: Fix Xiaomi RC pairing *(ID: [503656](https://review.lineageos.org/c/503656))*
-- **[LineageOS/android_hardware_mediatek]** libmtkperf_client: Allow forwarding power hints to AIDL mtkpower *(ID: [504943](https://review.lineageos.org/c/504943))*
-- **[LineageOS/android_hardware_mediatek]** aidl: mtkpower: Create a stub service for forwarding audio hints *(ID: [504942](https://review.lineageos.org/c/504942))*
-- **[LineageOS/android_hardware_mediatek]** aidl: mtkpower: Report CPU cluster info in querySysInfo *(ID: [504944](https://review.lineageos.org/c/504944))*
-- **[LineageOS/android_hardware_mediatek]** hidl: mtkpower: Forward more mtk audio hints as aosp audio hint *(ID: [504945](https://review.lineageos.org/c/504945))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: Add reverse engineered mtkpower aidl V1 interface *(ID: [504941](https://review.lineageos.org/c/504941))*
-- **[LineageOS/android_hardware_mediatek]** overlay: Introduce MssiCarrierConfigOverlay *(ID: [504940](https://review.lineageos.org/c/504940))*
-- **[LineageOS/android_hardware_mediatek]** hidl: mtkpower: Report CPU cluster info in querySysInfo *(ID: [504946](https://review.lineageos.org/c/504946))*
-- **[LineageOS/android_hardware_mediatek]** libion_mtk: Make a stub of libion_mtk for modern platforms *(ID: [504819](https://review.lineageos.org/c/504819))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: tp: hbp: Assign unique keycodes to gestures *(ID: [504806](https://review.lineageos.org/c/504806))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Make null mic opt-in *(ID: [504910](https://review.lineageos.org/c/504910))*
-- **[LineageOS/android_hardware_mainline_common]** [WIP] mainline/common: interfaces/camera/mainline: Instruct AI how to make the initial implementation *(ID: [504849](https://review.lineageos.org/c/504849))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Expose headset output for UCM headphone paths *(ID: [504818](https://review.lineageos.org/c/504818))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/sensors/mainline: Fall back on sparse IIO buffer samples *(ID: [504816](https://review.lineageos.org/c/504816))*
-- **[LineageOS/android_hardware_qcom_audio]** hal: audio_extn: Fix null thread join in BatteryListener teardown *(ID: [504423](https://review.lineageos.org/c/504423))*
-- **[LineageOS/android_kernel_nubia_msm8998]** sched: revert force load balance when silver has big tasks *(ID: [504930](https://review.lineageos.org/c/504930))*
-- **[LineageOS/android_kernel_nubia_msm8998]** sched/rt: Have RT_PUSH_IPI be default off for non PREEMPT_RT *(ID: [504929](https://review.lineageos.org/c/504929))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: tp: hbp: Update drivers from PLQ110_16.0.9.401(CN01) *(ID: [504800](https://review.lineageos.org/c/504800))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-devicetrees]** ziyi: Fix ramoops memory conflict *(ID: [504925](https://review.lineageos.org/c/504925))*
-- **[LineageOS/android_kernel_xiaomi_sm8450]** fsa4480: Fix incorrect FSA4480 supply mode property handling. *(ID: [504923](https://review.lineageos.org/c/504923))*
-- **[LineageOS/android_kernel_qcom_sm8350]** arm64: dts: qcom: Delete mem-offline node to fully disable PASR *(ID: [504726](https://review.lineageos.org/c/504726))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-devicetrees]** qcom: Delete mem-offline node to fully disable PASR *(ID: [492920](https://review.lineageos.org/c/492920))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-devicetrees]** diwali: Fix FSA4480 supply mode property *(ID: [504922](https://review.lineageos.org/c/504922))*
 
 </details>
 
