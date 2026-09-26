@@ -1,20 +1,26 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-25-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-26-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (206)
+## 🚨 Parches Críticos Detectados (196)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_qcom_audio]** hal: audio_extn: Fix null thread join in BatteryListener teardown *(ID: [504423](https://review.lineageos.org/c/504423))*
+- **[LineageOS/android_device_xiaomi_jaws]** jaws: keylayout: Fix and redefine some RC button mappings *(ID: [504906](https://review.lineageos.org/c/504906))*
+- **[LineageOS/android_hardware_mediatek]** libion_mtk: Make a stub of libion_mtk for modern platforms *(ID: [504819](https://review.lineageos.org/c/504819))*
 - **[LineageOS/android_device_xiaomi_jaws]** jaws: Fix Xiaomi RC pairing *(ID: [503656](https://review.lineageos.org/c/503656))*
+- **[LineageOS/android_hardware_mediatek]** aidl: add bluetooth audio session HAL adapter *(ID: [504900](https://review.lineageos.org/c/504900))*
+- **[LineageOS/android_hardware_mediatek]** hidl: audio: Make more universally usable *(ID: [504899](https://review.lineageos.org/c/504899))*
+- **[LineageOS/android_hardware_mediatek]** interfaces: add AOSP BT Audio session HIDL with only name/version changes *(ID: [504897](https://review.lineageos.org/c/504897))*
+- **[LineageOS/android_hardware_mediatek]** interfaces: bluetooth: audio: Add MTK changes *(ID: [504898](https://review.lineageos.org/c/504898))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: jaws: Let aml_wifi power up the MT7663 chip *(ID: [504890](https://review.lineageos.org/c/504890))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: audio_extn: Fix null thread join in BatteryListener teardown *(ID: [504423](https://review.lineageos.org/c/504423))*
 - **[LineageOS/android_hardware_oplus]** oplus: vibrator: Add LiveTap AIDL vibrator service *(ID: [503935](https://review.lineageos.org/c/503935))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Add support for Xiaomi TV Box S Gen2 (jaws) *(ID: [504688](https://review.lineageos.org/c/504688))*
 - **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [504889](https://review.lineageos.org/c/504889))*
@@ -25,32 +31,27 @@
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: tp: hbp: Update drivers from PLQ110_16.0.9.401(CN01) *(ID: [504800](https://review.lineageos.org/c/504800))*
 - **[LineageOS/android_kernel_qcom_sm8250]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [504854](https://review.lineageos.org/c/504854))*
 - **[LineageOS/android_hardware_mainline_common]** [WIP] mainline/common: interfaces/camera/mainline: Instruct AI how to make the initial implementation *(ID: [504849](https://review.lineageos.org/c/504849))*
-- **[LineageOS/android_hardware_mediatek]** libion_mtk: Make a stub of libion_mtk for modern platforms *(ID: [504819](https://review.lineageos.org/c/504819))*
 - **[LineageOS/android_hardware_qcom_thermal]** thermal-hal: Fix holi support *(ID: [502408](https://review.lineageos.org/c/502408))*
 - **[LineageOS/android_hardware_qcom_thermal]** thermal-hal: Fix bengal/khaje support *(ID: [502407](https://review.lineageos.org/c/502407))*
 - **[LineageOS/android_hardware_qcom_thermal]** thermal-hal: Fix trinket support *(ID: [502406](https://review.lineageos.org/c/502406))*
 - **[LineageOS/android_hardware_qcom_thermal]** thermal-hal: Align skin temperature threshold for all legacy platforms *(ID: [502399](https://review.lineageos.org/c/502399))*
 - **[LineageOS/android_hardware_qcom_thermal]** thermal-hal: Update skin temperature threshold for trinket *(ID: [502379](https://review.lineageos.org/c/502379))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: tp: hbp: Unconditionally build the modules *(ID: [504801](https://review.lineageos.org/c/504801))*
 - **[LineageOS/android_hardware_oplus]** eSimSwitcher: Synchronize active SIM type *(ID: [503676](https://review.lineageos.org/c/503676))*
 - **[LineageOS/android_hardware_samsung]** SamsungEsimSwitcher: Add app for tsds2 hybrid eUICC *(ID: [496649](https://review.lineageos.org/c/496649))*
 - **[LineageOS/android_kernel_xiaomi_sm8150]** csiphy: Allow shared CSIPHY probe via waitqueue serialization *(ID: [493647](https://review.lineageos.org/c/493647))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Expose headset output for UCM headphone paths *(ID: [504818](https://review.lineageos.org/c/504818))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: gitignore: Ignore `.*.swp` files which are GNU nano leftovers *(ID: [504817](https://review.lineageos.org/c/504817))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/sensors/mainline: Fall back on sparse IIO buffer samples *(ID: [504816](https://review.lineageos.org/c/504816))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Route HDMI to a plugged head *(ID: [504813](https://review.lineageos.org/c/504813))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label ktm wakeup node *(ID: [504786](https://review.lineageos.org/c/504786))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: docs: Expand guidance for implementation scope *(ID: [504812](https://review.lineageos.org/c/504812))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: docs: Add SOP for checking a fix or new component's scope *(ID: [504811](https://review.lineageos.org/c/504811))*
 
 </details>
 
-## 📱 Línea Motorola Activa (34)
+## 📱 Línea Motorola Activa (35)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
-- **[LineageOS/android_device_motorola_smith]** smith: Improve SystemUI usability on secondary display *(ID: [502468](https://review.lineageos.org/c/502468))*
+- **[LineageOS/android_device_motorola_smith]** smith: Force gesture navigation mode *(ID: [503641](https://review.lineageos.org/c/503641))*
+- **[LineageOS/android_device_motorola_smith]** smith: Allow setting independent dpi settings for each display *(ID: [503084](https://review.lineageos.org/c/503084))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: fix two issues about edngss-daemon launch *(ID: [503163](https://review.lineageos.org/c/503163))*
 - **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504425](https://review.lineageos.org/c/504425))*
 - **[LineageOS/android_device_motorola_sm6225-common]** fixup! sm6225-common: Rework audio policy configuration location *(ID: [504426](https://review.lineageos.org/c/504426))*
@@ -79,7 +80,6 @@
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Convert qspa to blueprint *(ID: [502367](https://review.lineageos.org/c/502367))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: address seccomp failures for qsap_location *(ID: [502365](https://review.lineageos.org/c/502365))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Fix format specifiers *(ID: [502364](https://review.lineageos.org/c/502364))*
-- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: Fix unqualified-std-cast-call warning *(ID: [502363](https://review.lineageos.org/c/502363))*
 
 </details>
 
