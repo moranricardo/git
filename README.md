@@ -7,11 +7,30 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (196)
+## 🚨 Parches Críticos Detectados (194)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_nubia_msm8998]** sched: revert force load balance when silver has big tasks *(ID: [504930](https://review.lineageos.org/c/504930))*
+- **[LineageOS/android_kernel_nubia_msm8998]** sched/rt: Have RT_PUSH_IPI be default off for non PREEMPT_RT *(ID: [504929](https://review.lineageos.org/c/504929))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: tp: hbp: Assign unique keycodes to gestures *(ID: [504806](https://review.lineageos.org/c/504806))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: tp: hbp: Update drivers from PLQ110_16.0.9.401(CN01) *(ID: [504800](https://review.lineageos.org/c/504800))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-devicetrees]** ziyi: Fix ramoops memory conflict *(ID: [504925](https://review.lineageos.org/c/504925))*
+- **[LineageOS/android_kernel_xiaomi_sm8450]** fsa4480: Fix incorrect FSA4480 supply mode property handling. *(ID: [504923](https://review.lineageos.org/c/504923))*
+- **[LineageOS/android_kernel_qcom_sm8350]** arm64: dts: qcom: Delete mem-offline node to fully disable PASR *(ID: [504726](https://review.lineageos.org/c/504726))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-devicetrees]** qcom: Delete mem-offline node to fully disable PASR *(ID: [492920](https://review.lineageos.org/c/492920))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-devicetrees]** diwali: Fix FSA4480 supply mode property *(ID: [504922](https://review.lineageos.org/c/504922))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Expose headset output for UCM headphone paths *(ID: [504818](https://review.lineageos.org/c/504818))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Route HDMI to a plugged head *(ID: [504813](https://review.lineageos.org/c/504813))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Only keep extra HDMI heads from being promoted *(ID: [504502](https://review.lineageos.org/c/504502))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Intersect the channel counts too *(ID: [504501](https://review.lineageos.org/c/504501))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Never expose a mix port without profiles *(ID: [504500](https://review.lineageos.org/c/504500))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Don't promote hdmi *(ID: [501539](https://review.lineageos.org/c/501539))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Support High Res Mix Port *(ID: [501538](https://review.lineageos.org/c/501538))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Intersect mixport caps *(ID: [501525](https://review.lineageos.org/c/501525))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Make null mic opt-in *(ID: [504910](https://review.lineageos.org/c/504910))*
+- **[LineageOS/android_kernel_oneplus_sm8750]** arch: arm64: oplus: Load all battery fuelgauges for ktm *(ID: [504782](https://review.lineageos.org/c/504782))*
 - **[LineageOS/android_device_xiaomi_jaws]** jaws: keylayout: Fix and redefine some RC button mappings *(ID: [504906](https://review.lineageos.org/c/504906))*
 - **[LineageOS/android_hardware_mediatek]** libion_mtk: Make a stub of libion_mtk for modern platforms *(ID: [504819](https://review.lineageos.org/c/504819))*
 - **[LineageOS/android_device_xiaomi_jaws]** jaws: Fix Xiaomi RC pairing *(ID: [503656](https://review.lineageos.org/c/503656))*
@@ -23,25 +42,6 @@
 - **[LineageOS/android_hardware_qcom_audio]** hal: audio_extn: Fix null thread join in BatteryListener teardown *(ID: [504423](https://review.lineageos.org/c/504423))*
 - **[LineageOS/android_hardware_oplus]** oplus: vibrator: Add LiveTap AIDL vibrator service *(ID: [503935](https://review.lineageos.org/c/503935))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Add support for Xiaomi TV Box S Gen2 (jaws) *(ID: [504688](https://review.lineageos.org/c/504688))*
-- **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [504889](https://review.lineageos.org/c/504889))*
-- **[LineageOS/android_kernel_qcom_sm8350]** BACKPORT: FROMGIT: selinux: enable per-file labeling for functionfs *(ID: [504888](https://review.lineageos.org/c/504888))*
-- **[LineageOS/android_hardware_ayn]** AynParts: Pass a custom fragment title to GameControllerFragment *(ID: [504774](https://review.lineageos.org/c/504774))*
-- **[LineageOS/android_hardware_ayn]** AynParts: Migrate to ControllerUtils from LineageSDK *(ID: [504772](https://review.lineageos.org/c/504772))*
-- **[LineageOS/android_hardware_ayn]** overlay: lineage: Hide moorechip-joystick from GameControllerListFragment *(ID: [504767](https://review.lineageos.org/c/504767))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: tp: hbp: Update drivers from PLQ110_16.0.9.401(CN01) *(ID: [504800](https://review.lineageos.org/c/504800))*
-- **[LineageOS/android_kernel_qcom_sm8250]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [504854](https://review.lineageos.org/c/504854))*
-- **[LineageOS/android_hardware_mainline_common]** [WIP] mainline/common: interfaces/camera/mainline: Instruct AI how to make the initial implementation *(ID: [504849](https://review.lineageos.org/c/504849))*
-- **[LineageOS/android_hardware_qcom_thermal]** thermal-hal: Fix holi support *(ID: [502408](https://review.lineageos.org/c/502408))*
-- **[LineageOS/android_hardware_qcom_thermal]** thermal-hal: Fix bengal/khaje support *(ID: [502407](https://review.lineageos.org/c/502407))*
-- **[LineageOS/android_hardware_qcom_thermal]** thermal-hal: Fix trinket support *(ID: [502406](https://review.lineageos.org/c/502406))*
-- **[LineageOS/android_hardware_qcom_thermal]** thermal-hal: Align skin temperature threshold for all legacy platforms *(ID: [502399](https://review.lineageos.org/c/502399))*
-- **[LineageOS/android_hardware_qcom_thermal]** thermal-hal: Update skin temperature threshold for trinket *(ID: [502379](https://review.lineageos.org/c/502379))*
-- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Synchronize active SIM type *(ID: [503676](https://review.lineageos.org/c/503676))*
-- **[LineageOS/android_hardware_samsung]** SamsungEsimSwitcher: Add app for tsds2 hybrid eUICC *(ID: [496649](https://review.lineageos.org/c/496649))*
-- **[LineageOS/android_kernel_xiaomi_sm8150]** csiphy: Allow shared CSIPHY probe via waitqueue serialization *(ID: [493647](https://review.lineageos.org/c/493647))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Expose headset output for UCM headphone paths *(ID: [504818](https://review.lineageos.org/c/504818))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: gitignore: Ignore `.*.swp` files which are GNU nano leftovers *(ID: [504817](https://review.lineageos.org/c/504817))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/sensors/mainline: Fall back on sparse IIO buffer samples *(ID: [504816](https://review.lineageos.org/c/504816))*
 
 </details>
 
