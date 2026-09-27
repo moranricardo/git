@@ -7,49 +7,50 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (191)
+## 🚨 Parches Críticos Detectados (184)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_osom_sm8350]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2 *(ID: [505064](https://review.lineageos.org/c/505064))*
+- **[LineageOS/android_kernel_razer_sg8175p]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2 *(ID: [505063](https://review.lineageos.org/c/505063))*
+- **[LineageOS/android_kernel_oneplus_sm8350]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2 *(ID: [505062](https://review.lineageos.org/c/505062))*
+- **[LineageOS/android_kernel_motorola_sm6375]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2 *(ID: [505061](https://review.lineageos.org/c/505061))*
+- **[LineageOS/android_kernel_shift_qcm6490]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2 *(ID: [505060](https://review.lineageos.org/c/505060))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** arm64: dts: qcom: enable arr for infiniti panels *(ID: [504301](https://review.lineageos.org/c/504301))*
+- **[LineageOS/android_device_oneplus_fairlady]** fairlady: overlay: Fix landscape status bar height *(ID: [505030](https://review.lineageos.org/c/505030))*
+- **[LineageOS/android_kernel_fairphone_qcm6490]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2 *(ID: [505058](https://review.lineageos.org/c/505058))*
+- **[LineageOS/android_kernel_xiaomi_sm8450]** fsa4480: Fix incorrect FSA4480 supply mode property handling. *(ID: [504923](https://review.lineageos.org/c/504923))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: hbp: Use a flexible array for frame data *(ID: [505054](https://review.lineageos.org/c/505054))*
+- **[LineageOS/android_device_oneplus_sm8850-common]** sm8850-common: Fix camera DSP library lookup *(ID: [505046](https://review.lineageos.org/c/505046))*
 - **[LineageOS/android_hardware_qcom_audio]** hal: audio_extn: Fix null thread join in BatteryListener teardown *(ID: [504423](https://review.lineageos.org/c/504423))*
+- **[LineageOS/android_device_samsung_sm7325-common]** sm7325-common: get rid of MODULE_SUFFIX for libsecril-client *(ID: [505052](https://review.lineageos.org/c/505052))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** video-driver: Updates changes from PLQ110_16.0.9.401(CN01) *(ID: [503150](https://review.lineageos.org/c/503150))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: Import additional changes from PLQ110_16.0.9.401(CN01) *(ID: [503157](https://review.lineageos.org/c/503157))*
+- **[LineageOS/android_frameworks_base]** SystemUI: Fix bluetooth battery level icon in status bar *(ID: [504737](https://review.lineageos.org/c/504737))*
+- **[LineageOS/android_kernel_qcom_sm8250]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [504854](https://review.lineageos.org/c/504854))*
+- **[LineageOS/android_device_oneplus_infiniti]** infiniti: overlay: Fix landscape status bar height *(ID: [505023](https://review.lineageos.org/c/505023))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow tee to create directories under /data/vendor *(ID: [504789](https://review.lineageos.org/c/504789))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: tp: hbp: Update drivers from PLQ110_16.0.9.401(CN01) *(ID: [504800](https://review.lineageos.org/c/504800))*
 - **[LineageOS/android_device_xiaomi_jaws]** jaws: keylayout: Fix and redefine some RC button mappings *(ID: [504906](https://review.lineageos.org/c/504906))*
-- **[LineageOS/android_device_xiaomi_jaws]** jaws: Fix Xiaomi RC pairing *(ID: [503656](https://review.lineageos.org/c/503656))*
 - **[LineageOS/android_hardware_oplus]** sensors: fusionlight: Implement ALS correction algorithm *(ID: [504648](https://review.lineageos.org/c/504648))*
 - **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** treewide: Update changes from CPH2795_16.0.5.702(EX01) *(ID: [503146](https://review.lineageos.org/c/503146))*
 - **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** qcom: AA610: Drop 30hz completely *(ID: [503147](https://review.lineageos.org/c/503147))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** display-drivers: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503149](https://review.lineageos.org/c/503149))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: Import additional changes from PLQ110_16.0.9.401(CN01) *(ID: [503157](https://review.lineageos.org/c/503157))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** video-driver: Updates changes from PLQ110_16.0.9.401(CN01) *(ID: [503150](https://review.lineageos.org/c/503150))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: camera-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503152](https://review.lineageos.org/c/503152))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add rules for TMS eSE and NFC *(ID: [504788](https://review.lineageos.org/c/504788))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add rules for oplus EID *(ID: [504787](https://review.lineageos.org/c/504787))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label ktm wakeup node *(ID: [504786](https://review.lineageos.org/c/504786))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/audio/mainline: Make null mic opt-in *(ID: [504910](https://review.lineageos.org/c/504910))*
-- **[LineageOS/android_hardware_mainline_common]** [WIP] mainline/common: interfaces/camera/mainline: Instruct AI how to make the initial implementation *(ID: [504849](https://review.lineageos.org/c/504849))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/sensors/mainline: Fall back on sparse IIO buffer samples *(ID: [504816](https://review.lineageos.org/c/504816))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: tp: hbp: Assign unique keycodes to gestures *(ID: [504806](https://review.lineageos.org/c/504806))*
-- **[LineageOS/android_kernel_nubia_msm8998]** sched: revert force load balance when silver has big tasks *(ID: [504930](https://review.lineageos.org/c/504930))*
-- **[LineageOS/android_kernel_nubia_msm8998]** sched/rt: Have RT_PUSH_IPI be default off for non PREEMPT_RT *(ID: [504929](https://review.lineageos.org/c/504929))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-devicetrees]** ziyi: Fix ramoops memory conflict *(ID: [504925](https://review.lineageos.org/c/504925))*
-- **[LineageOS/android_kernel_xiaomi_sm8450]** fsa4480: Fix incorrect FSA4480 supply mode property handling. *(ID: [504923](https://review.lineageos.org/c/504923))*
-- **[LineageOS/android_kernel_qcom_sm8350]** arm64: dts: qcom: Delete mem-offline node to fully disable PASR *(ID: [504726](https://review.lineageos.org/c/504726))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-devicetrees]** qcom: Delete mem-offline node to fully disable PASR *(ID: [492920](https://review.lineageos.org/c/492920))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-devicetrees]** diwali: Fix FSA4480 supply mode property *(ID: [504922](https://review.lineageos.org/c/504922))*
-- **[LineageOS/android_kernel_oneplus_sm8750]** arch: arm64: oplus: Load all battery fuelgauges for ktm *(ID: [504782](https://review.lineageos.org/c/504782))*
-- **[LineageOS/android_hardware_mediatek]** aidl: add bluetooth audio session HAL adapter *(ID: [504900](https://review.lineageos.org/c/504900))*
-- **[LineageOS/android_hardware_mediatek]** hidl: audio: Make more universally usable *(ID: [504899](https://review.lineageos.org/c/504899))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: add AOSP BT Audio session HIDL with only name/version changes *(ID: [504897](https://review.lineageos.org/c/504897))*
 
 </details>
 
-## 📱 Línea Motorola Activa (41)
+## 📱 Línea Motorola Activa (42)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_kernel_motorola_sm6375]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2 *(ID: [505061](https://review.lineageos.org/c/505061))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Remove recovery.wipe *(ID: [504994](https://review.lineageos.org/c/504994))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Reorganize configs *(ID: [504993](https://review.lineageos.org/c/504993))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Move a few configs to vendor *(ID: [504992](https://review.lineageos.org/c/504992))*
@@ -79,7 +80,6 @@
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Convert fuzzer to blueprint *(ID: [502454](https://review.lineageos.org/c/502454))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps/location: Update to LA.VENDOR.15.4.1.r1-10300-WAIPIO.QSSI16.0 *(ID: [502453](https://review.lineageos.org/c/502453))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Update GNSS blobs from W1VAS36.62-22-16-16 *(ID: [502452](https://review.lineageos.org/c/502452))*
-- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: gps: minijail policy cleanup *(ID: [503168](https://review.lineageos.org/c/503168))*
 
 </details>
 
