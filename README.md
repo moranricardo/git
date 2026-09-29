@@ -7,49 +7,52 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (155)
+## 🚨 Parches Críticos Detectados (153)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_oplus]** interfaces: Add vendor.oplus.hardware.oplusSensor V1 *(ID: [504647](https://review.lineageos.org/c/504647))*
-- **[LineageOS/android_hardware_oplus]** sensors: Add FusionLight Sensors SubHAL *(ID: [459689](https://review.lineageos.org/c/459689))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add face unlock support *(ID: [505134](https://review.lineageos.org/c/505134))*
-- **[LineageOS/android_hardware_oplus]** sensors: fusionlight: Hook IHalProxyCallback *(ID: [459690](https://review.lineageos.org/c/459690))*
-- **[LineageOS/android_hardware_oplus]** sensors: Move different modules to subdir *(ID: [459688](https://review.lineageos.org/c/459688))*
 - **[LineageOS/android_hardware_oplus]** sensors: fusionlight: Implement ALS correction algorithm *(ID: [504648](https://review.lineageos.org/c/504648))*
-- **[LineageOS/android_hardware_motorola]** MotoActions: remove help dialog *(ID: [505404](https://review.lineageos.org/c/505404))*
-- **[LineageOS/android_kernel_xiaomi_sm6150]** Merge remote-tracking branch 'sm8150/lineage-20' into lineage-24.0 *(ID: [503265](https://review.lineageos.org/c/503265))*
-- **[LineageOS/android_kernel_motorola_sm8475-modules]** motorola: treewide: Fix base include *(ID: [505398](https://review.lineageos.org/c/505398))*
-- **[LineageOS/android_kernel_oneplus_sm4350]** arm64: configs: holi: Regenerate *(ID: [505396](https://review.lineageos.org/c/505396))*
-- **[LineageOS/android_kernel_oneplus_sm4350]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2 *(ID: [505395](https://review.lineageos.org/c/505395))*
-- **[LineageOS/android_kernel_fairphone_sm7635]** Merge remote-tracking branch 'sm8650/lineage-22.2' into lineage-23.2 *(ID: [505146](https://review.lineageos.org/c/505146))*
-- **[LineageOS/android_hardware_qcom_display]** composer: Disable VRR by default *(ID: [505306](https://review.lineageos.org/c/505306))*
-- **[LineageOS/android_device_xiaomi_lavender]** lavender: Fix SONAME for fingerprint.goodix.default.so *(ID: [505344](https://review.lineageos.org/c/505344))*
-- **[LineageOS/android_device_xiaomi_lavender]** lavender: overlay: Remove dsp. prefix from audio and video power profiles *(ID: [505329](https://review.lineageos.org/c/505329))*
-- **[LineageOS/android_device_xiaomi_twolip]** twolip: Add second blob sha1sum for fixed-up libMiWatermark *(ID: [361381](https://review.lineageos.org/c/361381))*
-- **[LineageOS/android_device_xiaomi_twolip]** twolip: Prevent adding same dependency twice in blob_fixup *(ID: [361378](https://review.lineageos.org/c/361378))*
-- **[LineageOS/android_kernel_fairphone_sm7635-modules]** eswin_touch: Remove 10s probe delay *(ID: [501464](https://review.lineageos.org/c/501464))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** Merge remote-tracking branch 'sm8850-devicetrees/lineage-24.0' into HEAD *(ID: [505298](https://review.lineageos.org/c/505298))*
-- **[LineageOS/android_hardware_lineage_compat]** libinput: Provide A16 QPR1 ABI shim *(ID: [469865](https://review.lineageos.org/c/469865))*
-- **[LineageOS/android_hardware_samsung]** aidl: camera: Expose Samsung high frame rate video modes *(ID: [505300](https://review.lineageos.org/c/505300))*
-- **[LineageOS/android_kernel_qcom_sm8850-devicetrees]** qcom: Delete mem-offline node to fully disable PASR *(ID: [505294](https://review.lineageos.org/c/505294))*
-- **[LineageOS/android_kernel_qcom_sm8450-devicetrees]** qcom: Delete mem-offline node to fully disable PASR *(ID: [505159](https://review.lineageos.org/c/505159))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** Merge remote-tracking branch 'sm8850-modules/lineage-24.0' into HEAD *(ID: [505297](https://review.lineageos.org/c/505297))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: bluetooth: audio: Add MTK changes *(ID: [504898](https://review.lineageos.org/c/504898))*
-- **[LineageOS/android_hardware_lineage_compat]** compat: Add a Bluetooth audio session adapter *(ID: [504413](https://review.lineageos.org/c/504413))*
-- **[LineageOS/android_hardware_mediatek]** aidl: add bluetooth audio session AIDL adapter *(ID: [505223](https://review.lineageos.org/c/505223))*
-- **[LineageOS/android_hardware_mediatek]** hidl: audio: Make more universally usable *(ID: [504899](https://review.lineageos.org/c/504899))*
-- **[LineageOS/android_hardware_mediatek]** aidl: add bluetooth audio session HIDL adapter *(ID: [504900](https://review.lineageos.org/c/504900))*
-- **[LineageOS/android_kernel_shift_qcm6490]** drivers: input: ft3658u: cleanup firmware request paths *(ID: [505264](https://review.lineageos.org/c/505264))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Add vendor.oplus.hardware.oplusSensor V1 *(ID: [504647](https://review.lineageos.org/c/504647))*
+- **[LineageOS/android_hardware_oplus]** sensors: fusionlight: Hook IHalProxyCallback *(ID: [459690](https://review.lineageos.org/c/459690))*
+- **[LineageOS/android_hardware_oplus]** sensors: Add FusionLight Sensors SubHAL *(ID: [459689](https://review.lineageos.org/c/459689))*
+- **[LineageOS/android_hardware_oplus]** sensors: Move different modules to subdir *(ID: [459688](https://review.lineageos.org/c/459688))*
+- **[LineageOS/android_hardware_oplus]** oplus: vibrator: Add LiveTap AIDL vibrator service *(ID: [503935](https://review.lineageos.org/c/503935))*
+- **[LineageOS/android_system_core]** fixup! toolbox/modprobe: Add parallel option to load modules in parallel *(ID: [505486](https://review.lineageos.org/c/505486))*
+- **[LineageOS/android_kernel_samsung_exynos850]** arm64: configs: Enable CONFIG_SECURITYFS *(ID: [505484](https://review.lineageos.org/c/505484))*
+- **[LineageOS/android_kernel_samsung_exynos850]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [505483](https://review.lineageos.org/c/505483))*
+- **[LineageOS/android_kernel_google_redbull]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [505480](https://review.lineageos.org/c/505480))*
+- **[LineageOS/android_kernel_qcom_sm8350]** extract-cert: reapply logic for BoringSSL *(ID: [505477](https://review.lineageos.org/c/505477))*
+- **[LineageOS/android_kernel_google_redbull]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into android-msm-pixel-4.19 *(ID: [502398](https://review.lineageos.org/c/502398))*
+- **[LineageOS/android_kernel_google_redbull]** UPSTREAM: ipv6: Fix dump of specific table with strict checking *(ID: [502575](https://review.lineageos.org/c/502575))*
+- **[LineageOS/android_kernel_google_redbull]** arm64: configs: redbull: Enable CONFIG_SECURITYFS *(ID: [505481](https://review.lineageos.org/c/505481))*
+- **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: extract-cert: Wrap key_pass with '#ifdef USE_PKCS11_ENGINE' *(ID: [505476](https://review.lineageos.org/c/505476))*
+- **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: extract-cert: drop unused definition of PKEY_ID_PKCS7 *(ID: [505475](https://review.lineageos.org/c/505475))*
+- **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: sign-file,extract-cert: use pkcs11 provider for OPENSSL MAJOR >= 3 *(ID: [505474](https://review.lineageos.org/c/505474))*
+- **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: sign-file,extract-cert: avoid using deprecated ERR_get_error_line() *(ID: [505473](https://review.lineageos.org/c/505473))*
+- **[LineageOS/android_kernel_qcom_sm8350]** BACKPORT: sign-file,extract-cert: move common SSL helper functions to a header *(ID: [505472](https://review.lineageos.org/c/505472))*
+- **[LineageOS/android_kernel_qcom_sm8350]** BACKPORT: certs: move scripts/extract-cert to certs/ *(ID: [505471](https://review.lineageos.org/c/505471))*
+- **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: extract-cert: add static to local data *(ID: [505470](https://review.lineageos.org/c/505470))*
+- **[LineageOS/android_kernel_qcom_sm8350]** Revert "ANDROID: extract-cert: omit PKCS#11 support if building against BoringSSL" *(ID: [505469](https://review.lineageos.org/c/505469))*
+- **[LineageOS/android_device_samsung_a21s-common]** a21s-common: libaudioproxy: Fix memset OOB for MMAP *(ID: [505462](https://review.lineageos.org/c/505462))*
+- **[LineageOS/android_device_samsung_a21s-common]** a21s-common: libaudioproxy: Fix Compressed Volume *(ID: [505461](https://review.lineageos.org/c/505461))*
+- **[LineageOS/android_device_samsung_a21s-common]** a21s-common: overlay: Fix SIM Toolkit SMS sending *(ID: [505454](https://review.lineageos.org/c/505454))*
+- **[LineageOS/android_kernel_fxtec_sm6115]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505448](https://review.lineageos.org/c/505448))*
+- **[LineageOS/android_kernel_motorola_sm8250]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505447](https://review.lineageos.org/c/505447))*
+- **[LineageOS/android_kernel_oneplus_sm8350]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2 *(ID: [505445](https://review.lineageos.org/c/505445))*
+- **[LineageOS/android_kernel_qcom_sm8250]** arm64: configs: vendor: Enable CONFIG_SECURITYFS *(ID: [505435](https://review.lineageos.org/c/505435))*
+- **[LineageOS/android_kernel_motorola_sm6375]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2 *(ID: [505444](https://review.lineageos.org/c/505444))*
 
 </details>
 
-## 📱 Línea Motorola Activa (46)
+## 📱 Línea Motorola Activa (49)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_kernel_motorola_sm8250]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505447](https://review.lineageos.org/c/505447))*
+- **[LineageOS/android_kernel_motorola_sm6375]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2 *(ID: [505444](https://review.lineageos.org/c/505444))*
+- **[LineageOS/android_kernel_motorola_sm6225]** Merge remote-tracking branch 'sm8250/lineage-20' into lineage-23.2 *(ID: [505437](https://review.lineageos.org/c/505437))*
 - **[LineageOS/android_hardware_motorola]** MotoActions: remove help dialog *(ID: [505404](https://review.lineageos.org/c/505404))*
 - **[LineageOS/android_kernel_motorola_sm8475-modules]** motorola: treewide: Fix base include *(ID: [505398](https://review.lineageos.org/c/505398))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Drop qspmhal *(ID: [505386](https://review.lineageos.org/c/505386))*
@@ -77,9 +80,6 @@
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: fix edgnss-daemon blocked by syscall fdatasync *(ID: [503158](https://review.lineageos.org/c/503158))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Inherit AIDL compatibility matrix *(ID: [502460](https://review.lineageos.org/c/502460))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Convert qspa to blueprint *(ID: [502459](https://review.lineageos.org/c/502459))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: address seccomp failures for qsap_location *(ID: [502458](https://review.lineageos.org/c/502458))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fix format specifiers *(ID: [502457](https://review.lineageos.org/c/502457))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fix unqualified-std-cast-call warning *(ID: [502456](https://review.lineageos.org/c/502456))*
 
 </details>
 
