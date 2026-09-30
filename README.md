@@ -1,31 +1,33 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-29-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-30-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (153)
+## 🚨 Parches Críticos Detectados (144)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_oplus]** sensors: fusionlight: Implement ALS correction algorithm *(ID: [504648](https://review.lineageos.org/c/504648))*
-- **[LineageOS/android_hardware_oplus]** interfaces: Add vendor.oplus.hardware.oplusSensor V1 *(ID: [504647](https://review.lineageos.org/c/504647))*
-- **[LineageOS/android_hardware_oplus]** sensors: fusionlight: Hook IHalProxyCallback *(ID: [459690](https://review.lineageos.org/c/459690))*
-- **[LineageOS/android_hardware_oplus]** sensors: Add FusionLight Sensors SubHAL *(ID: [459689](https://review.lineageos.org/c/459689))*
-- **[LineageOS/android_hardware_oplus]** sensors: Move different modules to subdir *(ID: [459688](https://review.lineageos.org/c/459688))*
+- **[LineageOS/android_hardware_ayn]** ayn: sepolicy: Allow vendor_init to set vendor_adsprpc_prop *(ID: [505522](https://review.lineageos.org/c/505522))*
+- **[LineageOS/android_hardware_ayn]** ayn: sepolicy: Allow hal_vibrator_default to read/do what it needs *(ID: [505523](https://review.lineageos.org/c/505523))*
+- **[LineageOS/android_kernel_google_redbull]** arm64: configs: redbull: Enable CONFIG_SECURITYFS *(ID: [505481](https://review.lineageos.org/c/505481))*
+- **[LineageOS/android_kernel_google_redbull]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [505480](https://review.lineageos.org/c/505480))*
+- **[LineageOS/android_kernel_google_redbull]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into android-msm-pixel-4.19 *(ID: [502398](https://review.lineageos.org/c/502398))*
+- **[LineageOS/android_packages_apps_Launcher3]** Launcher3: Fix bottom insets *(ID: [505520](https://review.lineageos.org/c/505520))*
+- **[LineageOS/android_kernel_samsung_sm6115]** gta4l-common: dm-verity: make error counter atomic *(ID: [505518](https://review.lineageos.org/c/505518))*
+- **[LineageOS/android_kernel_samsung_sm6115]** zram: Use page_memcg() instead of direct page member access *(ID: [505517](https://review.lineageos.org/c/505517))*
+- **[LineageOS/android_kernel_samsung_sm6115]** Merge android_kernel_qcom_sm8250 into lineage-24.0 *(ID: [505516](https://review.lineageos.org/c/505516))*
+- **[LineageOS/android_device_osom_ingot]** ingot: Fix charge control on 6.6 *(ID: [505508](https://review.lineageos.org/c/505508))*
 - **[LineageOS/android_hardware_oplus]** oplus: vibrator: Add LiveTap AIDL vibrator service *(ID: [503935](https://review.lineageos.org/c/503935))*
 - **[LineageOS/android_system_core]** fixup! toolbox/modprobe: Add parallel option to load modules in parallel *(ID: [505486](https://review.lineageos.org/c/505486))*
 - **[LineageOS/android_kernel_samsung_exynos850]** arm64: configs: Enable CONFIG_SECURITYFS *(ID: [505484](https://review.lineageos.org/c/505484))*
 - **[LineageOS/android_kernel_samsung_exynos850]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [505483](https://review.lineageos.org/c/505483))*
-- **[LineageOS/android_kernel_google_redbull]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [505480](https://review.lineageos.org/c/505480))*
 - **[LineageOS/android_kernel_qcom_sm8350]** extract-cert: reapply logic for BoringSSL *(ID: [505477](https://review.lineageos.org/c/505477))*
-- **[LineageOS/android_kernel_google_redbull]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into android-msm-pixel-4.19 *(ID: [502398](https://review.lineageos.org/c/502398))*
 - **[LineageOS/android_kernel_google_redbull]** UPSTREAM: ipv6: Fix dump of specific table with strict checking *(ID: [502575](https://review.lineageos.org/c/502575))*
-- **[LineageOS/android_kernel_google_redbull]** arm64: configs: redbull: Enable CONFIG_SECURITYFS *(ID: [505481](https://review.lineageos.org/c/505481))*
 - **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: extract-cert: Wrap key_pass with '#ifdef USE_PKCS11_ENGINE' *(ID: [505476](https://review.lineageos.org/c/505476))*
 - **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: extract-cert: drop unused definition of PKEY_ID_PKCS7 *(ID: [505475](https://review.lineageos.org/c/505475))*
 - **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: sign-file,extract-cert: use pkcs11 provider for OPENSSL MAJOR >= 3 *(ID: [505474](https://review.lineageos.org/c/505474))*
@@ -37,22 +39,17 @@
 - **[LineageOS/android_device_samsung_a21s-common]** a21s-common: libaudioproxy: Fix memset OOB for MMAP *(ID: [505462](https://review.lineageos.org/c/505462))*
 - **[LineageOS/android_device_samsung_a21s-common]** a21s-common: libaudioproxy: Fix Compressed Volume *(ID: [505461](https://review.lineageos.org/c/505461))*
 - **[LineageOS/android_device_samsung_a21s-common]** a21s-common: overlay: Fix SIM Toolkit SMS sending *(ID: [505454](https://review.lineageos.org/c/505454))*
-- **[LineageOS/android_kernel_fxtec_sm6115]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505448](https://review.lineageos.org/c/505448))*
-- **[LineageOS/android_kernel_motorola_sm8250]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505447](https://review.lineageos.org/c/505447))*
-- **[LineageOS/android_kernel_oneplus_sm8350]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2 *(ID: [505445](https://review.lineageos.org/c/505445))*
-- **[LineageOS/android_kernel_qcom_sm8250]** arm64: configs: vendor: Enable CONFIG_SECURITYFS *(ID: [505435](https://review.lineageos.org/c/505435))*
-- **[LineageOS/android_kernel_motorola_sm6375]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2 *(ID: [505444](https://review.lineageos.org/c/505444))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** camera-kernel: Fix a large number of memleak issues *(ID: [505428](https://review.lineageos.org/c/505428))*
+- **[LineageOS/android_hardware_motorola]** MotoActions: remove help dialog *(ID: [505404](https://review.lineageos.org/c/505404))*
+- **[LineageOS/android_kernel_xiaomi_sm6150]** Merge remote-tracking branch 'sm8150/lineage-20' into lineage-24.0 *(ID: [503265](https://review.lineageos.org/c/503265))*
 
 </details>
 
-## 📱 Línea Motorola Activa (49)
+## 📱 Línea Motorola Activa (46)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
-- **[LineageOS/android_kernel_motorola_sm8250]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505447](https://review.lineageos.org/c/505447))*
-- **[LineageOS/android_kernel_motorola_sm6375]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2 *(ID: [505444](https://review.lineageos.org/c/505444))*
-- **[LineageOS/android_kernel_motorola_sm6225]** Merge remote-tracking branch 'sm8250/lineage-20' into lineage-23.2 *(ID: [505437](https://review.lineageos.org/c/505437))*
 - **[LineageOS/android_hardware_motorola]** MotoActions: remove help dialog *(ID: [505404](https://review.lineageos.org/c/505404))*
 - **[LineageOS/android_kernel_motorola_sm8475-modules]** motorola: treewide: Fix base include *(ID: [505398](https://review.lineageos.org/c/505398))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Drop qspmhal *(ID: [505386](https://review.lineageos.org/c/505386))*
@@ -80,6 +77,9 @@
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: fix edgnss-daemon blocked by syscall fdatasync *(ID: [503158](https://review.lineageos.org/c/503158))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Inherit AIDL compatibility matrix *(ID: [502460](https://review.lineageos.org/c/502460))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Convert qspa to blueprint *(ID: [502459](https://review.lineageos.org/c/502459))*
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: address seccomp failures for qsap_location *(ID: [502458](https://review.lineageos.org/c/502458))*
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fix format specifiers *(ID: [502457](https://review.lineageos.org/c/502457))*
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fix unqualified-std-cast-call warning *(ID: [502456](https://review.lineageos.org/c/502456))*
 
 </details>
 
