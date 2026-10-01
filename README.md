@@ -7,11 +7,30 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (194)
+## 🚨 Parches Críticos Detectados (188)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_oplus]** wvmkiller: Add support for AIDL *(ID: [438952](https://review.lineageos.org/c/438952))*
+- **[LineageOS/android_kernel_motorola_sm6225]** arm64: configs: guamna: Build moto modules *(ID: [501509](https://review.lineageos.org/c/501509))*
+- **[LineageOS/android_kernel_motorola_sm6225]** techpack: camera-bengal: Enable legacy camera fix for guamna *(ID: [501508](https://review.lineageos.org/c/501508))*
+- **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: himax_v3_mmi: Fix CFI failure in module init *(ID: [501505](https://review.lineageos.org/c/501505))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Pack DTS-HD and TrueHD with FFmpeg *(ID: [505580](https://review.lineageos.org/c/505580))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Add HDMI passthrough *(ID: [505548](https://review.lineageos.org/c/505548))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Add passthrough building blocks *(ID: [505547](https://review.lineageos.org/c/505547))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Import libaudiospdif *(ID: [505544](https://review.lineageos.org/c/505544))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Add opt-in FAST primary output *(ID: [505543](https://review.lineageos.org/c/505543))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Arbitrate exclusive PCM devices *(ID: [505542](https://review.lineageos.org/c/505542))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/sensors/mainline: Fall back on sparse IIO buffer samples *(ID: [504816](https://review.lineageos.org/c/504816))*
+- **[LineageOS/android_kernel_xiaomi_mt6785]** arm64: configs: rosemary: Enable CONFIG_SECURITYFS *(ID: [505803](https://review.lineageos.org/c/505803))*
+- **[LineageOS/android_kernel_xiaomi_mt6785]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [505802](https://review.lineageos.org/c/505802))*
+- **[LineageOS/android_kernel_xiaomi_mt6768]** arm64: configs: vendor: Enable CONFIG_SECURITYFS *(ID: [505801](https://review.lineageos.org/c/505801))*
+- **[LineageOS/android_kernel_xiaomi_mt6768]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [505800](https://review.lineageos.org/c/505800))*
+- **[LineageOS/android_kernel_xiaomi_earth]** arm64: configs: earth: Enable CONFIG_SECURITYFS *(ID: [505799](https://review.lineageos.org/c/505799))*
+- **[LineageOS/android_kernel_xiaomi_earth]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [505798](https://review.lineageos.org/c/505798))*
+- **[LineageOS/android_hardware_samsung]** aidl: fingerprint: Don't block enroll() forever waiting for calibration *(ID: [505789](https://review.lineageos.org/c/505789))*
+- **[LineageOS/android_hardware_samsung]** aidl: fingerprint: Retry an enroll that fails right after calibration *(ID: [505790](https://review.lineageos.org/c/505790))*
 - **[LineageOS/android_kernel_qcom_sm8750-modules]** qcom: wlan: qcacld-3.0: Include missing feature flags *(ID: [504804](https://review.lineageos.org/c/504804))*
 - **[LineageOS/android_kernel_qcom_sm8750-modules]** qcom: wlan: qcacld-3.0: Set CONFIG_QCA_WIFI_FTM_NL80211 for kiwi_v2 *(ID: [504803](https://review.lineageos.org/c/504803))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Update drivers from PLQ110_16.0.1.302(CN01) *(ID: [504793](https://review.lineageos.org/c/504793))*
@@ -23,33 +42,17 @@
 - **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Bound proc write buffers *(ID: [505768](https://review.lineageos.org/c/505768))*
 - **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Remove NUMLOCK mode *(ID: [505767](https://review.lineageos.org/c/505767))*
 - **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Use custom vendorId and productId *(ID: [505766](https://review.lineageos.org/c/505766))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Unconditionally build the modules *(ID: [460123](https://review.lineageos.org/c/460123))*
-- **[LineageOS/android_device_xelex_Q25]** Q25: Fix fastboot flashall *(ID: [505764](https://review.lineageos.org/c/505764))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Fix inline build *(ID: [460130](https://review.lineageos.org/c/460130))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** nxp: Update changes to CPH2653_16.0.1.304(EX01) *(ID: [471273](https://review.lineageos.org/c/471273))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: kernel: Import NFC drivers from CPH2723_16.0.0.211(EX01) *(ID: [460122](https://review.lineageos.org/c/460122))*
-- **[LineageOS/android_hardware_oplus]** wvmkiller: Add support for AIDL *(ID: [438952](https://review.lineageos.org/c/438952))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: zram: default to lzo-rle instead of lzo *(ID: [505737](https://review.lineageos.org/c/505737))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: add unlikely hints to overrun checks *(ID: [505736](https://review.lineageos.org/c/505736))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: Fix compression buffer overrun *(ID: [505735](https://review.lineageos.org/c/505735))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo/lzo1x_compress.c: replace ternary operator with min() and min_t() *(ID: [505734](https://review.lineageos.org/c/505734))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo/lzo1x_compress.c: make lzogeneric1x_1_compress() static *(ID: [505733](https://review.lineageos.org/c/505733))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: fix ambiguous encoding bug in lzo-rle *(ID: [505732](https://review.lineageos.org/c/505732))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo/lzo1x_compress.c: fix alignment bug in lzo-rle *(ID: [505731](https://review.lineageos.org/c/505731))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: fix bugs for very short or empty input *(ID: [505730](https://review.lineageos.org/c/505730))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: separate lzo-rle from lzo *(ID: [505729](https://review.lineageos.org/c/505729))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: implement run-length encoding *(ID: [505728](https://review.lineageos.org/c/505728))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: fast 8-byte copy on arm64 *(ID: [505727](https://review.lineageos.org/c/505727))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: 64-bit CTZ on arm64 *(ID: [505726](https://review.lineageos.org/c/505726))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: tidy-up ifdefs *(ID: [505725](https://review.lineageos.org/c/505725))*
 
 </details>
 
-## 📱 Línea Motorola Activa (18)
+## 📱 Línea Motorola Activa (21)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_kernel_motorola_sm6225]** arm64: configs: guamna: Build moto modules *(ID: [501509](https://review.lineageos.org/c/501509))*
+- **[LineageOS/android_kernel_motorola_sm6225]** techpack: camera-bengal: Enable legacy camera fix for guamna *(ID: [501508](https://review.lineageos.org/c/501508))*
+- **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: himax_v3_mmi: Fix CFI failure in module init *(ID: [501505](https://review.lineageos.org/c/501505))*
 - **[LineageOS/android_device_motorola_smith]** smith: Allow setting independent dpi settings for each display *(ID: [503084](https://review.lineageos.org/c/503084))*
 - **[LineageOS/android_device_motorola_smith]** smith: Drop soundtrigger HAL *(ID: [505698](https://review.lineageos.org/c/505698))*
 - **[LineageOS/android_device_motorola_smith]** smith: Use MMI touchscreen class to toggle dt2w [2/2] *(ID: [505697](https://review.lineageos.org/c/505697))*
