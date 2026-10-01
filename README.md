@@ -7,41 +7,41 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (167)
+## 🚨 Parches Críticos Detectados (194)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_packages_apps_Launcher3]** Launcher3: Fix bottom insets *(ID: [505675](https://review.lineageos.org/c/505675))*
-- **[LineageOS/android_packages_apps_Launcher3]** Launcher3: Fix bottom insets *(ID: [505520](https://review.lineageos.org/c/505520))*
-- **[LineageOS/android_hardware_lge]** lgdata: Reconstruct the stock LG data 1.0 HIDL interface *(ID: [505682](https://review.lineageos.org/c/505682))*
-- **[LineageOS/android_hardware_lge]** radio: Replace the LG HIDL wrapper with an AIDL compat service *(ID: [505683](https://review.lineageos.org/c/505683))*
-- **[LineageOS/android_hardware_lge]** sepolicy: private: Mark dac_panel_app as coredomain *(ID: [505681](https://review.lineageos.org/c/505681))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/camera/mainline: Detect facing and placement *(ID: [505670](https://review.lineageos.org/c/505670))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: libraries: libhwdb: Share udev attribute sanitizing *(ID: [505669](https://review.lineageos.org/c/505669))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/camera/mainline: Link interfaces statically *(ID: [505667](https://review.lineageos.org/c/505667))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/camera/mainline: Add JPEG outputs *(ID: [505666](https://review.lineageos.org/c/505666))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/camera/mainline: Add capture sessions *(ID: [505665](https://review.lineageos.org/c/505665))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/camera/mainline: Add camera devices *(ID: [505664](https://review.lineageos.org/c/505664))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/camera/mainline: Discover V4L2 cameras *(ID: [505662](https://review.lineageos.org/c/505662))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/camera/mainline: Instruct AI how to make the initial implementation *(ID: [504849](https://review.lineageos.org/c/504849))*
-- **[LineageOS/android_kernel_oneplus_sm8850]** Merge remote-tracking branch 'sm8850/lineage-24.0' into HEAD *(ID: [505638](https://review.lineageos.org/c/505638))*
-- **[LineageOS/android_kernel_google_gs-6.6_manifest]** manifest: Update for kernel-rango-16036407 changes *(ID: [505659](https://review.lineageos.org/c/505659))*
-- **[LineageOS/android_kernel_google_gs-6.6_manifest]** manifest: Sync android15-6.6-2026-04_r30 kernel *(ID: [505554](https://review.lineageos.org/c/505554))*
-- **[LineageOS/android_kernel_xiaomi_gauguin]** include: Remove unused msm_drm_notify header *(ID: [505656](https://review.lineageos.org/c/505656))*
-- **[LineageOS/android_kernel_xiaomi_gauguin]** techpack: display: Migrate to DRM panel API *(ID: [505655](https://review.lineageos.org/c/505655))*
-- **[LineageOS/android_kernel_xiaomi_gauguin]** drivers: nt36672c: Migrate to DRM panel API *(ID: [505654](https://review.lineageos.org/c/505654))*
-- **[LineageOS/android_kernel_google_gs-6.1_manifest]** manifest: Sync android14-6.1-2026-03_r23 kernel *(ID: [505652](https://review.lineageos.org/c/505652))*
-- **[LineageOS/android_kernel_google_gs-6.1_google-modules]** Import kernel-caimito-16028790 changes *(ID: [505651](https://review.lineageos.org/c/505651))*
-- **[LineageOS/android_kernel_google_gs-6.1_google-modules]** Import kernel-raviole-15969207 changes *(ID: [505650](https://review.lineageos.org/c/505650))*
-- **[LineageOS/android_kernel_google_gs-6.1_google-modules]** Import kernel-shusky-15912884 changes *(ID: [505649](https://review.lineageos.org/c/505649))*
-- **[LineageOS/android_kernel_google_gs-6.1_google-modules]** Import kernel-stallion-15912883 bms changes *(ID: [505648](https://review.lineageos.org/c/505648))*
-- **[LineageOS/android_kernel_google_gs-6.1_google-modules]** Import kernel-lynx-15902539 changes *(ID: [505647](https://review.lineageos.org/c/505647))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** Merge remote-tracking branch 'sm8850-modules/lineage-24.0' into HEAD *(ID: [505640](https://review.lineageos.org/c/505640))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** Merge remote-tracking branch 'sm8850-devicetrees/lineage-24.0' into HEAD *(ID: [505639](https://review.lineageos.org/c/505639))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Pack DTS-HD and TrueHD with FFmpeg *(ID: [505580](https://review.lineageos.org/c/505580))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: docs: Forbid proprietary specifications from memory *(ID: [505573](https://review.lineageos.org/c/505573))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Add HDMI passthrough *(ID: [505548](https://review.lineageos.org/c/505548))*
+- **[LineageOS/android_kernel_qcom_sm8750-modules]** qcom: wlan: qcacld-3.0: Include missing feature flags *(ID: [504804](https://review.lineageos.org/c/504804))*
+- **[LineageOS/android_kernel_qcom_sm8750-modules]** qcom: wlan: qcacld-3.0: Set CONFIG_QCA_WIFI_FTM_NL80211 for kiwi_v2 *(ID: [504803](https://review.lineageos.org/c/504803))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Update drivers from PLQ110_16.0.1.302(CN01) *(ID: [504793](https://review.lineageos.org/c/504793))*
+- **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Release held keys before powering off *(ID: [505773](https://review.lineageos.org/c/505773))*
+- **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Clean up proc entries *(ID: [505772](https://review.lineageos.org/c/505772))*
+- **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Always let the work re-enable the IRQ *(ID: [505771](https://review.lineageos.org/c/505771))*
+- **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Register sym layer keycodes *(ID: [505770](https://review.lineageos.org/c/505770))*
+- **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Pair key releases with their press *(ID: [505769](https://review.lineageos.org/c/505769))*
+- **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Bound proc write buffers *(ID: [505768](https://review.lineageos.org/c/505768))*
+- **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Remove NUMLOCK mode *(ID: [505767](https://review.lineageos.org/c/505767))*
+- **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Use custom vendorId and productId *(ID: [505766](https://review.lineageos.org/c/505766))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Unconditionally build the modules *(ID: [460123](https://review.lineageos.org/c/460123))*
+- **[LineageOS/android_device_xelex_Q25]** Q25: Fix fastboot flashall *(ID: [505764](https://review.lineageos.org/c/505764))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Fix inline build *(ID: [460130](https://review.lineageos.org/c/460130))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** nxp: Update changes to CPH2653_16.0.1.304(EX01) *(ID: [471273](https://review.lineageos.org/c/471273))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: kernel: Import NFC drivers from CPH2723_16.0.0.211(EX01) *(ID: [460122](https://review.lineageos.org/c/460122))*
+- **[LineageOS/android_hardware_oplus]** wvmkiller: Add support for AIDL *(ID: [438952](https://review.lineageos.org/c/438952))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: zram: default to lzo-rle instead of lzo *(ID: [505737](https://review.lineageos.org/c/505737))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: add unlikely hints to overrun checks *(ID: [505736](https://review.lineageos.org/c/505736))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: Fix compression buffer overrun *(ID: [505735](https://review.lineageos.org/c/505735))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo/lzo1x_compress.c: replace ternary operator with min() and min_t() *(ID: [505734](https://review.lineageos.org/c/505734))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo/lzo1x_compress.c: make lzogeneric1x_1_compress() static *(ID: [505733](https://review.lineageos.org/c/505733))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: fix ambiguous encoding bug in lzo-rle *(ID: [505732](https://review.lineageos.org/c/505732))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo/lzo1x_compress.c: fix alignment bug in lzo-rle *(ID: [505731](https://review.lineageos.org/c/505731))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: fix bugs for very short or empty input *(ID: [505730](https://review.lineageos.org/c/505730))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: separate lzo-rle from lzo *(ID: [505729](https://review.lineageos.org/c/505729))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: implement run-length encoding *(ID: [505728](https://review.lineageos.org/c/505728))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: fast 8-byte copy on arm64 *(ID: [505727](https://review.lineageos.org/c/505727))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: 64-bit CTZ on arm64 *(ID: [505726](https://review.lineageos.org/c/505726))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: lib/lzo: tidy-up ifdefs *(ID: [505725](https://review.lineageos.org/c/505725))*
 
 </details>
 
