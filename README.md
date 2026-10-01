@@ -1,6 +1,6 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-09-30-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-01-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
@@ -13,6 +13,10 @@
 <summary><b>Click para desplegar parches críticos</b></summary>
 
 - **[LineageOS/android_packages_apps_Launcher3]** Launcher3: Fix bottom insets *(ID: [505675](https://review.lineageos.org/c/505675))*
+- **[LineageOS/android_packages_apps_Launcher3]** Launcher3: Fix bottom insets *(ID: [505520](https://review.lineageos.org/c/505520))*
+- **[LineageOS/android_hardware_lge]** lgdata: Reconstruct the stock LG data 1.0 HIDL interface *(ID: [505682](https://review.lineageos.org/c/505682))*
+- **[LineageOS/android_hardware_lge]** radio: Replace the LG HIDL wrapper with an AIDL compat service *(ID: [505683](https://review.lineageos.org/c/505683))*
+- **[LineageOS/android_hardware_lge]** sepolicy: private: Mark dac_panel_app as coredomain *(ID: [505681](https://review.lineageos.org/c/505681))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/camera/mainline: Detect facing and placement *(ID: [505670](https://review.lineageos.org/c/505670))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: libraries: libhwdb: Share udev attribute sanitizing *(ID: [505669](https://review.lineageos.org/c/505669))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/camera/mainline: Link interfaces statically *(ID: [505667](https://review.lineageos.org/c/505667))*
@@ -38,18 +42,18 @@
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Pack DTS-HD and TrueHD with FFmpeg *(ID: [505580](https://review.lineageos.org/c/505580))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: docs: Forbid proprietary specifications from memory *(ID: [505573](https://review.lineageos.org/c/505573))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Add HDMI passthrough *(ID: [505548](https://review.lineageos.org/c/505548))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Add passthrough building blocks *(ID: [505547](https://review.lineageos.org/c/505547))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Import libaudiospdif *(ID: [505544](https://review.lineageos.org/c/505544))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Add opt-in FAST primary output *(ID: [505543](https://review.lineageos.org/c/505543))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Arbitrate exclusive PCM devices *(ID: [505542](https://review.lineageos.org/c/505542))*
 
 </details>
 
-## 📱 Línea Motorola Activa (16)
+## 📱 Línea Motorola Activa (18)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_smith]** smith: Allow setting independent dpi settings for each display *(ID: [503084](https://review.lineageos.org/c/503084))*
+- **[LineageOS/android_device_motorola_smith]** smith: Drop soundtrigger HAL *(ID: [505698](https://review.lineageos.org/c/505698))*
+- **[LineageOS/android_device_motorola_smith]** smith: Use MMI touchscreen class to toggle dt2w [2/2] *(ID: [505697](https://review.lineageos.org/c/505697))*
+- **[LineageOS/android_device_motorola_smith]** smith: overlay: Update deprecated screen power items *(ID: [505696](https://review.lineageos.org/c/505696))*
 - **[LineageOS/android_hardware_motorola]** MotoActions: remove help dialog *(ID: [505404](https://review.lineageos.org/c/505404))*
 - **[LineageOS/android_kernel_motorola_sm8475-modules]** motorola: treewide: Fix base include *(ID: [505398](https://review.lineageos.org/c/505398))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Drop qspmhal *(ID: [505386](https://review.lineageos.org/c/505386))*
@@ -64,8 +68,6 @@
 - **[LineageOS/android_device_motorola_sm6375-common]** sm6375-common: More notification icons on AOD screen *(ID: [504938](https://review.lineageos.org/c/504938))*
 - **[LineageOS/android_device_motorola_sm6225-common]** sm6225-common: More notification icons on lockscreen *(ID: [504937](https://review.lineageos.org/c/504937))*
 - **[LineageOS/android_device_motorola_smith]** smith: Force gesture navigation mode *(ID: [503641](https://review.lineageos.org/c/503641))*
-- **[LineageOS/android_device_motorola_smith]** smith: Allow setting independent dpi settings for each display *(ID: [503084](https://review.lineageos.org/c/503084))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: fix two issues about edngss-daemon launch *(ID: [503163](https://review.lineageos.org/c/503163))*
 
 </details>
 
