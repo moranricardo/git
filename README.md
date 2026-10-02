@@ -7,11 +7,22 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (220)
+## 🚨 Parches Críticos Detectados (219)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/sensors/mainline: Keep bmi160 accel at 12.5 Hz or faster *(ID: [505962](https://review.lineageos.org/c/505962))*
+- **[LineageOS/android_hardware_mediatek]** aidl: add bluetooth audio session AIDL adapter *(ID: [505223](https://review.lineageos.org/c/505223))*
+- **[LineageOS/android_hardware_mediatek]** aidl: add bluetooth audio session HIDL adapter *(ID: [504900](https://review.lineageos.org/c/504900))*
+- **[LineageOS/android_hardware_mediatek]** hidl: audio: Make more universally usable *(ID: [504899](https://review.lineageos.org/c/504899))*
+- **[LineageOS/android_hardware_mediatek]** interfaces: bluetooth: audio: Add MTK changes *(ID: [505222](https://review.lineageos.org/c/505222))*
+- **[LineageOS/android_hardware_mediatek]** interfaces: Import AOSP bluetooth audio session AIDL V1, rebranded *(ID: [505221](https://review.lineageos.org/c/505221))*
+- **[LineageOS/android_hardware_mediatek]** interfaces: bluetooth: audio: Add MTK changes *(ID: [504898](https://review.lineageos.org/c/504898))*
+- **[LineageOS/android_hardware_mediatek]** interfaces: add AOSP BT Audio session HIDL with only name/version changes *(ID: [504897](https://review.lineageos.org/c/504897))*
+- **[LineageOS/android_kernel_qcom_sm8450]** Merge branch 'android12-5.10-lts' of https://android.googlesource.com/kernel/common into HEAD *(ID: [505871](https://review.lineageos.org/c/505871))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: zram: default to lzo-rle instead of lzo *(ID: [505737](https://review.lineageos.org/c/505737))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** ARM: dts: oplus: Add DTBO configs *(ID: [505937](https://review.lineageos.org/c/505937))*
 - **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: charger: Match function IDs to the generated driver interface *(ID: [505936](https://review.lineageos.org/c/505936))*
 - **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** ARM: dts: oplus: dengta: Merge techpack devicetrees *(ID: [505935](https://review.lineageos.org/c/505935))*
 - **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** ARM: dts: oplus: iceland: Merge techpack devicetrees *(ID: [505934](https://review.lineageos.org/c/505934))*
@@ -31,25 +42,15 @@
 - **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: Update changes from OPD2514_16.0.6.103(EX01) *(ID: [505920](https://review.lineageos.org/c/505920))*
 - **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: Update changes from PLR110_16.0.10.500(CN01) *(ID: [505919](https://review.lineageos.org/c/505919))*
 - **[LineageOS/android_kernel_oneplus_sm8850]** kleaf: Allow overriding DTBO config *(ID: [505918](https://review.lineageos.org/c/505918))*
-- **[LineageOS/android_kernel_oneplus_sm8850]** treewide: Update oplus changes from CPH2841_16.0.6.103(EX01) *(ID: [505917](https://review.lineageos.org/c/505917))*
-- **[LineageOS/android_kernel_oneplus_sm8850]** treewide: Update oplus changes from OPD2514_16.0.6.103(EX01) *(ID: [505916](https://review.lineageos.org/c/505916))*
-- **[LineageOS/android_device_xiaomi_mi89xx-mainline]** mi89xx-mainline: Fix librpmb.so boot device detection *(ID: [505906](https://review.lineageos.org/c/505906))*
-- **[LineageOS/android_kernel_qcom_sm8250]** Merge tag 'LA.UM.9.12.c25-05200-SMxx50.QSSI13c28.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/camera-kernel into HEAD *(ID: [505875](https://review.lineageos.org/c/505875))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: zram: default to lzo-rle instead of lzo *(ID: [505737](https://review.lineageos.org/c/505737))*
-- **[LineageOS/android_hardware_oplus]** oplus: vibrator: Add LiveTap AIDL vibrator service *(ID: [503935](https://review.lineageos.org/c/503935))*
-- **[LineageOS/android_kernel_xiaomi_sm8550-modules]** camera-kernel: cam_eeprom: Improve power sequencing in read retries *(ID: [505641](https://review.lineageos.org/c/505641))*
-- **[LineageOS/android_hardware_lge]** sepolicy: label SunlightEnhancement nodes *(ID: [505899](https://review.lineageos.org/c/505899))*
-- **[LineageOS/android_hardware_lge]** shims: rename libets_teeclient_v2_shim to libfpsph *(ID: [505900](https://review.lineageos.org/c/505900))*
-- **[LineageOS/android_hardware_mainline_qcom]** mainline/qcom: libion_dmaheap: Add a __open_2() wrapper *(ID: [505893](https://review.lineageos.org/c/505893))*
-- **[LineageOS/android_hardware_mainline_qcom]** mainline/qcom: libion_dmaheap: Emulate the legacy ION ioctls *(ID: [505892](https://review.lineageos.org/c/505892))*
 
 </details>
 
-## 📱 Línea Motorola Activa (12)
+## 📱 Línea Motorola Activa (13)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_beckham]** beckham: audio: Route audio Moto Mods through usb-headset paths *(ID: [505943](https://review.lineageos.org/c/505943))*
 - **[LineageOS/android_kernel_motorola_sm8250]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505878](https://review.lineageos.org/c/505878))*
 - **[LineageOS/android_kernel_motorola_sm6225]** arm64: configs: guamna: Build moto modules *(ID: [501509](https://review.lineageos.org/c/501509))*
 - **[LineageOS/android_kernel_motorola_sm6225]** techpack: camera-bengal: Enable legacy camera fix for guamna *(ID: [501508](https://review.lineageos.org/c/501508))*
