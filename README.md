@@ -1,55 +1,56 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-01-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-02-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (188)
+## 🚨 Parches Críticos Detectados (204)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_oplus]** wvmkiller: Add support for AIDL *(ID: [438952](https://review.lineageos.org/c/438952))*
-- **[LineageOS/android_kernel_motorola_sm6225]** arm64: configs: guamna: Build moto modules *(ID: [501509](https://review.lineageos.org/c/501509))*
-- **[LineageOS/android_kernel_motorola_sm6225]** techpack: camera-bengal: Enable legacy camera fix for guamna *(ID: [501508](https://review.lineageos.org/c/501508))*
-- **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: himax_v3_mmi: Fix CFI failure in module init *(ID: [501505](https://review.lineageos.org/c/501505))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Pack DTS-HD and TrueHD with FFmpeg *(ID: [505580](https://review.lineageos.org/c/505580))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Add HDMI passthrough *(ID: [505548](https://review.lineageos.org/c/505548))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Add passthrough building blocks *(ID: [505547](https://review.lineageos.org/c/505547))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Import libaudiospdif *(ID: [505544](https://review.lineageos.org/c/505544))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Add opt-in FAST primary output *(ID: [505543](https://review.lineageos.org/c/505543))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Arbitrate exclusive PCM devices *(ID: [505542](https://review.lineageos.org/c/505542))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: interfaces/sensors/mainline: Fall back on sparse IIO buffer samples *(ID: [504816](https://review.lineageos.org/c/504816))*
-- **[LineageOS/android_kernel_xiaomi_mt6785]** arm64: configs: rosemary: Enable CONFIG_SECURITYFS *(ID: [505803](https://review.lineageos.org/c/505803))*
-- **[LineageOS/android_kernel_xiaomi_mt6785]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [505802](https://review.lineageos.org/c/505802))*
-- **[LineageOS/android_kernel_xiaomi_mt6768]** arm64: configs: vendor: Enable CONFIG_SECURITYFS *(ID: [505801](https://review.lineageos.org/c/505801))*
-- **[LineageOS/android_kernel_xiaomi_mt6768]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [505800](https://review.lineageos.org/c/505800))*
-- **[LineageOS/android_kernel_xiaomi_earth]** arm64: configs: earth: Enable CONFIG_SECURITYFS *(ID: [505799](https://review.lineageos.org/c/505799))*
-- **[LineageOS/android_kernel_xiaomi_earth]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [505798](https://review.lineageos.org/c/505798))*
-- **[LineageOS/android_hardware_samsung]** aidl: fingerprint: Don't block enroll() forever waiting for calibration *(ID: [505789](https://review.lineageos.org/c/505789))*
-- **[LineageOS/android_hardware_samsung]** aidl: fingerprint: Retry an enroll that fails right after calibration *(ID: [505790](https://review.lineageos.org/c/505790))*
+- **[LineageOS/android_kernel_google_redbull]** arm64: configs: redbull: Enable CONFIG_SECURITYFS *(ID: [505481](https://review.lineageos.org/c/505481))*
 - **[LineageOS/android_kernel_qcom_sm8750-modules]** qcom: wlan: qcacld-3.0: Include missing feature flags *(ID: [504804](https://review.lineageos.org/c/504804))*
-- **[LineageOS/android_kernel_qcom_sm8750-modules]** qcom: wlan: qcacld-3.0: Set CONFIG_QCA_WIFI_FTM_NL80211 for kiwi_v2 *(ID: [504803](https://review.lineageos.org/c/504803))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Update drivers from PLQ110_16.0.1.302(CN01) *(ID: [504793](https://review.lineageos.org/c/504793))*
-- **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Release held keys before powering off *(ID: [505773](https://review.lineageos.org/c/505773))*
-- **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Clean up proc entries *(ID: [505772](https://review.lineageos.org/c/505772))*
-- **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Always let the work re-enable the IRQ *(ID: [505771](https://review.lineageos.org/c/505771))*
-- **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Register sym layer keycodes *(ID: [505770](https://review.lineageos.org/c/505770))*
-- **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Pair key releases with their press *(ID: [505769](https://review.lineageos.org/c/505769))*
-- **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Bound proc write buffers *(ID: [505768](https://review.lineageos.org/c/505768))*
-- **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Remove NUMLOCK mode *(ID: [505767](https://review.lineageos.org/c/505767))*
-- **[LineageOS/android_kernel_xelex_mt6789]** drivers/input: bbqX0kbd: Use custom vendorId and productId *(ID: [505766](https://review.lineageos.org/c/505766))*
+- **[LineageOS/android_device_osom_ingot]** ingot: Fix charge control on 6.6 *(ID: [505508](https://review.lineageos.org/c/505508))*
+- **[LineageOS/android_kernel_amlogic_kernel-5.15]** Merge remote-tracking branch 'common/android14-5.15-lts' into HEAD *(ID: [505880](https://review.lineageos.org/c/505880))*
+- **[LineageOS/android_kernel_osom_sm8475]** Merge remote-tracking branch 'sm8450/lineage-20' into HEAD *(ID: [505879](https://review.lineageos.org/c/505879))*
+- **[LineageOS/android_kernel_qcom_sm8450]** Merge branch 'android12-5.10-lts' of https://android.googlesource.com/kernel/common into HEAD *(ID: [505871](https://review.lineageos.org/c/505871))*
+- **[LineageOS/android_kernel_motorola_sm8250]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505878](https://review.lineageos.org/c/505878))*
+- **[LineageOS/android_kernel_fxtec_sm6115]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505877](https://review.lineageos.org/c/505877))*
+- **[LineageOS/android_kernel_ayn_qcs8550]** Merge remote-tracking branch 'sm8550/lineage-21' into HEAD *(ID: [505876](https://review.lineageos.org/c/505876))*
+- **[LineageOS/android_kernel_qcom_sm8250]** Merge tag 'LA.UM.9.12.c25-05200-SMxx50.QSSI13c28.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/camera-kernel into HEAD *(ID: [505875](https://review.lineageos.org/c/505875))*
+- **[LineageOS/android_kernel_qcom_sm8250]** Merge tag 'LA.UM.9.12.c25-05200-SMxx50.QSSI13c28.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/audio-kernel into HEAD *(ID: [505874](https://review.lineageos.org/c/505874))*
+- **[LineageOS/android_kernel_ayn_qcs8550-modules]** Merge remote-tracking branch 'sm8550-modules/lineage-21' into HEAD *(ID: [505873](https://review.lineageos.org/c/505873))*
+- **[LineageOS/android_kernel_qcom_sm8250]** Merge tag 'LA.UM.9.12.c25-05200-SMxx50.QSSI13c28.0' of https://git.codelinaro.org/clo/la/kernel/msm-4.19 into HEAD *(ID: [505872](https://review.lineageos.org/c/505872))*
+- **[LineageOS/android_kernel_samsung_sm6115]** drivers: md: dm-verity-debug: Make error counter atomic *(ID: [505518](https://review.lineageos.org/c/505518))*
+- **[LineageOS/android_kernel_qcom_sm8750]** Merge branch 'android15-6.6-lts' of https://android.googlesource.com/kernel/common into HEAD *(ID: [505869](https://review.lineageos.org/c/505869))*
+- **[LineageOS/android_kernel_qcom_sm8550]** Merge branch 'android13-5.15-lts' of https://android.googlesource.com/kernel/common into HEAD *(ID: [505868](https://review.lineageos.org/c/505868))*
+- **[LineageOS/android_kernel_google_redbull]** UPSTREAM: selinux: enable genfscon labeling for securityfs *(ID: [505480](https://review.lineageos.org/c/505480))*
+- **[LineageOS/android_kernel_google_redbull]** Merge tag 'v4.19.325-cip136' of https://git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip into android-msm-pixel-4.19 *(ID: [502398](https://review.lineageos.org/c/502398))*
+- **[LineageOS/android_kernel_google_redbull]** UPSTREAM: ipv6: Fix dump of specific table with strict checking *(ID: [502575](https://review.lineageos.org/c/502575))*
+- **[LineageOS/android_kernel_qcom_sm8450]** Revert "xdp: Reset bpf_redirect_info before running a xdp's BPF prog." *(ID: [503627](https://review.lineageos.org/c/503627))*
+- **[LineageOS/android_hardware_qcom-caf_common]** common: Do not enable SMMU proxy for parrot/taro even if UM_6_6 *(ID: [497773](https://review.lineageos.org/c/497773))*
+- **[LineageOS/android_hardware_qcom-caf_common]** common: Do not enable SMMU proxy for parrot/taro even if UM_6_6 *(ID: [505854](https://review.lineageos.org/c/505854))*
+- **[LineageOS/android_hardware_qcom_display]** display: init: Update cape MSM/APQ/4G display properties *(ID: [505863](https://review.lineageos.org/c/505863))*
+- **[LineageOS/android_hardware_qcom_display]** display: Make sure panel supports HDR before advertising *(ID: [505862](https://review.lineageos.org/c/505862))*
+- **[LineageOS/android_hardware_qcom_audio-ar]** core: Fix range-loop-construct error *(ID: [505861](https://review.lineageos.org/c/505861))*
+- **[LineageOS/android_hardware_qcom_audio-ar]** core: Add getFlushFromFrameSupport and mark unsupported *(ID: [505860](https://review.lineageos.org/c/505860))*
+- **[LineageOS/android_hardware_qcom_audio-ar]** core: Account for 'acnMask' *(ID: [505859](https://review.lineageos.org/c/505859))*
+- **[LineageOS/android_hardware_qcom_audio-ar]** core: Select parrot VINTF fargment for taro (cape|waipio) *(ID: [505858](https://review.lineageos.org/c/505858))*
+- **[LineageOS/android_hardware_qcom_audio-ar]** core: Implement createMmapBuffer via getParameters *(ID: [505857](https://review.lineageos.org/c/505857))*
+- **[LineageOS/android_vendor_qcom_opensource_arpal-lx]** pal: Fix compile errors on android-16.0.0_r4 *(ID: [505855](https://review.lineageos.org/c/505855))*
 
 </details>
 
-## 📱 Línea Motorola Activa (21)
+## 📱 Línea Motorola Activa (20)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_kernel_motorola_sm8250]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505878](https://review.lineageos.org/c/505878))*
 - **[LineageOS/android_kernel_motorola_sm6225]** arm64: configs: guamna: Build moto modules *(ID: [501509](https://review.lineageos.org/c/501509))*
 - **[LineageOS/android_kernel_motorola_sm6225]** techpack: camera-bengal: Enable legacy camera fix for guamna *(ID: [501508](https://review.lineageos.org/c/501508))*
 - **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: himax_v3_mmi: Fix CFI failure in module init *(ID: [501505](https://review.lineageos.org/c/501505))*
@@ -69,8 +70,6 @@
 - **[LineageOS/android_kernel_motorola_sm8475]** Remove qc mem offline driver. *(ID: [505206](https://review.lineageos.org/c/505206))*
 - **[LineageOS/android_device_motorola_sm6375-common]** sm6375-common: More notification icons on lockscreen *(ID: [504939](https://review.lineageos.org/c/504939))*
 - **[LineageOS/android_device_motorola_sm6375-common]** sm6375-common: More notification icons on AOD screen *(ID: [504938](https://review.lineageos.org/c/504938))*
-- **[LineageOS/android_device_motorola_sm6225-common]** sm6225-common: More notification icons on lockscreen *(ID: [504937](https://review.lineageos.org/c/504937))*
-- **[LineageOS/android_device_motorola_smith]** smith: Force gesture navigation mode *(ID: [503641](https://review.lineageos.org/c/503641))*
 
 </details>
 
