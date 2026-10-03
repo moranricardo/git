@@ -7,16 +7,20 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (216)
+## 🚨 Parches Críticos Detectados (218)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
 - **[LineageOS/android_hardware_qcom_audio-ar]** core: Account for 'acnMask' *(ID: [505859](https://review.lineageos.org/c/505859))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Update drivers from PLQ110_16.0.1.302(CN01) *(ID: [506061](https://review.lineageos.org/c/506061))*
-- **[LineageOS/android_hardware_samsung]** aidl: camera: fix `set_torch_mode_strength` for qualcomm devices *(ID: [506033](https://review.lineageos.org/c/506033))*
-- **[LineageOS/android_hardware_lineage_generic-ims]** ims: Add soong namespace *(ID: [506064](https://review.lineageos.org/c/506064))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: qcacld-3.0: Expand Oplus WLAN CONFIG forms for Kbuild *(ID: [506062](https://review.lineageos.org/c/506062))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Update drivers from PLQ110_16.0.1.302(CN01) *(ID: [506061](https://review.lineageos.org/c/506061))*
+- **[LineageOS/android_hardware_nxp_nfc]** nxp: Stop client thread spin and queue UAF *(ID: [506080](https://review.lineageos.org/c/506080))*
+- **[LineageOS/android_hardware_nxp_nfc]** nxp: Stop client thread spin and queue UAF *(ID: [506079](https://review.lineageos.org/c/506079))*
+- **[LineageOS/android_hardware_samsung]** aidl: camera: fix `set_torch_mode_strength` for qualcomm devices *(ID: [506033](https://review.lineageos.org/c/506033))*
+- **[LineageOS/android_hardware_nxp_nfc]** snxxx: Keep client thread on its own queue handle during teardown *(ID: [506083](https://review.lineageos.org/c/506083))*
+- **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [506084](https://review.lineageos.org/c/506084))*
+- **[LineageOS/android_hardware_lineage_generic-ims]** ims: Add soong namespace *(ID: [506064](https://review.lineageos.org/c/506064))*
 - **[LineageOS/android_hardware_qcom_display]** display: init: Update cape MSM/APQ/4G display properties *(ID: [505863](https://review.lineageos.org/c/505863))*
 - **[LineageOS/android_hardware_qcom_display]** display: Make sure panel supports HDR before advertising *(ID: [505862](https://review.lineageos.org/c/505862))*
 - **[LineageOS/android_hardware_qcom_audio-ar]** core: Implement createMmapBuffer via getParameters *(ID: [505857](https://review.lineageos.org/c/505857))*
@@ -38,20 +42,17 @@
 - **[LineageOS/android_frameworks_av]** Camera: Fix heap OOB read/write in camera mappers *(ID: [506021](https://review.lineageos.org/c/506021))*
 - **[LineageOS/android_frameworks_av]** Fix MediaBuffer size-inflation off-by-32 bug *(ID: [506019](https://review.lineageos.org/c/506019))*
 - **[LineageOS/android_frameworks_base]** [BACKPORT] Fix boot-loop vulnerability in setPermissionGrantState *(ID: [506018](https://review.lineageos.org/c/506018))*
-- **[LineageOS/android_frameworks_base]** SystemUi UsbDialog: fix label vulnerability *(ID: [506014](https://review.lineageos.org/c/506014))*
-- **[LineageOS/android_frameworks_base]** Fix URI grant persistence bypass *(ID: [506011](https://review.lineageos.org/c/506011))*
-- **[LineageOS/android_frameworks_opt_telephony]** Fix ArrayIndexOutOfBoundsException in SIMRecords due to invalid EF_CFIS/EF_CFF *(ID: [506009](https://review.lineageos.org/c/506009))*
-- **[LineageOS/android_packages_apps_Settings]** Fix confused deputy in Bluetooth settings dashboard *(ID: [506003](https://review.lineageos.org/c/506003))*
 
 </details>
 
-## 📱 Línea Motorola Activa (15)
+## 📱 Línea Motorola Activa (16)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
-- **[LineageOS/android_device_motorola_rtwo]** rtwo: Frameworks: Tune low-lux auto-brightness curve and debounce *(ID: [506065](https://review.lineageos.org/c/506065))*
 - **[LineageOS/android_device_motorola_beckham]** beckham: audio: Route audio Moto Mods through usb-headset paths *(ID: [505943](https://review.lineageos.org/c/505943))*
+- **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [506084](https://review.lineageos.org/c/506084))*
+- **[LineageOS/android_device_motorola_rtwo]** rtwo: Frameworks: Tune low-lux auto-brightness curve and debounce *(ID: [506065](https://review.lineageos.org/c/506065))*
 - **[LineageOS/android_device_motorola_beckham]** beckham: Bring back the prebuilt audio HAL *(ID: [506063](https://review.lineageos.org/c/506063))*
 - **[LineageOS/android_device_motorola_milanf]** milanf: Handle dt2w through power HAL extension *(ID: [479977](https://review.lineageos.org/c/479977))*
 - **[LineageOS/android_device_motorola_milanf]** milanf: Add common libqti-perfd-client to namespaces *(ID: [479978](https://review.lineageos.org/c/479978))*
