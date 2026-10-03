@@ -7,17 +7,30 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (221)
+## 🚨 Parches Críticos Detectados (216)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_qcom_audio-ar]** core: Account for 'acnMask' *(ID: [505859](https://review.lineageos.org/c/505859))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Update drivers from PLQ110_16.0.1.302(CN01) *(ID: [506061](https://review.lineageos.org/c/506061))*
+- **[LineageOS/android_hardware_samsung]** aidl: camera: fix `set_torch_mode_strength` for qualcomm devices *(ID: [506033](https://review.lineageos.org/c/506033))*
+- **[LineageOS/android_hardware_lineage_generic-ims]** ims: Add soong namespace *(ID: [506064](https://review.lineageos.org/c/506064))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: qcacld-3.0: Expand Oplus WLAN CONFIG forms for Kbuild *(ID: [506062](https://review.lineageos.org/c/506062))*
+- **[LineageOS/android_hardware_qcom_display]** display: init: Update cape MSM/APQ/4G display properties *(ID: [505863](https://review.lineageos.org/c/505863))*
+- **[LineageOS/android_hardware_qcom_display]** display: Make sure panel supports HDR before advertising *(ID: [505862](https://review.lineageos.org/c/505862))*
+- **[LineageOS/android_hardware_qcom_audio-ar]** core: Implement createMmapBuffer via getParameters *(ID: [505857](https://review.lineageos.org/c/505857))*
+- **[LineageOS/android_hardware_qcom_audio-ar]** core: Fix range-loop-construct error *(ID: [505861](https://review.lineageos.org/c/505861))*
+- **[LineageOS/android_hardware_qcom_audio-ar]** core: Add getFlushFromFrameSupport and mark unsupported *(ID: [505860](https://review.lineageos.org/c/505860))*
+- **[LineageOS/android_hardware_qcom_audio-ar]** core: Select parrot VINTF fargment for taro (cape|waipio) *(ID: [505858](https://review.lineageos.org/c/505858))*
+- **[LineageOS/android_vendor_qcom_opensource_arpal-lx]** pal: Fix compile errors on android-16.0.0_r4 *(ID: [505855](https://review.lineageos.org/c/505855))*
+- **[LineageOS/android_kernel_motorola_sm8250]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505878](https://review.lineageos.org/c/505878))*
+- **[LineageOS/android_kernel_fxtec_sm6115]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505877](https://review.lineageos.org/c/505877))*
+- **[LineageOS/android_kernel_qcom_sm8250]** Merge tag 'LA.UM.9.15.2.c26-08000-KAMORTA.QSSI13c26.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/camera-kernel into HEAD *(ID: [506059](https://review.lineageos.org/c/506059))*
 - **[LineageOS/android_device_mainline_generic]** mainline/generic: docs: boot-parameters: Fix the addon fstab location *(ID: [506054](https://review.lineageos.org/c/506054))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: grub: Add detailed READMEs *(ID: [506051](https://review.lineageos.org/c/506051))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: docs: Add WIRING_A_HAL.md *(ID: [506050](https://review.lineageos.org/c/506050))*
 - **[LineageOS/android_device_samsung_sm7125-common]** sm7125-common: enable fixed `camera_module_t` layout *(ID: [506034](https://review.lineageos.org/c/506034))*
-- **[LineageOS/android_hardware_oplus]** wvmkiller: Add support for AIDL *(ID: [438952](https://review.lineageos.org/c/438952))*
-- **[LineageOS/android_hardware_samsung]** aidl: camera: fix `set_torch_mode_strength` for qualcomm devices *(ID: [506033](https://review.lineageos.org/c/506033))*
 - **[LineageOS/android_hardware_mediatek]** aidl: add bluetooth audio session AIDL adapter *(ID: [505223](https://review.lineageos.org/c/505223))*
 - **[LineageOS/android_hardware_mediatek]** aidl: add bluetooth audio session HIDL adapter *(ID: [504900](https://review.lineageos.org/c/504900))*
 - **[LineageOS/android_hardware_mediatek]** hidl: audio: Make more universally usable *(ID: [504899](https://review.lineageos.org/c/504899))*
@@ -29,29 +42,21 @@
 - **[LineageOS/android_frameworks_base]** Fix URI grant persistence bypass *(ID: [506011](https://review.lineageos.org/c/506011))*
 - **[LineageOS/android_frameworks_opt_telephony]** Fix ArrayIndexOutOfBoundsException in SIMRecords due to invalid EF_CFIS/EF_CFF *(ID: [506009](https://review.lineageos.org/c/506009))*
 - **[LineageOS/android_packages_apps_Settings]** Fix confused deputy in Bluetooth settings dashboard *(ID: [506003](https://review.lineageos.org/c/506003))*
-- **[LineageOS/android_packages_providers_ContactsProvider]** Fix size check bypass for case-mismatched columns *(ID: [505999](https://review.lineageos.org/c/505999))*
-- **[LineageOS/android_packages_providers_DownloadProvider]** RESTRICT AUTOMERGE Fix ZWSP path bypass in DownloadProvider *(ID: [505997](https://review.lineageos.org/c/505997))*
-- **[LineageOS/android_packages_providers_DownloadProvider]** RESTRICT AUTOMERGE Fix DownloadProvider completed download security bypass *(ID: [505996](https://review.lineageos.org/c/505996))*
-- **[LineageOS/android_packages_providers_DownloadProvider]** RESTRICT AUTOMERGE Fix path traversal vulnerability in DownloadStorageProvider *(ID: [505995](https://review.lineageos.org/c/505995))*
-- **[LineageOS/android_packages_providers_TelephonyProvider]** TelephonyProvider: Fix SQL injection in projection and sortOrder *(ID: [505993](https://review.lineageos.org/c/505993))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: docs: Require CLAUDE.md in new components *(ID: [505992](https://review.lineageos.org/c/505992))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: docs: Require reading a component's AGENTS.md first *(ID: [505991](https://review.lineageos.org/c/505991))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: Import AGENTS.md from CLAUDE.md *(ID: [505990](https://review.lineageos.org/c/505990))*
-- **[LineageOS/android_system_libufdt]** libufdt: Fix stack overflow risk in vendor qsort *(ID: [505986](https://review.lineageos.org/c/505986))*
-- **[LineageOS/android_system_nfc]** Fix bounds check underflow and GKI buffer leak in T4T write *(ID: [505984](https://review.lineageos.org/c/505984))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/sensors/mainline: Keep bmi160 accel at 12.5 Hz or faster *(ID: [505962](https://review.lineageos.org/c/505962))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: bluetooth: audio: Add MTK changes *(ID: [505222](https://review.lineageos.org/c/505222))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: Import AOSP bluetooth audio session AIDL V1, rebranded *(ID: [505221](https://review.lineageos.org/c/505221))*
 
 </details>
 
-## 📱 Línea Motorola Activa (10)
+## 📱 Línea Motorola Activa (15)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_rtwo]** rtwo: Frameworks: Tune low-lux auto-brightness curve and debounce *(ID: [506065](https://review.lineageos.org/c/506065))*
 - **[LineageOS/android_device_motorola_beckham]** beckham: audio: Route audio Moto Mods through usb-headset paths *(ID: [505943](https://review.lineageos.org/c/505943))*
+- **[LineageOS/android_device_motorola_beckham]** beckham: Bring back the prebuilt audio HAL *(ID: [506063](https://review.lineageos.org/c/506063))*
+- **[LineageOS/android_device_motorola_milanf]** milanf: Handle dt2w through power HAL extension *(ID: [479977](https://review.lineageos.org/c/479977))*
+- **[LineageOS/android_device_motorola_milanf]** milanf: Add common libqti-perfd-client to namespaces *(ID: [479978](https://review.lineageos.org/c/479978))*
 - **[LineageOS/android_kernel_motorola_sm8250]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505878](https://review.lineageos.org/c/505878))*
+- **[LineageOS/android_device_motorola_xpeng]** xpeng: Increase auto brightness light bouce/debounce *(ID: [506060](https://review.lineageos.org/c/506060))*
 - **[LineageOS/android_kernel_motorola_sm6225]** arm64: configs: guamna: Build moto modules *(ID: [501509](https://review.lineageos.org/c/501509))*
 - **[LineageOS/android_kernel_motorola_sm6225]** techpack: camera-bengal: Enable legacy camera fix for guamna *(ID: [501508](https://review.lineageos.org/c/501508))*
 - **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: himax_v3_mmi: Fix CFI failure in module init *(ID: [501505](https://review.lineageos.org/c/501505))*
