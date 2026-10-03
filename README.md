@@ -1,17 +1,19 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-02-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-03-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (228)
+## 🚨 Parches Críticos Detectados (221)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_device_mainline_generic]** mainline/generic: docs: boot-parameters: Fix the addon fstab location *(ID: [506054](https://review.lineageos.org/c/506054))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: grub: Add detailed READMEs *(ID: [506051](https://review.lineageos.org/c/506051))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: docs: Add WIRING_A_HAL.md *(ID: [506050](https://review.lineageos.org/c/506050))*
 - **[LineageOS/android_device_samsung_sm7125-common]** sm7125-common: enable fixed `camera_module_t` layout *(ID: [506034](https://review.lineageos.org/c/506034))*
 - **[LineageOS/android_hardware_oplus]** wvmkiller: Add support for AIDL *(ID: [438952](https://review.lineageos.org/c/438952))*
@@ -40,8 +42,6 @@
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/sensors/mainline: Keep bmi160 accel at 12.5 Hz or faster *(ID: [505962](https://review.lineageos.org/c/505962))*
 - **[LineageOS/android_hardware_mediatek]** interfaces: bluetooth: audio: Add MTK changes *(ID: [505222](https://review.lineageos.org/c/505222))*
 - **[LineageOS/android_hardware_mediatek]** interfaces: Import AOSP bluetooth audio session AIDL V1, rebranded *(ID: [505221](https://review.lineageos.org/c/505221))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: bluetooth: audio: Add MTK changes *(ID: [504898](https://review.lineageos.org/c/504898))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: add AOSP BT Audio session HIDL with only name/version changes *(ID: [504897](https://review.lineageos.org/c/504897))*
 
 </details>
 
