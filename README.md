@@ -7,49 +7,51 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (218)
+## 🚨 Parches Críticos Detectados (232)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** wlan: Import additional changes from PLQ110_16.0.9.401(CN01) *(ID: [503157](https://review.lineageos.org/c/503157))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** display-drivers: Fix LHBM touch state handling *(ID: [506129](https://review.lineageos.org/c/506129))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** camera-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503152](https://review.lineageos.org/c/503152))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** audio-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503151](https://review.lineageos.org/c/503151))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** video-driver: Updates changes from PLQ110_16.0.9.401(CN01) *(ID: [503150](https://review.lineageos.org/c/503150))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** display-drivers: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503149](https://review.lineageos.org/c/503149))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: Configure iceland GPIO lid switch *(ID: [506128](https://review.lineageos.org/c/506128))*
+- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** treewide: Update changes from CPH2795_16.0.5.702(EX01) *(ID: [503146](https://review.lineageos.org/c/503146))*
+- **[LineageOS/android_kernel_oneplus_sm8750-devicetrees]** qcom: AA610: Drop 30hz completely *(ID: [503147](https://review.lineageos.org/c/503147))*
+- **[LineageOS/android_hardware_samsung]** packages: implement SamsungCallManager *(ID: [506121](https://review.lineageos.org/c/506121))*
+- **[LineageOS/android_hardware_mediatek]** interfaces: bluetooth: audio: Add v2 version for U vendors *(ID: [506113](https://review.lineageos.org/c/506113))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Bring up support for iceland (OnePlus Pad 4) *(ID: [505549](https://review.lineageos.org/c/505549))*
+- **[LineageOS/android_kernel_oneplus_sm8850]** kleaf: Allow overriding DTBO config *(ID: [505918](https://review.lineageos.org/c/505918))*
+- **[LineageOS/android_kernel_oneplus_sm8850]** treewide: Update oplus changes from CPH2841_16.0.6.103(EX01) *(ID: [505917](https://review.lineageos.org/c/505917))*
+- **[LineageOS/android_kernel_oneplus_sm8850]** treewide: Update oplus changes from OPD2514_16.0.6.103(EX01) *(ID: [505916](https://review.lineageos.org/c/505916))*
+- **[LineageOS/android_hardware_samsung]** shims: Use a shim for overriding g_sco_samplerate *(ID: [506122](https://review.lineageos.org/c/506122))*
+- **[LineageOS/android_hardware_qcom_audio-ar]** core: Select parrot VINTF fragment for taro (cape|waipio) *(ID: [505858](https://review.lineageos.org/c/505858))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** qcom: wlan: Update oplus changes from CPH2841_16.0.6.103(EX01) *(ID: [505924](https://review.lineageos.org/c/505924))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** ARM: dts: oplus: Add DTBO configs *(ID: [505937](https://review.lineageos.org/c/505937))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: charger: Match function IDs to the generated driver interface *(ID: [505936](https://review.lineageos.org/c/505936))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** ARM: dts: oplus: dengta: Merge techpack devicetrees *(ID: [505935](https://review.lineageos.org/c/505935))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** ARM: dts: oplus: iceland: Merge techpack devicetrees *(ID: [505934](https://review.lineageos.org/c/505934))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: devicetree: Import dengta dts from CPH2841_16.0.6.103 *(ID: [505933](https://review.lineageos.org/c/505933))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: display: Import lighthouse dts from CPH2841_16.0.6.103 *(ID: [505932](https://review.lineageos.org/c/505932))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: camera: Import lighthouse dts from CPH2841_16.0.6.103 *(ID: [505931](https://review.lineageos.org/c/505931))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: audio: Import dengta dts from CPH2841_16.0.6.103 *(ID: [505930](https://review.lineageos.org/c/505930))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: devicetree: Import iceland dts from OPD2514_16.0.6.103 *(ID: [505929](https://review.lineageos.org/c/505929))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: display: Import iceland dts from OPD2514_16.0.6.103 *(ID: [505928](https://review.lineageos.org/c/505928))*
 - **[LineageOS/android_hardware_qcom_audio-ar]** core: Account for 'acnMask' *(ID: [505859](https://review.lineageos.org/c/505859))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: qcacld-3.0: Expand Oplus WLAN CONFIG forms for Kbuild *(ID: [506062](https://review.lineageos.org/c/506062))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Update drivers from PLQ110_16.0.1.302(CN01) *(ID: [506061](https://review.lineageos.org/c/506061))*
-- **[LineageOS/android_hardware_nxp_nfc]** nxp: Stop client thread spin and queue UAF *(ID: [506080](https://review.lineageos.org/c/506080))*
-- **[LineageOS/android_hardware_nxp_nfc]** nxp: Stop client thread spin and queue UAF *(ID: [506079](https://review.lineageos.org/c/506079))*
-- **[LineageOS/android_hardware_samsung]** aidl: camera: fix `set_torch_mode_strength` for qualcomm devices *(ID: [506033](https://review.lineageos.org/c/506033))*
-- **[LineageOS/android_hardware_nxp_nfc]** snxxx: Keep client thread on its own queue handle during teardown *(ID: [506083](https://review.lineageos.org/c/506083))*
-- **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [506084](https://review.lineageos.org/c/506084))*
-- **[LineageOS/android_hardware_lineage_generic-ims]** ims: Add soong namespace *(ID: [506064](https://review.lineageos.org/c/506064))*
-- **[LineageOS/android_hardware_qcom_display]** display: init: Update cape MSM/APQ/4G display properties *(ID: [505863](https://review.lineageos.org/c/505863))*
-- **[LineageOS/android_hardware_qcom_display]** display: Make sure panel supports HDR before advertising *(ID: [505862](https://review.lineageos.org/c/505862))*
-- **[LineageOS/android_hardware_qcom_audio-ar]** core: Implement createMmapBuffer via getParameters *(ID: [505857](https://review.lineageos.org/c/505857))*
-- **[LineageOS/android_hardware_qcom_audio-ar]** core: Fix range-loop-construct error *(ID: [505861](https://review.lineageos.org/c/505861))*
-- **[LineageOS/android_hardware_qcom_audio-ar]** core: Add getFlushFromFrameSupport and mark unsupported *(ID: [505860](https://review.lineageos.org/c/505860))*
-- **[LineageOS/android_hardware_qcom_audio-ar]** core: Select parrot VINTF fargment for taro (cape|waipio) *(ID: [505858](https://review.lineageos.org/c/505858))*
-- **[LineageOS/android_vendor_qcom_opensource_arpal-lx]** pal: Fix compile errors on android-16.0.0_r4 *(ID: [505855](https://review.lineageos.org/c/505855))*
-- **[LineageOS/android_kernel_motorola_sm8250]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505878](https://review.lineageos.org/c/505878))*
-- **[LineageOS/android_kernel_fxtec_sm6115]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505877](https://review.lineageos.org/c/505877))*
-- **[LineageOS/android_kernel_qcom_sm8250]** Merge tag 'LA.UM.9.15.2.c26-08000-KAMORTA.QSSI13c26.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/camera-kernel into HEAD *(ID: [506059](https://review.lineageos.org/c/506059))*
-- **[LineageOS/android_device_mainline_generic]** mainline/generic: docs: boot-parameters: Fix the addon fstab location *(ID: [506054](https://review.lineageos.org/c/506054))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: grub: Add detailed READMEs *(ID: [506051](https://review.lineageos.org/c/506051))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: docs: Add WIRING_A_HAL.md *(ID: [506050](https://review.lineageos.org/c/506050))*
-- **[LineageOS/android_device_samsung_sm7125-common]** sm7125-common: enable fixed `camera_module_t` layout *(ID: [506034](https://review.lineageos.org/c/506034))*
-- **[LineageOS/android_hardware_mediatek]** aidl: add bluetooth audio session AIDL adapter *(ID: [505223](https://review.lineageos.org/c/505223))*
-- **[LineageOS/android_hardware_mediatek]** aidl: add bluetooth audio session HIDL adapter *(ID: [504900](https://review.lineageos.org/c/504900))*
-- **[LineageOS/android_hardware_mediatek]** hidl: audio: Make more universally usable *(ID: [504899](https://review.lineageos.org/c/504899))*
-- **[LineageOS/android_vendor_qcom_opensource_system_bt]** [RESTRICT AUTOMERGE] Fix SDP server heap buffer overflow *(ID: [506028](https://review.lineageos.org/c/506028))*
-- **[LineageOS/android_frameworks_av]** Camera: Fix heap OOB read/write in camera mappers *(ID: [506021](https://review.lineageos.org/c/506021))*
-- **[LineageOS/android_frameworks_av]** Fix MediaBuffer size-inflation off-by-32 bug *(ID: [506019](https://review.lineageos.org/c/506019))*
-- **[LineageOS/android_frameworks_base]** [BACKPORT] Fix boot-loop vulnerability in setPermissionGrantState *(ID: [506018](https://review.lineageos.org/c/506018))*
 
 </details>
 
-## 📱 Línea Motorola Activa (16)
+## 📱 Línea Motorola Activa (21)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Update blobs from W1UANS36H.29-25-2-6 9d51f-e4bde5 *(ID: [506143](https://review.lineageos.org/c/506143))*
+- **[LineageOS/android_device_motorola_avatrn]** avatrn: Update blobs from W1UANS36H.29-25-2-6 9d51f-e4bde5 *(ID: [506142](https://review.lineageos.org/c/506142))*
 - **[LineageOS/android_device_motorola_beckham]** beckham: audio: Route audio Moto Mods through usb-headset paths *(ID: [505943](https://review.lineageos.org/c/505943))*
 - **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [506084](https://review.lineageos.org/c/506084))*
 - **[LineageOS/android_device_motorola_rtwo]** rtwo: Frameworks: Tune low-lux auto-brightness curve and debounce *(ID: [506065](https://review.lineageos.org/c/506065))*
@@ -66,6 +68,9 @@
 - **[LineageOS/android_device_motorola_smith]** smith: Use MMI touchscreen class to toggle dt2w [2/2] *(ID: [505697](https://review.lineageos.org/c/505697))*
 - **[LineageOS/android_device_motorola_smith]** smith: overlay: Update deprecated screen power items *(ID: [505696](https://review.lineageos.org/c/505696))*
 - **[LineageOS/android_hardware_motorola]** MotoActions: remove help dialog *(ID: [505404](https://review.lineageos.org/c/505404))*
+- **[LineageOS/android_kernel_motorola_sm8475-modules]** motorola: treewide: Fix base include *(ID: [505398](https://review.lineageos.org/c/505398))*
+- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Drop qspmhal *(ID: [505386](https://review.lineageos.org/c/505386))*
+- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Drop qspmhal *(ID: [505247](https://review.lineageos.org/c/505247))*
 
 </details>
 
