@@ -7,45 +7,45 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (242)
+## 🚨 Parches Críticos Detectados (229)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_xiaomi_sm8550-modules]** camera-kernel: cam_eeprom: Improve power sequencing in read retries *(ID: [505641](https://review.lineageos.org/c/505641))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: Configure iceland GPIO lid switch *(ID: [506128](https://review.lineageos.org/c/506128))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Force TMS_DEVICE config *(ID: [504796](https://review.lineageos.org/c/504796))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Disable TMS debug flags *(ID: [504797](https://review.lineageos.org/c/504797))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-devicetrees]** qcom: Delete mem-offline node to fully disable PASR *(ID: [492920](https://review.lineageos.org/c/492920))*
+- **[LineageOS/android_hardware_samsung]** packages: implement SamsungCallManager *(ID: [506121](https://review.lineageos.org/c/506121))*
+- **[LineageOS/android_hardware_samsung]** shims: Use a shim for overriding g_sco_samplerate *(ID: [506122](https://review.lineageos.org/c/506122))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** display-drivers: Fix LHBM touch state handling *(ID: [506129](https://review.lineageos.org/c/506129))*
+- **[LineageOS/android_system_nfc]** Fix bounds check underflow and GKI buffer leak in T4T write *(ID: [505984](https://review.lineageos.org/c/505984))*
+- **[LineageOS/android_system_libufdt]** libufdt: Fix stack overflow risk in vendor qsort *(ID: [505986](https://review.lineageos.org/c/505986))*
+- **[LineageOS/android_packages_providers_TelephonyProvider]** TelephonyProvider: Fix SQL injection in projection and sortOrder *(ID: [505993](https://review.lineageos.org/c/505993))*
+- **[LineageOS/android_packages_providers_DownloadProvider]** RESTRICT AUTOMERGE Fix ZWSP path bypass in DownloadProvider *(ID: [505997](https://review.lineageos.org/c/505997))*
+- **[LineageOS/android_packages_providers_DownloadProvider]** RESTRICT AUTOMERGE Fix DownloadProvider completed download security bypass *(ID: [505996](https://review.lineageos.org/c/505996))*
+- **[LineageOS/android_packages_providers_DownloadProvider]** RESTRICT AUTOMERGE Fix path traversal vulnerability in DownloadStorageProvider *(ID: [505995](https://review.lineageos.org/c/505995))*
+- **[LineageOS/android_packages_providers_ContactsProvider]** Fix size check bypass for case-mismatched columns *(ID: [505999](https://review.lineageos.org/c/505999))*
+- **[LineageOS/android_packages_apps_Settings]** Fix confused deputy in Bluetooth settings dashboard *(ID: [506003](https://review.lineageos.org/c/506003))*
+- **[LineageOS/android_frameworks_opt_telephony]** Fix ArrayIndexOutOfBoundsException in SIMRecords due to invalid EF_CFIS/EF_CFF *(ID: [506009](https://review.lineageos.org/c/506009))*
+- **[LineageOS/android_frameworks_base]** [BACKPORT] Fix boot-loop vulnerability in setPermissionGrantState *(ID: [506018](https://review.lineageos.org/c/506018))*
+- **[LineageOS/android_frameworks_base]** SystemUi UsbDialog: fix label vulnerability *(ID: [506014](https://review.lineageos.org/c/506014))*
+- **[LineageOS/android_frameworks_base]** Fix URI grant persistence bypass *(ID: [506011](https://review.lineageos.org/c/506011))*
+- **[LineageOS/android_frameworks_av]** Camera: Fix heap OOB read/write in camera mappers *(ID: [506021](https://review.lineageos.org/c/506021))*
+- **[LineageOS/android_frameworks_av]** Fix MediaBuffer size-inflation off-by-32 bug *(ID: [506019](https://review.lineageos.org/c/506019))*
+- **[LineageOS/android_device_samsung_sm7125-common]** sm7125-common: enable fixed `camera_module_t` layout *(ID: [506034](https://review.lineageos.org/c/506034))*
+- **[LineageOS/android_hardware_samsung]** aidl: camera: fix `set_torch_mode_strength` for devices using UniHAL *(ID: [506033](https://review.lineageos.org/c/506033))*
+- **[LineageOS/android_kernel_xiaomi_sm8450]** fsa4480: Fix incorrect FSA4480 supply mode property handling. *(ID: [504923](https://review.lineageos.org/c/504923))*
+- **[LineageOS/android_kernel_qcom_sm8150]** UPSTREAM:cgroup: get rid of cgroup_freezer_frozen_exit() *(ID: [506196](https://review.lineageos.org/c/506196))*
+- **[LineageOS/android_kernel_qcom_sm8150]** UPSTREAM:cgroup: prevent spurious transition into non-frozen state *(ID: [506195](https://review.lineageos.org/c/506195))*
+- **[LineageOS/android_vendor_lineage]** kernel: Add flag to set KCONFIG_EXT_PREFIX *(ID: [489817](https://review.lineageos.org/c/489817))*
+- **[LineageOS/android_kernel_qcom_sm8250]** Reapply "arm64: configs: vendor: Enable CONFIG_FUSE_BPF" *(ID: [496134](https://review.lineageos.org/c/496134))*
+- **[LineageOS/android_kernel_qcom_sm8250]** sdcardfs: Isolate Android/{data,obb} outside the default view *(ID: [506262](https://review.lineageos.org/c/506262))*
+- **[LineageOS/android_kernel_qcom_sm8250]** sdcardfs: Return negative dentries for missing names *(ID: [506261](https://review.lineageos.org/c/506261))*
+- **[LineageOS/android_kernel_qcom_sm8250]** fuse-bpf: Pass backing vfsmount to sdcardfs *(ID: [506260](https://review.lineageos.org/c/506260))*
+- **[LineageOS/android_hardware_mediatek]** interfaces: bluetooth: audio: Add frozen version for each vendor *(ID: [506113](https://review.lineageos.org/c/506113))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Add KBUILD_EXTRA_SYMBOLS to resolve cross-module symbols *(ID: [506219](https://review.lineageos.org/c/506219))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** nxp: Fix inline build *(ID: [504795](https://review.lineageos.org/c/504795))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** nxp: Update changes to CPH2653_16.0.1.304(EX01) *(ID: [471273](https://review.lineageos.org/c/471273))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Fix inline build *(ID: [460130](https://review.lineageos.org/c/460130))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** Merge remote-tracking branch 'sm8750-modules/lineage-22.2' into HEAD *(ID: [505210](https://review.lineageos.org/c/505210))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: Import NFC drivers from PLQ110_16.0.1.302(CN01) *(ID: [506061](https://review.lineageos.org/c/506061))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Unconditionally build the modules *(ID: [460123](https://review.lineageos.org/c/460123))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: oplus_touchscreen_v2: Always enable gestures and assign unique keycodes *(ID: [506201](https://review.lineageos.org/c/506201))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: oplus_touchscreen_v2: Drop ABS_TOUCH_COST_TIME_KERNEL bit *(ID: [506203](https://review.lineageos.org/c/506203))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: oplus_touchscreen_v2: Default to enable pen function when boot up *(ID: [506202](https://review.lineageos.org/c/506202))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Bring up support for iceland (OnePlus Pad 4) *(ID: [505549](https://review.lineageos.org/c/505549))*
-- **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: cgroup: remove unnecessary unlikely() *(ID: [506187](https://review.lineageos.org/c/506187))*
-- **[LineageOS/android_kernel_qcom_sm8150]** UPSTREAM:cgroup: get rid of cgroup_freezer_frozen_exit() A task should never enter the exit path with the task->frozen bit set. Any frozen task must enter the signal handling loop and the only way to escape is through cgroup_leave_frozen(true), which unconditionally drops the task->frozen bit. So it means that cgroyp_freezer_frozen_exit() has zero chances to be called and has to be removed. *(ID: [506196](https://review.lineageos.org/c/506196))*
-- **[LineageOS/android_kernel_qcom_sm8150]** UPSTREAM:cgroup: prevent spurious transition into non-frozen state If freezing of a cgroup races with waking of a task from the frozen state (like waiting in vfork() or in do_signal_stop()), a spurious transition of the cgroup state can happen. *(ID: [506195](https://review.lineageos.org/c/506195))*
-- **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: signal: unconditionally leave the frozen state in ptrace_stop() *(ID: [506194](https://review.lineageos.org/c/506194))*
-- **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: cgroup: Remove unused cgrp variable *(ID: [506193](https://review.lineageos.org/c/506193))*
-- **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: cgroup: freezer: call cgroup_enter_frozen() with preemption disabled in ptrace_stop() *(ID: [506192](https://review.lineageos.org/c/506192))*
-- **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: cgroup: freezer: fix frozen state inheritance *(ID: [506191](https://review.lineageos.org/c/506191))*
-- **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: cgroup: remove extra cgroup_migrate_finish() call *(ID: [506190](https://review.lineageos.org/c/506190))*
-- **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: cgroup: saner refcounting for cgroup_root *(ID: [506189](https://review.lineageos.org/c/506189))*
-- **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: cgroup: Add named hierarchy disabling to cgroup_no_v1 boot param *(ID: [506188](https://review.lineageos.org/c/506188))*
-- **[LineageOS/android_kernel_qcom_sm8150]** UPSTREAM: cgroup: add cgroup_parse_float() *(ID: [506186](https://review.lineageos.org/c/506186))*
-- **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: cgroup: Explicitly remove core interface files *(ID: [506185](https://review.lineageos.org/c/506185))*
-- **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: cgroup: Update documentation reference *(ID: [506184](https://review.lineageos.org/c/506184))*
-- **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: cgroup: make cgroup.threads delegatable *(ID: [506183](https://review.lineageos.org/c/506183))*
-- **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: string: drop __must_check from strscpy() and restore strscpy() usages in cgroup *(ID: [506182](https://review.lineageos.org/c/506182))*
 
 </details>
 
-## 📱 Línea Motorola Activa (25)
+## 📱 Línea Motorola Activa (24)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
@@ -74,7 +74,6 @@
 - **[LineageOS/android_device_motorola_smith]** smith: Drop soundtrigger HAL *(ID: [505698](https://review.lineageos.org/c/505698))*
 - **[LineageOS/android_device_motorola_smith]** smith: Use MMI touchscreen class to toggle dt2w [2/2] *(ID: [505697](https://review.lineageos.org/c/505697))*
 - **[LineageOS/android_device_motorola_smith]** smith: overlay: Update deprecated screen power items *(ID: [505696](https://review.lineageos.org/c/505696))*
-- **[LineageOS/android_hardware_motorola]** MotoActions: remove help dialog *(ID: [505404](https://review.lineageos.org/c/505404))*
 
 </details>
 
