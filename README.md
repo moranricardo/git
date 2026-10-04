@@ -7,11 +7,26 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (241)
+## 🚨 Parches Críticos Detectados (242)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_xiaomi_sm8550-modules]** camera-kernel: cam_eeprom: Improve power sequencing in read retries *(ID: [505641](https://review.lineageos.org/c/505641))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: Configure iceland GPIO lid switch *(ID: [506128](https://review.lineageos.org/c/506128))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Force TMS_DEVICE config *(ID: [504796](https://review.lineageos.org/c/504796))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Disable TMS debug flags *(ID: [504797](https://review.lineageos.org/c/504797))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Add KBUILD_EXTRA_SYMBOLS to resolve cross-module symbols *(ID: [506219](https://review.lineageos.org/c/506219))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** nxp: Fix inline build *(ID: [504795](https://review.lineageos.org/c/504795))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** nxp: Update changes to CPH2653_16.0.1.304(EX01) *(ID: [471273](https://review.lineageos.org/c/471273))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Fix inline build *(ID: [460130](https://review.lineageos.org/c/460130))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** Merge remote-tracking branch 'sm8750-modules/lineage-22.2' into HEAD *(ID: [505210](https://review.lineageos.org/c/505210))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: Import NFC drivers from PLQ110_16.0.1.302(CN01) *(ID: [506061](https://review.lineageos.org/c/506061))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Unconditionally build the modules *(ID: [460123](https://review.lineageos.org/c/460123))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: oplus_touchscreen_v2: Always enable gestures and assign unique keycodes *(ID: [506201](https://review.lineageos.org/c/506201))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: oplus_touchscreen_v2: Drop ABS_TOUCH_COST_TIME_KERNEL bit *(ID: [506203](https://review.lineageos.org/c/506203))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: oplus_touchscreen_v2: Default to enable pen function when boot up *(ID: [506202](https://review.lineageos.org/c/506202))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Bring up support for iceland (OnePlus Pad 4) *(ID: [505549](https://review.lineageos.org/c/505549))*
 - **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: cgroup: remove unnecessary unlikely() *(ID: [506187](https://review.lineageos.org/c/506187))*
 - **[LineageOS/android_kernel_qcom_sm8150]** UPSTREAM:cgroup: get rid of cgroup_freezer_frozen_exit() A task should never enter the exit path with the task->frozen bit set. Any frozen task must enter the signal handling loop and the only way to escape is through cgroup_leave_frozen(true), which unconditionally drops the task->frozen bit. So it means that cgroyp_freezer_frozen_exit() has zero chances to be called and has to be removed. *(ID: [506196](https://review.lineageos.org/c/506196))*
 - **[LineageOS/android_kernel_qcom_sm8150]** UPSTREAM:cgroup: prevent spurious transition into non-frozen state If freezing of a cgroup races with waking of a task from the frozen state (like waiting in vfork() or in do_signal_stop()), a spurious transition of the cgroup state can happen. *(ID: [506195](https://review.lineageos.org/c/506195))*
@@ -27,21 +42,6 @@
 - **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: cgroup: Update documentation reference *(ID: [506184](https://review.lineageos.org/c/506184))*
 - **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: cgroup: make cgroup.threads delegatable *(ID: [506183](https://review.lineageos.org/c/506183))*
 - **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: string: drop __must_check from strscpy() and restore strscpy() usages in cgroup *(ID: [506182](https://review.lineageos.org/c/506182))*
-- **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: cgroup: use strlcpy() instead of strscpy() to avoid spurious warning *(ID: [506181](https://review.lineageos.org/c/506181))*
-- **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: cgroup: avoid copying strings longer than the buffers *(ID: [506180](https://review.lineageos.org/c/506180))*
-- **[LineageOS/android_kernel_qcom_sm8150]** BACKPORT: cgroup: statically initialize init_css_set->dfl_cgrp *(ID: [506179](https://review.lineageos.org/c/506179))*
-- **[LineageOS/android_hardware_nxp_nfc]** nxp: Stop client thread spin and queue UAF *(ID: [506080](https://review.lineageos.org/c/506080))*
-- **[LineageOS/android_hardware_nxp_nfc]** nxp: Stop client thread spin and queue UAF *(ID: [506079](https://review.lineageos.org/c/506079))*
-- **[LineageOS/android_kernel_motorola_sm8550]** misc: Don't pull shmem_mapping() into the RichTap modules *(ID: [506153](https://review.lineageos.org/c/506153))*
-- **[LineageOS/android_kernel_motorola_sm8550]** input: misc: qcom-hv-haptics: set custom effect max mv to richtap value *(ID: [506152](https://review.lineageos.org/c/506152))*
-- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: vibrator: effect: fix -Wreorder-init-list *(ID: [506148](https://review.lineageos.org/c/506148))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** wlan: Import additional changes from PLQ110_16.0.9.401(CN01) *(ID: [503157](https://review.lineageos.org/c/503157))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** display-drivers: Fix LHBM touch state handling *(ID: [506129](https://review.lineageos.org/c/506129))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** camera-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503152](https://review.lineageos.org/c/503152))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** audio-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503151](https://review.lineageos.org/c/503151))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** video-driver: Updates changes from PLQ110_16.0.9.401(CN01) *(ID: [503150](https://review.lineageos.org/c/503150))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** display-drivers: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503149](https://review.lineageos.org/c/503149))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: Configure iceland GPIO lid switch *(ID: [506128](https://review.lineageos.org/c/506128))*
 
 </details>
 
