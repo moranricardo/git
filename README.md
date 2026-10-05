@@ -7,41 +7,41 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (222)
+## 🚨 Parches Críticos Detectados (214)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: configs: khadas: Move HYM8563 to khadas_defconfig *(ID: [506375](https://review.lineageos.org/c/506375))*
-- **[LineageOS/android_device_xiaomi_whyred]** whyred: Add second blob sha1sum for fixed-up libMiWatermark *(ID: [506372](https://review.lineageos.org/c/506372))*
-- **[LineageOS/android_device_xiaomi_whyred]** whyred: Prevent adding same dependency twice in blob_fixup *(ID: [506370](https://review.lineageos.org/c/506370))*
-- **[LineageOS/android_device_xiaomi_platina]** platina: Prevent adding same dependency twice in blob_fixup *(ID: [506365](https://review.lineageos.org/c/506365))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Bring up support for iceland (OnePlus Pad 4) *(ID: [505549](https://review.lineageos.org/c/505549))*
-- **[LineageOS/android_hardware_oplus]** Pen: Cap peak refresh rate whenever it exceeds the pen's *(ID: [506355](https://review.lineageos.org/c/506355))*
-- **[LineageOS/android_hardware_oplus]** Pen: Relay BLE pen pressure to the touch HAL *(ID: [506354](https://review.lineageos.org/c/506354))*
+- **[LineageOS/android_kernel_samsung_sm8250]** techpack: display: sec: Define dim LUT for S6TUUM2 and S6TUUM3 panels *(ID: [425502](https://review.lineageos.org/c/425502))*
+- **[LineageOS/android_kernel_samsung_sm8250]** techpack: display: Decouple FOD HBM from dimming alpha *(ID: [506423](https://review.lineageos.org/c/506423))*
+- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Implement QTI vibrator HAL effects *(ID: [506312](https://review.lineageos.org/c/506312))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add Dolby Vision DVS service policy *(ID: [506418](https://review.lineageos.org/c/506418))*
+- **[LineageOS/android_hardware_oplus]** vintf: Add vendor.dolby.dvs to framework matrix *(ID: [506417](https://review.lineageos.org/c/506417))*
+- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506420](https://review.lineageos.org/c/506420))*
+- **[LineageOS/android_hardware_oplus]** OplusDoze: Remove help dialog *(ID: [506382](https://review.lineageos.org/c/506382))*
+- **[LineageOS/android_hardware_oneplus]** OnePlusDoze: Remove help dialog *(ID: [506383](https://review.lineageos.org/c/506383))*
+- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Apply effect strength *(ID: [506313](https://review.lineageos.org/c/506313))*
 - **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Tune wave mapping and strength *(ID: [506314](https://review.lineageos.org/c/506314))*
-- **[LineageOS/android_kernel_qcom_sm8250]** Reapply "arm64: configs: vendor: Enable CONFIG_FUSE_BPF" *(ID: [496134](https://review.lineageos.org/c/496134))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Sync setup with Pixels *(ID: [506327](https://review.lineageos.org/c/506327))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Add HDMI passthrough *(ID: [505548](https://review.lineageos.org/c/505548))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Add opt-in FAST primary output *(ID: [505543](https://review.lineageos.org/c/505543))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Fix MaxPower value for USB 3.0 devices *(ID: [506328](https://review.lineageos.org/c/506328))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Drop mtk_rndis.gs4 references *(ID: [506326](https://review.lineageos.org/c/506326))*
-- **[LineageOS/android_device_osom_ingot]** ingot: Fix charge control on 6.6 *(ID: [505508](https://review.lineageos.org/c/505508))*
 - **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: aw8693x: Program sequencer wait slot unit *(ID: [506311](https://review.lineageos.org/c/506311))*
 - **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Parse wave lengths from haptic_ram.bin *(ID: [506310](https://review.lineageos.org/c/506310))*
-- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Implement QTI vibrator HAL effects *(ID: [506312](https://review.lineageos.org/c/506312))*
-- **[LineageOS/android_hardware_qcom_display]** composer: Update getDisplayConfigurations API *(ID: [506322](https://review.lineageos.org/c/506322))*
-- **[LineageOS/android_hardware_motorola]** Motorola: sensors: add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
-- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Apply effect strength *(ID: [506313](https://review.lineageos.org/c/506313))*
-- **[LineageOS/android_hardware_mediatek]** hidl: audio: Make more universally usable *(ID: [504899](https://review.lineageos.org/c/504899))*
+- **[LineageOS/android_kernel_qcom_sm8850-devicetrees]** qcom: Build techpack devicetrees inline *(ID: [506413](https://review.lineageos.org/c/506413))*
+- **[LineageOS/android_kernel_qcom_sm8850-devicetrees]** bazel: build: Expose the devicetree sources with the techpack Kbuild files *(ID: [506412](https://review.lineageos.org/c/506412))*
+- **[LineageOS/android_kernel_qcom_sm8850]** kleaf: Export unmerged base and techpack DTBs for platform merge *(ID: [506411](https://review.lineageos.org/c/506411))*
+- **[LineageOS/android_device_samsung_sm7325-common]** sm7325-common: enable fixed `camera_module_t` layout *(ID: [506410](https://review.lineageos.org/c/506410))*
 - **[LineageOS/android_hardware_mediatek]** interfaces: bluetooth: audio: Add frozen version for each vendor *(ID: [506113](https://review.lineageos.org/c/506113))*
 - **[LineageOS/android_hardware_mediatek]** aidl: add bluetooth audio session AIDL adapter *(ID: [505223](https://review.lineageos.org/c/505223))*
 - **[LineageOS/android_hardware_mediatek]** aidl: add bluetooth audio session HIDL adapter *(ID: [504900](https://review.lineageos.org/c/504900))*
+- **[LineageOS/android_hardware_mediatek]** hidl: audio: Make more universally usable *(ID: [504899](https://review.lineageos.org/c/504899))*
 - **[LineageOS/android_hardware_mediatek]** interfaces: bluetooth: audio: Add MTK changes *(ID: [505222](https://review.lineageos.org/c/505222))*
 - **[LineageOS/android_hardware_mediatek]** interfaces: Import AOSP bluetooth audio session AIDL V1, rebranded *(ID: [505221](https://review.lineageos.org/c/505221))*
 - **[LineageOS/android_hardware_mediatek]** interfaces: bluetooth: audio: Add MTK changes *(ID: [504898](https://review.lineageos.org/c/504898))*
 - **[LineageOS/android_hardware_mediatek]** interfaces: add AOSP BT Audio session HIDL with only name/version changes *(ID: [504897](https://review.lineageos.org/c/504897))*
 - **[LineageOS/android_hardware_samsung]** shims: Use a shim for overriding g_sco_samplerate *(ID: [506122](https://review.lineageos.org/c/506122))*
+- **[LineageOS/android_hardware_samsung]** shims: samsungaudioparams: str_parms_get_str -> str_parms_get_int *(ID: [506389](https://review.lineageos.org/c/506389))*
+- **[LineageOS/android_hardware_samsung]** packages: implement SamsungCallManager *(ID: [506121](https://review.lineageos.org/c/506121))*
+- **[LineageOS/android_kernel_xiaomi_sm8550]** Merge https://github.com/LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [506391](https://review.lineageos.org/c/506391))*
+- **[LineageOS/android_frameworks_base]** Fix potential OOM in PduParser by using stream skip *(ID: [506388](https://review.lineageos.org/c/506388))*
+- **[LineageOS/android_frameworks_base]** Fix security vulnerabilities in PduParser.java *(ID: [506387](https://review.lineageos.org/c/506387))*
 
 </details>
 
@@ -50,6 +50,8 @@
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_beckham]** beckham: Bring back the prebuilt audio HAL *(ID: [506063](https://review.lineageos.org/c/506063))*
+- **[LineageOS/android_device_motorola_beckham]** beckham: audio: Route audio Moto Mods through usb-headset paths *(ID: [505943](https://review.lineageos.org/c/505943))*
 - **[LineageOS/android_device_motorola_rtwo]** rtwo: Frameworks: Tune low-lux auto-brightness curve and debounce *(ID: [506065](https://review.lineageos.org/c/506065))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Build and use sensors.moto_als *(ID: [506321](https://review.lineageos.org/c/506321))*
 - **[LineageOS/android_hardware_motorola]** Motorola: sensors: add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
@@ -63,9 +65,7 @@
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8475-common: Import qti vibrator effect and rename *(ID: [506146](https://review.lineageos.org/c/506146))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Update blobs from W1UANS36H.29-25-2-6 9d51f-e4bde5 *(ID: [506143](https://review.lineageos.org/c/506143))*
 - **[LineageOS/android_device_motorola_avatrn]** avatrn: Update blobs from W1UANS36H.29-25-2-6 9d51f-e4bde5 *(ID: [506142](https://review.lineageos.org/c/506142))*
-- **[LineageOS/android_device_motorola_beckham]** beckham: audio: Route audio Moto Mods through usb-headset paths *(ID: [505943](https://review.lineageos.org/c/505943))*
 - **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [506084](https://review.lineageos.org/c/506084))*
-- **[LineageOS/android_device_motorola_beckham]** beckham: Bring back the prebuilt audio HAL *(ID: [506063](https://review.lineageos.org/c/506063))*
 - **[LineageOS/android_device_motorola_milanf]** milanf: Handle dt2w through power HAL extension *(ID: [479977](https://review.lineageos.org/c/479977))*
 - **[LineageOS/android_device_motorola_milanf]** milanf: Add common libqti-perfd-client to namespaces *(ID: [479978](https://review.lineageos.org/c/479978))*
 - **[LineageOS/android_kernel_motorola_sm8250]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505878](https://review.lineageos.org/c/505878))*
