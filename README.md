@@ -1,19 +1,25 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-05-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-06-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (214)
+## 🚨 Parches Críticos Detectados (208)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_samsung_sm8250]** techpack: display: sec: Define dim LUT for S6TUUM2 and S6TUUM3 panels *(ID: [425502](https://review.lineageos.org/c/425502))*
+- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506439](https://review.lineageos.org/c/506439))*
+- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506434](https://review.lineageos.org/c/506434))*
+- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506438](https://review.lineageos.org/c/506438))*
+- **[LineageOS/android_frameworks_base]** AppWidgetServiceImpl: Fix disappearing widgets on devices with a work profile *(ID: [506432](https://review.lineageos.org/c/506432))*
+- **[LineageOS/android_kernel_xiaomi_sm8550]** Merge https://github.com/LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [506391](https://review.lineageos.org/c/506391))*
 - **[LineageOS/android_kernel_samsung_sm8250]** techpack: display: Decouple FOD HBM from dimming alpha *(ID: [506423](https://review.lineageos.org/c/506423))*
+- **[LineageOS/android_kernel_samsung_sm8250]** techpack: display: Use display-wide PCC outside FOD *(ID: [506430](https://review.lineageos.org/c/506430))*
+- **[LineageOS/android_kernel_samsung_sm8250]** techpack: display: sec: Define dim LUT for S6TUUM2 and S6TUUM3 panels *(ID: [425502](https://review.lineageos.org/c/425502))*
 - **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Implement QTI vibrator HAL effects *(ID: [506312](https://review.lineageos.org/c/506312))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add Dolby Vision DVS service policy *(ID: [506418](https://review.lineageos.org/c/506418))*
 - **[LineageOS/android_hardware_oplus]** vintf: Add vendor.dolby.dvs to framework matrix *(ID: [506417](https://review.lineageos.org/c/506417))*
@@ -36,12 +42,6 @@
 - **[LineageOS/android_hardware_mediatek]** interfaces: Import AOSP bluetooth audio session AIDL V1, rebranded *(ID: [505221](https://review.lineageos.org/c/505221))*
 - **[LineageOS/android_hardware_mediatek]** interfaces: bluetooth: audio: Add MTK changes *(ID: [504898](https://review.lineageos.org/c/504898))*
 - **[LineageOS/android_hardware_mediatek]** interfaces: add AOSP BT Audio session HIDL with only name/version changes *(ID: [504897](https://review.lineageos.org/c/504897))*
-- **[LineageOS/android_hardware_samsung]** shims: Use a shim for overriding g_sco_samplerate *(ID: [506122](https://review.lineageos.org/c/506122))*
-- **[LineageOS/android_hardware_samsung]** shims: samsungaudioparams: str_parms_get_str -> str_parms_get_int *(ID: [506389](https://review.lineageos.org/c/506389))*
-- **[LineageOS/android_hardware_samsung]** packages: implement SamsungCallManager *(ID: [506121](https://review.lineageos.org/c/506121))*
-- **[LineageOS/android_kernel_xiaomi_sm8550]** Merge https://github.com/LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [506391](https://review.lineageos.org/c/506391))*
-- **[LineageOS/android_frameworks_base]** Fix potential OOM in PduParser by using stream skip *(ID: [506388](https://review.lineageos.org/c/506388))*
-- **[LineageOS/android_frameworks_base]** Fix security vulnerabilities in PduParser.java *(ID: [506387](https://review.lineageos.org/c/506387))*
 
 </details>
 
