@@ -7,25 +7,29 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (208)
+## 🚨 Parches Críticos Detectados (207)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506439](https://review.lineageos.org/c/506439))*
-- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506434](https://review.lineageos.org/c/506434))*
 - **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506438](https://review.lineageos.org/c/506438))*
-- **[LineageOS/android_frameworks_base]** AppWidgetServiceImpl: Fix disappearing widgets on devices with a work profile *(ID: [506432](https://review.lineageos.org/c/506432))*
+- **[LineageOS/android_frameworks_base]** Fix potential OOM in PduParser by using stream skip *(ID: [503861](https://review.lineageos.org/c/503861))*
+- **[LineageOS/android_frameworks_base]** Fix security vulnerabilities in PduParser.java *(ID: [503860](https://review.lineageos.org/c/503860))*
+- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506452](https://review.lineageos.org/c/506452))*
+- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506451](https://review.lineageos.org/c/506451))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: oplus_touchscreen_v2: Default to enable pen function when boot up *(ID: [506202](https://review.lineageos.org/c/506202))*
+- **[LineageOS/android_vendor_lineage]** kernel: Add flag to set KCONFIG_EXT_PREFIX *(ID: [489817](https://review.lineageos.org/c/489817))*
+- **[LineageOS/android_hardware_oplus]** Pen: Cap peak refresh rate whenever it exceeds the pen's *(ID: [506355](https://review.lineageos.org/c/506355))*
+- **[LineageOS/android_hardware_oplus]** Pen: Relay BLE pen pressure to the touch HAL *(ID: [506354](https://review.lineageos.org/c/506354))*
+- **[LineageOS/android_hardware_nothing]** nothing: Initial sepolicy Makefile *(ID: [506447](https://review.lineageos.org/c/506447))*
 - **[LineageOS/android_kernel_xiaomi_sm8550]** Merge https://github.com/LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [506391](https://review.lineageos.org/c/506391))*
+- **[LineageOS/android_frameworks_base]** AppWidgetServiceImpl: Fix disappearing widgets on devices with a work profile *(ID: [506432](https://review.lineageos.org/c/506432))*
+- **[LineageOS/android_kernel_samsung_sm8250]** techpack: display: sec: Define dim LUT for S6TUUM2 and S6TUUM3 panels *(ID: [425502](https://review.lineageos.org/c/425502))*
 - **[LineageOS/android_kernel_samsung_sm8250]** techpack: display: Decouple FOD HBM from dimming alpha *(ID: [506423](https://review.lineageos.org/c/506423))*
 - **[LineageOS/android_kernel_samsung_sm8250]** techpack: display: Use display-wide PCC outside FOD *(ID: [506430](https://review.lineageos.org/c/506430))*
-- **[LineageOS/android_kernel_samsung_sm8250]** techpack: display: sec: Define dim LUT for S6TUUM2 and S6TUUM3 panels *(ID: [425502](https://review.lineageos.org/c/425502))*
+- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506439](https://review.lineageos.org/c/506439))*
+- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506434](https://review.lineageos.org/c/506434))*
 - **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Implement QTI vibrator HAL effects *(ID: [506312](https://review.lineageos.org/c/506312))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add Dolby Vision DVS service policy *(ID: [506418](https://review.lineageos.org/c/506418))*
-- **[LineageOS/android_hardware_oplus]** vintf: Add vendor.dolby.dvs to framework matrix *(ID: [506417](https://review.lineageos.org/c/506417))*
-- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506420](https://review.lineageos.org/c/506420))*
-- **[LineageOS/android_hardware_oplus]** OplusDoze: Remove help dialog *(ID: [506382](https://review.lineageos.org/c/506382))*
-- **[LineageOS/android_hardware_oneplus]** OnePlusDoze: Remove help dialog *(ID: [506383](https://review.lineageos.org/c/506383))*
 - **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Apply effect strength *(ID: [506313](https://review.lineageos.org/c/506313))*
 - **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Tune wave mapping and strength *(ID: [506314](https://review.lineageos.org/c/506314))*
 - **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: aw8693x: Program sequencer wait slot unit *(ID: [506311](https://review.lineageos.org/c/506311))*
@@ -38,10 +42,6 @@
 - **[LineageOS/android_hardware_mediatek]** aidl: add bluetooth audio session AIDL adapter *(ID: [505223](https://review.lineageos.org/c/505223))*
 - **[LineageOS/android_hardware_mediatek]** aidl: add bluetooth audio session HIDL adapter *(ID: [504900](https://review.lineageos.org/c/504900))*
 - **[LineageOS/android_hardware_mediatek]** hidl: audio: Make more universally usable *(ID: [504899](https://review.lineageos.org/c/504899))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: bluetooth: audio: Add MTK changes *(ID: [505222](https://review.lineageos.org/c/505222))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: Import AOSP bluetooth audio session AIDL V1, rebranded *(ID: [505221](https://review.lineageos.org/c/505221))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: bluetooth: audio: Add MTK changes *(ID: [504898](https://review.lineageos.org/c/504898))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: add AOSP BT Audio session HIDL with only name/version changes *(ID: [504897](https://review.lineageos.org/c/504897))*
 
 </details>
 
