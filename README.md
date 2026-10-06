@@ -7,45 +7,45 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (207)
+## 🚨 Parches Críticos Detectados (229)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506438](https://review.lineageos.org/c/506438))*
-- **[LineageOS/android_frameworks_base]** Fix potential OOM in PduParser by using stream skip *(ID: [503861](https://review.lineageos.org/c/503861))*
-- **[LineageOS/android_frameworks_base]** Fix security vulnerabilities in PduParser.java *(ID: [503860](https://review.lineageos.org/c/503860))*
-- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506452](https://review.lineageos.org/c/506452))*
-- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506451](https://review.lineageos.org/c/506451))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: oplus_touchscreen_v2: Default to enable pen function when boot up *(ID: [506202](https://review.lineageos.org/c/506202))*
-- **[LineageOS/android_vendor_lineage]** kernel: Add flag to set KCONFIG_EXT_PREFIX *(ID: [489817](https://review.lineageos.org/c/489817))*
-- **[LineageOS/android_hardware_oplus]** Pen: Cap peak refresh rate whenever it exceeds the pen's *(ID: [506355](https://review.lineageos.org/c/506355))*
-- **[LineageOS/android_hardware_oplus]** Pen: Relay BLE pen pressure to the touch HAL *(ID: [506354](https://review.lineageos.org/c/506354))*
-- **[LineageOS/android_hardware_nothing]** nothing: Initial sepolicy Makefile *(ID: [506447](https://review.lineageos.org/c/506447))*
-- **[LineageOS/android_kernel_xiaomi_sm8550]** Merge https://github.com/LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [506391](https://review.lineageos.org/c/506391))*
-- **[LineageOS/android_frameworks_base]** AppWidgetServiceImpl: Fix disappearing widgets on devices with a work profile *(ID: [506432](https://review.lineageos.org/c/506432))*
-- **[LineageOS/android_kernel_samsung_sm8250]** techpack: display: sec: Define dim LUT for S6TUUM2 and S6TUUM3 panels *(ID: [425502](https://review.lineageos.org/c/425502))*
-- **[LineageOS/android_kernel_samsung_sm8250]** techpack: display: Decouple FOD HBM from dimming alpha *(ID: [506423](https://review.lineageos.org/c/506423))*
 - **[LineageOS/android_kernel_samsung_sm8250]** techpack: display: Use display-wide PCC outside FOD *(ID: [506430](https://review.lineageos.org/c/506430))*
-- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506439](https://review.lineageos.org/c/506439))*
-- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506434](https://review.lineageos.org/c/506434))*
-- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Implement QTI vibrator HAL effects *(ID: [506312](https://review.lineageos.org/c/506312))*
-- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Apply effect strength *(ID: [506313](https://review.lineageos.org/c/506313))*
-- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Tune wave mapping and strength *(ID: [506314](https://review.lineageos.org/c/506314))*
-- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: aw8693x: Program sequencer wait slot unit *(ID: [506311](https://review.lineageos.org/c/506311))*
-- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Parse wave lengths from haptic_ram.bin *(ID: [506310](https://review.lineageos.org/c/506310))*
-- **[LineageOS/android_kernel_qcom_sm8850-devicetrees]** qcom: Build techpack devicetrees inline *(ID: [506413](https://review.lineageos.org/c/506413))*
-- **[LineageOS/android_kernel_qcom_sm8850-devicetrees]** bazel: build: Expose the devicetree sources with the techpack Kbuild files *(ID: [506412](https://review.lineageos.org/c/506412))*
-- **[LineageOS/android_kernel_qcom_sm8850]** kleaf: Export unmerged base and techpack DTBs for platform merge *(ID: [506411](https://review.lineageos.org/c/506411))*
-- **[LineageOS/android_device_samsung_sm7325-common]** sm7325-common: enable fixed `camera_module_t` layout *(ID: [506410](https://review.lineageos.org/c/506410))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: bluetooth: audio: Add frozen version for each vendor *(ID: [506113](https://review.lineageos.org/c/506113))*
-- **[LineageOS/android_hardware_mediatek]** aidl: add bluetooth audio session AIDL adapter *(ID: [505223](https://review.lineageos.org/c/505223))*
-- **[LineageOS/android_hardware_mediatek]** aidl: add bluetooth audio session HIDL adapter *(ID: [504900](https://review.lineageos.org/c/504900))*
-- **[LineageOS/android_hardware_mediatek]** hidl: audio: Make more universally usable *(ID: [504899](https://review.lineageos.org/c/504899))*
+- **[LineageOS/android_kernel_samsung_sm8250]** techpack: display: Decouple FOD HBM from dimming alpha *(ID: [506423](https://review.lineageos.org/c/506423))*
+- **[LineageOS/android_hardware_nothing]** nothing: Move back nt-fwk to srctree *(ID: [506561](https://review.lineageos.org/c/506561))*
+- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Import Glyph policy from Spacewar *(ID: [506560](https://review.lineageos.org/c/506560))*
+- **[LineageOS/android_hardware_nothing]** nothing: Initial sepolicy Makefile *(ID: [506447](https://review.lineageos.org/c/506447))*
+- **[LineageOS/android_system_timezone]** DO NOT MERGE Fix TimeZoneRulesTest [S]. *(ID: [506544](https://review.lineageos.org/c/506544))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Rewrite the README *(ID: [506529](https://review.lineageos.org/c/506529))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Run bpfmt and rewrite package blueprint *(ID: [506532](https://review.lineageos.org/c/506532))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Rewrite the music visualizer *(ID: [506530](https://review.lineageos.org/c/506530))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Follow the main switch in music visualisation *(ID: [506531](https://review.lineageos.org/c/506531))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Remove nonexistent BIND_SERVICE permission *(ID: [506520](https://review.lineageos.org/c/506520))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Inset the homepage icon like the rest of Settings *(ID: [506527](https://review.lineageos.org/c/506527))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Capitalize the title *(ID: [506528](https://review.lineageos.org/c/506528))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Keep every setting in the app's own preferences *(ID: [506521](https://review.lineageos.org/c/506521))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Give "Charging meter" its own screen *(ID: [506523](https://review.lineageos.org/c/506523))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Give "Music visualisation" its own screen *(ID: [506526](https://review.lineageos.org/c/506526))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Give "Volume indicator" its own screen *(ID: [506525](https://review.lineageos.org/c/506525))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Drop the protection background from the preview *(ID: [506519](https://review.lineageos.org/c/506519))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Use SliderPreference with steps for brightness *(ID: [506518](https://review.lineageos.org/c/506518))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Give "Flip to Glyph" its own screen *(ID: [506522](https://review.lineageos.org/c/506522))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Give "Reverse wireless charging" its own screen *(ID: [506524](https://review.lineageos.org/c/506524))*
+- **[LineageOS/android_hardware_nothing]** GlyphAdapter: Match stock service permission and action *(ID: [506514](https://review.lineageos.org/c/506514))*
+- **[LineageOS/android_hardware_nothing]** GlyphAdapter: Clear glyphs using the last frame length *(ID: [506513](https://review.lineageos.org/c/506513))*
+- **[LineageOS/android_hardware_nothing]** GlyphAdapter: Correct IGlyphService transaction order *(ID: [506512](https://review.lineageos.org/c/506512))*
+- **[LineageOS/android_hardware_nothing]** Revert "ParanoidGlyph: Sync TorchTileService state with external toggles" *(ID: [506517](https://review.lineageos.org/c/506517))*
+- **[LineageOS/android_hardware_nothing]** GlyphAdapter: Fully kotlin :) *(ID: [506516](https://review.lineageos.org/c/506516))*
+- **[LineageOS/android_frameworks_base]** Revert "fixup! Implement edge long swipe gesture to new back gesture affordance" *(ID: [503185](https://review.lineageos.org/c/503185))*
+- **[LineageOS/android_frameworks_base]** Fix PathWrapper::addPath self-add *(ID: [503184](https://review.lineageos.org/c/503184))*
+- **[LineageOS/android_hardware_qcom_display]** gralloc: Protect new buffer allocation support for legacy camera *(ID: [358161](https://review.lineageos.org/c/358161))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: Add support for sdm845 *(ID: [437341](https://review.lineageos.org/c/437341))*
 
 </details>
 
-## 📱 Línea Motorola Activa (26)
+## 📱 Línea Motorola Activa (25)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
@@ -68,7 +68,6 @@
 - **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [506084](https://review.lineageos.org/c/506084))*
 - **[LineageOS/android_device_motorola_milanf]** milanf: Handle dt2w through power HAL extension *(ID: [479977](https://review.lineageos.org/c/479977))*
 - **[LineageOS/android_device_motorola_milanf]** milanf: Add common libqti-perfd-client to namespaces *(ID: [479978](https://review.lineageos.org/c/479978))*
-- **[LineageOS/android_kernel_motorola_sm8250]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [505878](https://review.lineageos.org/c/505878))*
 - **[LineageOS/android_kernel_motorola_sm6225]** arm64: configs: guamna: Build moto modules *(ID: [501509](https://review.lineageos.org/c/501509))*
 - **[LineageOS/android_kernel_motorola_sm6225]** techpack: camera-bengal: Enable legacy camera fix for guamna *(ID: [501508](https://review.lineageos.org/c/501508))*
 - **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: himax_v3_mmi: Fix CFI failure in module init *(ID: [501505](https://review.lineageos.org/c/501505))*
