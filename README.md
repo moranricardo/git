@@ -1,17 +1,30 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-06-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-07-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (229)
+## 🚨 Parches Críticos Detectados (231)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_ayn]** ayn: packages: AynParts: Don't use camel case *(ID: [506571](https://review.lineageos.org/c/506571))*
+- **[LineageOS/android_device_oneplus_sm8850-common]** sm8850-common: Fix touchDaemon pen sync packet length *(ID: [506569](https://review.lineageos.org/c/506569))*
+- **[LineageOS/android_hardware_oplus]** Pen: Cap refresh rate only while the pen is in use *(ID: [506570](https://review.lineageos.org/c/506570))*
+- **[LineageOS/android_hardware_oplus]** Pen: Cap peak refresh rate whenever it exceeds the pen's *(ID: [506355](https://review.lineageos.org/c/506355))*
+- **[LineageOS/android_hardware_oplus]** Pen: Relay BLE pen pressure to the touch HAL *(ID: [506354](https://review.lineageos.org/c/506354))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** qcom: wlan: qcacld-3.0: Expand Oplus WLAN CONFIG forms for Kbuild *(ID: [506062](https://review.lineageos.org/c/506062))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Add KBUILD_EXTRA_SYMBOLS to resolve cross-module symbols *(ID: [506219](https://review.lineageos.org/c/506219))*
+- **[LineageOS/android_frameworks_base]** Fix potential OOM in PduParser by using stream skip *(ID: [503846](https://review.lineageos.org/c/503846))*
+- **[LineageOS/android_frameworks_base]** Fix security vulnerabilities in PduParser.java *(ID: [503845](https://review.lineageos.org/c/503845))*
+- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506434](https://review.lineageos.org/c/506434))*
+- **[LineageOS/android_frameworks_opt_telephony]** RESTRICT AUTOMERGE: Fix remote DoS in decodeWapPdu (b/517376969) *(ID: [506439](https://review.lineageos.org/c/506439))*
+- **[LineageOS/android_frameworks_base]** Fix security vulnerabilities in PduParser.java *(ID: [503841](https://review.lineageos.org/c/503841))*
+- **[LineageOS/android_frameworks_base]** Fix potential OOM in PduParser by using stream skip *(ID: [503842](https://review.lineageos.org/c/503842))*
 - **[LineageOS/android_kernel_samsung_sm8250]** techpack: display: Use display-wide PCC outside FOD *(ID: [506430](https://review.lineageos.org/c/506430))*
 - **[LineageOS/android_kernel_samsung_sm8250]** techpack: display: Decouple FOD HBM from dimming alpha *(ID: [506423](https://review.lineageos.org/c/506423))*
 - **[LineageOS/android_hardware_nothing]** nothing: Move back nt-fwk to srctree *(ID: [506561](https://review.lineageos.org/c/506561))*
@@ -29,19 +42,6 @@
 - **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Give "Charging meter" its own screen *(ID: [506523](https://review.lineageos.org/c/506523))*
 - **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Give "Music visualisation" its own screen *(ID: [506526](https://review.lineageos.org/c/506526))*
 - **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Give "Volume indicator" its own screen *(ID: [506525](https://review.lineageos.org/c/506525))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Drop the protection background from the preview *(ID: [506519](https://review.lineageos.org/c/506519))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Use SliderPreference with steps for brightness *(ID: [506518](https://review.lineageos.org/c/506518))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Give "Flip to Glyph" its own screen *(ID: [506522](https://review.lineageos.org/c/506522))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Give "Reverse wireless charging" its own screen *(ID: [506524](https://review.lineageos.org/c/506524))*
-- **[LineageOS/android_hardware_nothing]** GlyphAdapter: Match stock service permission and action *(ID: [506514](https://review.lineageos.org/c/506514))*
-- **[LineageOS/android_hardware_nothing]** GlyphAdapter: Clear glyphs using the last frame length *(ID: [506513](https://review.lineageos.org/c/506513))*
-- **[LineageOS/android_hardware_nothing]** GlyphAdapter: Correct IGlyphService transaction order *(ID: [506512](https://review.lineageos.org/c/506512))*
-- **[LineageOS/android_hardware_nothing]** Revert "ParanoidGlyph: Sync TorchTileService state with external toggles" *(ID: [506517](https://review.lineageos.org/c/506517))*
-- **[LineageOS/android_hardware_nothing]** GlyphAdapter: Fully kotlin :) *(ID: [506516](https://review.lineageos.org/c/506516))*
-- **[LineageOS/android_frameworks_base]** Revert "fixup! Implement edge long swipe gesture to new back gesture affordance" *(ID: [503185](https://review.lineageos.org/c/503185))*
-- **[LineageOS/android_frameworks_base]** Fix PathWrapper::addPath self-add *(ID: [503184](https://review.lineageos.org/c/503184))*
-- **[LineageOS/android_hardware_qcom_display]** gralloc: Protect new buffer allocation support for legacy camera *(ID: [358161](https://review.lineageos.org/c/358161))*
-- **[LineageOS/android_hardware_qcom_audio]** hal: Add support for sdm845 *(ID: [437341](https://review.lineageos.org/c/437341))*
 
 </details>
 
