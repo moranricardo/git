@@ -7,12 +7,13 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (231)
+## 🚨 Parches Críticos Detectados (232)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_ayn]** ayn: packages: AynParts: Don't use camel case *(ID: [506571](https://review.lineageos.org/c/506571))*
+- **[LineageOS/android_device_osom_ingot]** ingot: Fix charge control on 6.6 *(ID: [505508](https://review.lineageos.org/c/505508))*
+- **[LineageOS/android_hardware_xiaomi]** IFAAService: Prefer AIDL mlipay with HIDL fallback *(ID: [506575](https://review.lineageos.org/c/506575))*
 - **[LineageOS/android_device_oneplus_sm8850-common]** sm8850-common: Fix touchDaemon pen sync packet length *(ID: [506569](https://review.lineageos.org/c/506569))*
 - **[LineageOS/android_hardware_oplus]** Pen: Cap refresh rate only while the pen is in use *(ID: [506570](https://review.lineageos.org/c/506570))*
 - **[LineageOS/android_hardware_oplus]** Pen: Cap peak refresh rate whenever it exceeds the pen's *(ID: [506355](https://review.lineageos.org/c/506355))*
@@ -41,7 +42,6 @@
 - **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Keep every setting in the app's own preferences *(ID: [506521](https://review.lineageos.org/c/506521))*
 - **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Give "Charging meter" its own screen *(ID: [506523](https://review.lineageos.org/c/506523))*
 - **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Give "Music visualisation" its own screen *(ID: [506526](https://review.lineageos.org/c/506526))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Give "Volume indicator" its own screen *(ID: [506525](https://review.lineageos.org/c/506525))*
 
 </details>
 
