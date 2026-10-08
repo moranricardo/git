@@ -1,20 +1,19 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-07-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-08-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (328)
+## 🚨 Parches Críticos Detectados (322)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_device_samsung_exynos9820-common]** exynos9820-common: fix eID (extended APDU) NFC regression on 23.2 *(ID: [506968](https://review.lineageos.org/c/506968))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label persist.bluetooth.a2dp_aac_abr.enable prop *(ID: [506967](https://review.lineageos.org/c/506967))*
 - **[LineageOS/android_kernel_qcom_sm8250]** serial: msm_geni_serial: fix for broken bluetooth for legacy soc *(ID: [506966](https://review.lineageos.org/c/506966))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: msm_media_info_legacy: Import buffer alignment changes from kernel 4.9 *(ID: [506931](https://review.lineageos.org/c/506931))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Don't set VBV HRD buffer size on sdm845 *(ID: [506885](https://review.lineageos.org/c/506885))*
 - **[LineageOS/android_kernel_qcom_sm8250]** dts: qcom: sdm845-audio-overlay: Add ssr devices for audio driver *(ID: [506884](https://review.lineageos.org/c/506884))*
 - **[LineageOS/android_kernel_qcom_sm8250]** techpack: audio: sdm845: Add SND event FWK support *(ID: [506883](https://review.lineageos.org/c/506883))*
@@ -42,6 +41,7 @@
 - **[LineageOS/android_kernel_qcom_sm8250]** dts: qcom: sdm845: update kryo3xx-erp compatible name *(ID: [506861](https://review.lineageos.org/c/506861))*
 - **[LineageOS/android_kernel_qcom_sm8250]** ARM64: dts: sdm845: add mailbox client in qmp *(ID: [506860](https://review.lineageos.org/c/506860))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: ipa3: Standalone CV2X changes *(ID: [506859](https://review.lineageos.org/c/506859))*
+- **[LineageOS/android_kernel_qcom_sm8250]** net: rmnet: add ioctl support for IP route utility *(ID: [506858](https://review.lineageos.org/c/506858))*
 
 </details>
 
