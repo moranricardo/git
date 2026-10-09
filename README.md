@@ -1,17 +1,22 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-08-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-09-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (367)
+## 🚨 Parches Críticos Detectados (358)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_oplus]** thermal-engine: Add shim to generate config from stock policies *(ID: [506592](https://review.lineageos.org/c/506592))*
+- **[LineageOS/android_hardware_lineage_interfaces]** power-libperfmgr: Fix SessionRecords null deref on ADPF profile switch *(ID: [507152](https://review.lineageos.org/c/507152))*
+- **[LineageOS/android_packages_inputmethods_LatinIME]** LatinIME: Fix more keys keyboard padding on tablets *(ID: [507151](https://review.lineageos.org/c/507151))*
+- **[LineageOS/android_device_osom_ingot]** ingot: Fix charge control on 6.6 *(ID: [505508](https://review.lineageos.org/c/505508))*
+- **[LineageOS/android_hardware_qcom_audio-ar]** effects: Support effect destroy at any state *(ID: [507136](https://review.lineageos.org/c/507136))*
 - **[LineageOS/android_hardware_oplus]** eSimSwitcher: Sequence SN220 power around GPIO transitions *(ID: [504292](https://review.lineageos.org/c/504292))*
 - **[LineageOS/android_hardware_oplus]** eSimSwitcher: Synchronize active SIM type *(ID: [503676](https://review.lineageos.org/c/503676))*
 - **[LineageOS/android_hardware_nothing]** eSimSwitcher: Rebrand to NothingEsimSwitcher *(ID: [507069](https://review.lineageos.org/c/507069))*
@@ -37,11 +42,6 @@
 - **[LineageOS/android_hardware_nothing]** lights: Queue non-preemptive light effects *(ID: [507108](https://review.lineageos.org/c/507108))*
 - **[LineageOS/android_hardware_nothing]** lights: Play light effects *(ID: [507106](https://review.lineageos.org/c/507106))*
 - **[LineageOS/android_hardware_nothing]** lights: Interpolate light effects linearly *(ID: [507107](https://review.lineageos.org/c/507107))*
-- **[LineageOS/android_hardware_nothing]** lights: Batch LED updates *(ID: [507105](https://review.lineageos.org/c/507105))*
-- **[LineageOS/android_hardware_nothing]** lights: Wake up LED controller before writing *(ID: [507103](https://review.lineageos.org/c/507103))*
-- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Allow lights HAL to write Glyph LEDs *(ID: [507102](https://review.lineageos.org/c/507102))*
-- **[LineageOS/android_hardware_nothing]** lights: Put LED controller to standby when off *(ID: [507104](https://review.lineageos.org/c/507104))*
-- **[LineageOS/android_hardware_nothing]** eSimSwitcher: Make app more robust *(ID: [507075](https://review.lineageos.org/c/507075))*
 
 </details>
 
