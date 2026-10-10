@@ -7,19 +7,20 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (282)
+## 🚨 Parches Críticos Detectados (283)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_lineage_compat]** compat: Provide libui-v32 *(ID: [507300](https://review.lineageos.org/c/507300))*
+- **[LineageOS/android_device_daylight_jagar]** jagar: Fix fastboot flashall *(ID: [507352](https://review.lineageos.org/c/507352))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** drm/msm: oplus: drive standard adfr from qsync *(ID: [504300](https://review.lineageos.org/c/504300))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: tp: hbp: Emulate double tap when single tap is also enabled *(ID: [507346](https://review.lineageos.org/c/507346))*
+- **[LineageOS/android_kernel_qcom_sm8250]** uapi: media: msm_vidc_utils: Compatibility for old Venus MISR struct *(ID: [506794](https://review.lineageos.org/c/506794))*
+- **[LineageOS/android_kernel_qcom_sdm660]** Merge branch 'android13-4.19-kona' into android13-4.19-sdm660 *(ID: [507318](https://review.lineageos.org/c/507318))*
 - **[LineageOS/android_hardware_oplus]** eSimSwitcher: Update the toggle after switching completes *(ID: [507250](https://review.lineageos.org/c/507250))*
+- **[LineageOS/android_hardware_lineage_compat]** compat: Provide libui-v32 *(ID: [507300](https://review.lineageos.org/c/507300))*
 - **[LineageOS/android_kernel_xiaomi_gauguin]** Revert "ARM64/boot: dts: lagoon-thermal: Rename xo_therm back to xo-therm-usr" *(ID: [507307](https://review.lineageos.org/c/507307))*
 - **[LineageOS/android_kernel_xiaomi_gauguin]** Merge remote-tracking branch 'qcom/lineage-20' into HEAD *(ID: [507305](https://review.lineageos.org/c/507305))*
-- **[LineageOS/android_system_nfc]** Fix out-of-bounds write in NFC activation handling *(ID: [507303](https://review.lineageos.org/c/507303))*
-- **[LineageOS/android_system_nfc]** Fix out-of-bounds write in NFC activation handling *(ID: [507292](https://review.lineageos.org/c/507292))*
-- **[LineageOS/android_system_nfc]** Fix out-of-bounds write in NFC activation handling *(ID: [507291](https://review.lineageos.org/c/507291))*
-- **[LineageOS/android_system_nfc]** Fix out-of-bounds write in NFC activation handling *(ID: [507290](https://review.lineageos.org/c/507290))*
 - **[LineageOS/android_system_bt]** Fix OOB write in build_read_multi_rsp of gatt_sr.cc *(ID: [410678](https://review.lineageos.org/c/410678))*
 - **[LineageOS/android_hardware_motorola]** Motorola: sensors: add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
 - **[LineageOS/android_system_libufdt]** libufdt: Fix stack overflow risk in vendor qsort *(ID: [507287](https://review.lineageos.org/c/507287))*
@@ -40,7 +41,6 @@
 - **[LineageOS/android_kernel_qcom_sm8250]** dts: qcom: sdm845-sde: Update dma version prop *(ID: [507007](https://review.lineageos.org/c/507007))*
 - **[LineageOS/android_hardware_oplus]** eSimSwitcher: Synchronize active SIM type *(ID: [503676](https://review.lineageos.org/c/503676))*
 - **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** arm64: dts: qcom: enable arr for infiniti panels *(ID: [504301](https://review.lineageos.org/c/504301))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** drm/msm: oplus: drive standard adfr from qsync *(ID: [504300](https://review.lineageos.org/c/504300))*
 - **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Adapt battery and volume animation for Phone(3a) *(ID: [475567](https://review.lineageos.org/c/475567))*
 
 </details>
