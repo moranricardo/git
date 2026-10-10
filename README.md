@@ -7,49 +7,52 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (287)
+## 🚨 Parches Críticos Detectados (282)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_lineage_compat]** compat: Provide libui-v32 *(ID: [507300](https://review.lineageos.org/c/507300))*
+- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Update the toggle after switching completes *(ID: [507250](https://review.lineageos.org/c/507250))*
+- **[LineageOS/android_kernel_xiaomi_gauguin]** Revert "ARM64/boot: dts: lagoon-thermal: Rename xo_therm back to xo-therm-usr" *(ID: [507307](https://review.lineageos.org/c/507307))*
+- **[LineageOS/android_kernel_xiaomi_gauguin]** Merge remote-tracking branch 'qcom/lineage-20' into HEAD *(ID: [507305](https://review.lineageos.org/c/507305))*
+- **[LineageOS/android_system_nfc]** Fix out-of-bounds write in NFC activation handling *(ID: [507303](https://review.lineageos.org/c/507303))*
+- **[LineageOS/android_system_nfc]** Fix out-of-bounds write in NFC activation handling *(ID: [507292](https://review.lineageos.org/c/507292))*
+- **[LineageOS/android_system_nfc]** Fix out-of-bounds write in NFC activation handling *(ID: [507291](https://review.lineageos.org/c/507291))*
+- **[LineageOS/android_system_nfc]** Fix out-of-bounds write in NFC activation handling *(ID: [507290](https://review.lineageos.org/c/507290))*
+- **[LineageOS/android_system_bt]** Fix OOB write in build_read_multi_rsp of gatt_sr.cc *(ID: [410678](https://review.lineageos.org/c/410678))*
+- **[LineageOS/android_hardware_motorola]** Motorola: sensors: add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
+- **[LineageOS/android_system_libufdt]** libufdt: Fix stack overflow risk in vendor qsort *(ID: [507287](https://review.lineageos.org/c/507287))*
+- **[LineageOS/android_vendor_nxp_opensource_external_libnfc-nci]** Fix potential integer overflow in Type 3 Tag block operations. *(ID: [507286](https://review.lineageos.org/c/507286))*
+- **[LineageOS/android_vendor_nxp_opensource_external_libnfc-nci]** Fix uint16 loop counter wrap in T3T NDEF CHECK/UPDATE *(ID: [507285](https://review.lineageos.org/c/507285))*
+- **[LineageOS/android_system_nfc]** Fix potential integer overflow in Type 3 Tag block operations. *(ID: [507283](https://review.lineageos.org/c/507283))*
+- **[LineageOS/android_system_nfc]** Fix uint16 loop counter wrap in T3T NDEF CHECK/UPDATE *(ID: [507282](https://review.lineageos.org/c/507282))*
+- **[LineageOS/android_system_bt]** Fuzz: Fix overflow in SDP_addAttribute *(ID: [507281](https://review.lineageos.org/c/507281))*
+- **[LineageOS/android_system_bt]** [RESTRICT AUTOMERGE] Fix SDP server heap buffer overflow *(ID: [507280](https://review.lineageos.org/c/507280))*
+- **[LineageOS/android_frameworks_opt_telephony]** Fix ArrayIndexOutOfBoundsException in SIMRecords due to invalid EF_CFIS/EF_CFF *(ID: [507275](https://review.lineageos.org/c/507275))*
+- **[LineageOS/android_frameworks_av]** Fix heap-buffer-overflow in AudioAttributes unmarshalling *(ID: [507268](https://review.lineageos.org/c/507268))*
+- **[LineageOS/android_external_libhevc]** libhevcdec: Fix heap buffer overflow in ihevcd_get_tu_data_size *(ID: [507267](https://review.lineageos.org/c/507267))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: dv9135: Address missing keycodes *(ID: [507266](https://review.lineageos.org/c/507266))*
 - **[LineageOS/android_hardware_sony_timekeep]** timekeep: Fix the SELinux domain of the app *(ID: [507055](https://review.lineageos.org/c/507055))*
 - **[LineageOS/android_hardware_lge]** sepolicy: Add create and rw permissions for mdm_helper *(ID: [507261](https://review.lineageos.org/c/507261))*
 - **[LineageOS/android_hardware_qcom_wlan]** wifi_hal: Only send NAN IC mode TLV if firmware supports it *(ID: [507260](https://review.lineageos.org/c/507260))*
 - **[LineageOS/android_hardware_qcom_wlan]** wifi_hal: Accept LOWI version >= 2.1.1 *(ID: [507259](https://review.lineageos.org/c/507259))*
 - **[LineageOS/android_kernel_qcom_sm8250]** dts: qcom: sdm845-sde: Update dma version prop *(ID: [507007](https://review.lineageos.org/c/507007))*
 - **[LineageOS/android_hardware_oplus]** eSimSwitcher: Synchronize active SIM type *(ID: [503676](https://review.lineageos.org/c/503676))*
-- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Update the toggle after switching completes *(ID: [507250](https://review.lineageos.org/c/507250))*
-- **[LineageOS/android_external_aac]** Increase patchParam array size by one and fix out-of-bounce write in resetLppTransposer(). *(ID: [364259](https://review.lineageos.org/c/364259))*
 - **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** arm64: dts: qcom: enable arr for infiniti panels *(ID: [504301](https://review.lineageos.org/c/504301))*
 - **[LineageOS/android_kernel_oneplus_sm8850-modules]** drm/msm: oplus: drive standard adfr from qsync *(ID: [504300](https://review.lineageos.org/c/504300))*
 - **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Adapt battery and volume animation for Phone(3a) *(ID: [475567](https://review.lineageos.org/c/475567))*
-- **[LineageOS/android_kernel_qcom_sdm660]** ARM64/qcom: sdm{630/660}: Fix gpio-keys pinctrl state *(ID: [507210](https://review.lineageos.org/c/507210))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: charger: Add missing GET_GAUGE_TYPE functions *(ID: [506998](https://review.lineageos.org/c/506998))*
-- **[LineageOS/android_device_oneplus_sm8850-common]** sm8850-common: Remove stale blob fixups *(ID: [506994](https://review.lineageos.org/c/506994))*
-- **[LineageOS/android_kernel_ayn_common-modules]** moorechip-joystick: add MCU fan control *(ID: [507208](https://review.lineageos.org/c/507208))*
-- **[LineageOS/android_kernel_qcom_sm8650]** Merge tag 'ASB-2026-10-05_14-6.1' of https://android.googlesource.com/kernel/common into android15-6.1-lanai *(ID: [507207](https://review.lineageos.org/c/507207))*
-- **[LineageOS/android_kernel_qcom_sm8650]** Merge branch 'android14-6.1-lts' of https://android.googlesource.com/kernel/common into android15-6.1-lanai *(ID: [507206](https://review.lineageos.org/c/507206))*
-- **[LineageOS/android_hardware_google_interfaces]** Implement com.google.hardware.pixel.display V22/V23 *(ID: [507191](https://review.lineageos.org/c/507191))*
-- **[LineageOS/android_frameworks_hardware_interfaces]** Implement android.frameworks.stats V3 *(ID: [507190](https://review.lineageos.org/c/507190))*
-- **[LineageOS/android_hardware_qcom_display]** gralloc: Allow to use legacy buffer alignment header *(ID: [506987](https://review.lineageos.org/c/506987))*
-- **[LineageOS/android_hardware_oplus]** Introduce extract-utils-ext *(ID: [506592](https://review.lineageos.org/c/506592))*
-- **[LineageOS/android_hardware_mediatek]** logtag: Silence GPUAUX logspam *(ID: [507002](https://review.lineageos.org/c/507002))*
-- **[LineageOS/android_hardware_oplus]** Pen: Offer pairing from the attach popup *(ID: [507156](https://review.lineageos.org/c/507156))*
-- **[LineageOS/android_hardware_oplus]** Pen: Show battery popup when the pen is attached *(ID: [507155](https://review.lineageos.org/c/507155))*
-- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Sequence SN220 power around GPIO transitions *(ID: [504292](https://review.lineageos.org/c/504292))*
-- **[LineageOS/android_hardware_lineage_interfaces]** power-libperfmgr: Fix SessionRecords null deref on ADPF profile switch *(ID: [507152](https://review.lineageos.org/c/507152))*
-- **[LineageOS/android_packages_inputmethods_LatinIME]** LatinIME: Fix more keys keyboard padding on tablets *(ID: [507151](https://review.lineageos.org/c/507151))*
-- **[LineageOS/android_device_osom_ingot]** ingot: Fix charge control on 6.6 *(ID: [505508](https://review.lineageos.org/c/505508))*
-- **[LineageOS/android_hardware_nothing]** eSimSwitcher: Rebrand to NothingEsimSwitcher *(ID: [507069](https://review.lineageos.org/c/507069))*
-- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Tune wave mapping and strength *(ID: [506314](https://review.lineageos.org/c/506314))*
 
 </details>
 
-## 📱 Línea Motorola Activa (2)
+## 📱 Línea Motorola Activa (5)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_hardware_motorola]** Motorola: sensors: add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
+- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Build and use sensors.moto_als *(ID: [506321](https://review.lineageos.org/c/506321))*
+- **[LineageOS/android_device_motorola_rtwo]** rtwo: Frameworks: Tune low-lux auto-brightness curve and debounce *(ID: [506065](https://review.lineageos.org/c/506065))*
 - **[LineageOS/android_device_motorola_guamna]** guamna: Update audio configs *(ID: [501654](https://review.lineageos.org/c/501654))*
 - **[LineageOS/android_device_motorola_beckham]** beckham: overlay: Route dock media audio to the analog dock *(ID: [506922](https://review.lineageos.org/c/506922))*
 
