@@ -1,18 +1,24 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-09-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-10-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (310)
+## 🚨 Parches Críticos Detectados (287)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
 - **[LineageOS/android_hardware_sony_timekeep]** timekeep: Fix the SELinux domain of the app *(ID: [507055](https://review.lineageos.org/c/507055))*
+- **[LineageOS/android_hardware_lge]** sepolicy: Add create and rw permissions for mdm_helper *(ID: [507261](https://review.lineageos.org/c/507261))*
+- **[LineageOS/android_hardware_qcom_wlan]** wifi_hal: Only send NAN IC mode TLV if firmware supports it *(ID: [507260](https://review.lineageos.org/c/507260))*
+- **[LineageOS/android_hardware_qcom_wlan]** wifi_hal: Accept LOWI version >= 2.1.1 *(ID: [507259](https://review.lineageos.org/c/507259))*
+- **[LineageOS/android_kernel_qcom_sm8250]** dts: qcom: sdm845-sde: Update dma version prop *(ID: [507007](https://review.lineageos.org/c/507007))*
+- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Synchronize active SIM type *(ID: [503676](https://review.lineageos.org/c/503676))*
+- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Update the toggle after switching completes *(ID: [507250](https://review.lineageos.org/c/507250))*
 - **[LineageOS/android_external_aac]** Increase patchParam array size by one and fix out-of-bounce write in resetLppTransposer(). *(ID: [364259](https://review.lineageos.org/c/364259))*
 - **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** arm64: dts: qcom: enable arr for infiniti panels *(ID: [504301](https://review.lineageos.org/c/504301))*
 - **[LineageOS/android_kernel_oneplus_sm8850-modules]** drm/msm: oplus: drive standard adfr from qsync *(ID: [504300](https://review.lineageos.org/c/504300))*
@@ -34,14 +40,8 @@
 - **[LineageOS/android_hardware_lineage_interfaces]** power-libperfmgr: Fix SessionRecords null deref on ADPF profile switch *(ID: [507152](https://review.lineageos.org/c/507152))*
 - **[LineageOS/android_packages_inputmethods_LatinIME]** LatinIME: Fix more keys keyboard padding on tablets *(ID: [507151](https://review.lineageos.org/c/507151))*
 - **[LineageOS/android_device_osom_ingot]** ingot: Fix charge control on 6.6 *(ID: [505508](https://review.lineageos.org/c/505508))*
-- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Synchronize active SIM type *(ID: [503676](https://review.lineageos.org/c/503676))*
 - **[LineageOS/android_hardware_nothing]** eSimSwitcher: Rebrand to NothingEsimSwitcher *(ID: [507069](https://review.lineageos.org/c/507069))*
 - **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Tune wave mapping and strength *(ID: [506314](https://review.lineageos.org/c/506314))*
-- **[LineageOS/android_hardware_nothing]** nt-sepolicy: mark nt_esim_app as coredomain for A17 *(ID: [507113](https://review.lineageos.org/c/507113))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Play call animations as light effects *(ID: [507122](https://review.lineageos.org/c/507122))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Don't read the device color without a path *(ID: [507123](https://review.lineageos.org/c/507123))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Split building Glyph frames from writing them *(ID: [507119](https://review.lineageos.org/c/507119))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Scale CSV animations for light effects *(ID: [507121](https://review.lineageos.org/c/507121))*
 
 </details>
 
