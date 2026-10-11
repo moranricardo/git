@@ -7,23 +7,27 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (308)
+## 🚨 Parches Críticos Detectados (301)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_lge]** sepolicy: Add sda8 block device and its permissions *(ID: [507261](https://review.lineageos.org/c/507261))*
+- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Update the toggle after switching completes *(ID: [507250](https://review.lineageos.org/c/507250))*
+- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Preserve slot mapping across SIM type changes *(ID: [507404](https://review.lineageos.org/c/507404))*
+- **[LineageOS/android_frameworks_base]** SystemUI: Fix bluetooth battery level icon in status bar *(ID: [504737](https://review.lineageos.org/c/504737))*
 - **[LineageOS/android_packages_apps_Glimpse]** Glimpse: Fix opening media from file managers *(ID: [507366](https://review.lineageos.org/c/507366))*
+- **[LineageOS/android_vendor_lineage]** kernel: Add flag to set KCONFIG_EXT_PREFIX *(ID: [489817](https://review.lineageos.org/c/489817))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Disable TMS debug flags *(ID: [504797](https://review.lineageos.org/c/504797))*
+- **[LineageOS/android_hardware_lge]** sepolicy: Add sda8 block device and its permissions *(ID: [507261](https://review.lineageos.org/c/507261))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: tp: hbp: Emulate double tap when single tap is also enabled *(ID: [507346](https://review.lineageos.org/c/507346))*
 - **[LineageOS/android_hardware_lineage_compat]** compat: Also adapt Bluetooth audio configurations for V4 callers *(ID: [507363](https://review.lineageos.org/c/507363))*
 - **[LineageOS/android_hardware_sony_timekeep]** timekeep: Mark the app as privileged *(ID: [507055](https://review.lineageos.org/c/507055))*
 - **[LineageOS/android_kernel_xiaomi_gauguin]** Revert "ARM64/boot: dts: lagoon-thermal: Rename xo_therm back to xo-therm-usr" *(ID: [507307](https://review.lineageos.org/c/507307))*
 - **[LineageOS/android_kernel_xiaomi_gauguin]** Merge remote-tracking branch 'qcom/lineage-20' into HEAD *(ID: [507305](https://review.lineageos.org/c/507305))*
 - **[LineageOS/android_device_daylight_jagar]** jagar: Fix fastboot flashall *(ID: [507352](https://review.lineageos.org/c/507352))*
 - **[LineageOS/android_kernel_oneplus_sm8850-modules]** drm/msm: oplus: drive standard adfr from qsync *(ID: [504300](https://review.lineageos.org/c/504300))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: tp: hbp: Emulate double tap when single tap is also enabled *(ID: [507346](https://review.lineageos.org/c/507346))*
 - **[LineageOS/android_kernel_qcom_sm8250]** uapi: media: msm_vidc_utils: Compatibility for old Venus MISR struct *(ID: [506794](https://review.lineageos.org/c/506794))*
 - **[LineageOS/android_kernel_qcom_sdm660]** Merge branch 'android13-4.19-kona' into android13-4.19-sdm660 *(ID: [507318](https://review.lineageos.org/c/507318))*
-- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Update the toggle after switching completes *(ID: [507250](https://review.lineageos.org/c/507250))*
 - **[LineageOS/android_hardware_lineage_compat]** compat: Provide libui-v32 *(ID: [507300](https://review.lineageos.org/c/507300))*
 - **[LineageOS/android_system_bt]** Fix OOB write in build_read_multi_rsp of gatt_sr.cc *(ID: [410678](https://review.lineageos.org/c/410678))*
 - **[LineageOS/android_hardware_motorola]** Motorola: sensors: add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
@@ -37,11 +41,7 @@
 - **[LineageOS/android_frameworks_opt_telephony]** Fix ArrayIndexOutOfBoundsException in SIMRecords due to invalid EF_CFIS/EF_CFF *(ID: [507275](https://review.lineageos.org/c/507275))*
 - **[LineageOS/android_frameworks_av]** Fix heap-buffer-overflow in AudioAttributes unmarshalling *(ID: [507268](https://review.lineageos.org/c/507268))*
 - **[LineageOS/android_external_libhevc]** libhevcdec: Fix heap buffer overflow in ihevcd_get_tu_data_size *(ID: [507267](https://review.lineageos.org/c/507267))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: dv9135: Address missing keycodes *(ID: [507266](https://review.lineageos.org/c/507266))*
 - **[LineageOS/android_hardware_qcom_wlan]** wifi_hal: Only send NAN IC mode TLV if firmware supports it *(ID: [507260](https://review.lineageos.org/c/507260))*
-- **[LineageOS/android_hardware_qcom_wlan]** wifi_hal: Accept LOWI version >= 2.1.1 *(ID: [507259](https://review.lineageos.org/c/507259))*
-- **[LineageOS/android_kernel_qcom_sm8250]** dts: qcom: sdm845-sde: Update dma version prop *(ID: [507007](https://review.lineageos.org/c/507007))*
-- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Synchronize active SIM type *(ID: [503676](https://review.lineageos.org/c/503676))*
 
 </details>
 
