@@ -7,49 +7,50 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (230)
+## 🚨 Parches Críticos Detectados (176)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_frameworks_base]** SystemUI: Fix UDFPS dim layer opacity and animation cleanup *(ID: [507919](https://review.lineageos.org/c/507919))*
+- **[LineageOS/scripts]** dev: sepolicy: simplify the guard exclusion fixed point *(ID: [507891](https://review.lineageos.org/c/507891))*
+- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Import fingerprint policy *(ID: [507841](https://review.lineageos.org/c/507841))*
+- **[LineageOS/android_device_google_coral]** floral: Fix Face Unlock with ANativeWindow-based camera VNDK *(ID: [507917](https://review.lineageos.org/c/507917))*
 - **[LineageOS/android_hardware_oplus]** power: Notify charger HAL about screen state *(ID: [507779](https://review.lineageos.org/c/507779))*
-- **[LineageOS/android_hardware_oplus]** power: Leave DOUBLE_TAP_TO_WAKE to qtipower if it has a node *(ID: [507780](https://review.lineageos.org/c/507780))*
-- **[LineageOS/android_hardware_qcom_display]** composer: Report each pluggable display config as its own group *(ID: [507697](https://review.lineageos.org/c/507697))*
-- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow hiding the device orientation sensor *(ID: [507778](https://review.lineageos.org/c/507778))*
-- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow flipping device orientation while folded *(ID: [507777](https://review.lineageos.org/c/507777))*
+- **[LineageOS/android_hardware_oplus]** power: Leave DOUBLE_TAP_TO_WAKE to QTI power HAL if it has a node *(ID: [507780](https://review.lineageos.org/c/507780))*
 - **[LineageOS/android_hardware_samsung]** SamsungEsimSwitcher: Add app for tsds2 hybrid eUICC *(ID: [507776](https://review.lineageos.org/c/507776))*
-- **[LineageOS/android_hardware_oplus]** extract-utils-ext: Skip early CPU-only thermal stages *(ID: [507775](https://review.lineageos.org/c/507775))*
-- **[LineageOS/android_hardware_oplus]** Pen: Show battery popup when the pen is attached *(ID: [507155](https://review.lineageos.org/c/507155))*
-- **[LineageOS/android_hardware_nothing]** nothing: Import OplusDoze from commit 1278cdd5cbdf8eb5f892d50f5286720277a2decd *(ID: [507687](https://review.lineageos.org/c/507687))*
-- **[LineageOS/android_hardware_nothing]** eSimSwitcher: Switch to QTI ExtTelephony for SIM2 eSIM toggling *(ID: [507069](https://review.lineageos.org/c/507069))*
-- **[LineageOS/android_hardware_nothing]** Doze: Invert pickup_sensor_value default value *(ID: [507689](https://review.lineageos.org/c/507689))*
-- **[LineageOS/android_hardware_nothing]** nt-fwk: Update feature parsing from NOS 5.0 *(ID: [507096](https://review.lineageos.org/c/507096))*
-- **[LineageOS/android_hardware_nothing]** Doze: Enter pocket mode for touchscreen as well *(ID: [507079](https://review.lineageos.org/c/507079))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Fix MaxPower value for USB 3.0 devices *(ID: [506328](https://review.lineageos.org/c/506328))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Sync setup with Pixels *(ID: [506327](https://review.lineageos.org/c/506327))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Drop mtk_rndis.gs4 references *(ID: [506326](https://review.lineageos.org/c/506326))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Bump AIDL USB gadget HAL to V2 *(ID: [507730](https://review.lineageos.org/c/507730))*
-- **[LineageOS/android_hardware_google_pixel]** usb: Bump libpixelusb-aidl to AIDL USB gadget V2 *(ID: [507735](https://review.lineageos.org/c/507735))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Make use of sys.usb.controller for notifying musb-hdcr kernel init *(ID: [507733](https://review.lineageos.org/c/507733))*
-- **[LineageOS/android_hardware_mediatek]** aidl: health: Bump AIDL HAL VINTF fragment to v5 *(ID: [507729](https://review.lineageos.org/c/507729))*
-- **[LineageOS/android_hardware_mediatek]** aidl: usb: Don't override default sys.usb.controller on post-fs-data *(ID: [507734](https://review.lineageos.org/c/507734))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Require AOA daemon *(ID: [507731](https://review.lineageos.org/c/507731))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Setup USB AOA perms and prop *(ID: [507732](https://review.lineageos.org/c/507732))*
-- **[LineageOS/android_hardware_qcom_display]** gralloc: Honor 10-bit usage for video encoder buffers *(ID: [507728](https://review.lineageos.org/c/507728))*
-- **[LineageOS/android_hardware_qcom_display]** gralloc: Honor 10-bit usage for camera output buffers *(ID: [507727](https://review.lineageos.org/c/507727))*
-- **[LineageOS/android_kernel_qcom_sm8250]** arm64: dts: qcom-sdm845: Import from LA.UM.10.3.c25-00400-sdm845.0 *(ID: [506662](https://review.lineageos.org/c/506662))*
-- **[LineageOS/android_device_samsung_exynos9820-common]** exynos9820-common: fix eID (extended APDU) NFC regression on 23.2 *(ID: [506968](https://review.lineageos.org/c/506968))*
-- **[LineageOS/android_hardware_qcom_audio-ar]** hal/lvacfs: correctly pass input format *(ID: [507596](https://review.lineageos.org/c/507596))*
-- **[LineageOS/android_hardware_nothing]** eSimSwitcher: Rebrand to NothingEsimSwitcher *(ID: [507680](https://review.lineageos.org/c/507680))*
-- **[LineageOS/android_packages_apps_Launcher3]** fixup! Launcher3: Ability to toggle themed icons for all apps *(ID: [507582](https://review.lineageos.org/c/507582))*
+- **[LineageOS/android_hardware_samsung]** SamsungEsimSwitcher: Add app for tsds2 hybrid eUICC *(ID: [496649](https://review.lineageos.org/c/496649))*
+- **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Don't clear lockout twice on V2 reset *(ID: [507840](https://review.lineageos.org/c/507840))*
+- **[LineageOS/android_hardware_nothing]** fingerprint: Move `nothing_hardware_biometrics_config_default` definition *(ID: [507839](https://review.lineageos.org/c/507839))*
+- **[LineageOS/android_hardware_nothing]** aidl: fingerprint: parse enumerate/remove results as fid arrays *(ID: [507838](https://review.lineageos.org/c/507838))*
+- **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Add support for updated HAL implementation *(ID: [507837](https://review.lineageos.org/c/507837))*
+- **[LineageOS/android_hardware_nothing]** fingerprint: Duplicate fingerprint header as V2 *(ID: [507836](https://review.lineageos.org/c/507836))*
+- **[LineageOS/android_hardware_nothing]** udfpshandler: Add more session notifications *(ID: [507835](https://review.lineageos.org/c/507835))*
+- **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Eat vendor acquired messages *(ID: [507834](https://review.lineageos.org/c/507834))*
+- **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Follow pre-existing namespace convention *(ID: [507833](https://review.lineageos.org/c/507833))*
+- **[LineageOS/android_hardware_nothing]** udfpshandler: Add authentication succeeded/failed notifications *(ID: [507832](https://review.lineageos.org/c/507832))*
+- **[LineageOS/android_hardware_nothing]** udfpshandler: Provide default noop implementations of functions *(ID: [507831](https://review.lineageos.org/c/507831))*
+- **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Improve documentation on sensor_location *(ID: [507830](https://review.lineageos.org/c/507830))*
+- **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Use soong to decide which arch to build *(ID: [507829](https://review.lineageos.org/c/507829))*
+- **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Allow setting more than one sensor location *(ID: [507828](https://review.lineageos.org/c/507828))*
+- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Label sensors multihal *(ID: [507826](https://review.lineageos.org/c/507826))*
+- **[LineageOS/android_hardware_nothing]** aidl: sensors: Define vintf_fragments as modules *(ID: [507825](https://review.lineageos.org/c/507825))*
+- **[LineageOS/android_hardware_nothing]** aidl: sensors: Update a misleading error log. *(ID: [507824](https://review.lineageos.org/c/507824))*
+- **[LineageOS/android_hardware_nothing]** Revert^2 "SensorHAL: add moisture detection" *(ID: [507823](https://review.lineageos.org/c/507823))*
+- **[LineageOS/android_hardware_nothing]** aidl: sensors: Change standard wrist_tilt_gesture to pickup_gesture *(ID: [507822](https://review.lineageos.org/c/507822))*
+- **[LineageOS/android_hardware_nothing]** aidl: sensors: Avoid target name conflicts *(ID: [507821](https://review.lineageos.org/c/507821))*
+- **[LineageOS/android_hardware_nothing]** aidl: sensors: Change default applicable license to Android-Apache-2.0 *(ID: [507820](https://review.lineageos.org/c/507820))*
+- **[LineageOS/android_hardware_nothing]** aidl: sensors: Import 2.X sensors hal proxy *(ID: [507819](https://review.lineageos.org/c/507819))*
+- **[LineageOS/android_hardware_nothing]** aidl: sensors: Import aidl sensors MultiHal *(ID: [507818](https://review.lineageos.org/c/507818))*
 
 </details>
 
-## 📱 Línea Motorola Activa (15)
+## 📱 Línea Motorola Activa (16)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_beckham]** beckham: overlay: Route dock media audio to the analog dock *(ID: [506922](https://review.lineageos.org/c/506922))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Drop qspmhal *(ID: [505247](https://review.lineageos.org/c/505247))*
 - **[LineageOS/android_device_motorola_smith]** smith: replace config_skinnyNotifsInLandscape with config_fullWidthNotificationsInLandscape *(ID: [507355](https://review.lineageos.org/c/507355))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: fastbootd is now enabled by default *(ID: [502211](https://review.lineageos.org/c/502211))*
