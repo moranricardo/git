@@ -7,11 +7,13 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (174)
+## 🚨 Parches Críticos Detectados (168)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_device_samsung_sm7325-common]** sm7325-common: add missing hashes and fix warnings *(ID: [464916](https://review.lineageos.org/c/464916))*
+- **[LineageOS/android_device_samsung_sm7325-common]** sm7325-common: audio: Fix malformed policy configuration *(ID: [466854](https://review.lineageos.org/c/466854))*
 - **[LineageOS/android_frameworks_base]** SystemUI: Fix physical bar dimensions at lower display resolutions *(ID: [507508](https://review.lineageos.org/c/507508))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: exynos9810: Reserve AFBC-capable client targets *(ID: [507971](https://review.lineageos.org/c/507971))*
 - **[LineageOS/android_hardware_lineage_generic-ims]** ims: carriersettings: Provide APNs *(ID: [503114](https://review.lineageos.org/c/503114))*
@@ -40,12 +42,10 @@
 - **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Eat vendor acquired messages *(ID: [507834](https://review.lineageos.org/c/507834))*
 - **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Follow pre-existing namespace convention *(ID: [507833](https://review.lineageos.org/c/507833))*
 - **[LineageOS/android_hardware_nothing]** udfpshandler: Add authentication succeeded/failed notifications *(ID: [507832](https://review.lineageos.org/c/507832))*
-- **[LineageOS/android_hardware_nothing]** udfpshandler: Provide default noop implementations of functions *(ID: [507831](https://review.lineageos.org/c/507831))*
-- **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Improve documentation on sensor_location *(ID: [507830](https://review.lineageos.org/c/507830))*
 
 </details>
 
-## 📱 Línea Motorola Activa (21)
+## 📱 Línea Motorola Activa (19)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
@@ -69,8 +69,6 @@
 - **[LineageOS/android_hardware_motorola]** motorola: Import qti vibrator effect and rename *(ID: [494129](https://review.lineageos.org/c/494129))*
 - **[LineageOS/android_hardware_motorola]** motorola: vibrator: remove example primitives by qcom *(ID: [507560](https://review.lineageos.org/c/507560))*
 - **[LineageOS/android_device_motorola_avatrn]** avatrn: Add notification LED support *(ID: [501834](https://review.lineageos.org/c/501834))*
-- **[LineageOS/android_device_motorola_smith]** smith: Allow setting independent dpi settings for each display *(ID: [507356](https://review.lineageos.org/c/507356))*
-- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Build and use sensors.moto_als *(ID: [506321](https://review.lineageos.org/c/506321))*
 
 </details>
 
