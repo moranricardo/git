@@ -7,18 +7,21 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (175)
+## 🚨 Parches Críticos Detectados (174)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_lineage_generic-ims]** ims: carriersettings: Provide APNs *(ID: [503114](https://review.lineageos.org/c/503114))*
-- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow hiding the device orientation sensor *(ID: [507778](https://review.lineageos.org/c/507778))*
-- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow flipping device orientation while folded *(ID: [507777](https://review.lineageos.org/c/507777))*
 - **[LineageOS/android_frameworks_base]** SystemUI: Fix physical bar dimensions at lower display resolutions *(ID: [507508](https://review.lineageos.org/c/507508))*
-- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Import fingerprint policy *(ID: [507841](https://review.lineageos.org/c/507841))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: exynos9810: Reserve AFBC-capable client targets *(ID: [507971](https://review.lineageos.org/c/507971))*
+- **[LineageOS/android_hardware_lineage_generic-ims]** ims: carriersettings: Provide APNs *(ID: [503114](https://review.lineageos.org/c/503114))*
 - **[LineageOS/android_kernel_build_bazel_mgk_rules]** kleaf: Make dtbo building optional *(ID: [507931](https://review.lineageos.org/c/507931))*
 - **[LineageOS/android_kernel_build_bazel_mgk_rules]** kleaf: Don't hardcode mtk_dt, mtk_dtbo and uapi generation to 6.6 only *(ID: [507930](https://review.lineageos.org/c/507930))*
+- **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
+- **[LineageOS/android_hardware_motorola]** Motorola: sensors: add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
+- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow hiding the device orientation sensor *(ID: [507778](https://review.lineageos.org/c/507778))*
+- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow flipping device orientation while folded *(ID: [507777](https://review.lineageos.org/c/507777))*
+- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Import fingerprint policy *(ID: [507841](https://review.lineageos.org/c/507841))*
 - **[LineageOS/android_device_google_coral]** floral: Fix Face Unlock with ANativeWindow-based camera VNDK *(ID: [507917](https://review.lineageos.org/c/507917))*
 - **[LineageOS/android_kernel_motorola_sm6150]** liber: defconfig: Enable FPC fingerprint module *(ID: [507921](https://review.lineageos.org/c/507921))*
 - **[LineageOS/android_hardware_qcom-caf_common]** libqti-perfd-client: Reset Power HAL on binder death *(ID: [477487](https://review.lineageos.org/c/477487))*
@@ -39,17 +42,20 @@
 - **[LineageOS/android_hardware_nothing]** udfpshandler: Add authentication succeeded/failed notifications *(ID: [507832](https://review.lineageos.org/c/507832))*
 - **[LineageOS/android_hardware_nothing]** udfpshandler: Provide default noop implementations of functions *(ID: [507831](https://review.lineageos.org/c/507831))*
 - **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Improve documentation on sensor_location *(ID: [507830](https://review.lineageos.org/c/507830))*
-- **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Use soong to decide which arch to build *(ID: [507829](https://review.lineageos.org/c/507829))*
-- **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Allow setting more than one sensor location *(ID: [507828](https://review.lineageos.org/c/507828))*
-- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Label sensors multihal *(ID: [507826](https://review.lineageos.org/c/507826))*
 
 </details>
 
-## 📱 Línea Motorola Activa (16)
+## 📱 Línea Motorola Activa (21)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
+- **[LineageOS/android_device_motorola_rtwo]** rtwo: Rerun beautify_rro *(ID: [507959](https://review.lineageos.org/c/507959))*
+- **[LineageOS/android_hardware_motorola]** Motorola: sensors: add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
+- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Rerun beautify_rro *(ID: [507960](https://review.lineageos.org/c/507960))*
+- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Ship Motorola face unlock *(ID: [507961](https://review.lineageos.org/c/507961))*
+- **[LineageOS/android_device_motorola_rtwo]** rtwo: Commonize blobs for Face Unlock *(ID: [507958](https://review.lineageos.org/c/507958))*
 - **[LineageOS/android_kernel_motorola_sm6150]** liber: defconfig: Enable FPC fingerprint module *(ID: [507921](https://review.lineageos.org/c/507921))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Drop qspmhal *(ID: [505247](https://review.lineageos.org/c/505247))*
 - **[LineageOS/android_device_motorola_beckham]** beckham: overlay: Route dock media audio to the analog dock *(ID: [506922](https://review.lineageos.org/c/506922))*
@@ -64,7 +70,6 @@
 - **[LineageOS/android_hardware_motorola]** motorola: vibrator: remove example primitives by qcom *(ID: [507560](https://review.lineageos.org/c/507560))*
 - **[LineageOS/android_device_motorola_avatrn]** avatrn: Add notification LED support *(ID: [501834](https://review.lineageos.org/c/501834))*
 - **[LineageOS/android_device_motorola_smith]** smith: Allow setting independent dpi settings for each display *(ID: [507356](https://review.lineageos.org/c/507356))*
-- **[LineageOS/android_hardware_motorola]** Motorola: sensors: add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Build and use sensors.moto_als *(ID: [506321](https://review.lineageos.org/c/506321))*
 
 </details>
