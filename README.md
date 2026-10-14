@@ -1,17 +1,20 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-13-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-14-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (176)
+## 🚨 Parches Críticos Detectados (178)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_motorola_sm6150]** liber: defconfig: Enable FPC fingerprint module *(ID: [507921](https://review.lineageos.org/c/507921))*
+- **[LineageOS/android_hardware_qcom-caf_common]** libqti-perfd-client: Reset Power HAL on binder death *(ID: [477487](https://review.lineageos.org/c/477487))*
+- **[LineageOS/android_hardware_lineage_generic-ims]** ims: carriersettings: Provide APNs *(ID: [503114](https://review.lineageos.org/c/503114))*
 - **[LineageOS/android_frameworks_base]** SystemUI: Fix UDFPS dim layer opacity and animation cleanup *(ID: [507919](https://review.lineageos.org/c/507919))*
 - **[LineageOS/scripts]** dev: sepolicy: simplify the guard exclusion fixed point *(ID: [507891](https://review.lineageos.org/c/507891))*
 - **[LineageOS/android_hardware_nothing]** nt-sepolicy: Import fingerprint policy *(ID: [507841](https://review.lineageos.org/c/507841))*
@@ -39,19 +42,17 @@
 - **[LineageOS/android_hardware_nothing]** Revert^2 "SensorHAL: add moisture detection" *(ID: [507823](https://review.lineageos.org/c/507823))*
 - **[LineageOS/android_hardware_nothing]** aidl: sensors: Change standard wrist_tilt_gesture to pickup_gesture *(ID: [507822](https://review.lineageos.org/c/507822))*
 - **[LineageOS/android_hardware_nothing]** aidl: sensors: Avoid target name conflicts *(ID: [507821](https://review.lineageos.org/c/507821))*
-- **[LineageOS/android_hardware_nothing]** aidl: sensors: Change default applicable license to Android-Apache-2.0 *(ID: [507820](https://review.lineageos.org/c/507820))*
-- **[LineageOS/android_hardware_nothing]** aidl: sensors: Import 2.X sensors hal proxy *(ID: [507819](https://review.lineageos.org/c/507819))*
-- **[LineageOS/android_hardware_nothing]** aidl: sensors: Import aidl sensors MultiHal *(ID: [507818](https://review.lineageos.org/c/507818))*
 
 </details>
 
-## 📱 Línea Motorola Activa (16)
+## 📱 Línea Motorola Activa (17)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
-- **[LineageOS/android_device_motorola_beckham]** beckham: overlay: Route dock media audio to the analog dock *(ID: [506922](https://review.lineageos.org/c/506922))*
+- **[LineageOS/android_kernel_motorola_sm6150]** liber: defconfig: Enable FPC fingerprint module *(ID: [507921](https://review.lineageos.org/c/507921))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Drop qspmhal *(ID: [505247](https://review.lineageos.org/c/505247))*
+- **[LineageOS/android_device_motorola_beckham]** beckham: overlay: Route dock media audio to the analog dock *(ID: [506922](https://review.lineageos.org/c/506922))*
 - **[LineageOS/android_device_motorola_smith]** smith: replace config_skinnyNotifsInLandscape with config_fullWidthNotificationsInLandscape *(ID: [507355](https://review.lineageos.org/c/507355))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: fastbootd is now enabled by default *(ID: [502211](https://review.lineageos.org/c/502211))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Use legacy libion implementation *(ID: [502210](https://review.lineageos.org/c/502210))*
