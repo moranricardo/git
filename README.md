@@ -7,18 +7,23 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (178)
+## 🚨 Parches Críticos Detectados (175)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_lineage_generic-ims]** ims: carriersettings: Provide APNs *(ID: [503114](https://review.lineageos.org/c/503114))*
+- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow hiding the device orientation sensor *(ID: [507778](https://review.lineageos.org/c/507778))*
+- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow flipping device orientation while folded *(ID: [507777](https://review.lineageos.org/c/507777))*
+- **[LineageOS/android_frameworks_base]** SystemUI: Fix physical bar dimensions at lower display resolutions *(ID: [507508](https://review.lineageos.org/c/507508))*
+- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Import fingerprint policy *(ID: [507841](https://review.lineageos.org/c/507841))*
+- **[LineageOS/android_kernel_build_bazel_mgk_rules]** kleaf: Make dtbo building optional *(ID: [507931](https://review.lineageos.org/c/507931))*
+- **[LineageOS/android_kernel_build_bazel_mgk_rules]** kleaf: Don't hardcode mtk_dt, mtk_dtbo and uapi generation to 6.6 only *(ID: [507930](https://review.lineageos.org/c/507930))*
+- **[LineageOS/android_device_google_coral]** floral: Fix Face Unlock with ANativeWindow-based camera VNDK *(ID: [507917](https://review.lineageos.org/c/507917))*
 - **[LineageOS/android_kernel_motorola_sm6150]** liber: defconfig: Enable FPC fingerprint module *(ID: [507921](https://review.lineageos.org/c/507921))*
 - **[LineageOS/android_hardware_qcom-caf_common]** libqti-perfd-client: Reset Power HAL on binder death *(ID: [477487](https://review.lineageos.org/c/477487))*
-- **[LineageOS/android_hardware_lineage_generic-ims]** ims: carriersettings: Provide APNs *(ID: [503114](https://review.lineageos.org/c/503114))*
 - **[LineageOS/android_frameworks_base]** SystemUI: Fix UDFPS dim layer opacity and animation cleanup *(ID: [507919](https://review.lineageos.org/c/507919))*
 - **[LineageOS/scripts]** dev: sepolicy: simplify the guard exclusion fixed point *(ID: [507891](https://review.lineageos.org/c/507891))*
-- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Import fingerprint policy *(ID: [507841](https://review.lineageos.org/c/507841))*
-- **[LineageOS/android_device_google_coral]** floral: Fix Face Unlock with ANativeWindow-based camera VNDK *(ID: [507917](https://review.lineageos.org/c/507917))*
 - **[LineageOS/android_hardware_oplus]** power: Notify charger HAL about screen state *(ID: [507779](https://review.lineageos.org/c/507779))*
 - **[LineageOS/android_hardware_oplus]** power: Leave DOUBLE_TAP_TO_WAKE to QTI power HAL if it has a node *(ID: [507780](https://review.lineageos.org/c/507780))*
 - **[LineageOS/android_hardware_samsung]** SamsungEsimSwitcher: Add app for tsds2 hybrid eUICC *(ID: [507776](https://review.lineageos.org/c/507776))*
@@ -37,15 +42,10 @@
 - **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Use soong to decide which arch to build *(ID: [507829](https://review.lineageos.org/c/507829))*
 - **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Allow setting more than one sensor location *(ID: [507828](https://review.lineageos.org/c/507828))*
 - **[LineageOS/android_hardware_nothing]** nt-sepolicy: Label sensors multihal *(ID: [507826](https://review.lineageos.org/c/507826))*
-- **[LineageOS/android_hardware_nothing]** aidl: sensors: Define vintf_fragments as modules *(ID: [507825](https://review.lineageos.org/c/507825))*
-- **[LineageOS/android_hardware_nothing]** aidl: sensors: Update a misleading error log. *(ID: [507824](https://review.lineageos.org/c/507824))*
-- **[LineageOS/android_hardware_nothing]** Revert^2 "SensorHAL: add moisture detection" *(ID: [507823](https://review.lineageos.org/c/507823))*
-- **[LineageOS/android_hardware_nothing]** aidl: sensors: Change standard wrist_tilt_gesture to pickup_gesture *(ID: [507822](https://review.lineageos.org/c/507822))*
-- **[LineageOS/android_hardware_nothing]** aidl: sensors: Avoid target name conflicts *(ID: [507821](https://review.lineageos.org/c/507821))*
 
 </details>
 
-## 📱 Línea Motorola Activa (17)
+## 📱 Línea Motorola Activa (16)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
@@ -66,7 +66,6 @@
 - **[LineageOS/android_device_motorola_smith]** smith: Allow setting independent dpi settings for each display *(ID: [507356](https://review.lineageos.org/c/507356))*
 - **[LineageOS/android_hardware_motorola]** Motorola: sensors: add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Build and use sensors.moto_als *(ID: [506321](https://review.lineageos.org/c/506321))*
-- **[LineageOS/android_device_motorola_rtwo]** rtwo: Frameworks: Tune low-lux auto-brightness curve and debounce *(ID: [506065](https://review.lineageos.org/c/506065))*
 
 </details>
 
