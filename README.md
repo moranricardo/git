@@ -1,17 +1,23 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-14-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-15-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (168)
+## 🚨 Parches Críticos Detectados (162)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_device_osom_ingot]** ingot: Fix Wi-Fi controller TX levels array *(ID: [508361](https://review.lineageos.org/c/508361))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Count only real HBR refusals *(ID: [508337](https://review.lineageos.org/c/508337))*
+- **[LineageOS/android_kernel_google_redbull]** Merge tag 'LA.UM.9.12.c25-05200-SMxx50.QSSI13c28.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/audio-kernel into android-msm-pixel-4.19 *(ID: [508301](https://review.lineageos.org/c/508301))*
+- **[LineageOS/android_kernel_google_redbull]** Merge tag 'LA.UM.9.12.c25-05200-SMxx50.QSSI13c28.0' of https://git.codelinaro.org/clo/la/kernel/msm-4.19 into android-msm-pixel-4.19 *(ID: [508300](https://review.lineageos.org/c/508300))*
+- **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
+- **[LineageOS/android_vendor_qcom_opensource_arpal-lx]** pal: Fix format string mismatches *(ID: [508298](https://review.lineageos.org/c/508298))*
 - **[LineageOS/android_device_samsung_sm7325-common]** sm7325-common: add missing hashes and fix warnings *(ID: [464916](https://review.lineageos.org/c/464916))*
 - **[LineageOS/android_device_samsung_sm7325-common]** sm7325-common: audio: Fix malformed policy configuration *(ID: [466854](https://review.lineageos.org/c/466854))*
 - **[LineageOS/android_frameworks_base]** SystemUI: Fix physical bar dimensions at lower display resolutions *(ID: [507508](https://review.lineageos.org/c/507508))*
@@ -19,7 +25,6 @@
 - **[LineageOS/android_hardware_lineage_generic-ims]** ims: carriersettings: Provide APNs *(ID: [503114](https://review.lineageos.org/c/503114))*
 - **[LineageOS/android_kernel_build_bazel_mgk_rules]** kleaf: Make dtbo building optional *(ID: [507931](https://review.lineageos.org/c/507931))*
 - **[LineageOS/android_kernel_build_bazel_mgk_rules]** kleaf: Don't hardcode mtk_dt, mtk_dtbo and uapi generation to 6.6 only *(ID: [507930](https://review.lineageos.org/c/507930))*
-- **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
 - **[LineageOS/android_hardware_motorola]** Motorola: sensors: add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
 - **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow hiding the device orientation sensor *(ID: [507778](https://review.lineageos.org/c/507778))*
 - **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow flipping device orientation while folded *(ID: [507777](https://review.lineageos.org/c/507777))*
@@ -37,24 +42,20 @@
 - **[LineageOS/android_hardware_nothing]** fingerprint: Move `nothing_hardware_biometrics_config_default` definition *(ID: [507839](https://review.lineageos.org/c/507839))*
 - **[LineageOS/android_hardware_nothing]** aidl: fingerprint: parse enumerate/remove results as fid arrays *(ID: [507838](https://review.lineageos.org/c/507838))*
 - **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Add support for updated HAL implementation *(ID: [507837](https://review.lineageos.org/c/507837))*
-- **[LineageOS/android_hardware_nothing]** fingerprint: Duplicate fingerprint header as V2 *(ID: [507836](https://review.lineageos.org/c/507836))*
-- **[LineageOS/android_hardware_nothing]** udfpshandler: Add more session notifications *(ID: [507835](https://review.lineageos.org/c/507835))*
-- **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Eat vendor acquired messages *(ID: [507834](https://review.lineageos.org/c/507834))*
-- **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Follow pre-existing namespace convention *(ID: [507833](https://review.lineageos.org/c/507833))*
-- **[LineageOS/android_hardware_nothing]** udfpshandler: Add authentication succeeded/failed notifications *(ID: [507832](https://review.lineageos.org/c/507832))*
 
 </details>
 
-## 📱 Línea Motorola Activa (19)
+## 📱 Línea Motorola Activa (20)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_xpeng]** xpeng: Rerun beautify_rro *(ID: [508297](https://review.lineageos.org/c/508297))*
+- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Ship Motorola face unlock *(ID: [507961](https://review.lineageos.org/c/507961))*
 - **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
 - **[LineageOS/android_device_motorola_rtwo]** rtwo: Rerun beautify_rro *(ID: [507959](https://review.lineageos.org/c/507959))*
 - **[LineageOS/android_hardware_motorola]** Motorola: sensors: add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Rerun beautify_rro *(ID: [507960](https://review.lineageos.org/c/507960))*
-- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Ship Motorola face unlock *(ID: [507961](https://review.lineageos.org/c/507961))*
 - **[LineageOS/android_device_motorola_rtwo]** rtwo: Commonize blobs for Face Unlock *(ID: [507958](https://review.lineageos.org/c/507958))*
 - **[LineageOS/android_kernel_motorola_sm6150]** liber: defconfig: Enable FPC fingerprint module *(ID: [507921](https://review.lineageos.org/c/507921))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Drop qspmhal *(ID: [505247](https://review.lineageos.org/c/505247))*
