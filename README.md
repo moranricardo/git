@@ -7,15 +7,22 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (162)
+## 🚨 Parches Críticos Detectados (159)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_device_osom_ingot]** ingot: Fix Wi-Fi controller TX levels array *(ID: [508361](https://review.lineageos.org/c/508361))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Count only real HBR refusals *(ID: [508337](https://review.lineageos.org/c/508337))*
+- **[LineageOS/android_kernel_samsung_sm8550]** Merge remote-tracking branch 'sm8550/lineage-21' into HEAD *(ID: [507565](https://review.lineageos.org/c/507565))*
+- **[LineageOS/android_kernel_samsung_sm8550]** drivers: gpio: pca953x-q5q: Adapt to void teardown callback *(ID: [507566](https://review.lineageos.org/c/507566))*
+- **[LineageOS/android_kernel_samsung_sm8550]** drivers: cps4038_charger: Fix uninitialized variable *(ID: [507567](https://review.lineageos.org/c/507567))*
+- **[LineageOS/android_kernel_samsung_sm8550]** drivers: nu1668_charger: Fix uninitialized variable *(ID: [507568](https://review.lineageos.org/c/507568))*
+- **[LineageOS/android_kernel_samsung_sm8550-modules]** Merge remote-tracking branch 'sm8550-modules/lineage-21' into HEAD *(ID: [507569](https://review.lineageos.org/c/507569))*
+- **[LineageOS/android_kernel_samsung_sm8550-devicetrees]** Merge remote-tracking branch 'sm8550-devicetrees/lineage-21' into HEAD *(ID: [507570](https://review.lineageos.org/c/507570))*
 - **[LineageOS/android_kernel_google_redbull]** Merge tag 'LA.UM.9.12.c25-05200-SMxx50.QSSI13c28.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/audio-kernel into android-msm-pixel-4.19 *(ID: [508301](https://review.lineageos.org/c/508301))*
 - **[LineageOS/android_kernel_google_redbull]** Merge tag 'LA.UM.9.12.c25-05200-SMxx50.QSSI13c28.0' of https://git.codelinaro.org/clo/la/kernel/msm-4.19 into android-msm-pixel-4.19 *(ID: [508300](https://review.lineageos.org/c/508300))*
+- **[LineageOS/android_device_osom_ingot]** ingot: Fix charge control on 6.6 *(ID: [505508](https://review.lineageos.org/c/505508))*
+- **[LineageOS/android_device_osom_ingot]** ingot: Fix Wi-Fi controller TX levels array *(ID: [508361](https://review.lineageos.org/c/508361))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Count only real HBR refusals *(ID: [508337](https://review.lineageos.org/c/508337))*
 - **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
 - **[LineageOS/android_vendor_qcom_opensource_arpal-lx]** pal: Fix format string mismatches *(ID: [508298](https://review.lineageos.org/c/508298))*
 - **[LineageOS/android_device_samsung_sm7325-common]** sm7325-common: add missing hashes and fix warnings *(ID: [464916](https://review.lineageos.org/c/464916))*
@@ -35,21 +42,21 @@
 - **[LineageOS/android_frameworks_base]** SystemUI: Fix UDFPS dim layer opacity and animation cleanup *(ID: [507919](https://review.lineageos.org/c/507919))*
 - **[LineageOS/scripts]** dev: sepolicy: simplify the guard exclusion fixed point *(ID: [507891](https://review.lineageos.org/c/507891))*
 - **[LineageOS/android_hardware_oplus]** power: Notify charger HAL about screen state *(ID: [507779](https://review.lineageos.org/c/507779))*
-- **[LineageOS/android_hardware_oplus]** power: Leave DOUBLE_TAP_TO_WAKE to QTI power HAL if it has a node *(ID: [507780](https://review.lineageos.org/c/507780))*
-- **[LineageOS/android_hardware_samsung]** SamsungEsimSwitcher: Add app for tsds2 hybrid eUICC *(ID: [507776](https://review.lineageos.org/c/507776))*
-- **[LineageOS/android_hardware_samsung]** SamsungEsimSwitcher: Add app for tsds2 hybrid eUICC *(ID: [496649](https://review.lineageos.org/c/496649))*
-- **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Don't clear lockout twice on V2 reset *(ID: [507840](https://review.lineageos.org/c/507840))*
-- **[LineageOS/android_hardware_nothing]** fingerprint: Move `nothing_hardware_biometrics_config_default` definition *(ID: [507839](https://review.lineageos.org/c/507839))*
-- **[LineageOS/android_hardware_nothing]** aidl: fingerprint: parse enumerate/remove results as fid arrays *(ID: [507838](https://review.lineageos.org/c/507838))*
-- **[LineageOS/android_hardware_nothing]** aidl: fingerprint: Add support for updated HAL implementation *(ID: [507837](https://review.lineageos.org/c/507837))*
 
 </details>
 
-## 📱 Línea Motorola Activa (20)
+## 📱 Línea Motorola Activa (26)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_berlna]** berlna: Commonize blobs for Face Unlock *(ID: [508374](https://review.lineageos.org/c/508374))*
+- **[LineageOS/android_device_motorola_xpeng]** xpeng: Commonize libmpbase for Face Unlock *(ID: [508373](https://review.lineageos.org/c/508373))*
+- **[LineageOS/android_device_motorola_tundra]** tundra: Commonize libmpbase for Face Unlock *(ID: [508372](https://review.lineageos.org/c/508372))*
+- **[LineageOS/android_device_motorola_dubai]** dubai: Commonize blobs for Face Unlock *(ID: [508371](https://review.lineageos.org/c/508371))*
+- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Ship Motorola face unlock *(ID: [508370](https://review.lineageos.org/c/508370))*
+- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Inherit common motorola FCM *(ID: [508369](https://review.lineageos.org/c/508369))*
+- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Rerun beautify_rro *(ID: [508368](https://review.lineageos.org/c/508368))*
 - **[LineageOS/android_device_motorola_xpeng]** xpeng: Rerun beautify_rro *(ID: [508297](https://review.lineageos.org/c/508297))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Ship Motorola face unlock *(ID: [507961](https://review.lineageos.org/c/507961))*
 - **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
@@ -69,7 +76,6 @@
 - **[LineageOS/android_hardware_motorola]** motorola: vibrator: effect: use header library *(ID: [494130](https://review.lineageos.org/c/494130))*
 - **[LineageOS/android_hardware_motorola]** motorola: Import qti vibrator effect and rename *(ID: [494129](https://review.lineageos.org/c/494129))*
 - **[LineageOS/android_hardware_motorola]** motorola: vibrator: remove example primitives by qcom *(ID: [507560](https://review.lineageos.org/c/507560))*
-- **[LineageOS/android_device_motorola_avatrn]** avatrn: Add notification LED support *(ID: [501834](https://review.lineageos.org/c/501834))*
 
 </details>
 
