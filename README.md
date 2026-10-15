@@ -7,57 +7,60 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (159)
+## 🚨 Parches Críticos Detectados (217)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_samsung_sm8550]** Merge remote-tracking branch 'sm8550/lineage-21' into HEAD *(ID: [507565](https://review.lineageos.org/c/507565))*
-- **[LineageOS/android_kernel_samsung_sm8550]** drivers: gpio: pca953x-q5q: Adapt to void teardown callback *(ID: [507566](https://review.lineageos.org/c/507566))*
+- **[LineageOS/android_hardware_google_pixel-sepolicy]** sepolicy: Don't ignore pixel audio services *(ID: [508601](https://review.lineageos.org/c/508601))*
+- **[LineageOS/android_hardware_lineage_generic-ims]** carriersettings: Support device configuration overlays *(ID: [508590](https://review.lineageos.org/c/508590))*
+- **[LineageOS/android_hardware_samsung]** aidl: camera: Add an Android 11 Fence shim for legacy camera HALs *(ID: [508559](https://review.lineageos.org/c/508559))*
+- **[LineageOS/android_hardware_samsung]** aidl: camera: Add Optional reserved fields for torch strength *(ID: [506033](https://review.lineageos.org/c/506033))*
+- **[LineageOS/android_device_samsung_sm7125-common]** sm7125-common: enable fixed `camera_module_t` layout *(ID: [506034](https://review.lineageos.org/c/506034))*
 - **[LineageOS/android_kernel_samsung_sm8550]** drivers: cps4038_charger: Fix uninitialized variable *(ID: [507567](https://review.lineageos.org/c/507567))*
-- **[LineageOS/android_kernel_samsung_sm8550]** drivers: nu1668_charger: Fix uninitialized variable *(ID: [507568](https://review.lineageos.org/c/507568))*
-- **[LineageOS/android_kernel_samsung_sm8550-modules]** Merge remote-tracking branch 'sm8550-modules/lineage-21' into HEAD *(ID: [507569](https://review.lineageos.org/c/507569))*
-- **[LineageOS/android_kernel_samsung_sm8550-devicetrees]** Merge remote-tracking branch 'sm8550-devicetrees/lineage-21' into HEAD *(ID: [507570](https://review.lineageos.org/c/507570))*
-- **[LineageOS/android_kernel_google_redbull]** Merge tag 'LA.UM.9.12.c25-05200-SMxx50.QSSI13c28.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/audio-kernel into android-msm-pixel-4.19 *(ID: [508301](https://review.lineageos.org/c/508301))*
-- **[LineageOS/android_kernel_google_redbull]** Merge tag 'LA.UM.9.12.c25-05200-SMxx50.QSSI13c28.0' of https://git.codelinaro.org/clo/la/kernel/msm-4.19 into android-msm-pixel-4.19 *(ID: [508300](https://review.lineageos.org/c/508300))*
-- **[LineageOS/android_device_osom_ingot]** ingot: Fix charge control on 6.6 *(ID: [505508](https://review.lineageos.org/c/505508))*
-- **[LineageOS/android_device_osom_ingot]** ingot: Fix Wi-Fi controller TX levels array *(ID: [508361](https://review.lineageos.org/c/508361))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Count only real HBR refusals *(ID: [508337](https://review.lineageos.org/c/508337))*
-- **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
-- **[LineageOS/android_vendor_qcom_opensource_arpal-lx]** pal: Fix format string mismatches *(ID: [508298](https://review.lineageos.org/c/508298))*
-- **[LineageOS/android_device_samsung_sm7325-common]** sm7325-common: add missing hashes and fix warnings *(ID: [464916](https://review.lineageos.org/c/464916))*
-- **[LineageOS/android_device_samsung_sm7325-common]** sm7325-common: audio: Fix malformed policy configuration *(ID: [466854](https://review.lineageos.org/c/466854))*
-- **[LineageOS/android_frameworks_base]** SystemUI: Fix physical bar dimensions at lower display resolutions *(ID: [507508](https://review.lineageos.org/c/507508))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: exynos9810: Reserve AFBC-capable client targets *(ID: [507971](https://review.lineageos.org/c/507971))*
-- **[LineageOS/android_hardware_lineage_generic-ims]** ims: carriersettings: Provide APNs *(ID: [503114](https://review.lineageos.org/c/503114))*
-- **[LineageOS/android_kernel_build_bazel_mgk_rules]** kleaf: Make dtbo building optional *(ID: [507931](https://review.lineageos.org/c/507931))*
-- **[LineageOS/android_kernel_build_bazel_mgk_rules]** kleaf: Don't hardcode mtk_dt, mtk_dtbo and uapi generation to 6.6 only *(ID: [507930](https://review.lineageos.org/c/507930))*
-- **[LineageOS/android_hardware_motorola]** Motorola: sensors: add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
-- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow hiding the device orientation sensor *(ID: [507778](https://review.lineageos.org/c/507778))*
-- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow flipping device orientation while folded *(ID: [507777](https://review.lineageos.org/c/507777))*
-- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Import fingerprint policy *(ID: [507841](https://review.lineageos.org/c/507841))*
-- **[LineageOS/android_device_google_coral]** floral: Fix Face Unlock with ANativeWindow-based camera VNDK *(ID: [507917](https://review.lineageos.org/c/507917))*
-- **[LineageOS/android_kernel_motorola_sm6150]** liber: defconfig: Enable FPC fingerprint module *(ID: [507921](https://review.lineageos.org/c/507921))*
-- **[LineageOS/android_hardware_qcom-caf_common]** libqti-perfd-client: Reset Power HAL on binder death *(ID: [477487](https://review.lineageos.org/c/477487))*
-- **[LineageOS/android_frameworks_base]** SystemUI: Fix UDFPS dim layer opacity and animation cleanup *(ID: [507919](https://review.lineageos.org/c/507919))*
-- **[LineageOS/scripts]** dev: sepolicy: simplify the guard exclusion fixed point *(ID: [507891](https://review.lineageos.org/c/507891))*
-- **[LineageOS/android_hardware_oplus]** power: Notify charger HAL about screen state *(ID: [507779](https://review.lineageos.org/c/507779))*
+- **[LineageOS/android_hardware_oneplus]** aidl: Add biometrics face unlock HAL *(ID: [508587](https://review.lineageos.org/c/508587))*
+- **[LineageOS/android_kernel_qcom_sm8250]** dts: qcom: sdm845-mtp: Update to use ADC defines *(ID: [507008](https://review.lineageos.org/c/507008))*
+- **[LineageOS/android_kernel_qcom_sm8250]** serial: msm_geni_serial: fix for broken bluetooth for legacy soc *(ID: [506966](https://review.lineageos.org/c/506966))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: msm_media_info_legacy: Import buffer alignment changes from kernel 4.9 *(ID: [506931](https://review.lineageos.org/c/506931))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Don't set VBV HRD buffer size on sdm845 *(ID: [506885](https://review.lineageos.org/c/506885))*
+- **[LineageOS/android_kernel_qcom_sm8250]** dts: qcom: sdm845-audio-overlay: Add ssr devices for audio driver *(ID: [506884](https://review.lineageos.org/c/506884))*
+- **[LineageOS/android_kernel_qcom_sm8250]** techpack: audio: sdm845: Add SND event FWK support *(ID: [506883](https://review.lineageos.org/c/506883))*
+- **[LineageOS/android_kernel_qcom_sm8250]** dts: qcom: sdm845: set QoS cores for fastrpc *(ID: [506882](https://review.lineageos.org/c/506882))*
+- **[LineageOS/android_kernel_qcom_sm8250]** audio: asoc: wcd-mbhc-v2: Update Legacy USB Type-C analog audio logic *(ID: [506881](https://review.lineageos.org/c/506881))*
+- **[LineageOS/android_kernel_qcom_sm8250]** ARM64: dts: sdm845-sde: add vmid for secure cb of rotator *(ID: [506880](https://review.lineageos.org/c/506880))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: fix function type for hfi_cmd_response_callback *(ID: [506879](https://review.lineageos.org/c/506879))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Fix handle_cmd_response parameter type *(ID: [506878](https://review.lineageos.org/c/506878))*
+- **[LineageOS/android_kernel_qcom_sm8250]** arm64: configs: sdm845: Switch to cpufreq-hw *(ID: [506877](https://review.lineageos.org/c/506877))*
+- **[LineageOS/android_kernel_qcom_sm8250]** arm64: dts: qcom: sdm845: remove deprecated energy-costs *(ID: [506876](https://review.lineageos.org/c/506876))*
+- **[LineageOS/android_kernel_qcom_sm8250]** arm64: dts: sdm845: Add dynamic CPU power coefficients *(ID: [506875](https://review.lineageos.org/c/506875))*
+- **[LineageOS/android_kernel_qcom_sm8250]** ARM64: dts: qcom: sdm845: Add cpufreq-hw support *(ID: [506874](https://review.lineageos.org/c/506874))*
+- **[LineageOS/android_kernel_qcom_sm8250]** dts: qcom: sdm845: Disable kpti and ssbd *(ID: [506873](https://review.lineageos.org/c/506873))*
+- **[LineageOS/android_kernel_qcom_sm8250]** ARM64: dts: msm: disable memcg kernel and socket accounting on sdm845 *(ID: [506872](https://review.lineageos.org/c/506872))*
+- **[LineageOS/android_kernel_qcom_sm8250]** dts: qcom: sdm845: Add rcu_nocbs kernel parameter to chosen node *(ID: [506871](https://review.lineageos.org/c/506871))*
+- **[LineageOS/android_kernel_qcom_sm8250]** ARM: dts: qcom: sdm845: disable coresight for sdm845 *(ID: [506870](https://review.lineageos.org/c/506870))*
+- **[LineageOS/android_kernel_qcom_sm8250]** arm64: dts: qcom-sdm845: sdm845: Add CDSP L3 governor *(ID: [506869](https://review.lineageos.org/c/506869))*
+- **[LineageOS/android_kernel_qcom_sm8250]** techpack: sde: Set rotator OT limit for sdm845 *(ID: [506868](https://review.lineageos.org/c/506868))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: remove unsupported operating rate for sdm845 *(ID: [506867](https://review.lineageos.org/c/506867))*
 
 </details>
 
-## 📱 Línea Motorola Activa (26)
+## 📱 Línea Motorola Activa (20)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
 - **[LineageOS/android_device_motorola_berlna]** berlna: Commonize blobs for Face Unlock *(ID: [508374](https://review.lineageos.org/c/508374))*
+- **[LineageOS/android_device_motorola_berlin]** berlin: Commonize blobs for Face Unlock *(ID: [508548](https://review.lineageos.org/c/508548))*
 - **[LineageOS/android_device_motorola_xpeng]** xpeng: Commonize libmpbase for Face Unlock *(ID: [508373](https://review.lineageos.org/c/508373))*
+- **[LineageOS/android_device_motorola_xpeng]** xpeng: Rerun beautify_rro *(ID: [508297](https://review.lineageos.org/c/508297))*
 - **[LineageOS/android_device_motorola_tundra]** tundra: Commonize libmpbase for Face Unlock *(ID: [508372](https://review.lineageos.org/c/508372))*
 - **[LineageOS/android_device_motorola_dubai]** dubai: Commonize blobs for Face Unlock *(ID: [508371](https://review.lineageos.org/c/508371))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Ship Motorola face unlock *(ID: [508370](https://review.lineageos.org/c/508370))*
+- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Decommonize 6 GHz and 11ax configs *(ID: [508519](https://review.lineageos.org/c/508519))*
+- **[LineageOS/android_device_motorola_avatrn]** avatrn: Import 6 GHz and 11ax configs *(ID: [508520](https://review.lineageos.org/c/508520))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Inherit common motorola FCM *(ID: [508369](https://review.lineageos.org/c/508369))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Rerun beautify_rro *(ID: [508368](https://review.lineageos.org/c/508368))*
-- **[LineageOS/android_device_motorola_xpeng]** xpeng: Rerun beautify_rro *(ID: [508297](https://review.lineageos.org/c/508297))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Ship Motorola face unlock *(ID: [507961](https://review.lineageos.org/c/507961))*
 - **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
 - **[LineageOS/android_device_motorola_rtwo]** rtwo: Rerun beautify_rro *(ID: [507959](https://review.lineageos.org/c/507959))*
@@ -67,15 +70,6 @@
 - **[LineageOS/android_kernel_motorola_sm6150]** liber: defconfig: Enable FPC fingerprint module *(ID: [507921](https://review.lineageos.org/c/507921))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Drop qspmhal *(ID: [505247](https://review.lineageos.org/c/505247))*
 - **[LineageOS/android_device_motorola_beckham]** beckham: overlay: Route dock media audio to the analog dock *(ID: [506922](https://review.lineageos.org/c/506922))*
-- **[LineageOS/android_device_motorola_smith]** smith: replace config_skinnyNotifsInLandscape with config_fullWidthNotificationsInLandscape *(ID: [507355](https://review.lineageos.org/c/507355))*
-- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: fastbootd is now enabled by default *(ID: [502211](https://review.lineageos.org/c/502211))*
-- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Use legacy libion implementation *(ID: [502210](https://review.lineageos.org/c/502210))*
-- **[LineageOS/android_hardware_motorola]** motorola: touch: Import single tap support *(ID: [494128](https://review.lineageos.org/c/494128))*
-- **[LineageOS/android_hardware_motorola]** motorola: vibrator: effect: import richtap effects *(ID: [494132](https://review.lineageos.org/c/494132))*
-- **[LineageOS/android_hardware_motorola]** motorola: vibrator: effect: fix -Wreorder-init-list *(ID: [494131](https://review.lineageos.org/c/494131))*
-- **[LineageOS/android_hardware_motorola]** motorola: vibrator: effect: use header library *(ID: [494130](https://review.lineageos.org/c/494130))*
-- **[LineageOS/android_hardware_motorola]** motorola: Import qti vibrator effect and rename *(ID: [494129](https://review.lineageos.org/c/494129))*
-- **[LineageOS/android_hardware_motorola]** motorola: vibrator: remove example primitives by qcom *(ID: [507560](https://review.lineageos.org/c/507560))*
 
 </details>
 
