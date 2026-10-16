@@ -7,18 +7,23 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (147)
+## 🚨 Parches Críticos Detectados (146)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_qcom_audio-ar]** hal: lvacfs: Convert input format to tinyalsa PCM IDs *(ID: [508850](https://review.lineageos.org/c/508850))*
+- **[LineageOS/android_hardware_lineage_generic-ims]** carriersettings: Support device configuration overlays *(ID: [508590](https://review.lineageos.org/c/508590))*
+- **[LineageOS/android_hardware_qcom_audio-ar]** hal/Lvacfs: Skip processing for VoIP, compressed, raw and proxy inputs *(ID: [508849](https://review.lineageos.org/c/508849))*
+- **[LineageOS/android_kernel_google_redbull]** Merge tag 'LA.UM.9.12.c25-05200-SMxx50.QSSI13c28.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/audio-kernel into android-msm-pixel-4.19 *(ID: [508301](https://review.lineageos.org/c/508301))*
+- **[LineageOS/android_kernel_google_redbull]** Merge tag 'LA.UM.9.12.c25-05200-SMxx50.QSSI13c28.0' of https://git.codelinaro.org/clo/la/kernel/msm-4.19 into android-msm-pixel-4.19 *(ID: [508300](https://review.lineageos.org/c/508300))*
+- **[LineageOS/android_kernel_google_gs-6.1_manifest]** manifest: Sync android14-6.1-2026-03_r24 kernel *(ID: [505652](https://review.lineageos.org/c/505652))*
+- **[LineageOS/android_hardware_samsung]** aidl: camera: Add Optional reserved fields for torch strength *(ID: [506033](https://review.lineageos.org/c/506033))*
 - **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
-- **[LineageOS/android_hardware_libhardware]** Disallow unexpected incoming HID connections 3/3 *(ID: [508838](https://review.lineageos.org/c/508838))*
 - **[LineageOS/android_kernel_xiaomi_mt6768]** mediatek: video: Invalidate cached backlight level on suspend *(ID: [508834](https://review.lineageos.org/c/508834))*
 - **[LineageOS/android_kernel_xiaomi_earth]** mediatek: video: Invalidate cached backlight level on suspend *(ID: [508833](https://review.lineageos.org/c/508833))*
 - **[LineageOS/android_kernel_xiaomi_mt6785]** mediatek: video: Invalidate cached backlight level on suspend *(ID: [508832](https://review.lineageos.org/c/508832))*
 - **[LineageOS/android_hardware_samsung]** aidl: camera: Add an Android 11 Fence shim for legacy camera HALs *(ID: [508559](https://review.lineageos.org/c/508559))*
-- **[LineageOS/android_kernel_google_gs-6.1_manifest]** manifest: Sync android14-6.1-2026-03_r24 kernel *(ID: [505652](https://review.lineageos.org/c/505652))*
 - **[LineageOS/android_device_osom_ingot]** ingot: Fix charge control on 6.6 *(ID: [505508](https://review.lineageos.org/c/505508))*
 - **[LineageOS/android_kernel_ayn_cq8725s-modules]** audio: Add aw883xx codec *(ID: [508732](https://review.lineageos.org/c/508732))*
 - **[LineageOS/android_kernel_ayn_cq8725s]** arch: arm64: configs: vendor: Add moorechip defconfig *(ID: [508711](https://review.lineageos.org/c/508711))*
@@ -37,19 +42,16 @@
 - **[LineageOS/android_kernel_ayn_cq8725s-modules]** touch: Fix build *(ID: [508731](https://review.lineageos.org/c/508731))*
 - **[LineageOS/android_kernel_ayn_cq8725s-devicetrees]** devicetrees: Add Ayn Odin 3 *(ID: [508718](https://review.lineageos.org/c/508718))*
 - **[LineageOS/android_kernel_ayn_cq8725s-devicetrees]** treewide: Point to cq8725s *(ID: [508717](https://review.lineageos.org/c/508717))*
-- **[LineageOS/android_kernel_ayn_cq8725s]** include: qcom: panel_event_notifier: Add secondary client slots *(ID: [508715](https://review.lineageos.org/c/508715))*
-- **[LineageOS/android_kernel_ayn_cq8725s]** include: qcom: panel_event_notifier: Add joystick client *(ID: [508714](https://review.lineageos.org/c/508714))*
-- **[LineageOS/android_kernel_ayn_cq8725s]** include: qcom: panel_event_notifier: Add lights client *(ID: [508710](https://review.lineageos.org/c/508710))*
-- **[LineageOS/android_hardware_lineage_generic-ims]** carriersettings: Support device configuration overlays *(ID: [508590](https://review.lineageos.org/c/508590))*
-- **[LineageOS/android_device_ayn_cq8725s-common]** cq8725s-common: Fix battery and USB OTG detection *(ID: [508639](https://review.lineageos.org/c/508639))*
 
 </details>
 
-## 📱 Línea Motorola Activa (19)
+## 📱 Línea Motorola Activa (21)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Update blobs from 16 W1TBS36H.1-63-2-9 c74e7-5da0b6 *(ID: [508847](https://review.lineageos.org/c/508847))*
+- **[LineageOS/android_device_motorola_bronco]** bronco: Update blobs from 16 W1TBS36H.1-63-2-9 c74e7-5da0b6 *(ID: [508846](https://review.lineageos.org/c/508846))*
 - **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Ship Motorola face unlock *(ID: [507961](https://review.lineageos.org/c/507961))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Ship Motorola face unlock *(ID: [508370](https://review.lineageos.org/c/508370))*
