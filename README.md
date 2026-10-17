@@ -1,17 +1,21 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-16-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-17-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (207)
+## 🚨 Parches Críticos Detectados (208)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_device_osom_ingot]** ingot: Fix charge control on 6.6 *(ID: [505508](https://review.lineageos.org/c/505508))*
+- **[LineageOS/android_kernel_xiaomi_sdm660]** Revert "msm: ADSPRPC: Restrict untrusted applications from attaching to GuestOS" *(ID: [508984](https://review.lineageos.org/c/508984))*
+- **[LineageOS/android_kernel_xiaomi_sdm660]** Merge remote-tracking branch 'sdm660/lineage-20' into lineage-20 *(ID: [508982](https://review.lineageos.org/c/508982))*
+- **[LineageOS/android_kernel_qcom_sdm660]** ion: Add compatibility with legacy Ion v1 cache ABI *(ID: [508944](https://review.lineageos.org/c/508944))*
 - **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
 - **[LineageOS/android_hardware_qcom_display]** hal: Define `oplus_video_aod_30hz` soong variable *(ID: [508974](https://review.lineageos.org/c/508974))*
 - **[LineageOS/android_vendor_lineage]** build: fix cross-platform DTBO dependency cycle *(ID: [505706](https://review.lineageos.org/c/505706))*
@@ -25,7 +29,6 @@
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Add opt-in FAST primary output *(ID: [505543](https://review.lineageos.org/c/505543))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Arbitrate exclusive PCM devices *(ID: [505542](https://review.lineageos.org/c/505542))*
 - **[LineageOS/android_device_samsung_exynos9820-common]** exynos9820-common: fix eID (extended APDU) NFC regression on 23.2 *(ID: [506968](https://review.lineageos.org/c/506968))*
-- **[LineageOS/android_kernel_qcom_sdm660]** ion: Add compatibility with legacy Ion v1 cache ABI *(ID: [508944](https://review.lineageos.org/c/508944))*
 - **[LineageOS/android_kernel_xiaomi_sdm660]** input: touchscreen: focal_ft8719_d2t: Fix DT2W *(ID: [508943](https://review.lineageos.org/c/508943))*
 - **[LineageOS/android_kernel_xiaomi_sdm660]** input: focal_ft8719_d2t: Fix DT2W *(ID: [508942](https://review.lineageos.org/c/508942))*
 - **[LineageOS/android_kernel_xiaomi_sdm660]** tulip: nvt_touch_a: Import hardware reset GPIO support and fix regulator handling *(ID: [508941](https://review.lineageos.org/c/508941))*
@@ -39,9 +42,6 @@
 - **[LineageOS/android_kernel_xiaomi_sdm660]** Partially revert "input: touchscreen: Import platina drivers" *(ID: [508933](https://review.lineageos.org/c/508933))*
 - **[LineageOS/android_kernel_xiaomi_sdm660]** ARM64: dts: platina: Import jeita step charging profile *(ID: [508932](https://review.lineageos.org/c/508932))*
 - **[LineageOS/android_kernel_xiaomi_sdm660]** mdss_dsi_panel: Drop hardware_info *(ID: [508931](https://review.lineageos.org/c/508931))*
-- **[LineageOS/android_kernel_xiaomi_sdm660]** drivers/video: Import Xiaomi changes *(ID: [508930](https://review.lineageos.org/c/508930))*
-- **[LineageOS/android_kernel_xiaomi_sdm660]** input/touchscreen: Disable Synaptics and ST by default *(ID: [508929](https://review.lineageos.org/c/508929))*
-- **[LineageOS/android_kernel_xiaomi_sdm660]** arm64: dts: xiaomi: platina: dsi-panel: enable phy-poweroff *(ID: [508928](https://review.lineageos.org/c/508928))*
 
 </details>
 
