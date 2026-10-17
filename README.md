@@ -7,17 +7,18 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (243)
+## 🚨 Parches Críticos Detectados (231)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Show progress while switching eSIM *(ID: [508960](https://review.lineageos.org/c/508960))*
+- **[LineageOS/android_hardware_samsung]** aidl: camera: Add optional reserved fields for torch strength *(ID: [506033](https://review.lineageos.org/c/506033))*
+- **[LineageOS/android_kernel_xiaomi_sdm660]** media: camera_v2{,-legacy}: fix CFI violation in msm_sensor_module_id_show *(ID: [508939](https://review.lineageos.org/c/508939))*
+- **[LineageOS/android_kernel_xiaomi_sdm660]** techpack: audio: ASOC: Remove support for ANC headphones - remove clover usages *(ID: [508902](https://review.lineageos.org/c/508902))*
+- **[LineageOS/android_packages_apps_Dialer]** fixup! Dialer: Fix settings *(ID: [509092](https://review.lineageos.org/c/509092))*
 - **[LineageOS/android_hardware_interfaces]** compatibility_matrices: Declare IRadioConfig HIDL as a single entry on target-level 7. *(ID: [509079](https://review.lineageos.org/c/509079))*
 - **[LineageOS/android_hardware_mediatek]** overlay: MssiFrameworkTelephonyOverlay: Switch to AOSP IWlan and QNS packages *(ID: [509078](https://review.lineageos.org/c/509078))*
-- **[LineageOS/android_kernel_ayn_cq8725s]** include: uapi: videodev2: Fix time.h path *(ID: [508709](https://review.lineageos.org/c/508709))*
-- **[LineageOS/android_kernel_ayn_cq8725s-devicetrees]** qcom: Add CQ8725S revision 2.0 to the v2 GPU overlay *(ID: [509068](https://review.lineageos.org/c/509068))*
-- **[LineageOS/android_kernel_ayn_cq8725s-devicetrees]** devicetrees: Add Ayn Odin 3 *(ID: [508718](https://review.lineageos.org/c/508718))*
-- **[LineageOS/android_hardware_samsung]** aidl: camera: Add optional reserved fields for torch strength *(ID: [506033](https://review.lineageos.org/c/506033))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label legacy Wi-Fi dump controls *(ID: [509032](https://review.lineageos.org/c/509032))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow init to configure charger logging *(ID: [509020](https://review.lineageos.org/c/509020))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add sepolicy for IDisplayConfig AIDL *(ID: [509065](https://review.lineageos.org/c/509065))*
@@ -32,9 +33,6 @@
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the CNSS serial property *(ID: [509017](https://review.lineageos.org/c/509017))*
 - **[LineageOS/android_hardware_qcom_audio-ar]** Revert "hal/lvacfs: correctly pass input format" *(ID: [509062](https://review.lineageos.org/c/509062))*
 - **[LineageOS/android_hardware_qcom_audio-ar]** hal: lvacfs: Convert input format to tinyalsa PCM IDs *(ID: [509063](https://review.lineageos.org/c/509063))*
-- **[LineageOS/android_hardware_samsung]** aidl: codec2: Fix legacy component store registration *(ID: [509049](https://review.lineageos.org/c/509049))*
-- **[LineageOS/android_hardware_oplus]** power: Notify charger HAL about screen state *(ID: [507779](https://review.lineageos.org/c/507779))*
-- **[LineageOS/android_hardware_lineage_compat]** compat: Add legacy Codec2 allocator and block pool wrappers *(ID: [509027](https://review.lineageos.org/c/509027))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label avicii wakeup nodes *(ID: [509015](https://review.lineageos.org/c/509015))*
 - **[LineageOS/android_kernel_xiaomi_sdm660]** arm64: configs: xiaomi: jason: Enable Xiaomi MI IR LED driver *(ID: [509047](https://review.lineageos.org/c/509047))*
 - **[LineageOS/android_kernel_xiaomi_sdm660]** media: rc: ir-spi-mi: Adapt driver for 4.19 *(ID: [509046](https://review.lineageos.org/c/509046))*
@@ -42,14 +40,17 @@
 - **[LineageOS/android_kernel_xiaomi_sdm660]** arm64: dts: xiaomi: jason: Update NFC_CLK_REQ for 4.19 *(ID: [509044](https://review.lineageos.org/c/509044))*
 - **[LineageOS/android_kernel_xiaomi_sdm660]** arm64: dts: xiaomi: jason: Update button backlight configuration for 4.19 *(ID: [509043](https://review.lineageos.org/c/509043))*
 - **[LineageOS/android_kernel_xiaomi_sdm660]** techpack: audio: adsp-loader: Add Xiaomi changes *(ID: [509042](https://review.lineageos.org/c/509042))*
+- **[LineageOS/android_kernel_xiaomi_sdm660]** irqchip: mpm: Add gpio mapping for jason *(ID: [509041](https://review.lineageos.org/c/509041))*
+- **[LineageOS/android_kernel_xiaomi_sdm660]** soc: qcom: socinfo: Import jason changes *(ID: [509040](https://review.lineageos.org/c/509040))*
 
 </details>
 
-## 📱 Línea Motorola Activa (12)
+## 📱 Línea Motorola Activa (15)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Move strongbox keystore permission to vendor *(ID: [509095](https://review.lineageos.org/c/509095))*
 - **[LineageOS/android_device_motorola_mt6768-common]** mt6768-common: Build AOSP IWlan and QNS packages *(ID: [509077](https://review.lineageos.org/c/509077))*
 - **[LineageOS/android_device_motorola_miami]** miami: audio: Add missing Fluence NN mixer paths *(ID: [509076](https://review.lineageos.org/c/509076))*
 - **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
@@ -62,6 +63,8 @@
 - **[LineageOS/android_device_motorola_rtwo]** rtwo: Commonize blobs for Face Unlock *(ID: [507958](https://review.lineageos.org/c/507958))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Update blobs from 16 W1TBS36H.1-63-2-9 c74e7-5da0b6 *(ID: [508847](https://review.lineageos.org/c/508847))*
 - **[LineageOS/android_device_motorola_bronco]** bronco: Update blobs from 16 W1TBS36H.1-63-2-9 c74e7-5da0b6 *(ID: [508846](https://review.lineageos.org/c/508846))*
+- **[LineageOS/android_device_motorola_xpeng]** xpeng: Commonize libmpbase for Face Unlock *(ID: [508373](https://review.lineageos.org/c/508373))*
+- **[LineageOS/android_device_motorola_xpeng]** xpeng: Rerun beautify_rro *(ID: [508297](https://review.lineageos.org/c/508297))*
 
 </details>
 
