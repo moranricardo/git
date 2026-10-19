@@ -1,55 +1,61 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-18-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-19-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (227)
+## 🚨 Parches Críticos Detectados (223)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_packages_apps_Launcher3]** Launcher3: Allow defaulting to fixed landscape mode *(ID: [509239](https://review.lineageos.org/c/509239))*
-- **[LineageOS/android_hardware_qcom_audio]** hal: audio_extn: Fix null thread join in BatteryListener teardown *(ID: [504423](https://review.lineageos.org/c/504423))*
-- **[LineageOS/android_device_osom_ingot]** ingot: Fix power profile *(ID: [509166](https://review.lineageos.org/c/509166))*
-- **[LineageOS/android_device_osom_ingot]** ingot: Fix max number of SAP peers *(ID: [509165](https://review.lineageos.org/c/509165))*
-- **[LineageOS/android_hardware_ayn]** overlay: lineage: Default Trebuchet to fixed landscape mode *(ID: [509241](https://review.lineageos.org/c/509241))*
-- **[LineageOS/android_packages_apps_Launcher3]** fixup! Launcher3: Implement Hotseat QSB *(ID: [509240](https://review.lineageos.org/c/509240))*
-- **[LineageOS/android_packages_apps_Settings]** Settings: Fix NFC payment settings activity *(ID: [509238](https://review.lineageos.org/c/509238))*
-- **[LineageOS/android_device_samsung_m52xq]** m52xq: overlay: Set default hotspot SSID prefix *(ID: [479806](https://review.lineageos.org/c/479806))*
-- **[LineageOS/android_hardware_lineage_interfaces]** slider: Add a backend that reads the position from a node *(ID: [506890](https://review.lineageos.org/c/506890))*
-- **[LineageOS/android_hardware_lineage_interfaces]** slider: Report where the slider sits on the device *(ID: [506889](https://review.lineageos.org/c/506889))*
-- **[LineageOS/android_hardware_lineage_interfaces]** slider: Add a default implementation reading one EV_ABS axis *(ID: [506888](https://review.lineageos.org/c/506888))*
-- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow flipping device orientation while folded *(ID: [507777](https://review.lineageos.org/c/507777))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** wlan: Import additional changes from PLQ110_16.0.9.401(CN01) *(ID: [503157](https://review.lineageos.org/c/503157))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: Import NFC drivers from PLQ110_16.0.1.302(CN01) *(ID: [506061](https://review.lineageos.org/c/506061))*
-- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow hiding the device orientation sensor *(ID: [507778](https://review.lineageos.org/c/507778))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Add KBUILD_EXTRA_SYMBOLS to resolve cross-module symbols *(ID: [506219](https://review.lineageos.org/c/506219))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Disable TMS debug flags *(ID: [504797](https://review.lineageos.org/c/504797))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Force TMS_DEVICE config *(ID: [504796](https://review.lineageos.org/c/504796))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** nxp: Fix inline build *(ID: [504795](https://review.lineageos.org/c/504795))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** nxp: Update changes to CPH2653_16.0.1.304(EX01) *(ID: [471273](https://review.lineageos.org/c/471273))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Fix inline build *(ID: [460130](https://review.lineageos.org/c/460130))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Unconditionally build the modules *(ID: [460123](https://review.lineageos.org/c/460123))*
-- **[LineageOS/android_hardware_lineage_compat]** compat: Add a legacy android::Fence shim *(ID: [509201](https://review.lineageos.org/c/509201))*
-- **[LineageOS/android_hardware_qcom_display]** gralloc: Don't allocate UBWC for 8-bit legacy CamX outputs *(ID: [509199](https://review.lineageos.org/c/509199))*
-- **[LineageOS/android_packages_apps_EmergencyInfo]** EmergencyInfo: Fix choosing a photo without a crop activity *(ID: [509190](https://review.lineageos.org/c/509190))*
-- **[LineageOS/android_hardware_samsung]** AdvancedDisplay: Implement dynamic mDNIe support *(ID: [479586](https://review.lineageos.org/c/479586))*
-- **[LineageOS/android_kernel_xiaomi_sm8550]** Merge https://github.com/LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [509188](https://review.lineageos.org/c/509188))*
-- **[LineageOS/android_device_google_tangorpro-kernels]** tangorpro: 6.6 kernel *(ID: [483465](https://review.lineageos.org/c/483465))*
-- **[LineageOS/android_device_google_lynx-kernels]** lynx: 6.6 kernel *(ID: [483460](https://review.lineageos.org/c/483460))*
-- **[LineageOS/android_device_osom_ingot]** ingot: Fix charge control on 6.6 *(ID: [505508](https://review.lineageos.org/c/505508))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Update encoder o/p buffer size calc *(ID: [509288](https://review.lineageos.org/c/509288))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Enable vidc driver for sdm845 *(ID: [509014](https://review.lineageos.org/c/509014))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Map NV12 to 128 alignment for decoder/encoder *(ID: [509013](https://review.lineageos.org/c/509013))*
+- **[LineageOS/android_kernel_qcom_sm8250]** include: uapi: Duplicate the msm_media_info header *(ID: [509012](https://review.lineageos.org/c/509012))*
+- **[LineageOS/android_kernel_qcom_sm8250]** video-driver: reduce the input frame size for vp9d *(ID: [509011](https://review.lineageos.org/c/509011))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Fix for encode failure on resolution 720p & above on SA6155P *(ID: [509010](https://review.lineageos.org/c/509010))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Avoid setting HFI_PROPERTY_PARAM_HEVC_PPS_CB_CR_OFFSET for Gen3 VPUs *(ID: [509009](https://review.lineageos.org/c/509009))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: update VP9 level ranges *(ID: [509008](https://review.lineageos.org/c/509008))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: check for cvp support *(ID: [509007](https://review.lineageos.org/c/509007))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Ping hardware during timeouts *(ID: [509006](https://review.lineageos.org/c/509006))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Copy hfi buf req to hal buf req *(ID: [509005](https://review.lineageos.org/c/509005))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Add HFI backward compatibility *(ID: [509004](https://review.lineageos.org/c/509004))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Enable decode batching for sdm845 *(ID: [509003](https://review.lineageos.org/c/509003))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Disable unsupported features for sdm845 *(ID: [509002](https://review.lineageos.org/c/509002))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Add sdm845 capabilities *(ID: [509001](https://review.lineageos.org/c/509001))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: msm_media_info_legacy: Import buffer alignment changes from kernel 4.9 *(ID: [506931](https://review.lineageos.org/c/506931))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Don't set VBV HRD buffer size on sdm845 *(ID: [506885](https://review.lineageos.org/c/506885))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Use older alignments(128x32) for NV12 format *(ID: [506796](https://review.lineageos.org/c/506796))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm_media_info_legacy: Revert "msm: media: uapi: Redefine NV12 format with different alignment" *(ID: [506795](https://review.lineageos.org/c/506795))*
+- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Parse wave lengths from haptic_ram.bin *(ID: [506310](https://review.lineageos.org/c/506310))*
+- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: aw8693x: Program sequencer wait slot unit *(ID: [506311](https://review.lineageos.org/c/506311))*
+- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Apply effect strength *(ID: [506313](https://review.lineageos.org/c/506313))*
+- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Implement QTI vibrator HAL effects *(ID: [506312](https://review.lineageos.org/c/506312))*
+- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Support sequencer loop feature *(ID: [509275](https://review.lineageos.org/c/509275))*
+- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Implement primitives *(ID: [509276](https://review.lineageos.org/c/509276))*
+- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Add table for custom haptic_ram.bin *(ID: [509277](https://review.lineageos.org/c/509277))*
+- **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant config *(ID: [509287](https://review.lineageos.org/c/509287))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Run clang-format *(ID: [509283](https://review.lineageos.org/c/509283))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Drop BCMDHD_64_BIT_IPC *(ID: [509285](https://review.lineageos.org/c/509285))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Convert to blueprint *(ID: [509284](https://review.lineageos.org/c/509284))*
 
 </details>
 
-## 📱 Línea Motorola Activa (13)
+## 📱 Línea Motorola Activa (19)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_mt6765-common]** mt6765-common: Drop PRODUCT_BUILD_SUPER_PARTITION *(ID: [509293](https://review.lineageos.org/c/509293))*
+- **[LineageOS/android_device_motorola_smith]** smith: Switch to common lights HAL *(ID: [509273](https://review.lineageos.org/c/509273))*
+- **[LineageOS/android_device_motorola_smith]** smith: Tweak inner display status bar for usability *(ID: [509263](https://review.lineageos.org/c/509263))*
+- **[LineageOS/android_device_motorola_smith]** smith: Increase outer display status bar padding *(ID: [509262](https://review.lineageos.org/c/509262))*
+- **[LineageOS/android_device_motorola_smith]** smith: Allow setting independent dpi settings for each display *(ID: [507356](https://review.lineageos.org/c/507356))*
+- **[LineageOS/android_hardware_motorola]** MotoActions: Add open to answer action *(ID: [509260](https://review.lineageos.org/c/509260))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Switch to minimal product partition size *(ID: [509230](https://review.lineageos.org/c/509230))*
 - **[LineageOS/android_device_motorola_mt6768-common]** mt6768-common: Build lbs and netdagent HIDL from source *(ID: [509226](https://review.lineageos.org/c/509226))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Move strongbox keystore permission to vendor *(ID: [509095](https://review.lineageos.org/c/509095))*
