@@ -12,6 +12,9 @@
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow hiding the device orientation sensor *(ID: [507778](https://review.lineageos.org/c/507778))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: audio_extn: Fix null thread join in BatteryListener teardown *(ID: [504423](https://review.lineageos.org/c/504423))*
+- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow flipping device orientation while folded *(ID: [507777](https://review.lineageos.org/c/507777))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Update encoder o/p buffer size calc *(ID: [509288](https://review.lineageos.org/c/509288))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Enable vidc driver for sdm845 *(ID: [509014](https://review.lineageos.org/c/509014))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Map NV12 to 128 alignment for decoder/encoder *(ID: [509013](https://review.lineageos.org/c/509013))*
@@ -39,9 +42,6 @@
 - **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Implement primitives *(ID: [509276](https://review.lineageos.org/c/509276))*
 - **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Add table for custom haptic_ram.bin *(ID: [509277](https://review.lineageos.org/c/509277))*
 - **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant config *(ID: [509287](https://review.lineageos.org/c/509287))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Run clang-format *(ID: [509283](https://review.lineageos.org/c/509283))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Drop BCMDHD_64_BIT_IPC *(ID: [509285](https://review.lineageos.org/c/509285))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Convert to blueprint *(ID: [509284](https://review.lineageos.org/c/509284))*
 
 </details>
 
