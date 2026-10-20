@@ -7,11 +7,33 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (205)
+## 🚨 Parches Críticos Detectados (207)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_qcom_sm8250]** fuse-bpf: Pass backing vfsmount to sdcardfs *(ID: [506260](https://review.lineageos.org/c/506260))*
+- **[LineageOS/android_kernel_qcom_sm8250]** sdcardfs: Return negative dentries for missing names *(ID: [506261](https://review.lineageos.org/c/506261))*
+- **[LineageOS/android_kernel_qcom_sm8250]** sdcardfs: Isolate Android/{data,obb} outside the default view *(ID: [506262](https://review.lineageos.org/c/506262))*
+- **[LineageOS/android_kernel_qcom_sm8250]** Reapply "arm64: configs: vendor: Enable CONFIG_FUSE_BPF" *(ID: [496134](https://review.lineageos.org/c/496134))*
+- **[LineageOS/android_hardware_lineage_generic-ims]** carriersettings: Disable EVS support by default *(ID: [509503](https://review.lineageos.org/c/509503))*
+- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow hiding the device orientation sensor *(ID: [507778](https://review.lineageos.org/c/507778))*
+- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow flipping device orientation while folded *(ID: [507777](https://review.lineageos.org/c/507777))*
+- **[LineageOS/android_hardware_oplus]** oplus: vibrator: Add LiveTap AIDL vibrator service *(ID: [503935](https://review.lineageos.org/c/503935))*
+- **[LineageOS/android_kernel_razer_sdm845]** BACKPORT: disp: msm: sde: avoid rc lock deadlock during esd failure *(ID: [509359](https://review.lineageos.org/c/509359))*
+- **[LineageOS/android_kernel_razer_sdm845]** arm64: dts: rc2: Drop 30Hz and 40Hz refresh rates *(ID: [509358](https://review.lineageos.org/c/509358))*
+- **[LineageOS/android_hardware_lineage_generic-ims]** carriersettings: Reload configs when the override changes *(ID: [509502](https://review.lineageos.org/c/509502))*
+- **[LineageOS/android_device_oneplus_oscaro]** fixup! oscaro: Sync audio_policy_configuration with OOS14 *(ID: [509500](https://review.lineageos.org/c/509500))*
+- **[LineageOS/android_device_motorola_mona]** mona: Fix invalid usage of log utility *(ID: [509436](https://review.lineageos.org/c/509436))*
+- **[LineageOS/android_device_motorola_sm6475-common]** sm6475-common: Fix loading USB audio AIDL interface with prebuilt HAL *(ID: [509477](https://review.lineageos.org/c/509477))*
+- **[LineageOS/android_device_motorola_sm6475-common]** sm6475-common: gps: Fix format specifiers *(ID: [509461](https://review.lineageos.org/c/509461))*
+- **[LineageOS/android_device_motorola_sm6475-common]** sm6475-common: gps: Fix unqualified-std-cast-call warning *(ID: [509460](https://review.lineageos.org/c/509460))*
+- **[LineageOS/android_kernel_oneplus_sm8650]** Merge remote-tracking branch 'sm8650/lineage-22.2' into HEAD *(ID: [505557](https://review.lineageos.org/c/505557))*
+- **[LineageOS/android_kernel_oneplus_sm8650]** modules: Drop mem-offline.ko *(ID: [505558](https://review.lineageos.org/c/505558))*
+- **[LineageOS/android_kernel_oneplus_sm8650-modules]** Merge remote-tracking branch 'sm8650-modules/lineage-22.2' into HEAD *(ID: [508589](https://review.lineageos.org/c/508589))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Offer only what the PCM can carry *(ID: [509414](https://review.lineageos.org/c/509414))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Never move an input position back *(ID: [509413](https://review.lineageos.org/c/509413))*
+- **[LineageOS/android_tools_extract-utils]** extract_utils: Add Rust symbol disambiguator fixup *(ID: [509347](https://review.lineageos.org/c/509347))*
 - **[LineageOS/android_hardware_ayn]** ayn: overlay: Override default launcher workspace *(ID: [504422](https://review.lineageos.org/c/504422))*
 - **[LineageOS/android_device_google_rango]** rango: Fix Rust symbol hashes in blobs *(ID: [509387](https://review.lineageos.org/c/509387))*
 - **[LineageOS/android_device_google_muzel]** muzel: Fix Rust symbol hashes in blobs *(ID: [509386](https://review.lineageos.org/c/509386))*
@@ -20,66 +42,44 @@
 - **[LineageOS/android_device_google_comet]** comet: Fix Rust symbol hashes in blobs *(ID: [509383](https://review.lineageos.org/c/509383))*
 - **[LineageOS/android_device_google_caimito]** caimito: Fix Rust symbol hashes in blobs *(ID: [509382](https://review.lineageos.org/c/509382))*
 - **[LineageOS/android_device_google_akita]** akita: Fix Rust symbol hashes in blobs *(ID: [509381](https://review.lineageos.org/c/509381))*
-- **[LineageOS/android_device_google_shusky]** shusky: Fix Rust symbol hashes in blobs *(ID: [509380](https://review.lineageos.org/c/509380))*
-- **[LineageOS/android_device_google_felix]** felix: Fix Rust symbol hashes in blobs *(ID: [509379](https://review.lineageos.org/c/509379))*
-- **[LineageOS/android_device_google_tangorpro]** tangorpro: Fix Rust symbol hashes in blobs *(ID: [509378](https://review.lineageos.org/c/509378))*
-- **[LineageOS/android_device_google_lynx]** lynx: Fix Rust symbol hashes in blobs *(ID: [509377](https://review.lineageos.org/c/509377))*
-- **[LineageOS/android_device_google_pantah]** pantah: Fix Rust symbol hashes in blobs *(ID: [509376](https://review.lineageos.org/c/509376))*
-- **[LineageOS/android_device_google_bluejay]** bluejay: Fix Rust symbol hashes in blobs *(ID: [509375](https://review.lineageos.org/c/509375))*
-- **[LineageOS/android_device_google_raviole]** raviole: Fix Rust symbol hashes in blobs *(ID: [509374](https://review.lineageos.org/c/509374))*
-- **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the CNSS serial property *(ID: [509017](https://review.lineageos.org/c/509017))*
-- **[LineageOS/android_packages_apps_Settings]** Fixup updater crash on WiFI only devices *(ID: [509363](https://review.lineageos.org/c/509363))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the SIP busy-tone property *(ID: [509344](https://review.lineageos.org/c/509344))*
-- **[LineageOS/android_kernel_razer_sdm845]** BACKPORT: disp: msm: sde: avoid rc lock deadlock during esd failure *(ID: [509359](https://review.lineageos.org/c/509359))*
-- **[LineageOS/android_kernel_razer_sdm845]** arm64: dts: rc2: Drop 30Hz and 40Hz refresh rates *(ID: [509358](https://review.lineageos.org/c/509358))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label more wakeup node for pista *(ID: [509304](https://review.lineageos.org/c/509304))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Sync setup with Pixels *(ID: [506327](https://review.lineageos.org/c/506327))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** wlan: Import additional changes from PLQ110_16.0.9.401(CN01) *(ID: [503157](https://review.lineageos.org/c/503157))*
-- **[LineageOS/android_kernel_motorola_sm8475-devicetrees]** Revert zeekr adsp recovery setting *(ID: [509354](https://review.lineageos.org/c/509354))*
-- **[LineageOS/android_tools_extract-utils]** extract_utils: Add Rust symbol disambiguator fixup *(ID: [509347](https://review.lineageos.org/c/509347))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label OEM backup shared memory *(ID: [509025](https://review.lineageos.org/c/509025))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the legacy radio serial property *(ID: [509343](https://review.lineageos.org/c/509343))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the camera offline logging property *(ID: [509342](https://review.lineageos.org/c/509342))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label legacy Wi-Fi dump controls *(ID: [509032](https://review.lineageos.org/c/509032))*
 
 </details>
 
-## 📱 Línea Motorola Activa (31)
+## 📱 Línea Motorola Activa (104)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
-- **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
-- **[LineageOS/android_kernel_motorola_sm8475-devicetrees]** Revert zeekr adsp recovery setting *(ID: [509354](https://review.lineageos.org/c/509354))*
-- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Enable HDR props *(ID: [509353](https://review.lineageos.org/c/509353))*
-- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Ship Motorola face unlock *(ID: [507961](https://review.lineageos.org/c/507961))*
-- **[LineageOS/android_device_motorola_zeekr]** zeekr: Update audio policy from stock *(ID: [509350](https://review.lineageos.org/c/509350))*
-- **[LineageOS/android_device_motorola_zeekr]** zeekr: Update blobs from 16 W1TZS36M-71-ST27.6/418b4c release-keys *(ID: [509349](https://review.lineageos.org/c/509349))*
-- **[LineageOS/android_device_motorola_zeekr]** zeekr: Add missing aualgo blobs *(ID: [509348](https://review.lineageos.org/c/509348))*
-- **[LineageOS/android_device_motorola_zeekr]** zeekr: Import external touch idc *(ID: [498255](https://review.lineageos.org/c/498255))*
-- **[LineageOS/android_device_motorola_zeekr]** zeekr: Enable boot animation on both displays *(ID: [498254](https://review.lineageos.org/c/498254))*
-- **[LineageOS/android_device_motorola_zeekr]** zeekr: Add fold related configs *(ID: [498096](https://review.lineageos.org/c/498096))*
-- **[LineageOS/android_device_motorola_zeekr]** zeekr: Add Aperture configurations *(ID: [498095](https://review.lineageos.org/c/498095))*
-- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Inherit common motorola FCM *(ID: [508369](https://review.lineageos.org/c/508369))*
-- **[LineageOS/android_hardware_motorola]** MotoActions: Add open to answer action *(ID: [509260](https://review.lineageos.org/c/509260))*
-- **[LineageOS/android_device_motorola_smith]** smith: Add eUICC support *(ID: [509314](https://review.lineageos.org/c/509314))*
 - **[LineageOS/android_device_motorola_smith]** smith: Tweak inner display status bar for usability *(ID: [509263](https://review.lineageos.org/c/509263))*
 - **[LineageOS/android_device_motorola_smith]** smith: Increase outer display status bar padding *(ID: [509262](https://review.lineageos.org/c/509262))*
+- **[LineageOS/android_device_motorola_smith]** smith: Add eUICC support *(ID: [509314](https://review.lineageos.org/c/509314))*
 - **[LineageOS/android_device_motorola_smith]** smith: Allow setting independent dpi settings for each display *(ID: [507356](https://review.lineageos.org/c/507356))*
-- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Enable bluetooth.profile.hid.device.enabled *(ID: [509301](https://review.lineageos.org/c/509301))*
-- **[LineageOS/android_device_motorola_mt6765-common]** mt6765-common: Drop PRODUCT_BUILD_SUPER_PARTITION *(ID: [509293](https://review.lineageos.org/c/509293))*
-- **[LineageOS/android_device_motorola_smith]** smith: Switch to common lights HAL *(ID: [509273](https://review.lineageos.org/c/509273))*
-- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Switch to minimal product partition size *(ID: [509230](https://review.lineageos.org/c/509230))*
-- **[LineageOS/android_device_motorola_mt6768-common]** mt6768-common: Build lbs and netdagent HIDL from source *(ID: [509226](https://review.lineageos.org/c/509226))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Move strongbox keystore permission to vendor *(ID: [509095](https://review.lineageos.org/c/509095))*
-- **[LineageOS/android_device_motorola_mt6768-common]** mt6768-common: Build AOSP IWlan and QNS packages *(ID: [509077](https://review.lineageos.org/c/509077))*
-- **[LineageOS/android_device_motorola_miami]** miami: audio: Add missing Fluence NN mixer paths *(ID: [509076](https://review.lineageos.org/c/509076))*
-- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Ship Motorola face unlock *(ID: [508370](https://review.lineageos.org/c/508370))*
-- **[LineageOS/android_device_motorola_dubai]** dubai: Commonize blobs for Face Unlock *(ID: [508371](https://review.lineageos.org/c/508371))*
-- **[LineageOS/android_device_motorola_berlna]** berlna: Commonize blobs for Face Unlock *(ID: [508374](https://review.lineageos.org/c/508374))*
-- **[LineageOS/android_device_motorola_berlin]** berlin: Commonize blobs for Face Unlock *(ID: [508548](https://review.lineageos.org/c/508548))*
-- **[LineageOS/android_device_motorola_rtwo]** rtwo: Rerun beautify_rro *(ID: [507959](https://review.lineageos.org/c/507959))*
+- **[LineageOS/android_device_motorola_rtwo]** rtwo: Commonize blobs for Face Unlock *(ID: [507958](https://review.lineageos.org/c/507958))*
+- **[LineageOS/android_device_motorola_rtwo]** rtwo: Frameworks: Tune low-lux auto-brightness curve and debounce *(ID: [506065](https://review.lineageos.org/c/506065))*
+- **[LineageOS/android_device_motorola_mona]** mona: Build android.hardware.biometrics.fingerprint-service.moto *(ID: [509443](https://review.lineageos.org/c/509443))*
+- **[LineageOS/android_device_motorola_mona]** mona: Enable display cutout protection *(ID: [509442](https://review.lineageos.org/c/509442))*
+- **[LineageOS/android_device_motorola_mona]** mona: Adjust power button position *(ID: [509441](https://review.lineageos.org/c/509441))*
+- **[LineageOS/android_device_motorola_mona]** mona: Update udfps props *(ID: [509440](https://review.lineageos.org/c/509440))*
+- **[LineageOS/android_device_motorola_mona]** mona: Build com.motorola.hardware.biometric.fingerprint-V2-ndk *(ID: [509439](https://review.lineageos.org/c/509439))*
+- **[LineageOS/android_device_motorola_mona]** mona: Wire up StylusKeyHandler *(ID: [509438](https://review.lineageos.org/c/509438))*
+- **[LineageOS/android_device_motorola_mona]** mona: Bump fingerprint services to V4 *(ID: [509437](https://review.lineageos.org/c/509437))*
+- **[LineageOS/android_device_motorola_mona]** mona: Fix invalid usage of log utility *(ID: [509436](https://review.lineageos.org/c/509436))*
+- **[LineageOS/android_device_motorola_mona]** mona: sepolicy: Rework policies for moto services *(ID: [509435](https://review.lineageos.org/c/509435))*
+- **[LineageOS/android_device_motorola_mona]** mona: Rename log function to notice *(ID: [509434](https://review.lineageos.org/c/509434))*
+- **[LineageOS/android_device_motorola_mona]** mona: Selective updates for init from stock *(ID: [509433](https://review.lineageos.org/c/509433))*
+- **[LineageOS/android_device_motorola_mona]** mona: Update overlays *(ID: [509432](https://review.lineageos.org/c/509432))*
+- **[LineageOS/android_device_motorola_mona]** mona: Update sku manifests *(ID: [509431](https://review.lineageos.org/c/509431))*
+- **[LineageOS/android_device_motorola_mona]** mona: Import audio configs *(ID: [509430](https://review.lineageos.org/c/509430))*
+- **[LineageOS/android_device_motorola_mona]** mona: Import selected props from W1VAS36.62-22-16-1-18 *(ID: [509429](https://review.lineageos.org/c/509429))*
+- **[LineageOS/android_device_motorola_mona]** mona: Update proprietary files from W1VAS36.62-22-16-1-18 *(ID: [509428](https://review.lineageos.org/c/509428))*
+- **[LineageOS/android_device_motorola_mona]** mona: Update screen dimensions for boot animation *(ID: [509427](https://review.lineageos.org/c/509427))*
+- **[LineageOS/android_device_motorola_mona]** mona: Update screen density *(ID: [509426](https://review.lineageos.org/c/509426))*
+- **[LineageOS/android_device_motorola_mona]** mona: Update Board and Shipping API level *(ID: [509425](https://review.lineageos.org/c/509425))*
+- **[LineageOS/android_device_motorola_mona]** Revert "avatrn: Declare support for AntiFlicker" *(ID: [509424](https://review.lineageos.org/c/509424))*
+- **[LineageOS/android_device_motorola_sm6475-common]** motorola: Add aidl fingerprint wrapper *(ID: [509499](https://review.lineageos.org/c/509499))*
+- **[LineageOS/android_device_motorola_sm6475-common]** sm6475-common: Copy snapalloc configs from display hal *(ID: [509498](https://review.lineageos.org/c/509498))*
+- **[LineageOS/android_device_motorola_sm6475-common]** sm6475-common: Load tipc module *(ID: [509497](https://review.lineageos.org/c/509497))*
+- **[LineageOS/android_device_motorola_sm6475-common]** sm6475-common: Build QTI vibrator HAL *(ID: [509496](https://review.lineageos.org/c/509496))*
 
 </details>
 
