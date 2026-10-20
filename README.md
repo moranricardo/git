@@ -7,17 +7,22 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (208)
+## 🚨 Parches Críticos Detectados (204)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_razer_sdm845]** drm: msm: dsi-staging: Wait for MDP idle before seamless mode switch *(ID: [509355](https://review.lineageos.org/c/509355))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the CNSS serial property *(ID: [509017](https://review.lineageos.org/c/509017))*
+- **[LineageOS/android_packages_apps_Settings]** Fixup updater crash on WiFI only devices *(ID: [509363](https://review.lineageos.org/c/509363))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the SIP busy-tone property *(ID: [509344](https://review.lineageos.org/c/509344))*
+- **[LineageOS/android_hardware_ayn]** ayn: overlay: Override default launcher workspace *(ID: [504422](https://review.lineageos.org/c/504422))*
+- **[LineageOS/android_kernel_razer_sdm845]** BACKPORT: disp: msm: sde: avoid rc lock deadlock during esd failure *(ID: [509359](https://review.lineageos.org/c/509359))*
+- **[LineageOS/android_kernel_razer_sdm845]** arm64: dts: rc2: Drop 30Hz and 40Hz refresh rates *(ID: [509358](https://review.lineageos.org/c/509358))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label more wakeup node for pista *(ID: [509304](https://review.lineageos.org/c/509304))*
+- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Sync setup with Pixels *(ID: [506327](https://review.lineageos.org/c/506327))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** wlan: Import additional changes from PLQ110_16.0.9.401(CN01) *(ID: [503157](https://review.lineageos.org/c/503157))*
 - **[LineageOS/android_kernel_motorola_sm8475-devicetrees]** Revert zeekr adsp recovery setting *(ID: [509354](https://review.lineageos.org/c/509354))*
 - **[LineageOS/android_tools_extract-utils]** extract_utils: Add Rust symbol disambiguator fixup *(ID: [509347](https://review.lineageos.org/c/509347))*
-- **[LineageOS/android_hardware_ayn]** ayn: overlay: Override default launcher workspace *(ID: [504422](https://review.lineageos.org/c/504422))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the SIP busy-tone property *(ID: [509344](https://review.lineageos.org/c/509344))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label OEM backup shared memory *(ID: [509025](https://review.lineageos.org/c/509025))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the legacy radio serial property *(ID: [509343](https://review.lineageos.org/c/509343))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the camera offline logging property *(ID: [509342](https://review.lineageos.org/c/509342))*
@@ -26,8 +31,6 @@
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow legacy fingerprint battery reads *(ID: [509024](https://review.lineageos.org/c/509024))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow init to configure charger logging *(ID: [509020](https://review.lineageos.org/c/509020))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label avicii wakeup nodes *(ID: [509015](https://review.lineageos.org/c/509015))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label more wakeup node for pista *(ID: [509304](https://review.lineageos.org/c/509304))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow charger to read boot status prop *(ID: [509302](https://review.lineageos.org/c/509302))*
 - **[LineageOS/android_hardware_motorola]** MotoActions: Add open to answer action *(ID: [509260](https://review.lineageos.org/c/509260))*
 - **[LineageOS/android_kernel_samsung_sdm429]** HID: samsung: let 04e8:7021 use hid-generic *(ID: [509305](https://review.lineageos.org/c/509305))*
 - **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant config *(ID: [509287](https://review.lineageos.org/c/509287))*
@@ -39,9 +42,6 @@
 - **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow flipping device orientation while folded *(ID: [507777](https://review.lineageos.org/c/507777))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Update encoder o/p buffer size calc *(ID: [509288](https://review.lineageos.org/c/509288))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Enable vidc driver for sdm845 *(ID: [509014](https://review.lineageos.org/c/509014))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Map NV12 to 128 alignment for decoder/encoder *(ID: [509013](https://review.lineageos.org/c/509013))*
-- **[LineageOS/android_kernel_qcom_sm8250]** include: uapi: Duplicate the msm_media_info header *(ID: [509012](https://review.lineageos.org/c/509012))*
-- **[LineageOS/android_kernel_qcom_sm8250]** video-driver: reduce the input frame size for vp9d *(ID: [509011](https://review.lineageos.org/c/509011))*
 
 </details>
 
