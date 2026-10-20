@@ -1,22 +1,35 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-19-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-20-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (220)
+## 🚨 Parches Críticos Detectados (208)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_razer_sdm845]** drm: msm: dsi-staging: Wait for MDP idle before seamless mode switch *(ID: [509355](https://review.lineageos.org/c/509355))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** wlan: Import additional changes from PLQ110_16.0.9.401(CN01) *(ID: [503157](https://review.lineageos.org/c/503157))*
+- **[LineageOS/android_kernel_motorola_sm8475-devicetrees]** Revert zeekr adsp recovery setting *(ID: [509354](https://review.lineageos.org/c/509354))*
+- **[LineageOS/android_tools_extract-utils]** extract_utils: Add Rust symbol disambiguator fixup *(ID: [509347](https://review.lineageos.org/c/509347))*
+- **[LineageOS/android_hardware_ayn]** ayn: overlay: Override default launcher workspace *(ID: [504422](https://review.lineageos.org/c/504422))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the SIP busy-tone property *(ID: [509344](https://review.lineageos.org/c/509344))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label OEM backup shared memory *(ID: [509025](https://review.lineageos.org/c/509025))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the legacy radio serial property *(ID: [509343](https://review.lineageos.org/c/509343))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the camera offline logging property *(ID: [509342](https://review.lineageos.org/c/509342))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label legacy Wi-Fi dump controls *(ID: [509032](https://review.lineageos.org/c/509032))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow remote storage to read the Oplus region *(ID: [509030](https://review.lineageos.org/c/509030))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow legacy fingerprint battery reads *(ID: [509024](https://review.lineageos.org/c/509024))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow init to configure charger logging *(ID: [509020](https://review.lineageos.org/c/509020))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label avicii wakeup nodes *(ID: [509015](https://review.lineageos.org/c/509015))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label more wakeup node for pista *(ID: [509304](https://review.lineageos.org/c/509304))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow charger to read boot status prop *(ID: [509302](https://review.lineageos.org/c/509302))*
 - **[LineageOS/android_hardware_motorola]** MotoActions: Add open to answer action *(ID: [509260](https://review.lineageos.org/c/509260))*
 - **[LineageOS/android_kernel_samsung_sdm429]** HID: samsung: let 04e8:7021 use hid-generic *(ID: [509305](https://review.lineageos.org/c/509305))*
-- **[LineageOS/android_hardware_ayn]** ayn: overlay: Override default launcher workspace *(ID: [504422](https://review.lineageos.org/c/504422))*
 - **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant config *(ID: [509287](https://review.lineageos.org/c/509287))*
 - **[LineageOS/android_device_samsung_exynos9820-common]** exynos9820-common: fix eID (extended APDU) NFC regression on 23.2 *(ID: [506968](https://review.lineageos.org/c/506968))*
 - **[LineageOS/android_frameworks_base]** fix audio product strategies cache preventing retry on failure *(ID: [509307](https://review.lineageos.org/c/509307))*
@@ -29,27 +42,24 @@
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Map NV12 to 128 alignment for decoder/encoder *(ID: [509013](https://review.lineageos.org/c/509013))*
 - **[LineageOS/android_kernel_qcom_sm8250]** include: uapi: Duplicate the msm_media_info header *(ID: [509012](https://review.lineageos.org/c/509012))*
 - **[LineageOS/android_kernel_qcom_sm8250]** video-driver: reduce the input frame size for vp9d *(ID: [509011](https://review.lineageos.org/c/509011))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Fix for encode failure on resolution 720p & above on SA6155P *(ID: [509010](https://review.lineageos.org/c/509010))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Avoid setting HFI_PROPERTY_PARAM_HEVC_PPS_CB_CR_OFFSET for Gen3 VPUs *(ID: [509009](https://review.lineageos.org/c/509009))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: update VP9 level ranges *(ID: [509008](https://review.lineageos.org/c/509008))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: check for cvp support *(ID: [509007](https://review.lineageos.org/c/509007))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Ping hardware during timeouts *(ID: [509006](https://review.lineageos.org/c/509006))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Copy hfi buf req to hal buf req *(ID: [509005](https://review.lineageos.org/c/509005))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Add HFI backward compatibility *(ID: [509004](https://review.lineageos.org/c/509004))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Enable decode batching for sdm845 *(ID: [509003](https://review.lineageos.org/c/509003))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Disable unsupported features for sdm845 *(ID: [509002](https://review.lineageos.org/c/509002))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Add sdm845 capabilities *(ID: [509001](https://review.lineageos.org/c/509001))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: msm_media_info_legacy: Import buffer alignment changes from kernel 4.9 *(ID: [506931](https://review.lineageos.org/c/506931))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Don't set VBV HRD buffer size on sdm845 *(ID: [506885](https://review.lineageos.org/c/506885))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Use older alignments(128x32) for NV12 format *(ID: [506796](https://review.lineageos.org/c/506796))*
 
 </details>
 
-## 📱 Línea Motorola Activa (22)
+## 📱 Línea Motorola Activa (31)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_kernel_motorola_sm8475-devicetrees]** Revert zeekr adsp recovery setting *(ID: [509354](https://review.lineageos.org/c/509354))*
+- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Enable HDR props *(ID: [509353](https://review.lineageos.org/c/509353))*
+- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Ship Motorola face unlock *(ID: [507961](https://review.lineageos.org/c/507961))*
+- **[LineageOS/android_device_motorola_zeekr]** zeekr: Update audio policy from stock *(ID: [509350](https://review.lineageos.org/c/509350))*
+- **[LineageOS/android_device_motorola_zeekr]** zeekr: Update blobs from 16 W1TZS36M-71-ST27.6/418b4c release-keys *(ID: [509349](https://review.lineageos.org/c/509349))*
+- **[LineageOS/android_device_motorola_zeekr]** zeekr: Add missing aualgo blobs *(ID: [509348](https://review.lineageos.org/c/509348))*
+- **[LineageOS/android_device_motorola_zeekr]** zeekr: Import external touch idc *(ID: [498255](https://review.lineageos.org/c/498255))*
+- **[LineageOS/android_device_motorola_zeekr]** zeekr: Enable boot animation on both displays *(ID: [498254](https://review.lineageos.org/c/498254))*
+- **[LineageOS/android_device_motorola_zeekr]** zeekr: Add fold related configs *(ID: [498096](https://review.lineageos.org/c/498096))*
+- **[LineageOS/android_device_motorola_zeekr]** zeekr: Add Aperture configurations *(ID: [498095](https://review.lineageos.org/c/498095))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Inherit common motorola FCM *(ID: [508369](https://review.lineageos.org/c/508369))*
 - **[LineageOS/android_hardware_motorola]** MotoActions: Add open to answer action *(ID: [509260](https://review.lineageos.org/c/509260))*
 - **[LineageOS/android_device_motorola_smith]** smith: Add eUICC support *(ID: [509314](https://review.lineageos.org/c/509314))*
@@ -57,7 +67,6 @@
 - **[LineageOS/android_device_motorola_smith]** smith: Increase outer display status bar padding *(ID: [509262](https://review.lineageos.org/c/509262))*
 - **[LineageOS/android_device_motorola_smith]** smith: Allow setting independent dpi settings for each display *(ID: [507356](https://review.lineageos.org/c/507356))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Enable bluetooth.profile.hid.device.enabled *(ID: [509301](https://review.lineageos.org/c/509301))*
-- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Ship Motorola face unlock *(ID: [507961](https://review.lineageos.org/c/507961))*
 - **[LineageOS/android_device_motorola_mt6765-common]** mt6765-common: Drop PRODUCT_BUILD_SUPER_PARTITION *(ID: [509293](https://review.lineageos.org/c/509293))*
 - **[LineageOS/android_device_motorola_smith]** smith: Switch to common lights HAL *(ID: [509273](https://review.lineageos.org/c/509273))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Switch to minimal product partition size *(ID: [509230](https://review.lineageos.org/c/509230))*
@@ -71,7 +80,6 @@
 - **[LineageOS/android_device_motorola_berlna]** berlna: Commonize blobs for Face Unlock *(ID: [508374](https://review.lineageos.org/c/508374))*
 - **[LineageOS/android_device_motorola_berlin]** berlin: Commonize blobs for Face Unlock *(ID: [508548](https://review.lineageos.org/c/508548))*
 - **[LineageOS/android_device_motorola_rtwo]** rtwo: Rerun beautify_rro *(ID: [507959](https://review.lineageos.org/c/507959))*
-- **[LineageOS/android_device_motorola_rtwo]** rtwo: Commonize blobs for Face Unlock *(ID: [507958](https://review.lineageos.org/c/507958))*
 
 </details>
 
