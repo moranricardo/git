@@ -7,15 +7,30 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (204)
+## 🚨 Parches Críticos Detectados (205)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_ayn]** ayn: overlay: Override default launcher workspace *(ID: [504422](https://review.lineageos.org/c/504422))*
+- **[LineageOS/android_device_google_rango]** rango: Fix Rust symbol hashes in blobs *(ID: [509387](https://review.lineageos.org/c/509387))*
+- **[LineageOS/android_device_google_muzel]** muzel: Fix Rust symbol hashes in blobs *(ID: [509386](https://review.lineageos.org/c/509386))*
+- **[LineageOS/android_device_google_stallion]** stallion: Fix Rust symbol hashes in blobs *(ID: [509385](https://review.lineageos.org/c/509385))*
+- **[LineageOS/android_device_google_tegu]** tegu: Fix Rust symbol hashes in blobs *(ID: [509384](https://review.lineageos.org/c/509384))*
+- **[LineageOS/android_device_google_comet]** comet: Fix Rust symbol hashes in blobs *(ID: [509383](https://review.lineageos.org/c/509383))*
+- **[LineageOS/android_device_google_caimito]** caimito: Fix Rust symbol hashes in blobs *(ID: [509382](https://review.lineageos.org/c/509382))*
+- **[LineageOS/android_device_google_akita]** akita: Fix Rust symbol hashes in blobs *(ID: [509381](https://review.lineageos.org/c/509381))*
+- **[LineageOS/android_device_google_shusky]** shusky: Fix Rust symbol hashes in blobs *(ID: [509380](https://review.lineageos.org/c/509380))*
+- **[LineageOS/android_device_google_felix]** felix: Fix Rust symbol hashes in blobs *(ID: [509379](https://review.lineageos.org/c/509379))*
+- **[LineageOS/android_device_google_tangorpro]** tangorpro: Fix Rust symbol hashes in blobs *(ID: [509378](https://review.lineageos.org/c/509378))*
+- **[LineageOS/android_device_google_lynx]** lynx: Fix Rust symbol hashes in blobs *(ID: [509377](https://review.lineageos.org/c/509377))*
+- **[LineageOS/android_device_google_pantah]** pantah: Fix Rust symbol hashes in blobs *(ID: [509376](https://review.lineageos.org/c/509376))*
+- **[LineageOS/android_device_google_bluejay]** bluejay: Fix Rust symbol hashes in blobs *(ID: [509375](https://review.lineageos.org/c/509375))*
+- **[LineageOS/android_device_google_raviole]** raviole: Fix Rust symbol hashes in blobs *(ID: [509374](https://review.lineageos.org/c/509374))*
+- **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the CNSS serial property *(ID: [509017](https://review.lineageos.org/c/509017))*
 - **[LineageOS/android_packages_apps_Settings]** Fixup updater crash on WiFI only devices *(ID: [509363](https://review.lineageos.org/c/509363))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the SIP busy-tone property *(ID: [509344](https://review.lineageos.org/c/509344))*
-- **[LineageOS/android_hardware_ayn]** ayn: overlay: Override default launcher workspace *(ID: [504422](https://review.lineageos.org/c/504422))*
 - **[LineageOS/android_kernel_razer_sdm845]** BACKPORT: disp: msm: sde: avoid rc lock deadlock during esd failure *(ID: [509359](https://review.lineageos.org/c/509359))*
 - **[LineageOS/android_kernel_razer_sdm845]** arm64: dts: rc2: Drop 30Hz and 40Hz refresh rates *(ID: [509358](https://review.lineageos.org/c/509358))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label more wakeup node for pista *(ID: [509304](https://review.lineageos.org/c/509304))*
@@ -27,21 +42,6 @@
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the legacy radio serial property *(ID: [509343](https://review.lineageos.org/c/509343))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the camera offline logging property *(ID: [509342](https://review.lineageos.org/c/509342))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label legacy Wi-Fi dump controls *(ID: [509032](https://review.lineageos.org/c/509032))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow remote storage to read the Oplus region *(ID: [509030](https://review.lineageos.org/c/509030))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow legacy fingerprint battery reads *(ID: [509024](https://review.lineageos.org/c/509024))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow init to configure charger logging *(ID: [509020](https://review.lineageos.org/c/509020))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label avicii wakeup nodes *(ID: [509015](https://review.lineageos.org/c/509015))*
-- **[LineageOS/android_hardware_motorola]** MotoActions: Add open to answer action *(ID: [509260](https://review.lineageos.org/c/509260))*
-- **[LineageOS/android_kernel_samsung_sdm429]** HID: samsung: let 04e8:7021 use hid-generic *(ID: [509305](https://review.lineageos.org/c/509305))*
-- **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant config *(ID: [509287](https://review.lineageos.org/c/509287))*
-- **[LineageOS/android_device_samsung_exynos9820-common]** exynos9820-common: fix eID (extended APDU) NFC regression on 23.2 *(ID: [506968](https://review.lineageos.org/c/506968))*
-- **[LineageOS/android_frameworks_base]** fix audio product strategies cache preventing retry on failure *(ID: [509307](https://review.lineageos.org/c/509307))*
-- **[LineageOS/android_kernel_fairphone_sm7635]** Merge remote-tracking branch 'sm8650/lineage-22.2' into lineage-23.2 *(ID: [508869](https://review.lineageos.org/c/508869))*
-- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow hiding the device orientation sensor *(ID: [507778](https://review.lineageos.org/c/507778))*
-- **[LineageOS/android_hardware_qcom_audio]** hal: audio_extn: Fix null thread join in BatteryListener teardown *(ID: [504423](https://review.lineageos.org/c/504423))*
-- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow flipping device orientation while folded *(ID: [507777](https://review.lineageos.org/c/507777))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Update encoder o/p buffer size calc *(ID: [509288](https://review.lineageos.org/c/509288))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Enable vidc driver for sdm845 *(ID: [509014](https://review.lineageos.org/c/509014))*
 
 </details>
 
@@ -50,6 +50,7 @@
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
 - **[LineageOS/android_kernel_motorola_sm8475-devicetrees]** Revert zeekr adsp recovery setting *(ID: [509354](https://review.lineageos.org/c/509354))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Enable HDR props *(ID: [509353](https://review.lineageos.org/c/509353))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Ship Motorola face unlock *(ID: [507961](https://review.lineageos.org/c/507961))*
@@ -74,7 +75,6 @@
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Move strongbox keystore permission to vendor *(ID: [509095](https://review.lineageos.org/c/509095))*
 - **[LineageOS/android_device_motorola_mt6768-common]** mt6768-common: Build AOSP IWlan and QNS packages *(ID: [509077](https://review.lineageos.org/c/509077))*
 - **[LineageOS/android_device_motorola_miami]** miami: audio: Add missing Fluence NN mixer paths *(ID: [509076](https://review.lineageos.org/c/509076))*
-- **[LineageOS/android_hardware_motorola]** motorola: face: Add HAL wrapper for Motorola ArcSoft face unlock APK *(ID: [507962](https://review.lineageos.org/c/507962))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Ship Motorola face unlock *(ID: [508370](https://review.lineageos.org/c/508370))*
 - **[LineageOS/android_device_motorola_dubai]** dubai: Commonize blobs for Face Unlock *(ID: [508371](https://review.lineageos.org/c/508371))*
 - **[LineageOS/android_device_motorola_berlna]** berlna: Commonize blobs for Face Unlock *(ID: [508374](https://review.lineageos.org/c/508374))*
