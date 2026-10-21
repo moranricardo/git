@@ -7,22 +7,24 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (148)
+## 🚨 Parches Críticos Detectados (162)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_mediatek]** interfaces: Add reverse engineered mtkradioex 3.0 interface *(ID: [506924](https://review.lineageos.org/c/506924))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: Add reverse engineered imsa interface *(ID: [506925](https://review.lineageos.org/c/506925))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: Add reverse engineered lbs interface *(ID: [506926](https://review.lineageos.org/c/506926))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: Add reverse engineered log interface *(ID: [506927](https://review.lineageos.org/c/506927))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: Add reverse engineered mtkradioex 2.X interfaces *(ID: [506929](https://review.lineageos.org/c/506929))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: Add reverse engineered netdagent interface *(ID: [506928](https://review.lineageos.org/c/506928))*
+- **[LineageOS/android_hardware_lineage_interfaces]** slider: Add a backend that reads the position from switches *(ID: [509612](https://review.lineageos.org/c/509612))*
+- **[LineageOS/android_hardware_lineage_interfaces]** slider: Add a backend that reads the position from a node *(ID: [506890](https://review.lineageos.org/c/506890))*
+- **[LineageOS/android_hardware_lineage_interfaces]** slider: Report where the slider sits on the device *(ID: [506889](https://review.lineageos.org/c/506889))*
+- **[LineageOS/android_hardware_lineage_interfaces]** slider: Add a default implementation reading one EV_ABS axis *(ID: [506888](https://review.lineageos.org/c/506888))*
+- **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Clean up multi-touch Protocol B reporting *(ID: [509609](https://review.lineageos.org/c/509609))*
+- **[LineageOS/android_hardware_samsung]** eSimSwitcher: Add app for tsds2 hybrid eUICC *(ID: [507776](https://review.lineageos.org/c/507776))*
+- **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Drop end-of-frame command on invalid read *(ID: [509604](https://review.lineageos.org/c/509604))*
+- **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Increase post-reset delay on probe and resume *(ID: [509603](https://review.lineageos.org/c/509603))*
+- **[LineageOS/android_kernel_ayn_qcs8550-modules]** ayn-miniled: Clean up I2C write retry loop and suppress error spam *(ID: [509602](https://review.lineageos.org/c/509602))*
 - **[LineageOS/android_kernel_ayn_qcs8550-modules]** ayn-miniled: Fix NULL pointer dereference in suspend/resume *(ID: [509578](https://review.lineageos.org/c/509578))*
 - **[LineageOS/android_kernel_qcom_sm8250]** fuse-bpf: Pass backing vfsmount to sdcardfs *(ID: [506260](https://review.lineageos.org/c/506260))*
 - **[LineageOS/android_kernel_qcom_sm8250]** sdcardfs: Return negative dentries for missing names *(ID: [506261](https://review.lineageos.org/c/506261))*
 - **[LineageOS/android_kernel_qcom_sm8250]** sdcardfs: Isolate Android/{data,obb} outside the default view *(ID: [506262](https://review.lineageos.org/c/506262))*
-- **[LineageOS/android_hardware_samsung]** eSimSwitcher: Add app for tsds2 hybrid eUICC *(ID: [507776](https://review.lineageos.org/c/507776))*
 - **[LineageOS/android_tools_extract-utils]** extract_utils: Apply MODULE and MODULE_SUFFIX to Rust dylibs *(ID: [509575](https://review.lineageos.org/c/509575))*
 - **[LineageOS/android_hardware_ayn]** sepolicy: Allow kernel to write logdump block device *(ID: [509540](https://review.lineageos.org/c/509540))*
 - **[LineageOS/android_kernel_xiaomi_sm8250]** Merge remote-tracking branch 'qcom_sm8250/lineage-20' into lineage-24.0 *(ID: [509533](https://review.lineageos.org/c/509533))*
@@ -40,12 +42,10 @@
 - **[LineageOS/android_hardware_motorola]** motorola: interfaces: Add face unlock bridge AIDL *(ID: [509509](https://review.lineageos.org/c/509509))*
 - **[LineageOS/android_hardware_motorola]** motorola: sensors: add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
 - **[LineageOS/android_kernel_qcom_sm8250]** Reapply "arm64: configs: vendor: Enable CONFIG_FUSE_BPF" *(ID: [496134](https://review.lineageos.org/c/496134))*
-- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow hiding the device orientation sensor *(ID: [507778](https://review.lineageos.org/c/507778))*
-- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow flipping device orientation while folded *(ID: [507777](https://review.lineageos.org/c/507777))*
 
 </details>
 
-## 📱 Línea Motorola Activa (109)
+## 📱 Línea Motorola Activa (108)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
