@@ -7,11 +7,29 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (207)
+## 🚨 Parches Críticos Detectados (171)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_samsung]** EsimSwitcher: Add app for tsds2 hybrid eUICC *(ID: [507776](https://review.lineageos.org/c/507776))*
+- **[LineageOS/android_hardware_ayn]** sepolicy: Allow kernel to write logdump block device *(ID: [509540](https://review.lineageos.org/c/509540))*
+- **[LineageOS/android_kernel_xiaomi_mt6785]** mediatek: connectivity: gen4m: Remove CPU boost *(ID: [509563](https://review.lineageos.org/c/509563))*
+- **[LineageOS/android_kernel_xiaomi_mt6785]** mediatek: eccci: Fix CFI failure in MD RF notify callbacks *(ID: [509562](https://review.lineageos.org/c/509562))*
+- **[LineageOS/android_kernel_xiaomi_mt6785]** mediatek: connectivity: gen4m: Fix CFI failure in OID_PNP_SET_POWER handler *(ID: [509561](https://review.lineageos.org/c/509561))*
+- **[LineageOS/android_kernel_xiaomi_mt6785]** mediatek: wmt: Fix CFI failures in platform callbacks *(ID: [509560](https://review.lineageos.org/c/509560))*
+- **[LineageOS/android_kernel_xiaomi_mt6785]** mediatek: wlan: Avoid use of __weak for platform callbacks *(ID: [509559](https://review.lineageos.org/c/509559))*
+- **[LineageOS/android_kernel_xiaomi_mt6785]** mediatek: wlan: Remove dead kalSetCpuNumFreq() *(ID: [509558](https://review.lineageos.org/c/509558))*
+- **[LineageOS/android_kernel_xiaomi_mt6785]** mediatek: fmradio: Avoid use of __weak for platform callbacks *(ID: [509557](https://review.lineageos.org/c/509557))*
+- **[LineageOS/android_kernel_xiaomi_mt6785]** mediatek: bt: Avoid use of __weak for platform callbacks *(ID: [509556](https://review.lineageos.org/c/509556))*
+- **[LineageOS/android_kernel_xiaomi_mt6785]** mediatek: wmt: Remove useless __weak stub functions *(ID: [509555](https://review.lineageos.org/c/509555))*
+- **[LineageOS/android_kernel_xiaomi_mt6785]** mediatek: wmt: Avoid __weak for BTIF stub functions *(ID: [509554](https://review.lineageos.org/c/509554))*
+- **[LineageOS/android_kernel_xiaomi_mt6785]** mediatek: wmt: Allow building driver without combo support *(ID: [509553](https://review.lineageos.org/c/509553))*
+- **[LineageOS/android_kernel_xiaomi_mt6785]** mediatek: connectivity: Do not use __weak for connsys ic ops *(ID: [509552](https://review.lineageos.org/c/509552))*
+- **[LineageOS/android_kernel_xiaomi_mt6785]** [ALPS06376707] wmt: fix insmod wmt_drv.ko fail *(ID: [509551](https://review.lineageos.org/c/509551))*
+- **[LineageOS/android_kernel_xiaomi_sm8250]** Merge remote-tracking branch 'qcom_sm8250/lineage-20' into lineage-24.0 *(ID: [509533](https://review.lineageos.org/c/509533))*
+- **[LineageOS/android_kernel_ayn_qcs8550-modules]** qcs8550-common: ayn: Add raw logdump partition kmsg dumper *(ID: [509538](https://review.lineageos.org/c/509538))*
+- **[LineageOS/android_kernel_fairphone_sm7635]** Merge remote-tracking branch 'sm8650/lineage-22.2' into lineage-23.2 *(ID: [508869](https://review.lineageos.org/c/508869))*
 - **[LineageOS/android_device_osom_ingot]** ingot: Fix charge control on 6.6 *(ID: [505508](https://review.lineageos.org/c/505508))*
 - **[LineageOS/android_hardware_lineage_generic-ims]** carriersettings: Disable EVS support by default *(ID: [509503](https://review.lineageos.org/c/509503))*
 - **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Use the stock init service names *(ID: [509522](https://review.lineageos.org/c/509522))*
@@ -24,24 +42,6 @@
 - **[LineageOS/android_hardware_motorola]** motorola: packages: Add moto-face-framework for Motorola face unlock *(ID: [509510](https://review.lineageos.org/c/509510))*
 - **[LineageOS/android_hardware_motorola]** motorola: interfaces: Add face unlock bridge AIDL *(ID: [509509](https://review.lineageos.org/c/509509))*
 - **[LineageOS/android_hardware_motorola]** motorola: sensors: add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
-- **[LineageOS/android_kernel_qcom_sm8250]** fuse-bpf: Pass backing vfsmount to sdcardfs *(ID: [506260](https://review.lineageos.org/c/506260))*
-- **[LineageOS/android_kernel_qcom_sm8250]** sdcardfs: Return negative dentries for missing names *(ID: [506261](https://review.lineageos.org/c/506261))*
-- **[LineageOS/android_kernel_qcom_sm8250]** sdcardfs: Isolate Android/{data,obb} outside the default view *(ID: [506262](https://review.lineageos.org/c/506262))*
-- **[LineageOS/android_kernel_qcom_sm8250]** Reapply "arm64: configs: vendor: Enable CONFIG_FUSE_BPF" *(ID: [496134](https://review.lineageos.org/c/496134))*
-- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow hiding the device orientation sensor *(ID: [507778](https://review.lineageos.org/c/507778))*
-- **[LineageOS/android_hardware_samsung]** aidl: sensors: Allow flipping device orientation while folded *(ID: [507777](https://review.lineageos.org/c/507777))*
-- **[LineageOS/android_hardware_oplus]** oplus: vibrator: Add LiveTap AIDL vibrator service *(ID: [503935](https://review.lineageos.org/c/503935))*
-- **[LineageOS/android_kernel_razer_sdm845]** BACKPORT: disp: msm: sde: avoid rc lock deadlock during esd failure *(ID: [509359](https://review.lineageos.org/c/509359))*
-- **[LineageOS/android_kernel_razer_sdm845]** arm64: dts: rc2: Drop 30Hz and 40Hz refresh rates *(ID: [509358](https://review.lineageos.org/c/509358))*
-- **[LineageOS/android_hardware_lineage_generic-ims]** carriersettings: Reload configs when the override changes *(ID: [509502](https://review.lineageos.org/c/509502))*
-- **[LineageOS/android_device_motorola_mona]** mona: Fix invalid usage of log utility *(ID: [509436](https://review.lineageos.org/c/509436))*
-- **[LineageOS/android_device_motorola_sm6475-common]** sm6475-common: Fix loading USB audio AIDL interface with prebuilt HAL *(ID: [509477](https://review.lineageos.org/c/509477))*
-- **[LineageOS/android_device_motorola_sm6475-common]** sm6475-common: gps: Fix format specifiers *(ID: [509461](https://review.lineageos.org/c/509461))*
-- **[LineageOS/android_device_motorola_sm6475-common]** sm6475-common: gps: Fix unqualified-std-cast-call warning *(ID: [509460](https://review.lineageos.org/c/509460))*
-- **[LineageOS/android_kernel_oneplus_sm8650]** Merge remote-tracking branch 'sm8650/lineage-22.2' into HEAD *(ID: [505557](https://review.lineageos.org/c/505557))*
-- **[LineageOS/android_kernel_oneplus_sm8650]** modules: Drop mem-offline.ko *(ID: [505558](https://review.lineageos.org/c/505558))*
-- **[LineageOS/android_kernel_oneplus_sm8650-modules]** Merge remote-tracking branch 'sm8650-modules/lineage-22.2' into HEAD *(ID: [508589](https://review.lineageos.org/c/508589))*
-- **[LineageOS/android_tools_extract-utils]** extract_utils: Add Rust symbol disambiguator fixup *(ID: [509347](https://review.lineageos.org/c/509347))*
 
 </details>
 
