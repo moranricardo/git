@@ -7,54 +7,55 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (253)
+## 🚨 Parches Críticos Detectados (248)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Emit touch calibration pulse once userspace opens device *(ID: [509637](https://review.lineageos.org/c/509637))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: configs: khadas: Enable AUGMENT_ARG_LIMIT *(ID: [509722](https://review.lineageos.org/c/509722))*
+- **[LineageOS/android_kernel_amlogic_kernel-5.15]** init: Add AUGMENT_ARG_LIMIT to raise INIT_ENV_ARG_LIMIT *(ID: [495818](https://review.lineageos.org/c/495818))*
+- **[LineageOS/android_hardware_qcom_wlan]** wifi_hal: Only send NAN IC mode TLV if firmware supports it *(ID: [507260](https://review.lineageos.org/c/507260))*
+- **[LineageOS/android_hardware_qcom_wlan]** wifi_hal: Accept LOWI version >= 2.1.1 *(ID: [507259](https://review.lineageos.org/c/507259))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3: dts: Configure the RTL8211F RGMII delays for the 5.15 dwmac driver *(ID: [497701](https://review.lineageos.org/c/497701))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3: dts: Drop the PDM dai-link that referenced a disabled node *(ID: [497700](https://review.lineageos.org/c/497700))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3: dts: Disable legacy meson_fb, use DRM like kvim3l *(ID: [497698](https://review.lineageos.org/c/497698))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3: dts: Move logo framebuffer reservation to 0x3d800000 *(ID: [497697](https://review.lineageos.org/c/497697))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: configs: Add kvim3_defconfig *(ID: [497696](https://review.lineageos.org/c/497696))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: kvim3: add Khadas VIM3 (A311D) board support *(ID: [497695](https://review.lineageos.org/c/497695))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3l: dts - give the dma-buf heaps real sizes, pin the logo reservation *(ID: [495812](https://review.lineageos.org/c/495812))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** kvim3l: add vim3l based on sm1_s905d3_ac200.dts *(ID: [495811](https://review.lineageos.org/c/495811))*
+- **[LineageOS/android_device_samsung_a73xq]** a73xq: overlay: Set default hotspot SSID prefix *(ID: [479796](https://review.lineageos.org/c/479796))*
+- **[LineageOS/android_device_samsung_m52xq]** m52xq: overlay: Set default hotspot SSID prefix *(ID: [479806](https://review.lineageos.org/c/479806))*
+- **[LineageOS/android_hardware_samsung]** AdvancedDisplay: Implement dynamic mDNIe support *(ID: [479586](https://review.lineageos.org/c/479586))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: configs: khadas: Move HYM8563 to khadas_defconfig *(ID: [506375](https://review.lineageos.org/c/506375))*
+- **[LineageOS/android_device_samsung_a52sxq]** a52sxq: overlay: Set default hotspot SSID prefix *(ID: [479659](https://review.lineageos.org/c/479659))*
+- **[LineageOS/android_hardware_lineage_interfaces]** fingerprint: aidl: Drop trailing slash from the per-user store path *(ID: [509714](https://review.lineageos.org/c/509714))*
+- **[LineageOS/android_hardware_lineage_interfaces]** fingerprint: aidl: Log sensor id in getSensorProps *(ID: [509713](https://review.lineageos.org/c/509713))*
+- **[LineageOS/android_kernel_oneplus_sm8650-modules]** oplus: device_info: Fix proc internal header include through symlink *(ID: [509711](https://review.lineageos.org/c/509711))*
+- **[LineageOS/android_kernel_amlogic_gpu-modules]** utgard: Build with bazel *(ID: [509710](https://review.lineageos.org/c/509710))*
+- **[LineageOS/android_kernel_amlogic_gpu-modules]** utgard: r10p2: Cast user addresses for access_ok() on arm64 *(ID: [509709](https://review.lineageos.org/c/509709))*
+- **[LineageOS/android_hardware_samsung]** [WIP] argosd: Introduce Argos Daemon *(ID: [509705](https://review.lineageos.org/c/509705))*
+- **[LineageOS/android_kernel_ayn_qcs8550-modules]** ayn-miniled: Clean up I2C write retry loop and suppress error spam *(ID: [509602](https://review.lineageos.org/c/509602))*
+- **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Increase post-reset delay on probe and resume *(ID: [509603](https://review.lineageos.org/c/509603))*
+- **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Clean up multi-touch Protocol B reporting *(ID: [509609](https://review.lineageos.org/c/509609))*
+- **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Initialize input_dev pointer before registration *(ID: [509704](https://review.lineageos.org/c/509704))*
+- **[LineageOS/android_hardware_samsung]** eSimSwitcher: Add app for tsds2 hybrid eUICC *(ID: [507776](https://review.lineageos.org/c/507776))*
 - **[LineageOS/android_kernel_oneplus_sm8650-devicetrees]** Merge remote-tracking branch 'sm8650-devicetrees/lineage-22.2' into HEAD *(ID: [505559](https://review.lineageos.org/c/505559))*
 - **[LineageOS/android_kernel_oneplus_sm8850-modules]** qcom: wlan: icnss2: Pass WLAN MAC to cnss utils *(ID: [509164](https://review.lineageos.org/c/509164))*
-- **[LineageOS/android_hardware_oneplus]** aidl: face: Generalize engine, license, TA and heap resolution *(ID: [508872](https://review.lineageos.org/c/508872))*
-- **[LineageOS/android_vendor_lineage]** build: fix cross-platform DTBO dependency cycle *(ID: [505706](https://review.lineageos.org/c/505706))*
-- **[LineageOS/android_hardware_oplus]** Pen: Offer pairing from the attach popup *(ID: [507156](https://review.lineageos.org/c/507156))*
-- **[LineageOS/android_hardware_oplus]** Pen: Show battery popup when the pen is attached *(ID: [507155](https://review.lineageos.org/c/507155))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Process in bounded chunks *(ID: [509701](https://review.lineageos.org/c/509701))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Translate dynamics processing *(ID: [509700](https://review.lineageos.org/c/509700))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Translate the haptic generator *(ID: [509699](https://review.lineageos.org/c/509699))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Reset translator state on open *(ID: [509698](https://review.lineageos.org/c/509698))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Bypass the environmental reverb *(ID: [509697](https://review.lineageos.org/c/509697))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Reject equalizer values out of range *(ID: [509696](https://review.lineageos.org/c/509696))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Process whole frames *(ID: [509695](https://review.lineageos.org/c/509695))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Report the environmental reverb ranges *(ID: [509694](https://review.lineageos.org/c/509694))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Keep the visualizer from aborting *(ID: [509693](https://review.lineageos.org/c/509693))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Translate the Volume effect *(ID: [509692](https://review.lineageos.org/c/509692))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Fix the downmix type sizes *(ID: [509691](https://review.lineageos.org/c/509691))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Send GET_PARAM without a value area *(ID: [509690](https://review.lineageos.org/c/509690))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Reject out-of-range strengths *(ID: [509689](https://review.lineageos.org/c/509689))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Feed auxiliary effects a mono send *(ID: [509688](https://review.lineageos.org/c/509688))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Use the stock init service name *(ID: [509687](https://review.lineageos.org/c/509687))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Give both buffers one frame count *(ID: [509686](https://review.lineageos.org/c/509686))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Count only real HBR refusals *(ID: [508337](https://review.lineageos.org/c/508337))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Pack DTS-HD and TrueHD with FFmpeg *(ID: [505580](https://review.lineageos.org/c/505580))*
-- **[LineageOS/android_hardware_motorola]** motorola: Add MotoActiveSimSwitch *(ID: [509656](https://review.lineageos.org/c/509656))*
-- **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Clean up multi-touch Protocol B reporting *(ID: [509609](https://review.lineageos.org/c/509609))*
-- **[LineageOS/android_hardware_motorola]** motorola: aidl: face: Add face unlock HAL wrapper *(ID: [509512](https://review.lineageos.org/c/509512))*
-- **[LineageOS/android_kernel_ayn_qcs8550-modules]** ayn-miniled: Fix NULL pointer dereference in suspend/resume *(ID: [509578](https://review.lineageos.org/c/509578))*
-- **[LineageOS/android_kernel_qcom_sm8450-modules]** kgsl: Fit all six gen7 regmap regions *(ID: [499375](https://review.lineageos.org/c/499375))*
 
 </details>
 
-## 📱 Línea Motorola Activa (100)
+## 📱 Línea Motorola Activa (98)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_milanf]** milanf: audio: Add missing Fluence NN mixer paths *(ID: [509729](https://review.lineageos.org/c/509729))*
+- **[LineageOS/android_device_motorola_rhodep]** rhodep: audio: Add missing Fluence NN mixer paths *(ID: [509730](https://review.lineageos.org/c/509730))*
+- **[LineageOS/android_device_motorola_denver]** denver: audio: Add missing Fluence NN mixer paths *(ID: [509727](https://review.lineageos.org/c/509727))*
+- **[LineageOS/android_device_motorola_ibiza]** ibiza: audio: Add missing Fluence NN mixer paths *(ID: [509728](https://review.lineageos.org/c/509728))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Ship Motorola face unlock *(ID: [508370](https://review.lineageos.org/c/508370))*
 - **[LineageOS/android_hardware_motorola]** motorola: Add MotoActiveSimSwitch *(ID: [509656](https://review.lineageos.org/c/509656))*
-- **[LineageOS/android_device_motorola_fogo]** fogo: audio: Add missing Fluence NN mixer paths *(ID: [497990](https://review.lineageos.org/c/497990))*
-- **[LineageOS/android_device_motorola_bangkk]** bangkk: audio: Add more sampling rates to voip_{rx,tx} *(ID: [496136](https://review.lineageos.org/c/496136))*
-- **[LineageOS/android_device_motorola_bangkk]** bangkk: audio: Enable direct flag for voip_rx *(ID: [496135](https://review.lineageos.org/c/496135))*
 - **[LineageOS/android_device_motorola_smith]** smith: Add eUICC support *(ID: [509314](https://review.lineageos.org/c/509314))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Inherit common motorola FCM *(ID: [508369](https://review.lineageos.org/c/508369))*
 - **[LineageOS/android_hardware_motorola]** motorola: aidl: face: Add face unlock HAL wrapper *(ID: [509512](https://review.lineageos.org/c/509512))*
@@ -79,7 +80,6 @@
 - **[LineageOS/android_hardware_motorola]** motorola: packages: Add moto-face-framework for Motorola face unlock *(ID: [509510](https://review.lineageos.org/c/509510))*
 - **[LineageOS/android_device_motorola_rtwo]** rtwo: Frameworks: Tune low-lux auto-brightness curve and debounce *(ID: [506065](https://review.lineageos.org/c/506065))*
 - **[LineageOS/android_device_motorola_mona]** mona: Update screen density *(ID: [509426](https://review.lineageos.org/c/509426))*
-- **[LineageOS/android_device_motorola_mona]** mona: Adjust power button position *(ID: [509441](https://review.lineageos.org/c/509441))*
 
 </details>
 
