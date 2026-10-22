@@ -7,41 +7,41 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (241)
+## 🚨 Parches Críticos Detectados (253)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Emit touch calibration pulse once userspace opens device *(ID: [509637](https://review.lineageos.org/c/509637))*
+- **[LineageOS/android_kernel_oneplus_sm8650-devicetrees]** Merge remote-tracking branch 'sm8650-devicetrees/lineage-22.2' into HEAD *(ID: [505559](https://review.lineageos.org/c/505559))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** qcom: wlan: icnss2: Pass WLAN MAC to cnss utils *(ID: [509164](https://review.lineageos.org/c/509164))*
+- **[LineageOS/android_hardware_oneplus]** aidl: face: Generalize engine, license, TA and heap resolution *(ID: [508872](https://review.lineageos.org/c/508872))*
+- **[LineageOS/android_vendor_lineage]** build: fix cross-platform DTBO dependency cycle *(ID: [505706](https://review.lineageos.org/c/505706))*
+- **[LineageOS/android_hardware_oplus]** Pen: Offer pairing from the attach popup *(ID: [507156](https://review.lineageos.org/c/507156))*
+- **[LineageOS/android_hardware_oplus]** Pen: Show battery popup when the pen is attached *(ID: [507155](https://review.lineageos.org/c/507155))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Process in bounded chunks *(ID: [509701](https://review.lineageos.org/c/509701))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Translate dynamics processing *(ID: [509700](https://review.lineageos.org/c/509700))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Translate the haptic generator *(ID: [509699](https://review.lineageos.org/c/509699))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Reset translator state on open *(ID: [509698](https://review.lineageos.org/c/509698))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Bypass the environmental reverb *(ID: [509697](https://review.lineageos.org/c/509697))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Reject equalizer values out of range *(ID: [509696](https://review.lineageos.org/c/509696))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Process whole frames *(ID: [509695](https://review.lineageos.org/c/509695))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Report the environmental reverb ranges *(ID: [509694](https://review.lineageos.org/c/509694))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Keep the visualizer from aborting *(ID: [509693](https://review.lineageos.org/c/509693))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Translate the Volume effect *(ID: [509692](https://review.lineageos.org/c/509692))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Fix the downmix type sizes *(ID: [509691](https://review.lineageos.org/c/509691))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Send GET_PARAM without a value area *(ID: [509690](https://review.lineageos.org/c/509690))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Reject out-of-range strengths *(ID: [509689](https://review.lineageos.org/c/509689))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Feed auxiliary effects a mono send *(ID: [509688](https://review.lineageos.org/c/509688))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Use the stock init service name *(ID: [509687](https://review.lineageos.org/c/509687))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/effect/legacy: Give both buffers one frame count *(ID: [509686](https://review.lineageos.org/c/509686))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Count only real HBR refusals *(ID: [508337](https://review.lineageos.org/c/508337))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: intf/audio/mainline: Pack DTS-HD and TrueHD with FFmpeg *(ID: [505580](https://review.lineageos.org/c/505580))*
 - **[LineageOS/android_hardware_motorola]** motorola: Add MotoActiveSimSwitch *(ID: [509656](https://review.lineageos.org/c/509656))*
-- **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Emit initial position on open for recovery calibration *(ID: [509637](https://review.lineageos.org/c/509637))*
 - **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Clean up multi-touch Protocol B reporting *(ID: [509609](https://review.lineageos.org/c/509609))*
 - **[LineageOS/android_hardware_motorola]** motorola: aidl: face: Add face unlock HAL wrapper *(ID: [509512](https://review.lineageos.org/c/509512))*
 - **[LineageOS/android_kernel_ayn_qcs8550-modules]** ayn-miniled: Fix NULL pointer dereference in suspend/resume *(ID: [509578](https://review.lineageos.org/c/509578))*
 - **[LineageOS/android_kernel_qcom_sm8450-modules]** kgsl: Fit all six gen7 regmap regions *(ID: [499375](https://review.lineageos.org/c/499375))*
-- **[LineageOS/android_kernel_qcom_sm8450-modules]** disp: msm: dp: Fix v1 4nm DP PLL params table *(ID: [499379](https://review.lineageos.org/c/499379))*
-- **[LineageOS/android_kernel_qcom_sm8450-modules]** disp: msm: dsi: Add qcom,mdss-brightness-default-level property *(ID: [499378](https://review.lineageos.org/c/499378))*
-- **[LineageOS/android_kernel_qcom_sm8450-modules]** msm: camera: Fix UBSAN kernel panic with flex array support *(ID: [499377](https://review.lineageos.org/c/499377))*
-- **[LineageOS/android_kernel_qcom_sm8750]** remoteproc: q6v5_pas: Enable auto_boot on waipio ADSP *(ID: [499291](https://review.lineageos.org/c/499291))*
-- **[LineageOS/android_kernel_qcom_sm8750]** ufs: qcom: Fix ICC bandwidth votes for DDR path *(ID: [509632](https://review.lineageos.org/c/509632))*
-- **[LineageOS/android_kernel_qcom_sm8750]** qcom-hv-haptics: Read fifo-vmax-mv from device tree for custom effects *(ID: [509631](https://review.lineageos.org/c/509631))*
-- **[LineageOS/android_kernel_qcom_sm8750]** scsi: ufs: Update Controller setting as per HPG Ver19.0 *(ID: [509630](https://review.lineageos.org/c/509630))*
-- **[LineageOS/android_kernel_qcom_sm8750]** soc: qcom: pd-mapper: Add Cape compatible *(ID: [509628](https://review.lineageos.org/c/509628))*
-- **[LineageOS/android_kernel_qcom_sm8750]** soc: qcom: pd-mapper: Match the renamed remoteproc common module *(ID: [509627](https://review.lineageos.org/c/509627))*
-- **[LineageOS/android_kernel_qcom_sm8750]** UPSTREAM: soc: qcom: pd-mapper: Fix singleton refcount *(ID: [509624](https://review.lineageos.org/c/509624))*
-- **[LineageOS/android_kernel_qcom_sm8750]** UPSTREAM: soc: qcom: pd-mapper: Depend on ARCH_QCOM || COMPILE_TEST *(ID: [509622](https://review.lineageos.org/c/509622))*
-- **[LineageOS/android_kernel_qcom_sm8750]** UPSTREAM: soc: qcom: add missing pd-mapper dependencies *(ID: [509621](https://review.lineageos.org/c/509621))*
-- **[LineageOS/android_kernel_qcom_sm8750]** UPSTREAM: soc: qcom: add pd-mapper implementation *(ID: [509619](https://review.lineageos.org/c/509619))*
-- **[LineageOS/android_kernel_qcom_sm8750]** clk: qcom: gdsc-regulator: allow disable while under HW control *(ID: [499305](https://review.lineageos.org/c/499305))*
-- **[LineageOS/android_kernel_qcom_sm8750]** clk: qcom: rpmh: Add missing RF_CLK_5 for SM8450 *(ID: [499304](https://review.lineageos.org/c/499304))*
-- **[LineageOS/android_kernel_qcom_sm8750]** phy: ufs-qcom: Add prints for ufs phy clk_set_parent failures *(ID: [499303](https://review.lineageos.org/c/499303))*
-- **[LineageOS/android_kernel_qcom_sm8750]** usb: dwc: dwc3-msm-ops: Update the RT priority if uvc is in composition *(ID: [499302](https://review.lineageos.org/c/499302))*
-- **[LineageOS/android_kernel_qcom_sm8750]** clk: qcom: gcc-waipio: Use floor ops for SDCC RCGs *(ID: [499301](https://review.lineageos.org/c/499301))*
-- **[LineageOS/android_kernel_qcom_sm8750]** soc: qcom: ice: Establish HWKM transport key for wrapped keys *(ID: [499300](https://review.lineageos.org/c/499300))*
-- **[LineageOS/android_kernel_qcom_sm8750]** soc: qcom: ice: Fix shmbridge buffer leak *(ID: [499298](https://review.lineageos.org/c/499298))*
-- **[LineageOS/android_kernel_qcom_sm8750]** uapi: Add a snapshot of rmnet_data.h from msm-5.10 *(ID: [499297](https://review.lineageos.org/c/499297))*
-- **[LineageOS/android_kernel_qcom_sm8750]** power: supply: qti_battery_charger: Add waipio [battery|wls]_props *(ID: [499296](https://review.lineageos.org/c/499296))*
-- **[LineageOS/android_kernel_qcom_sm8750]** dt-bindings: clock: Add snapshot of mdss-5nm-pll clocks *(ID: [499295](https://review.lineageos.org/c/499295))*
-- **[LineageOS/android_kernel_qcom_sm8750]** usb: dwc3: msm: use platform_get_irq_byname_optional() to avoid boot error spam *(ID: [499294](https://review.lineageos.org/c/499294))*
 
 </details>
 
@@ -50,12 +50,12 @@
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Ship Motorola face unlock *(ID: [508370](https://review.lineageos.org/c/508370))*
+- **[LineageOS/android_hardware_motorola]** motorola: Add MotoActiveSimSwitch *(ID: [509656](https://review.lineageos.org/c/509656))*
 - **[LineageOS/android_device_motorola_fogo]** fogo: audio: Add missing Fluence NN mixer paths *(ID: [497990](https://review.lineageos.org/c/497990))*
 - **[LineageOS/android_device_motorola_bangkk]** bangkk: audio: Add more sampling rates to voip_{rx,tx} *(ID: [496136](https://review.lineageos.org/c/496136))*
 - **[LineageOS/android_device_motorola_bangkk]** bangkk: audio: Enable direct flag for voip_rx *(ID: [496135](https://review.lineageos.org/c/496135))*
-- **[LineageOS/android_hardware_motorola]** motorola: Add MotoActiveSimSwitch *(ID: [509656](https://review.lineageos.org/c/509656))*
 - **[LineageOS/android_device_motorola_smith]** smith: Add eUICC support *(ID: [509314](https://review.lineageos.org/c/509314))*
-- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Ship Motorola face unlock *(ID: [508370](https://review.lineageos.org/c/508370))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Inherit common motorola FCM *(ID: [508369](https://review.lineageos.org/c/508369))*
 - **[LineageOS/android_hardware_motorola]** motorola: aidl: face: Add face unlock HAL wrapper *(ID: [509512](https://review.lineageos.org/c/509512))*
 - **[LineageOS/android_device_motorola_zeekr]** zeekr: Add Aperture configurations *(ID: [498095](https://review.lineageos.org/c/498095))*
