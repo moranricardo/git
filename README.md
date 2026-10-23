@@ -7,41 +7,41 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (373)
+## 🚨 Parches Críticos Detectados (363)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: hbp: Add HBP5 report interface *(ID: [509830](https://review.lineageos.org/c/509830))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label HBP report *(ID: [509829](https://review.lineageos.org/c/509829))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Make the subsys_radio V1 import configurable *(ID: [509828](https://review.lineageos.org/c/509828))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Introduce vendor.oplus.hardware.a2dp_offload V1 *(ID: [509827](https://review.lineageos.org/c/509827))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Update IOplusRadio to V3-V4 *(ID: [509826](https://review.lineageos.org/c/509826))*
+- **[LineageOS/android_hardware_oplus]** vintf: Update fwk matrix for COS 17.0.0 *(ID: [509825](https://review.lineageos.org/c/509825))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: bdaddr: Build the address without awk *(ID: [509821](https://review.lineageos.org/c/509821))*
+- **[LineageOS/android_kernel_sony_sm8350]** arm64: configs: Regenerate lahaina-qgki_defconfig *(ID: [509817](https://review.lineageos.org/c/509817))*
+- **[LineageOS/android_kernel_sony_sm8250]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [509816](https://review.lineageos.org/c/509816))*
+- **[LineageOS/android_kernel_sony_sm8550]** Merge remote-tracking branch 'qcom/lineage-21' into lineage-24.0 *(ID: [509818](https://review.lineageos.org/c/509818))*
+- **[LineageOS/android_kernel_sony_sm8550-devicetrees]** Merge remote-tracking branch 'qcom/lineage-21' into lineage-24.0 *(ID: [509819](https://review.lineageos.org/c/509819))*
+- **[LineageOS/android_kernel_sony_sm8350]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [509820](https://review.lineageos.org/c/509820))*
+- **[LineageOS/android_device_samsung_m52xq]** m52xq: overlay: Set default hotspot SSID prefix *(ID: [479806](https://review.lineageos.org/c/479806))*
+- **[LineageOS/android_device_samsung_sm7325-common]** sm7325-common: add missing hashes and fix warnings *(ID: [464916](https://review.lineageos.org/c/464916))*
+- **[LineageOS/android_device_samsung_a73xq]** a73xq: overlay: Set default hotspot SSID prefix *(ID: [479796](https://review.lineageos.org/c/479796))*
+- **[LineageOS/android_device_samsung_a52sxq]** a52sxq: overlay: Set default hotspot SSID prefix *(ID: [479659](https://review.lineageos.org/c/479659))*
+- **[LineageOS/android_hardware_lineage_interfaces]** fingerprint: aidl: Allow customizing the per-user store path *(ID: [509714](https://review.lineageos.org/c/509714))*
+- **[LineageOS/android_hardware_qcom_audioreach-topology]** Android: Add RetroidPocket Eliza *(ID: [509803](https://review.lineageos.org/c/509803))*
+- **[LineageOS/android_hardware_qcom_audioreach-topology]** topology: qcom: add topology for Eliza Retroid Pocket *(ID: [509802](https://review.lineageos.org/c/509802))*
 - **[LineageOS/android_hardware_motorola]** motorola: Add MotoActiveSimSwitch *(ID: [509656](https://review.lineageos.org/c/509656))*
 - **[LineageOS/android_hardware_qcom_display]** composer: Update getDisplayConfigurations API *(ID: [509789](https://review.lineageos.org/c/509789))*
 - **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Initialize input_dev pointer before registration *(ID: [509704](https://review.lineageos.org/c/509704))*
 - **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Clean up multi-touch Protocol B reporting *(ID: [509609](https://review.lineageos.org/c/509609))*
 - **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Increase post-reset delay on probe and resume *(ID: [509603](https://review.lineageos.org/c/509603))*
 - **[LineageOS/android_kernel_ayn_qcs8550-modules]** ayn-miniled: Clean up I2C write retry loop and suppress error spam *(ID: [509602](https://review.lineageos.org/c/509602))*
-- **[LineageOS/android_hardware_lineage_interfaces]** fingerprint: aidl: Allow customizing the per-user store path *(ID: [509714](https://review.lineageos.org/c/509714))*
 - **[LineageOS/android_hardware_lineage_interfaces]** fingerprint: aidl: Log sensor id in getSensorProps *(ID: [509713](https://review.lineageos.org/c/509713))*
 - **[LineageOS/android_kernel_xiaomi_sm8450]** cnss2: Add NULL checks for FW allocated cal_mem *(ID: [509770](https://review.lineageos.org/c/509770))*
 - **[LineageOS/android_kernel_xiaomi_sm8450]** kgsl: Prevent bind to VBO entries pending free in deferred worker *(ID: [509769](https://review.lineageos.org/c/509769))*
 - **[LineageOS/android_kernel_xiaomi_sm8450]** kgsl: Reject mmap from processes with a different mm *(ID: [509768](https://review.lineageos.org/c/509768))*
 - **[LineageOS/android_kernel_xiaomi_sm8450]** kgsl: bail on vm_open if refcount is zero *(ID: [509767](https://review.lineageos.org/c/509767))*
-- **[LineageOS/android_kernel_xiaomi_sm8450]** kgsl: Validate set_draw_state packet size before parsing *(ID: [509766](https://review.lineageos.org/c/509766))*
-- **[LineageOS/android_kernel_xiaomi_sm8450]** input: goodix: use strscpy for fixed-size DT strings *(ID: [509765](https://review.lineageos.org/c/509765))*
-- **[LineageOS/android_kernel_xiaomi_sm8450]** input: novatek: check SPI DMA buffer capacities *(ID: [509764](https://review.lineageos.org/c/509764))*
-- **[LineageOS/android_kernel_xiaomi_sm8450]** input: novatek: bound SPI proc transfer before memcpy *(ID: [509763](https://review.lineageos.org/c/509763))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** video: vidc: initialize fence before qbuf error cleanup *(ID: [509787](https://review.lineageos.org/c/509787))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** media: vidc: validate SFR size before terminating FW message *(ID: [509786](https://review.lineageos.org/c/509786))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** media: vidc: guard missing/empty allowed clock tables *(ID: [509785](https://review.lineageos.org/c/509785))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** datarmnet: fix priority-ordered DL indicator registration *(ID: [509784](https://review.lineageos.org/c/509784))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** datarmnet: handle unallocated descriptor pool during teardown *(ID: [509783](https://review.lineageos.org/c/509783))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** datarmnet: include MUX 0 endpoints during forced unassociation *(ID: [509782](https://review.lineageos.org/c/509782))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** datarmnet: retain active power-save format on netlink updates *(ID: [509781](https://review.lineageos.org/c/509781))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** datarmnet: release RX handler and netdev ref on descriptor init failure *(ID: [509780](https://review.lineageos.org/c/509780))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** qcacmn: Validate vdev count before CSA switch count update *(ID: [509779](https://review.lineageos.org/c/509779))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** qcacmn: Fix out-of-bounds read in roam scan AP stats *(ID: [509778](https://review.lineageos.org/c/509778))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** qcacld-3.0: Add buffer overflow check in wma_fill_rx_stats *(ID: [509777](https://review.lineageos.org/c/509777))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** qcacld-3.0: Fix slab-out-of-bounds in HW mode transition *(ID: [509776](https://review.lineageos.org/c/509776))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** qcacmn: Fix buffer overflow in fragment processing *(ID: [509775](https://review.lineageos.org/c/509775))*
-- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** dataipa: avoid redundant assertion after IPA device crash *(ID: [509774](https://review.lineageos.org/c/509774))*
 
 </details>
 
