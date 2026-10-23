@@ -1,55 +1,58 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-22-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-23-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (383)
+## 🚨 Parches Críticos Detectados (373)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_xiaomi]** packages: SoterService: Support multi-SoC and modern AIDL/HIDL HAL backends *(ID: [509756](https://review.lineageos.org/c/509756))*
-- **[LineageOS/android_hardware_xiaomi]** packages: Implement OSS SoterService *(ID: [509754](https://review.lineageos.org/c/509754))*
-- **[LineageOS/android_hardware_xiaomi]** packages: SoterService: Implement getExtraParam for UDFPS positioning *(ID: [509755](https://review.lineageos.org/c/509755))*
-- **[LineageOS/android_kernel_sony_sm8650-devicetrees]** Merge remote-tracking branch 'qcom/lineage-22.2' into HEAD *(ID: [509751](https://review.lineageos.org/c/509751))*
-- **[LineageOS/android_kernel_sony_sm8650-modules]** Merge remote-tracking branch 'qcom/lineage-22.2' into HEAD *(ID: [509752](https://review.lineageos.org/c/509752))*
-- **[LineageOS/android_kernel_sony_sm8650]** Merge remote-tracking branch 'qcom/lineage-22.2' into HEAD *(ID: [509750](https://review.lineageos.org/c/509750))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: s5e8825: Rewrite *(ID: [507686](https://review.lineageos.org/c/507686))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Update encoder o/p buffer size calc *(ID: [509288](https://review.lineageos.org/c/509288))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Enable vidc driver for sdm845 *(ID: [509014](https://review.lineageos.org/c/509014))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Map NV12 to 128 alignment for decoder/encoder *(ID: [509013](https://review.lineageos.org/c/509013))*
-- **[LineageOS/android_kernel_qcom_sm8250]** include: uapi: Duplicate the msm_media_info header *(ID: [509012](https://review.lineageos.org/c/509012))*
-- **[LineageOS/android_kernel_qcom_sm8250]** video-driver: reduce the input frame size for vp9d *(ID: [509011](https://review.lineageos.org/c/509011))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Fix for encode failure on resolution 720p & above on SA6155P *(ID: [509010](https://review.lineageos.org/c/509010))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Avoid setting HFI_PROPERTY_PARAM_HEVC_PPS_CB_CR_OFFSET for Gen3 VPUs *(ID: [509009](https://review.lineageos.org/c/509009))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: update VP9 level ranges *(ID: [509008](https://review.lineageos.org/c/509008))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: check for cvp support *(ID: [509007](https://review.lineageos.org/c/509007))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Ping hardware during timeouts *(ID: [509006](https://review.lineageos.org/c/509006))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Copy hfi buf req to hal buf req *(ID: [509005](https://review.lineageos.org/c/509005))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Add HFI backward compatibility *(ID: [509004](https://review.lineageos.org/c/509004))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Enable decode batching for sdm845 *(ID: [509003](https://review.lineageos.org/c/509003))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Disable unsupported features for sdm845 *(ID: [509002](https://review.lineageos.org/c/509002))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Add sdm845 capabilities *(ID: [509001](https://review.lineageos.org/c/509001))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Setup BW calculation function for ar50 *(ID: [509000](https://review.lineageos.org/c/509000))*
-- **[LineageOS/android_kernel_qcom_sm8250]** dts: qcom: sdm845-mtp: Update to use ADC defines *(ID: [507008](https://review.lineageos.org/c/507008))*
-- **[LineageOS/android_kernel_qcom_sm8250]** serial: msm_geni_serial: fix for broken bluetooth for legacy soc *(ID: [506966](https://review.lineageos.org/c/506966))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: msm_media_info_legacy: Import buffer alignment changes from kernel 4.9 *(ID: [506931](https://review.lineageos.org/c/506931))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Don't set VBV HRD buffer size on sdm845 *(ID: [506885](https://review.lineageos.org/c/506885))*
-- **[LineageOS/android_kernel_qcom_sm8250]** dts: qcom: sdm845-audio-overlay: Add ssr devices for audio driver *(ID: [506884](https://review.lineageos.org/c/506884))*
-- **[LineageOS/android_kernel_qcom_sm8250]** techpack: audio: sdm845: Add SND event FWK support *(ID: [506883](https://review.lineageos.org/c/506883))*
-- **[LineageOS/android_kernel_qcom_sm8250]** dts: qcom: sdm845: set QoS cores for fastrpc *(ID: [506882](https://review.lineageos.org/c/506882))*
+- **[LineageOS/android_hardware_motorola]** motorola: Add MotoActiveSimSwitch *(ID: [509656](https://review.lineageos.org/c/509656))*
+- **[LineageOS/android_hardware_qcom_display]** composer: Update getDisplayConfigurations API *(ID: [509789](https://review.lineageos.org/c/509789))*
+- **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Initialize input_dev pointer before registration *(ID: [509704](https://review.lineageos.org/c/509704))*
+- **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Clean up multi-touch Protocol B reporting *(ID: [509609](https://review.lineageos.org/c/509609))*
+- **[LineageOS/android_kernel_ayn_qcs8550-modules]** touch: hynitron: Increase post-reset delay on probe and resume *(ID: [509603](https://review.lineageos.org/c/509603))*
+- **[LineageOS/android_kernel_ayn_qcs8550-modules]** ayn-miniled: Clean up I2C write retry loop and suppress error spam *(ID: [509602](https://review.lineageos.org/c/509602))*
+- **[LineageOS/android_hardware_lineage_interfaces]** fingerprint: aidl: Allow customizing the per-user store path *(ID: [509714](https://review.lineageos.org/c/509714))*
+- **[LineageOS/android_hardware_lineage_interfaces]** fingerprint: aidl: Log sensor id in getSensorProps *(ID: [509713](https://review.lineageos.org/c/509713))*
+- **[LineageOS/android_kernel_xiaomi_sm8450]** cnss2: Add NULL checks for FW allocated cal_mem *(ID: [509770](https://review.lineageos.org/c/509770))*
+- **[LineageOS/android_kernel_xiaomi_sm8450]** kgsl: Prevent bind to VBO entries pending free in deferred worker *(ID: [509769](https://review.lineageos.org/c/509769))*
+- **[LineageOS/android_kernel_xiaomi_sm8450]** kgsl: Reject mmap from processes with a different mm *(ID: [509768](https://review.lineageos.org/c/509768))*
+- **[LineageOS/android_kernel_xiaomi_sm8450]** kgsl: bail on vm_open if refcount is zero *(ID: [509767](https://review.lineageos.org/c/509767))*
+- **[LineageOS/android_kernel_xiaomi_sm8450]** kgsl: Validate set_draw_state packet size before parsing *(ID: [509766](https://review.lineageos.org/c/509766))*
+- **[LineageOS/android_kernel_xiaomi_sm8450]** input: goodix: use strscpy for fixed-size DT strings *(ID: [509765](https://review.lineageos.org/c/509765))*
+- **[LineageOS/android_kernel_xiaomi_sm8450]** input: novatek: check SPI DMA buffer capacities *(ID: [509764](https://review.lineageos.org/c/509764))*
+- **[LineageOS/android_kernel_xiaomi_sm8450]** input: novatek: bound SPI proc transfer before memcpy *(ID: [509763](https://review.lineageos.org/c/509763))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** video: vidc: initialize fence before qbuf error cleanup *(ID: [509787](https://review.lineageos.org/c/509787))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** media: vidc: validate SFR size before terminating FW message *(ID: [509786](https://review.lineageos.org/c/509786))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** media: vidc: guard missing/empty allowed clock tables *(ID: [509785](https://review.lineageos.org/c/509785))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** datarmnet: fix priority-ordered DL indicator registration *(ID: [509784](https://review.lineageos.org/c/509784))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** datarmnet: handle unallocated descriptor pool during teardown *(ID: [509783](https://review.lineageos.org/c/509783))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** datarmnet: include MUX 0 endpoints during forced unassociation *(ID: [509782](https://review.lineageos.org/c/509782))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** datarmnet: retain active power-save format on netlink updates *(ID: [509781](https://review.lineageos.org/c/509781))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** datarmnet: release RX handler and netdev ref on descriptor init failure *(ID: [509780](https://review.lineageos.org/c/509780))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** qcacmn: Validate vdev count before CSA switch count update *(ID: [509779](https://review.lineageos.org/c/509779))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** qcacmn: Fix out-of-bounds read in roam scan AP stats *(ID: [509778](https://review.lineageos.org/c/509778))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** qcacld-3.0: Add buffer overflow check in wma_fill_rx_stats *(ID: [509777](https://review.lineageos.org/c/509777))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** qcacld-3.0: Fix slab-out-of-bounds in HW mode transition *(ID: [509776](https://review.lineageos.org/c/509776))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** qcacmn: Fix buffer overflow in fragment processing *(ID: [509775](https://review.lineageos.org/c/509775))*
+- **[LineageOS/android_kernel_xiaomi_sm8450-modules]** dataipa: avoid redundant assertion after IPA device crash *(ID: [509774](https://review.lineageos.org/c/509774))*
 
 </details>
 
-## 📱 Línea Motorola Activa (12)
+## 📱 Línea Motorola Activa (13)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_hardware_motorola]** motorola: Add MotoActiveSimSwitch *(ID: [509656](https://review.lineageos.org/c/509656))*
+- **[LineageOS/android_device_motorola_smith]** smith: Enable switching between eSIM and pSIM *(ID: [509760](https://review.lineageos.org/c/509760))*
+- **[LineageOS/android_device_motorola_smith]** smith: Add eUICC support *(ID: [509314](https://review.lineageos.org/c/509314))*
 - **[LineageOS/android_device_motorola_fogos]** fogos: Migrate to MotoEuicc *(ID: [468416](https://review.lineageos.org/c/468416))*
 - **[LineageOS/android_device_motorola_fogo]** fogo: Migrate to MotoEuicc *(ID: [468415](https://review.lineageos.org/c/468415))*
 - **[LineageOS/android_device_motorola_bangkk]** bangkk: Migrate to MotoEuicc *(ID: [468414](https://review.lineageos.org/c/468414))*
@@ -58,8 +61,6 @@
 - **[LineageOS/android_device_motorola_denver]** denver: audio: Add missing Fluence NN mixer paths *(ID: [509727](https://review.lineageos.org/c/509727))*
 - **[LineageOS/android_device_motorola_ibiza]** ibiza: audio: Add missing Fluence NN mixer paths *(ID: [509728](https://review.lineageos.org/c/509728))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Ship Motorola face unlock *(ID: [508370](https://review.lineageos.org/c/508370))*
-- **[LineageOS/android_hardware_motorola]** motorola: Add MotoActiveSimSwitch *(ID: [509656](https://review.lineageos.org/c/509656))*
-- **[LineageOS/android_device_motorola_smith]** smith: Add eUICC support *(ID: [509314](https://review.lineageos.org/c/509314))*
 - **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Inherit common motorola FCM *(ID: [508369](https://review.lineageos.org/c/508369))*
 - **[LineageOS/android_hardware_motorola]** motorola: aidl: face: Add face unlock HAL wrapper *(ID: [509512](https://review.lineageos.org/c/509512))*
 
