@@ -7,25 +7,27 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (342)
+## 🚨 Parches Críticos Detectados (338)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_motorola]** MotoNrEnabler: Add leacy sim switching *(ID: [509656](https://review.lineageos.org/c/509656))*
-- **[LineageOS/android_hardware_motorola]** MotoNrEnabler: Rename to MotoExtTelephony *(ID: [509924](https://review.lineageos.org/c/509924))*
-- **[LineageOS/android_hardware_oplus]** vintf: Update fwk matrix for COS 17.0.0 *(ID: [509825](https://review.lineageos.org/c/509825))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix cammidasservice power factor arrays *(ID: [509957](https://review.lineageos.org/c/509957))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Update ICharger to V12 *(ID: [509920](https://review.lineageos.org/c/509920))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Introduce vendor.oplus.hardware.a2dp_offload V1 *(ID: [509827](https://review.lineageos.org/c/509827))*
 - **[LineageOS/android_hardware_oplus]** interfaces: Update IOplusRadio to V3-V4 *(ID: [509826](https://review.lineageos.org/c/509826))*
 - **[LineageOS/android_hardware_oplus]** interfaces: Update IPerformance to V4-V5 *(ID: [509921](https://review.lineageos.org/c/509921))*
+- **[LineageOS/android_hardware_oplus]** vintf: Update fwk matrix for COS 17.0.0 *(ID: [509825](https://review.lineageos.org/c/509825))*
 - **[LineageOS/android_hardware_oplus]** interfaces: Fix IPerformance V1-V3 definitions *(ID: [509919](https://review.lineageos.org/c/509919))*
-- **[LineageOS/android_hardware_oplus]** interfaces: Update ICharger to V12 *(ID: [509920](https://review.lineageos.org/c/509920))*
-- **[LineageOS/android_hardware_oplus]** interfaces: Fix IPogoKeyboard methods *(ID: [509918](https://review.lineageos.org/c/509918))*
-- **[LineageOS/android_hardware_oplus]** interfaces: Introduce vendor.oplus.hardware.a2dp_offload V1 *(ID: [509827](https://review.lineageos.org/c/509827))*
-- **[LineageOS/android_hardware_oplus]** interfaces: Fix IOplusRadio one-way transactions *(ID: [509915](https://review.lineageos.org/c/509915))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label HBP report *(ID: [509829](https://review.lineageos.org/c/509829))*
-- **[LineageOS/android_hardware_oplus]** interfaces: Fix IMIDASService transaction ordering *(ID: [509917](https://review.lineageos.org/c/509917))*
 - **[LineageOS/android_hardware_oplus]** interfaces: Make the subsys_radio V1 import configurable *(ID: [509828](https://review.lineageos.org/c/509828))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label HBP report *(ID: [509829](https://review.lineageos.org/c/509829))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IPogoKeyboard methods *(ID: [509918](https://review.lineageos.org/c/509918))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IMIDASService transaction ordering *(ID: [509917](https://review.lineageos.org/c/509917))*
 - **[LineageOS/android_hardware_oplus]** interfaces: Fix IOplusImsRadio methods *(ID: [509916](https://review.lineageos.org/c/509916))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IOplusRadio one-way transactions *(ID: [509915](https://review.lineageos.org/c/509915))*
+- **[LineageOS/android_kernel_ayn_qcs8550-devicetrees]** devicetrees: qcom: display: xm91080: Append DSI EoT packets *(ID: [509950](https://review.lineageos.org/c/509950))*
+- **[LineageOS/android_hardware_motorola]** MotoNrEnabler: Add leacy sim switching *(ID: [509656](https://review.lineageos.org/c/509656))*
+- **[LineageOS/android_hardware_motorola]** MotoNrEnabler: Rename to MotoExtTelephony *(ID: [509924](https://review.lineageos.org/c/509924))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: s5e8825: Rewrite *(ID: [507686](https://review.lineageos.org/c/507686))*
 - **[LineageOS/android_hardware_samsung]** aidl: health: Uprev to V5 *(ID: [509906](https://review.lineageos.org/c/509906))*
 - **[LineageOS/android_hardware_samsung]** aidl: health: Introduce libsamsunghealth *(ID: [493486](https://review.lineageos.org/c/493486))*
@@ -36,23 +38,20 @@
 - **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e8825: Remove support for TDM based resource allocation *(ID: [507684](https://review.lineageos.org/c/507684))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e8825: Add back AFBC logic *(ID: [507683](https://review.lineageos.org/c/507683))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e8825: Import from s5e9925 *(ID: [507682](https://review.lineageos.org/c/507682))*
-- **[LineageOS/android_hardware_motorola]** motorola: Fold ActiveSimSwitch into MotoNrEnabler *(ID: [509901](https://review.lineageos.org/c/509901))*
 - **[LineageOS/android_kernel_xiaomi_sm8450]** power: supply: qti_battery_charger: preserve M81 property ABI *(ID: [509881](https://review.lineageos.org/c/509881))*
 - **[LineageOS/android_kernel_xiaomi_mt6785]** power: supply: ti: ln8000: Fix devm double frees in probe and remove *(ID: [509892](https://review.lineageos.org/c/509892))*
 - **[LineageOS/android_kernel_xiaomi_mt6785]** power: supply: mediatek: battery: Demote per-read temperature logs *(ID: [509891](https://review.lineageos.org/c/509891))*
 - **[LineageOS/android_kernel_xiaomi_mt6785]** power: supply: mediatek: charger: Reject negative thermal levels *(ID: [509890](https://review.lineageos.org/c/509890))*
-- **[LineageOS/android_kernel_xiaomi_mt6785]** thermal: mediatek: btspdchg: Don't convert processed ADC value twice *(ID: [509889](https://review.lineageos.org/c/509889))*
 
 </details>
 
-## 📱 Línea Motorola Activa (17)
+## 📱 Línea Motorola Activa (16)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
 - **[LineageOS/android_hardware_motorola]** MotoNrEnabler: Add leacy sim switching *(ID: [509656](https://review.lineageos.org/c/509656))*
 - **[LineageOS/android_hardware_motorola]** MotoNrEnabler: Rename to MotoExtTelephony *(ID: [509924](https://review.lineageos.org/c/509924))*
-- **[LineageOS/android_hardware_motorola]** motorola: Fold ActiveSimSwitch into MotoNrEnabler *(ID: [509901](https://review.lineageos.org/c/509901))*
 - **[LineageOS/android_device_motorola_smith]** smith: Enable switching between eSIM and pSIM *(ID: [509760](https://review.lineageos.org/c/509760))*
 - **[LineageOS/android_device_motorola_sm6225-common]** sm6225-common: More notification icons on lockscreen *(ID: [509899](https://review.lineageos.org/c/509899))*
 - **[LineageOS/android_device_motorola_sm6375-common]** sm6375-common: More notification icons on lockscreen *(ID: [509898](https://review.lineageos.org/c/509898))*
