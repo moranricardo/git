@@ -7,50 +7,50 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (331)
+## 🚨 Parches Críticos Detectados (311)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_qcom_sm8250]** mm/cma: add sysfs file 'release_pages_success' *(ID: [510000](https://review.lineageos.org/c/510000))*
-- **[LineageOS/android_kernel_qcom_sm8250]** mm: cma: add the CMA instance name to cma trace events *(ID: [509999](https://review.lineageos.org/c/509999))*
-- **[LineageOS/android_kernel_qcom_sm8250]** ANDROID: ARM64: enable CONFIG_CMA_SYSFS *(ID: [509998](https://review.lineageos.org/c/509998))*
-- **[LineageOS/android_kernel_qcom_sm8250]** mm: cma: support sysfs *(ID: [509997](https://review.lineageos.org/c/509997))*
-- **[LineageOS/android_kernel_qcom_sm8250]** mm: cma: fix the name of CMA areas *(ID: [509996](https://review.lineageos.org/c/509996))*
-- **[LineageOS/android_kernel_qcom_sm8250]** mm: vmstat: add cma statistics *(ID: [509995](https://review.lineageos.org/c/509995))*
-- **[LineageOS/android_kernel_qcom_sm8250]** mm/cma.c: fix NULL pointer dereference when cma could not be activated *(ID: [509994](https://review.lineageos.org/c/509994))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: meson-g12b: Add missing eth_txen to external_eth_pins *(ID: [502041](https://review.lineageos.org/c/502041))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: configs: Create Amlogic G12 defconfig fragment *(ID: [499695](https://review.lineageos.org/c/499695))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** G12a: enable emmc/sdcard/sdio. [1/1] *(ID: [499682](https://review.lineageos.org/c/499682))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** secmon: reject bogus share mem size from legacy BL31 *(ID: [497699](https://review.lineageos.org/c/497699))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** drm: meson: hdmi: recover the color attr when recovery changes mode *(ID: [497398](https://review.lineageos.org/c/497398))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: aml: Fix g12a/b and sm1 to support loading uvm, videotunnel and di_process *(ID: [495851](https://review.lineageos.org/c/495851))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: configs: amlogic_g12: Enable RD_XZ *(ID: [495816](https://review.lineageos.org/c/495816))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** debug: lockup: reject SMC_UNK from firmware without FIQ debug support *(ID: [495814](https://review.lineageos.org/c/495814))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** mmc: support amlogic dts partition. [1/1] *(ID: [495810](https://review.lineageos.org/c/495810))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: kvim3l: use the non-A/B deadpool partition layout *(ID: [495813](https://review.lineageos.org/c/495813))*
-- **[LineageOS/android_frameworks_base]** DisplayManagerService: Fix global user preferred display mode *(ID: [509992](https://review.lineageos.org/c/509992))*
-- **[LineageOS/android_kernel_qcom_sm8750]** mm/cma: add sysfs file 'release_pages_success' *(ID: [509989](https://review.lineageos.org/c/509989))*
-- **[LineageOS/android_kernel_qcom_sm8550]** mm/cma: add sysfs file 'release_pages_success' *(ID: [509988](https://review.lineageos.org/c/509988))*
-- **[LineageOS/android_hardware_oplus]** interfaces: Make the subsys_radio V1 import configurable *(ID: [509828](https://review.lineageos.org/c/509828))*
+- **[LineageOS/android_hardware_lineage_generic-ims]** carriersettings: Update from blazer CP3A.261005.005 *(ID: [510053](https://review.lineageos.org/c/510053))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e8825: Adapt to the SoC *(ID: [507685](https://review.lineageos.org/c/507685))*
+- **[LineageOS/android_device_realme_pista]** pista: camera: Fix 3-10x zoom on cameraId 0 *(ID: [510036](https://review.lineageos.org/c/510036))*
+- **[LineageOS/android_hardware_oplus]** Introduce offlinecharger *(ID: [510031](https://review.lineageos.org/c/510031))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e8825: Remove support for TDM based resource allocation *(ID: [507684](https://review.lineageos.org/c/507684))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e8825: Add back AFBC logic *(ID: [507683](https://review.lineageos.org/c/507683))*
+- **[LineageOS/android_device_google_caimito]** caimito: Fix BuildSystemDesc in PRODUCT_BUILD_PROP_OVERRIDES *(ID: [510034](https://review.lineageos.org/c/510034))*
+- **[LineageOS/android_hardware_motorola]** MotoNrEnabler: Add legacy sim switching *(ID: [509656](https://review.lineageos.org/c/509656))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e8825: Import from s5e9925 *(ID: [507682](https://review.lineageos.org/c/507682))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: s5e8825: Rewrite *(ID: [507686](https://review.lineageos.org/c/507686))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_config]** gralloc4: Fix Soong config key for DPU 1010102 AFBC support *(ID: [509985](https://review.lineageos.org/c/509985))*
-- **[LineageOS/android_packages_apps_Dialer]** fixup! Dialer: Fix settings *(ID: [509092](https://review.lineageos.org/c/509092))*
-- **[LineageOS/android_kernel_samsung_sm7325]** sm7325: input: ft820x: toggle gesture mode if gesture state is wrong *(ID: [468130](https://review.lineageos.org/c/468130))*
-- **[LineageOS/android_kernel_samsung_sm7325]** sm7325: Import gts7fewifi drivers from T733XXS9DYF1 *(ID: [462813](https://review.lineageos.org/c/462813))*
-- **[LineageOS/android_device_oneplus_msm8998-common]** msm8998-common: fix blob source comment *(ID: [509971](https://review.lineageos.org/c/509971))*
-- **[LineageOS/android_hardware_lineage_generic-ims]** carriersettings: Reload configs when the override changes *(ID: [509502](https://review.lineageos.org/c/509502))*
-- **[LineageOS/android_hardware_oplus]** interfaces: Fix cammidasservice power factor arrays *(ID: [509957](https://review.lineageos.org/c/509957))*
-- **[LineageOS/android_hardware_oplus]** interfaces: Update ICharger to V12 *(ID: [509920](https://review.lineageos.org/c/509920))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** display-drivers: Fix LHBM touch state handling *(ID: [506129](https://review.lineageos.org/c/506129))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** wlan: Import additional changes from PLQ110_16.0.9.401(CN01) *(ID: [503157](https://review.lineageos.org/c/503157))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** camera-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503152](https://review.lineageos.org/c/503152))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** audio-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503151](https://review.lineageos.org/c/503151))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** video-driver: Updates changes from PLQ110_16.0.9.401(CN01) *(ID: [503150](https://review.lineageos.org/c/503150))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** display-drivers: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503149](https://review.lineageos.org/c/503149))*
+- **[LineageOS/android_kernel_xiaomi_gauguin]** Revert "ARM64/boot: dts: lagoon-thermal: Rename xo_therm back to xo-therm-usr" *(ID: [507307](https://review.lineageos.org/c/507307))*
+- **[LineageOS/android_kernel_xiaomi_gauguin]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [510029](https://review.lineageos.org/c/510029))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: kbuild: add all Clang-specific flags unconditionally *(ID: [510028](https://review.lineageos.org/c/510028))*
+- **[LineageOS/android_kernel_qcom_sm8250]** ARM64: dts: qcom: sdm845: Add cpufreq-hw support *(ID: [506874](https://review.lineageos.org/c/506874))*
+- **[LineageOS/android_kernel_qcom_sm8250]** arm64: dts: qcom-sdm845: sdm845: Add CDSP L3 governor *(ID: [506869](https://review.lineageos.org/c/506869))*
+- **[LineageOS/android_kernel_qcom_sm8250]** defconfig: sdm845-perf: Enable CONFIG_ION_LEGACY *(ID: [506843](https://review.lineageos.org/c/506843))*
+- **[LineageOS/android_kernel_qcom_sm8250]** arm64: dts: qcom: pmi8998: Update haptics node from pm660 *(ID: [506812](https://review.lineageos.org/c/506812))*
+- **[LineageOS/android_kernel_qcom_sm8250]** techpack: display: Makefile: use kona configs for sdm845 *(ID: [506769](https://review.lineageos.org/c/506769))*
+- **[LineageOS/android_kernel_qcom_sm8250]** arm64: dts: qcom-sdm845: Import from LA.UM.10.3.c25-00400-sdm845.0 *(ID: [506662](https://review.lineageos.org/c/506662))*
+- **[LineageOS/android_kernel_qcom_sm8250]** arm64: dts: qcom: sdm845: Update License *(ID: [506663](https://review.lineageos.org/c/506663))*
+- **[LineageOS/android_kernel_qcom_sm8250]** ARM64: dts: qcom: sdm845-audio-overlay: add qcom,wdsp-channels *(ID: [506728](https://review.lineageos.org/c/506728))*
+- **[LineageOS/android_kernel_qcom_sm8250]** arm64: dts: qcom: sdm845-wcd: Add #gpio-cells to tavil_hph_en to fix DTC warnings *(ID: [506729](https://review.lineageos.org/c/506729))*
+- **[LineageOS/android_kernel_qcom_sm8250]** ARM64: dts: qcom: sdm845: add regs to lmh_dcvs *(ID: [506730](https://review.lineageos.org/c/506730))*
 
 </details>
 
-## 📱 Línea Motorola Activa (15)
+## 📱 Línea Motorola Activa (11)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
-- **[LineageOS/android_hardware_motorola]** MotoNrEnabler: Add leacy sim switching *(ID: [509656](https://review.lineageos.org/c/509656))*
+- **[LineageOS/android_hardware_motorola]** MotoNrEnabler: Add legacy sim switching *(ID: [509656](https://review.lineageos.org/c/509656))*
 - **[LineageOS/android_hardware_motorola]** MotoNrEnabler: Rename to MotoExtTelephony *(ID: [509924](https://review.lineageos.org/c/509924))*
 - **[LineageOS/android_device_motorola_smith]** smith: Enable switching between eSIM and pSIM *(ID: [509760](https://review.lineageos.org/c/509760))*
 - **[LineageOS/android_device_motorola_sm6225-common]** sm6225-common: More notification icons on lockscreen *(ID: [509899](https://review.lineageos.org/c/509899))*
@@ -61,10 +61,6 @@
 - **[LineageOS/android_device_motorola_fogos]** fogos: Migrate to MotoEuicc *(ID: [468416](https://review.lineageos.org/c/468416))*
 - **[LineageOS/android_device_motorola_fogo]** fogo: Migrate to MotoEuicc *(ID: [468415](https://review.lineageos.org/c/468415))*
 - **[LineageOS/android_device_motorola_bangkk]** bangkk: Migrate to MotoEuicc *(ID: [468414](https://review.lineageos.org/c/468414))*
-- **[LineageOS/android_device_motorola_milanf]** milanf: audio: Add missing Fluence NN mixer paths *(ID: [509729](https://review.lineageos.org/c/509729))*
-- **[LineageOS/android_device_motorola_rhodep]** rhodep: audio: Add missing Fluence NN mixer paths *(ID: [509730](https://review.lineageos.org/c/509730))*
-- **[LineageOS/android_device_motorola_denver]** denver: audio: Add missing Fluence NN mixer paths *(ID: [509727](https://review.lineageos.org/c/509727))*
-- **[LineageOS/android_device_motorola_ibiza]** ibiza: audio: Add missing Fluence NN mixer paths *(ID: [509728](https://review.lineageos.org/c/509728))*
 
 </details>
 
