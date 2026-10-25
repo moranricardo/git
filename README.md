@@ -7,17 +7,18 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (203)
+## 🚨 Parches Críticos Detectados (169)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_sony_sm6475-devicetrees]** Merge remote-tracking branch 'qcom/lineage-23.2-6.6' into lineage-24.0 *(ID: [510198](https://review.lineageos.org/c/510198))*
+- **[LineageOS/android_device_samsung_a21s-common]** a21s-common: Fix microphone levels *(ID: [510237](https://review.lineageos.org/c/510237))*
+- **[LineageOS/android_kernel_qcom_msm8996]** UPSTREAM: Revert "debugfs: inode: debugfs_create_dir uses mode permission from parent" *(ID: [510230](https://review.lineageos.org/c/510230))*
+- **[LineageOS/android_kernel_qcom_msm8996]** UPSTREAM: Revert "debugfs: inode: debugfs_create_dir uses mode permission from parent" *(ID: [510229](https://review.lineageos.org/c/510229))*
+- **[LineageOS/android_device_samsung_a73xq]** a73xq: overlay: Set default hotspot SSID prefix *(ID: [479796](https://review.lineageos.org/c/479796))*
+- **[LineageOS/android_hardware_samsung]** aidl: health: Introduce libsamsunghealth *(ID: [493486](https://review.lineageos.org/c/493486))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arch: x96x9: Add openvfd node in x96x9 dts *(ID: [510191](https://review.lineageos.org/c/510191))*
-- **[LineageOS/android_kernel_qcom_sm8450-devicetrees]** ARM: dts: msm: remoteproc_adsp_glink -> glink_edge *(ID: [510202](https://review.lineageos.org/c/510202))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** cec: g12b: re-enable CEC_A 32k clock when it is found gated *(ID: [502995](https://review.lineageos.org/c/502995))*
-- **[LineageOS/android_kernel_sony_sm6475-modules]** Merge remote-tracking branch 'qcom/lineage-23.2-6.6' into lineage-24.0 *(ID: [510199](https://review.lineageos.org/c/510199))*
-- **[LineageOS/android_kernel_oneplus_sm8750]** Merge remote-tracking branch 'sm8750/lineage-22.2' into HEAD *(ID: [510196](https://review.lineageos.org/c/510196))*
 - **[LineageOS/android_kernel_samsung_sm8250]** battery_v2: Expose state_of_health data from FG *(ID: [510193](https://review.lineageos.org/c/510193))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** mmc: dtb: Don't register /dev/dtb twice *(ID: [510192](https://review.lineageos.org/c/510192))*
 - **[LineageOS/android_device_nokia_sdm660-common]** sdm660-common: audio_amplifier: Fix PCM device check *(ID: [510182](https://review.lineageos.org/c/510182))*
@@ -28,7 +29,6 @@
 - **[LineageOS/android_device_nokia_sdm660-common]** sdm660-common: camera: Fix -Wstring-concatenation error *(ID: [510158](https://review.lineageos.org/c/510158))*
 - **[LineageOS/android_device_nokia_sdm660-common]** sdm660-common: camera: Fix HAL paths *(ID: [510155](https://review.lineageos.org/c/510155))*
 - **[LineageOS/android_device_nokia_sdm660-common]** sdm660-common: camera: Fix path for in-tree build *(ID: [510154](https://review.lineageos.org/c/510154))*
-- **[LineageOS/android_hardware_xiaomi]** packages: Implement OSS SoterService *(ID: [509754](https://review.lineageos.org/c/509754))*
 - **[LineageOS/android_kernel_xiaomi_sm8450]** power: supply: qti_battery_charger: preserve M81 property ABI *(ID: [509881](https://review.lineageos.org/c/509881))*
 - **[LineageOS/android_device_osom_ingot]** ingot: Fix charge control on 6.6 *(ID: [505508](https://review.lineageos.org/c/505508))*
 - **[LineageOS/android_hardware_lineage_compat]** libhardware_legacy: Shim `uevent_next_event_timeout` *(ID: [510077](https://review.lineageos.org/c/510077))*
