@@ -7,50 +7,50 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (169)
+## 🚨 Parches Críticos Detectados (177)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_device_samsung_a21s-common]** a21s-common: Fix microphone levels *(ID: [510237](https://review.lineageos.org/c/510237))*
-- **[LineageOS/android_kernel_qcom_msm8996]** UPSTREAM: Revert "debugfs: inode: debugfs_create_dir uses mode permission from parent" *(ID: [510230](https://review.lineageos.org/c/510230))*
-- **[LineageOS/android_kernel_qcom_msm8996]** UPSTREAM: Revert "debugfs: inode: debugfs_create_dir uses mode permission from parent" *(ID: [510229](https://review.lineageos.org/c/510229))*
-- **[LineageOS/android_device_samsung_a73xq]** a73xq: overlay: Set default hotspot SSID prefix *(ID: [479796](https://review.lineageos.org/c/479796))*
-- **[LineageOS/android_hardware_samsung]** aidl: health: Introduce libsamsunghealth *(ID: [493486](https://review.lineageos.org/c/493486))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arch: x96x9: Add openvfd node in x96x9 dts *(ID: [510191](https://review.lineageos.org/c/510191))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** cec: g12b: re-enable CEC_A 32k clock when it is found gated *(ID: [502995](https://review.lineageos.org/c/502995))*
-- **[LineageOS/android_kernel_samsung_sm8250]** battery_v2: Expose state_of_health data from FG *(ID: [510193](https://review.lineageos.org/c/510193))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** mmc: dtb: Don't register /dev/dtb twice *(ID: [510192](https://review.lineageos.org/c/510192))*
-- **[LineageOS/android_device_nokia_sdm660-common]** sdm660-common: audio_amplifier: Fix PCM device check *(ID: [510182](https://review.lineageos.org/c/510182))*
-- **[LineageOS/android_device_nokia_sdm660-common]** sdm660-common: amplifier: Fix device list initializations *(ID: [510179](https://review.lineageos.org/c/510179))*
-- **[LineageOS/android_device_nokia_sdm660-common]** sdm660-common: camera: Fix snprintf string truncation error *(ID: [510163](https://review.lineageos.org/c/510163))*
-- **[LineageOS/android_device_nokia_sdm660-common]** sdm660-common: camera: Fix duplicated symbol mm_camera_shim_module_init *(ID: [510161](https://review.lineageos.org/c/510161))*
-- **[LineageOS/android_device_nokia_sdm660-common]** sdm660-common: camera: Fix misleading indentation *(ID: [510160](https://review.lineageos.org/c/510160))*
-- **[LineageOS/android_device_nokia_sdm660-common]** sdm660-common: camera: Fix -Wstring-concatenation error *(ID: [510158](https://review.lineageos.org/c/510158))*
-- **[LineageOS/android_device_nokia_sdm660-common]** sdm660-common: camera: Fix HAL paths *(ID: [510155](https://review.lineageos.org/c/510155))*
-- **[LineageOS/android_device_nokia_sdm660-common]** sdm660-common: camera: Fix path for in-tree build *(ID: [510154](https://review.lineageos.org/c/510154))*
-- **[LineageOS/android_kernel_xiaomi_sm8450]** power: supply: qti_battery_charger: preserve M81 property ABI *(ID: [509881](https://review.lineageos.org/c/509881))*
-- **[LineageOS/android_device_osom_ingot]** ingot: Fix charge control on 6.6 *(ID: [505508](https://review.lineageos.org/c/505508))*
-- **[LineageOS/android_hardware_lineage_compat]** libhardware_legacy: Shim `uevent_next_event_timeout` *(ID: [510077](https://review.lineageos.org/c/510077))*
+- **[LineageOS/android_kernel_qcom_sm8250]** ANDROID: ARM64: enable CONFIG_CMA_SYSFS *(ID: [509998](https://review.lineageos.org/c/509998))*
 - **[LineageOS/android_kernel_qcom_sm8250]** mm/cma: add sysfs file 'release_pages_success' *(ID: [510000](https://review.lineageos.org/c/510000))*
-- **[LineageOS/android_hardware_motorola]** MotoNrEnabler: Rename to MotoExtTelephony *(ID: [509924](https://review.lineageos.org/c/509924))*
-- **[LineageOS/android_kernel_qcom_sm8250]** mm/cma: change cma mutex to irq safe spinlock *(ID: [510064](https://review.lineageos.org/c/510064))*
-- **[LineageOS/android_kernel_qcom_sm8250]** mm: cma: add the CMA instance name to cma trace events *(ID: [509999](https://review.lineageos.org/c/509999))*
-- **[LineageOS/android_kernel_samsung_sm8250]** Merge remote-tracking branch 'sm8250/lineage-20' into HEAD *(ID: [510059](https://review.lineageos.org/c/510059))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** defconfig: aml: Do not disable BTF so it can be used for BPF programs *(ID: [510069](https://review.lineageos.org/c/510069))*
-- **[LineageOS/android_hardware_qcom_display]** composer: Don't commit early when a layer requests CURSOR *(ID: [510068](https://review.lineageos.org/c/510068))*
-- **[LineageOS/android_hardware_qcom_display]** hwc2: cursor fixes *(ID: [510067](https://review.lineageos.org/c/510067))*
-- **[LineageOS/android_hardware_qcom_display]** Revert "composer: Skip device composition for cursor layer" *(ID: [510066](https://review.lineageos.org/c/510066))*
-- **[LineageOS/android_hardware_lineage_generic-ims]** carriersettings: Update from blazer CP3A.261005.005 *(ID: [510053](https://review.lineageos.org/c/510053))*
+- **[LineageOS/android_hardware_samsung]** eSimSwitcher: Add app for tsds2 hybrid eUICC *(ID: [507776](https://review.lineageos.org/c/507776))*
+- **[LineageOS/android_kernel_xiaomi_sm8350]** msm: camera: sensor: Remove NULL set for regulator phandle *(ID: [510302](https://review.lineageos.org/c/510302))*
+- **[LineageOS/android_kernel_qcom_msm8996]** UPSTREAM: Revert "debugfs: inode: debugfs_create_dir uses mode permission from parent" *(ID: [510229](https://review.lineageos.org/c/510229))*
+- **[LineageOS/android_kernel_xiaomi_sm8350]** msm: camera: sensor: Remove NULL set for regulator phandle *(ID: [510300](https://review.lineageos.org/c/510300))*
+- **[LineageOS/android_hardware_mediatek]** connectivity: Introduce conninfra_loader *(ID: [510287](https://review.lineageos.org/c/510287))*
+- **[LineageOS/android_hardware_oplus]** vibrator: richtap: Add RichTap extension support *(ID: [505569](https://review.lineageos.org/c/505569))*
+- **[LineageOS/android_hardware_lineage_interfaces]** richtap-vibrator: Add RichTap vibrator AIDL interface *(ID: [505567](https://review.lineageos.org/c/505567))*
+- **[LineageOS/android_frameworks_base]** SystemUI: Fix scrolling back to the top of QS *(ID: [510280](https://review.lineageos.org/c/510280))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Fix inline build *(ID: [460130](https://review.lineageos.org/c/460130))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Add KBUILD_EXTRA_SYMBOLS to resolve cross-module symbols *(ID: [506219](https://review.lineageos.org/c/506219))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Unconditionally build the modules *(ID: [460123](https://review.lineageos.org/c/460123))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: Import NFC drivers from PLQ110_16.0.1.302(CN01) *(ID: [506061](https://review.lineageos.org/c/506061))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** nxp: Fix inline build *(ID: [504795](https://review.lineageos.org/c/504795))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** nxp: Update changes to CPH2653_16.0.1.304(EX01) *(ID: [471273](https://review.lineageos.org/c/471273))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Force TMS_DEVICE config *(ID: [504796](https://review.lineageos.org/c/504796))*
+- **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Disable TMS debug flags *(ID: [504797](https://review.lineageos.org/c/504797))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: msm_media_info_legacy: Update buffer alignments for sdm845 *(ID: [510257](https://review.lineageos.org/c/510257))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Enable vidc driver for sdm845 *(ID: [509014](https://review.lineageos.org/c/509014))*
+- **[LineageOS/android_kernel_qcom_sm8250]** include: uapi: Increase buffer size for UBWC *(ID: [510256](https://review.lineageos.org/c/510256))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: media: uapi: Redefine NV12/NV12_UBWC format for 64 bit *(ID: [510255](https://review.lineageos.org/c/510255))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Update encoder o/p buffer size calc *(ID: [509288](https://review.lineageos.org/c/509288))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Map NV12 to 128 alignment for decoder/encoder *(ID: [509013](https://review.lineageos.org/c/509013))*
+- **[LineageOS/android_kernel_qcom_sm8250]** include: uapi: Duplicate the msm_media_info header *(ID: [509012](https://review.lineageos.org/c/509012))*
+- **[LineageOS/android_kernel_qcom_sm8250]** video-driver: reduce the input frame size for vp9d *(ID: [509011](https://review.lineageos.org/c/509011))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Fix for encode failure on resolution 720p & above on SA6155P *(ID: [509010](https://review.lineageos.org/c/509010))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Avoid setting HFI_PROPERTY_PARAM_HEVC_PPS_CB_CR_OFFSET for Gen3 VPUs *(ID: [509009](https://review.lineageos.org/c/509009))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: update VP9 level ranges *(ID: [509008](https://review.lineageos.org/c/509008))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Disable unsupported features for sdm845 *(ID: [509002](https://review.lineageos.org/c/509002))*
 
 </details>
 
-## 📱 Línea Motorola Activa (20)
+## 📱 Línea Motorola Activa (17)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
-- **[LineageOS/android_device_motorola_mt6768-common]** mt6768-common: Move sysfs wakeup paths to common sepolicy *(ID: [510208](https://review.lineageos.org/c/510208))*
+- **[LineageOS/android_device_motorola_bangkk]** bangkk: Update blobs to V1TCS35H.88-16-9 *(ID: [510258](https://review.lineageos.org/c/510258))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Switch to minimal product partition size *(ID: [509230](https://review.lineageos.org/c/509230))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Remove disable_configstore from PRODUCT_PACKAGES *(ID: [502212](https://review.lineageos.org/c/502212))*
 - **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: fastbootd is now enabled by default *(ID: [502211](https://review.lineageos.org/c/502211))*
@@ -67,9 +67,6 @@
 - **[LineageOS/android_device_motorola_sm6375-common]** sm6375-common: More notification icons on AOD screen *(ID: [509897](https://review.lineageos.org/c/509897))*
 - **[LineageOS/android_device_motorola_smith]** smith: Hide user facing crash dialog for EUICC app *(ID: [509874](https://review.lineageos.org/c/509874))*
 - **[LineageOS/android_device_motorola_smith]** smith: Add eUICC support *(ID: [509314](https://review.lineageos.org/c/509314))*
-- **[LineageOS/android_device_motorola_fogos]** fogos: Migrate to MotoEuicc *(ID: [468416](https://review.lineageos.org/c/468416))*
-- **[LineageOS/android_device_motorola_fogo]** fogo: Migrate to MotoEuicc *(ID: [468415](https://review.lineageos.org/c/468415))*
-- **[LineageOS/android_device_motorola_bangkk]** bangkk: Migrate to MotoEuicc *(ID: [468414](https://review.lineageos.org/c/468414))*
 
 </details>
 
