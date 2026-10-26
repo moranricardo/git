@@ -1,22 +1,34 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-25-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-26-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (177)
+## 🚨 Parches Críticos Detectados (174)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_sony_timekeep]** timekeep: Fix seapp context *(ID: [507055](https://review.lineageos.org/c/507055))*
+- **[LineageOS/android_hardware_nxp_nfc]** snxxx: Handle features not supported by the FW *(ID: [510324](https://review.lineageos.org/c/510324))*
+- **[LineageOS/android_hardware_samsung]** aidl: health: Introduce libsamsunghealth *(ID: [493486](https://review.lineageos.org/c/493486))*
+- **[LineageOS/android_hardware_qcom-caf_common]** common: Add a small service to control NrConfig *(ID: [510330](https://review.lineageos.org/c/510330))*
+- **[LineageOS/android_hardware_nxp_nfc]** snxxx: Handle features not supported by the FW *(ID: [510331](https://review.lineageos.org/c/510331))*
+- **[LineageOS/android_kernel_qcom_sm8150]** drivers: nfc: sn-nci: Don't configure the clkreq GPIO as wakeup *(ID: [510329](https://review.lineageos.org/c/510329))*
+- **[LineageOS/android_kernel_qcom_sm8150]** drivers: nfc: sn-nci: Make it build with 4.14 *(ID: [510328](https://review.lineageos.org/c/510328))*
+- **[LineageOS/android_kernel_qcom_sm8150]** drivers: nfc: sn-nci: Make it work with inline builds *(ID: [510327](https://review.lineageos.org/c/510327))*
+- **[LineageOS/android_kernel_qcom_sm8150]** Add 'drivers/nfc/sn-nci/' from commit '1097486a366f4b9e7c25d6993a9767a36a0c095c' *(ID: [510326](https://review.lineageos.org/c/510326))*
+- **[LineageOS/android_kernel_qcom_sm8450-modules]** disp: msm: consider default prefill lines for rsc timer calculation *(ID: [510313](https://review.lineageos.org/c/510313))*
+- **[LineageOS/android_kernel_qcom_sm8450-modules]** kgsl: Use the vm_pgoff vma field during vmfault *(ID: [510312](https://review.lineageos.org/c/510312))*
+- **[LineageOS/android_kernel_qcom_sm8450-modules]** qcacld-3.0: Add radio combination matrix vendor command support *(ID: [510311](https://review.lineageos.org/c/510311))*
+- **[LineageOS/android_kernel_qcom_sm8450-modules]** qcacmn: QCA vendor command support to get WLAN radio combinations *(ID: [510310](https://review.lineageos.org/c/510310))*
 - **[LineageOS/android_kernel_qcom_sm8250]** ANDROID: ARM64: enable CONFIG_CMA_SYSFS *(ID: [509998](https://review.lineageos.org/c/509998))*
 - **[LineageOS/android_kernel_qcom_sm8250]** mm/cma: add sysfs file 'release_pages_success' *(ID: [510000](https://review.lineageos.org/c/510000))*
 - **[LineageOS/android_hardware_samsung]** eSimSwitcher: Add app for tsds2 hybrid eUICC *(ID: [507776](https://review.lineageos.org/c/507776))*
 - **[LineageOS/android_kernel_xiaomi_sm8350]** msm: camera: sensor: Remove NULL set for regulator phandle *(ID: [510302](https://review.lineageos.org/c/510302))*
-- **[LineageOS/android_kernel_qcom_msm8996]** UPSTREAM: Revert "debugfs: inode: debugfs_create_dir uses mode permission from parent" *(ID: [510229](https://review.lineageos.org/c/510229))*
 - **[LineageOS/android_kernel_xiaomi_sm8350]** msm: camera: sensor: Remove NULL set for regulator phandle *(ID: [510300](https://review.lineageos.org/c/510300))*
 - **[LineageOS/android_hardware_mediatek]** connectivity: Introduce conninfra_loader *(ID: [510287](https://review.lineageos.org/c/510287))*
 - **[LineageOS/android_hardware_oplus]** vibrator: richtap: Add RichTap extension support *(ID: [505569](https://review.lineageos.org/c/505569))*
@@ -30,18 +42,6 @@
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** nxp: Update changes to CPH2653_16.0.1.304(EX01) *(ID: [471273](https://review.lineageos.org/c/471273))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Force TMS_DEVICE config *(ID: [504796](https://review.lineageos.org/c/504796))*
 - **[LineageOS/android_kernel_oneplus_sm8750-modules]** oplus: nfc: Disable TMS debug flags *(ID: [504797](https://review.lineageos.org/c/504797))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: msm_media_info_legacy: Update buffer alignments for sdm845 *(ID: [510257](https://review.lineageos.org/c/510257))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Enable vidc driver for sdm845 *(ID: [509014](https://review.lineageos.org/c/509014))*
-- **[LineageOS/android_kernel_qcom_sm8250]** include: uapi: Increase buffer size for UBWC *(ID: [510256](https://review.lineageos.org/c/510256))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: media: uapi: Redefine NV12/NV12_UBWC format for 64 bit *(ID: [510255](https://review.lineageos.org/c/510255))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Update encoder o/p buffer size calc *(ID: [509288](https://review.lineageos.org/c/509288))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Map NV12 to 128 alignment for decoder/encoder *(ID: [509013](https://review.lineageos.org/c/509013))*
-- **[LineageOS/android_kernel_qcom_sm8250]** include: uapi: Duplicate the msm_media_info header *(ID: [509012](https://review.lineageos.org/c/509012))*
-- **[LineageOS/android_kernel_qcom_sm8250]** video-driver: reduce the input frame size for vp9d *(ID: [509011](https://review.lineageos.org/c/509011))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Fix for encode failure on resolution 720p & above on SA6155P *(ID: [509010](https://review.lineageos.org/c/509010))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Avoid setting HFI_PROPERTY_PARAM_HEVC_PPS_CB_CR_OFFSET for Gen3 VPUs *(ID: [509009](https://review.lineageos.org/c/509009))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: update VP9 level ranges *(ID: [509008](https://review.lineageos.org/c/509008))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Disable unsupported features for sdm845 *(ID: [509002](https://review.lineageos.org/c/509002))*
 
 </details>
 
