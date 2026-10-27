@@ -7,41 +7,41 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (185)
+## 🚨 Parches Críticos Detectados (178)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_device_nokia_PL2]** PL2: audio_amplifier: Fix PCM device check *(ID: [510495](https://review.lineageos.org/c/510495))*
-- **[LineageOS/android_device_nokia_PL2]** PL2: amplifier: Fix device list initializations *(ID: [510491](https://review.lineageos.org/c/510491))*
-- **[LineageOS/android_hardware_oplus]** interfaces: Add a compatibility interface for subsys_radio *(ID: [510462](https://review.lineageos.org/c/510462))*
-- **[LineageOS/android_device_ayn_cq8725s-common]** cq8725s-common: Remove unused blob_fixups *(ID: [510483](https://review.lineageos.org/c/510483))*
-- **[LineageOS/android_hardware_xiaomi]** xiaomi: Implement a BLE remote scanner for recovery mode *(ID: [510484](https://review.lineageos.org/c/510484))*
-- **[LineageOS/android_device_xiaomi_zizhan]** zizhan: Fix VoIP audio playing from earpiece while on speaker *(ID: [510482](https://review.lineageos.org/c/510482))*
-- **[LineageOS/android_device_xiaomi_unicorn]** unicorn: Fix VoIP audio playing from earpiece while on speaker *(ID: [510481](https://review.lineageos.org/c/510481))*
-- **[LineageOS/android_device_xiaomi_thor]** thor: Fix VoIP audio playing from earpiece while on speaker *(ID: [510480](https://review.lineageos.org/c/510480))*
-- **[LineageOS/android_device_xiaomi_mondrian]** mondrian: Fix VoIP audio playing from earpiece while on speaker *(ID: [510479](https://review.lineageos.org/c/510479))*
-- **[LineageOS/android_device_xiaomi_mayfly]** mayfly: Fix VoIP audio playing from earpiece while on speaker *(ID: [510478](https://review.lineageos.org/c/510478))*
-- **[LineageOS/android_device_xiaomi_marble]** marble: Fix VoIP audio playing from earpiece while on speaker *(ID: [510477](https://review.lineageos.org/c/510477))*
-- **[LineageOS/android_device_xiaomi_diting]** diting: Fix VoIP audio playing from earpiece while on speaker *(ID: [510476](https://review.lineageos.org/c/510476))*
-- **[LineageOS/android_device_xiaomi_cupid]** cupid: Fix VoIP audio playing from earpiece while on speaker *(ID: [510475](https://review.lineageos.org/c/510475))*
-- **[LineageOS/android_device_xiaomi_zeus]** zeus: Fix VoIP audio playing from earpiece while on speaker *(ID: [510474](https://review.lineageos.org/c/510474))*
-- **[LineageOS/android_hardware_qcom_display]** hal: Define `oplus_video_aod_30hz` soong variable *(ID: [508974](https://review.lineageos.org/c/508974))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** camera-kernel: Import volkswagen changes from PLQ110_16.0.9.401(CN01) *(ID: [503152](https://review.lineageos.org/c/503152))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** audio-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503151](https://review.lineageos.org/c/503151))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** display-drivers: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503149](https://review.lineageos.org/c/503149))*
-- **[LineageOS/android_device_samsung_sm7325-common]** sm7325-common: add missing hashes and fix warnings *(ID: [464916](https://review.lineageos.org/c/464916))*
-- **[LineageOS/android_hardware_samsung]** eSimSwitcher: Add app for tsds2 hybrid eUICC *(ID: [507776](https://review.lineageos.org/c/507776))*
-- **[LineageOS/android_bootable_recovery]** minui: Prefer a fixed-rate mode over a VRR timing *(ID: [510441](https://review.lineageos.org/c/510441))*
-- **[LineageOS/android_kernel_fairphone_sm7635-devicetrees]** Nuke 10Hz timing *(ID: [510439](https://review.lineageos.org/c/510439))*
-- **[LineageOS/android_kernel_fairphone_sm7635-devicetrees]** Revert "Nuke 90hz timing" *(ID: [506378](https://review.lineageos.org/c/506378))*
-- **[LineageOS/android_hardware_samsung]** aidl: vibrator: Support primitive composition via cp_trigger_queue *(ID: [510433](https://review.lineageos.org/c/510433))*
-- **[LineageOS/android_hardware_samsung]** aidl: vibrator: Implement calibrated amplitude scaling *(ID: [510432](https://review.lineageos.org/c/510432))*
-- **[LineageOS/android_hardware_samsung]** aidl: vibrator: Add direct intensity support for double click effect *(ID: [510431](https://review.lineageos.org/c/510431))*
-- **[LineageOS/android_hardware_samsung]** aidl: vibrator: Introduce HwApi hardware abstraction *(ID: [510430](https://review.lineageos.org/c/510430))*
-- **[LineageOS/android_hardware_samsung]** aidl: vibrator: Make duration-based amplitude emulation dynamic *(ID: [510434](https://review.lineageos.org/c/510434))*
-- **[LineageOS/android_hardware_interfaces]** compatibility_matrices: Allow soundtrigger HIDL 2.1 and 2.2 on target-level 7 *(ID: [493678](https://review.lineageos.org/c/493678))*
-- **[LineageOS/android_device_samsung_a73xq]** a73xq: overlay: Set default hotspot SSID prefix *(ID: [479796](https://review.lineageos.org/c/479796))*
+- **[LineageOS/android_device_xiaomi_gauguin]** gauguin: ultrasound: Fix function types *(ID: [510540](https://review.lineageos.org/c/510540))*
+- **[LineageOS/android_device_xiaomi_gauguin]** gauguin: audio: Fix low latency VoIP echo reference ports *(ID: [510550](https://review.lineageos.org/c/510550))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: Re-select the ultrasound RX device in select_devices() *(ID: [510584](https://review.lineageos.org/c/510584))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: ultrasound: Follow stock codec backend configuration *(ID: [510583](https://review.lineageos.org/c/510583))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: Skip audio calibration for the ultrasound usecases *(ID: [510582](https://review.lineageos.org/c/510582))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: Add SND_DEVICE_OUT_ULTRASOUND *(ID: [510581](https://review.lineageos.org/c/510581))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: ultrasound: Give the RX usecase its own output stream *(ID: [510580](https://review.lineageos.org/c/510580))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: ultrasound: Follow stock wired headset handling *(ID: [510579](https://review.lineageos.org/c/510579))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: Drop the ultrasound RX device override on backend switch *(ID: [510578](https://review.lineageos.org/c/510578))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: Use stock ultrasound usecase names *(ID: [510577](https://review.lineageos.org/c/510577))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: ultrasound: Default the RX device to the voice handset *(ID: [510576](https://review.lineageos.org/c/510576))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: ultrasound: Enable the Elliptic engine on start *(ID: [510575](https://review.lineageos.org/c/510575))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: audio_hw: Guard us_init() and us_deinit() *(ID: [510574](https://review.lineageos.org/c/510574))*
+- **[LineageOS/android_hardware_qcom_audio]** Revert "hal: Set sample rate to 96 KHz for ultrasound" *(ID: [510573](https://review.lineageos.org/c/510573))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: gauguin: Use stock ultrasound mixer paths *(ID: [510572](https://review.lineageos.org/c/510572))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: ultrasound: Use stock pcm period count *(ID: [510571](https://review.lineageos.org/c/510571))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: Set sample rate to 96 KHz for ultrasound *(ID: [510570](https://review.lineageos.org/c/510570))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: Ignore ultrasound usecase in select_devices() *(ID: [510569](https://review.lineageos.org/c/510569))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: ultrasound: Guard us_get_output_snd_device() against missing state *(ID: [510568](https://review.lineageos.org/c/510568))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: Select output device dynamically *(ID: [510567](https://review.lineageos.org/c/510567))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: Add SND_DEVICE_IN_ULTRASOUND_MIC to ACDB table *(ID: [510566](https://review.lineageos.org/c/510566))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: Remove SND_DEVICE_OUT_ULTRASOUND_HANDSET *(ID: [510565](https://review.lineageos.org/c/510565))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: Remove default ultrasound PCM ID *(ID: [510564](https://review.lineageos.org/c/510564))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: ultrasound: Implement RampDown *(ID: [510563](https://review.lineageos.org/c/510563))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: ultrasound: Set stream.out *(ID: [510562](https://review.lineageos.org/c/510562))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: ultrasound: Declare internal symbols as `static` *(ID: [510561](https://review.lineageos.org/c/510561))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: ultrasound: Refactor errors handling *(ID: [510560](https://review.lineageos.org/c/510560))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: ultrasound: Handle `pcm_start()` failure *(ID: [510559](https://review.lineageos.org/c/510559))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: ultrasound: Initialize devices list *(ID: [510558](https://review.lineageos.org/c/510558))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: ultrasound: Fix deinit *(ID: [510557](https://review.lineageos.org/c/510557))*
 
 </details>
 
