@@ -12,48 +12,50 @@
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_oplus]** KeyHandler: Discover the ancient art of try/catch *(ID: [510725](https://review.lineageos.org/c/510725))*
-- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: charger: Report missing charge time estimates *(ID: [510530](https://review.lineageos.org/c/510530))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: Honor cursor support in window config *(ID: [510726](https://review.lineageos.org/c/510726))*
+- **[LineageOS/android_kernel_oneplus_sm8350]** msm: camera: isp: Free the bw_config copy in the generic blob handler *(ID: [510839](https://review.lineageos.org/c/510839))*
+- **[LineageOS/android_device_motorola_smith]** fixup! smith: Add proprietary-firmware.txt *(ID: [510796](https://review.lineageos.org/c/510796))*
+- **[LineageOS/android_kernel_xelex_mt6789]** input: synaptics_dsx: Default max_y_for_2d to -1 *(ID: [510838](https://review.lineageos.org/c/510838))*
+- **[LineageOS/android_kernel_xelex_mt6789]** input: aw95016: Rename keyboard backlight LED to keyboard-backlight *(ID: [510837](https://review.lineageos.org/c/510837))*
 - **[LineageOS/android_kernel_qcom_sm8250]** Revert "f2fs: fix out-of-bounds access in sysfs attribute read/write" *(ID: [510724](https://review.lineageos.org/c/510724))*
-- **[LineageOS/android_device_samsung_slsi_sepolicy]** common: Fix charger mode denials *(ID: [510691](https://review.lineageos.org/c/510691))*
-- **[LineageOS/android_kernel_qcom_sm8150]** drivers: nfc: sn-nci: Don't configure the clkreq GPIO as wakeup *(ID: [510329](https://review.lineageos.org/c/510329))*
-- **[LineageOS/android_kernel_qcom_sm8150]** drivers: nfc: sn-nci: Make it build with 4.14 *(ID: [510328](https://review.lineageos.org/c/510328))*
-- **[LineageOS/android_kernel_qcom_sm8150]** drivers: nfc: sn-nci: Make it work with inline builds *(ID: [510327](https://review.lineageos.org/c/510327))*
-- **[LineageOS/android_hardware_oplus]** oplus: vibrator: Add LiveTap AIDL vibrator service *(ID: [503935](https://review.lineageos.org/c/503935))*
-- **[LineageOS/android_kernel_qcom_sm8150]** Add 'drivers/nfc/sn-nci/' from commit '1097486a366f4b9e7c25d6993a9767a36a0c095c' *(ID: [510326](https://review.lineageos.org/c/510326))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** display-drivers: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503149](https://review.lineageos.org/c/503149))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** display-drivers: Fix LHBM touch state handling *(ID: [506129](https://review.lineageos.org/c/506129))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** wlan: Import additional changes from PLQ110_16.0.9.401(CN01) *(ID: [503157](https://review.lineageos.org/c/503157))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** camera-kernel: Import volkswagen changes from PLQ110_16.0.9.401(CN01) *(ID: [503152](https://review.lineageos.org/c/503152))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** audio-kernel: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503151](https://review.lineageos.org/c/503151))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** video-driver: Update changes from PLQ110_16.0.9.401(CN01) *(ID: [503150](https://review.lineageos.org/c/503150))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Sync setup with Pixels *(ID: [506327](https://review.lineageos.org/c/506327))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Drop mtk_rndis.gs4 references *(ID: [506326](https://review.lineageos.org/c/506326))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Drop BCMDHD_64_BIT_IPC *(ID: [509285](https://review.lineageos.org/c/509285))*
-- **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant config *(ID: [509287](https://review.lineageos.org/c/509287))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Convert to blueprint *(ID: [509284](https://review.lineageos.org/c/509284))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Run clang-format *(ID: [509283](https://review.lineageos.org/c/509283))*
-- **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant_8_lib from khadas *(ID: [509282](https://review.lineageos.org/c/509282))*
-- **[LineageOS/android_hardware_mediatek]** aidl: usb: Don't override default sys.usb.controller on post-fs-data *(ID: [507734](https://review.lineageos.org/c/507734))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Require AOA daemon *(ID: [507731](https://review.lineageos.org/c/507731))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Fix MaxPower value for USB 3.0 devices *(ID: [506328](https://review.lineageos.org/c/506328))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Bump AIDL USB gadget HAL to V2 *(ID: [507730](https://review.lineageos.org/c/507730))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Setup USB AOA perms and prop *(ID: [507732](https://review.lineageos.org/c/507732))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Make use of sys.usb.controller for notifying musb-hdcr kernel init *(ID: [507733](https://review.lineageos.org/c/507733))*
+- **[LineageOS/android_kernel_xelex_mt6789]** drivers: leds-mtk: Only delay backlight wakeup on Zinwa P26 LCD *(ID: [510836](https://review.lineageos.org/c/510836))*
+- **[LineageOS/android_kernel_xelex_mt6789]** arm64: q30_v1_factory.config: Functionally match 20261015 fw ikconfig *(ID: [510835](https://review.lineageos.org/c/510835))*
+- **[LineageOS/android_kernel_xelex_mt6789]** dts: q30_v1_factory/cust.dtsi: Adapt zinwa-q25 -> zinwa-p26 *(ID: [510834](https://review.lineageos.org/c/510834))*
+- **[LineageOS/android_kernel_xelex_mt6789]** dts: q30_v1_factory: Update to match latest 20261015 fw DTBO binary *(ID: [510833](https://review.lineageos.org/c/510833))*
+- **[LineageOS/android_kernel_xelex_mt6789]** dts: mediatek: Fix q30_v1_factory.dts include for cust.dtsi *(ID: [510832](https://review.lineageos.org/c/510832))*
+- **[LineageOS/android_kernel_xelex_mt6789]** dts: q30_v1_factory: Copy in cust.dtsi base from q20_v1_factory *(ID: [510831](https://review.lineageos.org/c/510831))*
+- **[LineageOS/android_kernel_xelex_mt6789]** [WIP] q30_v1_factory.dts commented EEPROM adaptation *(ID: [510830](https://review.lineageos.org/c/510830))*
+- **[LineageOS/android_kernel_xelex_mt6789]** arm64: Import q30_v1_factory.dts for Zinwa P26 *(ID: [510829](https://review.lineageos.org/c/510829))*
+- **[LineageOS/android_kernel_xelex_mt6789]** arm64: Import q30_v1_factory.config fragment for Zinwa P26 *(ID: [510828](https://review.lineageos.org/c/510828))*
+- **[LineageOS/android_kernel_xelex_mt6789]** [WIP] sound: soc: Import oca72xxx changes for Zinwa P26 *(ID: [510827](https://review.lineageos.org/c/510827))*
+- **[LineageOS/android_kernel_xelex_mt6789]** drivers: mediatek: Import imx134 & ov64b40 bits for Zinwa P26 *(ID: [510826](https://review.lineageos.org/c/510826))*
+- **[LineageOS/android_kernel_xelex_mt6789]** [WIP] dts: cust_mt6789_camera: Import EEPROM changes for Zinwa P26 *(ID: [510825](https://review.lineageos.org/c/510825))*
+- **[LineageOS/android_kernel_xelex_mt6789]** drivers: drm: Import panel-q30-hd1440-lcm-dsi-vdo bits for Zinwa P26 *(ID: [510824](https://review.lineageos.org/c/510824))*
+- **[LineageOS/android_kernel_xelex_mt6789]** [WIP] drivers: Import leds/pwm changes for Zinwa P26 display backlight *(ID: [510823](https://review.lineageos.org/c/510823))*
+- **[LineageOS/android_kernel_xelex_mt6789]** [WIP] drivers: mtk_touchscreen_hodafonehw: Import changes for Zinwa P26 *(ID: [510822](https://review.lineageos.org/c/510822))*
+- **[LineageOS/android_kernel_xelex_mt6789]** drivers: keyboard: Import synaptics_dsx bits for Zinwa P26 touch input *(ID: [510821](https://review.lineageos.org/c/510821))*
+- **[LineageOS/android_kernel_xelex_mt6789]** drivers: touchscreen: Import s2716b_ts for Zinwa P26 *(ID: [510820](https://review.lineageos.org/c/510820))*
+- **[LineageOS/android_kernel_xelex_mt6789]** drivers: keyboard: Import aw95016 bits for Zinwa P26 *(ID: [510819](https://review.lineageos.org/c/510819))*
+- **[LineageOS/android_kernel_xelex_mt6789]** Revert "drivers: input: synaptics_dsx: Add logic to release stuck touches" *(ID: [510818](https://review.lineageos.org/c/510818))*
+- **[LineageOS/android_device_osom_ingot]** ingot: Fix charge control on 6.6 *(ID: [505508](https://review.lineageos.org/c/505508))*
+- **[LineageOS/android_device_motorola_smith]** smith: extract-files.py: Fix formatting *(ID: [510797](https://review.lineageos.org/c/510797))*
+- **[LineageOS/android_hardware_mediatek]** overlay: MssiFrameworkTelephonyOverlay: Remove IWlan data and network service classes *(ID: [510815](https://review.lineageos.org/c/510815))*
 - **[LineageOS/android_hardware_mediatek]** connectivity: Introduce conninfra_loader *(ID: [510287](https://review.lineageos.org/c/510287))*
+- **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant config *(ID: [509287](https://review.lineageos.org/c/509287))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Drop BCMDHD_64_BIT_IPC *(ID: [509285](https://review.lineageos.org/c/509285))*
 
 </details>
 
-## 📱 Línea Motorola Activa (31)
+## 📱 Línea Motorola Activa (33)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_smith]** fixup! smith: Add proprietary-firmware.txt *(ID: [510796](https://review.lineageos.org/c/510796))*
+- **[LineageOS/android_device_motorola_smith]** smith: Remove VoIP speakerphone loopback *(ID: [510705](https://review.lineageos.org/c/510705))*
+- **[LineageOS/android_device_motorola_smith]** smith: extract-files.py: Fix formatting *(ID: [510797](https://review.lineageos.org/c/510797))*
 - **[LineageOS/android_device_motorola_nairo]** nairo: Add proprietary-firmware.txt *(ID: [510738](https://review.lineageos.org/c/510738))*
 - **[LineageOS/android_device_motorola_nairo]** Revert "nairo: Import missing video_system_specs" *(ID: [510737](https://review.lineageos.org/c/510737))*
 - **[LineageOS/android_device_motorola_racer]** racer: Add proprietary-firmware.txt *(ID: [510735](https://review.lineageos.org/c/510735))*
-- **[LineageOS/android_device_motorola_smith]** smith: Remove VoIP speakerphone loopback *(ID: [510705](https://review.lineageos.org/c/510705))*
 - **[LineageOS/android_device_motorola_caprip]** caprip: props: Move SKU specific properties to product partition *(ID: [510703](https://review.lineageos.org/c/510703))*
 - **[LineageOS/android_device_motorola_guam]** guam: overlay: Update configs from guamp_retail *(ID: [510702](https://review.lineageos.org/c/510702))*
 - **[LineageOS/android_device_motorola_guam]** guam: init: Add missing module on fs *(ID: [510701](https://review.lineageos.org/c/510701))*
@@ -78,8 +80,6 @@
 - **[LineageOS/android_device_motorola_caprip]** caprip: fstab: Drop AVB keys *(ID: [510618](https://review.lineageos.org/c/510618))*
 - **[LineageOS/android_device_motorola_capri]** capri: fstab: Drop AVB keys *(ID: [510617](https://review.lineageos.org/c/510617))*
 - **[LineageOS/android_device_motorola_borneo]** borneo: fstab: Drop AVB keys *(ID: [510616](https://review.lineageos.org/c/510616))*
-- **[LineageOS/android_device_motorola_bathena]** bathena: fstab: Drop AVB keys *(ID: [510615](https://review.lineageos.org/c/510615))*
-- **[LineageOS/android_hardware_motorola]** MotoActions: Fix chop-chop torch toggle *(ID: [510602](https://review.lineageos.org/c/510602))*
 
 </details>
 
