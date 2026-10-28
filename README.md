@@ -7,11 +7,15 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (166)
+## 🚨 Parches Críticos Detectados (169)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_oplus]** KeyHandler: Discover the ancient art of try/catch *(ID: [510725](https://review.lineageos.org/c/510725))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: charger: Report missing charge time estimates *(ID: [510530](https://review.lineageos.org/c/510530))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: Honor cursor support in window config *(ID: [510726](https://review.lineageos.org/c/510726))*
+- **[LineageOS/android_kernel_qcom_sm8250]** Revert "f2fs: fix out-of-bounds access in sysfs attribute read/write" *(ID: [510724](https://review.lineageos.org/c/510724))*
 - **[LineageOS/android_device_samsung_slsi_sepolicy]** common: Fix charger mode denials *(ID: [510691](https://review.lineageos.org/c/510691))*
 - **[LineageOS/android_kernel_qcom_sm8150]** drivers: nfc: sn-nci: Don't configure the clkreq GPIO as wakeup *(ID: [510329](https://review.lineageos.org/c/510329))*
 - **[LineageOS/android_kernel_qcom_sm8150]** drivers: nfc: sn-nci: Make it build with 4.14 *(ID: [510328](https://review.lineageos.org/c/510328))*
@@ -38,18 +42,17 @@
 - **[LineageOS/android_hardware_mediatek]** aidl: gadget: Setup USB AOA perms and prop *(ID: [507732](https://review.lineageos.org/c/507732))*
 - **[LineageOS/android_hardware_mediatek]** aidl: gadget: Make use of sys.usb.controller for notifying musb-hdcr kernel init *(ID: [507733](https://review.lineageos.org/c/507733))*
 - **[LineageOS/android_hardware_mediatek]** connectivity: Introduce conninfra_loader *(ID: [510287](https://review.lineageos.org/c/510287))*
-- **[LineageOS/android_hardware_xiaomi]** xiaomi: Implement a BLE remote scanner for recovery mode *(ID: [510484](https://review.lineageos.org/c/510484))*
-- **[LineageOS/android_hardware_samsung]** teegris: Reimplement 'tzts_daemon' *(ID: [510532](https://review.lineageos.org/c/510532))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** Add support for new restrictions property *(ID: [510598](https://review.lineageos.org/c/510598))*
-- **[LineageOS/android_device_fairphone_FP4]** FP4: init: Fix fstab indentation *(ID: [510609](https://review.lineageos.org/c/510609))*
 
 </details>
 
-## 📱 Línea Motorola Activa (29)
+## 📱 Línea Motorola Activa (31)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_nairo]** nairo: Add proprietary-firmware.txt *(ID: [510738](https://review.lineageos.org/c/510738))*
+- **[LineageOS/android_device_motorola_nairo]** Revert "nairo: Import missing video_system_specs" *(ID: [510737](https://review.lineageos.org/c/510737))*
+- **[LineageOS/android_device_motorola_racer]** racer: Add proprietary-firmware.txt *(ID: [510735](https://review.lineageos.org/c/510735))*
 - **[LineageOS/android_device_motorola_smith]** smith: Remove VoIP speakerphone loopback *(ID: [510705](https://review.lineageos.org/c/510705))*
 - **[LineageOS/android_device_motorola_caprip]** caprip: props: Move SKU specific properties to product partition *(ID: [510703](https://review.lineageos.org/c/510703))*
 - **[LineageOS/android_device_motorola_guam]** guam: overlay: Update configs from guamp_retail *(ID: [510702](https://review.lineageos.org/c/510702))*
@@ -77,8 +80,6 @@
 - **[LineageOS/android_device_motorola_borneo]** borneo: fstab: Drop AVB keys *(ID: [510616](https://review.lineageos.org/c/510616))*
 - **[LineageOS/android_device_motorola_bathena]** bathena: fstab: Drop AVB keys *(ID: [510615](https://review.lineageos.org/c/510615))*
 - **[LineageOS/android_hardware_motorola]** MotoActions: Fix chop-chop torch toggle *(ID: [510602](https://review.lineageos.org/c/510602))*
-- **[LineageOS/android_device_motorola_sm6225-common]** sm6225-common: Add fallback SW A2DP routes *(ID: [510456](https://review.lineageos.org/c/510456))*
-- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Rename MotoNrEnabler to MotoExtTelephony *(ID: [510065](https://review.lineageos.org/c/510065))*
 
 </details>
 
