@@ -1,13 +1,13 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-27-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-28-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (175)
+## 🚨 Parches Críticos Detectados (166)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
@@ -45,11 +45,19 @@
 
 </details>
 
-## 📱 Línea Motorola Activa (21)
+## 📱 Línea Motorola Activa (29)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_smith]** smith: Remove VoIP speakerphone loopback *(ID: [510705](https://review.lineageos.org/c/510705))*
+- **[LineageOS/android_device_motorola_caprip]** caprip: props: Move SKU specific properties to product partition *(ID: [510703](https://review.lineageos.org/c/510703))*
+- **[LineageOS/android_device_motorola_guam]** guam: overlay: Update configs from guamp_retail *(ID: [510702](https://review.lineageos.org/c/510702))*
+- **[LineageOS/android_device_motorola_guam]** guam: init: Add missing module on fs *(ID: [510701](https://review.lineageos.org/c/510701))*
+- **[LineageOS/android_device_motorola_guam]** guam: props: Move SKU specific properties to product partition *(ID: [510700](https://review.lineageos.org/c/510700))*
+- **[LineageOS/android_device_motorola_guamp]** guamp: props: Move SKU specific properties to product partition *(ID: [510699](https://review.lineageos.org/c/510699))*
+- **[LineageOS/android_device_motorola_capri]** capri: props: Move SKU specific properties to product partition *(ID: [510698](https://review.lineageos.org/c/510698))*
+- **[LineageOS/android_device_motorola_cebu]** cebu: props: Move SKU specific properties to product partition *(ID: [510697](https://review.lineageos.org/c/510697))*
 - **[LineageOS/android_device_motorola_eqs]** eqs: Use libgui_buffer_shim for necessary libs *(ID: [510642](https://review.lineageos.org/c/510642))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: fstab: Drop AVB keys *(ID: [510643](https://review.lineageos.org/c/510643))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: fstab: Drop AVB keys *(ID: [510629](https://review.lineageos.org/c/510629))*
