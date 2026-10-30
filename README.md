@@ -7,51 +7,56 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (139)
+## 🚨 Parches Críticos Detectados (153)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_device_sony_elbe-common]** elbe-common: Fix host_init_verifier error for dpmd/qms.rc *(ID: [511115](https://review.lineageos.org/c/511115))*
-- **[LineageOS/android_hardware_samsung]** aidl: fingerprint: Report display state to the sensor *(ID: [510942](https://review.lineageos.org/c/510942))*
-- **[LineageOS/android_packages_apps_Aperture]** Aperture: Fix location accuracy comparison *(ID: [511070](https://review.lineageos.org/c/511070))*
-- **[LineageOS/android_device_amlogic_g12-common]** g12: Fix voldmanaged USB glob for the Amlogic xHCI name *(ID: [496038](https://review.lineageos.org/c/496038))*
-- **[LineageOS/android_device_motorola_nairo]** nairo: audio_amplifier: Fix PCM device check *(ID: [428922](https://review.lineageos.org/c/428922))*
-- **[LineageOS/android_device_motorola_nairo]** nairo: amplifier: Fix device list initializations *(ID: [428918](https://review.lineageos.org/c/428918))*
-- **[LineageOS/android_kernel_oneplus_sm8150]** usb: gadget: fix configfs reads of an absent ethernet net_device *(ID: [511042](https://review.lineageos.org/c/511042))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** dts: deadpool: Limit U-Boot unifykey enumeration to supported entries *(ID: [511077](https://review.lineageos.org/c/511077))*
-- **[LineageOS/android_kernel_amlogic_dhd-driver]** bcmdhd: restore legacy firmware selection in 591 *(ID: [511071](https://review.lineageos.org/c/511071))*
-- **[LineageOS/android_kernel_askey_deadpool-build]** deadpool: Setup bazel kernel build *(ID: [511072](https://review.lineageos.org/c/511072))*
-- **[LineageOS/android_hardware_motorola]** sepolicy: Label smith power supply and vibrator nodes *(ID: [511000](https://review.lineageos.org/c/511000))*
-- **[LineageOS/android_hardware_motorola]** sepolicy: Label smith wakeup, touchscreen and extcon nodes *(ID: [510922](https://review.lineageos.org/c/510922))*
-- **[LineageOS/android_hardware_motorola]** sepolicy: Address fpc fingerprint denials *(ID: [510921](https://review.lineageos.org/c/510921))*
-- **[LineageOS/android_hardware_motorola]** sepolicy: Allow init.mmi.laser.sh to restore calibration *(ID: [510920](https://review.lineageos.org/c/510920))*
-- **[LineageOS/android_hardware_motorola]** sepolicy: Allow sensors HAL to access uhid *(ID: [510919](https://review.lineageos.org/c/510919))*
-- **[LineageOS/android_hardware_motorola]** sepolicy: Label adspd hwservice, sysfs and properties *(ID: [510918](https://review.lineageos.org/c/510918))*
-- **[LineageOS/android_hardware_motorola]** MotoActions: Only enable proximity sensor while handling chop *(ID: [511001](https://review.lineageos.org/c/511001))*
-- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Fix fsg mount context *(ID: [510917](https://review.lineageos.org/c/510917))*
-- **[LineageOS/android_device_samsung_slsi_sepolicy]** common: Fix charger mode denials *(ID: [510691](https://review.lineageos.org/c/510691))*
-- **[LineageOS/android_kernel_qcom_sm8250]** Revert "f2fs: fix out-of-bounds access in sysfs attribute read/write" *(ID: [510724](https://review.lineageos.org/c/510724))*
-- **[LineageOS/android_hardware_qcom_display]** hal: Define `oplus_reserve_aod_30hz` soong variable *(ID: [508974](https://review.lineageos.org/c/508974))*
-- **[LineageOS/android_hardware_samsung]** argosd: Introduce Argos Daemon *(ID: [509705](https://review.lineageos.org/c/509705))*
-- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Fix max number of SAP peers *(ID: [510959](https://review.lineageos.org/c/510959))*
-- **[LineageOS/android_kernel_qcom_sm8750-modules]** Add 'qcom/opensource/display-drivers-5.10/' from commit '7cd14e1c3fe7ae4678459c52827a695bc1b9c12a' *(ID: [511013](https://review.lineageos.org/c/511013))*
-- **[LineageOS/android_kernel_qcom_sm8750-modules]** display-drivers-5.10: Rename Soong header modules *(ID: [511019](https://review.lineageos.org/c/511019))*
-- **[LineageOS/android_kernel_qcom_sm8750-modules]** display-drivers-5.10: Track kernel and modules path change for vendor kernel *(ID: [511018](https://review.lineageos.org/c/511018))*
-- **[LineageOS/android_kernel_qcom_sm8750-modules]** display-drivers-5.10: Track kernel and modules path change *(ID: [511017](https://review.lineageos.org/c/511017))*
-- **[LineageOS/android_kernel_qcom_sm8750-modules]** display-drivers-5.10: Fix inline build *(ID: [511016](https://review.lineageos.org/c/511016))*
-- **[LineageOS/android_kernel_qcom_sm8750-modules]** display-drivers-5.10: Don't override CONFIG_DRM_MSM in Makefile *(ID: [511015](https://review.lineageos.org/c/511015))*
-- **[LineageOS/android_kernel_qcom_sm8750-modules]** display-drivers-5.10: Remove build timestamp injection *(ID: [511014](https://review.lineageos.org/c/511014))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** dts: deadpool: Limit u-boot unifykey enumeration to supported entries *(ID: [511077](https://review.lineageos.org/c/511077))*
+- **[LineageOS/android_kernel_xiaomi_sm8450]** power: supply: qti_battery_charger: preserve M81 property ABI *(ID: [509881](https://review.lineageos.org/c/509881))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow dumping horae *(ID: [511218](https://review.lineageos.org/c/511218))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: charger: Report missing charge time estimates *(ID: [510530](https://review.lineageos.org/c/510530))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: hbp: Add HBP5 report interface *(ID: [509830](https://review.lineageos.org/c/509830))*
+- **[LineageOS/android_device_motorola_nairo]** nairo: Fix ultrawide front camera preview colors *(ID: [511122](https://review.lineageos.org/c/511122))*
+- **[LineageOS/android_device_oneplus_infiniti]** infiniti: Fix offline camera HAL manifest version *(ID: [510913](https://review.lineageos.org/c/510913))*
+- **[LineageOS/android_device_oneplus_sm8850-common]** sm8850-common: Fix Codec2 HAL manifest versions *(ID: [510909](https://review.lineageos.org/c/510909))*
+- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Support the compat subsys_radio interface *(ID: [511217](https://review.lineageos.org/c/511217))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Build subsys_radio compat as subsys_radio-V1-ndk *(ID: [511216](https://review.lineageos.org/c/511216))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Add a compatibility interface for subsys_radio *(ID: [510462](https://review.lineageos.org/c/510462))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label HBP report *(ID: [509829](https://review.lineageos.org/c/509829))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Update IPerformance to V4-V5 *(ID: [509921](https://review.lineageos.org/c/509921))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IPerformance V1-V3 definitions *(ID: [509919](https://review.lineageos.org/c/509919))*
+- **[LineageOS/android_hardware_oplus]** vintf: Update fwk matrix for COS 17.0.0 *(ID: [509825](https://review.lineageos.org/c/509825))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix cammidasservice power factor arrays *(ID: [509957](https://review.lineageos.org/c/509957))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IMIDASService transaction ordering *(ID: [509917](https://review.lineageos.org/c/509917))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Introduce vendor.oplus.hardware.a2dp_offload V1 *(ID: [509827](https://review.lineageos.org/c/509827))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Update ICharger to V12 *(ID: [509920](https://review.lineageos.org/c/509920))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IOplusImsRadio methods *(ID: [509916](https://review.lineageos.org/c/509916))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IPogoKeyboard methods *(ID: [509918](https://review.lineageos.org/c/509918))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IOplusRadio one-way transactions *(ID: [509915](https://review.lineageos.org/c/509915))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Update IOplusRadio to V3-V4 *(ID: [509826](https://review.lineageos.org/c/509826))*
+- **[LineageOS/android_kernel_oneplus_sm8150]** power: oplus: Skip charger-ID probing on USB PD *(ID: [511214](https://review.lineageos.org/c/511214))*
+- **[LineageOS/android_hardware_mediatek]** connectivity: Introduce conninfra_loader *(ID: [510287](https://review.lineageos.org/c/510287))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** defconfig: aml: Do not disable BTF so it can be used for BPF programs *(ID: [510069](https://review.lineageos.org/c/510069))*
+- **[LineageOS/android_kernel_amlogic_kernel-5.15]** UPSTREAM: bpf: Fix truncated dmabuf iterator reads *(ID: [510057](https://review.lineageos.org/c/510057))*
+- **[LineageOS/android_kernel_amlogic_kernel-5.15]** BACKPORT: bpf: Add dmabuf iterator *(ID: [510056](https://review.lineageos.org/c/510056))*
+- **[LineageOS/android_kernel_amlogic_kernel-5.15]** BACKPORT: dma-buf: Rename debugfs symbols *(ID: [510055](https://review.lineageos.org/c/510055))*
+- **[LineageOS/android_kernel_qcom_sm8150]** drivers: nfc: sn-nci: Don't configure the clkreq GPIO as wakeup *(ID: [510329](https://review.lineageos.org/c/510329))*
 
 </details>
 
-## 📱 Línea Motorola Activa (91)
+## 📱 Línea Motorola Activa (87)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_nairo]** nairo: Fix ultrawide front camera preview colors *(ID: [511122](https://review.lineageos.org/c/511122))*
 - **[LineageOS/android_device_motorola_nairo]** nairo: Drop MotCamera2 *(ID: [511025](https://review.lineageos.org/c/511025))*
+- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Increase kernel log buffer to 1MiB *(ID: [510962](https://review.lineageos.org/c/510962))*
 - **[LineageOS/android_device_motorola_nairo]** nairo: overlay-lineage: Reconfigure aux cameras for Aperture *(ID: [510947](https://review.lineageos.org/c/510947))*
+- **[LineageOS/android_device_motorola_smith]** smith: Properly patch camera postproc impl *(ID: [511228](https://review.lineageos.org/c/511228))*
+- **[LineageOS/android_device_motorola_smith]** smith: Commonize audio HAL build target *(ID: [511038](https://review.lineageos.org/c/511038))*
+- **[LineageOS/android_device_motorola_smith]** smith: Switch to qcom audio effects *(ID: [511037](https://review.lineageos.org/c/511037))*
 - **[LineageOS/android_device_motorola_nairo]** nairo: Use linear preview buffers for camera *(ID: [510946](https://review.lineageos.org/c/510946))*
 - **[LineageOS/android_device_motorola_nairo]** nairo: Add proprietary-firmware.txt *(ID: [510738](https://review.lineageos.org/c/510738))*
 - **[LineageOS/android_device_motorola_nairo]** nairo: Disable fluence in calls *(ID: [428928](https://review.lineageos.org/c/428928))*
@@ -75,11 +80,6 @@
 - **[LineageOS/android_device_motorola_racer]** racer: Resolve soundtrigger deps *(ID: [510924](https://review.lineageos.org/c/510924))*
 - **[LineageOS/android_device_motorola_racer]** Revert "racer: Drop soundtrigger HAL" *(ID: [510923](https://review.lineageos.org/c/510923))*
 - **[LineageOS/android_device_motorola_racer]** racer: Add proprietary-firmware.txt *(ID: [510735](https://review.lineageos.org/c/510735))*
-- **[LineageOS/android_device_motorola_caprip]** caprip: props: Move SKU specific properties to product partition *(ID: [510703](https://review.lineageos.org/c/510703))*
-- **[LineageOS/android_hardware_motorola]** sepolicy: Label smith power supply and vibrator nodes *(ID: [511000](https://review.lineageos.org/c/511000))*
-- **[LineageOS/android_hardware_motorola]** sepolicy: Label smith wakeup, touchscreen and extcon nodes *(ID: [510922](https://review.lineageos.org/c/510922))*
-- **[LineageOS/android_hardware_motorola]** sepolicy: Address fpc fingerprint denials *(ID: [510921](https://review.lineageos.org/c/510921))*
-- **[LineageOS/android_hardware_motorola]** sepolicy: Allow init.mmi.laser.sh to restore calibration *(ID: [510920](https://review.lineageos.org/c/510920))*
 
 </details>
 
