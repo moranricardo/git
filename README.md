@@ -1,17 +1,19 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-29-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-30-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (141)
+## 🚨 Parches Críticos Detectados (135)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_device_amlogic_g12-common]** g12: Fix voldmanaged USB glob for the Amlogic xHCI name *(ID: [496038](https://review.lineageos.org/c/496038))*
+- **[LineageOS/android_kernel_oneplus_sm8150]** usb: gadget: fix configfs reads of an absent ethernet net_device *(ID: [511042](https://review.lineageos.org/c/511042))*
 - **[LineageOS/android_hardware_motorola]** sepolicy: Label smith power supply and vibrator nodes *(ID: [511000](https://review.lineageos.org/c/511000))*
 - **[LineageOS/android_hardware_motorola]** sepolicy: Label smith wakeup, touchscreen and extcon nodes *(ID: [510922](https://review.lineageos.org/c/510922))*
 - **[LineageOS/android_hardware_motorola]** sepolicy: Address fpc fingerprint denials *(ID: [510921](https://review.lineageos.org/c/510921))*
@@ -25,7 +27,6 @@
 - **[LineageOS/android_device_samsung_slsi_sepolicy]** common: Fix charger mode denials *(ID: [510691](https://review.lineageos.org/c/510691))*
 - **[LineageOS/android_kernel_qcom_sm8250]** Revert "f2fs: fix out-of-bounds access in sysfs attribute read/write" *(ID: [510724](https://review.lineageos.org/c/510724))*
 - **[LineageOS/android_hardware_qcom_display]** hal: Define `oplus_reserve_aod_30hz` soong variable *(ID: [508974](https://review.lineageos.org/c/508974))*
-- **[LineageOS/android_device_amlogic_g12-common]** g12: Fix voldmanaged USB glob for the Amlogic xHCI name *(ID: [496038](https://review.lineageos.org/c/496038))*
 - **[LineageOS/android_hardware_samsung]** argosd: Introduce Argos Daemon *(ID: [509705](https://review.lineageos.org/c/509705))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Fix max number of SAP peers *(ID: [510959](https://review.lineageos.org/c/510959))*
 - **[LineageOS/android_kernel_qcom_sm8750-modules]** Add 'qcom/opensource/display-drivers-5.10/' from commit '7cd14e1c3fe7ae4678459c52827a695bc1b9c12a' *(ID: [511013](https://review.lineageos.org/c/511013))*
@@ -41,15 +42,15 @@
 - **[LineageOS/android_kernel_ayn_cq8725s]** BACKPORT: thermal: core: Introduce .manage() callback for thermal governors *(ID: [511009](https://review.lineageos.org/c/511009))*
 - **[LineageOS/android_kernel_ayn_cq8725s]** BACKPORT: thermal: core: Add trip thresholds for trip crossing detection *(ID: [511008](https://review.lineageos.org/c/511008))*
 - **[LineageOS/android_kernel_ayn_cq8725s-devicetrees]** moorechip: Increase CPU and GPU fan trip hysteresis *(ID: [511007](https://review.lineageos.org/c/511007))*
-- **[LineageOS/android_kernel_ayn_cq8725s-devicetrees]** moorechip: Assign fixed states to fan cooling maps *(ID: [511006](https://review.lineageos.org/c/511006))*
 
 </details>
 
-## 📱 Línea Motorola Activa (110)
+## 📱 Línea Motorola Activa (104)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_caprip]** caprip: props: Move SKU specific properties to product partition *(ID: [510703](https://review.lineageos.org/c/510703))*
 - **[LineageOS/android_hardware_motorola]** sepolicy: Label smith power supply and vibrator nodes *(ID: [511000](https://review.lineageos.org/c/511000))*
 - **[LineageOS/android_hardware_motorola]** sepolicy: Label smith wakeup, touchscreen and extcon nodes *(ID: [510922](https://review.lineageos.org/c/510922))*
 - **[LineageOS/android_hardware_motorola]** sepolicy: Address fpc fingerprint denials *(ID: [510921](https://review.lineageos.org/c/510921))*
@@ -79,7 +80,6 @@
 - **[LineageOS/android_device_motorola_nairo]** nairo: audio_amplifier: Use hw_module_t->dso instead of RTLD_NEXT *(ID: [428925](https://review.lineageos.org/c/428925))*
 - **[LineageOS/android_device_motorola_nairo]** nairo: Convert audio_amplifier to blueprint *(ID: [428924](https://review.lineageos.org/c/428924))*
 - **[LineageOS/android_device_motorola_nairo]** nairo: audio_amplifier: Make all the functions static *(ID: [428923](https://review.lineageos.org/c/428923))*
-- **[LineageOS/android_device_motorola_nairo]** nairo: audio_amplifier: Fix PCM device check *(ID: [428922](https://review.lineageos.org/c/428922))*
 
 </details>
 
