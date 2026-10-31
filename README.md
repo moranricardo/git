@@ -7,12 +7,14 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (187)
+## 🚨 Parches Críticos Detectados (170)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_xiaomi]** xiaomi: Implement a BLE remote scanner for recovery mode *(ID: [510484](https://review.lineageos.org/c/510484))*
 - **[LineageOS/android_hardware_qcom_audio-ar]** core: Drop A2DP device ports without offload *(ID: [511272](https://review.lineageos.org/c/511272))*
+- **[LineageOS/android_kernel_xiaomi_sm8450]** power: supply: qti_battery_charger: preserve M81 property ABI *(ID: [509881](https://review.lineageos.org/c/509881))*
 - **[LineageOS/android_packages_apps_Settings]** Settings: Fix reboot flow for BT dev settings *(ID: [511271](https://review.lineageos.org/c/511271))*
 - **[LineageOS/android_kernel_motorola_sm7325]** arm64: dts: qcom: berlna,xpeng: fix double tap to wake on upstream touch drivers *(ID: [510998](https://review.lineageos.org/c/510998))*
 - **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Drop BCMDHD_64_BIT_IPC *(ID: [509285](https://review.lineageos.org/c/509285))*
@@ -29,12 +31,6 @@
 - **[LineageOS/android_hardware_mediatek]** aidl: gadget: Drop mtk_rndis.gs4 references *(ID: [506326](https://review.lineageos.org/c/506326))*
 - **[LineageOS/android_hardware_mediatek]** aidl: gadget: Make use of sys.usb.controller for notifying musb-hdcr kernel init *(ID: [507733](https://review.lineageos.org/c/507733))*
 - **[LineageOS/android_hardware_mediatek]** aidl: gadget: Fix MaxPower value for USB 3.0 devices *(ID: [506328](https://review.lineageos.org/c/506328))*
-- **[LineageOS/android_kernel_xiaomi_sm8450]** power: supply: qti_battery_charger: preserve M81 property ABI *(ID: [509881](https://review.lineageos.org/c/509881))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** defconfig: aml: Do not disable BTF so it can be used for BPF programs *(ID: [510069](https://review.lineageos.org/c/510069))*
-- **[LineageOS/android_kernel_amlogic_kernel-5.15]** UPSTREAM: bpf: Fix truncated dmabuf iterator reads *(ID: [510057](https://review.lineageos.org/c/510057))*
-- **[LineageOS/android_kernel_amlogic_kernel-5.15]** BACKPORT: bpf: Add dmabuf iterator *(ID: [510056](https://review.lineageos.org/c/510056))*
-- **[LineageOS/android_kernel_amlogic_kernel-5.15]** BACKPORT: dma-buf: Rename debugfs symbols *(ID: [510055](https://review.lineageos.org/c/510055))*
-- **[LineageOS/android_hardware_xiaomi]** xiaomi: Implement a BLE remote scanner for recovery mode *(ID: [510484](https://review.lineageos.org/c/510484))*
 - **[LineageOS/android_kernel_radxa_radxa02-build]** radxa02: Setup bazel kernel build *(ID: [511153](https://review.lineageos.org/c/511153))*
 - **[LineageOS/android_kernel_qcom_sm8450]** usb: dwc: dwc3-msm-ops: Update the RT priority if uvc is in composition *(ID: [511237](https://review.lineageos.org/c/511237))*
 - **[LineageOS/android_kernel_qcom_sm8450]** UPSTREAM: usb: gadget: uvc: Remove nested locking *(ID: [397274](https://review.lineageos.org/c/397274))*
@@ -42,6 +38,10 @@
 - **[LineageOS/android_kernel_qcom_sm8450]** UPSTREAM: usb:gadget:uvc Do not use worker thread to pump isoc usb requests *(ID: [397272](https://review.lineageos.org/c/397272))*
 - **[LineageOS/android_kernel_qcom_sm8450]** UPSTREAM: usb: gadget: uvc: Fix use-after-free for inflight usb_requests *(ID: [397271](https://review.lineageos.org/c/397271))*
 - **[LineageOS/android_kernel_qcom_sm8450]** UPSTREAM: usb: gadget: uvc: move video disable logic to its own function *(ID: [397270](https://review.lineageos.org/c/397270))*
+- **[LineageOS/android_kernel_qcom_sm8450]** UPSTREAM: usb: gadget: uvc: Allocate uvc_requests one at a time *(ID: [397269](https://review.lineageos.org/c/397269))*
+- **[LineageOS/android_kernel_qcom_sm8450]** UPSTREAM: usb: gadget: uvc: prevent use of disabled endpoint *(ID: [397268](https://review.lineageos.org/c/397268))*
+- **[LineageOS/android_kernel_qcom_sm8450]** BACKPORT: usb: gadget: uvc: Add missing initialization of ssp config descriptor *(ID: [397267](https://review.lineageos.org/c/397267))*
+- **[LineageOS/android_kernel_qcom_sm8450]** BACKPORT: usb: gadget: unconditionally allocate hs/ss descriptor in bind operation *(ID: [397266](https://review.lineageos.org/c/397266))*
 
 </details>
 
