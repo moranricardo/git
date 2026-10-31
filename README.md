@@ -7,55 +7,52 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (170)
+## 🚨 Parches Críticos Detectados (181)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_xiaomi]** xiaomi: Implement a BLE remote scanner for recovery mode *(ID: [510484](https://review.lineageos.org/c/510484))*
-- **[LineageOS/android_hardware_qcom_audio-ar]** core: Drop A2DP device ports without offload *(ID: [511272](https://review.lineageos.org/c/511272))*
-- **[LineageOS/android_kernel_xiaomi_sm8450]** power: supply: qti_battery_charger: preserve M81 property ABI *(ID: [509881](https://review.lineageos.org/c/509881))*
-- **[LineageOS/android_packages_apps_Settings]** Settings: Fix reboot flow for BT dev settings *(ID: [511271](https://review.lineageos.org/c/511271))*
-- **[LineageOS/android_kernel_motorola_sm7325]** arm64: dts: qcom: berlna,xpeng: fix double tap to wake on upstream touch drivers *(ID: [510998](https://review.lineageos.org/c/510998))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Drop BCMDHD_64_BIT_IPC *(ID: [509285](https://review.lineageos.org/c/509285))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Sync setup with Pixels *(ID: [506327](https://review.lineageos.org/c/506327))*
-- **[LineageOS/android_hardware_mediatek]** overlay: MssiFrameworkTelephonyOverlay: Remove IWlan data and network service classes *(ID: [510815](https://review.lineageos.org/c/510815))*
-- **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant config *(ID: [509287](https://review.lineageos.org/c/509287))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Convert to blueprint *(ID: [509284](https://review.lineageos.org/c/509284))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Setup USB AOA perms and prop *(ID: [507732](https://review.lineageos.org/c/507732))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Bump AIDL USB gadget HAL to V2 *(ID: [507730](https://review.lineageos.org/c/507730))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Run clang-format *(ID: [509283](https://review.lineageos.org/c/509283))*
-- **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant_8_lib from khadas *(ID: [509282](https://review.lineageos.org/c/509282))*
-- **[LineageOS/android_hardware_mediatek]** aidl: usb: Don't override default sys.usb.controller on post-fs-data *(ID: [507734](https://review.lineageos.org/c/507734))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Require AOA daemon *(ID: [507731](https://review.lineageos.org/c/507731))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Drop mtk_rndis.gs4 references *(ID: [506326](https://review.lineageos.org/c/506326))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Make use of sys.usb.controller for notifying musb-hdcr kernel init *(ID: [507733](https://review.lineageos.org/c/507733))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Fix MaxPower value for USB 3.0 devices *(ID: [506328](https://review.lineageos.org/c/506328))*
-- **[LineageOS/android_kernel_radxa_radxa02-build]** radxa02: Setup bazel kernel build *(ID: [511153](https://review.lineageos.org/c/511153))*
-- **[LineageOS/android_kernel_qcom_sm8450]** usb: dwc: dwc3-msm-ops: Update the RT priority if uvc is in composition *(ID: [511237](https://review.lineageos.org/c/511237))*
-- **[LineageOS/android_kernel_qcom_sm8450]** UPSTREAM: usb: gadget: uvc: Remove nested locking *(ID: [397274](https://review.lineageos.org/c/397274))*
-- **[LineageOS/android_kernel_qcom_sm8450]** UPSTREAM: usb: gadget: uvc: Fix use are free during STREAMOFF *(ID: [397273](https://review.lineageos.org/c/397273))*
-- **[LineageOS/android_kernel_qcom_sm8450]** UPSTREAM: usb:gadget:uvc Do not use worker thread to pump isoc usb requests *(ID: [397272](https://review.lineageos.org/c/397272))*
-- **[LineageOS/android_kernel_qcom_sm8450]** UPSTREAM: usb: gadget: uvc: Fix use-after-free for inflight usb_requests *(ID: [397271](https://review.lineageos.org/c/397271))*
-- **[LineageOS/android_kernel_qcom_sm8450]** UPSTREAM: usb: gadget: uvc: move video disable logic to its own function *(ID: [397270](https://review.lineageos.org/c/397270))*
-- **[LineageOS/android_kernel_qcom_sm8450]** UPSTREAM: usb: gadget: uvc: Allocate uvc_requests one at a time *(ID: [397269](https://review.lineageos.org/c/397269))*
-- **[LineageOS/android_kernel_qcom_sm8450]** UPSTREAM: usb: gadget: uvc: prevent use of disabled endpoint *(ID: [397268](https://review.lineageos.org/c/397268))*
-- **[LineageOS/android_kernel_qcom_sm8450]** BACKPORT: usb: gadget: uvc: Add missing initialization of ssp config descriptor *(ID: [397267](https://review.lineageos.org/c/397267))*
-- **[LineageOS/android_kernel_qcom_sm8450]** BACKPORT: usb: gadget: unconditionally allocate hs/ss descriptor in bind operation *(ID: [397266](https://review.lineageos.org/c/397266))*
+- **[LineageOS/android_hardware_xiaomi]** packages: Add RemoteButtons IR setup app *(ID: [511400](https://review.lineageos.org/c/511400))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** OplusKernelEnvConfig.mk: Cleanup oplus flags *(ID: [511398](https://review.lineageos.org/c/511398))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** arm64: dts: oplus: lower max brightness level to 2047 *(ID: [511397](https://review.lineageos.org/c/511397))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** arm64: dts: Switch Nord to nq-nci *(ID: [511396](https://review.lineageos.org/c/511396))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** fixup! misc: tri_state_key: Assign vendor id *(ID: [511395](https://review.lineageos.org/c/511395))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** arm64: configs: vendor: Create device specific config fragments *(ID: [511394](https://review.lineageos.org/c/511394))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** arm64: dts: oplus: Import avicii device tree configuration *(ID: [511393](https://review.lineageos.org/c/511393))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** nfc: oplus_nfc: Read nq-nci chip from DT *(ID: [511392](https://review.lineageos.org/c/511392))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** power: oplus: Fix misleading indentation *(ID: [511391](https://review.lineageos.org/c/511391))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** power: oplus: Report full charge capacity properly *(ID: [511390](https://review.lineageos.org/c/511390))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** power: oplus: Implement reading design capacity *(ID: [511389](https://review.lineageos.org/c/511389))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** power: oplus_charger: Report discharging status on ui soc update *(ID: [511388](https://review.lineageos.org/c/511388))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** power: oplus_vooc: Skip fw header/footer for vooc_fw_update_newmethod *(ID: [511387](https://review.lineageos.org/c/511387))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** treewide: Remove dependency on BRAND_SHOW_FLAG *(ID: [511386](https://review.lineageos.org/c/511386))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** arm64: configs: vendor: Enable CFI *(ID: [511385](https://review.lineageos.org/c/511385))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** soc: oplus_sensor_devinfo: Add FW backwards compatibility *(ID: [511384](https://review.lineageos.org/c/511384))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** input: touchscreen: oplus_touchscreen: Fix unused variable warning *(ID: [511383](https://review.lineageos.org/c/511383))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** input: misc: vl53L1: Correct header include paths *(ID: [511382](https://review.lineageos.org/c/511382))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** input: touchscreen: oplus_touchscreen: Always enable gestures and assign unique keycodes *(ID: [511381](https://review.lineageos.org/c/511381))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** input: touchscreen: oplus_touchscreen: Fix game mode not restoring on wakeup *(ID: [511380](https://review.lineageos.org/c/511380))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** input: touchscreen: oplus_touchscreen: Add software only black gesture indep support *(ID: [511379](https://review.lineageos.org/c/511379))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** treewide: Fix errors due to assumption of CONFIG_DRM_MSM always being set *(ID: [511378](https://review.lineageos.org/c/511378))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** input: touchscreen: Fix errors due to assumption of CONFIG_FB always being set *(ID: [511377](https://review.lineageos.org/c/511377))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** treewide: Remove dependency on CONFIG_OPLUS_SYSTEM_KERNEL_QCOM *(ID: [511376](https://review.lineageos.org/c/511376))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** treewide: oplus: Address clang-17 build warnings *(ID: [511375](https://review.lineageos.org/c/511375))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** techpack: display: oplus: Address CFI failures *(ID: [511374](https://review.lineageos.org/c/511374))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** techpack: display: Set AoD high/low mode and dimlayer based on bl_level *(ID: [511373](https://review.lineageos.org/c/511373))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** techpack: display: Set oplus_dimlayer_hbm when switching power modes *(ID: [511372](https://review.lineageos.org/c/511372))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** techpack: display: Don't skip LP1 cmd for AoD with fingerprint_mode on *(ID: [511371](https://review.lineageos.org/c/511371))*
+- **[LineageOS/android_kernel_oneplus_sm7250]** techpack: display: oplus: Don't skip pcc for doze modes *(ID: [511370](https://review.lineageos.org/c/511370))*
 
 </details>
 
-## 📱 Línea Motorola Activa (93)
+## 📱 Línea Motorola Activa (67)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
-- **[LineageOS/android_device_motorola_berlin]** Revert "berlin: Include Bluetooth Audio HAL for hearing aid" *(ID: [511263](https://review.lineageos.org/c/511263))*
-- **[LineageOS/android_device_motorola_berlna]** Revert "berlna: Include Bluetooth Audio HAL for hearing aid" *(ID: [511264](https://review.lineageos.org/c/511264))*
-- **[LineageOS/android_device_motorola_dubai]** Revert "dubai: Include Bluetooth Audio HAL for hearing aid" *(ID: [511265](https://review.lineageos.org/c/511265))*
-- **[LineageOS/android_device_motorola_xpeng]** Revert "xpeng: Include Bluetooth Audio HAL for hearing aid" *(ID: [511266](https://review.lineageos.org/c/511266))*
-- **[LineageOS/android_device_motorola_tundra]** Revert "tundra: Include Bluetooth Audio HAL for hearing aid" *(ID: [511267](https://review.lineageos.org/c/511267))*
-- **[LineageOS/android_device_motorola_sm7325-common]** Revert "sm7325-common: Import Hearing AID configuration xml" *(ID: [511268](https://review.lineageos.org/c/511268))*
+- **[LineageOS/android_device_motorola_sm6225-common]** sm6225-common: More notification icons on lockscreen *(ID: [509899](https://review.lineageos.org/c/509899))*
+- **[LineageOS/android_device_motorola_sm6375-common]** sm6375-common: More notification icons on AOD screen *(ID: [509897](https://review.lineageos.org/c/509897))*
+- **[LineageOS/android_device_motorola_sm6375-common]** sm6375-common: More notification icons on lockscreen *(ID: [509898](https://review.lineageos.org/c/509898))*
 - **[LineageOS/android_kernel_motorola_sm7325]** arm64: dts: qcom: berlna,xpeng: fix double tap to wake on upstream touch drivers *(ID: [510998](https://review.lineageos.org/c/510998))*
 - **[LineageOS/android_device_motorola_nairo]** nairo: Fix ultrawide front camera preview colors *(ID: [511122](https://review.lineageos.org/c/511122))*
 - **[LineageOS/android_device_motorola_nairo]** nairo: Drop MotCamera2 *(ID: [511025](https://review.lineageos.org/c/511025))*
@@ -80,6 +77,9 @@
 - **[LineageOS/android_device_motorola_nairo]** nairo: Add custom audio amplifier for TFA amp feedback *(ID: [428917](https://review.lineageos.org/c/428917))*
 - **[LineageOS/android_device_motorola_racer]** racer: Drop MotCamera2 *(ID: [511028](https://review.lineageos.org/c/511028))*
 - **[LineageOS/android_device_motorola_racer]** racer: Commonize audio HAL build target *(ID: [511023](https://review.lineageos.org/c/511023))*
+- **[LineageOS/android_device_motorola_racer]** racer: Switch to qcom audio effects *(ID: [511022](https://review.lineageos.org/c/511022))*
+- **[LineageOS/android_device_motorola_racer]** racer: Load CS35L41 speaker calibration *(ID: [510928](https://review.lineageos.org/c/510928))*
+- **[LineageOS/android_device_motorola_racer]** racer: audio: Load motvr hotword capture module *(ID: [510926](https://review.lineageos.org/c/510926))*
 
 </details>
 
