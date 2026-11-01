@@ -7,49 +7,51 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (183)
+## 🚨 Parches Críticos Detectados (185)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow sensor HAL to use vndbinder *(ID: [511458](https://review.lineageos.org/c/511458))*
+- **[LineageOS/android_hardware_xiaomi]** packages: Add RemoteButtons IR setup app *(ID: [511400](https://review.lineageos.org/c/511400))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Add GPIO keypad *(ID: [500067](https://review.lineageos.org/c/500067))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Add partition files *(ID: [500066](https://review.lineageos.org/c/500066))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Initialize nicepool based on g12a_s905x2_u212 *(ID: [500065](https://review.lineageos.org/c/500065))*
+- **[LineageOS/android_kernel_amlogic_kernel-5.15]** Merge branch 'android14-5.15-lts' of https://android.googlesource.com/kernel/common into HEAD *(ID: [511498](https://review.lineageos.org/c/511498))*
+- **[LineageOS/android_kernel_qcom_sm8750-modules]** display-drivers-5.10: Rename Soong header modules *(ID: [511019](https://review.lineageos.org/c/511019))*
+- **[LineageOS/android_kernel_qcom_sm8750-modules]** display-drivers-5.10: Track kernel and modules path change for vendor kernel *(ID: [511018](https://review.lineageos.org/c/511018))*
+- **[LineageOS/android_kernel_qcom_sm8750-modules]** display-drivers-5.10: Track kernel and modules path change *(ID: [511017](https://review.lineageos.org/c/511017))*
+- **[LineageOS/android_kernel_qcom_sm8750-modules]** display-drivers-5.10: Fix inline build *(ID: [511016](https://review.lineageos.org/c/511016))*
+- **[LineageOS/android_kernel_qcom_sm8750-modules]** display-drivers-5.10: Don't override CONFIG_DRM_MSM in Makefile *(ID: [511015](https://review.lineageos.org/c/511015))*
+- **[LineageOS/android_kernel_qcom_sm8750-modules]** display-drivers-5.10: Remove build timestamp injection *(ID: [511014](https://review.lineageos.org/c/511014))*
+- **[LineageOS/android_kernel_qcom_sm8750-modules]** Add 'qcom/opensource/display-drivers-5.10/' from commit '7cd14e1c3fe7ae4678459c52827a695bc1b9c12a' *(ID: [511013](https://review.lineageos.org/c/511013))*
+- **[LineageOS/android_kernel_qcom_sm8750]** Makefile: Allow overriding display-drivers dir name *(ID: [511477](https://review.lineageos.org/c/511477))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Add support for radxa02 *(ID: [501423](https://review.lineageos.org/c/501423))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Add support for radxa0 *(ID: [499538](https://review.lineageos.org/c/499538))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix cammidasservice power factor arrays *(ID: [509957](https://review.lineageos.org/c/509957))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label tfa98xx smart PA device *(ID: [511300](https://review.lineageos.org/c/511300))*
 - **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow nvram_qmi to set radio props *(ID: [511301](https://review.lineageos.org/c/511301))*
-- **[LineageOS/android_frameworks_av]** [DO NOT MERGE] Fix Heap use after free in clearkey getSecureStops *(ID: [511454](https://review.lineageos.org/c/511454))*
-- **[LineageOS/android_frameworks_av]** fixup! RESTRICT AUTOMERGE - [Fix vulnerability] setSecurityLevel in clearkey *(ID: [511453](https://review.lineageos.org/c/511453))*
-- **[LineageOS/android_kernel_qcom_sm8450-devicetrees]** ARM: dts: msm: Add waipio QUP I2C and SPI aliases *(ID: [511449](https://review.lineageos.org/c/511449))*
-- **[LineageOS/android_hardware_oplus]** KeyHandler: Export ButtonSettingsActivity *(ID: [478990](https://review.lineageos.org/c/478990))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Adapt the wifi HAL to MediaTek gen4m driver *(ID: [511447](https://review.lineageos.org/c/511447))*
-- **[LineageOS/android_hardware_mediatek]** overlay: MssiFrameworkTelephonyOverlay: Remove IWlan data and network service classes *(ID: [510815](https://review.lineageos.org/c/510815))*
-- **[LineageOS/android_hardware_mediatek]** wlan: Import Broadcom wifi_hal from AOSP *(ID: [511445](https://review.lineageos.org/c/511445))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Rebrand and adapt library to AOSP wifi_cc_defaults_droidlogic *(ID: [511446](https://review.lineageos.org/c/511446))*
-- **[LineageOS/android_hardware_xiaomi]** packages: Add RemoteButtons IR setup app *(ID: [511400](https://review.lineageos.org/c/511400))*
-- **[LineageOS/android_hardware_xiaomi]** xiaomi: Implement a BLE remote scanner for recovery mode *(ID: [510484](https://review.lineageos.org/c/510484))*
-- **[LineageOS/android_hardware_xiaomi]** xiaomi: Initial sepolicy *(ID: [380577](https://review.lineageos.org/c/380577))*
-- **[LineageOS/android_kernel_oneplus_sm8150]** power: oplus: Skip charger-ID probing on USB PD *(ID: [511214](https://review.lineageos.org/c/511214))*
-- **[LineageOS/android_hardware_broadcom_wlan]** wlan: Import firmware *(ID: [511415](https://review.lineageos.org/c/511415))*
-- **[LineageOS/android_hardware_broadcom_wlan]** wlan: Import firmware *(ID: [511411](https://review.lineageos.org/c/511411))*
-- **[LineageOS/android_hardware_broadcom_libbt]** bt: Import firmware *(ID: [511414](https://review.lineageos.org/c/511414))*
-- **[LineageOS/android_hardware_broadcom_libbt]** bt: Import firmware *(ID: [511410](https://review.lineageos.org/c/511410))*
-- **[LineageOS/android_device_oneplus_sm8850-common]** sm8850-common: Fix Codec2 HAL manifest versions *(ID: [510909](https://review.lineageos.org/c/510909))*
-- **[LineageOS/android_kernel_oneplus_sm8750-modules]** display-drivers: oplus_onscreenfingerprint: Notify fp press on fingerprint events *(ID: [504073](https://review.lineageos.org/c/504073))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** OplusKernelEnvConfig.mk: Cleanup oplus flags *(ID: [511398](https://review.lineageos.org/c/511398))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** arm64: dts: oplus: lower max brightness level to 2047 *(ID: [511397](https://review.lineageos.org/c/511397))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** arm64: dts: Switch Nord to nq-nci *(ID: [511396](https://review.lineageos.org/c/511396))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** fixup! misc: tri_state_key: Assign vendor id *(ID: [511395](https://review.lineageos.org/c/511395))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** arm64: configs: vendor: Create device specific config fragments *(ID: [511394](https://review.lineageos.org/c/511394))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** arm64: dts: oplus: Import avicii device tree configuration *(ID: [511393](https://review.lineageos.org/c/511393))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** nfc: oplus_nfc: Read nq-nci chip from DT *(ID: [511392](https://review.lineageos.org/c/511392))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** power: oplus: Fix misleading indentation *(ID: [511391](https://review.lineageos.org/c/511391))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** power: oplus: Report full charge capacity properly *(ID: [511390](https://review.lineageos.org/c/511390))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow sensor HAL to use vndbinder *(ID: [511458](https://review.lineageos.org/c/511458))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Build subsys_radio compat as subsys_radio-V1-ndk *(ID: [511216](https://review.lineageos.org/c/511216))*
+- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Support the compat subsys_radio interface *(ID: [511217](https://review.lineageos.org/c/511217))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Add a compatibility interface for subsys_radio *(ID: [510462](https://review.lineageos.org/c/510462))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow dumping horae *(ID: [511218](https://review.lineageos.org/c/511218))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IMIDASService transaction ordering *(ID: [509917](https://review.lineageos.org/c/509917))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label HBP report *(ID: [509829](https://review.lineageos.org/c/509829))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IOplusImsRadio methods *(ID: [509916](https://review.lineageos.org/c/509916))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IOplusRadio one-way transactions *(ID: [509915](https://review.lineageos.org/c/509915))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Update IPerformance to V4-V5 *(ID: [509921](https://review.lineageos.org/c/509921))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Introduce vendor.oplus.hardware.a2dp_offload V1 *(ID: [509827](https://review.lineageos.org/c/509827))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IPogoKeyboard methods *(ID: [509918](https://review.lineageos.org/c/509918))*
 
 </details>
 
-## 📱 Línea Motorola Activa (60)
+## 📱 Línea Motorola Activa (47)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_smith]** smith: audio: Drop unused princeb0 mixer paths *(ID: [511470](https://review.lineageos.org/c/511470))*
+- **[LineageOS/android_device_motorola_smith]** smith: audio_amplifier: Apply CS35L41 fast use case tuning *(ID: [511469](https://review.lineageos.org/c/511469))*
 - **[LineageOS/android_device_motorola_guamp]** guamp: props: Move SKU specific properties to product partition *(ID: [510699](https://review.lineageos.org/c/510699))*
 - **[LineageOS/android_device_motorola_guam]** guam: props: Move SKU specific properties to product partition *(ID: [510700](https://review.lineageos.org/c/510700))*
 - **[LineageOS/android_device_motorola_smith]** smith: Patch com.vidhance.node.processing.so to allocate GraphicBuffer with new size *(ID: [510885](https://review.lineageos.org/c/510885))*
@@ -65,7 +67,6 @@
 - **[LineageOS/android_device_motorola_smith]** smith: Commonize audio HAL build target *(ID: [511038](https://review.lineageos.org/c/511038))*
 - **[LineageOS/android_device_motorola_smith]** smith: Switch to qcom audio effects *(ID: [511037](https://review.lineageos.org/c/511037))*
 - **[LineageOS/android_device_motorola_smith]** smith: Drop sepolicy moved to hardware/motorola *(ID: [510999](https://review.lineageos.org/c/510999))*
-- **[LineageOS/android_device_motorola_smith]** smith: Rename camera.mot.is.coming.cts *(ID: [510884](https://review.lineageos.org/c/510884))*
 - **[LineageOS/android_device_motorola_sm6225-common]** sm6225-common: More notification icons on lockscreen *(ID: [509899](https://review.lineageos.org/c/509899))*
 - **[LineageOS/android_device_motorola_sm6375-common]** sm6375-common: More notification icons on AOD screen *(ID: [509897](https://review.lineageos.org/c/509897))*
 - **[LineageOS/android_device_motorola_sm6375-common]** sm6375-common: More notification icons on lockscreen *(ID: [509898](https://review.lineageos.org/c/509898))*
@@ -79,7 +80,6 @@
 - **[LineageOS/android_device_motorola_nairo]** nairo: Disable fluence in calls *(ID: [428928](https://review.lineageos.org/c/428928))*
 - **[LineageOS/android_device_motorola_nairo]** nairo: Build audio & soundtrigger HALs from source *(ID: [428927](https://review.lineageos.org/c/428927))*
 - **[LineageOS/android_device_motorola_nairo]** nairo: Switch to qcom audio effects *(ID: [428926](https://review.lineageos.org/c/428926))*
-- **[LineageOS/android_device_motorola_nairo]** nairo: audio_amplifier: Use hw_module_t->dso instead of RTLD_NEXT *(ID: [428925](https://review.lineageos.org/c/428925))*
 
 </details>
 
