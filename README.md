@@ -1,17 +1,24 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-10-31-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-01-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (180)
+## 🚨 Parches Críticos Detectados (183)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow sensor HAL to use vndbinder *(ID: [511458](https://review.lineageos.org/c/511458))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label tfa98xx smart PA device *(ID: [511300](https://review.lineageos.org/c/511300))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow nvram_qmi to set radio props *(ID: [511301](https://review.lineageos.org/c/511301))*
+- **[LineageOS/android_frameworks_av]** [DO NOT MERGE] Fix Heap use after free in clearkey getSecureStops *(ID: [511454](https://review.lineageos.org/c/511454))*
+- **[LineageOS/android_frameworks_av]** fixup! RESTRICT AUTOMERGE - [Fix vulnerability] setSecurityLevel in clearkey *(ID: [511453](https://review.lineageos.org/c/511453))*
+- **[LineageOS/android_kernel_qcom_sm8450-devicetrees]** ARM: dts: msm: Add waipio QUP I2C and SPI aliases *(ID: [511449](https://review.lineageos.org/c/511449))*
+- **[LineageOS/android_hardware_oplus]** KeyHandler: Export ButtonSettingsActivity *(ID: [478990](https://review.lineageos.org/c/478990))*
 - **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Adapt the wifi HAL to MediaTek gen4m driver *(ID: [511447](https://review.lineageos.org/c/511447))*
 - **[LineageOS/android_hardware_mediatek]** overlay: MssiFrameworkTelephonyOverlay: Remove IWlan data and network service classes *(ID: [510815](https://review.lineageos.org/c/510815))*
 - **[LineageOS/android_hardware_mediatek]** wlan: Import Broadcom wifi_hal from AOSP *(ID: [511445](https://review.lineageos.org/c/511445))*
@@ -35,34 +42,29 @@
 - **[LineageOS/android_kernel_oneplus_sm7250]** nfc: oplus_nfc: Read nq-nci chip from DT *(ID: [511392](https://review.lineageos.org/c/511392))*
 - **[LineageOS/android_kernel_oneplus_sm7250]** power: oplus: Fix misleading indentation *(ID: [511391](https://review.lineageos.org/c/511391))*
 - **[LineageOS/android_kernel_oneplus_sm7250]** power: oplus: Report full charge capacity properly *(ID: [511390](https://review.lineageos.org/c/511390))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** power: oplus: Implement reading design capacity *(ID: [511389](https://review.lineageos.org/c/511389))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** power: oplus_charger: Report discharging status on ui soc update *(ID: [511388](https://review.lineageos.org/c/511388))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** power: oplus_vooc: Skip fw header/footer for vooc_fw_update_newmethod *(ID: [511387](https://review.lineageos.org/c/511387))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** treewide: Remove dependency on BRAND_SHOW_FLAG *(ID: [511386](https://review.lineageos.org/c/511386))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** arm64: configs: vendor: Enable CFI *(ID: [511385](https://review.lineageos.org/c/511385))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** soc: oplus_sensor_devinfo: Add FW backwards compatibility *(ID: [511384](https://review.lineageos.org/c/511384))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** input: touchscreen: oplus_touchscreen: Fix unused variable warning *(ID: [511383](https://review.lineageos.org/c/511383))*
 
 </details>
 
-## 📱 Línea Motorola Activa (59)
+## 📱 Línea Motorola Activa (60)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
-- **[LineageOS/android_device_motorola_smith]** smith: Properly patch camera postproc impl *(ID: [511228](https://review.lineageos.org/c/511228))*
-- **[LineageOS/android_device_motorola_smith]** smith: Commonize audio HAL build target *(ID: [511038](https://review.lineageos.org/c/511038))*
-- **[LineageOS/android_device_motorola_smith]** smith: Switch to qcom audio effects *(ID: [511037](https://review.lineageos.org/c/511037))*
-- **[LineageOS/android_device_motorola_smith]** smith: Drop sepolicy moved to hardware/motorola *(ID: [510999](https://review.lineageos.org/c/510999))*
+- **[LineageOS/android_device_motorola_guamp]** guamp: props: Move SKU specific properties to product partition *(ID: [510699](https://review.lineageos.org/c/510699))*
+- **[LineageOS/android_device_motorola_guam]** guam: props: Move SKU specific properties to product partition *(ID: [510700](https://review.lineageos.org/c/510700))*
+- **[LineageOS/android_device_motorola_smith]** smith: Patch com.vidhance.node.processing.so to allocate GraphicBuffer with new size *(ID: [510885](https://review.lineageos.org/c/510885))*
+- **[LineageOS/android_device_motorola_smith]** Revert "smith: Drop soundtrigger HAL" *(ID: [510887](https://review.lineageos.org/c/510887))*
 - **[LineageOS/android_device_motorola_smith]** smith: Load CS35L41 speaker calibration *(ID: [510895](https://review.lineageos.org/c/510895))*
 - **[LineageOS/android_device_motorola_smith]** smith: Set stock fast track multiplier *(ID: [510894](https://review.lineageos.org/c/510894))*
 - **[LineageOS/android_device_motorola_smith]** smith: sepolicy: Drop numbered wakeup labels *(ID: [510893](https://review.lineageos.org/c/510893))*
 - **[LineageOS/android_device_motorola_smith]** smith: audio: Load motvr hotword capture module *(ID: [510890](https://review.lineageos.org/c/510890))*
 - **[LineageOS/android_device_motorola_smith]** smith: import soundtrigger bits from common *(ID: [510889](https://review.lineageos.org/c/510889))*
 - **[LineageOS/android_device_motorola_smith]** smith: Resolve soundtrigger deps *(ID: [510888](https://review.lineageos.org/c/510888))*
-- **[LineageOS/android_device_motorola_smith]** Revert "smith: Drop soundtrigger HAL" *(ID: [510887](https://review.lineageos.org/c/510887))*
 - **[LineageOS/android_device_motorola_smith]** smith: Move recovery UI margins to BoardConfig *(ID: [510886](https://review.lineageos.org/c/510886))*
-- **[LineageOS/android_device_motorola_smith]** smith: Patch com.vidhance.node.processing.so to allocate GraphicBuffer with new size *(ID: [510885](https://review.lineageos.org/c/510885))*
+- **[LineageOS/android_device_motorola_smith]** smith: Properly patch camera postproc impl *(ID: [511228](https://review.lineageos.org/c/511228))*
+- **[LineageOS/android_device_motorola_smith]** smith: Commonize audio HAL build target *(ID: [511038](https://review.lineageos.org/c/511038))*
+- **[LineageOS/android_device_motorola_smith]** smith: Switch to qcom audio effects *(ID: [511037](https://review.lineageos.org/c/511037))*
+- **[LineageOS/android_device_motorola_smith]** smith: Drop sepolicy moved to hardware/motorola *(ID: [510999](https://review.lineageos.org/c/510999))*
 - **[LineageOS/android_device_motorola_smith]** smith: Rename camera.mot.is.coming.cts *(ID: [510884](https://review.lineageos.org/c/510884))*
 - **[LineageOS/android_device_motorola_sm6225-common]** sm6225-common: More notification icons on lockscreen *(ID: [509899](https://review.lineageos.org/c/509899))*
 - **[LineageOS/android_device_motorola_sm6375-common]** sm6375-common: More notification icons on AOD screen *(ID: [509897](https://review.lineageos.org/c/509897))*
@@ -78,8 +80,6 @@
 - **[LineageOS/android_device_motorola_nairo]** nairo: Build audio & soundtrigger HALs from source *(ID: [428927](https://review.lineageos.org/c/428927))*
 - **[LineageOS/android_device_motorola_nairo]** nairo: Switch to qcom audio effects *(ID: [428926](https://review.lineageos.org/c/428926))*
 - **[LineageOS/android_device_motorola_nairo]** nairo: audio_amplifier: Use hw_module_t->dso instead of RTLD_NEXT *(ID: [428925](https://review.lineageos.org/c/428925))*
-- **[LineageOS/android_device_motorola_nairo]** nairo: Convert audio_amplifier to blueprint *(ID: [428924](https://review.lineageos.org/c/428924))*
-- **[LineageOS/android_device_motorola_nairo]** nairo: audio_amplifier: Make all the functions static *(ID: [428923](https://review.lineageos.org/c/428923))*
 
 </details>
 
