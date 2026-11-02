@@ -7,12 +7,33 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (151)
+## 🚨 Parches Críticos Detectados (131)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_qcom_thermal]** thermal-hal: Drop the boot-time restart *(ID: [511696](https://review.lineageos.org/c/511696))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow dumping horae *(ID: [511218](https://review.lineageos.org/c/511218))*
+- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Support the compat subsys_radio interface *(ID: [511217](https://review.lineageos.org/c/511217))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Build subsys_radio compat as subsys_radio-V1-ndk *(ID: [511216](https://review.lineageos.org/c/511216))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Add a compatibility interface for subsys_radio *(ID: [510462](https://review.lineageos.org/c/510462))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix cammidasservice power factor arrays *(ID: [509957](https://review.lineageos.org/c/509957))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Update IPerformance to V4-V5 *(ID: [509921](https://review.lineageos.org/c/509921))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Update ICharger to V12 *(ID: [509920](https://review.lineageos.org/c/509920))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IPerformance V1-V3 definitions *(ID: [509919](https://review.lineageos.org/c/509919))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IPogoKeyboard methods *(ID: [509918](https://review.lineageos.org/c/509918))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IMIDASService transaction ordering *(ID: [509917](https://review.lineageos.org/c/509917))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IOplusImsRadio methods *(ID: [509916](https://review.lineageos.org/c/509916))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Fix IOplusRadio one-way transactions *(ID: [509915](https://review.lineageos.org/c/509915))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label HBP report *(ID: [509829](https://review.lineageos.org/c/509829))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Introduce vendor.oplus.hardware.a2dp_offload V1 *(ID: [509827](https://review.lineageos.org/c/509827))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Update IOplusRadio to V3-V4 *(ID: [509826](https://review.lineageos.org/c/509826))*
+- **[LineageOS/android_hardware_oplus]** vintf: Update fwk matrix for COS 17.0.0 *(ID: [509825](https://review.lineageos.org/c/509825))*
+- **[LineageOS/android_kernel_xiaomi_sm8550]** drivers: qti_battery_charger: Use FG1_RSOC directly for capacity *(ID: [510391](https://review.lineageos.org/c/510391))*
+- **[LineageOS/android_kernel_oneplus_sm8850-modules]** oplus: charger: Report missing charge time estimates *(ID: [510530](https://review.lineageos.org/c/510530))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow nvram_qmi to set radio props *(ID: [511301](https://review.lineageos.org/c/511301))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label tfa98xx smart PA device *(ID: [511300](https://review.lineageos.org/c/511300))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow sensor HAL to use vndbinder *(ID: [511458](https://review.lineageos.org/c/511458))*
+- **[LineageOS/android_device_oneplus_sm8850-common]** sm8850-common: Fix Codec2 HAL manifest versions *(ID: [510909](https://review.lineageos.org/c/510909))*
 - **[LineageOS/android_kernel_motorola_sm7325]** arm64: dts: qcom: berlna,xpeng: fix double tap to wake on upstream touch drivers *(ID: [510998](https://review.lineageos.org/c/510998))*
 - **[LineageOS/android_kernel_oneplus_sm7250]** input: misc: vl53L1: Correct header include paths *(ID: [511382](https://review.lineageos.org/c/511382))*
 - **[LineageOS/android_hardware_broadcom_wlan]** wlan: Import firmware *(ID: [511411](https://review.lineageos.org/c/511411))*
@@ -21,27 +42,6 @@
 - **[LineageOS/android_kernel_oneplus_sm8350]** qcacld-3.0: Add support to config concurrent dual sta policy *(ID: [511685](https://review.lineageos.org/c/511685))*
 - **[LineageOS/android_kernel_oneplus_sm8350]** qcacld-3.0: Refine interface combinations advertised in wiphy *(ID: [511684](https://review.lineageos.org/c/511684))*
 - **[LineageOS/android_kernel_oneplus_sm8350]** qcacld-3.0: Add support to set primary STA interface *(ID: [511686](https://review.lineageos.org/c/511686))*
-- **[LineageOS/android_hardware_qcom_audio]** audio-extn: Fix the null pointer dereference *(ID: [511682](https://review.lineageos.org/c/511682))*
-- **[LineageOS/android_hardware_qcom_audio]** audio-extn: Fix the null pointer dereference *(ID: [511681](https://review.lineageos.org/c/511681))*
-- **[LineageOS/android_hardware_qcom_audio]** audio-extn: Fix the null pointer dereference *(ID: [511680](https://review.lineageos.org/c/511680))*
-- **[LineageOS/android_hardware_broadcom_wlan]** wlan: Import firmware *(ID: [511415](https://review.lineageos.org/c/511415))*
-- **[LineageOS/android_kernel_samsung_exynos9820]** Merge branch 'lineage-24.0-divergent' into lineage-24.0 *(ID: [510741](https://review.lineageos.org/c/510741))*
-- **[LineageOS/android_kernel_motorola_sm8250]** ARM64: dts: kiev: Rename sound card for the CAF audio HAL *(ID: [511669](https://review.lineageos.org/c/511669))*
-- **[LineageOS/android_device_motorola_kiev]** kiev: audio_amplifier: Fix PCM device check *(ID: [511658](https://review.lineageos.org/c/511658))*
-- **[LineageOS/android_device_motorola_kiev]** kiev: amplifier: Fix device list initializations *(ID: [511654](https://review.lineageos.org/c/511654))*
-- **[LineageOS/android_device_samsung_m52xq]** m52xq: overlay: Set default hotspot SSID prefix *(ID: [479806](https://review.lineageos.org/c/479806))*
-- **[LineageOS/android_device_samsung_a73xq]** a73xq: overlay: Set default hotspot SSID prefix *(ID: [479796](https://review.lineageos.org/c/479796))*
-- **[LineageOS/android_device_samsung_a52sxq]** a52sxq: overlay: Set default hotspot SSID prefix *(ID: [479659](https://review.lineageos.org/c/479659))*
-- **[LineageOS/android_kernel_xiaomi_sm8550]** drivers: qti_battery_charger: Use FG1_RSOC directly for capacity *(ID: [510391](https://review.lineageos.org/c/510391))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Enable execmem for face unlock *(ID: [511628](https://review.lineageos.org/c/511628))*
-- **[LineageOS/android_device_oneplus_sm8850-common]** sm8850-common: Fix Codec2 HAL manifest versions *(ID: [510909](https://review.lineageos.org/c/510909))*
-- **[LineageOS/android_device_motorola_miami]** miami: Fix model device name *(ID: [511617](https://review.lineageos.org/c/511617))*
-- **[LineageOS/android_hardware_xiaomi]** packages: Add RemoteButtons IR setup app *(ID: [511400](https://review.lineageos.org/c/511400))*
-- **[LineageOS/android_kernel_nubia_msm8998]** drivers: nubia_sensors: drv2605: Set max vibe time to 15s. *(ID: [511565](https://review.lineageos.org/c/511565))*
-- **[LineageOS/android_kernel_nubia_msm8998]** drivers: nubia_sensors: drv2605: Change vibration strength instantly *(ID: [511564](https://review.lineageos.org/c/511564))*
-- **[LineageOS/android_kernel_nubia_msm8998]** drivers: nubia_sensors: drv2605: Move attr code around *(ID: [511563](https://review.lineageos.org/c/511563))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Add GPIO keypad *(ID: [500067](https://review.lineageos.org/c/500067))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Add partition files *(ID: [500066](https://review.lineageos.org/c/500066))*
 
 </details>
 
