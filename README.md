@@ -7,41 +7,41 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (215)
+## 🚨 Parches Críticos Detectados (227)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_ayn]** sepolicy: Label qc7790s uart wakeup node *(ID: [511810](https://review.lineageos.org/c/511810))*
-- **[LineageOS/android_device_amlogic_g12-common]** g12: Fix voldmanaged USB glob for the Amlogic xHCI name *(ID: [496038](https://review.lineageos.org/c/496038))*
-- **[LineageOS/android_kernel_oneplus_sm8350]** Revert "HACK: binder: Disable freeze related ioctls" *(ID: [511851](https://review.lineageos.org/c/511851))*
-- **[LineageOS/android_kernel_fairphone_sm7635]** Merge remote-tracking branch 'sm8650/lineage-22.2' into lineage-23.2 *(ID: [511850](https://review.lineageos.org/c/511850))*
-- **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: posix-cpu-timers: Prevent UAF caused by non-leader exec() race *(ID: [511846](https://review.lineageos.org/c/511846))*
+- **[LineageOS/android_hardware_broadcom_libbt]** bt: Import firmware *(ID: [511414](https://review.lineageos.org/c/511414))*
+- **[LineageOS/android_hardware_broadcom_wlan]** wlan: Import firmware *(ID: [511415](https://review.lineageos.org/c/511415))*
+- **[LineageOS/android_hardware_qcom_display]** composer: Add extended display resolution support *(ID: [511983](https://review.lineageos.org/c/511983))*
+- **[LineageOS/android_hardware_qcom_display]** sdm: Port oplus FOD color handling *(ID: [511910](https://review.lineageos.org/c/511910))*
+- **[LineageOS/android_hardware_qcom_display]** sdm: Fix oplus FOD with the screen off *(ID: [511911](https://review.lineageos.org/c/511911))*
+- **[LineageOS/android_hardware_qcom_display]** composer: Don't expose the iris secondary channel as a display *(ID: [511909](https://review.lineageos.org/c/511909))*
+- **[LineageOS/android_kernel_amlogic_kernel-5.15]** wifi: add mt7668u support [3/5] *(ID: [511691](https://review.lineageos.org/c/511691))*
+- **[LineageOS/android_hardware_qcom_display]** sdm: Allow keeping the raw cwb config pointer *(ID: [511908](https://review.lineageos.org/c/511908))*
+- **[LineageOS/android_hardware_qcom_display]** composer: Support Pixelworks HW iris 7 color calibration *(ID: [511907](https://review.lineageos.org/c/511907))*
+- **[LineageOS/android_hardware_qcom_display]** sdm: Support Pixelworks soft-iris color calibration *(ID: [511906](https://review.lineageos.org/c/511906))*
+- **[LineageOS/android_hardware_qcom_display]** sdm: Operate FINGERPRINT_MASK for oplus optical UDFPS *(ID: [511905](https://review.lineageos.org/c/511905))*
+- **[LineageOS/android_hardware_qcom_display]** sdm: Support HBM for Samsung optical UDFPS *(ID: [511904](https://review.lineageos.org/c/511904))*
+- **[LineageOS/android_kernel_amlogic_kernel-5.15]** Merge tag 'ASB-2026-11-02_14-5.15' of https://android.googlesource.com/kernel/common into HEAD *(ID: [511978](https://review.lineageos.org/c/511978))*
+- **[LineageOS/android_kernel_oneplus_sm8650-modules]** oplus: syna_tcm2: Unset ABS_TOUCH_COST_TIME_* bit *(ID: [511972](https://review.lineageos.org/c/511972))*
+- **[LineageOS/android_kernel_qcom_sm8250]** fixup! f2fs: fix out-of-bounds access in sysfs attribute read/write *(ID: [511949](https://review.lineageos.org/c/511949))*
+- **[LineageOS/android_hardware_qcom_audio-ar]** hal: lvacfs: Convert input format to tinyalsa PCM IDs *(ID: [511969](https://review.lineageos.org/c/511969))*
+- **[LineageOS/android_kernel_qcom_sm8250]** disp: msm: dp: fix double freeing of bridge memory *(ID: [511968](https://review.lineageos.org/c/511968))*
+- **[LineageOS/android_kernel_qcom_sm8250]** kgsl: adreno: Correctly check the ioctl data size *(ID: [511967](https://review.lineageos.org/c/511967))*
+- **[LineageOS/android_kernel_qcom_sm8250]** UPSTREAM: HID: core: Add printk_ratelimited variants to hid_warn() etc *(ID: [511966](https://review.lineageos.org/c/511966))*
 - **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: ANDROID: 16K: skip fault-around in ELF segment padding holes *(ID: [511848](https://review.lineageos.org/c/511848))*
-- **[LineageOS/android_kernel_qcom_sm8250]** FROMGIT: HID: core: Fix OOB read in hid_get_report for numbered reports *(ID: [511847](https://review.lineageos.org/c/511847))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: HID: core: Fix OOB read in hid_get_report for numbered reports *(ID: [511847](https://review.lineageos.org/c/511847))*
+- **[LineageOS/android_kernel_qcom_sm8350]** disp: msm: sde: dsi: only configure dsc in crtc_commit thread *(ID: [511965](https://review.lineageos.org/c/511965))*
+- **[LineageOS/android_kernel_qcom_sm8350]** disp: msm: sde: set possible clones for all encoders *(ID: [511964](https://review.lineageos.org/c/511964))*
+- **[LineageOS/android_kernel_qcom_sm8350]** disp: msm: sde: add check to avoid multiple active CWB *(ID: [511963](https://review.lineageos.org/c/511963))*
+- **[LineageOS/android_kernel_qcom_sm8350]** disp: msm: dp: fix double freeing of bridge memory *(ID: [511962](https://review.lineageos.org/c/511962))*
+- **[LineageOS/android_kernel_qcom_sm8350]** kgsl: adreno: Correctly check the ioctl data size *(ID: [511961](https://review.lineageos.org/c/511961))*
+- **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: HID: core: Add printk_ratelimited variants to hid_warn() etc *(ID: [511960](https://review.lineageos.org/c/511960))*
+- **[LineageOS/android_kernel_qcom_sm8350]** BACKPORT: posix-cpu-timers: Prevent UAF caused by non-leader exec() race *(ID: [511846](https://review.lineageos.org/c/511846))*
 - **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: posix-cpu-timers: Fix rearm racing against process tick *(ID: [511845](https://review.lineageos.org/c/511845))*
-- **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: posix-cpu-timers: Store a reference to a pid not a task *(ID: [511844](https://review.lineageos.org/c/511844))*
-- **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: posix-cpu-timers: Remove unnecessary locking around cpu_clock_sample_group *(ID: [511843](https://review.lineageos.org/c/511843))*
-- **[LineageOS/android_kernel_qcom_sm8350]** FROMGIT: HID: logitech-dj: fix wrong detection of bad DJ_SHORT output report *(ID: [511842](https://review.lineageos.org/c/511842))*
-- **[LineageOS/android_kernel_qcom_sm8350]** FROMGIT: HID: logitech-dj: Prevent REPORT_ID_DJ_SHORT related user initiated OOB write *(ID: [511841](https://review.lineageos.org/c/511841))*
-- **[LineageOS/android_kernel_qcom_sm8350]** FROMGIT: HID: logitech-dj: Standardise hid_report_enum variable nomenclature *(ID: [511840](https://review.lineageos.org/c/511840))*
-- **[LineageOS/android_kernel_qcom_sm8350]** FROMGIT: nfc: llcp: Fix use-after-free race in nfc_llcp_recv_cc() *(ID: [511839](https://review.lineageos.org/c/511839))*
-- **[LineageOS/android_kernel_qcom_sm8350]** FROMGIT: nfc: llcp: Fix use-after-free in llcp_sock_release() *(ID: [511838](https://review.lineageos.org/c/511838))*
-- **[LineageOS/android_kernel_qcom_sm8350]** ANDROID: 16K: skip fault-around in ELF segment padding holes *(ID: [511837](https://review.lineageos.org/c/511837))*
-- **[LineageOS/android_kernel_qcom_sm8350]** ANDROID: 16K: improve robustness of vma padding logic *(ID: [511836](https://review.lineageos.org/c/511836))*
-- **[LineageOS/android_kernel_qcom_sm8350]** FROMGIT: HID: core: Fix OOB read in hid_get_report for numbered reports *(ID: [511835](https://review.lineageos.org/c/511835))*
-- **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: Bluetooth: RFCOMM: hold listener socket in rfcomm_connect_ind() *(ID: [511834](https://review.lineageos.org/c/511834))*
-- **[LineageOS/android_frameworks_base]** Fix BAL bypass via pinned windows in SDK sandbox and PCC *(ID: [511831](https://review.lineageos.org/c/511831))*
-- **[LineageOS/android_frameworks_base]** Fix BAL bypass in RemoteViews SetRadioGroupCheckedAction reapply *(ID: [511828](https://review.lineageos.org/c/511828))*
-- **[LineageOS/android_hardware_nxp_nfc]** Fix infinite loop and logcat spam in NXP NFC HAL teardown *(ID: [508039](https://review.lineageos.org/c/508039))*
-- **[LineageOS/android_hardware_nxp_nfc]** Fix heap use-after-free in NXP NFC HAL *(ID: [508038](https://review.lineageos.org/c/508038))*
-- **[LineageOS/android_hardware_interfaces]** Add model input/output out-of-bounds validation tests *(ID: [508037](https://review.lineageos.org/c/508037))*
-- **[LineageOS/android_hardware_interfaces]** Fix CAS HAL integer truncation vulnerability *(ID: [508036](https://review.lineageos.org/c/508036))*
-- **[LineageOS/android_frameworks_opt_telephony]** ImsPhone: Catch RuntimeException and fix P-Associated-URI parse *(ID: [508034](https://review.lineageos.org/c/508034))*
-- **[LineageOS/android_frameworks_opt_telephony]** Fix RCS config credential leak via ISub *(ID: [508033](https://review.lineageos.org/c/508033))*
-- **[LineageOS/android_kernel_qcom_sm8450]** Merge branch 'android12-5.10-lts' of https://android.googlesource.com/kernel/common into android13-5.10-waipio *(ID: [511798](https://review.lineageos.org/c/511798))*
-- **[LineageOS/android_kernel_motorola_sm8475]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [511818](https://review.lineageos.org/c/511818))*
-- **[LineageOS/android_kernel_motorola_sm7435]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-23.2 *(ID: [511817](https://review.lineageos.org/c/511817))*
+- **[LineageOS/android_kernel_qcom_sm8350]** BACKPORT: UPSTREAM: posix-cpu-timers: Store a reference to a pid not a task *(ID: [511844](https://review.lineageos.org/c/511844))*
 
 </details>
 
