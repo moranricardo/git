@@ -7,11 +7,30 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (204)
+## 🚨 Parches Críticos Detectados (215)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_ayn]** sepolicy: Label qc7790s uart wakeup node *(ID: [511810](https://review.lineageos.org/c/511810))*
+- **[LineageOS/android_device_amlogic_g12-common]** g12: Fix voldmanaged USB glob for the Amlogic xHCI name *(ID: [496038](https://review.lineageos.org/c/496038))*
+- **[LineageOS/android_kernel_oneplus_sm8350]** Revert "HACK: binder: Disable freeze related ioctls" *(ID: [511851](https://review.lineageos.org/c/511851))*
+- **[LineageOS/android_kernel_fairphone_sm7635]** Merge remote-tracking branch 'sm8650/lineage-22.2' into lineage-23.2 *(ID: [511850](https://review.lineageos.org/c/511850))*
+- **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: posix-cpu-timers: Prevent UAF caused by non-leader exec() race *(ID: [511846](https://review.lineageos.org/c/511846))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: ANDROID: 16K: skip fault-around in ELF segment padding holes *(ID: [511848](https://review.lineageos.org/c/511848))*
+- **[LineageOS/android_kernel_qcom_sm8250]** FROMGIT: HID: core: Fix OOB read in hid_get_report for numbered reports *(ID: [511847](https://review.lineageos.org/c/511847))*
+- **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: posix-cpu-timers: Fix rearm racing against process tick *(ID: [511845](https://review.lineageos.org/c/511845))*
+- **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: posix-cpu-timers: Store a reference to a pid not a task *(ID: [511844](https://review.lineageos.org/c/511844))*
+- **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: posix-cpu-timers: Remove unnecessary locking around cpu_clock_sample_group *(ID: [511843](https://review.lineageos.org/c/511843))*
+- **[LineageOS/android_kernel_qcom_sm8350]** FROMGIT: HID: logitech-dj: fix wrong detection of bad DJ_SHORT output report *(ID: [511842](https://review.lineageos.org/c/511842))*
+- **[LineageOS/android_kernel_qcom_sm8350]** FROMGIT: HID: logitech-dj: Prevent REPORT_ID_DJ_SHORT related user initiated OOB write *(ID: [511841](https://review.lineageos.org/c/511841))*
+- **[LineageOS/android_kernel_qcom_sm8350]** FROMGIT: HID: logitech-dj: Standardise hid_report_enum variable nomenclature *(ID: [511840](https://review.lineageos.org/c/511840))*
+- **[LineageOS/android_kernel_qcom_sm8350]** FROMGIT: nfc: llcp: Fix use-after-free race in nfc_llcp_recv_cc() *(ID: [511839](https://review.lineageos.org/c/511839))*
+- **[LineageOS/android_kernel_qcom_sm8350]** FROMGIT: nfc: llcp: Fix use-after-free in llcp_sock_release() *(ID: [511838](https://review.lineageos.org/c/511838))*
+- **[LineageOS/android_kernel_qcom_sm8350]** ANDROID: 16K: skip fault-around in ELF segment padding holes *(ID: [511837](https://review.lineageos.org/c/511837))*
+- **[LineageOS/android_kernel_qcom_sm8350]** ANDROID: 16K: improve robustness of vma padding logic *(ID: [511836](https://review.lineageos.org/c/511836))*
+- **[LineageOS/android_kernel_qcom_sm8350]** FROMGIT: HID: core: Fix OOB read in hid_get_report for numbered reports *(ID: [511835](https://review.lineageos.org/c/511835))*
+- **[LineageOS/android_kernel_qcom_sm8350]** UPSTREAM: Bluetooth: RFCOMM: hold listener socket in rfcomm_connect_ind() *(ID: [511834](https://review.lineageos.org/c/511834))*
 - **[LineageOS/android_frameworks_base]** Fix BAL bypass via pinned windows in SDK sandbox and PCC *(ID: [511831](https://review.lineageos.org/c/511831))*
 - **[LineageOS/android_frameworks_base]** Fix BAL bypass in RemoteViews SetRadioGroupCheckedAction reapply *(ID: [511828](https://review.lineageos.org/c/511828))*
 - **[LineageOS/android_hardware_nxp_nfc]** Fix infinite loop and logcat spam in NXP NFC HAL teardown *(ID: [508039](https://review.lineageos.org/c/508039))*
@@ -23,29 +42,10 @@
 - **[LineageOS/android_kernel_qcom_sm8450]** Merge branch 'android12-5.10-lts' of https://android.googlesource.com/kernel/common into android13-5.10-waipio *(ID: [511798](https://review.lineageos.org/c/511798))*
 - **[LineageOS/android_kernel_motorola_sm8475]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [511818](https://review.lineageos.org/c/511818))*
 - **[LineageOS/android_kernel_motorola_sm7435]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-23.2 *(ID: [511817](https://review.lineageos.org/c/511817))*
-- **[LineageOS/android_device_amlogic_g12-common]** g12: Fix voldmanaged USB glob for the Amlogic xHCI name *(ID: [496038](https://review.lineageos.org/c/496038))*
-- **[LineageOS/android_kernel_qcom_sm8750]** mm/cma: add sysfs file 'release_pages_success' *(ID: [509989](https://review.lineageos.org/c/509989))*
-- **[LineageOS/android_hardware_ayn]** sepolicy: Label qc7790s uart wakeup *(ID: [511810](https://review.lineageos.org/c/511810))*
-- **[LineageOS/android_kernel_qcom_sm8550]** mm/cma: add sysfs file 'release_pages_success' *(ID: [509988](https://review.lineageos.org/c/509988))*
-- **[LineageOS/android_hardware_ayn]** sepolicy: Let time daemon read sys.boot_completed *(ID: [511807](https://review.lineageos.org/c/511807))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: meson-g12a: Update VPU clk_level to 8 (666.7MHz) *(ID: [511801](https://review.lineageos.org/c/511801))*
-- **[LineageOS/android_kernel_osom_sm8475]** Merge remote-tracking branch 'sm8450/lineage-20' into HEAD *(ID: [511806](https://review.lineageos.org/c/511806))*
-- **[LineageOS/android_kernel_ayn_cq8725s]** Merge remote-tracking branch 'sm8750/lineage-22.2' into HEAD *(ID: [511804](https://review.lineageos.org/c/511804))*
-- **[LineageOS/android_kernel_ayn_qcs8550]** Merge remote-tracking branch 'sm8550/lineage-21' into HEAD *(ID: [511805](https://review.lineageos.org/c/511805))*
-- **[LineageOS/android_kernel_qcom_sm8750]** Merge remote-tracking branch 'common/android15-6.6-lts' into HEAD *(ID: [511802](https://review.lineageos.org/c/511802))*
-- **[LineageOS/android_kernel_qcom_sm8550]** Merge remote-tracking branch 'common/android13-5.15-lts' into HEAD *(ID: [511803](https://review.lineageos.org/c/511803))*
-- **[LineageOS/android_kernel_qcom_sm8650]** Merge branch 'android14-6.1-lts' of https://android.googlesource.com/kernel/common into android15-6.1-lanai *(ID: [511800](https://review.lineageos.org/c/511800))*
-- **[LineageOS/android_kernel_qcom_sm8650]** Revert "coresight-tmc-etf: fix failure to disable/enable ETF after reading" *(ID: [511799](https://review.lineageos.org/c/511799))*
-- **[LineageOS/android_external_aac]** Fix UAF in CreatePsDec reset branch *(ID: [507977](https://review.lineageos.org/c/507977))*
-- **[LineageOS/android_development]** RESTRICT AUTOMERGE: Fix integer underflow vulnerability in PduParser *(ID: [507976](https://review.lineageos.org/c/507976))*
-- **[LineageOS/android_external_avb]** Fix silent failure in RSA verification on memory allocation error *(ID: [507978](https://review.lineageos.org/c/507978))*
-- **[LineageOS/android_external_hplip]** Fix sprintf and strncpy usage *(ID: [507979](https://review.lineageos.org/c/507979))*
-- **[LineageOS/android_external_libpng]** fix: Initialize tail bytes in `trans_alpha` buffers *(ID: [507982](https://review.lineageos.org/c/507982))*
-- **[LineageOS/android_external_libpng]** fix: Resolve use-after-free on `png_ptr->trans_alpha` *(ID: [507981](https://review.lineageos.org/c/507981))*
 
 </details>
 
-## 📱 Línea Motorola Activa (12)
+## 📱 Línea Motorola Activa (11)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
@@ -61,7 +61,6 @@
 - **[LineageOS/android_device_motorola_fogo]** fogo: Add missing anc blobs for camera *(ID: [511613](https://review.lineageos.org/c/511613))*
 - **[LineageOS/android_device_motorola_bangkk]** bangkk: Add missing camera libraries *(ID: [511608](https://review.lineageos.org/c/511608))*
 - **[LineageOS/android_device_motorola_bangkk]** bangkk: Add missing anc blobs for camera *(ID: [511607](https://review.lineageos.org/c/511607))*
-- **[LineageOS/android_kernel_motorola_sm7325]** arm64: dts: qcom: berlna,xpeng: fix double tap to wake on upstream touch drivers *(ID: [510998](https://review.lineageos.org/c/510998))*
 
 </details>
 
