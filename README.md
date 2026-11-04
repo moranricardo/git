@@ -7,41 +7,41 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (228)
+## 🚨 Parches Críticos Detectados (218)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_packages_apps_Launcher3]** fixup! Launcher3: Update default workspace *(ID: [512104](https://review.lineageos.org/c/512104))*
+- **[LineageOS/android_kernel_qcom_sm8750]** Merge remote-tracking branch 'common/android15-6.6-lts' into HEAD *(ID: [511802](https://review.lineageos.org/c/511802))*
+- **[LineageOS/android_frameworks_base]** SystemUI: Fix UDFPS dim layer opacity and animation cleanup *(ID: [507919](https://review.lineageos.org/c/507919))*
+- **[LineageOS/android_packages_apps_Launcher3]** fixup! Launcher3: Ability to toggle themed icons for all apps *(ID: [512102](https://review.lineageos.org/c/512102))*
+- **[LineageOS/android_hardware_qcom_display]** composer: Don't expose the iris secondary channel as a display *(ID: [511909](https://review.lineageos.org/c/511909))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** drm: meson: Re-enable HDMI output on hotplug in recovery *(ID: [512068](https://review.lineageos.org/c/512068))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: WIP *(ID: [512070](https://review.lineageos.org/c/512070))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** mmc: meson-g12a: Re-establish SD-card UART console switching *(ID: [512069](https://review.lineageos.org/c/512069))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** mmc: Prevent duplicate initialization of DTB chardev and unifykey *(ID: [512067](https://review.lineageos.org/c/512067))*
+- **[LineageOS/android_kernel_radxa_radxa02pro-build]** radxa0: Setup bazel kernel build *(ID: [512065](https://review.lineageos.org/c/512065))*
+- **[LineageOS/android_device_hardkernel_odroidc4]** odroidc4: Build kernel with bazel *(ID: [512042](https://review.lineageos.org/c/512042))*
+- **[LineageOS/android_device_hardkernel_odroidc4]** odroidc4: Switch extraction source to jarvis 14 *(ID: [512043](https://review.lineageos.org/c/512043))*
+- **[LineageOS/android_kernel_bananapi_m5-build]** m5: Setup bazel kernel build *(ID: [512050](https://review.lineageos.org/c/512050))*
+- **[LineageOS/android_kernel_google_sabrina-build]** sabrina: Setup bazel kernel build *(ID: [512049](https://review.lineageos.org/c/512049))*
+- **[LineageOS/android_kernel_hardkernel_odroidc4-build]** odroidc4: Setup bazel kernel build *(ID: [512041](https://review.lineageos.org/c/512041))*
+- **[LineageOS/android_kernel_askey_dopinder-build]** dopinder: Setup bazel kernel build *(ID: [512039](https://review.lineageos.org/c/512039))*
+- **[LineageOS/android_kernel_askey_wade-build]** wade: Setup bazel kernel build *(ID: [512032](https://review.lineageos.org/c/512032))*
+- **[LineageOS/android_kernel_fairphone_sm7635]** Merge remote-tracking branch 'sm8650/lineage-22.2' into lineage-23.2 *(ID: [511850](https://review.lineageos.org/c/511850))*
+- **[LineageOS/android_kernel_qcom_sm8650]** Merge tag 'ASB-2026-11-02_14-6.1' of https://android.googlesource.com/kernel/common into HEAD *(ID: [511993](https://review.lineageos.org/c/511993))*
+- **[LineageOS/android_kernel_qcom_sm8650]** Merge branch 'android14-6.1-lts' of https://android.googlesource.com/kernel/common into android15-6.1-lanai *(ID: [511800](https://review.lineageos.org/c/511800))*
+- **[LineageOS/android_kernel_freebox_nicepool-build]** nicepool: Setup bazel kernel build *(ID: [511141](https://review.lineageos.org/c/511141))*
+- **[LineageOS/android_kernel_ayn_cq8725s]** Merge remote-tracking branch 'sm8750/lineage-22.2' into HEAD *(ID: [511804](https://review.lineageos.org/c/511804))*
+- **[LineageOS/android_kernel_ayn_qcs8550]** Merge remote-tracking branch 'sm8550/lineage-21' into HEAD *(ID: [511805](https://review.lineageos.org/c/511805))*
+- **[LineageOS/android_kernel_osom_sm8475]** Merge remote-tracking branch 'sm8450/lineage-20' into HEAD *(ID: [511806](https://review.lineageos.org/c/511806))*
+- **[LineageOS/android_kernel_qcom_sm8750]** Merge tag 'ASB-2026-11-02_15-6.6' of https://android.googlesource.com/kernel/common into HEAD *(ID: [512021](https://review.lineageos.org/c/512021))*
+- **[LineageOS/android_kernel_qcom_sm8550]** Merge tag 'ASB-2026-11-02_13-5.15' of https://android.googlesource.com/kernel/common HEAD *(ID: [512020](https://review.lineageos.org/c/512020))*
+- **[LineageOS/android_hardware_samsung]** aidl: radio: Report the tsds2 hybrid slot as separate tray and eUICC slots *(ID: [511959](https://review.lineageos.org/c/511959))*
 - **[LineageOS/android_hardware_interfaces]** libradiocompat: Pass all signal threshold infos to the HIDL HAL *(ID: [512015](https://review.lineageos.org/c/512015))*
 - **[LineageOS/android_hardware_samsung]** eSimSwitcher: Add app for tsds2 hybrid eUICC *(ID: [507776](https://review.lineageos.org/c/507776))*
-- **[LineageOS/android_hardware_samsung]** aidl: radio: Report the tsds2 hybrid slot as separate tray and eUICC slots *(ID: [511959](https://review.lineageos.org/c/511959))*
 - **[LineageOS/android_kernel_qcom_sm8250]** fixup! f2fs: fix out-of-bounds access in sysfs attribute read/write *(ID: [511949](https://review.lineageos.org/c/511949))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fix unused variables errors *(ID: [512014](https://review.lineageos.org/c/512014))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Adapt the wifi HAL to MediaTek gen4m driver *(ID: [511447](https://review.lineageos.org/c/511447))*
-- **[LineageOS/android_kernel_oneplus_sm8550-devicetrees]** display: oplus: Enable Local HBM for benz *(ID: [512012](https://review.lineageos.org/c/512012))*
-- **[LineageOS/android_hardware_qcom_audio]** audio-extn: Fix the null pointer dereference *(ID: [511681](https://review.lineageos.org/c/511681))*
-- **[LineageOS/android_hardware_oplus]** power: Apply stock charger cool down levels while interactive *(ID: [512011](https://review.lineageos.org/c/512011))*
-- **[LineageOS/android_hardware_oplus]** extract-utils-ext: Generate charger cool down config *(ID: [512010](https://review.lineageos.org/c/512010))*
-- **[LineageOS/android_kernel_qcom_sm8650]** Merge branch 'android14-6.1-lts' of https://android.googlesource.com/kernel/common into android15-6.1-lanai *(ID: [511800](https://review.lineageos.org/c/511800))*
-- **[LineageOS/android_hardware_qcom_display]** composer: Add extended display resolution support *(ID: [511983](https://review.lineageos.org/c/511983))*
-- **[LineageOS/android_hardware_mediatek]** packages: Introduce a minimal phoneEx service for switching SIM types *(ID: [511997](https://review.lineageos.org/c/511997))*
-- **[LineageOS/android_hardware_mediatek]** overlay: MssiFrameworkTelephonyOverlay: Remove IWlan data and network service classes *(ID: [510815](https://review.lineageos.org/c/510815))*
-- **[LineageOS/android_kernel_xiaomi_msm8998]** qcacld-3.0: Enable PMF when negotiated as optional *(ID: [511996](https://review.lineageos.org/c/511996))*
-- **[LineageOS/android_kernel_freebox_nicepool-build]** nicepool: Setup bazel kernel build *(ID: [511141](https://review.lineageos.org/c/511141))*
-- **[LineageOS/android_hardware_xiaomi]** packages: Add RemoteButtons IR setup app *(ID: [511400](https://review.lineageos.org/c/511400))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Add support for radxa02 *(ID: [501423](https://review.lineageos.org/c/501423))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Add GPIO keypad *(ID: [500067](https://review.lineageos.org/c/500067))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Add partition files *(ID: [500066](https://review.lineageos.org/c/500066))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Initialize nicepool based on g12a_s905x2_u212 *(ID: [500065](https://review.lineageos.org/c/500065))*
-- **[LineageOS/android_kernel_qcom_sm8650]** Merge tag 'ASB-2026-11-02_14-6.1' of https://android.googlesource.com/kernel/common into android15-6.1-lanai *(ID: [511993](https://review.lineageos.org/c/511993))*
-- **[LineageOS/android_kernel_qcom_sm8450]** Merge tag 'ASB-2026-11-02_12-5.10' of https://android.googlesource.com/kernel/common into android13-5.10-waipio *(ID: [511992](https://review.lineageos.org/c/511992))*
-- **[LineageOS/android_hardware_qcom_display]** sdm: Port oplus FOD color handling *(ID: [511910](https://review.lineageos.org/c/511910))*
-- **[LineageOS/android_hardware_qcom_display]** sdm: Fix oplus FOD with the screen off *(ID: [511911](https://review.lineageos.org/c/511911))*
-- **[LineageOS/android_hardware_qcom_display]** composer: Don't expose the iris secondary channel as a display *(ID: [511909](https://review.lineageos.org/c/511909))*
-- **[LineageOS/android_hardware_qcom_display]** sdm: Allow keeping the raw cwb config pointer *(ID: [511908](https://review.lineageos.org/c/511908))*
-- **[LineageOS/android_hardware_qcom_display]** composer: Support Pixelworks HW iris 7 color calibration *(ID: [511907](https://review.lineageos.org/c/511907))*
-- **[LineageOS/android_hardware_qcom_display]** sdm: Support Pixelworks soft-iris color calibration *(ID: [511906](https://review.lineageos.org/c/511906))*
-- **[LineageOS/android_hardware_qcom_display]** sdm: Operate FINGERPRINT_MASK for oplus optical UDFPS *(ID: [511905](https://review.lineageos.org/c/511905))*
 
 </details>
 
