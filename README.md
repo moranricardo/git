@@ -7,51 +7,53 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (217)
+## 🚨 Parches Críticos Detectados (223)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_qcom_display]** composer: Fix the IComposer manifest version *(ID: [512273](https://review.lineageos.org/c/512273))*
-- **[LineageOS/android_hardware_qcom_display]** composer: Support Pixelworks iris 7 video MEMC *(ID: [512272](https://review.lineageos.org/c/512272))*
-- **[LineageOS/android_hardware_qcom_display]** composer: Support Pixelworks Iris7 wrapper *(ID: [512271](https://review.lineageos.org/c/512271))*
-- **[LineageOS/android_hardware_qcom_display]** sdm: Match stock soft-iris color proxy callbacks *(ID: [512270](https://review.lineageos.org/c/512270))*
-- **[LineageOS/android_hardware_qcom_display]** sdm: get around client compositioning for FOD pressed layer *(ID: [512269](https://review.lineageos.org/c/512269))*
-- **[LineageOS/android_hardware_qcom_display]** composer: Add extended display resolution support *(ID: [511983](https://review.lineageos.org/c/511983))*
-- **[LineageOS/android_hardware_qcom_display]** sdm: Fix oplus FOD with the screen off *(ID: [511911](https://review.lineageos.org/c/511911))*
-- **[LineageOS/android_hardware_qcom_display]** sdm: Port oplus FOD color handling *(ID: [511910](https://review.lineageos.org/c/511910))*
-- **[LineageOS/android_hardware_qcom_display]** sdm: Allow keeping the raw cwb config pointer *(ID: [511908](https://review.lineageos.org/c/511908))*
-- **[LineageOS/android_kernel_xiaomi_sm8550]** drivers: qti_battery_charger: Use FG1_RSOC directly for capacity *(ID: [510391](https://review.lineageos.org/c/510391))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Add support for radxa02 *(ID: [501423](https://review.lineageos.org/c/501423))*
-- **[LineageOS/android_kernel_google_sabrina-build]** sabrina: Build the board's remaining drivers *(ID: [512203](https://review.lineageos.org/c/512203))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sabrina: Adapt Google's device tree to this kernel *(ID: [512207](https://review.lineageos.org/c/512207))*
-- **[LineageOS/android_kernel_google_sabrina-build]** sabrina: Build amlogic-bl40 *(ID: [512208](https://review.lineageos.org/c/512208))*
+- **[LineageOS/android_kernel_qcom_sm8650]** Merge tag 'ASB-2026-11-02_14-6.1' of https://android.googlesource.com/kernel/common into HEAD *(ID: [511993](https://review.lineageos.org/c/511993))*
+- **[LineageOS/android_kernel_qcom_sm8650]** Merge branch 'android14-6.1-lts' of https://android.googlesource.com/kernel/common into android15-6.1-lanai *(ID: [511800](https://review.lineageos.org/c/511800))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02: Apply 4.9 board changes *(ID: [501423](https://review.lineageos.org/c/501423))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Rebrand to track device-specific changes *(ID: [512195](https://review.lineageos.org/c/512195))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** drivers: google: Import Type-C and USB power monitor drivers *(ID: [512200](https://review.lineageos.org/c/512200))*
-- **[LineageOS/android_kernel_qcom_sdm660]** qcacmn: Add QCA vendor interface to query usable channels *(ID: [512251](https://review.lineageos.org/c/512251))*
-- **[LineageOS/android_kernel_qcom_sdm660]** qcacmn: Define vendor_command_policy macro to support policy check *(ID: [512252](https://review.lineageos.org/c/512252))*
-- **[LineageOS/android_kernel_qcom_sdm660]** qcacmn: Vendor command to config concurrent STA connection policies *(ID: [512253](https://review.lineageos.org/c/512253))*
-- **[LineageOS/android_kernel_qcom_sdm660]** qcacld-3.0: Add support to config concurrent dual sta policy *(ID: [512254](https://review.lineageos.org/c/512254))*
-- **[LineageOS/android_kernel_qcom_sdm660]** qcacld-3.0: Add support to set primary STA interface *(ID: [512255](https://review.lineageos.org/c/512255))*
-- **[LineageOS/android_kernel_qcom_sdm660]** net: cnss2: Add second element to avoid OOB issue *(ID: [512256](https://review.lineageos.org/c/512256))*
-- **[LineageOS/android_kernel_sony_sdm660]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [512257](https://review.lineageos.org/c/512257))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label OEM backup shared memory *(ID: [509025](https://review.lineageos.org/c/509025))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow init to configure charger logging *(ID: [509020](https://review.lineageos.org/c/509020))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the CNSS serial property *(ID: [509017](https://review.lineageos.org/c/509017))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow remote storage to read the Oplus region *(ID: [509030](https://review.lineageos.org/c/509030))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label legacy Oplus logging and radio properties *(ID: [512249](https://review.lineageos.org/c/512249))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow legacy fingerprint battery reads *(ID: [509024](https://review.lineageos.org/c/509024))*
-- **[LineageOS/android_kernel_qcom_sm8350]** qcacld-3.0: Refine interface combinations advertised in wiphy *(ID: [512217](https://review.lineageos.org/c/512217))*
-- **[LineageOS/android_kernel_qcom_sm8350]** qcacld-3.0: Add support to config concurrent dual sta policy *(ID: [512218](https://review.lineageos.org/c/512218))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02: Rebrand to track device-specific changes *(ID: [512380](https://review.lineageos.org/c/512380))*
+- **[LineageOS/android_kernel_shift_qcm6490]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-24.0 *(ID: [512387](https://review.lineageos.org/c/512387))*
+- **[LineageOS/android_kernel_oneplus_sm4350]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [512386](https://review.lineageos.org/c/512386))*
+- **[LineageOS/android_kernel_fairphone_qcm6490]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-24.0 *(ID: [512385](https://review.lineageos.org/c/512385))*
+- **[LineageOS/android_kernel_fairphone_sm7225]** Merge remote-tracking branch 'sm8250/lineage-20' into lineage-24.0 *(ID: [512384](https://review.lineageos.org/c/512384))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** [DNM] arm64: dts: radxa02: Limit memory to the first 2 GB *(ID: [512383](https://review.lineageos.org/c/512383))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sm1: Restore the 4.9 VDDCPU regulator and OPP table *(ID: [512382](https://review.lineageos.org/c/512382))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sm1: Use the 4.9 CPU reg values on older firmware boards *(ID: [512381](https://review.lineageos.org/c/512381))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: odroidc4: Apply 4.9 board changes *(ID: [512379](https://review.lineageos.org/c/512379))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: odroidc4: Rebrand to track device-specific changes *(ID: [512378](https://review.lineageos.org/c/512378))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Apply 4.9 board changes *(ID: [512377](https://review.lineageos.org/c/512377))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Rebrand to track device-specific changes *(ID: [512376](https://review.lineageos.org/c/512376))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02pro: Apply 4.9 board changes *(ID: [512375](https://review.lineageos.org/c/512375))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02pro: Rebrand to track device-specific changes *(ID: [512374](https://review.lineageos.org/c/512374))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: radxa0: Correct SD card detect polarity *(ID: [512325](https://review.lineageos.org/c/512325))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** drm: logo: Don't free a logo outside the linear map *(ID: [512323](https://review.lineageos.org/c/512323))*
+- **[LineageOS/android_kernel_amlogic_bt-modules]** mtk: usb: Wake on Xiaomi remotes with MT7663 *(ID: [512364](https://review.lineageos.org/c/512364))*
+- **[LineageOS/android_kernel_amlogic_bt-modules]** mtk: usb: Learn the Xiaomi remotes' addresses for WoBLE *(ID: [512365](https://review.lineageos.org/c/512365))*
+- **[LineageOS/android_kernel_motorola_sm6225]** Merge remote-tracking branch 'sm8250/lineage-20' into lineage-24.0 *(ID: [512331](https://review.lineageos.org/c/512331))*
+- **[LineageOS/android_kernel_motorola_sm6375]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2 *(ID: [512328](https://review.lineageos.org/c/512328))*
+- **[LineageOS/android_kernel_qcom_sm8250]** disp: msm: dp: fix double freeing of bridge memory *(ID: [511968](https://review.lineageos.org/c/511968))*
+- **[LineageOS/android_kernel_qcom_sm8250]** kgsl: adreno: Correctly check the ioctl data size *(ID: [511967](https://review.lineageos.org/c/511967))*
+- **[LineageOS/android_kernel_qcom_sm8250]** UPSTREAM: HID: core: Add printk_ratelimited variants to hid_warn() etc *(ID: [511966](https://review.lineageos.org/c/511966))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: ANDROID: 16K: skip fault-around in ELF segment padding holes *(ID: [511848](https://review.lineageos.org/c/511848))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: HID: core: Fix OOB read in hid_get_report for numbered reports *(ID: [511847](https://review.lineageos.org/c/511847))*
 
 </details>
 
-## 📱 Línea Motorola Activa (14)
+## 📱 Línea Motorola Activa (16)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fix unused variable errors *(ID: [512014](https://review.lineageos.org/c/512014))*
 - **[LineageOS/android_device_motorola_smith]** smith: Support concurrent and rear display modes *(ID: [512107](https://review.lineageos.org/c/512107))*
+- **[LineageOS/android_kernel_motorola_sm6225]** Merge remote-tracking branch 'sm8250/lineage-20' into lineage-24.0 *(ID: [512331](https://review.lineageos.org/c/512331))*
+- **[LineageOS/android_kernel_motorola_sm6375]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-23.2 *(ID: [512328](https://review.lineageos.org/c/512328))*
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fix unused variable errors *(ID: [512014](https://review.lineageos.org/c/512014))*
 - **[LineageOS/android_device_motorola_guamna]** guamna: Rename focaltech FW *(ID: [511998](https://review.lineageos.org/c/511998))*
 - **[LineageOS/android_device_motorola_fogos]** fogos: Add missing camera libraries *(ID: [511833](https://review.lineageos.org/c/511833))*
 - **[LineageOS/android_device_motorola_fogo]** fogo: Add missing camera libraries *(ID: [511826](https://review.lineageos.org/c/511826))*
