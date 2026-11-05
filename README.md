@@ -7,41 +7,41 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (207)
+## 🚨 Parches Críticos Detectados (217)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Apply dopinder/wade's stock DTS changes *(ID: [512196](https://review.lineageos.org/c/512196))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Rebrand to track device-specific changes *(ID: [512195](https://review.lineageos.org/c/512195))*
-- **[LineageOS/android_kernel_qcom_sm8250]** fixup! f2fs: fix out-of-bounds access in sysfs attribute read/write *(ID: [511949](https://review.lineageos.org/c/511949))*
-- **[LineageOS/android_kernel_qcom_sm8250]** drivers: nfc: sn-nci: Don't configure the clkreq GPIO as wakeup *(ID: [512193](https://review.lineageos.org/c/512193))*
-- **[LineageOS/android_kernel_qcom_sm8250]** drivers: nfc: sn-nci: Make it build with 4.19 *(ID: [512192](https://review.lineageos.org/c/512192))*
-- **[LineageOS/android_kernel_qcom_sm8250]** drivers: nfc: sn-nci: Make it work with inline builds *(ID: [512191](https://review.lineageos.org/c/512191))*
-- **[LineageOS/android_kernel_qcom_sm8250]** drivers: nfc: sn-nci: Rename Android.bp *(ID: [512162](https://review.lineageos.org/c/512162))*
-- **[LineageOS/android_kernel_qcom_sm8250]** Add 'drivers/nfc/sn-nci/' from commit '1097486a366f4b9e7c25d6993a9767a36a0c095c' *(ID: [512160](https://review.lineageos.org/c/512160))*
-- **[LineageOS/android_hardware_oplus]** power: Apply stock charger cool down levels while interactive *(ID: [512011](https://review.lineageos.org/c/512011))*
-- **[LineageOS/android_hardware_oplus]** extract-utils-ext: Generate charger cool down config *(ID: [512010](https://review.lineageos.org/c/512010))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow fingerprint HAL to find commondcs hwservice *(ID: [512158](https://review.lineageos.org/c/512158))*
-- **[LineageOS/android_device_oneplus_ebba]** ebba: Update chi.override fixup target to bitra *(ID: [512152](https://review.lineageos.org/c/512152))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** charger_ic: Hardcode current max to 6000000 when DASH charging *(ID: [512134](https://review.lineageos.org/c/512134))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** power: oplus: msm7250_R: Expose AC charging limits *(ID: [512133](https://review.lineageos.org/c/512133))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** power: oplus: msm7250_R: Report charge termination current *(ID: [512132](https://review.lineageos.org/c/512132))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** power: oplus: Initialize the fuel-gauge work before cancellation on lito *(ID: [512131](https://review.lineageos.org/c/512131))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** power: oplus: Match duplicate Kconfig symbol types *(ID: [512130](https://review.lineageos.org/c/512130))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** input: aw8697: Use Unix line endings in Kconfig *(ID: [512129](https://review.lineageos.org/c/512129))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** nfc: nq-nci: Probe the Nord NQ330 in NCI mode *(ID: [512128](https://review.lineageos.org/c/512128))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** drm: msm: Validate the optional TE ESD GPIO on lito *(ID: [512127](https://review.lineageos.org/c/512127))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** media: camera-avicii: Handle synchronous OIS flushes *(ID: [512126](https://review.lineageos.org/c/512126))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** media: camera-avicii: Adapt factory firmware code for Clang *(ID: [512125](https://review.lineageos.org/c/512125))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** techpack: camera: Reset to oneplus/sm7250_s_12.1_oneplus_nord *(ID: [512124](https://review.lineageos.org/c/512124))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** arm64: dts: avicii: Drop delay after HBM on brightness command *(ID: [512123](https://review.lineageos.org/c/512123))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** arm64: dts: avicii: Match the charger USB temperature channel names *(ID: [512122](https://review.lineageos.org/c/512122))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** arm64: dts: avicii: Use TLMM settings for the camera regulator GPIO *(ID: [512121](https://review.lineageos.org/c/512121))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** arm64: dts: qcom: Avoid deleted WSA phandles on lito *(ID: [512120](https://review.lineageos.org/c/512120))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** arm64: configs: disable CONFIG_MSM_PERFORMANCE *(ID: [512119](https://review.lineageos.org/c/512119))*
-- **[LineageOS/android_kernel_freebox_nicepool-build]** nicepool: Setup bazel kernel build *(ID: [511141](https://review.lineageos.org/c/511141))*
-- **[LineageOS/android_packages_apps_Launcher3]** fixup! Launcher3: Update default workspace *(ID: [512104](https://review.lineageos.org/c/512104))*
+- **[LineageOS/android_hardware_qcom_display]** composer: Fix the IComposer manifest version *(ID: [512273](https://review.lineageos.org/c/512273))*
+- **[LineageOS/android_hardware_qcom_display]** composer: Support Pixelworks iris 7 video MEMC *(ID: [512272](https://review.lineageos.org/c/512272))*
+- **[LineageOS/android_hardware_qcom_display]** composer: Support Pixelworks Iris7 wrapper *(ID: [512271](https://review.lineageos.org/c/512271))*
+- **[LineageOS/android_hardware_qcom_display]** sdm: Match stock soft-iris color proxy callbacks *(ID: [512270](https://review.lineageos.org/c/512270))*
+- **[LineageOS/android_hardware_qcom_display]** sdm: get around client compositioning for FOD pressed layer *(ID: [512269](https://review.lineageos.org/c/512269))*
+- **[LineageOS/android_hardware_qcom_display]** composer: Add extended display resolution support *(ID: [511983](https://review.lineageos.org/c/511983))*
+- **[LineageOS/android_hardware_qcom_display]** sdm: Fix oplus FOD with the screen off *(ID: [511911](https://review.lineageos.org/c/511911))*
+- **[LineageOS/android_hardware_qcom_display]** sdm: Port oplus FOD color handling *(ID: [511910](https://review.lineageos.org/c/511910))*
+- **[LineageOS/android_hardware_qcom_display]** sdm: Allow keeping the raw cwb config pointer *(ID: [511908](https://review.lineageos.org/c/511908))*
+- **[LineageOS/android_kernel_xiaomi_sm8550]** drivers: qti_battery_charger: Use FG1_RSOC directly for capacity *(ID: [510391](https://review.lineageos.org/c/510391))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Add support for radxa02 *(ID: [501423](https://review.lineageos.org/c/501423))*
+- **[LineageOS/android_kernel_google_sabrina-build]** sabrina: Build the board's remaining drivers *(ID: [512203](https://review.lineageos.org/c/512203))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sabrina: Adapt Google's device tree to this kernel *(ID: [512207](https://review.lineageos.org/c/512207))*
+- **[LineageOS/android_kernel_google_sabrina-build]** sabrina: Build amlogic-bl40 *(ID: [512208](https://review.lineageos.org/c/512208))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** drivers: google: Import Type-C and USB power monitor drivers *(ID: [512200](https://review.lineageos.org/c/512200))*
+- **[LineageOS/android_kernel_qcom_sdm660]** qcacmn: Add QCA vendor interface to query usable channels *(ID: [512251](https://review.lineageos.org/c/512251))*
+- **[LineageOS/android_kernel_qcom_sdm660]** qcacmn: Define vendor_command_policy macro to support policy check *(ID: [512252](https://review.lineageos.org/c/512252))*
+- **[LineageOS/android_kernel_qcom_sdm660]** qcacmn: Vendor command to config concurrent STA connection policies *(ID: [512253](https://review.lineageos.org/c/512253))*
+- **[LineageOS/android_kernel_qcom_sdm660]** qcacld-3.0: Add support to config concurrent dual sta policy *(ID: [512254](https://review.lineageos.org/c/512254))*
+- **[LineageOS/android_kernel_qcom_sdm660]** qcacld-3.0: Add support to set primary STA interface *(ID: [512255](https://review.lineageos.org/c/512255))*
+- **[LineageOS/android_kernel_qcom_sdm660]** net: cnss2: Add second element to avoid OOB issue *(ID: [512256](https://review.lineageos.org/c/512256))*
+- **[LineageOS/android_kernel_sony_sdm660]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [512257](https://review.lineageos.org/c/512257))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label OEM backup shared memory *(ID: [509025](https://review.lineageos.org/c/509025))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow init to configure charger logging *(ID: [509020](https://review.lineageos.org/c/509020))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the CNSS serial property *(ID: [509017](https://review.lineageos.org/c/509017))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow remote storage to read the Oplus region *(ID: [509030](https://review.lineageos.org/c/509030))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label legacy Oplus logging and radio properties *(ID: [512249](https://review.lineageos.org/c/512249))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow legacy fingerprint battery reads *(ID: [509024](https://review.lineageos.org/c/509024))*
+- **[LineageOS/android_kernel_qcom_sm8350]** qcacld-3.0: Refine interface combinations advertised in wiphy *(ID: [512217](https://review.lineageos.org/c/512217))*
+- **[LineageOS/android_kernel_qcom_sm8350]** qcacld-3.0: Add support to config concurrent dual sta policy *(ID: [512218](https://review.lineageos.org/c/512218))*
 
 </details>
 
@@ -50,8 +50,8 @@
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fix unused variable errors *(ID: [512014](https://review.lineageos.org/c/512014))*
 - **[LineageOS/android_device_motorola_smith]** smith: Support concurrent and rear display modes *(ID: [512107](https://review.lineageos.org/c/512107))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fix unused variables errors *(ID: [512014](https://review.lineageos.org/c/512014))*
 - **[LineageOS/android_device_motorola_guamna]** guamna: Rename focaltech FW *(ID: [511998](https://review.lineageos.org/c/511998))*
 - **[LineageOS/android_device_motorola_fogos]** fogos: Add missing camera libraries *(ID: [511833](https://review.lineageos.org/c/511833))*
 - **[LineageOS/android_device_motorola_fogo]** fogo: Add missing camera libraries *(ID: [511826](https://review.lineageos.org/c/511826))*
