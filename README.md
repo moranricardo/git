@@ -7,34 +7,16 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (179)
+## 🚨 Parches Críticos Detectados (174)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_oneplus_sm8650]** Merge remote-tracking branch 'sm8650/lineage-22.2' into HEAD *(ID: [512420](https://review.lineageos.org/c/512420))*
-- **[LineageOS/android_hardware_oplus]** vintf: Allow the legacy CommonDcs replacement *(ID: [512419](https://review.lineageos.org/c/512419))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Integrate the legacy CommonDcs replacement *(ID: [512418](https://review.lineageos.org/c/512418))*
-- **[LineageOS/android_hardware_oplus]** hidl: Add vendor.oplus.hardware.commondcs@1.0-service *(ID: [512417](https://review.lineageos.org/c/512417))*
-- **[LineageOS/android_hardware_oplus]** interfaces: Add vendor.oplus.hardware.commondcs@1.0 *(ID: [512416](https://review.lineageos.org/c/512416))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow face HAL to use SurfaceFlinger fences *(ID: [512397](https://review.lineageos.org/c/512397))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label legacy Oplus logging and radio properties *(ID: [512249](https://review.lineageos.org/c/512249))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow remote storage to read the Oplus region *(ID: [509030](https://review.lineageos.org/c/509030))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the legacy Widevine AIDL service *(ID: [509028](https://review.lineageos.org/c/509028))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label OEM backup shared memory *(ID: [509025](https://review.lineageos.org/c/509025))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow legacy fingerprint battery reads *(ID: [509024](https://review.lineageos.org/c/509024))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the CNSS serial property *(ID: [509017](https://review.lineageos.org/c/509017))*
-- **[LineageOS/android_device_oneplus_sm8650-common]** sm8650-common: Drop PowerFeatureConfig.xml fixup *(ID: [511902](https://review.lineageos.org/c/511902))*
-- **[LineageOS/android_device_oneplus_sm8650-common]** sm8650-common: Fix Bluetooth HAL capabilities *(ID: [511894](https://review.lineageos.org/c/511894))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow fingerprint HAL to find commondcs hwservice *(ID: [512158](https://review.lineageos.org/c/512158))*
-- **[LineageOS/android_kernel_samsung_exynos9820]** Merge branch 'lineage-24.0-staging' into lineage-24.0 *(ID: [512406](https://review.lineageos.org/c/512406))*
-- **[LineageOS/android_device_xiaomi_sm8550-common]** sm8550-common: overlay: Fix the issue that aapt2 strip leading 0 from the raw string *(ID: [512410](https://review.lineageos.org/c/512410))*
-- **[LineageOS/android_hardware_qcom_audio-ar]** configs: Allow debuggerd fallback syscalls for qcom c2audio *(ID: [512413](https://review.lineageos.org/c/512413))*
-- **[LineageOS/android_hardware_qcom_audio-ar]** configs: Allow setsockopt syscall for qcom c2audio *(ID: [512412](https://review.lineageos.org/c/512412))*
-- **[LineageOS/android_hardware_qcom_audio-ar]** core: Drop A2DP device ports without offload *(ID: [511272](https://review.lineageos.org/c/511272))*
-- **[LineageOS/android_hardware_mediatek]** aidl: bluetooth: Link to death of the HCI callback *(ID: [512411](https://review.lineageos.org/c/512411))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** hdmitx20: sm1: Tune the 6G PHY from the firmware oscring value *(ID: [512204](https://review.lineageos.org/c/512204))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sabrina: Adapt Google's device tree to this kernel *(ID: [512207](https://review.lineageos.org/c/512207))*
+- **[LineageOS/android_kernel_amlogic_bt-modules]** mtk: usb: Don't pass responses to the driver's own commands to the stack *(ID: [512493](https://review.lineageos.org/c/512493))*
+- **[LineageOS/android_kernel_amlogic_bt-modules]** mtk: usb: Learn the Xiaomi remotes' addresses for WoBLE *(ID: [512365](https://review.lineageos.org/c/512365))*
+- **[LineageOS/android_packages_apps_TvSettings]** ButtonsFragment: Fix advanced restart preference *(ID: [467765](https://review.lineageos.org/c/467765))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sabrina: Fix board thermistor readings *(ID: [512506](https://review.lineageos.org/c/512506))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** iio: adc: meson_saradc: Allow dropping the processed channel attribute *(ID: [512505](https://review.lineageos.org/c/512505))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Enable eMMC HS200 and HS400 *(ID: [512396](https://review.lineageos.org/c/512396))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Configure video memory *(ID: [512395](https://review.lineageos.org/c/512395))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** [DNM] arm64: dts: radxa02: Limit memory to the first 2 GB *(ID: [512383](https://review.lineageos.org/c/512383))*
@@ -42,16 +24,40 @@
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sm1: Use the 4.9 CPU reg values on older firmware boards *(ID: [512381](https://review.lineageos.org/c/512381))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02: Rebrand to track device-specific changes *(ID: [512380](https://review.lineageos.org/c/512380))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: odroidc4: Apply 4.9 board changes *(ID: [512379](https://review.lineageos.org/c/512379))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: odroidc4: Rebrand to track device-specific changes *(ID: [512378](https://review.lineageos.org/c/512378))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Apply 4.9 board changes *(ID: [512377](https://review.lineageos.org/c/512377))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Rebrand to track device-specific changes *(ID: [512376](https://review.lineageos.org/c/512376))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02pro: Apply 4.9 board changes *(ID: [512375](https://review.lineageos.org/c/512375))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02pro: Rebrand to track device-specific changes *(ID: [512374](https://review.lineageos.org/c/512374))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: radxa0: Correct SD card detect polarity *(ID: [512325](https://review.lineageos.org/c/512325))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** drm: logo: Don't free a logo outside the linear map *(ID: [512323](https://review.lineageos.org/c/512323))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** hdmitx20: sm1: Tune the 6G PHY from the firmware oscring value *(ID: [512204](https://review.lineageos.org/c/512204))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Apply dopinder/wade's stock DTS changes *(ID: [512196](https://review.lineageos.org/c/512196))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Rebrand to track device-specific changes *(ID: [512195](https://review.lineageos.org/c/512195))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: WIP *(ID: [512070](https://review.lineageos.org/c/512070))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** mmc: meson-g12a: Re-establish SD-card UART console switching *(ID: [512069](https://review.lineageos.org/c/512069))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02: Apply 4.9 board changes *(ID: [501423](https://review.lineageos.org/c/501423))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Add GPIO keypad *(ID: [500067](https://review.lineageos.org/c/500067))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Add partition files *(ID: [500066](https://review.lineageos.org/c/500066))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Initialize nicepool based on g12a_s905x2_u212 *(ID: [500065](https://review.lineageos.org/c/500065))*
+- **[LineageOS/android_kernel_samsung_s5e9925]** arch: arm64: configs: Enable SafeSetID to limit CAP_SET{U/G}ID capabilities *(ID: [512492](https://review.lineageos.org/c/512492))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: Add support for new restrictions property *(ID: [510598](https://review.lineageos.org/c/510598))*
 
 </details>
 
-## 📱 Línea Motorola Activa (13)
+## 📱 Línea Motorola Activa (19)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
 - **[LineageOS/android_device_motorola_smith]** smith: Support concurrent and rear display modes *(ID: [512107](https://review.lineageos.org/c/512107))*
-- **[LineageOS/android_kernel_motorola_sm6225]** Merge remote-tracking branch 'sm8250/lineage-20' into lineage-24.0 *(ID: [512331](https://review.lineageos.org/c/512331))*
+- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: init: Add back loc_launcher *(ID: [512481](https://review.lineageos.org/c/512481))*
+- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Inherit common motorola FCM *(ID: [508369](https://review.lineageos.org/c/508369))*
+- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Build audio HAL from source *(ID: [511021](https://review.lineageos.org/c/511021))*
+- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: audio: Use stock low latency buffer sizes *(ID: [510897](https://review.lineageos.org/c/510897))*
+- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: audio: Align feature flags with stock *(ID: [510896](https://review.lineageos.org/c/510896))*
+- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Build QCOM audio effects *(ID: [428954](https://review.lineageos.org/c/428954))*
+- **[LineageOS/android_device_motorola_sm7250-common]** sm7250-common: Make persist.vendor.audio.fluence.voicecall overridable *(ID: [428953](https://review.lineageos.org/c/428953))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: gps: Fix unused variable errors *(ID: [512014](https://review.lineageos.org/c/512014))*
 - **[LineageOS/android_device_motorola_guamna]** guamna: Rename focaltech FW *(ID: [511998](https://review.lineageos.org/c/511998))*
 - **[LineageOS/android_device_motorola_fogos]** fogos: Add missing camera libraries *(ID: [511833](https://review.lineageos.org/c/511833))*
