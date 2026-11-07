@@ -1,22 +1,27 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-06-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-07-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (174)
+## 🚨 Parches Críticos Detectados (170)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02pro: Apply 4.9 board changes *(ID: [512375](https://review.lineageos.org/c/512375))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Rebrand to track device-specific changes *(ID: [512195](https://review.lineageos.org/c/512195))*
+- **[LineageOS/android_kernel_oneplus_sm8750]** BACKPORT: exec: Cleanup POSIX timers right after de_thread() *(ID: [512426](https://review.lineageos.org/c/512426))*
+- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: f2fs: compress: fix UAF of f2fs_inode_info in f2fs_free_dic *(ID: [512521](https://review.lineageos.org/c/512521))*
+- **[LineageOS/android_kernel_qcom_sm8350]** tls: Fix race condition in tls_sw_cancel_work_tx() *(ID: [512520](https://review.lineageos.org/c/512520))*
+- **[LineageOS/android_kernel_qcom_sm8350]** xfrm: esp: avoid in-place decrypt on shared skb frags *(ID: [512519](https://review.lineageos.org/c/512519))*
+- **[LineageOS/android_kernel_qcom_sm8350]** BACKPORT: f2fs: compress: fix UAF of f2fs_inode_info in f2fs_free_dic *(ID: [512518](https://review.lineageos.org/c/512518))*
 - **[LineageOS/android_kernel_amlogic_bt-modules]** mtk: usb: Don't pass responses to the driver's own commands to the stack *(ID: [512493](https://review.lineageos.org/c/512493))*
+- **[LineageOS/android_kernel_amlogic_bt-modules]** mtk: usb: Wake on Xiaomi remotes with MT7663 *(ID: [512364](https://review.lineageos.org/c/512364))*
 - **[LineageOS/android_kernel_amlogic_bt-modules]** mtk: usb: Learn the Xiaomi remotes' addresses for WoBLE *(ID: [512365](https://review.lineageos.org/c/512365))*
-- **[LineageOS/android_packages_apps_TvSettings]** ButtonsFragment: Fix advanced restart preference *(ID: [467765](https://review.lineageos.org/c/467765))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sabrina: Fix board thermistor readings *(ID: [512506](https://review.lineageos.org/c/512506))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** iio: adc: meson_saradc: Allow dropping the processed channel attribute *(ID: [512505](https://review.lineageos.org/c/512505))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Enable eMMC HS200 and HS400 *(ID: [512396](https://review.lineageos.org/c/512396))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Configure video memory *(ID: [512395](https://review.lineageos.org/c/512395))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** [DNM] arm64: dts: radxa02: Limit memory to the first 2 GB *(ID: [512383](https://review.lineageos.org/c/512383))*
@@ -27,21 +32,16 @@
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: odroidc4: Rebrand to track device-specific changes *(ID: [512378](https://review.lineageos.org/c/512378))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Apply 4.9 board changes *(ID: [512377](https://review.lineageos.org/c/512377))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Rebrand to track device-specific changes *(ID: [512376](https://review.lineageos.org/c/512376))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02pro: Apply 4.9 board changes *(ID: [512375](https://review.lineageos.org/c/512375))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02pro: Rebrand to track device-specific changes *(ID: [512374](https://review.lineageos.org/c/512374))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: radxa0: Correct SD card detect polarity *(ID: [512325](https://review.lineageos.org/c/512325))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** drm: logo: Don't free a logo outside the linear map *(ID: [512323](https://review.lineageos.org/c/512323))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** hdmitx20: sm1: Tune the 6G PHY from the firmware oscring value *(ID: [512204](https://review.lineageos.org/c/512204))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Apply dopinder/wade's stock DTS changes *(ID: [512196](https://review.lineageos.org/c/512196))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Rebrand to track device-specific changes *(ID: [512195](https://review.lineageos.org/c/512195))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: WIP *(ID: [512070](https://review.lineageos.org/c/512070))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** mmc: meson-g12a: Re-establish SD-card UART console switching *(ID: [512069](https://review.lineageos.org/c/512069))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02: Apply 4.9 board changes *(ID: [501423](https://review.lineageos.org/c/501423))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Add GPIO keypad *(ID: [500067](https://review.lineageos.org/c/500067))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Add partition files *(ID: [500066](https://review.lineageos.org/c/500066))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: Initialize nicepool based on g12a_s905x2_u212 *(ID: [500065](https://review.lineageos.org/c/500065))*
-- **[LineageOS/android_kernel_samsung_s5e9925]** arch: arm64: configs: Enable SafeSetID to limit CAP_SET{U/G}ID capabilities *(ID: [512492](https://review.lineageos.org/c/512492))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: Add support for new restrictions property *(ID: [510598](https://review.lineageos.org/c/510598))*
 
 </details>
 
