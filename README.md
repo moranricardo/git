@@ -1,47 +1,47 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-07-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-08-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (154)
+## 🚨 Parches Críticos Detectados (147)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_amlogic_u-boot]** bootm: Add the overlay size to the FDT size before byte-swapping *(ID: [512324](https://review.lineageos.org/c/512324))*
-- **[LineageOS/android_hardware_amlogic_u-boot]** board: radxa: Pass the hidden memory to the kernel *(ID: [512322](https://review.lineageos.org/c/512322))*
-- **[LineageOS/android_hardware_amlogic_u-boot]** board: radxa: Compute DRAM size in 64 bits *(ID: [512321](https://review.lineageos.org/c/512321))*
-- **[LineageOS/android_kernel_samsung_exynos9820]** arm64: exynos9820*_defconfig: Enable CONFIG_SECURITYFS *(ID: [512634](https://review.lineageos.org/c/512634))*
+- **[LineageOS/android_device_oneplus_sm8650-common]** sm8650-common: Drop PowerFeatureConfig.xml fixup *(ID: [511902](https://review.lineageos.org/c/511902))*
+- **[LineageOS/android_device_oneplus_sm8650-common]** sm8650-common: Fix Bluetooth HAL capabilities *(ID: [511894](https://review.lineageos.org/c/511894))*
+- **[LineageOS/android_hardware_xiaomi]** packages: Add RemoteVoice remote mic service *(ID: [512663](https://review.lineageos.org/c/512663))*
+- **[LineageOS/android_kernel_samsung_exynos9820]** mali: Disable duplicate __poll_t type definition *(ID: [512662](https://review.lineageos.org/c/512662))*
 - **[LineageOS/android_kernel_samsung_exynos9820]** Merge remote-tracking branch 'phoenix/android-4.14-phoenix' into lineage-24.0 *(ID: [512406](https://review.lineageos.org/c/512406))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: Add support for new restrictions property *(ID: [510598](https://review.lineageos.org/c/510598))*
+- **[LineageOS/android_kernel_samsung_exynos9820]** arm64: exynos9820*_defconfig: Enable CONFIG_SECURITYFS *(ID: [512634](https://review.lineageos.org/c/512634))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02: Apply 4.9 board changes *(ID: [501423](https://review.lineageos.org/c/501423))*
+- **[LineageOS/android_kernel_samsung_s5e8825]** ARM64: configs: Switch to r49p1 mali driver *(ID: [512658](https://review.lineageos.org/c/512658))*
+- **[LineageOS/android_kernel_samsung_s5e8825]** drivers: gpu: exynos: Include protected mode PM declarations *(ID: [512657](https://review.lineageos.org/c/512657))*
+- **[LineageOS/android_kernel_samsung_s5e8825]** drivers: gpu: v_r49p1: Convert MALI_ARBITRATION to a bool *(ID: [512656](https://review.lineageos.org/c/512656))*
+- **[LineageOS/android_kernel_samsung_s5e8825]** drivers: gpu: v_r49p1: Fix 5.10 API mismatches *(ID: [512655](https://review.lineageos.org/c/512655))*
+- **[LineageOS/android_kernel_samsung_s5e8825]** drivers: gpu: v_r49p1: Import from A185FXXU1AZHG *(ID: [512654](https://review.lineageos.org/c/512654))*
+- **[LineageOS/android_kernel_qcom_sm8250]** arm64: configs: vendor: Enable CFI *(ID: [478010](https://review.lineageos.org/c/478010))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02: Limit memory to the first 2 GB *(ID: [512383](https://review.lineageos.org/c/512383))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02: Rebrand to track device-specific changes *(ID: [512380](https://review.lineageos.org/c/512380))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Enable eMMC HS200 and HS400 *(ID: [512396](https://review.lineageos.org/c/512396))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Configure video memory *(ID: [512395](https://review.lineageos.org/c/512395))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sm1: Restore the 4.9 VDDCPU regulator and OPP table *(ID: [512382](https://review.lineageos.org/c/512382))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sm1: Use the 4.9 CPU reg values on older firmware boards *(ID: [512381](https://review.lineageos.org/c/512381))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: odroidc4: Apply 4.9 board changes *(ID: [512379](https://review.lineageos.org/c/512379))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: odroidc4: Rebrand to track device-specific changes *(ID: [512378](https://review.lineageos.org/c/512378))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Apply 4.9 board changes *(ID: [512377](https://review.lineageos.org/c/512377))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Rebrand to track device-specific changes *(ID: [512376](https://review.lineageos.org/c/512376))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** drm: logo: Don't free a logo outside the linear map *(ID: [512323](https://review.lineageos.org/c/512323))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Apply dopinder/wade's stock DTS changes *(ID: [512196](https://review.lineageos.org/c/512196))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_codec2]** fixup! codec2: convert to bp *(ID: [512630](https://review.lineageos.org/c/512630))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: s5e8825: Disable 10-bit support *(ID: [512629](https://review.lineageos.org/c/512629))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: Wire up Unsupport 10-bit *(ID: [512628](https://review.lineageos.org/c/512628))*
-- **[LineageOS/android_hardware_qcom_display]** composer: Support Pixelworks Iris7 wrapper *(ID: [512271](https://review.lineageos.org/c/512271))*
-- **[LineageOS/android_hardware_qcom_display]** sdm: Match stock soft-iris color proxy callbacks *(ID: [512270](https://review.lineageos.org/c/512270))*
-- **[LineageOS/android_hardware_qcom_display]** sdmclient: Allow aspect ratio mismatch for destination scaler. *(ID: [512568](https://review.lineageos.org/c/512568))*
-- **[LineageOS/android_hardware_oplus]** interfaces: Update IPerformance to V4-V5 *(ID: [509921](https://review.lineageos.org/c/509921))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e8845: Adapt to s5e8845 *(ID: [489696](https://review.lineageos.org/c/489696))*
-- **[LineageOS/android_kernel_oneplus_sm7250]** GKI: msm: vidc: don't fail probe when sku_index != sku_version *(ID: [512598](https://review.lineageos.org/c/512598))*
-- **[LineageOS/android_vendor_apn]** fix: Restore China Unicom IMS APNs and dual-stack support *(ID: [512595](https://review.lineageos.org/c/512595))*
-- **[LineageOS/android_hardware_motorola]** MotoActions: Add open to answer action *(ID: [509260](https://review.lineageos.org/c/509260))*
-- **[LineageOS/android_hardware_qcom_display]** sdm: get around client compositioning for FOD pressed layer *(ID: [512269](https://review.lineageos.org/c/512269))*
-- **[LineageOS/android_hardware_oplus]** Introduce OplusMemc app *(ID: [512278](https://review.lineageos.org/c/512278))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add Pixelworks Iris feature service policy *(ID: [512277](https://review.lineageos.org/c/512277))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow sensor HAL to use vndbinder *(ID: [511458](https://review.lineageos.org/c/511458))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow nvram_qmi to set radio props *(ID: [511301](https://review.lineageos.org/c/511301))*
-- **[LineageOS/android_hardware_oplus]** vintf: Update fwk matrix for COS 17.0.0 *(ID: [509825](https://review.lineageos.org/c/509825))*
-- **[LineageOS/android_hardware_oplus]** interfaces: Update ICharger to V12 *(ID: [509920](https://review.lineageos.org/c/509920))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label tfa98xx smart PA device *(ID: [511300](https://review.lineageos.org/c/511300))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label HBP report *(ID: [509829](https://review.lineageos.org/c/509829))*
-- **[LineageOS/android_hardware_oplus]** interfaces: Introduce vendor.oplus.hardware.a2dp_offload V1 *(ID: [509827](https://review.lineageos.org/c/509827))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow dumping horae *(ID: [511218](https://review.lineageos.org/c/511218))*
-- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Support the compat subsys_radio interface *(ID: [511217](https://review.lineageos.org/c/511217))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Rebrand to track device-specific changes *(ID: [512195](https://review.lineageos.org/c/512195))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: WIP *(ID: [512070](https://review.lineageos.org/c/512070))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** mmc: meson-g12a: Re-establish SD-card UART console switching *(ID: [512069](https://review.lineageos.org/c/512069))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Add GPIO keypad *(ID: [500067](https://review.lineageos.org/c/500067))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Add partition files *(ID: [500066](https://review.lineageos.org/c/500066))*
 
 </details>
 
