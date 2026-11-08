@@ -7,19 +7,29 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (142)
+## 🚨 Parches Críticos Detectados (141)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_qcom_sm8250]** UPSTREAM: f2fs: fix out-of-bounds access in sysfs attribute read/write *(ID: [512697](https://review.lineageos.org/c/512697))*
+- **[LineageOS/android_kernel_qcom_sm8250]** Revert "f2fs: fix out-of-bounds access in sysfs attribute read/write" *(ID: [510724](https://review.lineageos.org/c/510724))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow fingerprint HAL to find commondcs hwservice *(ID: [512158](https://review.lineageos.org/c/512158))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label the legacy Widevine AIDL service *(ID: [509028](https://review.lineageos.org/c/509028))*
+- **[LineageOS/android_frameworks_base]** [MTP] Fix lock-screen bypass via default USB functions on timeout *(ID: [508281](https://review.lineageos.org/c/508281))*
+- **[LineageOS/android_frameworks_base]** Fix integer overflow in ZipFileRO::getEntryFileName *(ID: [508276](https://review.lineageos.org/c/508276))*
+- **[LineageOS/android_kernel_xiaomi_sm8450]** power: supply: qti_battery_charger: preserve M81 property ABI *(ID: [509881](https://review.lineageos.org/c/509881))*
+- **[LineageOS/android_device_samsung_exynos9820-common]** exynos9820-common: fix eID (extended APDU) NFC regression on 23.2 *(ID: [506968](https://review.lineageos.org/c/506968))*
+- **[LineageOS/android_frameworks_base]** RESTRICT AUTOMERGE: Fix integer underflow vulnerability in PduParser *(ID: [508270](https://review.lineageos.org/c/508270))*
+- **[LineageOS/android_frameworks_base]** SystemUi UsbDialog: fix label vulnerability *(ID: [508269](https://review.lineageos.org/c/508269))*
+- **[LineageOS/android_frameworks_base]** Fix shell command vulnerability in WindowManagerService *(ID: [508263](https://review.lineageos.org/c/508263))*
+- **[LineageOS/android_packages_services_Mms]** [1] MmsService: Fix phone-uid confused deputy vulnerability on ContentProvider *(ID: [508293](https://review.lineageos.org/c/508293))*
 - **[LineageOS/android_system_bt]** Fix L2CAP heap overflow by enforcing minimum MPS *(ID: [508294](https://review.lineageos.org/c/508294))*
 - **[LineageOS/android_packages_providers_TelephonyProvider]** Fix permission bypass with empty projection array *(ID: [508290](https://review.lineageos.org/c/508290))*
 - **[LineageOS/android_packages_providers_TelephonyProvider]** Fix permission bypass with empty projection array *(ID: [512702](https://review.lineageos.org/c/512702))*
 - **[LineageOS/android_hardware_interfaces]** Fix CAS HAL integer truncation vulnerability *(ID: [508285](https://review.lineageos.org/c/508285))*
 - **[LineageOS/android_packages_apps_Settings]** Fix Background Activity Launch (BAL) bypass in AddAccountSettings *(ID: [508288](https://review.lineageos.org/c/508288))*
-- **[LineageOS/android_kernel_qcom_sm8250]** UPSTREAM: f2fs: fix out-of-bounds access in sysfs attribute read/write *(ID: [512697](https://review.lineageos.org/c/512697))*
 - **[LineageOS/android_hardware_oplus]** fingerprint: Only enable HBM dimlayer on touch down *(ID: [512692](https://review.lineageos.org/c/512692))*
-- **[LineageOS/android_kernel_qcom_sm8250]** Revert "f2fs: fix out-of-bounds access in sysfs attribute read/write" *(ID: [510724](https://review.lineageos.org/c/510724))*
 - **[LineageOS/android_hardware_xiaomi]** packages: Add RemoteVoice remote mic service *(ID: [512663](https://review.lineageos.org/c/512663))*
 - **[LineageOS/android_hardware_qcom_display]** sdm: Fix oplus FOD with the screen off *(ID: [511911](https://review.lineageos.org/c/511911))*
 - **[LineageOS/android_hardware_qcom_display]** sdm: Port oplus FOD color handling *(ID: [511910](https://review.lineageos.org/c/511910))*
@@ -32,16 +42,6 @@
 - **[LineageOS/android_device_oneplus_sm8650-common]** sm8650-common: Fix Bluetooth HAL capabilities *(ID: [511894](https://review.lineageos.org/c/511894))*
 - **[LineageOS/android_kernel_samsung_exynos9820]** mali: Disable duplicate __poll_t type definition *(ID: [512662](https://review.lineageos.org/c/512662))*
 - **[LineageOS/android_kernel_samsung_exynos9820]** Merge remote-tracking branch 'phoenix/android-4.14-phoenix' into lineage-24.0 *(ID: [512406](https://review.lineageos.org/c/512406))*
-- **[LineageOS/android_kernel_samsung_exynos9820]** arm64: exynos9820*_defconfig: Enable CONFIG_SECURITYFS *(ID: [512634](https://review.lineageos.org/c/512634))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02: Apply 4.9 board changes *(ID: [501423](https://review.lineageos.org/c/501423))*
-- **[LineageOS/android_kernel_samsung_s5e8825]** ARM64: configs: Switch to r49p1 mali driver *(ID: [512658](https://review.lineageos.org/c/512658))*
-- **[LineageOS/android_kernel_samsung_s5e8825]** drivers: gpu: exynos: Include protected mode PM declarations *(ID: [512657](https://review.lineageos.org/c/512657))*
-- **[LineageOS/android_kernel_samsung_s5e8825]** drivers: gpu: v_r49p1: Convert MALI_ARBITRATION to a bool *(ID: [512656](https://review.lineageos.org/c/512656))*
-- **[LineageOS/android_kernel_samsung_s5e8825]** drivers: gpu: v_r49p1: Fix 5.10 API mismatches *(ID: [512655](https://review.lineageos.org/c/512655))*
-- **[LineageOS/android_kernel_samsung_s5e8825]** drivers: gpu: v_r49p1: Import from A185FXXU1AZHG *(ID: [512654](https://review.lineageos.org/c/512654))*
-- **[LineageOS/android_kernel_qcom_sm8250]** arm64: configs: vendor: Enable CFI *(ID: [478010](https://review.lineageos.org/c/478010))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02: Limit memory to the first 2 GB *(ID: [512383](https://review.lineageos.org/c/512383))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: radxa02: Rebrand to track device-specific changes *(ID: [512380](https://review.lineageos.org/c/512380))*
 
 </details>
 
