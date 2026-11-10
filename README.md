@@ -7,49 +7,60 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (140)
+## 🚨 Parches Críticos Detectados (183)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_qcom_sm8350]** BACKPORT: posix-cpu-timers: Cleanup CPU timers before freeing them during exec *(ID: [512817](https://review.lineageos.org/c/512817))*
-- **[LineageOS/android_kernel_qcom_sm8350]** ANDROID: 16K: Fix padding calculation during VMA split *(ID: [512815](https://review.lineageos.org/c/512815))*
-- **[LineageOS/android_kernel_qcom_sm8350]** ANDROID: 16K: Allow VMAs with all padding pages. *(ID: [512814](https://review.lineageos.org/c/512814))*
-- **[LineageOS/android_kernel_qcom_sm8350]** ipv4: validate checksum_start before completing checksum *(ID: [512830](https://review.lineageos.org/c/512830))*
-- **[LineageOS/android_kernel_qcom_sm8350]** netfilter: nfnetlink_queue: unbreak SCTP traffic *(ID: [512829](https://review.lineageos.org/c/512829))*
-- **[LineageOS/android_kernel_qcom_sm8350]** net: add inline function skb_csum_is_sctp *(ID: [512828](https://review.lineageos.org/c/512828))*
-- **[LineageOS/android_kernel_qcom_sm8350]** ipv4: free inet_opt and ireq_opt after an RCU grace period *(ID: [512827](https://review.lineageos.org/c/512827))*
-- **[LineageOS/android_kernel_qcom_sm8350]** net: tun: bound receive headroom *(ID: [512826](https://review.lineageos.org/c/512826))*
-- **[LineageOS/android_kernel_qcom_sm8350]** inet: frags: strip GSO state from fragments before reassembly *(ID: [512825](https://review.lineageos.org/c/512825))*
-- **[LineageOS/android_kernel_qcom_sm8350]** crypto: ecc - Fix carry overflow in vli multiplication *(ID: [512824](https://review.lineageos.org/c/512824))*
-- **[LineageOS/android_kernel_qcom_sm8350]** crypto: drbg - Fix returning success on failure in CTR_DRBG *(ID: [512823](https://review.lineageos.org/c/512823))*
-- **[LineageOS/android_kernel_qcom_sm8350]** tipc: fix bc_ackers underflow on duplicate GRP_ACK_MSG *(ID: [512822](https://review.lineageos.org/c/512822))*
-- **[LineageOS/android_kernel_qcom_sm8350]** netfilter: nf_conntrack_h323: check for zero length in DecodeQ931() *(ID: [512821](https://review.lineageos.org/c/512821))*
-- **[LineageOS/android_kernel_qcom_sm8350]** af_unix: Fix UAF read of tail->len in unix_stream_data_wait() *(ID: [512820](https://review.lineageos.org/c/512820))*
-- **[LineageOS/android_kernel_qcom_sm8350]** ANDROID: fuse-bpf: fix verifier bypass in fuse_prog_is_valid_access *(ID: [512818](https://review.lineageos.org/c/512818))*
-- **[LineageOS/android_kernel_qcom_sm8350]** posix-cpu-timers: Fix pid refcount leak in do_cpu_nanosleep() error path *(ID: [512816](https://review.lineageos.org/c/512816))*
-- **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [512813](https://review.lineageos.org/c/512813))*
-- **[LineageOS/android_kernel_motorola_sm8550-devicetrees]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550-devicetrees into HEAD *(ID: [512812](https://review.lineageos.org/c/512812))*
-- **[LineageOS/android_hardware_qcom_audio]** hal: Enable ACDB instance ID support when the ACDB files use it *(ID: [512811](https://review.lineageos.org/c/512811))*
-- **[LineageOS/android_hardware_qcom_audio]** hal: Add open source MIUS ultrasound proximity extension *(ID: [512810](https://review.lineageos.org/c/512810))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** hwc: Wire up HDR Meta Plugin *(ID: [512490](https://review.lineageos.org/c/512490))*
-- **[LineageOS/android_hardware_samsung]** aidl: gnss: Adapt to Samsung *(ID: [512806](https://review.lineageos.org/c/512806))*
-- **[LineageOS/android_hardware_samsung]** aidl: gnss: Drop superfluous AOSP code *(ID: [512807](https://review.lineageos.org/c/512807))*
-- **[LineageOS/android_hardware_samsung]** aidl: Import AIDL GNSS Service *(ID: [512805](https://review.lineageos.org/c/512805))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: s5e8835: Initial configuration *(ID: [489717](https://review.lineageos.org/c/489717))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e8835: Adapt to the SoC *(ID: [512486](https://review.lineageos.org/c/512486))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e8835: Copy from s5e8825 *(ID: [489716](https://review.lineageos.org/c/489716))*
-- **[LineageOS/android_kernel_xiaomi_sm8550]** Merge https://github.com/LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [512772](https://review.lineageos.org/c/512772))*
-- **[LineageOS/android_kernel_qcom_sdm660]** arm64: configs: vendor: Enable CFI *(ID: [512770](https://review.lineageos.org/c/512770))*
+- **[LineageOS/android_hardware_samsung]** argosd: Introduce Argos Daemon *(ID: [509705](https://review.lineageos.org/c/509705))*
 - **[LineageOS/android_device_oneplus_sm8850-common]** sm8850-common: Fix Wireless Display casting *(ID: [512759](https://review.lineageos.org/c/512759))*
+- **[LineageOS/android_hardware_samsung]** aidl: health: Introduce libsamsunghealth *(ID: [493486](https://review.lineageos.org/c/493486))*
+- **[LineageOS/android_kernel_oneplus_sm8650-modules]** display-drivers: Import new caihong changes from OPD2403_16.0.5.1002(EX01) *(ID: [512913](https://review.lineageos.org/c/512913))*
+- **[LineageOS/android_hardware_nothing]** nothing: nt-fwk: Add the online config and utils classes *(ID: [512911](https://review.lineageos.org/c/512911))*
+- **[LineageOS/android_hardware_nothing]** nothing: nt-fwk: Add the feature table from Nothing OS 5.0 *(ID: [512910](https://review.lineageos.org/c/512910))*
+- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Only allow dmabuf heaps where the platform has them *(ID: [512909](https://review.lineageos.org/c/512909))*
+- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Create compatibility mapping files *(ID: [512906](https://review.lineageos.org/c/512906))*
+- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Declare the fingerprint property type it sets *(ID: [512908](https://review.lineageos.org/c/512908))*
+- **[LineageOS/android_hardware_nothing]** sensors: Allow UDFPS nodes that report the touch position *(ID: [512907](https://review.lineageos.org/c/512907))*
+- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Declare the powershare sysfs type *(ID: [512905](https://review.lineageos.org/c/512905))*
+- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Add the glyph app domain *(ID: [512903](https://review.lineageos.org/c/512903))*
+- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Allow light HAL to access sysfs_leds *(ID: [512904](https://review.lineageos.org/c/512904))*
+- **[LineageOS/android_hardware_nothing]** light: Make the recording indicator optional *(ID: [512901](https://review.lineageos.org/c/512901))*
+- **[LineageOS/android_hardware_nothing]** light: Add Phone (3a) module *(ID: [512902](https://review.lineageos.org/c/512902))*
+- **[LineageOS/android_hardware_nothing]** nothing: Introduce the glyph lights HAL *(ID: [512900](https://review.lineageos.org/c/512900))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Hide the schedule preview if a device doesn't ship *(ID: [512899](https://review.lineageos.org/c/512899))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Port the Phone (3a) device drawing to 2.0 *(ID: [512896](https://review.lineageos.org/c/512896))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Add a Phone (3a) flip animation *(ID: [512898](https://review.lineageos.org/c/512898))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Describe the Phone (3a) visualizer bands *(ID: [512897](https://review.lineageos.org/c/512897))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Port the Phone (3a) animation config to 2.0 *(ID: [512894](https://review.lineageos.org/c/512894))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Port the Phone (3a) brightness config to 2.0 *(ID: [512893](https://review.lineageos.org/c/512893))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Rename the Phone (3a) previews to 2.0 base *(ID: [512895](https://review.lineageos.org/c/512895))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Drop the Phone (3a) sysfs paths *(ID: [512892](https://review.lineageos.org/c/512892))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Document Phone (3a) support *(ID: [507093](https://review.lineageos.org/c/507093))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Import phone3a setting previews from NOS 5.0 *(ID: [507095](https://review.lineageos.org/c/507095))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Set glyph_zone_channel_count for Phone (3a) *(ID: [512891](https://review.lineageos.org/c/512891))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: 2.0, modernized over the lights HAL *(ID: [512890](https://review.lineageos.org/c/512890))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Initial Import of Phone (3a) resources *(ID: [507081](https://review.lineageos.org/c/507081))*
+- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Add integer array for essential notification *(ID: [507085](https://review.lineageos.org/c/507085))*
 
 </details>
 
-## 📱 Línea Motorola Activa (37)
+## 📱 Línea Motorola Activa (39)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_kernel_motorola_sm8550-devicetrees]** devicetrees: moto: Remove mem_offline entries *(ID: [512839](https://review.lineageos.org/c/512839))*
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Increase kernel log buffer to 1MiB *(ID: [512846](https://review.lineageos.org/c/512846))*
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Wait for battery after booting ADSP in fastbootd *(ID: [512845](https://review.lineageos.org/c/512845))*
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: init: Wait for adsp boot sysfs entry *(ID: [512844](https://review.lineageos.org/c/512844))*
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Fix max number of SAP peers *(ID: [512843](https://review.lineageos.org/c/512843))*
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Ship sensors.dynamic_sensor_hal *(ID: [512842](https://review.lineageos.org/c/512842))*
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Enable bluetooth.profile.hid.device.enabled *(ID: [512841](https://review.lineageos.org/c/512841))*
+- **[LineageOS/android_device_motorola_genevn]** genevn: Add fallback SW A2DP routes *(ID: [512840](https://review.lineageos.org/c/512840))*
+- **[LineageOS/android_device_motorola_avatrn]** avatrn: Add fallback SW A2DP routes *(ID: [510977](https://review.lineageos.org/c/510977))*
+- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Drop device specific fingerprint service *(ID: [510976](https://review.lineageos.org/c/510976))*
+- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Split 6GHz and 11ax configs *(ID: [508519](https://review.lineageos.org/c/508519))*
 - **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [512813](https://review.lineageos.org/c/512813))*
 - **[LineageOS/android_kernel_motorola_sm8550-devicetrees]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550-devicetrees into HEAD *(ID: [512812](https://review.lineageos.org/c/512812))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Drop BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT *(ID: [510940](https://review.lineageos.org/c/510940))*
@@ -69,17 +80,6 @@
 - **[LineageOS/android_device_motorola_kiev]** kiev: Convert audio_amplifier to blueprint *(ID: [511660](https://review.lineageos.org/c/511660))*
 - **[LineageOS/android_device_motorola_kiev]** kiev: audio_amplifier: Make all the functions static *(ID: [511659](https://review.lineageos.org/c/511659))*
 - **[LineageOS/android_device_motorola_kiev]** kiev: audio_amplifier: Fix PCM device check *(ID: [511658](https://review.lineageos.org/c/511658))*
-- **[LineageOS/android_device_motorola_kiev]** kiev: amplifier: Add amplifier usecase to head of usecase list *(ID: [511657](https://review.lineageos.org/c/511657))*
-- **[LineageOS/android_device_motorola_kiev]** kiev: amplifier: Clean up makefile *(ID: [511656](https://review.lineageos.org/c/511656))*
-- **[LineageOS/android_device_motorola_kiev]** kiev: amplifier: Rebrand to AW882xx *(ID: [511655](https://review.lineageos.org/c/511655))*
-- **[LineageOS/android_device_motorola_kiev]** kiev: amplifier: Fix device list initializations *(ID: [511654](https://review.lineageos.org/c/511654))*
-- **[LineageOS/android_device_motorola_kiev]** kiev: Add custom audio amplifier for TFA amp feedback *(ID: [511653](https://review.lineageos.org/c/511653))*
-- **[LineageOS/android_device_motorola_kiev]** kiev: Add proprietary-firmware.txt *(ID: [511652](https://review.lineageos.org/c/511652))*
-- **[LineageOS/android_device_motorola_kiev]** kiev: Properly patch camera postproc impl *(ID: [511651](https://review.lineageos.org/c/511651))*
-- **[LineageOS/android_device_motorola_kiev]** kiev: Drop MotCamera3 *(ID: [511665](https://review.lineageos.org/c/511665))*
-- **[LineageOS/android_hardware_motorola]** MotoActions: Add open to answer action *(ID: [509260](https://review.lineageos.org/c/509260))*
-- **[LineageOS/android_device_motorola_smith]** smith: Support concurrent and rear display modes *(ID: [512107](https://review.lineageos.org/c/512107))*
-- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: init: Add back loc_launcher *(ID: [512481](https://review.lineageos.org/c/512481))*
 
 </details>
 
