@@ -7,49 +7,51 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (183)
+## 🚨 Parches Críticos Detectados (189)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_samsung]** argosd: Introduce Argos Daemon *(ID: [509705](https://review.lineageos.org/c/509705))*
-- **[LineageOS/android_device_oneplus_sm8850-common]** sm8850-common: Fix Wireless Display casting *(ID: [512759](https://review.lineageos.org/c/512759))*
-- **[LineageOS/android_hardware_samsung]** aidl: health: Introduce libsamsunghealth *(ID: [493486](https://review.lineageos.org/c/493486))*
-- **[LineageOS/android_kernel_oneplus_sm8650-modules]** display-drivers: Import new caihong changes from OPD2403_16.0.5.1002(EX01) *(ID: [512913](https://review.lineageos.org/c/512913))*
-- **[LineageOS/android_hardware_nothing]** nothing: nt-fwk: Add the online config and utils classes *(ID: [512911](https://review.lineageos.org/c/512911))*
-- **[LineageOS/android_hardware_nothing]** nothing: nt-fwk: Add the feature table from Nothing OS 5.0 *(ID: [512910](https://review.lineageos.org/c/512910))*
-- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Only allow dmabuf heaps where the platform has them *(ID: [512909](https://review.lineageos.org/c/512909))*
-- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Create compatibility mapping files *(ID: [512906](https://review.lineageos.org/c/512906))*
-- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Declare the fingerprint property type it sets *(ID: [512908](https://review.lineageos.org/c/512908))*
-- **[LineageOS/android_hardware_nothing]** sensors: Allow UDFPS nodes that report the touch position *(ID: [512907](https://review.lineageos.org/c/512907))*
-- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Declare the powershare sysfs type *(ID: [512905](https://review.lineageos.org/c/512905))*
-- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Add the glyph app domain *(ID: [512903](https://review.lineageos.org/c/512903))*
-- **[LineageOS/android_hardware_nothing]** nt-sepolicy: Allow light HAL to access sysfs_leds *(ID: [512904](https://review.lineageos.org/c/512904))*
-- **[LineageOS/android_hardware_nothing]** light: Make the recording indicator optional *(ID: [512901](https://review.lineageos.org/c/512901))*
-- **[LineageOS/android_hardware_nothing]** light: Add Phone (3a) module *(ID: [512902](https://review.lineageos.org/c/512902))*
-- **[LineageOS/android_hardware_nothing]** nothing: Introduce the glyph lights HAL *(ID: [512900](https://review.lineageos.org/c/512900))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Hide the schedule preview if a device doesn't ship *(ID: [512899](https://review.lineageos.org/c/512899))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Port the Phone (3a) device drawing to 2.0 *(ID: [512896](https://review.lineageos.org/c/512896))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Add a Phone (3a) flip animation *(ID: [512898](https://review.lineageos.org/c/512898))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Describe the Phone (3a) visualizer bands *(ID: [512897](https://review.lineageos.org/c/512897))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Port the Phone (3a) animation config to 2.0 *(ID: [512894](https://review.lineageos.org/c/512894))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Port the Phone (3a) brightness config to 2.0 *(ID: [512893](https://review.lineageos.org/c/512893))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Rename the Phone (3a) previews to 2.0 base *(ID: [512895](https://review.lineageos.org/c/512895))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Drop the Phone (3a) sysfs paths *(ID: [512892](https://review.lineageos.org/c/512892))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Document Phone (3a) support *(ID: [507093](https://review.lineageos.org/c/507093))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Import phone3a setting previews from NOS 5.0 *(ID: [507095](https://review.lineageos.org/c/507095))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Set glyph_zone_channel_count for Phone (3a) *(ID: [512891](https://review.lineageos.org/c/512891))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: 2.0, modernized over the lights HAL *(ID: [512890](https://review.lineageos.org/c/512890))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Initial Import of Phone (3a) resources *(ID: [507081](https://review.lineageos.org/c/507081))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Add integer array for essential notification *(ID: [507085](https://review.lineageos.org/c/507085))*
+- **[LineageOS/android_hardware_qcom_display]** gralloc: Add option for unaligned YCrCb/YCbCr pixel format height *(ID: [512964](https://review.lineageos.org/c/512964))*
+- **[LineageOS/android_kernel_qcom_sm8350]** posix-cpu-timers: Fix pid refcount leak in do_cpu_nanosleep() error path *(ID: [512816](https://review.lineageos.org/c/512816))*
+- **[LineageOS/android_kernel_qcom_sm8350]** BACKPORT: posix-cpu-timers: Cleanup CPU timers before freeing them during exec *(ID: [512817](https://review.lineageos.org/c/512817))*
+- **[LineageOS/android_hardware_motorola]** sepolicy: qti: Address denials on parrot devices *(ID: [512958](https://review.lineageos.org/c/512958))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Add Pixelworks Iris feature service policy *(ID: [512277](https://review.lineageos.org/c/512277))*
+- **[LineageOS/android_hardware_oplus]** Introduce OplusMemc app *(ID: [512278](https://review.lineageos.org/c/512278))*
+- **[LineageOS/android_hardware_pixelworks_interfaces]** pixelworks: Enable Java backend for display *(ID: [512282](https://review.lineageos.org/c/512282))*
+- **[LineageOS/android_hardware_qcom_display]** sdmclient: Allow aspect ratio mismatch for destination scaler. *(ID: [512568](https://review.lineageos.org/c/512568))*
+- **[LineageOS/android_hardware_qcom_display]** composer: Add extended display resolution support *(ID: [511983](https://review.lineageos.org/c/511983))*
+- **[LineageOS/android_hardware_qcom_display]** composer: Fix the IComposer manifest version *(ID: [512273](https://review.lineageos.org/c/512273))*
+- **[LineageOS/android_hardware_qcom_display]** composer: Support Pixelworks iris 7 video MEMC *(ID: [512272](https://review.lineageos.org/c/512272))*
+- **[LineageOS/android_hardware_xiaomi]** packages: Add RemoteVoice remote mic service *(ID: [512663](https://review.lineageos.org/c/512663))*
+- **[LineageOS/android_hardware_oplus]** power: Apply stock charger cool down levels while interactive *(ID: [512011](https://review.lineageos.org/c/512011))*
+- **[LineageOS/android_hardware_oplus]** extract-utils-ext: Generate charger cool down config *(ID: [512010](https://review.lineageos.org/c/512010))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow dumping horae *(ID: [511218](https://review.lineageos.org/c/511218))*
+- **[LineageOS/android_hardware_oplus]** eSimSwitcher: Support the compat subsys_radio interface *(ID: [511217](https://review.lineageos.org/c/511217))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Build subsys_radio compat as subsys_radio-V1-ndk *(ID: [511216](https://review.lineageos.org/c/511216))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Add a compatibility interface for subsys_radio *(ID: [510462](https://review.lineageos.org/c/510462))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Update IPerformance to V4-V5 *(ID: [509921](https://review.lineageos.org/c/509921))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Update ICharger to V12 *(ID: [509920](https://review.lineageos.org/c/509920))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label HBP report *(ID: [509829](https://review.lineageos.org/c/509829))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Introduce vendor.oplus.hardware.a2dp_offload V1 *(ID: [509827](https://review.lineageos.org/c/509827))*
+- **[LineageOS/android_hardware_oplus]** interfaces: Update IOplusRadio to V3-V4 *(ID: [509826](https://review.lineageos.org/c/509826))*
+- **[LineageOS/android_hardware_oplus]** vintf: Update fwk matrix for COS 17.0.0 *(ID: [509825](https://review.lineageos.org/c/509825))*
+- **[LineageOS/android_device_oneplus_sm8650-common]** sm8650-common: Fix Wireless Display casting *(ID: [512953](https://review.lineageos.org/c/512953))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow nvram_qmi to set radio props *(ID: [511301](https://review.lineageos.org/c/511301))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Allow sensor HAL to use vndbinder *(ID: [511458](https://review.lineageos.org/c/511458))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label tfa98xx smart PA device *(ID: [511300](https://review.lineageos.org/c/511300))*
+- **[LineageOS/android_hardware_qcom_audio]** hal: Add support for sdm710 *(ID: [512935](https://review.lineageos.org/c/512935))*
+- **[LineageOS/android_hardware_qcom-caf_common]** qcom: Treat SDM710 4.19 same as SDM845 4.19 *(ID: [512934](https://review.lineageos.org/c/512934))*
 
 </details>
 
-## 📱 Línea Motorola Activa (39)
+## 📱 Línea Motorola Activa (41)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_mt6768-common]** mt6768-common: Build the MediaTek Wi-Fi HAL and wpa_supplicant_8 lib *(ID: [512963](https://review.lineageos.org/c/512963))*
+- **[LineageOS/android_hardware_motorola]** sepolicy: qti: Address denials on parrot devices *(ID: [512958](https://review.lineageos.org/c/512958))*
 - **[LineageOS/android_kernel_motorola_sm8550-devicetrees]** devicetrees: moto: Remove mem_offline entries *(ID: [512839](https://review.lineageos.org/c/512839))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Increase kernel log buffer to 1MiB *(ID: [512846](https://review.lineageos.org/c/512846))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Wait for battery after booting ADSP in fastbootd *(ID: [512845](https://review.lineageos.org/c/512845))*
@@ -78,8 +80,6 @@
 - **[LineageOS/android_device_motorola_kiev]** kiev: Switch to qcom audio effects *(ID: [511662](https://review.lineageos.org/c/511662))*
 - **[LineageOS/android_device_motorola_kiev]** kiev: audio_amplifier: Use hw_module_t->dso instead of RTLD_NEXT *(ID: [511661](https://review.lineageos.org/c/511661))*
 - **[LineageOS/android_device_motorola_kiev]** kiev: Convert audio_amplifier to blueprint *(ID: [511660](https://review.lineageos.org/c/511660))*
-- **[LineageOS/android_device_motorola_kiev]** kiev: audio_amplifier: Make all the functions static *(ID: [511659](https://review.lineageos.org/c/511659))*
-- **[LineageOS/android_device_motorola_kiev]** kiev: audio_amplifier: Fix PCM device check *(ID: [511658](https://review.lineageos.org/c/511658))*
 
 </details>
 
