@@ -7,11 +7,18 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (221)
+## 🚨 Parches Críticos Detectados (208)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_packages_apps_Launcher3]** Launcher3: Fix nav bar position on landscape-natural devices *(ID: [512970](https://review.lineageos.org/c/512970))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: Reject invalid static composition ranges *(ID: [513082](https://review.lineageos.org/c/513082))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: Filter ignored layers before validating all displays *(ID: [513081](https://review.lineageos.org/c/513081))*
+- **[LineageOS/android_vendor_apn]** fixup! CN: Add IMS APNs and dual-stack support for CT *(ID: [513079](https://review.lineageos.org/c/513079))*
+- **[LineageOS/android_frameworks_base]** Fix BAL bypass in RemoteViews SetRadioGroupCheckedAction reapply *(ID: [512981](https://review.lineageos.org/c/512981))*
+- **[LineageOS/android_frameworks_base]** Fix BAL bypass via pinned windows in SDK sandbox and PCC *(ID: [512984](https://review.lineageos.org/c/512984))*
+- **[LineageOS/android_hardware_mainline_common]** mainline/common: bdaddr: Build the address without awk *(ID: [509821](https://review.lineageos.org/c/509821))*
 - **[LineageOS/android_hardware_qcom_display]** sdm: Preserve global PA across STC mode updates *(ID: [513074](https://review.lineageos.org/c/513074))*
 - **[LineageOS/android_hardware_qcom_display]** sdm: Preserve global PA across STC mode updates *(ID: [513073](https://review.lineageos.org/c/513073))*
 - **[LineageOS/android_hardware_qcom_display]** sdm: Preserve global PA across STC mode updates *(ID: [513070](https://review.lineageos.org/c/513070))*
@@ -31,31 +38,24 @@
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Apply dopinder/wade's stock DTS changes *(ID: [512196](https://review.lineageos.org/c/512196))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Rebrand to track device-specific changes *(ID: [512195](https://review.lineageos.org/c/512195))*
 - **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Adapt the wifi HAL to MediaTek gen4m driver *(ID: [511447](https://review.lineageos.org/c/511447))*
-- **[LineageOS/android_kernel_samsung_exynos9820]** bcmdhd: do the AP 4way handshake for SAE and PSK stations in the driver *(ID: [513059](https://review.lineageos.org/c/513059))*
-- **[LineageOS/android_kernel_samsung_exynos9820]** bcmdhd: do the 4way handshake for offloaded SAE in the driver *(ID: [513053](https://review.lineageos.org/c/513053))*
 - **[LineageOS/android_device_samsung_slsi_sepolicy]** common: Fix charger mode denials *(ID: [510691](https://review.lineageos.org/c/510691))*
-- **[LineageOS/android_kernel_samsung_exynos9820]** cfg80211: Allow AP/P2PGO to indicate port authorization to peer STA/P2PClient *(ID: [513058](https://review.lineageos.org/c/513058))*
-- **[LineageOS/android_kernel_samsung_exynos9820]** nl80211: support SAE authentication offload in AP mode *(ID: [513057](https://review.lineageos.org/c/513057))*
-- **[LineageOS/android_kernel_samsung_exynos9820]** nl80211: support 4-way handshake offloading for WPA/WPA2-PSK in AP mode *(ID: [513056](https://review.lineageos.org/c/513056))*
-- **[LineageOS/android_kernel_samsung_exynos9820]** nl80211: keep ext feature numbering in line with upstream UAPI *(ID: [513055](https://review.lineageos.org/c/513055))*
-- **[LineageOS/android_kernel_samsung_exynos9820]** cfg80211/nl80211: add a port authorized event *(ID: [513052](https://review.lineageos.org/c/513052))*
-- **[LineageOS/android_kernel_samsung_exynos9820]** nl80211: add support for SAE authentication offload *(ID: [513051](https://review.lineageos.org/c/513051))*
-- **[LineageOS/android_kernel_samsung_exynos9820]** nl80211: keep UAPI numbering in line with upstream *(ID: [513050](https://review.lineageos.org/c/513050))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e8835: Adapt to the SoC *(ID: [512486](https://review.lineageos.org/c/512486))*
+- **[LineageOS/android_hardware_motorola]** sepolicy: qti: Address denials on parrot devices *(ID: [512958](https://review.lineageos.org/c/512958))*
+- **[LineageOS/android_hardware_samsung]** aidl: radio: Support hybrid slots on modems without slot status *(ID: [513027](https://review.lineageos.org/c/513027))*
 
 </details>
 
-## 📱 Línea Motorola Activa (22)
+## 📱 Línea Motorola Activa (45)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Include MbnOverride in PRODUCT_PACKAGES *(ID: [512988](https://review.lineageos.org/c/512988))*
+- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Add MbnOverride to select modem carrier config per SIM *(ID: [512987](https://review.lineageos.org/c/512987))*
 - **[LineageOS/android_hardware_motorola]** sepolicy: qti: Address denials on parrot devices *(ID: [512958](https://review.lineageos.org/c/512958))*
 - **[LineageOS/android_kernel_motorola_sm8550-devicetrees]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550-devicetrees into HEAD *(ID: [512812](https://review.lineageos.org/c/512812))*
 - **[LineageOS/android_kernel_motorola_sm8550-devicetrees]** Revert "mem: support mem-offline status." *(ID: [512976](https://review.lineageos.org/c/512976))*
 - **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [512813](https://review.lineageos.org/c/512813))*
-- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Include MbnOverride in PRODUCT_PACKAGES *(ID: [512988](https://review.lineageos.org/c/512988))*
-- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Add MbnOverride to select modem carrier config per SIM *(ID: [512987](https://review.lineageos.org/c/512987))*
 - **[LineageOS/android_device_motorola_sm6375-common]** sm6375-common: audio: Lock VoIP streams to 48kHz *(ID: [512975](https://review.lineageos.org/c/512975))*
 - **[LineageOS/android_device_motorola_sm6225-common]** sm6225-common: Configure dalvik heap props per RAM variant *(ID: [512967](https://review.lineageos.org/c/512967))*
 - **[LineageOS/android_device_motorola_sm6225-common]** sm6225-common: Configure LMKD props per RAM variant *(ID: [512966](https://review.lineageos.org/c/512966))*
@@ -72,6 +72,14 @@
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Split 6GHz and 11ax configs *(ID: [508519](https://review.lineageos.org/c/508519))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Drop BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT *(ID: [510940](https://review.lineageos.org/c/510940))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: fstab: Drop AVB keys *(ID: [510643](https://review.lineageos.org/c/510643))*
+- **[LineageOS/android_kernel_motorola_sm6225]** techpack: display: msm: fix HBM backlight race with display disable *(ID: [512756](https://review.lineageos.org/c/512756))*
+- **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: nova_0flash_mmi: Start boot firmware download on display on *(ID: [512758](https://review.lineageos.org/c/512758))*
+- **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: nova_0flash_mmi: Make boot firmware delay configurable *(ID: [512757](https://review.lineageos.org/c/512757))*
+- **[LineageOS/android_kernel_motorola_sm6225]** arm64: configs: guamna: Disable FocalTech double tap and panel notifications *(ID: [512755](https://review.lineageos.org/c/512755))*
+- **[LineageOS/android_kernel_motorola_sm8250]** ARM64: dts: kiev: Rename sound card for the CAF audio HAL *(ID: [511669](https://review.lineageos.org/c/511669))*
+- **[LineageOS/android_device_motorola_kiev]** kiev: audio: Add the class AB headphone path *(ID: [511668](https://review.lineageos.org/c/511668))*
+- **[LineageOS/android_device_motorola_kiev]** kiev: audio: Install platform info for the lagoon QRD card *(ID: [511667](https://review.lineageos.org/c/511667))*
+- **[LineageOS/android_device_motorola_kiev]** kiev: Drop unused audio feature flags *(ID: [511666](https://review.lineageos.org/c/511666))*
 
 </details>
 
