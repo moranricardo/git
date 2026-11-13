@@ -7,11 +7,30 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (305)
+## 🚨 Parches Críticos Detectados (303)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_qcom_sdm660]** mm: shmem: Do not cancel a committed charge when UFFDIO_COPY fails *(ID: [513224](https://review.lineageos.org/c/513224))*
+- **[LineageOS/android_kernel_qcom_sdm660]** mm: userfaultfd: Commit the memcg charge before the page goes on the LRU *(ID: [513223](https://review.lineageos.org/c/513223))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1: s5e9945: Add TDM resource allocation *(ID: [513213](https://review.lineageos.org/c/513213))*
+- **[LineageOS/android_device_motorola_miami]** miami: audio: Fix VoIP echo reference *(ID: [513219](https://review.lineageos.org/c/513219))*
+- **[LineageOS/android_kernel_oneplus_sdm845]** sdm845: enable USB PD contract and protect USB data link on fajita *(ID: [513215](https://review.lineageos.org/c/513215))*
+- **[LineageOS/android_kernel_amlogic_media-modules]** v4ldec: Fix double free of mediaproxy producer session *(ID: [513211](https://review.lineageos.org/c/513211))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Enable eMMC HS200 and HS400 *(ID: [512396](https://review.lineageos.org/c/512396))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Configure video memory *(ID: [512395](https://review.lineageos.org/c/512395))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sm1: Restore the 4.9 VDDCPU regulator and OPP table *(ID: [512382](https://review.lineageos.org/c/512382))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sm1: Use the 4.9 CPU reg values on older firmware boards *(ID: [512381](https://review.lineageos.org/c/512381))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: odroidc4: Apply 4.9 board changes *(ID: [512379](https://review.lineageos.org/c/512379))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: odroidc4: Rebrand to track device-specific changes *(ID: [512378](https://review.lineageos.org/c/512378))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Apply 4.9 board changes *(ID: [512377](https://review.lineageos.org/c/512377))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Rebrand to track device-specific changes *(ID: [512376](https://review.lineageos.org/c/512376))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Add the S5K3L6 *(ID: [513207](https://review.lineageos.org/c/513207))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Use the sensor slots of the F62 *(ID: [513206](https://review.lineageos.org/c/513206))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Add the IMX616 *(ID: [513205](https://review.lineageos.org/c/513205))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Add the IMX682 *(ID: [513204](https://review.lineageos.org/c/513204))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Sync the fimc-is metadata with the F62 kernel *(ID: [513203](https://review.lineageos.org/c/513203))*
 - **[LineageOS/android_packages_apps_Launcher3]** Launcher3: Fix side margin on landscape devices without a cutout *(ID: [512969](https://review.lineageos.org/c/512969))*
 - **[LineageOS/android_packages_apps_Launcher3]** Launcher3: Add bottom padding to fixed-landscape hotseat *(ID: [512971](https://review.lineageos.org/c/512971))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Report the lens data of the S5K3M3 *(ID: [513201](https://review.lineageos.org/c/513201))*
@@ -23,42 +42,24 @@
 - **[LineageOS/android_kernel_qcom_sm8250]** msm_vidc: Align error code for insufficient resource *(ID: [513128](https://review.lineageos.org/c/513128))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm_vidc: Log core details in failure *(ID: [513127](https://review.lineageos.org/c/513127))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm_vidc: add checks for non-realtime sessions when calculating core *(ID: [513126](https://review.lineageos.org/c/513126))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm_vidc: Decide Core based on resolution. *(ID: [513125](https://review.lineageos.org/c/513125))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm_vidc: Enable Dual core on qcs605 target. *(ID: [513124](https://review.lineageos.org/c/513124))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Fix vp9 playback issue for Trinket *(ID: [513123](https://review.lineageos.org/c/513123))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: add hfi and dpb counts for trinket *(ID: [513122](https://review.lineageos.org/c/513122))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Add Decide core and power mode for AR50 *(ID: [513121](https://review.lineageos.org/c/513121))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: msm_media_info_legacy: Update buffer alignments for sdm845 *(ID: [510257](https://review.lineageos.org/c/510257))*
-- **[LineageOS/android_kernel_qcom_sm8250]** include: uapi: Increase buffer size for UBWC *(ID: [510256](https://review.lineageos.org/c/510256))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: media: uapi: Redefine NV12/NV12_UBWC format for 64 bit *(ID: [510255](https://review.lineageos.org/c/510255))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Update encoder o/p buffer size calc *(ID: [509288](https://review.lineageos.org/c/509288))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Enable vidc driver for sdm845 *(ID: [509014](https://review.lineageos.org/c/509014))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Map NV12 to 128 alignment for decoder/encoder *(ID: [509013](https://review.lineageos.org/c/509013))*
-- **[LineageOS/android_kernel_qcom_sm8250]** include: uapi: Duplicate the msm_media_info header *(ID: [509012](https://review.lineageos.org/c/509012))*
-- **[LineageOS/android_kernel_qcom_sm8250]** video-driver: reduce the input frame size for vp9d *(ID: [509011](https://review.lineageos.org/c/509011))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Fix for encode failure on resolution 720p & above on SA6155P *(ID: [509010](https://review.lineageos.org/c/509010))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Avoid setting HFI_PROPERTY_PARAM_HEVC_PPS_CB_CR_OFFSET for Gen3 VPUs *(ID: [509009](https://review.lineageos.org/c/509009))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: update VP9 level ranges *(ID: [509008](https://review.lineageos.org/c/509008))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Ping hardware during timeouts *(ID: [509006](https://review.lineageos.org/c/509006))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Enable decode batching for sdm845 *(ID: [509003](https://review.lineageos.org/c/509003))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Disable unsupported features for sdm845 *(ID: [509002](https://review.lineageos.org/c/509002))*
 
 </details>
 
-## 📱 Línea Motorola Activa (9)
+## 📱 Línea Motorola Activa (10)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_miami]** miami: audio: Use valid ACDB ids for NN mics *(ID: [513221](https://review.lineageos.org/c/513221))*
+- **[LineageOS/android_device_motorola_miami]** miami: audio: Restore DIRECT for voip_rx *(ID: [513220](https://review.lineageos.org/c/513220))*
+- **[LineageOS/android_device_motorola_miami]** miami: audio: Fix VoIP echo reference *(ID: [513219](https://review.lineageos.org/c/513219))*
+- **[LineageOS/android_device_motorola_beckham]** beckham: overlay: Route dock media audio to the analog dock *(ID: [506922](https://review.lineageos.org/c/506922))*
 - **[LineageOS/android_device_motorola_bronco]** bronco: overlay: set refresh rate for low brightness zone *(ID: [513196](https://review.lineageos.org/c/513196))*
 - **[LineageOS/android_device_motorola_mt6768-common]** mt6768-common: Build the MediaTek Wi-Fi HAL and wpa_supplicant_8 lib *(ID: [512963](https://review.lineageos.org/c/512963))*
 - **[LineageOS/android_device_motorola_ibiza]** ibiza: audio: Add missing Fluence NN mixer paths *(ID: [509728](https://review.lineageos.org/c/509728))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Include MbnOverride in PRODUCT_PACKAGES *(ID: [512988](https://review.lineageos.org/c/512988))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Add MbnOverride to select modem carrier config per SIM *(ID: [512987](https://review.lineageos.org/c/512987))*
 - **[LineageOS/android_hardware_motorola]** sepolicy: qti: Address denials on parrot devices *(ID: [512958](https://review.lineageos.org/c/512958))*
-- **[LineageOS/android_kernel_motorola_sm8550-devicetrees]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550-devicetrees into HEAD *(ID: [512812](https://review.lineageos.org/c/512812))*
-- **[LineageOS/android_kernel_motorola_sm8550-devicetrees]** Revert "mem: support mem-offline status." *(ID: [512976](https://review.lineageos.org/c/512976))*
-- **[LineageOS/android_kernel_motorola_sm8550]** Merge branch 'lineage-21' of github.com:LineageOS/android_kernel_qcom_sm8550 into HEAD *(ID: [512813](https://review.lineageos.org/c/512813))*
 
 </details>
 
