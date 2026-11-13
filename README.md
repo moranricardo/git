@@ -1,18 +1,22 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-12-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-13-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (293)
+## 🚨 Parches Críticos Detectados (305)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_qcom_sm8250]** qcacld-3.0: Treat NL80211_WPA_VERSION_3 as RSN *(ID: [513098](https://review.lineageos.org/c/513098))*
+- **[LineageOS/android_packages_apps_Launcher3]** Launcher3: Fix side margin on landscape devices without a cutout *(ID: [512969](https://review.lineageos.org/c/512969))*
+- **[LineageOS/android_packages_apps_Launcher3]** Launcher3: Add bottom padding to fixed-landscape hotseat *(ID: [512971](https://review.lineageos.org/c/512971))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Report the lens data of the S5K3M3 *(ID: [513201](https://review.lineageos.org/c/513201))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Count firmware held output buffers in DCVS *(ID: [513198](https://review.lineageos.org/c/513198))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Keep VP9 hidden frames away from the client *(ID: [513197](https://review.lineageos.org/c/513197))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Add reset_ahb2axi_bridge function for ar50 *(ID: [513131](https://review.lineageos.org/c/513131))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Enable dual core LP for 5K encoding *(ID: [513130](https://review.lineageos.org/c/513130))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm-vidc: Adjust core load when video_load exceeds hardware limitation *(ID: [513129](https://review.lineageos.org/c/513129))*
@@ -21,6 +25,9 @@
 - **[LineageOS/android_kernel_qcom_sm8250]** msm_vidc: add checks for non-realtime sessions when calculating core *(ID: [513126](https://review.lineageos.org/c/513126))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm_vidc: Decide Core based on resolution. *(ID: [513125](https://review.lineageos.org/c/513125))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm_vidc: Enable Dual core on qcs605 target. *(ID: [513124](https://review.lineageos.org/c/513124))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Fix vp9 playback issue for Trinket *(ID: [513123](https://review.lineageos.org/c/513123))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: add hfi and dpb counts for trinket *(ID: [513122](https://review.lineageos.org/c/513122))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Add Decide core and power mode for AR50 *(ID: [513121](https://review.lineageos.org/c/513121))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: msm_media_info_legacy: Update buffer alignments for sdm845 *(ID: [510257](https://review.lineageos.org/c/510257))*
 - **[LineageOS/android_kernel_qcom_sm8250]** include: uapi: Increase buffer size for UBWC *(ID: [510256](https://review.lineageos.org/c/510256))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: media: uapi: Redefine NV12/NV12_UBWC format for 64 bit *(ID: [510255](https://review.lineageos.org/c/510255))*
@@ -35,21 +42,16 @@
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Ping hardware during timeouts *(ID: [509006](https://review.lineageos.org/c/509006))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Enable decode batching for sdm845 *(ID: [509003](https://review.lineageos.org/c/509003))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Disable unsupported features for sdm845 *(ID: [509002](https://review.lineageos.org/c/509002))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Add sdm845 capabilities *(ID: [509001](https://review.lineageos.org/c/509001))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Don't set VBV HRD buffer size on sdm845 *(ID: [506885](https://review.lineageos.org/c/506885))*
-- **[LineageOS/android_device_samsung_exynos9820-common]** exynos9820-common: Fix cell broadcast PDU format of libsec-ril *(ID: [513137](https://review.lineageos.org/c/513137))*
-- **[LineageOS/android_device_freebox_nicepool]** nicepool: Fix factory partition mounting *(ID: [513133](https://review.lineageos.org/c/513133))*
-- **[LineageOS/android_kernel_freebox_nicepool-build]** nicepool: Enable pwm LED *(ID: [513132](https://review.lineageos.org/c/513132))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Fix vp9 playback issue for Trinket *(ID: [513123](https://review.lineageos.org/c/513123))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: add hfi and dpb counts for trinket *(ID: [513122](https://review.lineageos.org/c/513122))*
 
 </details>
 
-## 📱 Línea Motorola Activa (7)
+## 📱 Línea Motorola Activa (9)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_bronco]** bronco: overlay: set refresh rate for low brightness zone *(ID: [513196](https://review.lineageos.org/c/513196))*
+- **[LineageOS/android_device_motorola_mt6768-common]** mt6768-common: Build the MediaTek Wi-Fi HAL and wpa_supplicant_8 lib *(ID: [512963](https://review.lineageos.org/c/512963))*
 - **[LineageOS/android_device_motorola_ibiza]** ibiza: audio: Add missing Fluence NN mixer paths *(ID: [509728](https://review.lineageos.org/c/509728))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Include MbnOverride in PRODUCT_PACKAGES *(ID: [512988](https://review.lineageos.org/c/512988))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Add MbnOverride to select modem carrier config per SIM *(ID: [512987](https://review.lineageos.org/c/512987))*
