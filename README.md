@@ -7,11 +7,25 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (309)
+## 🚨 Parches Críticos Detectados (314)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_samsung_sdm670]** drm/msm: add idle state sysfs node *(ID: [310709](https://review.lineageos.org/c/310709))*
+- **[LineageOS/android_kernel_samsung_sdm670]** defconfig: gts4lv: disable CONFIG_MSM_PERFORMANCE *(ID: [310708](https://review.lineageos.org/c/310708))*
+- **[LineageOS/android_kernel_samsung_exynos850]** mfc: Implement real time priority and operating rate controls *(ID: [513342](https://review.lineageos.org/c/513342))*
+- **[LineageOS/android_kernel_samsung_exynos850]** mfc: Clear the instance context buffer when the firmware can't *(ID: [513341](https://review.lineageos.org/c/513341))*
+- **[LineageOS/android_kernel_samsung_exynos850]** mfc: poll: Register on the wait queue while the queue is not streaming *(ID: [513340](https://review.lineageos.org/c/513340))*
+- **[LineageOS/android_kernel_samsung_exynos850]** mfc: Add support for c2 *(ID: [513339](https://review.lineageos.org/c/513339))*
+- **[LineageOS/android_hardware_xiaomi]** aidl: fingerprint: Add jiiov module *(ID: [443053](https://review.lineageos.org/c/443053))*
+- **[LineageOS/android_kernel_qcom_sm8350]** BACKPORT: mm: allow swappiness that prefers reclaiming anon over the file workingset *(ID: [513338](https://review.lineageos.org/c/513338))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Check the laser photodiode of the ToF *(ID: [513335](https://review.lineageos.org/c/513335))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Use the nominal frequencies of the front ToF *(ID: [513334](https://review.lineageos.org/c/513334))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Add the front ToF camera *(ID: [513333](https://review.lineageos.org/c/513333))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Support the IMX316 ToF sensor *(ID: [513332](https://review.lineageos.org/c/513332))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Add the lens data of the Galaxy S10 *(ID: [513331](https://review.lineageos.org/c/513331))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_codec2]** codec2: videoapi: Do not fail on unsupported real time priority *(ID: [513330](https://review.lineageos.org/c/513330))*
 - **[LineageOS/android_kernel_fairphone_sm7635]** Merge remote-tracking branch 'sm8650/lineage-22.2' into lineage-23.2 *(ID: [513259](https://review.lineageos.org/c/513259))*
 - **[LineageOS/android_kernel_freebox_nicepool-build]** nicepool: Enable pwm LED *(ID: [513132](https://review.lineageos.org/c/513132))*
 - **[LineageOS/android_packages_apps_Launcher3]** fixup! Move widgetPadding to WorkspaceProfile *(ID: [511468](https://review.lineageos.org/c/511468))*
@@ -28,41 +42,31 @@
 - **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: capabilities: Fix GPU AFBC capabilities *(ID: [513247](https://review.lineageos.org/c/513247))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: Translate the AFBC modifiers for the gralloc3 compatible handle *(ID: [513246](https://review.lineageos.org/c/513246))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos850: Configure Codec2 *(ID: [513245](https://review.lineageos.org/c/513245))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos850: Switch to gralloc4 *(ID: [513244](https://review.lineageos.org/c/513244))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: gralloc4: Add optional GPU AFBC features and BOARD_GRALLOC_DPU_NO_AFBC *(ID: [513243](https://review.lineageos.org/c/513243))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos9820: Configure Codec2 *(ID: [513012](https://review.lineageos.org/c/513012))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: Add BOARD_DEC_USE_VIDEO_DECODER_USAGE *(ID: [513011](https://review.lineageos.org/c/513011))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos9820: Switch to gralloc4 *(ID: [512852](https://review.lineageos.org/c/512852))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: gralloc4: Add BOARD_GRALLOC4_LEGACY_V3_HANDLE *(ID: [512851](https://review.lineageos.org/c/512851))*
-- **[LineageOS/android_kernel_qcom_sdm660]** mm: userfaultfd: Commit the memcg charge before the page goes on the LRU *(ID: [513223](https://review.lineageos.org/c/513223))*
-- **[LineageOS/android_kernel_qcom_sdm660]** mm: shmem: Do not cancel a committed charge when UFFDIO_COPY fails *(ID: [513224](https://review.lineageos.org/c/513224))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Use the same bayer crop and BDS for all ratios of the GC5035 *(ID: [513239](https://review.lineageos.org/c/513239))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Use the same bayer crop and BDS for all ratios of the S5K3L6 *(ID: [513238](https://review.lineageos.org/c/513238))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Use the same bayer crop and BDS for all ratios of the IMX616 *(ID: [513237](https://review.lineageos.org/c/513237))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Use the same bayer crop and BDS for all ratios of the IMX682 *(ID: [513236](https://review.lineageos.org/c/513236))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Use the full sensor mode for all ratios of the GC5035 *(ID: [513235](https://review.lineageos.org/c/513235))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Use the full sensor mode for all ratios of the S5K3L6 *(ID: [513234](https://review.lineageos.org/c/513234))*
 
 </details>
 
-## 📱 Línea Motorola Activa (16)
+## 📱 Línea Motorola Activa (20)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_bronco]** bronco: disable SDM dynamic fps *(ID: [513253](https://review.lineageos.org/c/513253))*
+- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: touch: Add Double Tap gesture support *(ID: [513327](https://review.lineageos.org/c/513327))*
+- **[LineageOS/android_device_motorola_mt6768-common]** mt6768-common: Build the MediaTek Wi-Fi HAL and wpa_supplicant_8 lib *(ID: [512963](https://review.lineageos.org/c/512963))*
+- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: sepolicy: Label init_boot and pvmfw block devices *(ID: [513329](https://review.lineageos.org/c/513329))*
+- **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Do not force HWC copy for virtual displays *(ID: [513328](https://review.lineageos.org/c/513328))*
+- **[LineageOS/android_device_motorola_avatrn]** avatrn: overlay: Disable bridged SoftAP concurrency *(ID: [513326](https://review.lineageos.org/c/513326))*
 - **[LineageOS/android_device_motorola_rhodep]** rhodep: audio: Add more sampling rates to voip_{rx,tx} *(ID: [513292](https://review.lineageos.org/c/513292))*
 - **[LineageOS/android_device_motorola_denver]** denver: audio: Add more sampling rates to voip_{rx,tx} *(ID: [513291](https://review.lineageos.org/c/513291))*
 - **[LineageOS/android_device_motorola_miami]** miami: audio: Add more sampling rates to voip_{rx,tx} *(ID: [513290](https://review.lineageos.org/c/513290))*
 - **[LineageOS/android_device_motorola_ibiza]** ibiza: audio: Add more sampling rates to voip_{rx,tx} *(ID: [513289](https://review.lineageos.org/c/513289))*
 - **[LineageOS/android_device_motorola_milanf]** milanf: audio: Add more sampling rates to voip_{rx,tx} *(ID: [513288](https://review.lineageos.org/c/513288))*
 - **[LineageOS/android_device_motorola_miami]** miami: audio: Enable direct flag for voip_rx *(ID: [513287](https://review.lineageos.org/c/513287))*
-- **[LineageOS/android_device_motorola_bronco]** bronco: disable SDM dynamic fps *(ID: [513253](https://review.lineageos.org/c/513253))*
 - **[LineageOS/android_device_motorola_bronco]** bronco: overlay: set refresh rate for low brightness zone *(ID: [513196](https://review.lineageos.org/c/513196))*
 - **[LineageOS/android_device_motorola_miami]** miami: audio: Use valid ACDB ids for NN mics *(ID: [513221](https://review.lineageos.org/c/513221))*
 - **[LineageOS/android_device_motorola_miami]** miami: audio: Restore DIRECT for voip_rx *(ID: [513220](https://review.lineageos.org/c/513220))*
 - **[LineageOS/android_device_motorola_miami]** miami: audio: Fix VoIP echo reference *(ID: [513219](https://review.lineageos.org/c/513219))*
 - **[LineageOS/android_device_motorola_beckham]** beckham: overlay: Route dock media audio to the analog dock *(ID: [506922](https://review.lineageos.org/c/506922))*
-- **[LineageOS/android_device_motorola_mt6768-common]** mt6768-common: Build the MediaTek Wi-Fi HAL and wpa_supplicant_8 lib *(ID: [512963](https://review.lineageos.org/c/512963))*
 - **[LineageOS/android_device_motorola_ibiza]** ibiza: audio: Add missing Fluence NN mixer paths *(ID: [509728](https://review.lineageos.org/c/509728))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Include MbnOverride in PRODUCT_PACKAGES *(ID: [512988](https://review.lineageos.org/c/512988))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Add MbnOverride to select modem carrier config per SIM *(ID: [512987](https://review.lineageos.org/c/512987))*
