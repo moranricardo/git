@@ -1,17 +1,18 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-13-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-14-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (310)
+## 🚨 Parches Críticos Detectados (309)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_fairphone_sm7635]** Merge remote-tracking branch 'sm8650/lineage-22.2' into lineage-23.2 *(ID: [513259](https://review.lineageos.org/c/513259))*
 - **[LineageOS/android_kernel_freebox_nicepool-build]** nicepool: Enable pwm LED *(ID: [513132](https://review.lineageos.org/c/513132))*
 - **[LineageOS/android_packages_apps_Launcher3]** fixup! Move widgetPadding to WorkspaceProfile *(ID: [511468](https://review.lineageos.org/c/511468))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sm1: Restore the 4.9 VDDCPU regulator and OPP table *(ID: [512382](https://review.lineageos.org/c/512382))*
@@ -22,7 +23,6 @@
 - **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: exynos9820: Add the rear ToF camera as depth camera *(ID: [513264](https://review.lineageos.org/c/513264))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** exynos: kernel-5.10-headers: Regenerate with A256BXXSEEZH9 *(ID: [513260](https://review.lineageos.org/c/513260))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** exynos: Add kernel-6.6-headers *(ID: [500403](https://review.lineageos.org/c/500403))*
-- **[LineageOS/android_kernel_fairphone_sm7635]** Merge remote-tracking branch 'sm8650/lineage-22.2' into lineage-23.2 *(ID: [513259](https://review.lineageos.org/c/513259))*
 - **[LineageOS/android_kernel_qcom_sm8350]** qseecom: Fix lock imbalance on refcount overflow *(ID: [513255](https://review.lineageos.org/c/513255))*
 - **[LineageOS/android_kernel_qcom_sm8650-modules]** drm/msm/dsi: unwind clock request when enable fails *(ID: [513252](https://review.lineageos.org/c/513252))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: capabilities: Fix GPU AFBC capabilities *(ID: [513247](https://review.lineageos.org/c/513247))*
