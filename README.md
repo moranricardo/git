@@ -1,23 +1,26 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-14-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-15-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (351)
+## 🚨 Parches Críticos Detectados (352)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_qcom_display]** composer: Don't group pluggable display configs *(ID: [513360](https://review.lineageos.org/c/513360))*
+- **[LineageOS/android_kernel_xiaomi_sm8450]** power: supply: qti_battery_charger: preserve M81 property ABI *(ID: [509881](https://review.lineageos.org/c/509881))*
+- **[LineageOS/android_kernel_qcom_sm8650]** Revert "PM: sleep: Use complete() in device_pm_sleep_init()" *(ID: [512848](https://review.lineageos.org/c/512848))*
+- **[LineageOS/android_hardware_ayn]** extract-utils-ext: Add mcuapp_firmware.txt generator *(ID: [513427](https://review.lineageos.org/c/513427))*
+- **[LineageOS/android_hardware_mediatek]** create_pl_dev: Map boot regions from BRLYT *(ID: [513379](https://review.lineageos.org/c/513379))*
+- **[LineageOS/android_hardware_mediatek]** create_pl_dev: Look up boot LUs by SCSI LUN *(ID: [513378](https://review.lineageos.org/c/513378))*
 - **[LineageOS/android_hardware_qcom_display]** composer: Call SetFrameBufferConfig in SubmitDisplayConfig *(ID: [513389](https://review.lineageos.org/c/513389))*
 - **[LineageOS/android_hardware_qcom_display]** composer: Resize the framebuffer on legacy config changes too *(ID: [513424](https://review.lineageos.org/c/513424))*
+- **[LineageOS/android_hardware_qcom_display]** composer: Report each pluggable display config as its own group *(ID: [513425](https://review.lineageos.org/c/513425))*
 - **[LineageOS/android_kernel_qcom_sm8250]** video: driver: Return proper error code *(ID: [513407](https://review.lineageos.org/c/513407))*
-- **[LineageOS/android_hardware_qcom_display]** composer: Report each pluggable display config as its own group *(ID: [507697](https://review.lineageos.org/c/507697))*
-- **[LineageOS/android_hardware_motorola]** sensors: Seek to offset 0 before writing enable sysfs node *(ID: [513396](https://review.lineageos.org/c/513396))*
 - **[LineageOS/android_kernel_qcom_sm8250]** techpack: Don't build legacy camera and video drivers for bengal/lito/kona *(ID: [513421](https://review.lineageos.org/c/513421))*
 - **[LineageOS/android_kernel_qcom_sm8250]** techpack: camera: Remove duplicate check *(ID: [513420](https://review.lineageos.org/c/513420))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: camera: sensor: TOCTOU error handling *(ID: [513419](https://review.lineageos.org/c/513419))*
@@ -39,18 +42,14 @@
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Fix possible UAF during buffer unregister call *(ID: [513402](https://review.lineageos.org/c/513402))*
 - **[LineageOS/android_kernel_qcom_sm8250]** vidc: Skip unsupported session load in load calculation *(ID: [513401](https://review.lineageos.org/c/513401))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: Import GrallocMapperCamera from Gralloc3 and adapt *(ID: [513377](https://review.lineageos.org/c/513377))*
-- **[LineageOS/android_kernel_qcom_sdm660]** mm: shmem: Do not cancel a committed charge when UFFDIO_COPY fails *(ID: [513224](https://review.lineageos.org/c/513224))*
-- **[LineageOS/android_kernel_qcom_sdm660]** mm: userfaultfd: Commit the memcg charge before the page goes on the LRU *(ID: [513223](https://review.lineageos.org/c/513223))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libdrmresource: Add support for skip_frameupdate *(ID: [513395](https://review.lineageos.org/c/513395))*
 
 </details>
 
-## 📱 Línea Motorola Activa (18)
+## 📱 Línea Motorola Activa (17)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
-- **[LineageOS/android_hardware_motorola]** sensors: Seek to offset 0 before writing enable sysfs node *(ID: [513396](https://review.lineageos.org/c/513396))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Do not force HWC copy for virtual displays *(ID: [513328](https://review.lineageos.org/c/513328))*
 - **[LineageOS/android_device_motorola_sm7435-common]** sm7435-common: Move overlays for 6GHz support *(ID: [508519](https://review.lineageos.org/c/508519))*
 - **[LineageOS/android_device_motorola_avatrn]** avatrn: Build WifiResQca6750 *(ID: [508520](https://review.lineageos.org/c/508520))*
