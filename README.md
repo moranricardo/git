@@ -7,20 +7,27 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (352)
+## 🚨 Parches Críticos Detectados (377)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: libexynosgraphicbuffer: Mirror the dataspace to the gralloc3 attr_region *(ID: [513006](https://review.lineageos.org/c/513006))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: Mirror the dataspace and crop to the gralloc3 attr_region *(ID: [513005](https://review.lineageos.org/c/513005))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: libexynosgraphicbuffer: Use the shared_metadata offset for the dataspace *(ID: [513004](https://review.lineageos.org/c/513004))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: libexynosgraphicbuffer: Rebuild the handle extension from the wire block *(ID: [513003](https://review.lineageos.org/c/513003))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: Add optional gralloc3 compatible handle layout *(ID: [512850](https://review.lineageos.org/c/512850))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc: Add libGrallocWrapper for gralloc4 *(ID: [512849](https://review.lineageos.org/c/512849))*
 - **[LineageOS/android_kernel_xiaomi_sm8450]** power: supply: qti_battery_charger: preserve M81 property ABI *(ID: [509881](https://review.lineageos.org/c/509881))*
-- **[LineageOS/android_kernel_qcom_sm8650]** Revert "PM: sleep: Use complete() in device_pm_sleep_init()" *(ID: [512848](https://review.lineageos.org/c/512848))*
-- **[LineageOS/android_hardware_ayn]** extract-utils-ext: Add mcuapp_firmware.txt generator *(ID: [513427](https://review.lineageos.org/c/513427))*
-- **[LineageOS/android_hardware_mediatek]** create_pl_dev: Map boot regions from BRLYT *(ID: [513379](https://review.lineageos.org/c/513379))*
-- **[LineageOS/android_hardware_mediatek]** create_pl_dev: Look up boot LUs by SCSI LUN *(ID: [513378](https://review.lineageos.org/c/513378))*
-- **[LineageOS/android_hardware_qcom_display]** composer: Call SetFrameBufferConfig in SubmitDisplayConfig *(ID: [513389](https://review.lineageos.org/c/513389))*
-- **[LineageOS/android_hardware_qcom_display]** composer: Resize the framebuffer on legacy config changes too *(ID: [513424](https://review.lineageos.org/c/513424))*
-- **[LineageOS/android_hardware_qcom_display]** composer: Report each pluggable display config as its own group *(ID: [513425](https://review.lineageos.org/c/513425))*
-- **[LineageOS/android_kernel_qcom_sm8250]** video: driver: Return proper error code *(ID: [513407](https://review.lineageos.org/c/513407))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** c2service: Use exynos_ion_get_heap_mask() and drop libion *(ID: [512989](https://review.lineageos.org/c/512989))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc1, libsbwcwrapper: Drop unused libion dependency *(ID: [512990](https://review.lineageos.org/c/512990))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libion: Don't depend on libion *(ID: [512991](https://review.lineageos.org/c/512991))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libion: Add exynos_ion_get_heap_mask() *(ID: [512992](https://review.lineageos.org/c/512992))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwc2.1, libsbwc-dpu: Drop unused libion dependency *(ID: [512993](https://review.lineageos.org/c/512993))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_interfaces]** SbwcDecompService: Drop unused libion dependency *(ID: [512994](https://review.lineageos.org/c/512994))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_codec2]** codec2: Use exynos_ion_get_heap_mask() and drop libion *(ID: [512995](https://review.lineageos.org/c/512995))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_openmax]** openmax: osal: Drop unused libion dependency *(ID: [512996](https://review.lineageos.org/c/512996))*
+- **[LineageOS/android_kernel_qcom_sm8250]** techpack: Update paths for legacy camera and video drivers *(ID: [513595](https://review.lineageos.org/c/513595))*
 - **[LineageOS/android_kernel_qcom_sm8250]** techpack: Don't build legacy camera and video drivers for bengal/lito/kona *(ID: [513421](https://review.lineageos.org/c/513421))*
 - **[LineageOS/android_kernel_qcom_sm8250]** techpack: camera: Remove duplicate check *(ID: [513420](https://review.lineageos.org/c/513420))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: camera: sensor: TOCTOU error handling *(ID: [513419](https://review.lineageos.org/c/513419))*
@@ -35,17 +42,10 @@
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: camera: memmgr: Add refcount to track umd in use buffers *(ID: [513410](https://review.lineageos.org/c/513410))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc/cvp: fix function type for hfi_cmd_response_callback *(ID: [513409](https://review.lineageos.org/c/513409))*
 - **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc/cvp: Fix handle_cmd_response parameter type *(ID: [513408](https://review.lineageos.org/c/513408))*
-- **[LineageOS/android_kernel_qcom_sm8250]** video: driver: Return proper error code *(ID: [513406](https://review.lineageos.org/c/513406))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: fix error during debugfs init *(ID: [513405](https://review.lineageos.org/c/513405))*
-- **[LineageOS/android_kernel_qcom_sm8250]** techpack: video: hfi_iris2: Fix -Wpointer-to-int-cast *(ID: [513404](https://review.lineageos.org/c/513404))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Release cvp buffer lock in invalid buffer case *(ID: [513403](https://review.lineageos.org/c/513403))*
-- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Fix possible UAF during buffer unregister call *(ID: [513402](https://review.lineageos.org/c/513402))*
-- **[LineageOS/android_kernel_qcom_sm8250]** vidc: Skip unsupported session load in load calculation *(ID: [513401](https://review.lineageos.org/c/513401))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: Import GrallocMapperCamera from Gralloc3 and adapt *(ID: [513377](https://review.lineageos.org/c/513377))*
 
 </details>
 
-## 📱 Línea Motorola Activa (17)
+## 📱 Línea Motorola Activa (16)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
@@ -66,7 +66,6 @@
 - **[LineageOS/android_device_motorola_miami]** miami: audio: Use valid ACDB ids for NN mics *(ID: [513221](https://review.lineageos.org/c/513221))*
 - **[LineageOS/android_device_motorola_miami]** miami: audio: Restore DIRECT for voip_rx *(ID: [513220](https://review.lineageos.org/c/513220))*
 - **[LineageOS/android_device_motorola_miami]** miami: audio: Fix VoIP echo reference *(ID: [513219](https://review.lineageos.org/c/513219))*
-- **[LineageOS/android_device_motorola_beckham]** beckham: overlay: Route dock media audio to the analog dock *(ID: [506922](https://review.lineageos.org/c/506922))*
 
 </details>
 
