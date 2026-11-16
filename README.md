@@ -1,47 +1,47 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-15-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-16-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (377)
+## 🚨 Parches Críticos Detectados (301)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_frameworks_base]** Fix IllegalArgumentException under PolicySerializers *(ID: [513734](https://review.lineageos.org/c/513734))*
-- **[LineageOS/android_frameworks_base]** Fix crash in getOverrideLocaleConfig when package is not found *(ID: [513733](https://review.lineageos.org/c/513733))*
-- **[LineageOS/android_frameworks_base]** Fix lock-screen bypass via default USB functions on timeout *(ID: [513732](https://review.lineageos.org/c/513732))*
-- **[LineageOS/android_frameworks_base]** Fix shell command vulnerability in WindowManagerService *(ID: [513729](https://review.lineageos.org/c/513729))*
-- **[LineageOS/android_frameworks_base]** Fix integer overflow in ZipFileRO::getEntryFileName *(ID: [513721](https://review.lineageos.org/c/513721))*
-- **[LineageOS/android_frameworks_base]** [Accessibility] Fix metadata spoofing in setAccessibilityWindowAttributes *(ID: [513715](https://review.lineageos.org/c/513715))*
-- **[LineageOS/android_frameworks_base]** RESTRICT AUTOMERGE: Fix integer underflow vulnerability in PduParser *(ID: [513714](https://review.lineageos.org/c/513714))*
-- **[LineageOS/android_packages_apps_Settings]** Fix Background Activity Launch (BAL) bypass in AddAccountSettings *(ID: [513711](https://review.lineageos.org/c/513711))*
-- **[LineageOS/android_kernel_xiaomi_sdm660]** Revert "msm: ADSPRPC: Restrict untrusted applications from attaching to GuestOS" *(ID: [508984](https://review.lineageos.org/c/508984))*
-- **[LineageOS/android_kernel_xiaomi_sdm660]** Merge remote-tracking branch 'sdm660/lineage-20' into lineage-20 *(ID: [508982](https://review.lineageos.org/c/508982))*
-- **[LineageOS/android_kernel_qcom_sdm660]** Partially revert "BACKPORT: kbuild: add all Clang-specific flags unconditionally" *(ID: [513676](https://review.lineageos.org/c/513676))*
-- **[LineageOS/android_kernel_qcom_sdm660]** Partially reapply "AndroidKernel: Add LLVM support for Kernel" *(ID: [513710](https://review.lineageos.org/c/513710))*
-- **[LineageOS/android_kernel_qcom_sm8350]** msm: camera: isp: Fix mem leak due mem_kdup usage *(ID: [513707](https://review.lineageos.org/c/513707))*
-- **[LineageOS/android_kernel_qcom_sm8250]** Partially revert "BACKPORT: kbuild: add all Clang-specific flags unconditionally" *(ID: [513709](https://review.lineageos.org/c/513709))*
-- **[LineageOS/android_kernel_qcom_sm8250]** Partially reapply "AndroidKernel: Add LLVM support for Kernel" *(ID: [513708](https://review.lineageos.org/c/513708))*
-- **[LineageOS/android_kernel_oneplus_sm8350]** msm: camera: isp: Free the bw_config copy in the generic blob handler *(ID: [510839](https://review.lineageos.org/c/510839))*
-- **[LineageOS/android_packages_services_Mms]** MmsService: Fix phone-uid confused deputy vulnerability on ContentProvider *(ID: [513706](https://review.lineageos.org/c/513706))*
-- **[LineageOS/android_packages_providers_TelephonyProvider]** Fix permission bypass with empty projection array *(ID: [513702](https://review.lineageos.org/c/513702))*
-- **[LineageOS/android_packages_modules_Wifi]** Fix LOHS BSSID configuration validation bypass *(ID: [513701](https://review.lineageos.org/c/513701))*
-- **[LineageOS/android_packages_modules_Wifi]** Summary: Fix permission bypass in WifiP2pServiceImpl *(ID: [513700](https://review.lineageos.org/c/513700))*
-- **[LineageOS/android_packages_modules_Wifi]** Fix package spoofing in getMessenger *(ID: [513699](https://review.lineageos.org/c/513699))*
-- **[LineageOS/android_packages_modules_Bluetooth]** Fix L2CAP heap overflow by enforcing minimum MPS *(ID: [513698](https://review.lineageos.org/c/513698))*
-- **[LineageOS/android_packages_apps_Nfc]** Fix TagService access control without AIDL changes *(ID: [513697](https://review.lineageos.org/c/513697))*
-- **[LineageOS/android_hardware_interfaces]** Add model input/output out-of-bounds validation tests *(ID: [513696](https://review.lineageos.org/c/513696))*
-- **[LineageOS/android_hardware_interfaces]** Fix CAS HAL integer truncation vulnerability *(ID: [513695](https://review.lineageos.org/c/513695))*
-- **[LineageOS/android_frameworks_opt_telephony]** [RESTRICT AUTOMERGE] [Telephony] Fix RCS config credential leak via ISub *(ID: [513693](https://review.lineageos.org/c/513693))*
-- **[LineageOS/android_frameworks_native]** Fix OOB read and UAF in InputDispatcher::flushSensor *(ID: [513692](https://review.lineageos.org/c/513692))*
-- **[LineageOS/android_frameworks_av]** Fix stack buffer overflow in LWOmxNode::getParameter and getConfig *(ID: [513690](https://review.lineageos.org/c/513690))*
-- **[LineageOS/android_frameworks_av]** Fix unbounded recursion in MPEG4Source::parseChunk *(ID: [513689](https://review.lineageos.org/c/513689))*
-- **[LineageOS/android_frameworks_av]** Fix stack-buffer-overflow in StagefrightMetadataRetriever *(ID: [513688](https://review.lineageos.org/c/513688))*
+- **[LineageOS/android_device_oneplus_sm8650-common]** sm8650-common: Fix Wireless Display casting *(ID: [512953](https://review.lineageos.org/c/512953))*
+- **[LineageOS/android_device_retroidpocket_cq7790s-common]** cq7790s-common: Fix battery and USB OTG detection *(ID: [513789](https://review.lineageos.org/c/513789))*
+- **[LineageOS/android_device_xiaomi_twolip]** twolip: Add second blob sha1sum for fixed-up libMiWatermark *(ID: [361381](https://review.lineageos.org/c/361381))*
+- **[LineageOS/android_kernel_qcom_sm8350]** ANDROID: fuse-bpf: fix verifier bypass in fuse_prog_is_valid_access *(ID: [512818](https://review.lineageos.org/c/512818))*
+- **[LineageOS/android_kernel_qcom_sm8350]** ANDROID: fuse-bpf: Fix readdir for getdents *(ID: [513749](https://review.lineageos.org/c/513749))*
+- **[LineageOS/android_kernel_qcom_sm8350]** ANDROID: fuse-bpf: Check inode before calling fuse_file_put *(ID: [513748](https://review.lineageos.org/c/513748))*
+- **[LineageOS/android_kernel_qcom_sm8350]** ANDROID: fuse-bpf: Fix crash from assuming iter is kvec *(ID: [513747](https://review.lineageos.org/c/513747))*
+- **[LineageOS/android_kernel_qcom_sm8350]** adreno_a6xx_rpmh: Use the addrs type for the addrs allocation *(ID: [513746](https://review.lineageos.org/c/513746))*
+- **[LineageOS/android_kernel_qcom_sm8350]** qseecom: Fix list head dereference on listener lookup miss *(ID: [513744](https://review.lineageos.org/c/513744))*
+- **[LineageOS/android_kernel_qcom_sm8350]** soc: qcom: icnss2: Free the cooling device on registration failure *(ID: [513745](https://review.lineageos.org/c/513745))*
+- **[LineageOS/android_kernel_qcom_sm8350]** techpack: ASoC: wsa883x: Do not free devm allocations on teardown *(ID: [513741](https://review.lineageos.org/c/513741))*
+- **[LineageOS/android_kernel_qcom_sm8350]** techpack: datarmnet: Free the control skb with kfree_skb *(ID: [513743](https://review.lineageos.org/c/513743))*
+- **[LineageOS/android_kernel_qcom_sm8350]** techpack: datarmnet: Free the header skb with kfree_skb *(ID: [513742](https://review.lineageos.org/c/513742))*
+- **[LineageOS/android_kernel_qcom_sm8350]** techpack: audio: dsp: Copy the AAC config from its allocation *(ID: [513740](https://review.lineageos.org/c/513740))*
+- **[LineageOS/android_kernel_qcom_sm8350]** scsi: ufs-qcom: Release the host lock on invalid testbus config *(ID: [513739](https://review.lineageos.org/c/513739))*
+- **[LineageOS/android_kernel_qcom_sm8350]** soc: qcom: icnss2: Reacquire the event lock before continuing *(ID: [513738](https://review.lineageos.org/c/513738))*
+- **[LineageOS/android_kernel_qcom_sm8350]** qseecom: Fix lock imbalance on refcount overflow *(ID: [513255](https://review.lineageos.org/c/513255))*
+- **[LineageOS/android_kernel_qcom_sm8350]** techpack: ASoC: msm-pcm-host-voice-v2: Release the DSP lock on playback overflow *(ID: [513737](https://review.lineageos.org/c/513737))*
+- **[LineageOS/android_kernel_qcom_sm8350]** techpack: camera: req-mgr: Do not unlock the handle table before locking it *(ID: [513736](https://review.lineageos.org/c/513736))*
+- **[LineageOS/android_kernel_qcom_sm8350]** ipv4: validate checksum_start before completing checksum *(ID: [512830](https://review.lineageos.org/c/512830))*
+- **[LineageOS/android_kernel_qcom_sm8350]** netfilter: nfnetlink_queue: unbreak SCTP traffic *(ID: [512829](https://review.lineageos.org/c/512829))*
+- **[LineageOS/android_kernel_qcom_sm8350]** net: add inline function skb_csum_is_sctp *(ID: [512828](https://review.lineageos.org/c/512828))*
+- **[LineageOS/android_kernel_qcom_sm8350]** ipv4: free inet_opt and ireq_opt after an RCU grace period *(ID: [512827](https://review.lineageos.org/c/512827))*
+- **[LineageOS/android_kernel_qcom_sm8350]** net: tun: bound receive headroom *(ID: [512826](https://review.lineageos.org/c/512826))*
+- **[LineageOS/android_kernel_qcom_sm8350]** inet: frags: strip GSO state from fragments before reassembly *(ID: [512825](https://review.lineageos.org/c/512825))*
+- **[LineageOS/android_kernel_qcom_sm8350]** crypto: ecc - Fix carry overflow in vli multiplication *(ID: [512824](https://review.lineageos.org/c/512824))*
+- **[LineageOS/android_kernel_qcom_sm8350]** crypto: drbg - Fix returning success on failure in CTR_DRBG *(ID: [512823](https://review.lineageos.org/c/512823))*
+- **[LineageOS/android_kernel_qcom_sm8350]** tipc: fix bc_ackers underflow on duplicate GRP_ACK_MSG *(ID: [512822](https://review.lineageos.org/c/512822))*
+- **[LineageOS/android_kernel_qcom_sm8350]** netfilter: nf_conntrack_h323: check for zero length in DecodeQ931() *(ID: [512821](https://review.lineageos.org/c/512821))*
+- **[LineageOS/android_kernel_qcom_sm8350]** af_unix: Fix UAF read of tail->len in unix_stream_data_wait() *(ID: [512820](https://review.lineageos.org/c/512820))*
 
 </details>
 
