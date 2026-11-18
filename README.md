@@ -1,55 +1,58 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-17-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-18-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (292)
+## 🚨 Parches Críticos Detectados (279)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_qcom_sm8250]** ipv6: Handle all fib6_nh in a nexthop in fib6_drop_pcpu_from *(ID: [514030](https://review.lineageos.org/c/514030))*
-- **[LineageOS/android_kernel_ayn_common-modules]** moorechip-joystick: Static `module_(init|exit)` calls *(ID: [514027](https://review.lineageos.org/c/514027))*
-- **[LineageOS/android_kernel_ayn_common-modules]** focaltech_fp: Deprecate the usage of `wakeup_source_init` and `wakeup_source_trash` *(ID: [513878](https://review.lineageos.org/c/513878))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: radxa0: Declare the USB 3.0 host port *(ID: [514014](https://review.lineageos.org/c/514014))*
+- **[LineageOS/android_device_radxa_radxa0_tab]** radxa0_tab: Fix fastboot flashall *(ID: [514070](https://review.lineageos.org/c/514070))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** gralloc4: Add BOARD_GRALLOC_DPU_NO_AFBC *(ID: [514065](https://review.lineageos.org/c/514065))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos9830: Configure Codec2 *(ID: [514021](https://review.lineageos.org/c/514021))*
-- **[LineageOS/android_kernel_ayn_cq8725s-devicetrees]** devicetrees: Add Retroid Pocket Duo *(ID: [513862](https://review.lineageos.org/c/513862))*
-- **[LineageOS/android_kernel_ayn_cq8725s-modules]** audio: Add es8326 codec *(ID: [513875](https://review.lineageos.org/c/513875))*
-- **[LineageOS/android_kernel_ayn_cq8725s-modules]** audio: sun: Set up aw883xx DAI links from DT *(ID: [513874](https://review.lineageos.org/c/513874))*
-- **[LineageOS/android_kernel_ayn_cq8725s-modules]** touch: haptic_hv: Pick RAM wave by constant vibration length *(ID: [513873](https://review.lineageos.org/c/513873))*
-- **[LineageOS/android_kernel_ayn_cq8725s-modules]** touch: haptic_hv: Implement primitives *(ID: [513872](https://review.lineageos.org/c/513872))*
-- **[LineageOS/android_kernel_ayn_cq8725s-modules]** touch: haptic_hv: Apply effect strength *(ID: [513871](https://review.lineageos.org/c/513871))*
-- **[LineageOS/android_kernel_ayn_cq8725s-modules]** touch: haptic_hv: Implement QTI vibrator HAL effects *(ID: [513870](https://review.lineageos.org/c/513870))*
-- **[LineageOS/android_kernel_ayn_cq8725s-modules]** touch: Add awinic haptic driver *(ID: [513869](https://review.lineageos.org/c/513869))*
-- **[LineageOS/android_kernel_ayn_cq8725s-modules]** touch: focaltech: Add axis inversion for misconfigured line order *(ID: [513864](https://review.lineageos.org/c/513864))*
-- **[LineageOS/android_kernel_ayn_cq8725s-modules]** touch: focaltech: Add secondary touchscreen support *(ID: [513863](https://review.lineageos.org/c/513863))*
-- **[LineageOS/android_kernel_ayn_cq8725s-modules]** touch: focaltech: Disable automatic firmware upgrade on probe *(ID: [513868](https://review.lineageos.org/c/513868))*
-- **[LineageOS/android_kernel_ayn_cq8725s-modules]** touch: focaltech: Pass driver state explicitly instead of using globals *(ID: [513867](https://review.lineageos.org/c/513867))*
-- **[LineageOS/android_kernel_ayn_cq8725s-modules]** touch: focaltech: Remove /proc APK debug interface *(ID: [513866](https://review.lineageos.org/c/513866))*
-- **[LineageOS/android_kernel_ayn_cq8725s-modules]** touch: focaltech: Remove unused production test interface *(ID: [513865](https://review.lineageos.org/c/513865))*
-- **[LineageOS/android_hardware_ayn]** sepolicy: qti: Address Ayn sxr2130p denials *(ID: [513640](https://review.lineageos.org/c/513640))*
-- **[LineageOS/android_hardware_mainline_common]** mainline/common: bdaddr: Build the address without awk *(ID: [509821](https://review.lineageos.org/c/509821))*
-- **[LineageOS/android_kernel_xiaomi_sdm660]** techpack: audio: max98937: Fix build error if CONFIG_DEBUG_FS is disabled *(ID: [489809](https://review.lineageos.org/c/489809))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** mmc: meson-g12a: Re-establish SD-card UART console switching *(ID: [512069](https://review.lineageos.org/c/512069))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arch: arm64: configs: amlogic_common: Enable LED triggers *(ID: [513934](https://review.lineageos.org/c/513934))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Enable eMMC HS200 and HS400 *(ID: [512396](https://review.lineageos.org/c/512396))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: bananapim5: Configure video memory *(ID: [512395](https://review.lineageos.org/c/512395))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sm1: Restore the 4.9 VDDCPU regulator and OPP table *(ID: [512382](https://review.lineageos.org/c/512382))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sm1: Use the 4.9 CPU reg values on older firmware boards *(ID: [512381](https://review.lineageos.org/c/512381))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: odroidc4: Apply 4.9 board changes *(ID: [512379](https://review.lineageos.org/c/512379))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: odroidc4: Rebrand to track device-specific changes *(ID: [512378](https://review.lineageos.org/c/512378))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos9830: Switch to gralloc4 *(ID: [513556](https://review.lineageos.org/c/513556))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos850: Configure Codec2 *(ID: [513245](https://review.lineageos.org/c/513245))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos850: Switch to gralloc4 *(ID: [513244](https://review.lineageos.org/c/513244))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos9820: Configure Codec2 *(ID: [513012](https://review.lineageos.org/c/513012))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** openmax: Add BOARD_DEC_USE_VIDEO_DECODER_USAGE *(ID: [513011](https://review.lineageos.org/c/513011))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos9820: Switch to gralloc4 *(ID: [512852](https://review.lineageos.org/c/512852))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** gralloc4: Add BOARD_GRALLOC4_LEGACY_V3_HANDLE *(ID: [512851](https://review.lineageos.org/c/512851))*
+- **[LineageOS/android_kernel_qcom_sm8250]** ipv6: Handle all fib6_nh in a nexthop in fib6_drop_pcpu_from *(ID: [514030](https://review.lineageos.org/c/514030))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: Guard DPU AFBC basic support *(ID: [514042](https://review.lineageos.org/c/514042))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: Import GrallocMapperCamera from Gralloc3 and adapt *(ID: [513377](https://review.lineageos.org/c/513377))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: boot: dts: amlogic: sm1_s905x3_bananapim5: add Wi-Fi and Bluetooth overlay *(ID: [514051](https://review.lineageos.org/c/514051))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: amlogic: sm1_s905x3_bananapim5: make Banana Pi M5 specific changes *(ID: [514050](https://review.lineageos.org/c/514050))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: boot: dts: amlogic: rebrand sm1_s905d3_ac200 to sm1_s905x3_bananapim5 *(ID: [514049](https://review.lineageos.org/c/514049))*
+- **[LineageOS/android_device_oneplus_sm8850-common]** sm8850-common: Fix Codec2 HAL manifest versions *(ID: [510909](https://review.lineageos.org/c/510909))*
+- **[LineageOS/android_device_oneplus_infiniti]** infiniti: Fix offline camera HAL manifest version *(ID: [510913](https://review.lineageos.org/c/510913))*
+- **[LineageOS/android_device_oneplus_sm8850-common]** sm8850-common: Fix Wireless Display casting *(ID: [512759](https://review.lineageos.org/c/512759))*
+- **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: nova_0flash_mmi: Start boot firmware download on display on *(ID: [512758](https://review.lineageos.org/c/512758))*
+- **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: nova_0flash_mmi: Make boot firmware delay configurable *(ID: [512757](https://review.lineageos.org/c/512757))*
+- **[LineageOS/android_kernel_motorola_sm6225]** techpack: display: msm: fix HBM backlight race with display disable *(ID: [512756](https://review.lineageos.org/c/512756))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: Translate the AFBC modifiers for the gralloc3 compatible handle *(ID: [513246](https://review.lineageos.org/c/513246))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: libexynosgraphicbuffer: Mirror the dataspace to the gralloc3 attr_region *(ID: [513006](https://review.lineageos.org/c/513006))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: Mirror the dataspace and crop to the gralloc3 attr_region *(ID: [513005](https://review.lineageos.org/c/513005))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: libexynosgraphicbuffer: Use the shared_metadata offset for the dataspace *(ID: [513004](https://review.lineageos.org/c/513004))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: libexynosgraphicbuffer: Rebuild the handle extension from the wire block *(ID: [513003](https://review.lineageos.org/c/513003))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** exynos: Drop unused libion dependency *(ID: [512990](https://review.lineageos.org/c/512990))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** c2service: Use exynos_ion_get_heap_mask() and drop libion *(ID: [512989](https://review.lineageos.org/c/512989))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: Add optional gralloc3 compatible handle layout *(ID: [512850](https://review.lineageos.org/c/512850))*
 
 </details>
 
-## 📱 Línea Motorola Activa (8)
+## 📱 Línea Motorola Activa (11)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: nova_0flash_mmi: Start boot firmware download on display on *(ID: [512758](https://review.lineageos.org/c/512758))*
+- **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: nova_0flash_mmi: Make boot firmware delay configurable *(ID: [512757](https://review.lineageos.org/c/512757))*
+- **[LineageOS/android_kernel_motorola_sm6225]** techpack: display: msm: fix HBM backlight race with display disable *(ID: [512756](https://review.lineageos.org/c/512756))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Include MbnOverride in PRODUCT_PACKAGES *(ID: [512988](https://review.lineageos.org/c/512988))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Add MbnOverride to select modem carrier config per SIM *(ID: [512987](https://review.lineageos.org/c/512987))*
 - **[LineageOS/android_device_motorola_mona]** mona: Fix invalid usage of log utility *(ID: [509436](https://review.lineageos.org/c/509436))*
