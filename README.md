@@ -7,49 +7,58 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (171)
+## 🚨 Parches Críticos Detectados (173)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_lineage_compat]** compat: Add libssl-v33 *(ID: [514289](https://review.lineageos.org/c/514289))*
-- **[LineageOS/android_hardware_amazon]** sepolicy: Add FireOS audio HAL policy *(ID: [514391](https://review.lineageos.org/c/514391))*
-- **[LineageOS/android_hardware_amazon]** btmac: Add Bluetooth address script *(ID: [514390](https://review.lineageos.org/c/514390))*
-- **[LineageOS/android_hardware_amazon]** idme: Add FireOS IDME HAL service *(ID: [514330](https://review.lineageos.org/c/514330))*
-- **[LineageOS/android_kernel_qcom_sm8150]** power: supply: qcom: qpnp-fg-gen4: Fix of_node leak in fg_gen4_parse_dt() *(ID: [514185](https://review.lineageos.org/c/514185))*
-- **[LineageOS/android_frameworks_base]** SystemUI: Fix UDFPS dim layer opacity and animation cleanup *(ID: [507919](https://review.lineageos.org/c/507919))*
-- **[LineageOS/android_device_oneplus_infiniti]** infiniti: Fix offline camera HAL manifest version *(ID: [510913](https://review.lineageos.org/c/510913))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: Match stock qseecom pool size on fairlady, iceland and infiniti *(ID: [514300](https://review.lineageos.org/c/514300))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: Match stock MPSS memory size on fairlady and infiniti *(ID: [514380](https://review.lineageos.org/c/514380))*
-- **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant_8_lib from khadas *(ID: [509282](https://review.lineageos.org/c/509282))*
-- **[LineageOS/android_hardware_mediatek]** aidl: bluetooth: Link to death of the HCI callback *(ID: [512411](https://review.lineageos.org/c/512411))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label oplus_wireless sysfs nodes *(ID: [514293](https://review.lineageos.org/c/514293))*
-- **[LineageOS/android_external_exfatprogs]** libexfat, mkfs: Fix android build *(ID: [514359](https://review.lineageos.org/c/514359))*
-- **[LineageOS/android_hardware_oplus]** fingerprint: Only enable HBM dimlayer on touch down *(ID: [512692](https://review.lineageos.org/c/512692))*
-- **[LineageOS/android_kernel_samsung_a55x]** drivers: panel: mdnie: Add mode_max node *(ID: [514321](https://review.lineageos.org/c/514321))*
-- **[LineageOS/android_kernel_samsung_a55x]** drivers: panel: mdnie: Disable accessibility node *(ID: [514320](https://review.lineageos.org/c/514320))*
-- **[LineageOS/android_kernel_samsung_a55x]** video: mdnie: fix lux node permissions *(ID: [514319](https://review.lineageos.org/c/514319))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos9830: Configure Codec2 *(ID: [514021](https://review.lineageos.org/c/514021))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos9830: Switch to gralloc4 *(ID: [513556](https://review.lineageos.org/c/513556))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Run pre-commit *(ID: [512734](https://review.lineageos.org/c/512734))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Run clang-format *(ID: [509283](https://review.lineageos.org/c/509283))*
+- **[LineageOS/android_hardware_lineage_compat]** libcomparetf2: Add the remaining long double comparisons *(ID: [514290](https://review.lineageos.org/c/514290))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos7885: Switch to the 5.10 kernel *(ID: [514328](https://review.lineageos.org/c/514328))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: Partially revert "config: Drop support for 4.4 kernels" *(ID: [514326](https://review.lineageos.org/c/514326))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwjpeg: Optionally build against Samsung's legacy V4L2 layout *(ID: [514291](https://review.lineageos.org/c/514291))*
+- **[LineageOS/android_hardware_ayn]** sensors: Add support to 2.0 sensor HAL *(ID: [514421](https://review.lineageos.org/c/514421))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Let gen4m handle SETSUSPENDMODE as a private cmd *(ID: [514455](https://review.lineageos.org/c/514455))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Run clang-format *(ID: [512734](https://review.lineageos.org/c/512734))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Adapt the wifi HAL to MediaTek gen4m driver *(ID: [511447](https://review.lineageos.org/c/511447))*
 - **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Rebrand and adapt library to AOSP wifi_cc_defaults_droidlogic *(ID: [511446](https://review.lineageos.org/c/511446))*
 - **[LineageOS/android_hardware_mediatek]** wlan: Import Broadcom wifi_hal from AOSP *(ID: [511445](https://review.lineageos.org/c/511445))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Adapt the wifi HAL to MediaTek gen4m driver *(ID: [511447](https://review.lineageos.org/c/511447))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Setup USB AOA perms and prop *(ID: [507732](https://review.lineageos.org/c/507732))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Make use of sys.usb.controller for notifying musb-hdcr kernel init *(ID: [507733](https://review.lineageos.org/c/507733))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Bump AIDL USB gadget HAL to V2 *(ID: [507730](https://review.lineageos.org/c/507730))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Fix MaxPower value for USB 3.0 devices *(ID: [506328](https://review.lineageos.org/c/506328))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Drop mtk_rndis.gs4 references *(ID: [506326](https://review.lineageos.org/c/506326))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Require AOA daemon *(ID: [507731](https://review.lineageos.org/c/507731))*
+- **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant config *(ID: [509287](https://review.lineageos.org/c/509287))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Adapt private cmd structure to gen4m *(ID: [509285](https://review.lineageos.org/c/509285))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Convert to blueprint *(ID: [509284](https://review.lineageos.org/c/509284))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Run clang-format *(ID: [509283](https://review.lineageos.org/c/509283))*
+- **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant_8_lib from khadas *(ID: [509282](https://review.lineageos.org/c/509282))*
+- **[LineageOS/android_kernel_qcom_sm8250]** power: supply: qcom: qpnp-fg-gen4: Fix of_node leak in fg_gen4_parse_child_nodes_dt() *(ID: [514302](https://review.lineageos.org/c/514302))*
+- **[LineageOS/android_kernel_xiaomi_mt6895]** arm64: dts: mediatek: plato: Align with OS2.0.219.0.VLQMIXM dtbo *(ID: [514454](https://review.lineageos.org/c/514454))*
+- **[LineageOS/android_kernel_motorola_sm7325]** arch: arm64: configs: berlna: Drop unusable fingerprint options *(ID: [514453](https://review.lineageos.org/c/514453))*
+- **[LineageOS/android_kernel_motorola_sm7325]** arch: arm64: configs: berlna: Enable Egis fingerprint navigation *(ID: [514452](https://review.lineageos.org/c/514452))*
+- **[LineageOS/android_kernel_motorola_sm7325]** power: qti_glink_charger: Don't wait out the timeout on rejected writes *(ID: [514451](https://review.lineageos.org/c/514451))*
+- **[LineageOS/android_kernel_motorola_sm7325]** mm: userfaultfd: Commit the memcg charge before adding the page to the LRU *(ID: [514450](https://review.lineageos.org/c/514450))*
+- **[LineageOS/android_hardware_lineage_interfaces]** power-libperfmgr: Implement the headroom API *(ID: [514432](https://review.lineageos.org/c/514432))*
+- **[LineageOS/android_hardware_lineage_interfaces]** power-libperfmgr: Honor GpuBoost: false *(ID: [514431](https://review.lineageos.org/c/514431))*
+- **[LineageOS/android_hardware_qcom_display]** gralloc: AIDL allocator: Fix errors and isolation *(ID: [514424](https://review.lineageos.org/c/514424))*
+- **[LineageOS/android_hardware_qcom_display]** gralloc: add allocator AIDL service *(ID: [514425](https://review.lineageos.org/c/514425))*
+- **[LineageOS/android_hardware_google_pixel]** thermal: Reset cooling devices when the HAL starts *(ID: [514416](https://review.lineageos.org/c/514416))*
+- **[LineageOS/android_hardware_qcom_thermal]** thermal: Let sensors share one thermal zone *(ID: [514418](https://review.lineageos.org/c/514418))*
+- **[LineageOS/android_system_core]** init: Fix parsing the fatal reboot target *(ID: [514423](https://review.lineageos.org/c/514423))*
+- **[LineageOS/android_hardware_ayn]** sepolicy: qti: Address Ayn sxr2130p denials *(ID: [513640](https://review.lineageos.org/c/513640))*
+- **[LineageOS/android_external_exfatprogs]** libexfat, mkfs: Fix android build *(ID: [514420](https://review.lineageos.org/c/514420))*
 
 </details>
 
-## 📱 Línea Motorola Activa (13)
+## 📱 Línea Motorola Activa (21)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_kernel_motorola_sm7325]** arch: arm64: configs: berlna: Drop unusable fingerprint options *(ID: [514453](https://review.lineageos.org/c/514453))*
+- **[LineageOS/android_kernel_motorola_sm7325]** arch: arm64: configs: berlna: Enable Egis fingerprint navigation *(ID: [514452](https://review.lineageos.org/c/514452))*
+- **[LineageOS/android_kernel_motorola_sm7325]** power: qti_glink_charger: Don't wait out the timeout on rejected writes *(ID: [514451](https://review.lineageos.org/c/514451))*
+- **[LineageOS/android_kernel_motorola_sm7325]** mm: userfaultfd: Commit the memcg charge before adding the page to the LRU *(ID: [514450](https://review.lineageos.org/c/514450))*
+- **[LineageOS/android_device_motorola_sm6375-common]** sm6375-common: Pull updates from V1UGS35H.75-14-3-12 *(ID: [514434](https://review.lineageos.org/c/514434))*
+- **[LineageOS/android_device_motorola_fogos]** fogos: Pull updates from V1UGS35H.75-14-3-12 *(ID: [514433](https://review.lineageos.org/c/514433))*
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Pull updates from W1TBS36H.1-63-2-10 *(ID: [514427](https://review.lineageos.org/c/514427))*
+- **[LineageOS/android_device_motorola_bronco]** bronco: Pull updates from W1TBS36H.1-63-2-10 *(ID: [514426](https://review.lineageos.org/c/514426))*
+- **[LineageOS/android_kernel_motorola_sm6375]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-24.0 *(ID: [514413](https://review.lineageos.org/c/514413))*
 - **[LineageOS/android_device_motorola_fogos]** Revert "fogos: audio: Add missing Fluence NN mixer paths" *(ID: [513658](https://review.lineageos.org/c/513658))*
 - **[LineageOS/android_device_motorola_sm6375-common]** sm6375-common: Disable ro.vendor.audio.sdk.fluence.nn.enabled *(ID: [513655](https://review.lineageos.org/c/513655))*
 - **[LineageOS/android_device_motorola_miami]** miami: audio: Use valid ACDB ids for NN mics *(ID: [513221](https://review.lineageos.org/c/513221))*
@@ -62,7 +71,6 @@
 - **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: nova_0flash_mmi: Start boot firmware download on display on *(ID: [512758](https://review.lineageos.org/c/512758))*
 - **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: nova_0flash_mmi: Make boot firmware delay configurable *(ID: [512757](https://review.lineageos.org/c/512757))*
 - **[LineageOS/android_kernel_motorola_sm6225]** techpack: display: msm: fix HBM backlight race with display disable *(ID: [512756](https://review.lineageos.org/c/512756))*
-- **[LineageOS/android_device_motorola_mona]** mona: Fix invalid usage of log utility *(ID: [509436](https://review.lineageos.org/c/509436))*
 
 </details>
 
