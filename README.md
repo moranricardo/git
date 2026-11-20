@@ -1,55 +1,57 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-19-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-20-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (180)
+## 🚨 Parches Críticos Detectados (190)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_kernel_qcom_sm8250]** power: supply: qcom: qpnp-fg-gen4: Fix of_node leak in fg_gen4_parse_child_nodes_dt() *(ID: [514302](https://review.lineageos.org/c/514302))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Run clang-format *(ID: [509283](https://review.lineageos.org/c/509283))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Rebrand and adapt library to AOSP wifi_cc_defaults_droidlogic *(ID: [511446](https://review.lineageos.org/c/511446))*
+- **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant_8_lib from khadas *(ID: [509282](https://review.lineageos.org/c/509282))*
+- **[LineageOS/android_hardware_mediatek]** wlan: Import Broadcom wifi_hal from AOSP *(ID: [511445](https://review.lineageos.org/c/511445))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Adapt the wifi HAL to MediaTek gen4m driver *(ID: [511447](https://review.lineageos.org/c/511447))*
+- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Setup USB AOA perms and prop *(ID: [507732](https://review.lineageos.org/c/507732))*
+- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Make use of sys.usb.controller for notifying musb-hdcr kernel init *(ID: [507733](https://review.lineageos.org/c/507733))*
+- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Bump AIDL USB gadget HAL to V2 *(ID: [507730](https://review.lineageos.org/c/507730))*
+- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Fix MaxPower value for USB 3.0 devices *(ID: [506328](https://review.lineageos.org/c/506328))*
+- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Drop mtk_rndis.gs4 references *(ID: [506326](https://review.lineageos.org/c/506326))*
+- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Require AOA daemon *(ID: [507731](https://review.lineageos.org/c/507731))*
+- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Sync setup with Pixels *(ID: [506327](https://review.lineageos.org/c/506327))*
+- **[LineageOS/android_hardware_mediatek]** aidl: usb: Don't override default sys.usb.controller on post-fs-data *(ID: [507734](https://review.lineageos.org/c/507734))*
+- **[LineageOS/android_hardware_mediatek]** overlay: MssiFrameworkTelephonyOverlay: Remove IWlan data and network service classes *(ID: [510815](https://review.lineageos.org/c/510815))*
+- **[LineageOS/android_hardware_mediatek]** packages: Introduce a minimal phoneEx service for switching SIM types *(ID: [511997](https://review.lineageos.org/c/511997))*
+- **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant config *(ID: [509287](https://review.lineageos.org/c/509287))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Drop BCMDHD_64_BIT_IPC *(ID: [509285](https://review.lineageos.org/c/509285))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Run pre-commit *(ID: [512734](https://review.lineageos.org/c/512734))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Convert to blueprint *(ID: [509284](https://review.lineageos.org/c/509284))*
+- **[LineageOS/android_device_retroidpocket_RPN]** RPN: Remove sensor fixup *(ID: [514371](https://review.lineageos.org/c/514371))*
+- **[LineageOS/android_device_ayn_odin2mini]** odin2mini: Remove sensor fixup *(ID: [514370](https://review.lineageos.org/c/514370))*
+- **[LineageOS/android_device_retroidpocket_RP6]** RP6: Remove sensor fixup *(ID: [514366](https://review.lineageos.org/c/514366))*
+- **[LineageOS/android_device_ayn_odin2portal]** odin2portal: Remove sensor fixup *(ID: [514368](https://review.lineageos.org/c/514368))*
+- **[LineageOS/android_device_ayn_odin3]** odin3: Remove sensor fixup *(ID: [514374](https://review.lineageos.org/c/514374))*
+- **[LineageOS/android_device_ayn_odin2]** odin2: Remove sensor fixup *(ID: [514369](https://review.lineageos.org/c/514369))*
+- **[LineageOS/android_device_ayn_odin2thor]** odin2thor: Remove sensor fixup *(ID: [514367](https://review.lineageos.org/c/514367))*
+- **[LineageOS/android_external_exfatprogs]** libexfat, mkfs: Fix android build *(ID: [514359](https://review.lineageos.org/c/514359))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** base: hwc3: Remove libgralloc4 header *(ID: [514345](https://review.lineageos.org/c/514345))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** gralloc4: Guard gralloc4 support with namespaces *(ID: [514340](https://review.lineageos.org/c/514340))*
-- **[LineageOS/android_hardware_mediatek]** aidl: bluetooth: Shut down HAL if Bluetooth stack dies *(ID: [514316](https://review.lineageos.org/c/514316))*
-- **[LineageOS/android_hardware_lineage_compat]** libutils: Provide legacy PropertyMap API *(ID: [514339](https://review.lineageos.org/c/514339))*
-- **[LineageOS/android_hardware_lineage_compat]** libutils: Provide PropertyMap *(ID: [514338](https://review.lineageos.org/c/514338))*
-- **[LineageOS/android_hardware_lineage_compat]** libutils: Provide String8::toUpper() *(ID: [514337](https://review.lineageos.org/c/514337))*
-- **[LineageOS/android_kernel_ayn_cq8725s-modules]** audio: Add es8326 codec *(ID: [513875](https://review.lineageos.org/c/513875))*
-- **[LineageOS/android_kernel_ayn_cq8725s-modules]** audio: sun: Set up aw883xx DAI links from DT *(ID: [513874](https://review.lineageos.org/c/513874))*
-- **[LineageOS/android_kernel_ayn_cq8725s-modules]** touch: haptic_hv: Load RAM firmware without delay *(ID: [514333](https://review.lineageos.org/c/514333))*
-- **[LineageOS/android_hardware_amazon]** idme: Add FireOS IDME HAL service *(ID: [514330](https://review.lineageos.org/c/514330))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: Partially revert "config: Drop support for 4.4 kernels" *(ID: [514326](https://review.lineageos.org/c/514326))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos7885: Switch to the 5.10 kernel *(ID: [514328](https://review.lineageos.org/c/514328))*
-- **[LineageOS/android_kernel_qcom_sm8150]** power: supply: qcom: qpnp-fg-gen4: Fix of_node leak in fg_gen4_parse_dt() *(ID: [514185](https://review.lineageos.org/c/514185))*
-- **[LineageOS/android_kernel_samsung_a55x]** drivers: panel: mdnie: Add mode_max node *(ID: [514321](https://review.lineageos.org/c/514321))*
-- **[LineageOS/android_device_xiaomi_sm8550-common]** sm8550-common: propertires: Fix LE Audio sysprops typos *(ID: [514161](https://review.lineageos.org/c/514161))*
-- **[LineageOS/android_device_xiaomi_sm8550-common]** sm8550-common: Fix the codec2 store allocation in the QTI services *(ID: [514034](https://review.lineageos.org/c/514034))*
-- **[LineageOS/android_hardware_ayn]** sensors: Add sub-HAL wrapper rotating sensor axes *(ID: [514308](https://review.lineageos.org/c/514308))*
-- **[LineageOS/android_kernel_samsung_a55x]** drivers: panel: mdnie: Disable accessibility node *(ID: [514320](https://review.lineageos.org/c/514320))*
-- **[LineageOS/android_kernel_samsung_a55x]** video: mdnie: fix lux node permissions *(ID: [514319](https://review.lineageos.org/c/514319))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: Add reverse engineered power 2.X interfaces *(ID: [514317](https://review.lineageos.org/c/514317))*
-- **[LineageOS/android_hardware_mediatek]** interfaces: Add reverse engineered power 1.1 interface *(ID: [514318](https://review.lineageos.org/c/514318))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwjpeg: Optionally build against Samsung's legacy V4L2 layout *(ID: [514291](https://review.lineageos.org/c/514291))*
-- **[LineageOS/android_kernel_qcom_sm8450-devicetrees]** ARM: dts: msm: Add base DTBs for CapeP and Cape-v2 *(ID: [514306](https://review.lineageos.org/c/514306))*
-- **[LineageOS/android_kernel_qcom_sm8750]** soc: qcom: socinfo: Add SoC ID for CapeP and Cape-v2 *(ID: [514307](https://review.lineageos.org/c/514307))*
-- **[LineageOS/android_hardware_nothing]** ParanoidGlyph: Add the Phone (4a) *(ID: [514315](https://review.lineageos.org/c/514315))*
-- **[LineageOS/android_hardware_nothing]** light: Add the Phone (4a) *(ID: [514314](https://review.lineageos.org/c/514314))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: devicetree: Reserve stock qseecom pool size on iceland *(ID: [514300](https://review.lineageos.org/c/514300))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: display: Update XN251 144Hz horizontal front porch *(ID: [514299](https://review.lineageos.org/c/514299))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: devicetree: Update iceland eUSB2 repeater tuning *(ID: [514298](https://review.lineageos.org/c/514298))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: Drop the YUV sizes above the max preview size of the GM2 and HI1336 *(ID: [514357](https://review.lineageos.org/c/514357))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** exynos: Import gralloc4 namespace *(ID: [514346](https://review.lineageos.org/c/514346))*
 
 </details>
 
-## 📱 Línea Motorola Activa (11)
+## 📱 Línea Motorola Activa (13)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_fogos]** Revert "fogos: audio: Add missing Fluence NN mixer paths" *(ID: [513658](https://review.lineageos.org/c/513658))*
+- **[LineageOS/android_device_motorola_sm6375-common]** sm6375-common: Disable ro.vendor.audio.sdk.fluence.nn.enabled *(ID: [513655](https://review.lineageos.org/c/513655))*
 - **[LineageOS/android_device_motorola_miami]** miami: audio: Use valid ACDB ids for NN mics *(ID: [513221](https://review.lineageos.org/c/513221))*
 - **[LineageOS/android_device_motorola_miami]** miami: audio: Add more sampling rates to voip_{rx,tx} *(ID: [513290](https://review.lineageos.org/c/513290))*
 - **[LineageOS/android_hardware_motorola]** motorola: aidl: face: Add face unlock HAL wrapper *(ID: [509512](https://review.lineageos.org/c/509512))*
