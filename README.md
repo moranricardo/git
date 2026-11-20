@@ -7,14 +7,33 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (190)
+## 🚨 Parches Críticos Detectados (171)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_hardware_lineage_compat]** compat: Add libssl-v33 *(ID: [514289](https://review.lineageos.org/c/514289))*
+- **[LineageOS/android_hardware_amazon]** sepolicy: Add FireOS audio HAL policy *(ID: [514391](https://review.lineageos.org/c/514391))*
+- **[LineageOS/android_hardware_amazon]** btmac: Add Bluetooth address script *(ID: [514390](https://review.lineageos.org/c/514390))*
+- **[LineageOS/android_hardware_amazon]** idme: Add FireOS IDME HAL service *(ID: [514330](https://review.lineageos.org/c/514330))*
+- **[LineageOS/android_kernel_qcom_sm8150]** power: supply: qcom: qpnp-fg-gen4: Fix of_node leak in fg_gen4_parse_dt() *(ID: [514185](https://review.lineageos.org/c/514185))*
+- **[LineageOS/android_frameworks_base]** SystemUI: Fix UDFPS dim layer opacity and animation cleanup *(ID: [507919](https://review.lineageos.org/c/507919))*
+- **[LineageOS/android_device_oneplus_infiniti]** infiniti: Fix offline camera HAL manifest version *(ID: [510913](https://review.lineageos.org/c/510913))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: Match stock qseecom pool size on fairlady, iceland and infiniti *(ID: [514300](https://review.lineageos.org/c/514300))*
+- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** oplus: Match stock MPSS memory size on fairlady and infiniti *(ID: [514380](https://review.lineageos.org/c/514380))*
+- **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant_8_lib from khadas *(ID: [509282](https://review.lineageos.org/c/509282))*
+- **[LineageOS/android_hardware_mediatek]** aidl: bluetooth: Link to death of the HCI callback *(ID: [512411](https://review.lineageos.org/c/512411))*
+- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label oplus_wireless sysfs nodes *(ID: [514293](https://review.lineageos.org/c/514293))*
+- **[LineageOS/android_external_exfatprogs]** libexfat, mkfs: Fix android build *(ID: [514359](https://review.lineageos.org/c/514359))*
+- **[LineageOS/android_hardware_oplus]** fingerprint: Only enable HBM dimlayer on touch down *(ID: [512692](https://review.lineageos.org/c/512692))*
+- **[LineageOS/android_kernel_samsung_a55x]** drivers: panel: mdnie: Add mode_max node *(ID: [514321](https://review.lineageos.org/c/514321))*
+- **[LineageOS/android_kernel_samsung_a55x]** drivers: panel: mdnie: Disable accessibility node *(ID: [514320](https://review.lineageos.org/c/514320))*
+- **[LineageOS/android_kernel_samsung_a55x]** video: mdnie: fix lux node permissions *(ID: [514319](https://review.lineageos.org/c/514319))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos9830: Configure Codec2 *(ID: [514021](https://review.lineageos.org/c/514021))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos9830: Switch to gralloc4 *(ID: [513556](https://review.lineageos.org/c/513556))*
+- **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Run pre-commit *(ID: [512734](https://review.lineageos.org/c/512734))*
 - **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Run clang-format *(ID: [509283](https://review.lineageos.org/c/509283))*
 - **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Rebrand and adapt library to AOSP wifi_cc_defaults_droidlogic *(ID: [511446](https://review.lineageos.org/c/511446))*
-- **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant_8_lib from khadas *(ID: [509282](https://review.lineageos.org/c/509282))*
 - **[LineageOS/android_hardware_mediatek]** wlan: Import Broadcom wifi_hal from AOSP *(ID: [511445](https://review.lineageos.org/c/511445))*
 - **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Adapt the wifi HAL to MediaTek gen4m driver *(ID: [511447](https://review.lineageos.org/c/511447))*
 - **[LineageOS/android_hardware_mediatek]** aidl: gadget: Setup USB AOA perms and prop *(ID: [507732](https://review.lineageos.org/c/507732))*
@@ -23,25 +42,6 @@
 - **[LineageOS/android_hardware_mediatek]** aidl: gadget: Fix MaxPower value for USB 3.0 devices *(ID: [506328](https://review.lineageos.org/c/506328))*
 - **[LineageOS/android_hardware_mediatek]** aidl: gadget: Drop mtk_rndis.gs4 references *(ID: [506326](https://review.lineageos.org/c/506326))*
 - **[LineageOS/android_hardware_mediatek]** aidl: gadget: Require AOA daemon *(ID: [507731](https://review.lineageos.org/c/507731))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Sync setup with Pixels *(ID: [506327](https://review.lineageos.org/c/506327))*
-- **[LineageOS/android_hardware_mediatek]** aidl: usb: Don't override default sys.usb.controller on post-fs-data *(ID: [507734](https://review.lineageos.org/c/507734))*
-- **[LineageOS/android_hardware_mediatek]** overlay: MssiFrameworkTelephonyOverlay: Remove IWlan data and network service classes *(ID: [510815](https://review.lineageos.org/c/510815))*
-- **[LineageOS/android_hardware_mediatek]** packages: Introduce a minimal phoneEx service for switching SIM types *(ID: [511997](https://review.lineageos.org/c/511997))*
-- **[LineageOS/android_hardware_mediatek]** wlan: Import MediaTek wpa_supplicant config *(ID: [509287](https://review.lineageos.org/c/509287))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Drop BCMDHD_64_BIT_IPC *(ID: [509285](https://review.lineageos.org/c/509285))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Run pre-commit *(ID: [512734](https://review.lineageos.org/c/512734))*
-- **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Convert to blueprint *(ID: [509284](https://review.lineageos.org/c/509284))*
-- **[LineageOS/android_device_retroidpocket_RPN]** RPN: Remove sensor fixup *(ID: [514371](https://review.lineageos.org/c/514371))*
-- **[LineageOS/android_device_ayn_odin2mini]** odin2mini: Remove sensor fixup *(ID: [514370](https://review.lineageos.org/c/514370))*
-- **[LineageOS/android_device_retroidpocket_RP6]** RP6: Remove sensor fixup *(ID: [514366](https://review.lineageos.org/c/514366))*
-- **[LineageOS/android_device_ayn_odin2portal]** odin2portal: Remove sensor fixup *(ID: [514368](https://review.lineageos.org/c/514368))*
-- **[LineageOS/android_device_ayn_odin3]** odin3: Remove sensor fixup *(ID: [514374](https://review.lineageos.org/c/514374))*
-- **[LineageOS/android_device_ayn_odin2]** odin2: Remove sensor fixup *(ID: [514369](https://review.lineageos.org/c/514369))*
-- **[LineageOS/android_device_ayn_odin2thor]** odin2thor: Remove sensor fixup *(ID: [514367](https://review.lineageos.org/c/514367))*
-- **[LineageOS/android_external_exfatprogs]** libexfat, mkfs: Fix android build *(ID: [514359](https://review.lineageos.org/c/514359))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** base: hwc3: Remove libgralloc4 header *(ID: [514345](https://review.lineageos.org/c/514345))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: Drop the YUV sizes above the max preview size of the GM2 and HI1336 *(ID: [514357](https://review.lineageos.org/c/514357))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_exynos]** exynos: Import gralloc4 namespace *(ID: [514346](https://review.lineageos.org/c/514346))*
 
 </details>
 
