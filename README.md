@@ -1,22 +1,25 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-20-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-21-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (173)
+## 🚨 Parches Críticos Detectados (166)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_qcom_sm8250]** ipv6: Handle all fib6_nh in a nexthop in fib6_drop_pcpu_from *(ID: [514030](https://review.lineageos.org/c/514030))*
+- **[LineageOS/android_hardware_mediatek]** connectivity: Introduce unified wmt_loader *(ID: [514459](https://review.lineageos.org/c/514459))*
+- **[LineageOS/android_hardware_ayn]** sensors: Add sub-HAL wrapper rotating sensor axes *(ID: [514308](https://review.lineageos.org/c/514308))*
+- **[LineageOS/android_hardware_ayn]** sepolicy: qti: Address Ayn sxr2130p denials *(ID: [513640](https://review.lineageos.org/c/513640))*
 - **[LineageOS/android_hardware_lineage_compat]** libcomparetf2: Add the remaining long double comparisons *(ID: [514290](https://review.lineageos.org/c/514290))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos7885: Switch to the 5.10 kernel *(ID: [514328](https://review.lineageos.org/c/514328))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: Partially revert "config: Drop support for 4.4 kernels" *(ID: [514326](https://review.lineageos.org/c/514326))*
 - **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwjpeg: Optionally build against Samsung's legacy V4L2 layout *(ID: [514291](https://review.lineageos.org/c/514291))*
-- **[LineageOS/android_hardware_ayn]** sensors: Add support to 2.0 sensor HAL *(ID: [514421](https://review.lineageos.org/c/514421))*
 - **[LineageOS/android_hardware_mediatek]** wlan: wpa_supplicant_8_lib: Let gen4m handle SETSUSPENDMODE as a private cmd *(ID: [514455](https://review.lineageos.org/c/514455))*
 - **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Run clang-format *(ID: [512734](https://review.lineageos.org/c/512734))*
 - **[LineageOS/android_hardware_mediatek]** wlan: wifi_hal: Adapt the wifi HAL to MediaTek gen4m driver *(ID: [511447](https://review.lineageos.org/c/511447))*
@@ -39,17 +42,18 @@
 - **[LineageOS/android_hardware_qcom_display]** gralloc: add allocator AIDL service *(ID: [514425](https://review.lineageos.org/c/514425))*
 - **[LineageOS/android_hardware_google_pixel]** thermal: Reset cooling devices when the HAL starts *(ID: [514416](https://review.lineageos.org/c/514416))*
 - **[LineageOS/android_hardware_qcom_thermal]** thermal: Let sensors share one thermal zone *(ID: [514418](https://review.lineageos.org/c/514418))*
-- **[LineageOS/android_system_core]** init: Fix parsing the fatal reboot target *(ID: [514423](https://review.lineageos.org/c/514423))*
-- **[LineageOS/android_hardware_ayn]** sepolicy: qti: Address Ayn sxr2130p denials *(ID: [513640](https://review.lineageos.org/c/513640))*
-- **[LineageOS/android_external_exfatprogs]** libexfat, mkfs: Fix android build *(ID: [514420](https://review.lineageos.org/c/514420))*
 
 </details>
 
-## 📱 Línea Motorola Activa (21)
+## 📱 Línea Motorola Activa (25)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_berlin]** berlin: audio: Use the Moto NN calibration for handset VoIP *(ID: [514470](https://review.lineageos.org/c/514470))*
+- **[LineageOS/android_device_motorola_berlin]** berlin: audio: Disable DisplayPort audio features *(ID: [514469](https://review.lineageos.org/c/514469))*
+- **[LineageOS/android_device_motorola_xpeng]** xpeng: audio: Use the Moto NN calibration for handset VoIP *(ID: [514468](https://review.lineageos.org/c/514468))*
+- **[LineageOS/android_device_motorola_mt6765-common]** mt6765-common: Set BOARD_SHIPPING_API_LEVEL to 31 *(ID: [514466](https://review.lineageos.org/c/514466))*
 - **[LineageOS/android_kernel_motorola_sm7325]** arch: arm64: configs: berlna: Drop unusable fingerprint options *(ID: [514453](https://review.lineageos.org/c/514453))*
 - **[LineageOS/android_kernel_motorola_sm7325]** arch: arm64: configs: berlna: Enable Egis fingerprint navigation *(ID: [514452](https://review.lineageos.org/c/514452))*
 - **[LineageOS/android_kernel_motorola_sm7325]** power: qti_glink_charger: Don't wait out the timeout on rejected writes *(ID: [514451](https://review.lineageos.org/c/514451))*
