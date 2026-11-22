@@ -1,17 +1,39 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-21-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-22-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (271)
+## 🚨 Parches Críticos Detectados (283)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_qcom_sm8650-devicetrees]** qcom: wlan: Update to LA.VENDOR.14.3.0.r1-22900-lanai.QSSI16.0 *(ID: [514635](https://review.lineageos.org/c/514635))*
+- **[LineageOS/android_kernel_qcom_sm8650-devicetrees]** qcom: nfc: Update to LA.VENDOR.14.3.0.r1-22900-lanai.QSSI16.0 *(ID: [514634](https://review.lineageos.org/c/514634))*
+- **[LineageOS/android_kernel_qcom_sm8650-devicetrees]** qcom: graphics: Update to GRAPHICS.LA.14.0.r1-10800-lanai.0 *(ID: [514633](https://review.lineageos.org/c/514633))*
+- **[LineageOS/android_kernel_qcom_sm8650-devicetrees]** qcom: eSE: Update to LA.VENDOR.14.3.0.r1-22900-lanai.QSSI16.0 *(ID: [514632](https://review.lineageos.org/c/514632))*
+- **[LineageOS/android_kernel_qcom_sm8650-devicetrees]** qcom: display: Update to DISPLAY.LA.4.0.r2-10000-lanai.0 *(ID: [514630](https://review.lineageos.org/c/514630))*
+- **[LineageOS/android_kernel_qcom_sm8650-devicetrees]** qcom: dsp: Update to LA.VENDOR.14.3.0.r1-22900-lanai.QSSI16.0 *(ID: [514631](https://review.lineageos.org/c/514631))*
+- **[LineageOS/android_kernel_qcom_sm8650-devicetrees]** qcom: bt: Update to LA.VENDOR.14.3.0.r1-22900-lanai.QSSI16.0 *(ID: [514629](https://review.lineageos.org/c/514629))*
+- **[LineageOS/android_kernel_qcom_sm8650-devicetrees]** qcom: audio: Update to AUDIO.LA.9.0.r1-08900-lanai.0 *(ID: [514628](https://review.lineageos.org/c/514628))*
+- **[LineageOS/android_kernel_qcom_sm8650-devicetrees]** Documentation: Remove stray azoteq,iqs7211 binding *(ID: [514636](https://review.lineageos.org/c/514636))*
+- **[LineageOS/android_kernel_qcom_sm8650-devicetrees]** qcom: Update to KERNEL.PLATFORM.3.0.r1-13200-kernel.0 *(ID: [514627](https://review.lineageos.org/c/514627))*
+- **[LineageOS/android_hardware_amlogic_u-boot_build]** build: Add support for odroidn2 *(ID: [514616](https://review.lineageos.org/c/514616))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: odroidc4: Apply 4.9 board changes *(ID: [512379](https://review.lineageos.org/c/512379))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: odroidc4: Rebrand to track device-specific changes *(ID: [512378](https://review.lineageos.org/c/512378))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_codec2]** codec2: Apply UNSUPPORT_10BIT to the decoders too *(ID: [514548](https://review.lineageos.org/c/514548))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_camera]** camera: N23: Lock the per-pipe maps of ExynosCameraFrame *(ID: [514623](https://review.lineageos.org/c/514623))*
+- **[LineageOS/android_kernel_nvidia_kernel]** iio: Restore Pixel C Cros-EC motion sensors *(ID: [514619](https://review.lineageos.org/c/514619))*
+- **[LineageOS/android_hardware_amlogic_u-boot_build]** build: Standardize fip package directories *(ID: [514615](https://review.lineageos.org/c/514615))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** dts: Apply odroidn2 changes *(ID: [514618](https://review.lineageos.org/c/514618))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** dts: Initial g12b_s922d_odroidn2 dts *(ID: [514617](https://review.lineageos.org/c/514617))*
+- **[LineageOS/android_hardware_amlogic_u-boot]** u-boot: Apply changes for odroid-n2 family *(ID: [514614](https://review.lineageos.org/c/514614))*
+- **[LineageOS/android_hardware_amlogic_u-boot]** amlogic: Copy and rename radxa02pro to odroidn2 *(ID: [514613](https://review.lineageos.org/c/514613))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos7885: Adapt for lineage-24.0 *(ID: [514328](https://review.lineageos.org/c/514328))*
 - **[LineageOS/android_kernel_amlogic_media-modules]** vp9: Fallback to coherent DMA prob buffers when TEE malloc fails *(ID: [514602](https://review.lineageos.org/c/514602))*
 - **[LineageOS/android_hardware_samsung]** aidl: fingerprint: Report display state to the sensor *(ID: [510942](https://review.lineageos.org/c/510942))*
 - **[LineageOS/android_hardware_samsung]** packages: Introduce Samsung UDFPS service *(ID: [514531](https://review.lineageos.org/c/514531))*
@@ -20,28 +42,6 @@
 - **[LineageOS/android_kernel_amlogic_common_drivers]** tee: Fall back to fast SMCs when TVP PTA is unavailable *(ID: [514600](https://review.lineageos.org/c/514600))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** aml_tee: optee: Fix v1/v2 shared-memory logger initialization *(ID: [514599](https://review.lineageos.org/c/514599))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: sdcard is removable on sd_emmc_b2 *(ID: [513120](https://review.lineageos.org/c/513120))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Enable i2c3 at 300000 hz *(ID: [513119](https://review.lineageos.org/c/513119))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Add pinctrl to pwm_AO_cd *(ID: [513118](https://review.lineageos.org/c/513118))*
-- **[LineageOS/android_vendor_codeaurora_telephony]** ims-ext-common: Fix AIOOBE in QtiVideoCallDataUsage#toString *(ID: [514075](https://review.lineageos.org/c/514075))*
-- **[LineageOS/android_device_freebox_nicepool]** nicepool: Add Widevine L1 OEMCrypto and Secmem V2 shim fixups *(ID: [514597](https://review.lineageos.org/c/514597))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Enable pwm LED *(ID: [513116](https://review.lineageos.org/c/513116))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Add dmc_monitor reserved area *(ID: [513115](https://review.lineageos.org/c/513115))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Add mmc0 alias *(ID: [513114](https://review.lineageos.org/c/513114))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos7885: Adapt for lineage-24.0 *(ID: [514328](https://review.lineageos.org/c/514328))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: sm1_s905x3_bananapim5: fix image distortion *(ID: [514213](https://review.lineageos.org/c/514213))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: sm1_s905x3_bananapim5: make Banana Pi M5 specific changes *(ID: [514050](https://review.lineageos.org/c/514050))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: rebrand sm1_s905d3_ac200 to sm1_s905x3_bananapim5 *(ID: [514049](https://review.lineageos.org/c/514049))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: Partially revert "config: Drop support for 4.4 kernels" *(ID: [514326](https://review.lineageos.org/c/514326))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_codec2]** fixup! codec2: convert to bp *(ID: [512630](https://review.lineageos.org/c/512630))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_codec2]** codec2: mfc_headers: Allow custom V4L2_CID_MPEG_VIDEO_AVERAGE_QP *(ID: [513385](https://review.lineageos.org/c/513385))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_codec2]** codec2: Apply UNSUPPORT_10BIT to the decoders too *(ID: [514548](https://review.lineageos.org/c/514548))*
-- **[LineageOS/android_hardware_samsung]** soundbooster: Match `compile_multilib` with AIDL audio service *(ID: [514573](https://review.lineageos.org/c/514573))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos9830: Clean and sort boardconfig *(ID: [514574](https://review.lineageos.org/c/514574))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: s5e8825: Disable 10-bit support *(ID: [512629](https://review.lineageos.org/c/512629))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos850: Do not advertise 10-bit HEVC *(ID: [514546](https://review.lineageos.org/c/514546))*
-- **[LineageOS/android_kernel_samsung_a55x]** arch: Import A556BXXUIEZJ1 Samsung OSRC changes *(ID: [514558](https://review.lineageos.org/c/514558))*
-- **[LineageOS/android_kernel_samsung_a55x]** drivers: Import A556BXXUIEZJ1 Samsung OSRC changes *(ID: [514557](https://review.lineageos.org/c/514557))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: exynos9830: Switch to gralloc4 *(ID: [513556](https://review.lineageos.org/c/513556))*
 
 </details>
 
