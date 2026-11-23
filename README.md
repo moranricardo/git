@@ -1,18 +1,28 @@
 # ⚡ Ra Pulse - Telemetría de Kernels
 
-![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-22-brightgreen)
+![Última sync](https://img.shields.io/badge/Sincronizado-2026-11-23-brightgreen)
 ![Analizados](https://img.shields.io/badge/Analizados-500-blue)
 
 > Monitor automatizado para la auditoría de parches en LineageOS y Motorola.
 
 ---
 
-## 🚨 Parches Críticos Detectados (248)
+## 🚨 Parches Críticos Detectados (246)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_lineage_compat]** compat: libaudioclient: Introduce AudioSystem shims *(ID: [495349](https://review.lineageos.org/c/495349))*
+- **[LineageOS/android_hardware_xiaomi]** xiaomi: Bring Pen detection and pairing *(ID: [514735](https://review.lineageos.org/c/514735))*
+- **[LineageOS/android_hardware_xiaomi]** xiaomi: Add accessories impl *(ID: [514734](https://review.lineageos.org/c/514734))*
+- **[LineageOS/android_hardware_lineage_interfaces]** interfaces: accessories: Add charging state and data link info *(ID: [514724](https://review.lineageos.org/c/514724))*
+- **[LineageOS/android_hardware_lineage_interfaces]** interfaces: accessories: Add mock implementation *(ID: [514723](https://review.lineageos.org/c/514723))*
+- **[LineageOS/android_hardware_lineage_interfaces]** interfaces: accessories: Add a support library *(ID: [514722](https://review.lineageos.org/c/514722))*
+- **[LineageOS/android_hardware_lineage_interfaces]** interfaces: Introduce accessories interface *(ID: [514721](https://review.lineageos.org/c/514721))*
+- **[LineageOS/android_kernel_qcom_sm8350]** techpack: ASoC: msm-lsm-client: Fix LSM session leak in msm_lsm_close() *(ID: [514820](https://review.lineageos.org/c/514820))*
+- **[LineageOS/android_kernel_amlogic_media-modules]** vp9: Fallback to coherent DMA prob buffers when TEE malloc fails *(ID: [514602](https://review.lineageos.org/c/514602))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** codec_mm: Support legacy Secmem v2 TA init command (CMD 250) *(ID: [514601](https://review.lineageos.org/c/514601))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** tee: Fall back to fast SMCs when TVP PTA is unavailable *(ID: [514600](https://review.lineageos.org/c/514600))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** aml_tee: optee: Fix v1/v2 shared-memory logger initialization *(ID: [514599](https://review.lineageos.org/c/514599))*
 - **[LineageOS/android_device_freebox_nicepool]** nicepool: Add Widevine L1 OEMCrypto and Secmem V2 shim fixups *(ID: [514597](https://review.lineageos.org/c/514597))*
 - **[LineageOS/android_kernel_asus_sm8350]** BACKPORT: ALSA: usb-audio: Add a quirk for Yamaha YIT-W12TX transmitter *(ID: [514812](https://review.lineageos.org/c/514812))*
 - **[LineageOS/android_hardware_motorola]** sensors: Add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
@@ -32,24 +42,16 @@
 - **[LineageOS/android_device_retroidpocket_RP6]** RP6: Remove sensor fixup *(ID: [514366](https://review.lineageos.org/c/514366))*
 - **[LineageOS/android_device_ayn_odin2thor]** odin2thor: Remove sensor fixup *(ID: [514367](https://review.lineageos.org/c/514367))*
 - **[LineageOS/android_hardware_lineage_compat]** libcomparetf2: Add the remaining long double comparisons *(ID: [514290](https://review.lineageos.org/c/514290))*
-- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** libhwjpeg: Optionally build against Samsung's legacy V4L2 layout *(ID: [514291](https://review.lineageos.org/c/514291))*
-- **[LineageOS/android_hardware_samsung]** aidl: bluetooth: Convert to AIDL *(ID: [513650](https://review.lineageos.org/c/513650))*
-- **[LineageOS/android_hardware_lineage_interfaces]** interfaces: Introduce accessories interface *(ID: [514721](https://review.lineageos.org/c/514721))*
-- **[LineageOS/android_hardware_xiaomi]** xiaomi: Bring Pen detection and pairing *(ID: [514735](https://review.lineageos.org/c/514735))*
-- **[LineageOS/android_hardware_xiaomi]** xiaomi: Add accessories impl *(ID: [514734](https://review.lineageos.org/c/514734))*
-- **[LineageOS/android_hardware_lineage_interfaces]** interfaces: accessories: Add charging state and data link info *(ID: [514724](https://review.lineageos.org/c/514724))*
-- **[LineageOS/android_hardware_lineage_interfaces]** interfaces: accessories: Add mock implementation *(ID: [514723](https://review.lineageos.org/c/514723))*
-- **[LineageOS/android_hardware_lineage_interfaces]** interfaces: accessories: Add a support library *(ID: [514722](https://review.lineageos.org/c/514722))*
-- **[LineageOS/android_hardware_oplus]** Introduce KmSetDeviceIds *(ID: [514677](https://review.lineageos.org/c/514677))*
-- **[LineageOS/android_device_xiaomi_sm8150-common]** sm8150-common: sepolicy: Fix VTS violations by adding vendor prefixes *(ID: [514744](https://review.lineageos.org/c/514744))*
 
 </details>
 
-## 📱 Línea Motorola Activa (113)
+## 📱 Línea Motorola Activa (116)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Add MbnOverride to select modem carrier config per SIM *(ID: [512987](https://review.lineageos.org/c/512987))*
+- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Include MbnOverride in PRODUCT_PACKAGES *(ID: [512988](https://review.lineageos.org/c/512988))*
 - **[LineageOS/android_hardware_motorola]** sensors: Add ALS filter sub-HAL to ignore notification LED bleed *(ID: [506320](https://review.lineageos.org/c/506320))*
 - **[LineageOS/android_hardware_motorola]** sepolicy: Add hiphi touchscreen path to genfs *(ID: [514556](https://review.lineageos.org/c/514556))*
 - **[LineageOS/android_hardware_motorola]** sepolicy: Label a wakeup node from hiphi *(ID: [514555](https://review.lineageos.org/c/514555))*
@@ -78,8 +80,6 @@
 - **[LineageOS/android_device_motorola_miami]** miami: Fix model device name *(ID: [511617](https://review.lineageos.org/c/511617))*
 - **[LineageOS/android_device_motorola_miami]** miami: Move TARGET_SCREEN_DENSITY to BoardConfig and set to 420 *(ID: [511616](https://review.lineageos.org/c/511616))*
 - **[LineageOS/android_device_motorola_fogos]** fogos: Add missing camera libraries *(ID: [511833](https://review.lineageos.org/c/511833))*
-- **[LineageOS/android_device_motorola_fogos]** fogos: Add missing anc blobs for camera *(ID: [511615](https://review.lineageos.org/c/511615))*
-- **[LineageOS/android_device_motorola_fogos]** fogos: props: Move SKU props to a subdir and set model for all partitions *(ID: [511630](https://review.lineageos.org/c/511630))*
 
 </details>
 
