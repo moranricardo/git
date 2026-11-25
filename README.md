@@ -7,79 +7,79 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (213)
+## 🚨 Parches Críticos Detectados (235)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_hardware_motorola]** packages: Add MbnOverride to select modem carrier config per SIM *(ID: [514838](https://review.lineageos.org/c/514838))*
-- **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: nova_0flash_mmi: Start firmware update immediately *(ID: [514888](https://review.lineageos.org/c/514888))*
-- **[LineageOS/android_kernel_motorola_sm6225]** display: msm: dsi: fix HBM backlight race with display disable *(ID: [512756](https://review.lineageos.org/c/512756))*
-- **[LineageOS/android_kernel_motorola_sm6225]** dsi_panel: panel_feature: corret the code mistake *(ID: [514886](https://review.lineageos.org/c/514886))*
-- **[LineageOS/android_kernel_motorola_sm6225]** Merge remote-tracking branch 'sm8250/lineage-20' into lineage-24.0 *(ID: [515138](https://review.lineageos.org/c/515138))*
-- **[LineageOS/android_kernel_fairphone_sm7225]** Merge remote-tracking branch 'sm8250/lineage-20' into lineage-24.0 *(ID: [515137](https://review.lineageos.org/c/515137))*
-- **[LineageOS/android_hardware_oplus]** sepolicy: qti: Label oplus_wireless sysfs nodes *(ID: [514293](https://review.lineageos.org/c/514293))*
-- **[LineageOS/android_hardware_oplus]** Pen: Show battery popup when the pen is attached *(ID: [507155](https://review.lineageos.org/c/507155))*
-- **[LineageOS/android_hardware_oplus]** Pen: Offer pairing from the attach popup *(ID: [507156](https://review.lineageos.org/c/507156))*
-- **[LineageOS/android_kernel_motorola_sm6375]** display: msm: dsi: fix HBM backlight race with display disable *(ID: [514887](https://review.lineageos.org/c/514887))*
-- **[LineageOS/android_kernel_motorola_sm6375]** fixup! input: touchscreen: touchscreen_mmi: Check for pressed status before waking up for gesture *(ID: [514963](https://review.lineageos.org/c/514963))*
-- **[LineageOS/android_kernel_nvidia_display]** DNM: Disable hdr metadata *(ID: [515128](https://review.lineageos.org/c/515128))*
-- **[LineageOS/android_kernel_motorola_sm6375]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-24.0 *(ID: [514413](https://review.lineageos.org/c/514413))*
-- **[LineageOS/android_kernel_nvidia_display]** WIP: Add switch class for android *(ID: [515127](https://review.lineageos.org/c/515127))*
-- **[LineageOS/android_kernel_nvidia_display]** Allow building in kernel-platform *(ID: [515126](https://review.lineageos.org/c/515126))*
-- **[LineageOS/android_kernel_nvidia_display]** Use mainline host1x *(ID: [515125](https://review.lineageos.org/c/515125))*
-- **[LineageOS/android_kernel_shift_qcm6490]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-24.0 *(ID: [515124](https://review.lineageos.org/c/515124))*
-- **[LineageOS/android_kernel_fairphone_qcm6490]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-24.0 *(ID: [515123](https://review.lineageos.org/c/515123))*
-- **[LineageOS/android_kernel_nvidia_nvidia-oot]** WIP: Remove virt dependencies *(ID: [515122](https://review.lineageos.org/c/515122))*
-- **[LineageOS/android_kernel_nvidia_nvidia-oot]** Update bazel build rules for 6.18 *(ID: [497189](https://review.lineageos.org/c/497189))*
-- **[LineageOS/android_kernel_nvidia_nvidia-oot]** Android changed the vfs namespace again *(ID: [497188](https://review.lineageos.org/c/497188))*
-- **[LineageOS/android_kernel_nvidia_nvidia-oot]** nvmap: Don't open files from the kernel on ACK *(ID: [497187](https://review.lineageos.org/c/497187))*
-- **[LineageOS/android_kernel_nvidia_nvidia-oot]** conftest: Hardcode assign_str check for 6.18 *(ID: [497186](https://review.lineageos.org/c/497186))*
-- **[LineageOS/android_kernel_nvidia_nvidia-oot]** Add syscall note to uapi header license *(ID: [497185](https://review.lineageos.org/c/497185))*
-- **[LineageOS/android_kernel_nvidia_nvidia-oot]** Add git upstream urls *(ID: [497184](https://review.lineageos.org/c/497184))*
-- **[LineageOS/android_hardware_nvidia_t23x_lineage]** Add concord and arvala targets *(ID: [495925](https://review.lineageos.org/c/495925))*
-- **[LineageOS/android_hardware_nvidia_t23x_nv-public]** Add bazel rule to export dts/i *(ID: [495931](https://review.lineageos.org/c/495931))*
-- **[LineageOS/android_hardware_nvidia_t23x_nv-public]** Rename pex pinmux nodes to match upstream *(ID: [495930](https://review.lineageos.org/c/495930))*
-- **[LineageOS/android_hardware_nvidia_t23x_nv-public]** Add git upstream urls *(ID: [495928](https://review.lineageos.org/c/495928))*
-- **[LineageOS/android_kernel_oneplus_sm8850-devicetrees]** qcom: display: Update XN251 144Hz horizontal front porch *(ID: [514299](https://review.lineageos.org/c/514299))*
+- **[LineageOS/android_hardware_samsung]** aidl: bluetooth: Rebrand to samsung *(ID: [515199](https://review.lineageos.org/c/515199))*
+- **[LineageOS/android_hardware_samsung]** aidl: gnss: Adapt to Samsung *(ID: [512806](https://review.lineageos.org/c/512806))*
+- **[LineageOS/android_hardware_samsung]** aidl: Import AIDL GNSS Service *(ID: [512805](https://review.lineageos.org/c/512805))*
+- **[LineageOS/android_hardware_samsung]** aidl: bluetooth: Remove the fuzzer *(ID: [515198](https://review.lineageos.org/c/515198))*
+- **[LineageOS/android_hardware_samsung]** aidl: gnss: Drop superfluous AOSP code *(ID: [512807](https://review.lineageos.org/c/512807))*
+- **[LineageOS/android_hardware_samsung]** aidl: gnss: Support legacy gpsd message layouts *(ID: [515200](https://review.lineageos.org/c/515200))*
+- **[LineageOS/android_hardware_samsung]** aidl: audio: Load legacy effect libraries *(ID: [515027](https://review.lineageos.org/c/515027))*
+- **[LineageOS/android_hardware_samsung]** aidl: audio: Serve the legacy audio HAL *(ID: [515026](https://review.lineageos.org/c/515026))*
+- **[LineageOS/android_hardware_samsung]** aidl: Import AIDL audio default implementation *(ID: [515025](https://review.lineageos.org/c/515025))*
+- **[LineageOS/android_hardware_samsung]** aidl: bluetooth: Match the default AIDL implementation *(ID: [513900](https://review.lineageos.org/c/513900))*
+- **[LineageOS/android_hardware_samsung]** aidl: bluetooth: Convert to AIDL *(ID: [513650](https://review.lineageos.org/c/513650))*
+- **[LineageOS/android_kernel_fairphone_sm7635]** misc: haptic_hv: Add table for custom haptic_ram.bin *(ID: [509277](https://review.lineageos.org/c/509277))*
+- **[LineageOS/android_kernel_nvidia_kernel]** iio: Restore Pixel C Cros-EC motion sensors *(ID: [514619](https://review.lineageos.org/c/514619))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: odroidc4: Apply 4.9 board changes *(ID: [512379](https://review.lineageos.org/c/512379))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: odroidc4: Rebrand to track device-specific changes *(ID: [512378](https://review.lineageos.org/c/512378))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_config]** config: s5e8825: Adapt to new HDR Setup *(ID: [515197](https://review.lineageos.org/c/515197))*
+- **[LineageOS/android_hardware_samsung]** aidl: Import HIDL Bluetooth 1.0 default implementation *(ID: [513649](https://review.lineageos.org/c/513649))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: nicepool: Enable SD-card UART pinctrl states *(ID: [514913](https://review.lineageos.org/c/514913))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: g12a: Add pinctrl groups for SD-card UART switching *(ID: [514903](https://review.lineageos.org/c/514903))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** mmc: meson-g12a: Re-establish SD-card UART console switching *(ID: [512069](https://review.lineageos.org/c/512069))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Match stock 308M codec_mm_cma size *(ID: [514921](https://review.lineageos.org/c/514921))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Fix gpioleds with stock LED GPIOs *(ID: [514920](https://review.lineageos.org/c/514920))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Restore stock 846MHz GPU DVFS table *(ID: [514919](https://review.lineageos.org/c/514919))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Remove broken pcie_A override *(ID: [514918](https://review.lineageos.org/c/514918))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Disable USB2 LPM on dwc3 *(ID: [514917](https://review.lineageos.org/c/514917))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Enable ee_cec on aocec *(ID: [514916](https://review.lineageos.org/c/514916))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Add stock HDMI-TX HPD/DDC GPIOs *(ID: [514915](https://review.lineageos.org/c/514915))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: nicepool: Enable USB role switching *(ID: [514914](https://review.lineageos.org/c/514914))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Remove broken pcie_A and unused U212 peripheral nodes *(ID: [514912](https://review.lineageos.org/c/514912))*
+- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Remove stale U212 gpioleds node *(ID: [514911](https://review.lineageos.org/c/514911))*
 
 </details>
 
-## 📱 Línea Motorola Activa (54)
+## 📱 Línea Motorola Activa (75)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Use MotoExtTelephony for MBN override *(ID: [515184](https://review.lineageos.org/c/515184))*
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: recovery: Support Motorola's super_modem partition *(ID: [515162](https://review.lineageos.org/c/515162))*
 - **[LineageOS/android_hardware_motorola]** packages: Add MbnOverride to select modem carrier config per SIM *(ID: [514838](https://review.lineageos.org/c/514838))*
+- **[LineageOS/android_kernel_motorola_sm6375]** input: touchscreen: ili9882_mmi: Fix bad #elif *(ID: [515180](https://review.lineageos.org/c/515180))*
+- **[LineageOS/android_kernel_motorola_sm6375]** arm64: configs: cypfq: Build moto kernel modules *(ID: [515179](https://review.lineageos.org/c/515179))*
+- **[LineageOS/android_kernel_motorola_sm6375]** input: touchscreen: ili9882_mmi: Fix strict-prototypes error *(ID: [515178](https://review.lineageos.org/c/515178))*
+- **[LineageOS/android_kernel_motorola_sm6375]** treewide: Setup inline build for cypfq modules *(ID: [515177](https://review.lineageos.org/c/515177))*
+- **[LineageOS/android_device_motorola_cypfq]** cypfq: audio: Add more sampling rates to voip_{rx,tx} *(ID: [515175](https://review.lineageos.org/c/515175))*
+- **[LineageOS/android_device_motorola_cypfq]** cypfq: Enable assistant key customization *(ID: [515174](https://review.lineageos.org/c/515174))*
+- **[LineageOS/android_device_motorola_cypfq]** cypfq: Update audio configs from stock *(ID: [515173](https://review.lineageos.org/c/515173))*
+- **[LineageOS/android_device_motorola_cypfq]** cypfq: Update permissions *(ID: [515172](https://review.lineageos.org/c/515172))*
+- **[LineageOS/android_device_motorola_cypfq]** cypfq: Update ODM sku manifests *(ID: [515171](https://review.lineageos.org/c/515171))*
+- **[LineageOS/android_device_motorola_cypfq]** cypfq: Update overlays *(ID: [515170](https://review.lineageos.org/c/515170))*
+- **[LineageOS/android_device_motorola_cypfq]** cypfq: Build AIDL ST NFC HAL *(ID: [515169](https://review.lineageos.org/c/515169))*
+- **[LineageOS/android_device_motorola_cypfq]** cypfq: Update init scripts *(ID: [515168](https://review.lineageos.org/c/515168))*
+- **[LineageOS/android_device_motorola_cypfq]** cypfq: Clear LIBNATIVEWINDOW symbol versions for libBSTSWAD *(ID: [515167](https://review.lineageos.org/c/515167))*
+- **[LineageOS/android_device_motorola_cypfq]** cypfq: Update to S2RYAS32.58-13-12-5-1-7 *(ID: [515166](https://review.lineageos.org/c/515166))*
+- **[LineageOS/android_device_motorola_cypfq]** cypfq: Update partition size *(ID: [515165](https://review.lineageos.org/c/515165))*
+- **[LineageOS/android_device_motorola_cypfq]** fogo: Rebrand to cypfq *(ID: [515164](https://review.lineageos.org/c/515164))*
+- **[LineageOS/android_kernel_motorola_sm8475]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [515163](https://review.lineageos.org/c/515163))*
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Drop unused Wi-Fi configs *(ID: [515161](https://review.lineageos.org/c/515161))*
+- **[LineageOS/android_kernel_motorola_sm7435]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [515140](https://review.lineageos.org/c/515140))*
 - **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: nova_0flash_mmi: Start firmware update immediately *(ID: [514888](https://review.lineageos.org/c/514888))*
 - **[LineageOS/android_kernel_motorola_sm6225]** display: msm: dsi: fix HBM backlight race with display disable *(ID: [512756](https://review.lineageos.org/c/512756))*
 - **[LineageOS/android_kernel_motorola_sm6225]** dsi_panel: panel_feature: corret the code mistake *(ID: [514886](https://review.lineageos.org/c/514886))*
 - **[LineageOS/android_kernel_motorola_sm6225]** Merge remote-tracking branch 'sm8250/lineage-20' into lineage-24.0 *(ID: [515138](https://review.lineageos.org/c/515138))*
-- **[LineageOS/android_device_motorola_rtwo]** rtwo: Build MbnOverride *(ID: [514837](https://review.lineageos.org/c/514837))*
 - **[LineageOS/android_kernel_motorola_sm6375]** display: msm: dsi: fix HBM backlight race with display disable *(ID: [514887](https://review.lineageos.org/c/514887))*
 - **[LineageOS/android_kernel_motorola_sm6375]** fixup! input: touchscreen: touchscreen_mmi: Check for pressed status before waking up for gesture *(ID: [514963](https://review.lineageos.org/c/514963))*
 - **[LineageOS/android_kernel_motorola_sm6375]** Merge remote-tracking branch 'sm8350/lineage-20' into lineage-24.0 *(ID: [514413](https://review.lineageos.org/c/514413))*
 - **[LineageOS/android_device_motorola_nash]** nash: overlay: Route dock media audio to the analog dock *(ID: [514991](https://review.lineageos.org/c/514991))*
-- **[LineageOS/android_device_motorola_messi]** messi: overlay: Route dock media audio to the analog dock *(ID: [514992](https://review.lineageos.org/c/514992))*
-- **[LineageOS/android_device_motorola_beckham]** beckham: overlay: Route dock media audio to the analog dock *(ID: [506922](https://review.lineageos.org/c/506922))*
-- **[LineageOS/android_device_motorola_berlna]** berlna: audio: Use the Moto NN calibration for handset VoIP *(ID: [514484](https://review.lineageos.org/c/514484))*
-- **[LineageOS/android_device_motorola_berlna]** berlna: overlay: Enable system navigation keys *(ID: [514489](https://review.lineageos.org/c/514489))*
-- **[LineageOS/android_device_motorola_berlna]** berlna: Patch Egis HAL to report fingerprint swipes *(ID: [514488](https://review.lineageos.org/c/514488))*
-- **[LineageOS/android_device_motorola_berlna]** berlna: init: Only insmod the modules first stage skips *(ID: [514487](https://review.lineageos.org/c/514487))*
-- **[LineageOS/android_device_motorola_berlna]** berlna: audio: Disable DisplayPort audio features *(ID: [514486](https://review.lineageos.org/c/514486))*
-- **[LineageOS/android_device_motorola_berlna]** berlna: audio: Drop dmic-nn mixer path *(ID: [514485](https://review.lineageos.org/c/514485))*
-- **[LineageOS/android_device_motorola_berlna]** berlna: audio: Use the AW882xx voice profile for speaker calls *(ID: [514483](https://review.lineageos.org/c/514483))*
-- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: audio: Make DisplayPort features overridable *(ID: [514481](https://review.lineageos.org/c/514481))*
-- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: audio: Disable features without their libraries *(ID: [514480](https://review.lineageos.org/c/514480))*
-- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: audio: Build audio HAL extension libraries *(ID: [514479](https://review.lineageos.org/c/514479))*
-- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: power: Enable ADPF hint sessions *(ID: [514478](https://review.lineageos.org/c/514478))*
-- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: init: Set USB controller props on early-boot *(ID: [514477](https://review.lineageos.org/c/514477))*
-- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: Restore uclamp task profiles over the API 30 ones *(ID: [514476](https://review.lineageos.org/c/514476))*
-- **[LineageOS/android_device_motorola_sm7325-common]** sm7325-common: init: Don't modprobe cdsprm *(ID: [514475](https://review.lineageos.org/c/514475))*
-- **[LineageOS/android_kernel_motorola_sm7325]** arch: arm64: configs: berlna: Drop unusable fingerprint options *(ID: [514453](https://review.lineageos.org/c/514453))*
-- **[LineageOS/android_kernel_motorola_sm7325]** arch: arm64: configs: berlna: Enable Egis fingerprint navigation *(ID: [514452](https://review.lineageos.org/c/514452))*
-- **[LineageOS/android_kernel_motorola_sm7325]** power: qti_glink_charger: Don't wait out the timeout on rejected writes *(ID: [514451](https://review.lineageos.org/c/514451))*
-- **[LineageOS/android_device_motorola_sm6225-common]** sm6225-common: Configure dalvik heap props per RAM variant *(ID: [512967](https://review.lineageos.org/c/512967))*
 
 </details>
 
