@@ -7,18 +7,31 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (234)
+## 🚨 Parches Críticos Detectados (222)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
+- **[LineageOS/android_kernel_xiaomi_sm8250]** smb5: Report the negotiated max input current in current_max *(ID: [515154](https://review.lineageos.org/c/515154))*
+- **[LineageOS/android_hardware_motorola]** sepolicy: qti: Resolve denials on roadstr *(ID: [515326](https://review.lineageos.org/c/515326))*
+- **[LineageOS/android_kernel_oneplus_sm8250]** Merge remote-tracking branch 'sm8250/lineage-20' into lineage-24.0 *(ID: [515325](https://review.lineageos.org/c/515325))*
+- **[LineageOS/android_hardware_xiaomi]** xiaomi: Bring Pen detection and pairing *(ID: [514735](https://review.lineageos.org/c/514735))*
+- **[LineageOS/android_kernel_qcom_sm8250]** Revert "ANDROID: nfc: fdp: Fix possible buffer overflow in WCS4000 NFC driver" *(ID: [515313](https://review.lineageos.org/c/515313))*
+- **[LineageOS/android_kernel_qcom_sm8450]** usb: dwc: dwc3-msm-ops: Update the RT priority if uvc is in composition *(ID: [511237](https://review.lineageos.org/c/511237))*
+- **[LineageOS/android_kernel_motorola_sm6225]** Merge remote-tracking branch 'sm8250/lineage-20' into lineage-24.0 *(ID: [515317](https://review.lineageos.org/c/515317))*
+- **[LineageOS/android_kernel_fairphone_sm7225]** Merge remote-tracking branch 'sm8250/lineage-20' into lineage-24.0 *(ID: [515316](https://review.lineageos.org/c/515316))*
+- **[LineageOS/android_kernel_qcom_sm8250]** Merge tag 'v4.19.325-cip137' of https://kernel.googlesource.com/pub/scm/linux/kernel/git/cip/linux-cip into android13-4.19-kona *(ID: [515314](https://review.lineageos.org/c/515314))*
+- **[LineageOS/android_frameworks_base]** fixup! frameworks: Add support for advanced restart options *(ID: [515312](https://review.lineageos.org/c/515312))*
+- **[LineageOS/android_kernel_samsung_universal7904]** m20lte: abox: cold boot A-Box after system sleep *(ID: [515315](https://review.lineageos.org/c/515315))*
+- **[LineageOS/android_hardware_samsung_slsi-linaro_graphics]** graphics: libhwjpeg/libscaler: Use device_kernel_headers *(ID: [514291](https://review.lineageos.org/c/514291))*
+- **[LineageOS/android_kernel_qcom_sm8250]** UPSTREAM: cgroup: get rid of cgroup_freezer_frozen_exit() *(ID: [515311](https://review.lineageos.org/c/515311))*
+- **[LineageOS/android_kernel_qcom_sm8250]** UPSTREAM: cgroup: prevent spurious transition into non-frozen state *(ID: [515310](https://review.lineageos.org/c/515310))*
+- **[LineageOS/android_hardware_motorola]** packages: Add MbnOverride to select modem carrier config per SIM *(ID: [514838](https://review.lineageos.org/c/514838))*
 - **[LineageOS/android_hardware_mediatek]** thermal: retry failed watched sensors without an infinite Looper wait *(ID: [515251](https://review.lineageos.org/c/515251))*
 - **[LineageOS/android_kernel_ayn_cq8725s]** BACKPORT: thermal: trip: Avoid skipping trips in thermal_zone_set_trips() *(ID: [515273](https://review.lineageos.org/c/515273))*
 - **[LineageOS/android_kernel_ayn_cq8725s]** BACKPORT: thermal: trip: Make thermal_zone_set_trips() use trip thresholds *(ID: [515272](https://review.lineageos.org/c/515272))*
-- **[LineageOS/android_hardware_motorola]** packages: Add MbnOverride to select modem carrier config per SIM *(ID: [514838](https://review.lineageos.org/c/514838))*
 - **[LineageOS/android_hardware_google_pixel]** libperfmgr: force rewrite after a partially failed FileNode transition *(ID: [515260](https://review.lineageos.org/c/515260))*
 - **[LineageOS/android_hardware_lineage_interfaces]** vibrator: aidl-legacy: initialize and guard mDevice *(ID: [515256](https://review.lineageos.org/c/515256))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** usb: amlogic: Restore the USB role after system resume *(ID: [515247](https://review.lineageos.org/c/515247))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** mmc: meson-g12a: Preserve tuned SDR104/TDMA registers across requests *(ID: [515243](https://review.lineageos.org/c/515243))*
 - **[LineageOS/android_hardware_interfaces]** healthloop: do not re-arm the wake alarm that woke the loop *(ID: [515249](https://review.lineageos.org/c/515249))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: nicepool: Add Freebox Pop IR power keymap *(ID: [515244](https://review.lineageos.org/c/515244))*
@@ -29,29 +42,19 @@
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Disable USB2 LPM on dwc3 *(ID: [514917](https://review.lineageos.org/c/514917))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Enable ee_cec on aocec *(ID: [514916](https://review.lineageos.org/c/514916))*
 - **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: sti6130d3x0: Add stock HDMI-TX HPD/DDC GPIOs *(ID: [514915](https://review.lineageos.org/c/514915))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: nicepool: Enable USB role switching *(ID: [514914](https://review.lineageos.org/c/514914))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: nicepool: Enable SD-card UART pinctrl states *(ID: [514913](https://review.lineageos.org/c/514913))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Remove broken pcie_A and unused U212 peripheral nodes *(ID: [514912](https://review.lineageos.org/c/514912))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Remove stale U212 gpioleds node *(ID: [514911](https://review.lineageos.org/c/514911))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Remove dead dummy-battery/charger and unused regulators *(ID: [514910](https://review.lineageos.org/c/514910))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Remove dead 4.9 fbdev, deinterlace, and vdin nodes *(ID: [514909](https://review.lineageos.org/c/514909))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Fix unifykey status and add stock Freebox keys *(ID: [514908](https://review.lineageos.org/c/514908))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Drop unused 4.9 interrupt properties from gpio_keypad *(ID: [514907](https://review.lineageos.org/c/514907))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Clean up audio nodes and align with stock 4.9 *(ID: [514906](https://review.lineageos.org/c/514906))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** ARM64: dts: nicepool: Remove non-working 4.9 dvb-demux node *(ID: [514905](https://review.lineageos.org/c/514905))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: g12/sm1: Enable all 4 output lanes on tdmc *(ID: [514904](https://review.lineageos.org/c/514904))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: g12a: Add pinctrl groups for SD-card UART switching *(ID: [514903](https://review.lineageos.org/c/514903))*
-- **[LineageOS/android_kernel_amlogic_common_drivers]** arm64: dts: g12a: Sync minor DTS cleanups with mesong12b *(ID: [514902](https://review.lineageos.org/c/514902))*
 
 </details>
 
-## 📱 Línea Motorola Activa (73)
+## 📱 Línea Motorola Activa (74)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
-- **[LineageOS/android_device_motorola_rtwo]** rtwo: Add carrier-specific CarrierConfig overlay support *(ID: [515268](https://review.lineageos.org/c/515268))*
+- **[LineageOS/android_hardware_motorola]** sepolicy: qti: Resolve denials on roadstr *(ID: [515326](https://review.lineageos.org/c/515326))*
+- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Drop unused Wi-Fi configs *(ID: [515161](https://review.lineageos.org/c/515161))*
+- **[LineageOS/android_kernel_motorola_sm6225]** Merge remote-tracking branch 'sm8250/lineage-20' into lineage-24.0 *(ID: [515317](https://review.lineageos.org/c/515317))*
 - **[LineageOS/android_hardware_motorola]** packages: Add MbnOverride to select modem carrier config per SIM *(ID: [514838](https://review.lineageos.org/c/514838))*
+- **[LineageOS/android_device_motorola_rtwo]** rtwo: Add carrier-specific CarrierConfig overlay support *(ID: [515268](https://review.lineageos.org/c/515268))*
 - **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Use MotoExtTelephony for MBN override *(ID: [515184](https://review.lineageos.org/c/515184))*
 - **[LineageOS/android_kernel_motorola_lyriq_manifest]** manifest: Update kernel revision to 2026-10 *(ID: [515241](https://review.lineageos.org/c/515241))*
 - **[LineageOS/android_device_motorola_lyriq]** lyriq: Drop MediaTek MEOW EGL *(ID: [515240](https://review.lineageos.org/c/515240))*
@@ -77,9 +80,6 @@
 - **[LineageOS/android_device_motorola_cypfq]** cypfq: Update to S2RYAS32.58-13-12-5-1-7 *(ID: [515166](https://review.lineageos.org/c/515166))*
 - **[LineageOS/android_device_motorola_cypfq]** cypfq: Update partition size *(ID: [515165](https://review.lineageos.org/c/515165))*
 - **[LineageOS/android_device_motorola_cypfq]** fogo: Rebrand to cypfq *(ID: [515164](https://review.lineageos.org/c/515164))*
-- **[LineageOS/android_kernel_motorola_sm8475]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [515163](https://review.lineageos.org/c/515163))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Drop unused Wi-Fi configs *(ID: [515161](https://review.lineageos.org/c/515161))*
-- **[LineageOS/android_kernel_motorola_sm6225]** input: touchscreen: nova_0flash_mmi: Start firmware update immediately *(ID: [514888](https://review.lineageos.org/c/514888))*
 
 </details>
 
