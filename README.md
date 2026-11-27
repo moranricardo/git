@@ -7,49 +7,58 @@
 
 ---
 
-## 🚨 Parches Críticos Detectados (229)
+## 🚨 Parches Críticos Detectados (379)
 
 <details>
 <summary><b>Click para desplegar parches críticos</b></summary>
 
-- **[LineageOS/android_device_oneplus_avalon]** avalon: Fix the WLAN INI symlink path *(ID: [515377](https://review.lineageos.org/c/515377))*
-- **[LineageOS/android_kernel_motorola_sm6375]** treewide: Setup inline build for corfur modules *(ID: [515376](https://review.lineageos.org/c/515376))*
-- **[LineageOS/android_kernel_motorola_sm6375]** fixup!: arm/dts: add pm7250b_qg PSY_IIO_SOH chan *(ID: [515375](https://review.lineageos.org/c/515375))*
-- **[LineageOS/android_kernel_motorola_sm6375]** arm64: configs: corfur: Build moto kernel modules *(ID: [515374](https://review.lineageos.org/c/515374))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Require AOA daemon *(ID: [507731](https://review.lineageos.org/c/507731))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Make use of sys.usb.controller for notifying musb-hdcr kernel init *(ID: [507733](https://review.lineageos.org/c/507733))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Drop mtk_rndis.gs4 references *(ID: [506326](https://review.lineageos.org/c/506326))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Fix MaxPower value for USB 3.0 devices *(ID: [506328](https://review.lineageos.org/c/506328))*
-- **[LineageOS/android_hardware_mediatek]** aidl: usb: Don't override default sys.usb.controller on post-fs-data *(ID: [507734](https://review.lineageos.org/c/507734))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Setup USB AOA perms and prop *(ID: [507732](https://review.lineageos.org/c/507732))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Sync setup with Pixels *(ID: [506327](https://review.lineageos.org/c/506327))*
-- **[LineageOS/android_hardware_mediatek]** aidl: gadget: Bump AIDL USB gadget HAL to V2 *(ID: [507730](https://review.lineageos.org/c/507730))*
-- **[LineageOS/android_hardware_motorola]** sepolicy: Label missing sepolicies for miami *(ID: [515373](https://review.lineageos.org/c/515373))*
-- **[LineageOS/android_hardware_motorola]** sepolicy: Label missing sepolicies for rhodep *(ID: [515364](https://review.lineageos.org/c/515364))*
-- **[LineageOS/android_kernel_google_redbull]** BACKPORT: bpf: Make per_cpu_ptr return rdonly PTR_TO_MEM. *(ID: [515372](https://review.lineageos.org/c/515372))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: bpf: Make per_cpu_ptr return rdonly PTR_TO_MEM. *(ID: [515362](https://review.lineageos.org/c/515362))*
-- **[LineageOS/android_kernel_google_redbull]** BACKPORT: bpf: Introduce BPF nospec instruction for mitigating Spectre v4 *(ID: [515371](https://review.lineageos.org/c/515371))*
-- **[LineageOS/android_kernel_google_redbull]** UPSTREAM: bpf, x86: Validate computation of branch displacements for x86-64 *(ID: [515370](https://review.lineageos.org/c/515370))*
-- **[LineageOS/android_kernel_google_redbull]** BACKPORT: UPSTREAM: f2fs: compress: fix UAF of f2fs_inode_info in f2fs_free_dic *(ID: [515369](https://review.lineageos.org/c/515369))*
-- **[LineageOS/android_kernel_google_redbull]** UPSTREAM: f2fs: compress: change the first parameter of page_array_{alloc,free} to sbi *(ID: [515368](https://review.lineageos.org/c/515368))*
-- **[LineageOS/android_kernel_google_redbull]** Revert "BACKPORT: f2fs: compress: fix UAF of f2fs_inode_info in f2fs_free_dic" *(ID: [515367](https://review.lineageos.org/c/515367))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: UPSTREAM: f2fs: compress: fix UAF of f2fs_inode_info in f2fs_free_dic *(ID: [515366](https://review.lineageos.org/c/515366))*
-- **[LineageOS/android_kernel_qcom_sm8250]** Revert "BACKPORT: f2fs: compress: fix UAF of f2fs_inode_info in f2fs_free_dic" *(ID: [515365](https://review.lineageos.org/c/515365))*
-- **[LineageOS/android_kernel_qcom_sm8250]** BACKPORT: bpf: Introduce BPF nospec instruction for mitigating Spectre v4 *(ID: [515361](https://review.lineageos.org/c/515361))*
-- **[LineageOS/android_kernel_qcom_sm8250]** UPSTREAM: bpf, x86: Validate computation of branch displacements for x86-64 *(ID: [515360](https://review.lineageos.org/c/515360))*
-- **[LineageOS/android_kernel_qcom_sm8250]** UPSTREAM: f2fs: compress: change the first parameter of page_array_{alloc,free} to sbi *(ID: [515357](https://review.lineageos.org/c/515357))*
-- **[LineageOS/android_hardware_motorola]** sepolicy: Label missing sepolicies for cypfq *(ID: [515363](https://review.lineageos.org/c/515363))*
-- **[LineageOS/android_kernel_qcom_sm8650-modules]** kgsl: hwsched: remove cmd_list_objs from cmd_list for faults *(ID: [515359](https://review.lineageos.org/c/515359))*
-- **[LineageOS/android_kernel_qcom_sm8650]** tls: Fix race condition in tls_sw_cancel_work_tx() *(ID: [515358](https://review.lineageos.org/c/515358))*
-- **[LineageOS/android_kernel_qcom_sm8650]** UPSTREAM: tls: handle data disappearing from under the TLS ULP *(ID: [515356](https://review.lineageos.org/c/515356))*
+- **[LineageOS/android_kernel_samsung_a55x]** treewide: Import A556BXXUIEZJ1 Samsung OSRC changes *(ID: [514557](https://review.lineageos.org/c/514557))*
+- **[LineageOS/android_hardware_amlogic_u-boot]** devkits: m5: Sync with the new g12a_u212_v1 tree *(ID: [515425](https://review.lineageos.org/c/515425))*
+- **[LineageOS/android_kernel_motorola_mt6765]** fixup! UPSTREAM: netlink: make validation more configurable for future strictness *(ID: [515424](https://review.lineageos.org/c/515424))*
+- **[LineageOS/android_kernel_nvidia_kernel]** iio: Restore Pixel C Cros-EC motion sensors *(ID: [514619](https://review.lineageos.org/c/514619))*
+- **[LineageOS/android_hardware_lineage_interfaces]** interfaces: accessories: Add charging state and data link info *(ID: [514724](https://review.lineageos.org/c/514724))*
+- **[LineageOS/android_hardware_lineage_interfaces]** interfaces: accessories: Add a support library *(ID: [514722](https://review.lineageos.org/c/514722))*
+- **[LineageOS/android_hardware_lineage_interfaces]** interfaces: Introduce accessories interface *(ID: [514721](https://review.lineageos.org/c/514721))*
+- **[LineageOS/android_hardware_xiaomi]** xiaomi: Bring Pen detection and pairing *(ID: [514735](https://review.lineageos.org/c/514735))*
+- **[LineageOS/android_hardware_xiaomi]** xiaomi: Add accessories impl *(ID: [514734](https://review.lineageos.org/c/514734))*
+- **[LineageOS/android_hardware_lineage_interfaces]** interfaces: accessories: Add mock implementation *(ID: [514723](https://review.lineageos.org/c/514723))*
+- **[LineageOS/android_device_daylight_jagar]** jagar: audio: Fix USB audio period size *(ID: [514843](https://review.lineageos.org/c/514843))*
+- **[LineageOS/android_packages_apps_Launcher3]** Launcher3: Fix preview in landscape *(ID: [514832](https://review.lineageos.org/c/514832))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: msm_bus: Change Throttle Methodology *(ID: [506752](https://review.lineageos.org/c/506752))*
+- **[LineageOS/android_kernel_qcom_sm8350]** BACKPORT: ALSA: usb-audio: Add a quirk for Yamaha YIT-W12TX transmitter *(ID: [515404](https://review.lineageos.org/c/515404))*
+- **[LineageOS/android_kernel_qcom_sm8250]** ARM64: dts: qcom: Restore older haptics configuration for pmi8998 *(ID: [514550](https://review.lineageos.org/c/514550))*
+- **[LineageOS/android_kernel_qcom_sm8250]** leds: led-qpnp-haptics: Add a snapshot of QPNP haptics LED driver *(ID: [514549](https://review.lineageos.org/c/514549))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Take output count from FW buffer requirements *(ID: [514540](https://review.lineageos.org/c/514540))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Keep driver output count without FW DPB counts *(ID: [514539](https://review.lineageos.org/c/514539))*
+- **[LineageOS/android_kernel_qcom_sm8250]** soc: qcom: crypto-qti: Add legacy TZ ICE key interface *(ID: [514538](https://review.lineageos.org/c/514538))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Count firmware held output buffers in DCVS *(ID: [513198](https://review.lineageos.org/c/513198))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Keep VP9 hidden frames away from the client *(ID: [513197](https://review.lineageos.org/c/513197))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Add reset_ahb2axi_bridge function for ar50 *(ID: [513131](https://review.lineageos.org/c/513131))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Enable dual core LP for 5K encoding *(ID: [513130](https://review.lineageos.org/c/513130))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm-vidc: Adjust core load when video_load exceeds hardware limitation *(ID: [513129](https://review.lineageos.org/c/513129))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm_vidc: Align error code for insufficient resource *(ID: [513128](https://review.lineageos.org/c/513128))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm_vidc: Log core details in failure *(ID: [513127](https://review.lineageos.org/c/513127))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm_vidc: add checks for non-realtime sessions when calculating core *(ID: [513126](https://review.lineageos.org/c/513126))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm_vidc: Decide Core based on resolution. *(ID: [513125](https://review.lineageos.org/c/513125))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm_vidc: Enable Dual core on qcs605 target. *(ID: [513124](https://review.lineageos.org/c/513124))*
+- **[LineageOS/android_kernel_qcom_sm8250]** msm: vidc: Fix vp9 playback issue for Trinket *(ID: [513123](https://review.lineageos.org/c/513123))*
 
 </details>
 
-## 📱 Línea Motorola Activa (70)
+## 📱 Línea Motorola Activa (38)
 
 <details>
 <summary><b>Click para desplegar cambios Motorola</b></summary>
 
+- **[LineageOS/android_kernel_motorola_mt6765]** fixup! UPSTREAM: netlink: make validation more configurable for future strictness *(ID: [515424](https://review.lineageos.org/c/515424))*
+- **[LineageOS/android_device_motorola_mt6765-common]** mt6765-common: Move to mmd for zRAM setup *(ID: [515409](https://review.lineageos.org/c/515409))*
+- **[LineageOS/android_device_motorola_mt6765-common]** mt6765-common: Switch to NCM USB tethering *(ID: [515408](https://review.lineageos.org/c/515408))*
+- **[LineageOS/android_device_motorola_mt6765-common]** mt6765-common: Drop the AIDL-only MediaTek framework matrix *(ID: [515407](https://review.lineageos.org/c/515407))*
+- **[LineageOS/android_device_motorola_mt6765-common]** mt6765-common: Build the MediaTek Wi-Fi HAL and wpa_supplicant_8 lib *(ID: [515406](https://review.lineageos.org/c/515406))*
+- **[LineageOS/android_device_motorola_bangkk]** bangkk: Disable N78 5G band when back camera is in use *(ID: [515394](https://review.lineageos.org/c/515394))*
+- **[LineageOS/android_device_motorola_bangkk]** bangkk: camera: Rebrand to BangkkCameraService *(ID: [515393](https://review.lineageos.org/c/515393))*
+- **[LineageOS/android_device_motorola_bangkk]** Revert "dubai: camera: Ignore face unlock and ASI front camera usage" *(ID: [515392](https://review.lineageos.org/c/515392))*
+- **[LineageOS/android_device_motorola_bangkk]** Revert "bangkk: Remove camera 5G disabler" *(ID: [515391](https://review.lineageos.org/c/515391))*
 - **[LineageOS/android_device_motorola_cypfq]** cypfq: audio: Add more sampling rates to voip_{rx,tx} *(ID: [515175](https://review.lineageos.org/c/515175))*
 - **[LineageOS/android_device_motorola_cypfq]** cypfq: Enable assistant key customization *(ID: [515174](https://review.lineageos.org/c/515174))*
 - **[LineageOS/android_device_motorola_cypfq]** cypfq: Update audio configs from stock *(ID: [515173](https://review.lineageos.org/c/515173))*
@@ -71,15 +80,6 @@
 - **[LineageOS/android_kernel_motorola_sm6375]** treewide: Setup inline build for cypfq modules *(ID: [515177](https://review.lineageos.org/c/515177))*
 - **[LineageOS/android_hardware_motorola]** sepolicy: qti: Resolve denials on roadstr *(ID: [515326](https://review.lineageos.org/c/515326))*
 - **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: Drop unused Wi-Fi configs *(ID: [515161](https://review.lineageos.org/c/515161))*
-- **[LineageOS/android_hardware_motorola]** packages: Add MbnOverride to select modem carrier config per SIM *(ID: [514838](https://review.lineageos.org/c/514838))*
-- **[LineageOS/android_device_motorola_sm8550-common]** sm8550-common: Use MotoExtTelephony for MBN override *(ID: [515184](https://review.lineageos.org/c/515184))*
-- **[LineageOS/android_device_motorola_sm8475-common]** sm8475-common: recovery: Support Motorola's super_modem partition *(ID: [515162](https://review.lineageos.org/c/515162))*
-- **[LineageOS/android_device_motorola_cypfq]** cypfq: Clear LIBNATIVEWINDOW symbol versions for libBSTSWAD *(ID: [515167](https://review.lineageos.org/c/515167))*
-- **[LineageOS/android_device_motorola_cypfq]** cypfq: Update to S2RYAS32.58-13-12-5-1-7 *(ID: [515166](https://review.lineageos.org/c/515166))*
-- **[LineageOS/android_device_motorola_cypfq]** cypfq: Update partition size *(ID: [515165](https://review.lineageos.org/c/515165))*
-- **[LineageOS/android_device_motorola_cypfq]** fogo: Rebrand to cypfq *(ID: [515164](https://review.lineageos.org/c/515164))*
-- **[LineageOS/android_kernel_motorola_sm8475]** Merge remote-tracking branch 'qcom/lineage-20' into lineage-24.0 *(ID: [515163](https://review.lineageos.org/c/515163))*
-- **[LineageOS/android_device_motorola_nash]** nash: overlay: Route dock media audio to the analog dock *(ID: [514991](https://review.lineageos.org/c/514991))*
 
 </details>
 
